@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCA-IQ｜競品情報監測平台</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Segoe UI","Microsoft JhengHei",sans-serif;background:#0d141c;color:#e6edf3;padding:0 0 40px;zoom:1.44}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+  header{background:linear-gradient(180deg,#132234,#0d141c);border-bottom:1px solid #24384f;padding:22px 0 0}
+  .brand{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:16px}
+  .logo{font-size:24px;font-weight:800;color:#fff;letter-spacing:.5px}
+  .logo b{color:#4da3ff}
+  .logo .v{font-size:11px;color:#6a7c92;font-weight:600;margin-left:8px;vertical-align:middle}
+  .tag{font-size:12.5px;color:#8b9bb0;margin-top:5px}
+  .live{display:inline-block;width:8px;height:8px;background:#2ecc71;border-radius:50%;margin-right:6px;box-shadow:0 0 8px #2ecc71;animation:p 1.6s infinite}
+  @keyframes p{0%,100%{opacity:1}50%{opacity:.35}}
+  .meta{text-align:right;font-size:11.5px;color:#8b9bb0;line-height:1.6}
+  .meta b{color:#e6edf3}
+  nav{display:flex;gap:4px}
+  nav button{background:none;border:none;color:#8b9bb0;font-size:13.5px;font-family:inherit;padding:11px 18px;cursor:pointer;border-bottom:2.5px solid transparent;font-weight:600}
+  nav button:hover{color:#cfe0f2}
+  nav button.on{color:#4da3ff;border-bottom-color:#4da3ff}
+  .panel{display:none;padding-top:24px}
+  .panel.on{display:block}
+  .card{background:#141f2c;border:1px solid #243748;border-radius:10px;padding:18px 20px;margin-bottom:18px}
+  .card h2{font-size:13px;color:#4da3ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px}
+  .grid2{display:grid;grid-template-columns:1.5fr 1fr;gap:18px}
+  .kpi{display:flex;gap:12px;margin-bottom:18px}
+  .kpi .box{flex:1;background:#182533;border:1px solid #243748;border-radius:9px;padding:14px 12px;text-align:center}
+  .kpi .n{font-size:26px;font-weight:800;color:#4da3ff}
+  .kpi .n.g{color:#6ee7a0}.kpi .n.r{color:#ff8a7a}
+  .kpi .l{font-size:11.5px;color:#c9d6e3;margin-top:5px;font-weight:600}
+  .kpi .d{font-size:10px;color:#8b9bb0;margin-top:3px;line-height:1.35}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{text-align:left;color:#8b9bb0;font-size:11px;text-transform:uppercase;letter-spacing:.6px;padding:9px 8px;border-bottom:1px solid #2b3a4d}
+  td{padding:11px 8px;border-bottom:1px solid #1c2a39;vertical-align:top;line-height:1.45}
+  tr.us td{background:#122a1f}
+  .pill{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap}
+  .p-high{background:#4a1f1c;color:#ff8a7a}.p-mid{background:#4a3a1c;color:#ffce7a}
+  .p-low{background:#20303f;color:#9fb4cc}.p-us{background:#183a29;color:#6ee7a0}
+  .mod{color:#9fb4cc;font-size:11.5px}.co{font-weight:700;color:#fff}.asset{color:#4da3ff;font-size:11.5px}
+  .src{display:inline-block;margin-top:6px;font-size:10.5px;color:#4da3ff;text-decoration:none;border:1px solid #2b4a6d;border-radius:5px;padding:1px 7px;background:#12233a}
+  .src:hover{background:#1b3452;text-decoration:underline}
+  .filters{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+  .filters button{background:#182533;border:1px solid #2b3a4d;color:#9fb4cc;font-size:12px;font-family:inherit;padding:6px 14px;border-radius:20px;cursor:pointer}
+  .filters button.on{background:#1b3452;border-color:#4da3ff;color:#fff}
+  .digest li{list-style:none;padding:10px 0 10px 16px;border-left:3px solid #34506e;margin-bottom:9px;background:#182533;border-radius:0 6px 6px 0;font-size:13px;line-height:1.55}
+  .digest li.hot{border-left-color:#e74c3c}.digest li.win{border-left-color:#2ecc71}
+  .digest .tag{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px;margin-right:8px}
+  .t-hot{background:#4a1f1c;color:#ff8a7a}.t-win{background:#183a29;color:#6ee7a0}.t-info{background:#1f3350;color:#7db6ff}
+  .date{color:#6a7c92;font-size:11px;margin-left:6px}
+  .posit p{font-size:13px;line-height:1.7;color:#c9d6e3;margin-bottom:9px}
+  .posit .big{font-size:15px;color:#6ee7a0;font-weight:700;line-height:1.5}
+  /* timeline */
+  .tl{position:relative;padding-left:30px;margin-top:8px}
+  .tl::before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:2px;background:#2b3a4d}
+  .tl .ev{position:relative;margin-bottom:20px}
+  .tl .ev::before{content:"";position:absolute;left:-26px;top:3px;width:14px;height:14px;border-radius:50%;background:#4da3ff;border:3px solid #0d141c;box-shadow:0 0 0 2px #4da3ff}
+  .tl .ev.done::before{background:#2ecc71;box-shadow:0 0 0 2px #2ecc71}
+  .tl .ev.future::before{background:#0d141c;box-shadow:0 0 0 2px #6a7c92}
+  .tl .d1{font-size:12px;color:#4da3ff;font-weight:700}
+  .tl .ev.done .d1{color:#6ee7a0}.tl .ev.future .d1{color:#8b9bb0}
+  .tl .t1{font-size:14px;color:#fff;font-weight:600;margin:2px 0}
+  .tl .s1{font-size:12px;color:#9fb4cc;line-height:1.5}
+  .glossbox{background:#101c2a;border:1px solid #24384f;border-radius:9px;padding:16px 18px;font-size:12.5px;line-height:1.7}
+  .glossbox b{color:#4da3ff}
+  /* pipeline */
+  .plrow{display:grid;grid-template-columns:180px 1fr;gap:14px;align-items:center;margin-bottom:12px}
+  .plrow .nm{font-size:12.5px}.plrow .nm .co{display:block}.plrow .nm .asset{font-size:11px}
+  .track{position:relative;height:30px;background:#182533;border-radius:6px;display:flex;font-size:9.5px;color:#5b6c81}
+  .track .seg{flex:1;border-right:1px solid #22303f;display:flex;align-items:center;justify-content:center}
+  .track .seg:last-child{border-right:none}
+  .bar{position:absolute;top:4px;height:22px;border-radius:5px;display:flex;align-items:center;padding:0 8px;font-size:10.5px;font-weight:700;color:#0d141c;white-space:nowrap}
+  .b-us{background:linear-gradient(90deg,#2ecc71,#27ae60)}.b-mid{background:#ffce7a}.b-low{background:#5b7089;color:#cfe0f2}.b-stop{background:#7a4a4a;color:#ffd9d3}
+  /* arch */
+  .flow{display:flex;align-items:stretch;gap:0;flex-wrap:wrap}
+  .fcol{flex:1;min-width:180px}
+  .fbox{background:#182533;border:1px solid #2b3a4d;border-radius:8px;padding:12px 14px;margin-bottom:9px;font-size:12px;line-height:1.5}
+  .fbox b{color:#fff;font-size:12.5px}
+  .fhead{font-size:12px;color:#4da3ff;font-weight:700;text-transform:uppercase;letter-spacing:.6px;margin-bottom:10px;text-align:center}
+  .arrow{display:flex;align-items:center;justify-content:center;font-size:26px;color:#4da3ff;padding:0 10px}
+  .note{background:#122a1f;border:1px solid #1e5a3a;border-radius:8px;padding:12px 16px;font-size:12.5px;color:#a8e0c0;line-height:1.6;margin-top:14px}
+  .foot{margin-top:22px;font-size:11px;color:#6a7c92;line-height:1.7;border-top:1px solid #243748;padding-top:14px}
+  .foot b{color:#8b9bb0}
+  .rmsum{display:flex;gap:12px;margin-bottom:20px}
+  .rmsum .box{flex:1;background:#182533;border:1px solid #243748;border-radius:9px;padding:14px 10px;text-align:center}
+  .rmsum .n{font-size:20px;font-weight:800;color:#4da3ff}
+  .rmsum .n.g{color:#6ee7a0}
+  .rmsum .l{font-size:11px;color:#c9d6e3;margin-top:4px;line-height:1.4}
+  .phase{display:grid;grid-template-columns:128px 1fr;gap:16px;background:#141f2c;border:1px solid #243748;border-radius:10px;padding:15px 18px;margin-bottom:13px;border-left:4px solid #4da3ff}
+  .phase.done{border-left-color:#2ecc71}
+  .phase.wshop{border-left-color:#ffce7a}
+  .phase .wk{font-size:12.5px;color:#4da3ff;font-weight:700}
+  .phase.done .wk{color:#6ee7a0}.phase.wshop .wk{color:#ffce7a}
+  .phase .wk .dt{display:block;font-size:11px;color:#8b9bb0;margin-top:3px;font-weight:400}
+  .phase h3{font-size:14.5px;color:#fff;margin-bottom:7px}
+  .phase .dl{font-size:12.5px;color:#c9d6e3;line-height:1.75}
+  .phase .dl b{color:#6ee7a0}
+  .badge{display:inline-block;font-size:10.5px;padding:2px 9px;border-radius:20px;margin:8px 6px 0 0}
+  .b-h{background:#20303f;color:#9fb4cc}.b-risk{background:#183a29;color:#6ee7a0}
+  @media(max-width:820px){.grid2{grid-template-columns:1fr}.flow{flex-direction:column}.arrow{transform:rotate(90deg);padding:6px 0}.rmsum{flex-wrap:wrap}.phase{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.0</span></div>
+        <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
+      </div>
+      <div class="meta">最後掃描：<b>2026-07-09</b>（今日）<br>下次掃描：<b>2026-07-10 08:00</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
+    </div>
+    <nav>
+      <button class="on" onclick="tab(event,'ov')">總覽</button>
+      <button onclick="tab(event,'ls')">競品全景</button>
+      <button onclick="tab(event,'jp')">日本法規時間軸</button>
+      <button onclick="tab(event,'pl')">臨床開發進度</button>
+      <button onclick="tab(event,'si')">科學情報</button>
+      <button onclick="tab(event,'ar')">自動化架構</button>
+      <button onclick="tab(event,'rm')">6 週計畫</button>
+      <button onclick="tab(event,'lg')">更新紀錄</button>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+<!-- OVERVIEW -->
+<section id="ov" class="panel on">
+  <div class="kpi">
+    <div class="box"><div class="n">6</div><div class="l">追蹤競品</div><div class="d">SCA 領域在研療法</div></div>
+    <div class="box"><div class="n r">2</div><div class="l">競品近期受挫 ✓利多</div><div class="d">Biohaven 退件、Biogen/Ionis 退場</div></div>
+    <div class="box"><div class="n g">1</div><div class="l">最接近取證＝本社</div><div class="d">日本承認申請已送 PMDA</div></div>
+    <div class="box"><div class="n">2</div><div class="l">本週新增情報</div><div class="d">見右側自動摘要</div></div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h2>◎ 本週情報摘要（AI 自動彙整）</h2>
+      <ul class="digest">
+        <li class="win"><span class="tag t-win">里程碑</span>本社 Stemchymal：<b>6/24 產品「承認申請」(SCA3/6) 送 PMDA</b>；6/18 MAH「業許可」送神奈川縣。<span class="date">2026/06</span><br><a class="src" href="https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html" target="_blank">承認 ↗</a> <a class="src" href="https://udn.com/news/story/7241/9579117" target="_blank">業許可 ↗</a></li>
+        <li class="win"><span class="tag t-win">美國進度</span>美國二期試驗細節公布：<b>UCLA＋USF 兩站點、預計 2026/09 首例收案</b>，收案 20 人（SCA3），共同主持人 <b>Susan Perlman、Theresa Zesiewicz</b> 醫師；採真實世界數據並<b>事先與 FDA 協議統計分析計畫（SAP）</b>——為 Troriluzole 教訓後的設計調整。<span class="date">近期</span><br><a class="src" href="https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/" target="_blank">來源 ↗ GeneOnline</a></li>
+        <li><span class="tag t-info">產能／財務</span>法說會揭露：<b>產能規劃 2026年300劑→2027年900劑→2028年2,700劑</b>；現金增資每股 NT$68、發行 750萬股；官方市場規模估計台灣 700人（SCA3）、日本 3,000人（SCA3+6）；聘請法規顧問 <b>Kurt Gunter</b>。<span class="date">2026/04 法說會</span><br><a class="src" href="https://geneonline.news/steminent-april-026newsearningscall/" target="_blank">來源 ↗ GeneOnline</a></li>
+        <li class="hot"><span class="tag t-hot">威脅↓</span>Biohaven 的 Troriluzole <b>遭 FDA 退件（CRL，2025/11）</b>；後續宣布 R&D 削減 60%、並要求與 FDA 正式會談爭取後路（2026/02）。<span class="date">2025/11</span><br><span style="color:#8b9bb0;font-size:12px">→ 領先小分子對手停滯，SCA 賽道出現空窗。</span><br><a class="src" href="https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" target="_blank">退件 ↗ CRL 2025/11</a> <a class="src" href="https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease" target="_blank">R&D↓60% ↗ 2026/02</a></li>
+        <li class="hot"><span class="tag t-hot">關注</span>Vico 的 ASO <b>VO659</b>（SCA1/SCA3/HD）2026/02/24 進入半年一次給藥 Ph1/2。<span class="date">2026/02</span><br><span style="color:#8b9bb0;font-size:12px">→ 與本社在 SCA3 重疊，但 <b style="color:#ffce7a">SCA 尚無明確療效（SCA3 生物標記混合/微弱、SCA1 無；明確正面在 HD）</b>；曾見 radiculitis（神經根發炎，多數恢復中）。仍 Ph1/2a、遠期。</span><br><a class="src" href="https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" target="_blank">給藥公告 ↗ 2026/02</a> <a class="src" href="https://en.hdbuzz.net/398/" target="_blank">SCA數據/安全 ↗ HDBuzz</a> <a class="src" href="https://clinicaltrials.gov/study/NCT05822908" target="_blank">試驗 ↗ NCT</a></li>
+      </ul>
+    </div>
+    <div class="card posit">
+      <h2>◎ 對本社的策略意涵</h2>
+      <p class="big">「對手挫敗、賽道空窗，Stemchymal 是唯一手握 Ph2 對照數據、且最接近取證的資產。」</p>
+      <p>• <b style="color:#fff">小分子受阻</b>：Biohaven CRL + R&D 大砍</p>
+      <p>• <b style="color:#fff">ASO 尚早</b>：Biogen/Ionis 退場，僅 Vico 早期推進</p>
+      <p>• <b style="color:#fff">本社優勢</b>：台日 Ph2 安慰劑對照正面 + 日本優先審查 + pan-polyQ 涵蓋多亞型</p>
+      <p style="color:#8b9bb0;font-size:12px;margin-top:4px">→ 投資敘事與 BD 洽談皆可主打「差異化證據 + 時間領先」。</p>
+    </div>
+  </div>
+</section>
+
+<!-- LANDSCAPE -->
+<section id="ls" class="panel">
+  <div class="card">
+    <h2>◎ 競品全景 (Competitive Landscape)</h2>
+    <div class="filters">
+      <button class="on" onclick="filt(event,'all')">全部</button>
+      <button onclick="filt(event,'us')">本社</button>
+      <button onclick="filt(event,'high')">高威脅</button>
+      <button onclick="filt(event,'mid')">中威脅</button>
+      <button onclick="filt(event,'low')">低威脅</button>
+    </div>
+    <table id="lstab">
+      <tr><th>公司 / 藥物</th><th>機制</th><th>適應症</th><th>階段</th><th>最新狀態</th><th>威脅</th></tr>
+      <tr class="us" data-f="us">
+        <td><span class="co">仲恩 Steminent</span><br><span class="asset">Stemchymal®</span></td>
+        <td class="mod">異體脂肪 MSC<br>(旁分泌)</td><td class="mod">pan-polyQ<br>SCA1/2/3/6<br><span style="color:#6a7c92">(日本申請 SCA3/6)</span></td><td>Ph2 完成→申請中</td>
+        <td>① 6/18 MAH業許可送神奈川縣(Q3核准) ② 6/24 產品承認申請(SCA3/6)送 PMDA，優先審查約9個月，最快2027H1 ③ 台灣附款許可並行 ④ <b>美國 Ph2：UCLA+USF、2026/09首例、n=20、PI Perlman/Zesiewicz</b><br><a class="src" href="https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html" target="_blank">承認 ↗</a> <a class="src" href="https://udn.com/news/story/7241/9579117" target="_blank">業許可 ↗</a> <a class="src" href="https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/" target="_blank">美國試驗 ↗</a></td>
+        <td><span class="pill p-us">本社</span></td>
+      </tr>
+      <tr data-f="mid">
+        <td><span class="co">Biohaven</span><br><span class="asset">Troriluzole</span></td>
+        <td class="mod">小分子<br>麩胺酸調節</td><td class="mod">pan-SCA</td><td>NDA 受挫</td>
+        <td><b style="color:#ff8a7a">FDA CRL (2025/11)</b>；R&D 砍 60%、爭取與 FDA 再協商 (2026/02)<br><a class="src" href="https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" target="_blank">CRL ↗ 2025/11</a> <a class="src" href="https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease" target="_blank">R&D↓60% ↗</a></td>
+        <td><span class="pill p-mid">中↓</span></td>
+      </tr>
+      <tr data-f="high">
+        <td><span class="co">Vico Therapeutics</span><br><span class="asset">VO659</span></td>
+        <td class="mod">ASO</td><td class="mod">SCA1/SCA3/HD</td><td>Ph1/2a</td>
+        <td>2026/02/24 半年一次給藥 Ph1/2；<b>與本社在 SCA3 重疊</b>，惟 <b style="color:#ffce7a">SCA 尚無明確療效</b>（SCA3 生物標記混合/微弱、SCA1 無；正面在 HD）；鞘內注射、曾見 radiculitis（多數恢復中；vs 本社靜脈輸注）<br><a class="src" href="https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" target="_blank">給藥公告 ↗</a> <a class="src" href="https://en.hdbuzz.net/398/" target="_blank">SCA數據/安全 ↗ HDBuzz</a> <a class="src" href="https://clinicaltrials.gov/study/NCT05822908" target="_blank">試驗 ↗ NCT</a></td>
+        <td><span class="pill p-high">高(遠期)</span></td>
+      </tr>
+      <tr data-f="low">
+        <td><span class="co">Biogen / Ionis</span><br><span class="asset">BIIB105</span></td>
+        <td class="mod">ASO (ATXN2)</td><td class="mod">SCA2 / ALS</td><td>已終止</td>
+        <td>2024/05 因臨床無顯著療效終止；Biogen/Ionis 已大幅退出 polyQ 共濟失調 ASO 領域<br><a class="src" href="https://www.alzforum.org/therapeutics/biib105" target="_blank">來源 ↗ ALZFORUM</a></td>
+        <td><span class="pill p-low">低(退場)</span></td>
+      </tr>
+      <tr data-f="low">
+        <td><span class="co">UniQure 等</span><br><span class="asset">AAV 基因療法</span></td>
+        <td class="mod">AAV 基因療法</td><td class="mod">SCA (多型)</td><td>臨床前/早期</td>
+        <td>學界與數家 biotech 探索中，離臨床尚遠</td>
+        <td><span class="pill p-low">低(遠期)</span></td>
+      </tr>
+      <tr data-f="low">
+        <td><span class="co">學名藥</span><br><span class="asset">Riluzole</span></td>
+        <td class="mod">小分子</td><td class="mod">SCA (仿單外)</td><td>已上市</td>
+        <td>僅症狀緩解、無法改變病程；SCA 屬 off-label</td>
+        <td><span class="pill p-low">低(基準)</span></td>
+      </tr>
+    </table>
+    <p style="font-size:11px;color:#6a7c92;margin-top:10px">鄰近適應症 (Friedreich's Ataxia)：Biogen omaveloxolone(已上市 FA)、PTC vatiquinone、Minoryx leriglitazone — 非直接競品，反映共濟失調領域投資熱度。</p>
+  </div>
+</section>
+
+<!-- JAPAN TIMELINE -->
+<section id="jp" class="panel">
+  <div class="grid2">
+    <div class="card">
+      <h2>◎ 日本上市進度時間軸</h2>
+      <div class="tl">
+        <div class="ev done"><div class="d1">2018/12</div><div class="t1">孤兒再生醫療產品資格</div><div class="s1">MHLW 認定 → 取得 PMDA 優先審查資格（審查目標縮短至約 9 個月）</div></div>
+        <div class="ev done"><div class="d1">2024/11</div><div class="t1">日本外國製造業者認定</div><div class="s1">仲恩台灣細胞廠通過 MHLW 認定，亞太首家</div></div>
+        <div class="ev done"><div class="d1">2025 上半</div><div class="t1">台日 Ph2 正面結果</div><div class="s1">WODC 公開，SARA 顯著減緩惡化，具疾病修飾證據</div></div>
+        <div class="ev done"><div class="d1">2025</div><div class="t1">與 Kohjin Bio 簽署培養基合作</div><div class="s1">日本商業化供應鏈佈局起點</div></div>
+        <div class="ev done"><div class="d1">2026/01</div><div class="t1">與 Cyto-Facto 簽署量產合作意向書</div><div class="s1">Cyto-Facto 為日本再生醫療指標企業（曾產出全球首款CAR-T GMP廠），聚焦委託製造；具體條件待後續評估</div></div>
+        <div class="ev done"><div class="d1">2026/06/18</div><div class="t1">製造販賣「業」許可申請 → 神奈川縣</div><div class="s1">REPROCELL 申請 MAH 業許可（公司能賣藥的執照），約 3 個月審查</div></div>
+        <div class="ev done"><div class="d1">2026/06/24</div><div class="t1">製造販賣「承認」申請 → PMDA</div><div class="s1">產品藥證申請（SCA3/6）正式送件，啟動 9 個月優先審查</div></div>
+        <div class="ev future"><div class="d1">2026 Q3（預估）</div><div class="t1">業許可可望核准</div><div class="s1">REPROCELL 取得 MAH 資格</div></div>
+        <div class="ev future"><div class="d1">2026/09（預估）</div><div class="t1">美國 Ph2 首例收案</div><div class="s1">UCLA + USF，n=20，SCA3；PI：Susan Perlman、Theresa Zesiewicz</div></div>
+        <div class="ev future"><div class="d1">2027 上半（最快）</div><div class="t1">日本暫時藥證</div><div class="s1">附款許可可望核准 → 進入商用市場</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <h2>◎ 名詞速查：業許可 vs 承認</h2>
+        <div class="glossbox">
+          <p><b>MAH</b>（製造販賣業者）＝法律上掛名賣藥、負全責的主體（品質 GQP＋安全 GVP）。此處＝<b style="color:#fff">REPROCELL</b>。</p>
+          <p style="margin-top:10px"><b>業許可</b>（製造販賣<b>業</b>許可）＝公司「能賣藥的營業執照」。神奈川縣核發，<b>審查約需 3 個月</b>（最慢 2026 Q3 可望核准）。</p>
+          <p style="margin-top:10px"><b>承認</b>（製造販賣<b>承認</b>＝藥證）＝這支藥「本身」獲准。PMDA 審查 → MHLW 核發。</p>
+          <p style="margin-top:10px"><b>PMDA</b>＝日本藥品審查機關（≈ 美國 FDA 審查部門）。做產品安全/療效科學審查。</p>
+          <p style="margin-top:10px;color:#a8e0c0">→ 兩者平行、都要有才能開賣。分工：仲恩(台灣)製造，REPROCELL 負責日本銷售。</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2>◎ 產能規劃（公司公布）</h2>
+        <div class="kpi" style="margin-bottom:8px">
+          <div class="box"><div class="n">300</div><div class="l">2026</div></div>
+          <div class="box"><div class="n g">900</div><div class="l">2027</div></div>
+          <div class="box"><div class="n g">2,700</div><div class="l">2028</div></div>
+        </div>
+        <p style="font-size:11px;color:#8b9bb0">單位：劑／年。搭配 Kohjin Bio（培養基）＋ Cyto-Facto（量產）供應鏈佈局。<a class="src" href="https://geneonline.news/steminent-april-026newsearningscall/" target="_blank">來源 ↗ 法說會</a> <a class="src" href="https://geneonline.news/steminent-cyto-facto-cdmo/" target="_blank">Cyto-Facto ↗</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section id="pl" class="panel">
+  <div class="card">
+    <h2>◎ 臨床開發進度對照 (Pipeline by Phase)</h2>
+    <div class="plrow" style="margin-bottom:6px">
+      <div></div>
+      <div class="track" style="background:none">
+        <div class="seg">臨床前</div><div class="seg">Ph1</div><div class="seg">Ph2</div><div class="seg">申請/審查</div><div class="seg">上市</div>
+      </div>
+    </div>
+    <div class="plrow">
+      <div class="nm"><span class="co">仲恩 Stemchymal®</span><span class="asset">異體 MSC</span></div>
+      <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
+        <div class="bar b-us" style="left:2%;width:82%">Ph2 完成 → 日本承認審查中 (2027H1 最快)</div></div>
+    </div>
+    <div class="plrow">
+      <div class="nm"><span class="co">Biohaven Troriluzole</span><span class="asset">小分子</span></div>
+      <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
+        <div class="bar b-stop" style="left:2%;width:80%">NDA 遭 FDA 退件 → 上訴中</div></div>
+    </div>
+    <div class="plrow">
+      <div class="nm"><span class="co">Vico VO659</span><span class="asset">ASO</span></div>
+      <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
+        <div class="bar b-mid" style="left:2%;width:44%">Ph1/2a 進行中</div></div>
+    </div>
+    <div class="plrow">
+      <div class="nm"><span class="co">Biogen/Ionis BIIB105</span><span class="asset">ASO (ATXN2)</span></div>
+      <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
+        <div class="bar b-stop" style="left:2%;width:30%">2024/05 已終止</div></div>
+    </div>
+    <div class="plrow">
+      <div class="nm"><span class="co">UniQure 等 基因療法</span><span class="asset">AAV</span></div>
+      <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
+        <div class="bar b-low" style="left:2%;width:14%">臨床前</div></div>
+    </div>
+    <p style="font-size:11.5px;color:#8b9bb0;margin-top:14px;line-height:1.6">解讀：Stemchymal 在進度上明顯領先——已完成 Ph2 並進入日本承認審查；小分子(Biohaven)與 ASO(Biogen/Ionis)接連受挫或暫停，唯 Vico 的 ASO 仍在早期推進。<b style="color:#6ee7a0">「時間領先 + 對照數據」是本社最有力的差異化。</b></p>
+  </div>
+</section>
+
+<!-- SCIENTIFIC INTELLIGENCE -->
+<section id="si" class="panel">
+  <div class="card">
+    <h2>◎ 臨床試驗雷達 (Clinical Trial Radar) · 全球 SCA 在研試驗</h2>
+    <table>
+      <tr><th>試驗 (NCT)</th><th>介入 / 藥物</th><th>機制</th><th>期別</th><th>狀態</th><th>主導</th></tr>
+      <tr class="us">
+        <td><span class="asset">NCT06397274</span></td><td class="co">Stemchymal®</td>
+        <td class="mod">異體脂肪 MSC</td><td>Ph2</td><td>美國 · 2026 啟動收案</td>
+        <td>Steminent（本社）<br><a class="src" href="https://clinicaltrials.gov/study/NCT06397274" target="_blank">試驗 ↗</a></td>
+      </tr>
+      <tr class="us">
+        <td><span class="asset">NCT02540655</span></td><td class="co">Stemchymal®</td>
+        <td class="mod">異體脂肪 MSC</td><td>Ph2</td><td>已完成（台灣單中心 n=56）</td>
+        <td>Steminent（本社）<br><a class="src" href="https://clinicaltrials.gov/study/NCT02540655" target="_blank">試驗 ↗</a></td>
+      </tr>
+      <tr>
+        <td><span class="asset">NCT05822908</span></td><td class="co">VO659</td>
+        <td class="mod">ASO</td><td>Ph1/2a</td><td>收案中（歐洲）</td>
+        <td>Vico Therapeutics<br><a class="src" href="https://clinicaltrials.gov/study/NCT05822908" target="_blank">試驗 ↗</a></td>
+      </tr>
+      <tr>
+        <td><span class="asset">NCT03701399</span></td><td class="co">Troriluzole</td>
+        <td class="mod">小分子</td><td>Ph3</td><td>已完成 → NDA 受挫</td>
+        <td>Biohaven<br><a class="src" href="https://clinicaltrials.gov/study/NCT03701399" target="_blank">試驗 ↗</a></td>
+      </tr>
+      <tr>
+        <td><span class="asset">NCT03378414</span></td><td class="co">臍帶 MSC (iSCLife®-SA)</td>
+        <td class="mod">異體臍帶 MSC</td><td>—</td><td>計畫中（2026 預計）</td>
+        <td>其他細胞療法對手<br><a class="src" href="https://clinicaltrials.gov/study/NCT03378414" target="_blank">試驗 ↗</a></td>
+      </tr>
+      <tr>
+        <td><span class="asset">NCT07467733</span></td><td class="co">神經誘導 MSC + 外泌體</td>
+        <td class="mod">MSC / exosome</td><td>早期</td><td>新登錄（2026/03）</td>
+        <td>其他細胞療法對手<br><a class="src" href="https://clinicaltrials.gov/study/NCT07467733" target="_blank">試驗 ↗</a></td>
+      </tr>
+    </table>
+    <p style="font-size:11.5px;color:#8b9bb0;margin-top:10px">雷達涵蓋所有機制路線：本社 MSC（2 案）、ASO（Vico）、小分子（Biohaven）、<b style="color:#ffce7a">其他細胞療法對手</b>（臍帶 MSC、外泌體）。→ 除了三大主要對手，另有 2 個 MSC/外泌體路線正在萌芽，值得持續盯。</p>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>◎ 文獻雷達 (Literature Radar) · 近期關鍵論文</h2>
+      <p style="font-size:11px;color:#6a7c92;margin:-6px 0 10px">依發表日排序（新 → 舊）</p>
+      <ul class="digest">
+        <li><span class="tag t-info">台灣基因</span>Genetic landscape of SCA in Taiwan（876 例）<br><span style="color:#6a7c92;font-size:11px">2025/12 · Parkinsonism Relat Disord</span><br><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/41082794/" target="_blank">論文 ↗ PubMed 41082794</a></li>
+        <li><span class="tag t-info">台灣流病</span>A Review of Spinocerebellar Ataxias in Taiwan<br><span style="color:#6a7c92;font-size:11px">2025/04 · Acta Neurol Taiwan</span><br><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/40471914/" target="_blank">論文 ↗ PubMed 40471914</a></li>
+        <li class="win"><span class="tag t-win">MSC · 最相關</span>The Potential of MSCs in Treating SCA: Advances and Future Directions<br><span style="color:#6a7c92;font-size:11px">2024/11 · Biomedicines</span><br><span style="color:#8b9bb0;font-size:12px">→ MSC 治療 SCA 的最新綜述，直接支撐本社機制敘事。</span><br><a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11591855/" target="_blank">論文 ↗ PMC11591855</a></li>
+        <li><span class="tag t-info">機制</span>SCA3 Pathophysiology — Implications for Translational Research<br><span style="color:#6a7c92;font-size:11px">2024/04 · Int J Mol Sci</span><br><a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11012515/" target="_blank">論文 ↗ PMC11012515</a></li>
+        <li><span class="tag t-info">細胞治療</span>Cell-based therapeutic strategies for treatment of SCAs: an update<br><span style="color:#6a7c92;font-size:11px">2022/11 · Neural Regen Res</span><br><a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9838137/" target="_blank">論文 ↗ PMC9838137</a></li>
+        <li class="win"><span class="tag t-win">本社臨床 · 基礎文獻</span>Stemchymal® Phase I/IIa Clinical Study<br><span style="color:#6a7c92;font-size:11px">2017/03 · Cell Transplant</span><br><a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5657707/" target="_blank">論文 ↗ PMC5657707</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="card">
+        <h2>◎ 學會 / 會議行事曆</h2>
+        <div class="glossbox">
+          <p style="color:#6ee7a0"><b>2026/07/17　BioAsia Taiwan — Cell Therapy Leadership Forum</b><br>細胞治療臨床轉譯、法規、CMC、GMP 製造與國際合作。<b style="color:#fff">本社共同主辦</b>。</p>
+          <p style="margin-top:12px">下列為領域關鍵年度會議，正式版將自動追蹤各屆日程與競品發表：</p>
+          <p style="margin-top:8px;color:#9fb4cc">・World Orphan Drug Congress（WODC）— 本社 2025/04 曾於此發表 Ph2<br>・NAF Annual Ataxia Conference（美國共濟失調基金會）<br>・MDS International Congress（動作障礙）<br>・ISSCR Annual Meeting（幹細胞）</p>
+        </div>
+      </div>
+      <div class="card" style="border-style:dashed">
+        <h2 style="color:#8b9bb0">◎ 專利監測（規劃中）</h2>
+        <p style="font-size:12px;color:#8b9bb0;line-height:1.6">監測細胞治療 / SCA 領域的新專利申請與到期。<b>為確保資料可查證，demo 版不放模擬資料</b>；正式版將串接專利資料庫（如 Google Patents / J-PlatPat）自動追蹤。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ARCHITECTURE -->
+<section id="ar" class="panel">
+  <div class="card">
+    <h2>◎ 自動化流程架構 (How It Works)</h2>
+    <div class="flow">
+      <div class="fcol">
+        <div class="fhead">① 自動蒐集</div>
+        <div class="fbox"><b>每週定時掃描</b><br>ClinicalTrials.gov · 各家 IR/新聞稿 · FDA/PMDA · PubMed · 產業媒體</div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="fcol">
+        <div class="fhead">② AI 判讀</div>
+        <div class="fbox"><b>擷取 · 分類 · 評估</b><br>辨識競品動態、判定機制/階段、評估對本社的威脅等級、生成「策略意涵」一句話</div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="fcol">
+        <div class="fhead">③ 自動產出</div>
+        <div class="fbox"><b>儀表板 + Email 摘要</b><br>更新此監測平台，並將「本週重點」寄送 BD / IR 團隊信箱</div>
+      </div>
+    </div>
+    <div class="note"><b>可信度設計：</b>每一筆情報均附原始來源連結（點「來源 ↗」可一鍵回溯）；AI 只做整理與判讀、<b>不編造內容</b>，所有結論皆可查證。監測範圍、來源與更新頻率可依仲恩需求客製。</div>
+    <div style="margin-top:16px;font-size:12.5px;color:#9fb4cc;line-height:1.7">
+      <b style="color:#fff">交付與維運：</b>基本版可於六週內建置完成並教會團隊自行維護；後續可擴充為「授權洽詢對象追蹤」「投資人 FAQ 自動更新」「法規時程監控」等模組。
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="rm" class="panel">
+  <div class="rmsum">
+    <div class="box"><div class="n">6 週</div><div class="l">2026/7/1–8/15<br>親自進駐台北</div></div>
+    <div class="box"><div class="n">~120 h</div><div class="l">每週約 20 小時<br>時間彈性</div></div>
+    <div class="box"><div class="n g">2 ✓</div><div class="l">能力展示已交付<br>＋ 3 階段工作流</div></div>
+    <div class="box"><div class="n g">$0</div><div class="l">完全無償<br>🟢 全公開資料·零 NDA</div></div>
+  </div>
+
+  <div class="phase done">
+    <div class="wk">已完成<div class="dt">7/1–7/8</div></div>
+    <div>
+      <h3>Phase 0 · 會談前已完成的兩份初步成果</h3>
+      <div class="dl">
+        ① <b>SCA-IQ 競品情報平台</b>（7 頁籤：競品全景 / 日本法規 / 臨床開發進度 / 科學情報 / 自動化 / 6 週計畫）<br>
+        ② <b>Pricing 外部驗證分析</b>（8 區塊：可比對標、台日可治療人數、定價壓力測試、支付路徑、營收模型）<br>
+        兩份皆附可查證來源，<b>供貴司評估合作基礎。</b>
+      </div>
+      <span class="badge b-risk">✓ 兩份已交付</span>
+    </div>
+  </div>
+
+  <div class="phase" style="border-left-color:#4da3ff">
+    <div class="wk" style="color:#4da3ff">7/8（三）</div>
+    <div>
+      <h3>首次會談</h3>
+      <div class="dl">說明已完成的初步成果、了解貴司現階段優先需求，<b>共同確認後續 6 週的合作重點</b>。</div>
+    </div>
+  </div>
+
+  <div class="phase wshop">
+    <div class="wk">Week 2<div class="dt">7/9–7/16 挑一天</div></div>
+    <div>
+      <h3>AI 實作工作坊</h3>
+      <div class="dl">為團隊舉辦一場 2–3 小時的 Claude Code / AI 實作工作坊，讓同仁親身體驗，並<b>共同盤點可自動化的內部流程</b>，作為後續導入的起點。</div>
+      <span class="badge b-h">~3 h</span><span class="badge b-risk">🟢 零風險</span>
+    </div>
+  </div>
+
+  <div class="phase" style="border-left-color:#ffce7a">
+    <div class="wk" style="color:#ffce7a">7/17（五）</div>
+    <div>
+      <h3>出席 BioAsia Taiwan — Cell Therapy Leadership Forum</h3>
+      <div class="dl">出席貴司共同主辦的細胞治療論壇，同步掌握產業動態與貴司對外連結，作為情報與策略工作的延伸。</div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="wk">Week 2–3<div class="dt">7/9–7/22</div></div>
+    <div>
+      <h3>Phase 1 · 情報平台上線 + 自動化</h3>
+      <div class="dl">
+        • 把平台從靜態改為<b>每週自動更新</b>（Claude Code 排程）<br>
+        • 競品 / 臨床試驗 / 文獻 / 法規時程 自動刷新 → Email 摘要寄團隊<br>
+        • 協助團隊接手、自行維護<br>
+        <b>交付：可自動更新的 SCA-IQ ＋ 每週情報 Email</b>
+      </div>
+      <span class="badge b-h">~40 h</span><span class="badge b-risk">🟢 公開資料·零 NDA</span>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="wk">Week 4–5<div class="dt">7/23–8/5</div></div>
+    <div>
+      <h3>Phase 2 · Pricing / 市場進入深化</h3>
+      <div class="dl">
+        以已交付的 Pricing 分析為基礎，深化為完整策略：<br>
+        • 價值論證（HEOR / QALY / 照護者成本模型）<br>
+        • 給付路徑（台灣罕病基金 / 日本保険収載兩軌核價）<br>
+        • 支付模式設計（成效連動 / 療程上限 / 分期）<br>
+        • 營收情境模型精算（台日，自費 → 給付過渡）<br>
+        <b>交付：定價與市場進入策略包</b>
+      </div>
+      <span class="badge b-h">~40 h</span><span class="badge b-risk">🟢 公開資料</span><span class="badge" style="background:#4a1f1c;color:#ff8a7a">具體數字需內部資料</span>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="wk">Week 6<div class="dt">8/6–8/15</div></div>
+    <div>
+      <h3>Phase 3 · 第二優先（依 7/8 決定）＋ 收尾交接</h3>
+      <div class="dl">
+        依貴司於會談確認的優先順序，二擇一深化：<br>
+        • <b>BD / 國際授權</b>：inbound 洽詢分級、潛在夥伴地圖、可比交易 benchmark；或<br>
+        • <b>投資敘事</b>：narrative / deck、可比公司估值、美國市場探路<br>
+        ＋ 六週成果交接、協助團隊接手維護
+      </div>
+      <span class="badge b-h">~30 h</span><span class="badge b-risk">🟢 公開資料·零 NDA</span>
+    </div>
+  </div>
+
+  <div class="phase" style="border-left-color:#5b6c81">
+    <div class="wk" style="color:#8b9bb0">8/15 之後<div class="dt">後續</div></div>
+    <div>
+      <h3 style="color:#c9d6e3">轉美國端長期窗口</h3>
+      <div class="dl">六週後樂意以美國端窗口持續支援美國二期與美國 BD，並<b>持續提供內部流程自動化（QA / 法規文件）的無償顧問服務</b>。</div>
+    </div>
+  </div>
+
+  <div style="background:#132a1f;border:1px solid #2e6a45;border-radius:9px;padding:14px 18px;margin-top:16px;font-size:12.5px;line-height:1.7;color:#c8e8d4">
+    <b style="color:#6ee7a0">✍️ 保密承諾：</b>我樂意<b>隨時簽署 NDA、承擔完整保密義務</b>，<b style="color:#6ee7a0">於 7/8 確定合作框架後即可簽署</b>；簽署後即可進入需碰觸內部機密（COGS、臨床數據、內部流程、未公開商業資訊）的工作，並完全遵循貴司的資料治理規範。目前三階段工作亦皆以公開資料為主、零 NDA 也可立即開始。
+  </div>
+  <p style="font-size:11.5px;color:#8b9bb0;margin-top:12px;line-height:1.7">※ 本計畫以 7/8 會談為樞紐；實際優先順序將於會談依貴司當前需求調整。</p>
+</section>
+
+<!-- CHANGELOG -->
+<section id="lg" class="panel">
+  <div class="card">
+    <h2>◎ 自動化更新紀錄 (Changelog)</h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">每次排程掃描的執行紀錄。若當天無新情報，僅更新「最後掃描」時間、不產生噪音項目——這是設計選擇，不是系統故障。</p>
+    <ul class="digest" id="logList">
+      <li class="win"><span class="tag t-win">系統上線</span>SCA-IQ 平台自動化正式啟用：每日排程掃描 ClinicalTrials.gov／PubMed／產業新聞，AI 判讀後直接更新本平台；每週一額外產出週報 email 草稿供人工審閱後寄送。<span class="date">2026/07/09</span></li>
+    </ul>
+  </div>
+</section>
+
+<div class="foot">
+  <b>SCA-IQ 競品情報監測平台 v1.1</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
+  本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。
+</div>
+</div>
+
+<script>
+function tab(e,id){
+  document.querySelectorAll('nav button').forEach(b=>b.classList.remove('on'));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
+  e.currentTarget.classList.add('on');
+  document.getElementById(id).classList.add('on');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function filt(e,f){
+  document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('on'));
+  e.currentTarget.classList.add('on');
+  document.querySelectorAll('#lstab tr[data-f]').forEach(r=>{
+    r.style.display = (f==='all'||r.dataset.f===f) ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>
