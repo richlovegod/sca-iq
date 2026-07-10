@@ -295,7 +295,7 @@
 
 <!-- SCIENTIFIC INTELLIGENCE -->
 <section id="si" class="panel">
-  <div class="card">
+  <div class="card" id="trialradar" style="scroll-margin-top:16px">
     <h2>◎ 臨床試驗雷達 (Clinical Trial Radar) · 全球 SCA 在研試驗</h2>
     <table>
       <tr><th>試驗 (NCT)</th><th>介入 / 藥物</th><th>機制</th><th>期別</th><th>狀態</th><th>主導</th></tr>
@@ -334,7 +334,7 @@
   </div>
 
   <div class="grid2">
-    <div class="card">
+    <div class="card" id="litradar" style="scroll-margin-top:16px">
       <h2>◎ 文獻雷達 (Literature Radar) · 近期關鍵論文</h2>
       <p style="font-size:11px;color:#6a7c92;margin:-6px 0 10px">依發表日排序（新 → 舊）</p>
       <ul class="digest">
@@ -503,7 +503,7 @@
     <h2>◎ 自動化更新紀錄 (Changelog)</h2>
     <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">每次排程掃描的執行紀錄。若當天無新情報，僅更新「最後掃描」時間、不產生噪音項目——這是設計選擇，不是系統故障。</p>
     <ul class="digest" id="logList">
-      <li><span class="tag t-info">每日掃描</span>新增 2 則科學文獻（SCA3 小鼠 MSC 實驗、ATXN3 生物標記追蹤）。<span class="date">2026/07/10</span><br><a class="src" href="javascript:void(0)" onclick="goTab('si');return false;">詳見 科學情報 ↗</a></li>
+      <li><span class="tag t-info">每日掃描</span>新增 2 則科學文獻（SCA3 小鼠 MSC 實驗、ATXN3 生物標記追蹤）。<span class="date">2026/07/10</span><br><a class="src" href="javascript:void(0)" onclick="goTab('si','litradar');return false;">詳見 文獻雷達 ↗</a></li>
       <li class="win"><span class="tag t-win">系統上線</span>SCA-IQ 平台自動化正式啟用：每日排程掃描 ClinicalTrials.gov／PubMed／產業新聞，AI 判讀後直接更新本平台；每週一額外產出週報 email 草稿供人工審閱後寄送。<span class="date">2026/07/09</span></li>
     </ul>
   </div>
@@ -523,12 +523,16 @@ function tab(e,id){
   document.getElementById(id).classList.add('on');
   window.scrollTo({top:0,behavior:'smooth'});
 }
-function goTab(id){
+function goTab(id,anchor){
   document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',(b.getAttribute('onclick')||'').includes("'"+id+"'")));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
   var el=document.getElementById(id);
   if(el) el.classList.add('on');
-  window.scrollTo({top:0,behavior:'smooth'});
+  var a=anchor&&document.getElementById(anchor);
+  requestAnimationFrame(function(){
+    if(a){window.scrollTo(0,a.getBoundingClientRect().top+window.pageYOffset-16);}
+    else{window.scrollTo(0,0);}
+  });
 }
 function filt(e,f){
   document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('on'));
