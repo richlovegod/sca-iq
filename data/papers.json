@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pubmed:42386650",
+    "date": "2026-07-02",
+    "dateDisplay": "2026/07/02",
+    "title": "Adipose-Derived MSCs Improve Motor Function and Reduce Neuroinflammation and Mutant Ataxin-3 Levels in SCA3 Mice",
+    "journal": "Int J Stem Cells · Lu KM, Ong WK, Ting AE 等",
+    "tag": "MSC 動物實驗 · 最相關",
+    "note": "→ 動物實驗直接支持異體脂肪 MSC（本社機制路線）對 SCA3 的神經保護與運動功能改善證據。",
+    "highlight": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42386650/",
+    "urlLabel": "論文 ↗ PubMed 42386650"
+  },
+  {
+    "id": "pubmed:42381263",
+    "date": "2026-06-30",
+    "dateDisplay": "2026/06/30",
+    "title": "Longitudinal Dynamics of Polyglutamine-Expanded ATXN3 in Biofluids of SCA3",
+    "journal": "Movement Disorders",
+    "tag": "SCA3 生物標記",
+    "note": "→ SCA3 生物標記追蹤方法學，與 Vico VO659 等以生物標記為療效指標的試驗設計相關。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42381263/",
+    "urlLabel": "論文 ↗ PubMed 42381263"
+  },
+  {
+    "id": "pubmed:42391783",
+    "date": "2026-06-30",
+    "dateDisplay": "2026/06/30",
+    "title": "Establishment and characterization of three human pluripotent stem cell lines from patients with SCA27B",
+    "journal": "Stem Cell Research · Pellerin D 等",
+    "tag": "SCA 疾病模型",
+    "note": "→ 建立 SCA27B 病人來源 iPSC 細胞株，作為疾病建模與療法測試平台（幹細胞領域研究工具進展）。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42391783/",
+    "urlLabel": "論文 ↗ PubMed 42391783"
+  },
+  {
+    "id": "pubmed:42405278",
+    "date": "2026-06-15",
+    "dateDisplay": "2026/06（epub）",
+    "title": "Optimizing twin prime editing components for scalable genome editing and therapy in SCA3",
+    "journal": "Mol Ther Nucleic Acids · Gwon LW 等",
+    "tag": "SCA3 基因編輯",
+    "note": "→ 針對 ATXN3 的 twin prime editing 基因編輯優化，屬基因層級療法路線，與 Vico VO659（ASO）、AAV 基因療法同一競爭象限。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42405278/",
+    "urlLabel": "論文 ↗ PubMed 42405278"
+  },
+  {
+    "id": "pubmed:41082794",
+    "date": "2025-12-01",
+    "dateDisplay": "2025/12",
+    "title": "Genetic landscape of SCA in Taiwan（876 例）",
+    "journal": "Parkinsonism Relat Disord",
+    "tag": "台灣基因",
+    "note": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41082794/",
+    "urlLabel": "論文 ↗ PubMed 41082794"
+  },
+  {
+    "id": "pubmed:40471914",
+    "date": "2025-04-01",
+    "dateDisplay": "2025/04",
+    "title": "A Review of Spinocerebellar Ataxias in Taiwan",
+    "journal": "Acta Neurol Taiwan",
+    "tag": "台灣流病",
+    "note": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40471914/",
+    "urlLabel": "論文 ↗ PubMed 40471914"
+  },
+  {
+    "id": "pmc:PMC11591855",
+    "date": "2024-11-01",
+    "dateDisplay": "2024/11",
+    "title": "The Potential of MSCs in Treating SCA: Advances and Future Directions",
+    "journal": "Biomedicines",
+    "tag": "MSC · 最相關",
+    "note": "→ MSC 治療 SCA 的最新綜述，直接支撐本社機制敘事。",
+    "highlight": true,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11591855/",
+    "urlLabel": "論文 ↗ PMC11591855"
+  },
+  {
+    "id": "pmc:PMC11012515",
+    "date": "2024-04-01",
+    "dateDisplay": "2024/04",
+    "title": "SCA3 Pathophysiology — Implications for Translational Research",
+    "journal": "Int J Mol Sci",
+    "tag": "機制",
+    "note": "",
+    "highlight": false,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11012515/",
+    "urlLabel": "論文 ↗ PMC11012515"
+  },
+  {
+    "id": "pmc:PMC9838137",
+    "date": "2022-11-01",
+    "dateDisplay": "2022/11",
+    "title": "Cell-based therapeutic strategies for treatment of SCAs: an update",
+    "journal": "Neural Regen Res",
+    "tag": "細胞治療",
+    "note": "",
+    "highlight": false,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9838137/",
+    "urlLabel": "論文 ↗ PMC9838137"
+  },
+  {
+    "id": "pmc:PMC5657707",
+    "date": "2017-03-01",
+    "dateDisplay": "2017/03",
+    "title": "Stemchymal® Phase I/IIa Clinical Study",
+    "journal": "Cell Transplant",
+    "tag": "本社臨床 · 基礎文獻",
+    "note": "",
+    "highlight": true,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5657707/",
+    "urlLabel": "論文 ↗ PMC5657707"
+  }
+]

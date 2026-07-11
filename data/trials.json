@@ -1,0 +1,62 @@
+[
+  {
+    "nct": "NCT06397274",
+    "drug": "Stemchymal®",
+    "mechanism": "異體脂肪 MSC",
+    "phase": "Ph2",
+    "status": "美國 · 2026 啟動收案",
+    "sponsor": "Steminent（本社）",
+    "us": true,
+    "url": "https://clinicaltrials.gov/study/NCT06397274"
+  },
+  {
+    "nct": "NCT02540655",
+    "drug": "Stemchymal®",
+    "mechanism": "異體脂肪 MSC",
+    "phase": "Ph2",
+    "status": "已完成（台灣單中心 n=56）",
+    "sponsor": "Steminent（本社）",
+    "us": true,
+    "url": "https://clinicaltrials.gov/study/NCT02540655"
+  },
+  {
+    "nct": "NCT05822908",
+    "drug": "VO659",
+    "mechanism": "ASO",
+    "phase": "Ph1/2a",
+    "status": "收案中（歐洲）",
+    "sponsor": "Vico Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT05822908"
+  },
+  {
+    "nct": "NCT03701399",
+    "drug": "Troriluzole",
+    "mechanism": "小分子",
+    "phase": "Ph3",
+    "status": "已完成 → NDA 受挫",
+    "sponsor": "Biohaven",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT03701399"
+  },
+  {
+    "nct": "NCT03378414",
+    "drug": "臍帶 MSC (iSCLife®-SA)",
+    "mechanism": "異體臍帶 MSC",
+    "phase": "—",
+    "status": "計畫中（2026 預計）",
+    "sponsor": "其他細胞療法對手",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT03378414"
+  },
+  {
+    "nct": "NCT07467733",
+    "drug": "神經誘導 MSC + 外泌體",
+    "mechanism": "MSC / exosome",
+    "phase": "早期",
+    "status": "新登錄（2026/03）",
+    "sponsor": "其他細胞療法對手",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07467733"
+  }
+]

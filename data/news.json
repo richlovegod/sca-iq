@@ -1,0 +1,66 @@
+[
+  {
+    "id": "steminent-japan-submit-2026-06",
+    "date": "2026-06-24",
+    "dateDisplay": "2026/06",
+    "level": "win",
+    "tag": "里程碑",
+    "body": "本社 Stemchymal：<b>6/24 產品「承認申請」(SCA3/6) 送 PMDA</b>；6/18 MAH「業許可」送神奈川縣。",
+    "note": "",
+    "links": [
+      { "label": "承認 ↗", "url": "https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html" },
+      { "label": "業許可 ↗", "url": "https://udn.com/news/story/7241/9579117" }
+    ]
+  },
+  {
+    "id": "steminent-us-ph2-details",
+    "date": "2026-06-20",
+    "dateDisplay": "近期",
+    "level": "win",
+    "tag": "美國進度",
+    "body": "美國二期試驗細節公布：<b>UCLA＋USF 兩站點、預計 2026/09 首例收案</b>，收案 20 人（SCA3），共同主持人 <b>Susan Perlman、Theresa Zesiewicz</b> 醫師；採真實世界數據並<b>事先與 FDA 協議統計分析計畫（SAP）</b>——為 Troriluzole 教訓後的設計調整。",
+    "note": "",
+    "links": [
+      { "label": "來源 ↗ GeneOnline", "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/" }
+    ]
+  },
+  {
+    "id": "steminent-earnings-2026-04",
+    "date": "2026-04-01",
+    "dateDisplay": "2026/04 法說會",
+    "level": "info",
+    "tag": "產能／財務",
+    "body": "法說會揭露：<b>產能規劃 2026年300劑→2027年900劑→2028年2,700劑</b>；現金增資每股 NT$68、發行 750萬股；官方市場規模估計台灣 700人（SCA3）、日本 3,000人（SCA3+6）；聘請法規顧問 <b>Kurt Gunter</b>。",
+    "note": "",
+    "links": [
+      { "label": "來源 ↗ GeneOnline", "url": "https://geneonline.news/steminent-april-026newsearningscall/" }
+    ]
+  },
+  {
+    "id": "biohaven-troriluzole-crl-2025-11",
+    "date": "2025-11-01",
+    "dateDisplay": "2025/11",
+    "level": "hot",
+    "tag": "威脅↓",
+    "body": "Biohaven 的 Troriluzole <b>遭 FDA 退件（CRL，2025/11）</b>；後續宣布 R&D 削減 60%、並要求與 FDA 正式會談爭取後路（2026/02）。",
+    "note": "→ 領先小分子對手停滯，SCA 賽道出現空窗。",
+    "links": [
+      { "label": "退件 ↗ CRL 2025/11", "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" },
+      { "label": "R&D↓60% ↗ 2026/02", "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease" }
+    ]
+  },
+  {
+    "id": "vico-vo659-dosing-2026-02",
+    "date": "2026-02-24",
+    "dateDisplay": "2026/02",
+    "level": "hot",
+    "tag": "關注",
+    "body": "Vico 的 ASO <b>VO659</b>（SCA1/SCA3/HD）2026/02/24 進入半年一次給藥 Ph1/2。",
+    "note": "→ 與本社在 SCA3 重疊，但 <b style=\"color:#ffce7a\">SCA 尚無明確療效（SCA3 生物標記混合/微弱、SCA1 無；明確正面在 HD）</b>；曾見 radiculitis（神經根發炎，多數恢復中）。仍 Ph1/2a、遠期。",
+    "links": [
+      { "label": "給藥公告 ↗ 2026/02", "url": "https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" },
+      { "label": "SCA數據/安全 ↗ HDBuzz", "url": "https://en.hdbuzz.net/398/" },
+      { "label": "試驗 ↗ NCT", "url": "https://clinicaltrials.gov/study/NCT05822908" }
+    ]
+  }
+]

@@ -111,7 +111,7 @@
         <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.0</span></div>
         <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
       </div>
-      <div class="meta">最後掃描：<b>2026-07-11</b>（今日）<br>下次掃描：<b>2026-07-12 08:00</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
+      <div class="meta">最後掃描：<b id="lastScan">—</b>（今日）<br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
     </div>
     <nav>
       <button class="on" onclick="tab(event,'ov')">總覽</button>
@@ -134,18 +134,12 @@
     <div class="box"><div class="n">6</div><div class="l">追蹤競品</div><div class="d">SCA 領域在研療法</div></div>
     <div class="box"><div class="n r">2</div><div class="l">競品近期受挫 ✓利多</div><div class="d">Biohaven 退件、Biogen/Ionis 退場</div></div>
     <div class="box"><div class="n g">1</div><div class="l">最接近取證＝本社</div><div class="d">日本承認申請已送 PMDA</div></div>
-    <div class="box"><div class="n">2</div><div class="l">本週新增情報</div><div class="d">見右側自動摘要</div></div>
+    <div class="box"><div class="n" id="weekCount">2</div><div class="l">本週新增情報</div><div class="d">見右側自動摘要</div></div>
   </div>
   <div class="grid2">
     <div class="card">
       <h2>◎ 本週情報摘要（AI 自動彙整）</h2>
-      <ul class="digest">
-        <li class="win"><span class="tag t-win">里程碑</span>本社 Stemchymal：<b>6/24 產品「承認申請」(SCA3/6) 送 PMDA</b>；6/18 MAH「業許可」送神奈川縣。<span class="date">2026/06</span><br><a class="src" href="https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html" target="_blank">承認 ↗</a> <a class="src" href="https://udn.com/news/story/7241/9579117" target="_blank">業許可 ↗</a></li>
-        <li class="win"><span class="tag t-win">美國進度</span>美國二期試驗細節公布：<b>UCLA＋USF 兩站點、預計 2026/09 首例收案</b>，收案 20 人（SCA3），共同主持人 <b>Susan Perlman、Theresa Zesiewicz</b> 醫師；採真實世界數據並<b>事先與 FDA 協議統計分析計畫（SAP）</b>——為 Troriluzole 教訓後的設計調整。<span class="date">近期</span><br><a class="src" href="https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/" target="_blank">來源 ↗ GeneOnline</a></li>
-        <li><span class="tag t-info">產能／財務</span>法說會揭露：<b>產能規劃 2026年300劑→2027年900劑→2028年2,700劑</b>；現金增資每股 NT$68、發行 750萬股；官方市場規模估計台灣 700人（SCA3）、日本 3,000人（SCA3+6）；聘請法規顧問 <b>Kurt Gunter</b>。<span class="date">2026/04 法說會</span><br><a class="src" href="https://geneonline.news/steminent-april-026newsearningscall/" target="_blank">來源 ↗ GeneOnline</a></li>
-        <li class="hot"><span class="tag t-hot">威脅↓</span>Biohaven 的 Troriluzole <b>遭 FDA 退件（CRL，2025/11）</b>；後續宣布 R&D 削減 60%、並要求與 FDA 正式會談爭取後路（2026/02）。<span class="date">2025/11</span><br><span style="color:#8b9bb0;font-size:12px">→ 領先小分子對手停滯，SCA 賽道出現空窗。</span><br><a class="src" href="https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" target="_blank">退件 ↗ CRL 2025/11</a> <a class="src" href="https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease" target="_blank">R&D↓60% ↗ 2026/02</a></li>
-        <li class="hot"><span class="tag t-hot">關注</span>Vico 的 ASO <b>VO659</b>（SCA1/SCA3/HD）2026/02/24 進入半年一次給藥 Ph1/2。<span class="date">2026/02</span><br><span style="color:#8b9bb0;font-size:12px">→ 與本社在 SCA3 重疊，但 <b style="color:#ffce7a">SCA 尚無明確療效（SCA3 生物標記混合/微弱、SCA1 無；明確正面在 HD）</b>；曾見 radiculitis（神經根發炎，多數恢復中）。仍 Ph1/2a、遠期。</span><br><a class="src" href="https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" target="_blank">給藥公告 ↗ 2026/02</a> <a class="src" href="https://en.hdbuzz.net/398/" target="_blank">SCA數據/安全 ↗ HDBuzz</a> <a class="src" href="https://clinicaltrials.gov/study/NCT05822908" target="_blank">試驗 ↗ NCT</a></li>
-      </ul>
+      <ul class="digest" id="digestList"></ul>
     </div>
     <div class="card posit">
       <h2>◎ 對本社的策略意涵</h2>
@@ -299,36 +293,7 @@
     <h2>◎ 臨床試驗雷達 (Clinical Trial Radar) · 全球 SCA 在研試驗</h2>
     <table>
       <tr><th>試驗 (NCT)</th><th>介入 / 藥物</th><th>機制</th><th>期別</th><th>狀態</th><th>主導</th></tr>
-      <tr class="us">
-        <td><span class="asset">NCT06397274</span></td><td class="co">Stemchymal®</td>
-        <td class="mod">異體脂肪 MSC</td><td>Ph2</td><td>美國 · 2026 啟動收案</td>
-        <td>Steminent（本社）<br><a class="src" href="https://clinicaltrials.gov/study/NCT06397274" target="_blank">試驗 ↗</a></td>
-      </tr>
-      <tr class="us">
-        <td><span class="asset">NCT02540655</span></td><td class="co">Stemchymal®</td>
-        <td class="mod">異體脂肪 MSC</td><td>Ph2</td><td>已完成（台灣單中心 n=56）</td>
-        <td>Steminent（本社）<br><a class="src" href="https://clinicaltrials.gov/study/NCT02540655" target="_blank">試驗 ↗</a></td>
-      </tr>
-      <tr>
-        <td><span class="asset">NCT05822908</span></td><td class="co">VO659</td>
-        <td class="mod">ASO</td><td>Ph1/2a</td><td>收案中（歐洲）</td>
-        <td>Vico Therapeutics<br><a class="src" href="https://clinicaltrials.gov/study/NCT05822908" target="_blank">試驗 ↗</a></td>
-      </tr>
-      <tr>
-        <td><span class="asset">NCT03701399</span></td><td class="co">Troriluzole</td>
-        <td class="mod">小分子</td><td>Ph3</td><td>已完成 → NDA 受挫</td>
-        <td>Biohaven<br><a class="src" href="https://clinicaltrials.gov/study/NCT03701399" target="_blank">試驗 ↗</a></td>
-      </tr>
-      <tr>
-        <td><span class="asset">NCT03378414</span></td><td class="co">臍帶 MSC (iSCLife®-SA)</td>
-        <td class="mod">異體臍帶 MSC</td><td>—</td><td>計畫中（2026 預計）</td>
-        <td>其他細胞療法對手<br><a class="src" href="https://clinicaltrials.gov/study/NCT03378414" target="_blank">試驗 ↗</a></td>
-      </tr>
-      <tr>
-        <td><span class="asset">NCT07467733</span></td><td class="co">神經誘導 MSC + 外泌體</td>
-        <td class="mod">MSC / exosome</td><td>早期</td><td>新登錄（2026/03）</td>
-        <td>其他細胞療法對手<br><a class="src" href="https://clinicaltrials.gov/study/NCT07467733" target="_blank">試驗 ↗</a></td>
-      </tr>
+      <tbody id="trialBody"></tbody>
     </table>
     <p style="font-size:11.5px;color:#8b9bb0;margin-top:10px">雷達涵蓋所有機制路線：本社 MSC（2 案）、ASO（Vico）、小分子（Biohaven）、<b style="color:#ffce7a">其他細胞療法對手</b>（臍帶 MSC、外泌體）。→ 除了三大主要對手，另有 2 個 MSC/外泌體路線正在萌芽，值得持續盯。</p>
   </div>
@@ -336,19 +301,14 @@
   <div class="grid2">
     <div class="card" id="litradar" style="scroll-margin-top:16px">
       <h2>◎ 文獻雷達 (Literature Radar) · 近期關鍵論文</h2>
-      <p style="font-size:11px;color:#6a7c92;margin:-6px 0 10px">依發表日排序（新 → 舊）</p>
-      <ul class="digest">
-        <li class="win"><span class="tag t-win">MSC 動物實驗 · 最相關</span>Adipose-Derived MSCs Improve Motor Function and Reduce Neuroinflammation and Mutant Ataxin-3 Levels in SCA3 Mice<br><span style="color:#6a7c92;font-size:11px">2026/07/02 · Int J Stem Cells · Lu KM, Ong WK, Ting AE 等</span><br><span style="color:#8b9bb0;font-size:12px">→ 動物實驗直接支持異體脂肪 MSC（本社機制路線）對 SCA3 的神經保護與運動功能改善證據。</span><br><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/42386650/" target="_blank">論文 ↗ PubMed 42386650</a></li>
-        <li><span class="tag t-info">SCA3 生物標記</span>Longitudinal Dynamics of Polyglutamine-Expanded ATXN3 in Biofluids of SCA3<br><span style="color:#6a7c92;font-size:11px">2026/06/30 · Movement Disorders</span><br><span style="color:#8b9bb0;font-size:12px">→ SCA3 生物標記追蹤方法學，與 Vico VO659 等以生物標記為療效指標的試驗設計相關。</span><br><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/42381263/" target="_blank">論文 ↗ PubMed 42381263</a></li>
-        <li><span class="tag t-info">SCA 疾病模型</span>Establishment and characterization of three human pluripotent stem cell lines from patients with SCA27B<br><span style="color:#6a7c92;font-size:11px">2026/06/30 · Stem Cell Research · Pellerin D 等</span><br><span style="color:#8b9bb0;font-size:12px">→ 建立 SCA27B 病人來源 iPSC 細胞株，作為疾病建模與療法測試平台（幹細胞領域研究工具進展）。</span><br><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/42391783/" target="_blank">論文 ↗ PubMed 42391783</a></li>
-        <li><span class="tag t-info">SCA3 基因編輯</span>Optimizing twin prime editing components for scalable genome editing and therapy in SCA3<br><span style="color:#6a7c92;font-size:11px">2026/06（epub）· Mol Ther Nucleic Acids · Gwon LW 等</span><br><span style="color:#8b9bb0;font-size:12px">→ 針對 ATXN3 的 twin prime editing 基因編輯優化，屬基因層級療法路線，與 Vico VO659（ASO）、AAV 基因療法同一競爭象限。</span><br><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/42405278/" target="_blank">論文 ↗ PubMed 42405278</a></li>
-        <li><span class="tag t-info">台灣基因</span>Genetic landscape of SCA in Taiwan（876 例）<br><span style="color:#6a7c92;font-size:11px">2025/12 · Parkinsonism Relat Disord</span><br><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/41082794/" target="_blank">論文 ↗ PubMed 41082794</a></li>
-        <li><span class="tag t-info">台灣流病</span>A Review of Spinocerebellar Ataxias in Taiwan<br><span style="color:#6a7c92;font-size:11px">2025/04 · Acta Neurol Taiwan</span><br><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/40471914/" target="_blank">論文 ↗ PubMed 40471914</a></li>
-        <li class="win"><span class="tag t-win">MSC · 最相關</span>The Potential of MSCs in Treating SCA: Advances and Future Directions<br><span style="color:#6a7c92;font-size:11px">2024/11 · Biomedicines</span><br><span style="color:#8b9bb0;font-size:12px">→ MSC 治療 SCA 的最新綜述，直接支撐本社機制敘事。</span><br><a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11591855/" target="_blank">論文 ↗ PMC11591855</a></li>
-        <li><span class="tag t-info">機制</span>SCA3 Pathophysiology — Implications for Translational Research<br><span style="color:#6a7c92;font-size:11px">2024/04 · Int J Mol Sci</span><br><a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11012515/" target="_blank">論文 ↗ PMC11012515</a></li>
-        <li><span class="tag t-info">細胞治療</span>Cell-based therapeutic strategies for treatment of SCAs: an update<br><span style="color:#6a7c92;font-size:11px">2022/11 · Neural Regen Res</span><br><a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9838137/" target="_blank">論文 ↗ PMC9838137</a></li>
-        <li class="win"><span class="tag t-win">本社臨床 · 基礎文獻</span>Stemchymal® Phase I/IIa Clinical Study<br><span style="color:#6a7c92;font-size:11px">2017/03 · Cell Transplant</span><br><a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5657707/" target="_blank">論文 ↗ PMC5657707</a></li>
-      </ul>
+      <div style="display:flex;gap:8px;margin:-4px 0 10px;flex-wrap:wrap;align-items:center">
+        <input id="paperSearch" placeholder="🔍 搜尋標題／期刊／分類…" oninput="renderPapers()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
+        <span id="paperCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+      </div>
+      <ul class="digest" id="paperList"></ul>
+      <div style="text-align:center;margin-top:4px">
+        <button id="paperToggle" onclick="papersExpanded=!papersExpanded;renderPapers()" style="background:#182533;border:1px solid #2b3a4d;color:#9fb4cc;font-size:12px;font-family:inherit;padding:6px 16px;border-radius:20px;cursor:pointer">顯示全部 ▾</button>
+      </div>
     </div>
     <div>
       <div class="card">
@@ -504,11 +464,10 @@
   <div class="card">
     <h2>◎ 自動化更新紀錄 (Changelog)</h2>
     <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">每次排程掃描的執行紀錄。若當天無新情報，僅更新「最後掃描」時間、不產生噪音項目——這是設計選擇，不是系統故障。</p>
-    <ul class="digest" id="logList">
-      <li><span class="tag t-info">每日掃描</span>新增 2 則科學文獻（SCA27B 病人 iPSC 細胞株、SCA3 twin prime editing 基因編輯優化）。<span class="date">2026/07/11</span><br><a class="src" href="javascript:void(0)" onclick="goTab('si','litradar');return false;">詳見 文獻雷達 ↗</a></li>
-      <li><span class="tag t-info">每日掃描</span>新增 2 則科學文獻（SCA3 小鼠 MSC 實驗、ATXN3 生物標記追蹤）。<span class="date">2026/07/10</span><br><a class="src" href="javascript:void(0)" onclick="goTab('si','litradar');return false;">詳見 文獻雷達 ↗</a></li>
-      <li class="win"><span class="tag t-win">系統上線</span>SCA-IQ 平台自動化正式啟用：每日排程掃描 ClinicalTrials.gov／PubMed／產業新聞，AI 判讀後直接更新本平台；每週一額外產出週報 email 草稿供人工審閱後寄送。<span class="date">2026/07/09</span></li>
-    </ul>
+    <ul class="digest" id="logList"></ul>
+    <div style="text-align:center;margin-top:4px">
+      <button id="clToggle" onclick="clExpanded=!clExpanded;renderChangelog()" style="background:#182533;border:1px solid #2b3a4d;color:#9fb4cc;font-size:12px;font-family:inherit;padding:6px 16px;border-radius:20px;cursor:pointer">顯示全部 ▾</button>
+    </div>
   </div>
 </section>
 
@@ -544,6 +503,87 @@ function filt(e,f){
     r.style.display = (f==='all'||r.dataset.f===f) ? '' : 'none';
   });
 }
+
+/* ── 文獻雷達：由 data/papers.json 動態渲染（試點） ── */
+var papersData=[], papersExpanded=false;
+var PAPER_RECENT=5;
+function esc(s){return (s==null?'':String(s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function renderPapers(){
+  var ul=document.getElementById('paperList'); if(!ul) return;
+  var q=(document.getElementById('paperSearch').value||'').toLowerCase().trim();
+  var rows=papersData.slice().sort(function(a,b){return (b.date||'').localeCompare(a.date||'');});
+  if(q) rows=rows.filter(function(p){return ((p.title||'')+' '+(p.journal||'')+' '+(p.tag||'')+' '+(p.note||'')).toLowerCase().indexOf(q)>=0;});
+  var total=rows.length;
+  var shown=(papersExpanded||q)?rows:rows.slice(0,PAPER_RECENT);
+  ul.innerHTML=shown.map(function(p){
+    var cls=p.highlight?' class="win"':'';
+    var tagcls=p.highlight?'t-win':'t-info';
+    var note=p.note?('<br><span style="color:#8b9bb0;font-size:12px">'+esc(p.note)+'</span>'):'';
+    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(p.tag)+'</span>'+esc(p.title)+
+      '<br><span style="color:#6a7c92;font-size:11px">'+esc(p.dateDisplay)+' · '+esc(p.journal)+'</span>'+note+
+      '<br><a class="src" href="'+esc(p.url)+'" target="_blank">'+esc(p.urlLabel||'論文 ↗')+'</a></li>';
+  }).join('');
+  document.getElementById('paperCount').textContent='共 '+total+' 篇'+(q?'（符合搜尋）':'');
+  var tog=document.getElementById('paperToggle');
+  if(q||total<=PAPER_RECENT){tog.style.display='none';}
+  else{tog.style.display='';tog.textContent=papersExpanded?'收合 ▴':('顯示全部（其餘 '+(total-PAPER_RECENT)+' 篇）▾');}
+}
+fetch('data/papers.json').then(function(r){return r.json();}).then(function(d){papersData=d;renderPapers();}).catch(function(e){
+  var ul=document.getElementById('paperList'); if(ul) ul.innerHTML='<li style="color:#8b9bb0">（文獻資料載入失敗：'+esc(e.message)+'）</li>';
+});
+
+/* ── 臨床試驗雷達：由 data/trials.json 動態渲染 ── */
+var trialsData=[];
+function renderTrials(){
+  var tb=document.getElementById('trialBody'); if(!tb) return;
+  tb.innerHTML=trialsData.map(function(t){
+    var us=t.us?' class="us"':'';
+    return '<tr'+us+'><td><span class="asset">'+esc(t.nct)+'</span></td><td class="co">'+esc(t.drug)+'</td>'+
+      '<td class="mod">'+esc(t.mechanism)+'</td><td>'+esc(t.phase)+'</td><td>'+esc(t.status)+'</td>'+
+      '<td>'+esc(t.sponsor)+'<br><a class="src" href="'+esc(t.url)+'" target="_blank">試驗 ↗</a></td></tr>';
+  }).join('');
+}
+fetch('data/trials.json').then(function(r){return r.json();}).then(function(d){trialsData=d;renderTrials();}).catch(function(){});
+
+/* ── 本週情報摘要：由 data/news.json 動態渲染（依編輯順序） ── */
+var newsData=[];
+function renderNews(){
+  var ul=document.getElementById('digestList'); if(!ul) return;
+  ul.innerHTML=newsData.map(function(n){
+    var lv=n.level||'info';
+    var cls=lv!=='info'?(' class="'+lv+'"'):'';
+    var note=n.note?('<br><span style="color:#8b9bb0;font-size:12px">'+n.note+'</span>'):'';
+    var links=(n.links||[]).map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+'</a>';}).join(' ');
+    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(n.tag)+'</span>'+n.body+'<span class="date">'+esc(n.dateDisplay)+'</span>'+note+(links?('<br>'+links):'')+'</li>';
+  }).join('');
+}
+fetch('data/news.json').then(function(r){return r.json();}).then(function(d){newsData=d;renderNews();}).catch(function(){});
+
+/* ── 更新紀錄：由 data/changelog.json 動態渲染（新→舊，預設 12 筆） ── */
+var changelogData=[], clExpanded=false, CL_RECENT=12;
+function renderChangelog(){
+  var ul=document.getElementById('logList'); if(!ul) return;
+  var rows=changelogData.slice().sort(function(a,b){return (b.date||'').localeCompare(a.date||'');});
+  var shown=clExpanded?rows:rows.slice(0,CL_RECENT);
+  ul.innerHTML=shown.map(function(c){
+    var lv=c.level||'info';
+    var cls=lv!=='info'?(' class="'+lv+'"'):'';
+    var link=c.link?('<br><a class="src" href="javascript:void(0)" onclick="goTab(\''+c.link.tab+'\''+(c.link.anchor?(',\''+c.link.anchor+'\''):'')+');return false;">'+esc(c.link.label)+'</a>'):'';
+    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(c.tag)+'</span>'+esc(c.body)+'<span class="date">'+esc(c.dateDisplay)+'</span>'+link+'</li>';
+  }).join('');
+  var tog=document.getElementById('clToggle'); if(!tog) return;
+  if(rows.length<=CL_RECENT){tog.style.display='none';}
+  else{tog.style.display='';tog.textContent=clExpanded?'收合 ▴':('顯示全部（共 '+rows.length+' 筆）▾');}
+}
+fetch('data/changelog.json').then(function(r){return r.json();}).then(function(d){changelogData=d;renderChangelog();}).catch(function(){});
+
+/* ── 頁首掃描日期 + KPI「本週新增」：由 data/meta.json 動態渲染 ── */
+fetch('data/meta.json').then(function(r){return r.json();}).then(function(m){
+  if(q2('lastScan')) q2('lastScan').textContent=m.lastScan||'—';
+  if(q2('nextScan')) q2('nextScan').textContent=m.nextScan||'—';
+  if(q2('weekCount')&&m.weekNewCount!=null) q2('weekCount').textContent=m.weekNewCount;
+}).catch(function(){});
+function q2(id){return document.getElementById(id);}
 </script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-07-11",
+    "dateDisplay": "2026/07/11",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 2 則科學文獻（SCA27B 病人 iPSC 細胞株、SCA3 twin prime editing 基因編輯優化）。",
+    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+  },
+  {
+    "date": "2026-07-10",
+    "dateDisplay": "2026/07/10",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 2 則科學文獻（SCA3 小鼠 MSC 實驗、ATXN3 生物標記追蹤）。",
+    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+  },
+  {
+    "date": "2026-07-09",
+    "dateDisplay": "2026/07/09",
+    "tag": "系統上線",
+    "level": "win",
+    "body": "SCA-IQ 平台自動化正式啟用：每日排程掃描 ClinicalTrials.gov／PubMed／產業新聞，AI 判讀後直接更新本平台；每週一額外產出週報 email 草稿供人工審閱後寄送。"
+  }
+]
