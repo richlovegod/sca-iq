@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SCA-IQ · 版本更新紀錄 (Release Notes)</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#0b1119;color:#cfe0f5;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft JhengHei",sans-serif;line-height:1.6}
+  .wrap{max-width:760px;margin:0 auto;padding:30px 20px 60px}
+  .top a{color:#7fb2ff;text-decoration:none;font-size:13px}
+  h1{font-size:22px;margin:18px 0 2px}
+  h1 .en{color:#6a7c92;font-size:14px;font-weight:400}
+  .sub{color:#8b9bb0;font-size:13px;margin-bottom:8px}
+  .note{background:#111c28;border:1px solid #22344a;border-left:3px solid #3f6bbd;border-radius:8px;padding:11px 14px;color:#9fb4cc;font-size:12.5px;margin:16px 0 26px}
+  .verrow{padding:14px 0;border-bottom:1px solid #1e2a3a}
+  .verhd{font-weight:700;color:#cfe0f5;font-size:15px;margin-bottom:6px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .vtag{background:rgba(31,111,235,.16);color:#7fb2ff;border:1px solid #2b4a7d;border-radius:5px;padding:1px 9px;font-size:12.5px}
+  .vdate{color:#6a7c92;font-size:12px;margin-left:auto}
+  ul{margin:0 0 0 20px;padding:0;color:#9fb4cc;font-size:13.5px}
+  li{margin:4px 0}
+  .foot{color:#5a6b82;font-size:11px;margin-top:30px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><a href="index.html">← 回競品情報平台</a></div>
+  <h1>SCA-IQ · 版本更新紀錄 <span class="en">Release Notes</span></h1>
+  <div class="sub">平台功能的版本沿革</div>
+  <div class="note">此頁給<b>平台維護者（產品負責人）</b>看，記錄平台本身每次改版做了什麼。訂閱者（仲恩同仁）要看的競品情報更新，請看主站的「更新紀錄」頁籤——兩者受眾不同，刻意分開。</div>
+  <div id="verList"></div>
+  <div class="foot">資料來源：<code>data/versions.json</code>　·　發布新版本時在該檔最前面加一筆，並更新主站頁首/頁尾版本號。</div>
+</div>
+<script>
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+fetch('data/versions.json').then(function(r){return r.json();}).then(function(rows){
+  document.getElementById('verList').innerHTML=rows.map(function(v){
+    var items=(v.changes||[]).map(function(c){return '<li>'+esc(c)+'</li>';}).join('');
+    return '<div class="verrow"><div class="verhd"><span class="vtag">'+esc(v.version)+'</span>'+esc(v.title||'')+'<span class="vdate">'+esc(v.dateDisplay)+'</span></div><ul>'+items+'</ul></div>';
+  }).join('');
+}).catch(function(){document.getElementById('verList').innerHTML='<p style="color:#8b9bb0">版本資料載入失敗。</p>';});
+</script>
+</body>
+</html>

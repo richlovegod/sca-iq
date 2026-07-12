@@ -473,13 +473,8 @@
 <!-- CHANGELOG -->
 <section id="lg" class="panel">
   <div class="card">
-    <h2>◎ 版本更新紀錄 (Release Notes)</h2>
-    <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">平台本身每次改版做了什麼，都記在這裡——與下方「每日掃描紀錄」不同：這裡是平台功能的版本沿革，讓大家一眼看懂平台是怎麼一步步長出來的。</p>
-    <div id="verList"></div>
-  </div>
-  <div class="card">
-    <h2>◎ 每日掃描紀錄 (Daily Scan Log)</h2>
-    <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">每次排程掃描的執行紀錄。若當天無新情報，僅更新「最後掃描」時間、不產生噪音項目——這是設計選擇，不是系統故障。</p>
+    <h2>◎ 情報更新紀錄 (Changelog)</h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">每次排程掃描的情報更新紀錄。若當天無新情報，僅更新「最後掃描」時間、不產生噪音項目——這是設計選擇，不是系統故障。</p>
     <ul class="digest" id="logList"></ul>
     <div style="text-align:center;margin-top:4px">
       <button id="clToggle" onclick="clExpanded=!clExpanded;renderChangelog()" style="background:#182533;border:1px solid #2b3a4d;color:#9fb4cc;font-size:12px;font-family:inherit;padding:6px 16px;border-radius:20px;cursor:pointer">顯示全部 ▾</button>
@@ -489,7 +484,8 @@
 
 <div class="foot">
   <b>SCA-IQ 競品情報監測平台 v1.2</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
-  本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。
+  本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。<br>
+  <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none">平台版本紀錄 / Release notes ↗</a>
 </div>
 </div>
 
@@ -592,21 +588,6 @@ function renderChangelog(){
   else{tog.style.display='';tog.textContent=clExpanded?'收合 ▴':('顯示全部（共 '+rows.length+' 筆）▾');}
 }
 fetch('data/changelog.json').then(function(r){return r.json();}).then(function(d){changelogData=d;renderChangelog();}).catch(function(){});
-
-/* ── 版本更新紀錄：由 data/versions.json 動態渲染（新→舊） ── */
-var versionsData=[];
-function renderVersions(){
-  var box=document.getElementById('verList'); if(!box) return;
-  box.innerHTML=versionsData.map(function(v){
-    var items=(v.changes||[]).map(function(c){return '<li style="margin:3px 0">'+esc(c)+'</li>';}).join('');
-    return '<div style="padding:11px 0;border-bottom:1px solid #1e2a3a">'
-      +'<div style="font-weight:700;color:#cfe0f5;font-size:13.5px;margin-bottom:5px">'
-      +'<span style="background:rgba(31,111,235,0.16);color:#7fb2ff;border:1px solid #2b4a7d;border-radius:5px;padding:1px 8px;margin-right:8px;font-size:12px">'+esc(v.version)+'</span>'
-      +esc(v.title||'')+'<span class="date">'+esc(v.dateDisplay)+'</span></div>'
-      +'<ul style="margin:0 0 0 18px;padding:0;color:#9fb4cc;font-size:12.5px;line-height:1.7">'+items+'</ul></div>';
-  }).join('');
-}
-fetch('data/versions.json').then(function(r){return r.json();}).then(function(d){versionsData=d;renderVersions();}).catch(function(){});
 
 /* ── 頁首掃描日期 + KPI「本週新增」：由 data/meta.json 動態渲染 ── */
 fetch('data/meta.json').then(function(r){return r.json();}).then(function(m){
