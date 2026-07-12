@@ -1,5 +1,29 @@
 [
   {
+    "id": "pubmed:42426383",
+    "date": "2026-07-10",
+    "dateDisplay": "2026/07/10",
+    "title": "Immune Activation and Glial Dysfunction in Spinocerebellar Ataxias: From Cerebellar Landscape to Disease-Driven Mechanisms and Immunomodulation",
+    "journal": "Cerebellum · Vázquez-Mojena Y 等",
+    "tag": "SCA 神經發炎 · 免疫調節",
+    "note": "→ 綜述 SCA 的免疫活化與膠細胞失能，並探討免疫調節作為治療切入點——直接呼應本社異體 MSC 的抗神經發炎機制敘事。",
+    "highlight": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42426383/",
+    "urlLabel": "論文 ↗ PubMed 42426383"
+  },
+  {
+    "id": "pubmed:42420064",
+    "date": "2026-07-09",
+    "dateDisplay": "2026/07/09",
+    "title": "Gene therapy for spinocerebellar ataxias",
+    "journal": "Trends in Pharmacological Sciences · Eo H 等",
+    "tag": "SCA 基因療法綜述",
+    "note": "→ 系統回顧 SCA 基因療法進展（ASO／AAV 等），對應 Vico VO659、AAV 基因療法競爭象限的最新格局盤點。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42420064/",
+    "urlLabel": "論文 ↗ PubMed 42420064"
+  },
+  {
     "id": "pubmed:42386650",
     "date": "2026-07-02",
     "dateDisplay": "2026/07/02",

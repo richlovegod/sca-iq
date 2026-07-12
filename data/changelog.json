@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-12",
+    "dateDisplay": "2026/07/12",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 2 則科學文獻（SCA 免疫活化與膠細胞失能之免疫調節綜述、SCA 基因療法綜述）。",
+    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+  },
+  {
     "date": "2026-07-11",
     "dateDisplay": "2026/07/11",
     "tag": "每日掃描",
