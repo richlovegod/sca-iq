@@ -13,6 +13,8 @@
   .logo{font-size:24px;font-weight:800;color:#fff;letter-spacing:.5px}
   .logo b{color:#4da3ff}
   .logo .v{font-size:11px;color:#6a7c92;font-weight:600;margin-left:8px;vertical-align:middle}
+  .logo .relnote{font-size:11px;color:#7fb2ff;font-weight:600;margin-left:8px;vertical-align:middle;text-decoration:none;border:1px solid #2b4a7d;background:rgba(31,111,235,.12);border-radius:5px;padding:1px 8px}
+  .logo .relnote:hover{background:rgba(31,111,235,.24)}
   .tag{font-size:12.5px;color:#8b9bb0;margin-top:5px}
   .live{display:inline-block;width:8px;height:8px;background:#2ecc71;border-radius:50%;margin-right:6px;box-shadow:0 0 8px #2ecc71;animation:p 1.6s infinite}
   @keyframes p{0%,100%{opacity:1}50%{opacity:.35}}
@@ -108,7 +110,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.2</span></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.2</span> <a href="versions.html" class="relnote">版本紀錄 ↗</a></div>
         <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
       </div>
       <div class="meta">最後掃描：<b id="lastScan">—</b>（今日）<br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
