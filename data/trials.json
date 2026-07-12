@@ -40,6 +40,16 @@
     "url": "https://clinicaltrials.gov/study/NCT03701399"
   },
   {
+    "nct": "NCT06672445",
+    "drug": "ARO-ATXN2",
+    "mechanism": "siRNA (ATXN2)",
+    "phase": "Ph1",
+    "status": "收案結束（含台北榮總）",
+    "sponsor": "Arrowhead / Sarepta",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06672445"
+  },
+  {
     "nct": "NCT03378414",
     "drug": "臍帶 MSC (iSCLife®-SA)",
     "mechanism": "異體臍帶 MSC",

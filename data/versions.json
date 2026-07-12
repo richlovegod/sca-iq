@@ -1,0 +1,32 @@
+[
+  {
+    "version": "v1.2",
+    "dateDisplay": "2026/07/12",
+    "title": "競品發現升級 ＋ 版本紀錄",
+    "changes": [
+      "新增 SCA2 競品 Arrowhead ARO-ATXN2（siRNA，含台北榮總站點）",
+      "修正 Biogen 追蹤標的：BIIB105（ATXN2／ALS）→ BIIB132（SCA3 ASO，2023 放棄）",
+      "掃描邏輯升級：每日主動發現清單外的新 SCA 療法，不再只盯既有清單",
+      "新增本「版本更新紀錄」區塊，讓每次改版一目了然"
+    ]
+  },
+  {
+    "version": "v1.1",
+    "dateDisplay": "2026/07/11",
+    "title": "資料庫架構",
+    "changes": [
+      "改為 JSON 資料層架構（index.html 負責呈現、data/*.json 負責資料）",
+      "每日掃描只需更新 JSON、網頁自動渲染，維護更穩定、更不易出錯"
+    ]
+  },
+  {
+    "version": "v1.0",
+    "dateDisplay": "2026/07/09",
+    "title": "平台上線",
+    "changes": [
+      "SCA-IQ 競品情報監測平台正式上線並公開",
+      "建立每日自動掃描（ClinicalTrials.gov／PubMed／產業新聞）＋ AI 判讀機制",
+      "每週一產出彙整 email 週報草稿，供人工審閱後寄送"
+    ]
+  }
+]

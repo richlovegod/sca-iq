@@ -2,6 +2,14 @@
   {
     "date": "2026-07-12",
     "dateDisplay": "2026/07/12",
+    "tag": "競品更新",
+    "level": "win",
+    "body": "新增競品 Arrowhead ARO-ATXN2（SCA2，siRNA，站點含台北榮總）；更正 Biogen 追蹤標的 BIIB105（ATXN2／ALS 案）→ BIIB132（SCA3 ASO，2023 放棄）。掃描邏輯升級為主動發現清單外的新 SCA 療法。",
+    "link": { "label": "詳見 競品全景 ↗", "tab": "ls" }
+  },
+  {
+    "date": "2026-07-12",
+    "dateDisplay": "2026/07/12",
     "tag": "每日掃描",
     "level": "info",
     "body": "新增 2 則科學文獻（SCA 免疫活化與膠細胞失能之免疫調節綜述、SCA 基因療法綜述）。",

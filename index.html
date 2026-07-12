@@ -108,7 +108,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.0</span></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.2</span></div>
         <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
       </div>
       <div class="meta">最後掃描：<b id="lastScan">—</b>（今日）<br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
@@ -131,7 +131,7 @@
 <!-- OVERVIEW -->
 <section id="ov" class="panel on">
   <div class="kpi">
-    <div class="box"><div class="n">6</div><div class="l">追蹤競品</div><div class="d">SCA 領域在研療法</div></div>
+    <div class="box"><div class="n">7</div><div class="l">追蹤競品</div><div class="d">SCA 領域在研療法</div></div>
     <div class="box"><div class="n r">2</div><div class="l">競品近期受挫 ✓利多</div><div class="d">Biohaven 退件、Biogen/Ionis 退場</div></div>
     <div class="box"><div class="n g">1</div><div class="l">最接近取證＝本社</div><div class="d">日本承認申請已送 PMDA</div></div>
     <div class="box"><div class="n" id="weekCount">2</div><div class="l">本週新增情報</div><div class="d">見右側自動摘要</div></div>
@@ -183,10 +183,16 @@
         <td>2026/02/24 半年一次給藥 Ph1/2；<b>與本社在 SCA3 重疊</b>，惟 <b style="color:#ffce7a">SCA 尚無明確療效</b>（SCA3 生物標記混合/微弱、SCA1 無；正面在 HD）；鞘內注射、曾見 radiculitis（多數恢復中；vs 本社靜脈輸注）<br><a class="src" href="https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" target="_blank">給藥公告 ↗</a> <a class="src" href="https://en.hdbuzz.net/398/" target="_blank">SCA數據/安全 ↗ HDBuzz</a> <a class="src" href="https://clinicaltrials.gov/study/NCT05822908" target="_blank">試驗 ↗ NCT</a></td>
         <td><span class="pill p-high">高(遠期)</span></td>
       </tr>
+      <tr data-f="mid">
+        <td><span class="co">Arrowhead / Sarepta</span><br><span class="asset">ARO-ATXN2</span></td>
+        <td class="mod">siRNA (RNAi)<br>ATXN2</td><td class="mod">SCA2</td><td>Ph1</td>
+        <td>鞘內 siRNA、降 ataxin-2。一期 <b>NCT06672445</b> 已收滿 39 人、2026 年中停止收案；primary completion 估 2026/12。<b style="color:#ffce7a">站點含台北榮總（郵遞區號 112201 反查確認）</b>——本社避開台灣 SCA2 的主因。屬「SCA2 版的上游 gene-silencing」，深部小腦交付未證。<br><a class="src" href="https://clinicaltrials.gov/study/NCT06672445" target="_blank">試驗 ↗ NCT06672445</a> <a class="src" href="https://www.ataxia.org/study/aroatxn2-1001/" target="_blank">研究頁 ↗ NAF</a></td>
+        <td><span class="pill p-mid">中(遠期)</span></td>
+      </tr>
       <tr data-f="low">
-        <td><span class="co">Biogen / Ionis</span><br><span class="asset">BIIB105</span></td>
-        <td class="mod">ASO (ATXN2)</td><td class="mod">SCA2 / ALS</td><td>已終止</td>
-        <td>2024/05 因臨床無顯著療效終止；Biogen/Ionis 已大幅退出 polyQ 共濟失調 ASO 領域<br><a class="src" href="https://www.alzforum.org/therapeutics/biib105" target="_blank">來源 ↗ ALZFORUM</a></td>
+        <td><span class="co">Biogen / Ionis</span><br><span class="asset">BIIB132 (ION260)</span></td>
+        <td class="mod">ASO (ATXN3)<br>非選擇性</td><td class="mod">SCA3</td><td>已放棄</td>
+        <td>2023/04 Biogen 主動放棄（41 週猴子鞘內毒理＋人體 PD 不足）；一期僅收 8 人即終止。<b>標的對、載具送不到深部小腦</b>。〔另 BIIB105/ATXN2 為 ALS 案、2024 終止，非 SCA〕<br><a class="src" href="https://clinicaltrials.gov/study/NCT05160558" target="_blank">試驗 ↗ NCT05160558</a> <a class="src" href="https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/" target="_blank">停止 ↗ Ataxia UK</a></td>
         <td><span class="pill p-low">低(退場)</span></td>
       </tr>
       <tr data-f="low">
@@ -274,9 +280,14 @@
         <div class="bar b-mid" style="left:2%;width:44%">Ph1/2a 進行中</div></div>
     </div>
     <div class="plrow">
-      <div class="nm"><span class="co">Biogen/Ionis BIIB105</span><span class="asset">ASO (ATXN2)</span></div>
+      <div class="nm"><span class="co">Arrowhead ARO-ATXN2</span><span class="asset">siRNA (SCA2)</span></div>
       <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
-        <div class="bar b-stop" style="left:2%;width:30%">2024/05 已終止</div></div>
+        <div class="bar b-mid" style="left:2%;width:30%">Ph1 收案結束</div></div>
+    </div>
+    <div class="plrow">
+      <div class="nm"><span class="co">Biogen/Ionis BIIB132</span><span class="asset">ASO (ATXN3)</span></div>
+      <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
+        <div class="bar b-stop" style="left:2%;width:22%">2023/04 放棄(Ph1)</div></div>
     </div>
     <div class="plrow">
       <div class="nm"><span class="co">UniQure 等 基因療法</span><span class="asset">AAV</span></div>
@@ -295,7 +306,7 @@
       <tr><th>試驗 (NCT)</th><th>介入 / 藥物</th><th>機制</th><th>期別</th><th>狀態</th><th>主導</th></tr>
       <tbody id="trialBody"></tbody>
     </table>
-    <p style="font-size:11.5px;color:#8b9bb0;margin-top:10px">雷達涵蓋所有機制路線：本社 MSC（2 案）、ASO（Vico）、小分子（Biohaven）、<b style="color:#ffce7a">其他細胞療法對手</b>（臍帶 MSC、外泌體）。→ 除了三大主要對手，另有 2 個 MSC/外泌體路線正在萌芽，值得持續盯。</p>
+    <p style="font-size:11.5px;color:#8b9bb0;margin-top:10px">雷達涵蓋所有機制路線：本社 MSC（2 案）、ASO（Vico）、<b style="color:#ffce7a">siRNA（Arrowhead／SCA2）</b>、小分子（Biohaven）、其他細胞療法對手（臍帶 MSC、外泌體）。→ 涵蓋小分子／ASO／siRNA／細胞／外泌體各路線，並持續主動掃描清單外的新進者。</p>
   </div>
 
   <div class="grid2">
@@ -462,7 +473,12 @@
 <!-- CHANGELOG -->
 <section id="lg" class="panel">
   <div class="card">
-    <h2>◎ 自動化更新紀錄 (Changelog)</h2>
+    <h2>◎ 版本更新紀錄 (Release Notes)</h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">平台本身每次改版做了什麼，都記在這裡——與下方「每日掃描紀錄」不同：這裡是平台功能的版本沿革，讓大家一眼看懂平台是怎麼一步步長出來的。</p>
+    <div id="verList"></div>
+  </div>
+  <div class="card">
+    <h2>◎ 每日掃描紀錄 (Daily Scan Log)</h2>
     <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">每次排程掃描的執行紀錄。若當天無新情報，僅更新「最後掃描」時間、不產生噪音項目——這是設計選擇，不是系統故障。</p>
     <ul class="digest" id="logList"></ul>
     <div style="text-align:center;margin-top:4px">
@@ -472,7 +488,7 @@
 </section>
 
 <div class="foot">
-  <b>SCA-IQ 競品情報監測平台 v1.1</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
+  <b>SCA-IQ 競品情報監測平台 v1.2</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
   本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。
 </div>
 </div>
@@ -576,6 +592,21 @@ function renderChangelog(){
   else{tog.style.display='';tog.textContent=clExpanded?'收合 ▴':('顯示全部（共 '+rows.length+' 筆）▾');}
 }
 fetch('data/changelog.json').then(function(r){return r.json();}).then(function(d){changelogData=d;renderChangelog();}).catch(function(){});
+
+/* ── 版本更新紀錄：由 data/versions.json 動態渲染（新→舊） ── */
+var versionsData=[];
+function renderVersions(){
+  var box=document.getElementById('verList'); if(!box) return;
+  box.innerHTML=versionsData.map(function(v){
+    var items=(v.changes||[]).map(function(c){return '<li style="margin:3px 0">'+esc(c)+'</li>';}).join('');
+    return '<div style="padding:11px 0;border-bottom:1px solid #1e2a3a">'
+      +'<div style="font-weight:700;color:#cfe0f5;font-size:13.5px;margin-bottom:5px">'
+      +'<span style="background:rgba(31,111,235,0.16);color:#7fb2ff;border:1px solid #2b4a7d;border-radius:5px;padding:1px 8px;margin-right:8px;font-size:12px">'+esc(v.version)+'</span>'
+      +esc(v.title||'')+'<span class="date">'+esc(v.dateDisplay)+'</span></div>'
+      +'<ul style="margin:0 0 0 18px;padding:0;color:#9fb4cc;font-size:12.5px;line-height:1.7">'+items+'</ul></div>';
+  }).join('');
+}
+fetch('data/versions.json').then(function(r){return r.json();}).then(function(d){versionsData=d;renderVersions();}).catch(function(){});
 
 /* ── 頁首掃描日期 + KPI「本週新增」：由 data/meta.json 動態渲染 ── */
 fetch('data/meta.json').then(function(r){return r.json();}).then(function(m){
