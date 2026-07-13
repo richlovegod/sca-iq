@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-13",
+    "dateDisplay": "2026/07/13",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 3 則科學文獻（遺傳性小腦萎縮症自體骨髓 MSC Ph1/2a 臨床＝MSC 競品訊號、SCA36 NOP56 致病機制、SCA3 連結體神經調控標的）。",
+    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+  },
+  {
     "date": "2026-07-12",
     "dateDisplay": "2026/07/12",
     "tag": "競品更新",

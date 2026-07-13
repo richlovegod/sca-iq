@@ -1,5 +1,41 @@
 [
   {
+    "id": "pubmed:42432710",
+    "date": "2026-07-10",
+    "dateDisplay": "2026/07/10",
+    "title": "Safety and preliminary efficacy of autologous bone marrow-derived mesenchymal stem cell transplantation in hereditary cerebellar ataxia: phase I/IIa clinical trial",
+    "journal": "Stem Cell Res Ther · Moghaddam AS 等",
+    "tag": "MSC 臨床試驗 · 競品動態",
+    "note": "→ 競品訊號：另一組 MSC 細胞療法在遺傳性小腦萎縮症的 Ph1/2a 臨床（自體骨髓 MSC），與本社異體脂肪 MSC 為同機制對手；同時佐證 MSC 治療 SCA 的臨床可行性敘事。",
+    "highlight": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42432710/",
+    "urlLabel": "論文 ↗ PubMed 42432710"
+  },
+  {
+    "id": "pubmed:42437952",
+    "date": "2026-07-12",
+    "dateDisplay": "2026/07/12",
+    "title": "NOP56 is essential for mammalian generation and maintenance of multiple central nervous systems, associated with SCA36 pathology",
+    "journal": "Acta Neuropathol Commun · Matsuzono K 等",
+    "tag": "SCA36 機制",
+    "note": "→ 釐清 NOP56 在中樞神經生成與維持的角色及其與 SCA36 病理的關聯，屬 SCA 亞型致病機制基礎研究。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42437952/",
+    "urlLabel": "論文 ↗ PubMed 42437952"
+  },
+  {
+    "id": "pubmed:42403360",
+    "date": "2026-07-01",
+    "dateDisplay": "2026/07",
+    "title": "Mapping the Disrupted Connectome in Spinocerebellar Ataxia Type 3: A Network-Based Statistics Study Identifying Novel Therapeutic Targets for Neuromodulation",
+    "journal": "CNS Neurosci Ther · Ou L 等",
+    "tag": "SCA3 神經調控標的",
+    "note": "→ 以網絡統計法定位 SCA3 受損連結體，指出可作為神經調控介入的新治療標的。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42403360/",
+    "urlLabel": "論文 ↗ PubMed 42403360"
+  },
+  {
     "id": "pubmed:42426383",
     "date": "2026-07-10",
     "dateDisplay": "2026/07/10",
