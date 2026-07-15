@@ -98,11 +98,20 @@
   .heartbeat.err{background:rgba(231,76,60,.09);border:1px solid #6a2e2e;color:#f0b8b0}
   .heartbeat.err .dot{background:#e74c3c;box-shadow:0 0 8px #e74c3c}
   /* 會議行事曆項目：即將(綠) vs 已結束(灰)，由日期自動切換 */
-  .confrow.upcoming{color:#6ee7a0}
-  .confrow.upcoming .host{color:#fff}
-  .confrow.past{color:#8b9bb0}
-  .confrow.past .host{color:#c9d6e3}
-  .cstat{font-size:11px}
+  /* 會議雷達（events.json 動態渲染） */
+  .evt{padding:9px 0;border-bottom:1px solid #1c2a39}
+  .evt:last-child{border-bottom:none}
+  .evt .ed{font-size:11.5px;font-weight:700}
+  .evt .cd{font-size:11px;color:#8b9bb0;margin-left:7px;font-weight:400}
+  .evt .en{font-size:12.5px;font-weight:700;color:#cfe0f2;margin-top:2px}
+  .evt .em{font-size:11.5px;color:#9fb4cc;margin-top:2px;line-height:1.5}
+  .evt.up .ed{color:#6ee7a0}
+  .evt.up .cd{color:#6ee7a0}
+  .evt.tbd .ed,.evt.tbd .cd{color:#7db6ff}
+  .evt.past{opacity:.62}
+  .evt.past .ed,.evt.past .cd{color:#8b9bb0}
+  .evt .selfpill{font-size:10px;font-weight:700;color:#6ee7a0;background:#183a29;border-radius:20px;padding:1px 8px;margin-left:7px}
+  .evt .cmp{font-size:11.5px;color:#9fb4cc;margin-top:4px;padding-left:10px;border-left:2px solid #34506e;line-height:1.5}
   .rmsum{display:flex;gap:12px;margin-bottom:20px}
   .rmsum .box{flex:1;background:#182533;border:1px solid #243748;border-radius:9px;padding:14px 10px;text-align:center}
   .rmsum .n{font-size:20px;font-weight:800;color:#4da3ff}
@@ -127,7 +136,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.3</span> <a href="versions.html" class="relnote">版本紀錄 ↗</a></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.4</span> <a href="versions.html" class="relnote">版本紀錄 ↗</a></div>
         <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
       </div>
       <div class="meta">最後掃描：<b id="lastScan">—</b><span id="scanFresh"></span><br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
@@ -342,12 +351,9 @@
     </div>
     <div>
       <div class="card">
-        <h2>◎ 學會 / 會議行事曆</h2>
-        <div class="glossbox">
-          <p id="confBioAsia" data-date="2026-07-17" class="confrow upcoming"><b>2026/07/17　BioAsia Taiwan — Cell Therapy Leadership Forum</b><span class="cstat"></span><br>細胞治療臨床轉譯、法規、CMC、GMP 製造與國際合作。<b class="host">本社共同主辦</b>。</p>
-          <p style="margin-top:12px">下列為領域關鍵年度會議，正式版將自動追蹤各屆日程與競品發表：</p>
-          <p style="margin-top:8px;color:#9fb4cc">・World Orphan Drug Congress（WODC）— 本社 2025/04 曾於此發表 Ph2<br>・NAF Annual Ataxia Conference（美國共濟失調基金會）<br>・MDS International Congress（動作障礙）<br>・ISSCR Annual Meeting（幹細胞）</p>
-        </div>
+        <h2>◎ 學會 / 會議雷達</h2>
+        <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px">領域關鍵會議的下屆日程自動追蹤：即將舉行標綠、結束後自動歸檔。競品若於會中發表且有公開來源，會併列於該會議下。</p>
+        <div class="glossbox" id="eventList"></div>
       </div>
       <div class="card" style="border-style:dashed">
         <h2 style="color:#8b9bb0">◎ 專利監測（規劃中）</h2>
@@ -503,7 +509,7 @@
 </section>
 
 <div class="foot">
-  <b>SCA-IQ 競品情報監測平台 v1.3</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
+  <b>SCA-IQ 競品情報監測平台 v1.4</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
   本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。<br>
   <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none">平台版本紀錄 / Release notes ↗</a>
 </div>
@@ -654,8 +660,37 @@ function renderHeartbeat(){
 /* ── KPI「追蹤競品」數：由競品全景表列數自動帶入，新增/移除競品時自動同步 ── */
 (function(){var cc=q2('compCount');if(!cc)return;var n=document.querySelectorAll('#lstab tr[data-f]').length;if(n)cc.textContent=n;})();
 
-/* ── 會議行事曆：日期過了自動轉灰並標「已結束」，不再固定顯示綠色「即將」 ── */
-(function(){document.querySelectorAll('.confrow[data-date]').forEach(function(p){var d=p.getAttribute('data-date');if(d&&daysAgo(d)>0){p.classList.remove('upcoming');p.classList.add('past');var s=p.querySelector('.cstat');if(s)s.textContent=' · 已結束';}});})();
+/* ── 會議雷達：由 data/events.json 動態渲染（即將/待公布/已結束，過期自動歸檔）── */
+var eventsData=[];
+function renderEvents(){
+  var box=document.getElementById('eventList'); if(!box) return;
+  function stOf(e){return !e.date?'tbd':(daysAgo(e.date)>0?'past':'up');}
+  var ord={up:0,tbd:1,past:2};
+  var rows=eventsData.map(function(e){return {e:e,st:stOf(e)};}).sort(function(a,b){
+    if(ord[a.st]!==ord[b.st]) return ord[a.st]-ord[b.st];
+    if(a.st==='past') return (b.e.date||'').localeCompare(a.e.date||'');
+    return (a.e.date||'').localeCompare(b.e.date||'');
+  });
+  box.innerHTML=rows.map(function(r){
+    var e=r.e,st=r.st,badge;
+    if(st==='up'){var rem=-daysAgo(e.date);badge='<span class="cd">· '+(rem===0?'今日':(rem===1?'明日':('還有 '+rem+' 天')))+'</span>';}
+    else if(st==='past'){badge='<span class="cd">· 已結束</span>';}
+    else{badge='<span class="cd">· 日期待公布</span>';}
+    var dstr=e.dateDisplay||(st==='tbd'?'日期待公布':'');
+    var self=e.highlight?'<span class="selfpill">本社相關</span>':'';
+    var loc=e.location?('　'+esc(e.location)):'';
+    var link=e.url?(' <a class="src" href="'+esc(e.url)+'" target="_blank">官網 ↗</a>'):'';
+    var rel=e.relevance?('<div class="em">'+e.relevance+'</div>'):'';
+    var cmp=(e.competitors||[]).map(function(c){
+      return '<div class="cmp">▸ <b>'+esc(c.who)+'</b>：'+esc(c.what)+(c.url?(' <a class="src" href="'+esc(c.url)+'" target="_blank">來源 ↗</a>'):'')+'</div>';
+    }).join('');
+    return '<div class="evt '+st+'"><div><span class="ed">'+esc(dstr)+'</span>'+badge+self+'</div>'+
+      '<div class="en">'+esc(e.name)+loc+link+'</div>'+rel+cmp+'</div>';
+  }).join('');
+}
+fetch('data/events.json').then(function(r){return r.json();}).then(function(d){eventsData=d;renderEvents();}).catch(function(){
+  var b=document.getElementById('eventList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">（會議資料載入失敗）</p>';
+});
 </script>
 </body>
 </html>

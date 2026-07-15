@@ -1,0 +1,57 @@
+[
+  {
+    "id": "bioasia-2026",
+    "name": "BioAsia Taiwan — Cell Therapy Leadership Forum",
+    "date": "2026-07-17",
+    "dateDisplay": "2026/07/17",
+    "location": "台北",
+    "relevance": "細胞治療臨床轉譯、法規、CMC、GMP 製造與國際合作。<b>本社共同主辦</b>。",
+    "highlight": true,
+    "url": "",
+    "competitors": []
+  },
+  {
+    "id": "mds-congress-2026",
+    "name": "MDS International Congress (國際動作障礙學會年會)",
+    "date": "2026-10-04",
+    "dateDisplay": "2026/10/04–08",
+    "location": "首爾 COEX",
+    "relevance": "動作障礙領域最大國際年會；SCA／共濟失調臨床與競品發表重鎮。",
+    "highlight": false,
+    "url": "https://www.mdscongress.org/",
+    "competitors": []
+  },
+  {
+    "id": "wodc-europe-2026",
+    "name": "World Orphan Drug Congress Europe (WODC)",
+    "date": "2026-10-26",
+    "dateDisplay": "2026/10/26–28",
+    "location": "阿姆斯特丹 RAI",
+    "relevance": "罕病／孤兒藥旗艦會議。<b>本社 2025/04 曾於 WODC 發表 Ph2</b>。",
+    "highlight": true,
+    "url": "https://www.terrapinn.com/conference/world-orphan-drug-congress/index.stm",
+    "competitors": []
+  },
+  {
+    "id": "naf-aac",
+    "name": "NAF Annual Ataxia Conference (美國共濟失調基金會年會)",
+    "date": null,
+    "dateDisplay": "",
+    "location": "美國",
+    "relevance": "SCA 病友、研究者與藥廠齊聚；競品常於此揭露臨床進度。下屆日期待官網公布。",
+    "highlight": false,
+    "url": "https://www.ataxia.org/aac/",
+    "competitors": []
+  },
+  {
+    "id": "isscr-2026",
+    "name": "ISSCR Annual Meeting (國際幹細胞研究學會年會)",
+    "date": "2026-07-08",
+    "dateDisplay": "2026/07/08–11",
+    "location": "蒙特婁",
+    "relevance": "幹細胞與再生醫學旗艦會議（本社 MSC 領域）。下屆（2027）日期官網未公布。",
+    "highlight": false,
+    "url": "https://www.isscr.org/",
+    "competitors": []
+  }
+]
