@@ -86,6 +86,17 @@
   .note{background:#122a1f;border:1px solid #1e5a3a;border-radius:8px;padding:12px 16px;font-size:12.5px;color:#a8e0c0;line-height:1.6;margin-top:14px}
   .foot{margin-top:22px;font-size:11px;color:#6a7c92;line-height:1.7;border-top:1px solid #243748;padding-top:14px}
   .foot b{color:#8b9bb0}
+  /* scan heartbeat (掃描心跳狀態列) */
+  .heartbeat{display:flex;align-items:flex-start;gap:10px;font-size:12.5px;padding:11px 15px;border-radius:8px;margin-bottom:16px;line-height:1.55}
+  .heartbeat .dot{width:9px;height:9px;border-radius:50%;flex:none;margin-top:5px}
+  .heartbeat b{color:#fff}
+  .heartbeat .sub{color:#8b9bb0;font-size:11.5px}
+  .heartbeat.ok{background:rgba(46,204,113,.08);border:1px solid #1e5a3a;color:#a8e0c0}
+  .heartbeat.ok .dot{background:#2ecc71;box-shadow:0 0 8px #2ecc71;animation:p 1.6s infinite}
+  .heartbeat.warn{background:rgba(255,206,122,.09);border:1px solid #6a5a2e;color:#f0d9a8}
+  .heartbeat.warn .dot{background:#ffce7a;box-shadow:0 0 8px #ffce7a}
+  .heartbeat.err{background:rgba(231,76,60,.09);border:1px solid #6a2e2e;color:#f0b8b0}
+  .heartbeat.err .dot{background:#e74c3c;box-shadow:0 0 8px #e74c3c}
   .rmsum{display:flex;gap:12px;margin-bottom:20px}
   .rmsum .box{flex:1;background:#182533;border:1px solid #243748;border-radius:9px;padding:14px 10px;text-align:center}
   .rmsum .n{font-size:20px;font-weight:800;color:#4da3ff}
@@ -113,7 +124,7 @@
         <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.2</span> <a href="versions.html" class="relnote">版本紀錄 ↗</a></div>
         <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
       </div>
-      <div class="meta">最後掃描：<b id="lastScan">—</b>（今日）<br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
+      <div class="meta">最後掃描：<b id="lastScan">—</b><span id="scanFresh"></span><br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
     </div>
     <nav>
       <button class="on" onclick="tab(event,'ov')">總覽</button>
@@ -477,6 +488,7 @@
   <div class="card">
     <h2>◎ 情報更新紀錄 (Changelog)</h2>
     <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">每次排程掃描的情報更新紀錄。若當天無新情報，僅更新「最後掃描」時間、不產生噪音項目——這是設計選擇，不是系統故障。</p>
+    <div id="scanHeartbeat" class="heartbeat"></div>
     <ul class="digest" id="logList"></ul>
     <div style="text-align:center;margin-top:4px">
       <button id="clToggle" onclick="clExpanded=!clExpanded;renderChangelog()" style="background:#182533;border:1px solid #2b3a4d;color:#9fb4cc;font-size:12px;font-family:inherit;padding:6px 16px;border-radius:20px;cursor:pointer">顯示全部 ▾</button>
@@ -589,15 +601,49 @@ function renderChangelog(){
   if(rows.length<=CL_RECENT){tog.style.display='none';}
   else{tog.style.display='';tog.textContent=clExpanded?'收合 ▴':('顯示全部（共 '+rows.length+' 筆）▾');}
 }
-fetch('data/changelog.json').then(function(r){return r.json();}).then(function(d){changelogData=d;renderChangelog();}).catch(function(){});
+fetch('data/changelog.json').then(function(r){return r.json();}).then(function(d){changelogData=d;renderChangelog();renderHeartbeat();}).catch(function(){});
 
 /* ── 頁首掃描日期 + KPI「本週新增」：由 data/meta.json 動態渲染 ── */
+var metaData=null;
 fetch('data/meta.json').then(function(r){return r.json();}).then(function(m){
+  metaData=m;
   if(q2('lastScan')) q2('lastScan').textContent=m.lastScan||'—';
   if(q2('nextScan')) q2('nextScan').textContent=m.nextScan||'—';
   if(q2('weekCount')&&m.weekNewCount!=null) q2('weekCount').textContent=m.weekNewCount;
+  renderHeartbeat();
 }).catch(function(){});
 function q2(id){return document.getElementById(id);}
+
+/* ── 掃描心跳：比對 meta.lastScan 與今日，顯示「有跑但無新情報 / 有新情報 / 掃描中斷」── */
+function todayStr(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function daysAgo(dateStr){var a=new Date(dateStr+'T00:00:00'),b=new Date(todayStr()+'T00:00:00');return Math.round((b-a)/86400000);}
+function freshLabel(diff){if(diff<=0)return '今日';if(diff===1)return '昨日';return diff+' 天前';}
+function renderHeartbeat(){
+  if(!metaData) return;
+  var el=q2('scanHeartbeat'), fresh=q2('scanFresh');
+  var last=metaData.lastScan||'', next=metaData.nextScan||'—';
+  var diff=last?daysAgo(last):999;
+  var today=todayStr();
+  var addedToday=(changelogData||[]).some(function(c){return c.date===today;});
+  var cls,msg;
+  if(diff<=0){
+    cls='ok';
+    msg=addedToday
+      ? '<b>今日已完成掃描</b>，並新增情報（見下方紀錄）。'
+      : '<b>今日已完成掃描</b>，無新情報——這是正常結果，非系統故障。';
+  }else if(diff===1){
+    cls='ok';
+    msg='<b>系統運作中</b>，最後掃描 '+esc(last)+'（昨日）；今日排程掃描預計於 09:45 執行。';
+  }else if(diff===2){
+    cls='warn';
+    msg='<b>掃描可能延遲</b>：最後一次成功掃描為 '+esc(last)+'（'+diff+' 天前），今日與昨日尚無更新。';
+  }else{
+    cls='err';
+    msg='<b>掃描中斷</b>：最後一次成功掃描為 '+esc(last)+'（'+diff+' 天前），排程可能未執行，建議檢查。';
+  }
+  if(el){el.className='heartbeat '+cls;el.innerHTML='<span class="dot"></span><span>'+msg+' <span class="sub">· 下次掃描 '+esc(next)+'</span></span>';}
+  if(fresh){fresh.textContent='（'+freshLabel(diff)+'）';fresh.style.color=diff<=1?'#6ee7a0':(diff===2?'#ffce7a':'#ff8a7a');}
+}
 </script>
 </body>
 </html>
