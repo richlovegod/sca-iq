@@ -158,6 +158,7 @@
       <button onclick="tab(event,'ls')">競品全景</button>
       <button onclick="tab(event,'jp')">日本法規時間軸</button>
       <button onclick="tab(event,'pl')">臨床開發進度</button>
+      <button onclick="tab(event,'ip')">專利與獨占權</button>
       <button onclick="tab(event,'si')">科學情報</button>
       <button onclick="tab(event,'ar')">自動化架構</button>
       <button onclick="tab(event,'rm')">6 週計畫</button>
@@ -338,6 +339,20 @@
   </div>
 </section>
 
+<!-- IP / EXCLUSIVITY -->
+<section id="ip" class="panel">
+  <div class="card">
+    <h2>◎ 專利雷達　<span style="font-size:11px;color:#ffce7a;font-weight:400">樣本（Arrowhead · Biohaven，待確認後擴及全競品）</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6">追蹤競品關鍵專利（組成物／用途），每筆附 Google Patents 來源。到期日為<b>估計值</b>（申請日＋20 年，未計專利期延長／調整），僅供情報參考、<b>非法律意見</b>。</p>
+    <div id="patentList"></div>
+  </div>
+  <div class="card">
+    <h2>◎ 市場獨占權雷達　<span style="font-size:11px;color:#ffce7a;font-weight:400">樣本</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6">孤兒藥的護城河不只專利——美國／歐盟孤兒藥<b>市場獨占</b>（核准後 7 年／10 年）、資料專屬期常同等關鍵。注意：「<b>孤兒藥資格 designation</b>」是研發階段身分，「<b>市場獨占 exclusivity</b>」須待核准才啟動，兩者不同。</p>
+    <div id="exclusivityList"></div>
+  </div>
+</section>
+
 <!-- SCIENTIFIC INTELLIGENCE -->
 <section id="si" class="panel">
   <div class="card" id="trialradar" style="scroll-margin-top:16px">
@@ -366,11 +381,6 @@
         <h2>◎ 學會 / 會議雷達</h2>
         <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px">領域關鍵會議的下屆日程自動追蹤：即將舉行標綠、結束後自動歸檔。競品若於會中發表且有公開來源，會併列於該會議下。</p>
         <div class="glossbox" id="eventList"></div>
-      </div>
-      <div class="card">
-        <h2>◎ 專利雷達　<span style="font-size:11px;color:#ffce7a;font-weight:400">樣本（Arrowhead · Biohaven，待確認後擴及全競品）</span></h2>
-        <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6">追蹤競品關鍵專利（組成物／用途），每筆附 Google Patents 來源。到期日為<b>估計值</b>（申請日＋20 年，未計專利期延長／調整），僅供情報參考、<b>非法律意見</b>。</p>
-        <div id="patentList"></div>
       </div>
     </div>
   </div>
@@ -723,6 +733,24 @@ function renderPatents(){
 }
 fetch('data/patents.json').then(function(r){return r.json();}).then(function(d){patentsData=d;renderPatents();}).catch(function(){
   var b=document.getElementById('patentList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">（專利資料載入失敗）</p>';
+});
+
+/* ── 市場獨占權雷達：由 data/exclusivity.json 動態渲染（孤兒藥資格／市場獨占）── */
+var exclusivityData=[];
+function renderExclusivity(){
+  var box=document.getElementById('exclusivityList'); if(!box) return;
+  box.innerHTML=exclusivityData.map(function(e){
+    return '<div class="pat">'+
+      '<div class="ph">'+esc(e.competitor)+' · '+esc(e.asset)+'<span class="ptype">'+esc(e.region)+'</span></div>'+
+      '<div class="ptitle">'+esc(e.type)+'</div>'+
+      '<div class="pmeta">狀態 <b>'+esc(e.status)+'</b></div>'+
+      (e.note?'<div class="pnote">'+esc(e.note)+'</div>':'')+
+      (e.url?'<a class="src" href="'+esc(e.url)+'" target="_blank">來源 ↗</a>':'')+
+    '</div>';
+  }).join('');
+}
+fetch('data/exclusivity.json').then(function(r){return r.json();}).then(function(d){exclusivityData=d;renderExclusivity();}).catch(function(){
+  var b=document.getElementById('exclusivityList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">（獨占權資料載入失敗）</p>';
 });
 </script>
 </body>
