@@ -124,6 +124,7 @@
   .pat .pmeta .granted{color:#6ee7a0}
   .pat .pmeta .pending{color:#ffce7a}
   .pat .pnote{font-size:11.5px;color:#9fb4cc;margin-top:4px;line-height:1.55}
+  .pat.self{border-left:3px solid #2ecc71;padding-left:11px;background:#101f18;border-radius:0 6px 6px 0}
   .rmsum{display:flex;gap:12px;margin-bottom:20px}
   .rmsum .box{flex:1;background:#182533;border:1px solid #243748;border-radius:9px;padding:14px 10px;text-align:center}
   .rmsum .n{font-size:20px;font-weight:800;color:#4da3ff}
@@ -148,7 +149,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.4</span> <a href="versions.html" class="relnote">版本紀錄 ↗</a></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.5</span> <a href="versions.html" class="relnote">版本紀錄 ↗</a></div>
         <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
       </div>
       <div class="meta">最後掃描：<b id="lastScan">—</b><span id="scanFresh"></span><br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
@@ -342,14 +343,16 @@
 <!-- IP / EXCLUSIVITY -->
 <section id="ip" class="panel">
   <div class="card">
-    <h2>◎ 專利雷達　<span style="font-size:11px;color:#ffce7a;font-weight:400">樣本（Arrowhead · Biohaven，待確認後擴及全競品）</span></h2>
-    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6">追蹤競品關鍵專利（組成物／用途），每筆附 Google Patents 來源。到期日為<b>估計值</b>（申請日＋20 年，未計專利期延長／調整），僅供情報參考、<b>非法律意見</b>。</p>
+    <h2>◎ 專利雷達</h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6">追蹤競品與本社的關鍵專利（組成物／用途），每筆附 Google Patents 來源。到期日為<b>估計值</b>（申請日＋20 年，未計專利期延長／調整），僅供情報參考、<b>非法律意見</b>。</p>
     <div id="patentList"></div>
+    <p style="font-size:11px;color:#6a7c92;margin-top:10px;line-height:1.6">註：UniQure AMT-150（AAV）近年已去優先化、學名藥 Riluzole 組成物專利早已到期，故未列於雷達。本社自家專利號建議由 Steminent 內部提供以完整化。</p>
   </div>
   <div class="card">
-    <h2>◎ 市場獨占權雷達　<span style="font-size:11px;color:#ffce7a;font-weight:400">樣本</span></h2>
+    <h2>◎ 市場獨占權雷達</h2>
     <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6">孤兒藥的護城河不只專利——美國／歐盟孤兒藥<b>市場獨占</b>（核准後 7 年／10 年）、資料專屬期常同等關鍵。注意：「<b>孤兒藥資格 designation</b>」是研發階段身分，「<b>市場獨占 exclusivity</b>」須待核准才啟動，兩者不同。</p>
     <div id="exclusivityList"></div>
+    <p style="font-size:11px;color:#6a7c92;margin-top:10px;line-height:1.6">註：Riluzole 為學名藥、無市場獨占；UniQure AMT-150 已去優先化，均不列。掃描另發現 <a class="src" href="https://www.biospace.com/press-releases/cure-rare-disease-receives-orphan-drug-designation-from-fda-for-investigational-therapy-targeting-spinocerebellar-ataxia-type-3-sca3" target="_blank">Cure Rare Disease 之 SCA3 療法獲 FDA 孤兒藥資格 ↗</a>，屬清單外新進者，評估後納入。</p>
   </div>
 </section>
 
@@ -532,7 +535,7 @@
 </section>
 
 <div class="foot">
-  <b>SCA-IQ 競品情報監測平台 v1.4</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
+  <b>SCA-IQ 競品情報監測平台 v1.5</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
   本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。<br>
   <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none">平台版本紀錄 / Release notes ↗</a>
 </div>
@@ -721,8 +724,8 @@ function renderPatents(){
   var box=document.getElementById('patentList'); if(!box) return;
   box.innerHTML=patentsData.map(function(p){
     var stCls=(p.status||'').indexOf('核准')>=0?'granted':'pending';
-    return '<div class="pat">'+
-      '<div class="ph">'+esc(p.competitor)+' · '+esc(p.asset)+'<span class="ptype">'+esc(p.ptype)+'</span></div>'+
+    return '<div class="pat'+(p.self?' self':'')+'">'+
+      '<div class="ph">'+esc(p.competitor)+' · '+esc(p.asset)+'<span class="ptype">'+esc(p.ptype)+'</span>'+(p.self?'<span class="selfpill">本社</span>':'')+'</div>'+
       '<div class="pnum">'+esc(p.number)+'</div>'+
       '<div class="ptitle">'+esc(p.title)+'</div>'+
       '<div class="pmeta">權利人 '+esc(p.assignee)+'　·　申請 '+esc(p.filed)+'　·　狀態 <b class="'+stCls+'">'+esc(p.status)+'</b>　·　估計到期 <b>'+esc(p.expiry)+'</b></div>'+
@@ -740,8 +743,8 @@ var exclusivityData=[];
 function renderExclusivity(){
   var box=document.getElementById('exclusivityList'); if(!box) return;
   box.innerHTML=exclusivityData.map(function(e){
-    return '<div class="pat">'+
-      '<div class="ph">'+esc(e.competitor)+' · '+esc(e.asset)+'<span class="ptype">'+esc(e.region)+'</span></div>'+
+    return '<div class="pat'+(e.self?' self':'')+'">'+
+      '<div class="ph">'+esc(e.competitor)+' · '+esc(e.asset)+'<span class="ptype">'+esc(e.region)+'</span>'+(e.self?'<span class="selfpill">本社</span>':'')+'</div>'+
       '<div class="ptitle">'+esc(e.type)+'</div>'+
       '<div class="pmeta">狀態 <b>'+esc(e.status)+'</b></div>'+
       (e.note?'<div class="pnote">'+esc(e.note)+'</div>':'')+

@@ -1,5 +1,16 @@
 [
   {
+    "version": "v1.5",
+    "dateDisplay": "2026/07/15",
+    "title": "專利與市場獨占權雷達",
+    "changes": [
+      "新增獨立頁籤「專利與獨占權」，內含專利雷達＋市場獨占權雷達",
+      "專利雷達涵蓋全競品＋本社防禦視角（Biohaven／Vico／Arrowhead／Biogen 及本社 Stemchymal），每筆附 Google Patents 來源、到期日標為估計值",
+      "市場獨占權雷達：追蹤各競品與本社的孤兒藥資格與市場獨占（美／歐／日），並明確區分「資格 designation」與「核准後市場獨占 exclusivity」",
+      "研究過程更正兩處張冠李戴（Maze≠Arrowhead、Roche≠Ionis 的 ATXN3 ASO 專利）；查不到者誠實留白、不臆測"
+    ]
+  },
+  {
     "version": "v1.4",
     "dateDisplay": "2026/07/15",
     "title": "會議雷達",

@@ -1,5 +1,20 @@
 [
   {
+    "id": "steminent-us",
+    "competitor": "仲恩 Steminent",
+    "asset": "Stemchymal®",
+    "self": true,
+    "number": "美國核准專利（公司公開揭露）",
+    "title": "誘導自噬、降解突變 ataxin-3 之 MSC 治療機制",
+    "ptype": "方法／機制專利",
+    "assignee": "Steminent（本社）",
+    "filed": "—",
+    "status": "已核准（美國）",
+    "expiry": "—",
+    "note": "→ 本社 MoA（誘導細胞自噬清除突變 ataxin-3）有美國核准專利保護（公司公開揭露）。具體專利號未見於公開新聞——本社自家 IP 建議由 Steminent 內部提供以完整化，勝過外部推測。",
+    "url": "https://www.geneonline.com/steminent-stands-ready-to-showcase-novel-msc-based-therapy-for-spinocerebellar-ataxia-at-global-stage/"
+  },
+  {
     "id": "us10485791",
     "competitor": "Biohaven",
     "asset": "Troriluzole",
@@ -28,6 +43,20 @@
     "url": "https://patents.google.com/patent/US20210023061A1/en"
   },
   {
+    "id": "vico-lumc-foundational",
+    "competitor": "Vico Therapeutics",
+    "asset": "VO659",
+    "number": "US 10,590,421 B2（LUMC 基礎平台專利）",
+    "title": "CAG 三核苷酸重複之反義寡核苷酸外顯子跳躍（polyQ 疾病）",
+    "ptype": "基礎平台專利",
+    "assignee": "Leiden University Medical Center (LUMC)",
+    "filed": "2010-08-05（優先權）",
+    "status": "已核准；部分成員已因未繳年費失效",
+    "expiry": "基礎專利期約至 2030；VO659 專屬組成之較新請求項應在後續申請案（未列於此）",
+    "note": "→ VO659 的 CAG exon-skipping 技術源自 LUMC 授權；此基礎專利已老化／部分失效，屬 Vico IP 的潛在弱點；資產專屬保護需看較新的 Vico/LUMC 申請案。",
+    "url": "https://patents.google.com/patent/US10590421B2/en"
+  },
+  {
     "id": "wo2024196753",
     "competitor": "Arrowhead / Sarepta",
     "asset": "ARO-ATXN2",
@@ -40,5 +69,19 @@
     "expiry": "約 2044（估計，申請日＋20 年）",
     "note": "→ Arrowhead ATXN2 siRNA 的核心 IP，2024 新申請、專利壽命長（約 2044）；SCA2 專屬（本社刻意避開 SCA2），屬鄰域監控。",
     "url": "https://patents.google.com/patent/WO2024196753A2/en"
+  },
+  {
+    "id": "biogen-biib132",
+    "competitor": "Biogen / Ionis",
+    "asset": "BIIB132 (ION260)",
+    "number": "—（程式已中止）",
+    "title": "ATXN3 反義寡核苷酸（SCA3 ASO）",
+    "ptype": "—",
+    "assignee": "Ionis／Biogen",
+    "filed": "—",
+    "status": "研發中止（2023）",
+    "expiry": "—",
+    "note": "→ BIIB132 於 2023 放棄開發，其 SCA3 ASO 之 IP（Ionis 揭露持有）現為防禦／潛在再授權資產。另注意 Roche 亦持有 ATXN3 ASO 專利（TW202113082A，優先權 2019）——ATXN3 ASO 空間不只一家。",
+    "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/"
   }
 ]

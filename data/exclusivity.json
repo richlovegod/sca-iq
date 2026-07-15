@@ -1,5 +1,27 @@
 [
   {
+    "id": "steminent-us-odd",
+    "competitor": "仲恩 Steminent",
+    "asset": "Stemchymal®",
+    "self": true,
+    "region": "美國 FDA",
+    "type": "孤兒藥資格（PolyQ SCA，2015/12）",
+    "status": "資格已取得；核准後啟動 7 年市場獨占",
+    "note": "→ 2015/12 取得 FDA 孤兒藥資格，核准後可享 7 年美國市場獨占＋研發稅賦優惠、PDUFA 費用豁免。目前美國尚未核准（規劃 Ph2b），故獨占尚未啟動。",
+    "url": "https://www.geneonline.com/steminent-stands-ready-to-showcase-novel-msc-based-therapy-for-spinocerebellar-ataxia-at-global-stage/"
+  },
+  {
+    "id": "steminent-jp",
+    "competitor": "仲恩 Steminent",
+    "asset": "Stemchymal®",
+    "self": true,
+    "region": "日本 MHLW",
+    "type": "孤兒再生醫療產品資格（2018/12）",
+    "status": "資格已取得；優先審查中（承認申請 2026/06 已送）",
+    "note": "→ 2018/12 獲日本孤兒再生醫療產品資格 → 優先審查（約 9 個月）＋開發補助／稅賦。2026/06 已送承認申請，最快 2027H1 取證；核准後於日本享法定獨占安排。",
+    "url": "https://www.geneonline.com/steminent-stands-ready-to-showcase-novel-msc-based-therapy-for-spinocerebellar-ataxia-at-global-stage/"
+  },
+  {
     "id": "troriluzole-us",
     "competitor": "Biohaven",
     "asset": "Troriluzole",
@@ -20,6 +42,26 @@
     "url": "https://www.prnewswire.com/news-releases/biohaven-announces-fda-acceptance-and-priority-review-of-troriluzole-new-drug-application-for-the-treatment-of-spinocerebellar-ataxia-302373056.html"
   },
   {
+    "id": "vico-us-odd",
+    "competitor": "Vico Therapeutics",
+    "asset": "VO659",
+    "region": "美國 FDA",
+    "type": "孤兒藥資格（SCA；另 HD 亦獲）",
+    "status": "資格已取得；市場獨占未啟動（Ph1/2a）",
+    "note": "→ FDA 授予 VO659 於 SCA 及 HD 之孤兒藥資格；仍 Ph1/2a、未核准，7 年獨占尚未啟動。",
+    "url": "https://www.prnewswire.com/news-releases/us-fda-grants-vico-therapeutics-orphan-drug-designation-for-vo659-an-investigational-therapy-for-spinocerebellar-ataxia-301321606.html"
+  },
+  {
+    "id": "vico-eu-odd",
+    "competitor": "Vico Therapeutics",
+    "asset": "VO659",
+    "region": "歐盟 EC",
+    "type": "孤兒藥資格（SCA；另 HD 亦獲）",
+    "status": "資格已取得；市場獨占未啟動",
+    "note": "→ 歐盟執委會授予 VO659 於 SCA（及 HD）孤兒藥資格；核准後可享 10 年歐盟市場獨占，目前未核准。",
+    "url": "https://vicotx.com/press-release/european-commission-grants-vico-therapeutics-orphan-drug-designation-for-vo659-an-investigational-therapy-for-spinocerebellar-ataxia/"
+  },
+  {
     "id": "aroatxn2-excl",
     "competitor": "Arrowhead / Sarepta",
     "asset": "ARO-ATXN2",
@@ -28,5 +70,15 @@
     "status": "公開來源未見公告（Ph1 早期）",
     "note": "→ 兩次搜尋＋藥物資料庫皆未見 ARO-ATXN2 的孤兒藥資格公開公告（資料庫需登入）；屬 Ph1 早期，持續追蹤、不臆測。",
     "url": "https://synapse.patsnap.com/drug/14029625d1b34d41b9a314fb91fc6745"
+  },
+  {
+    "id": "biogen-excl",
+    "competitor": "Biogen / Ionis",
+    "asset": "BIIB132 (ION260)",
+    "region": "—",
+    "type": "—",
+    "status": "程式中止（2023），獨占權議題已無意義",
+    "note": "→ 開發已於 2023 終止；即便曾有任何資格，因無上市計畫，市場獨占不再適用。",
+    "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/"
   }
 ]
