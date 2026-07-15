@@ -62,6 +62,16 @@
     "url": "https://vicotx.com/press-release/european-commission-grants-vico-therapeutics-orphan-drug-designation-for-vo659-an-investigational-therapy-for-spinocerebellar-ataxia/"
   },
   {
+    "id": "crd002-us-odd",
+    "competitor": "Cure Rare Disease",
+    "asset": "CRD-002",
+    "region": "美國 FDA",
+    "type": "孤兒藥資格（SCA3，2025/05/14）",
+    "status": "資格已取得；市場獨占未啟動（臨床前）",
+    "note": "→ 2025/05/14 獲 FDA 孤兒藥資格；仍臨床前（IND 預計 2026），7 年市場獨占須待核准。非營利開發、單股 ASO、技術源自 LUMC（與 Vico 同源）。",
+    "url": "https://www.cureraredisease.org/blog-posts/cure-rare-disease-receives-orphan-drug-designation-targeting-spinocerebellar-ataxia-type-3-sca3"
+  },
+  {
     "id": "aroatxn2-excl",
     "competitor": "Arrowhead / Sarepta",
     "asset": "ARO-ATXN2",

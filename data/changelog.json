@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-15",
+    "dateDisplay": "2026/07/15",
+    "tag": "競品更新",
+    "level": "info",
+    "body": "新增追蹤競品 <b>Cure Rare Disease CRD-002</b>（SCA3，單股 ASO，非營利開發）：FDA 孤兒藥資格 2025/05、IND 預計 2026、技術源自 LUMC（與 Vico 同源）。已納入競品全景、臨床開發進度與市場獨占權雷達。",
+    "link": { "label": "詳見 競品全景 ↗", "tab": "ls" }
+  },
+  {
     "date": "2026-07-13",
     "dateDisplay": "2026/07/13",
     "tag": "每日掃描",
