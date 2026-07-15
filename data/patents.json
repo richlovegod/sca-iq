@@ -1,0 +1,44 @@
+[
+  {
+    "id": "us10485791",
+    "competitor": "Biohaven",
+    "asset": "Troriluzole",
+    "number": "US 10,485,791 B2",
+    "title": "Riluzole prodrugs and their use（利魯唑前驅藥組成物）",
+    "ptype": "組成物專利",
+    "assignee": "Biohaven Therapeutics Ltd",
+    "filed": "2016-02-26",
+    "status": "已核准（2019-11-26）",
+    "expiry": "約 2036-02-26（估計，未計最長 5 年專利期延長）",
+    "note": "→ Troriluzole 的組成物護城河到 2036；即使 FDA 已退件，只要 Biohaven 重啟或對外授權，這道 IP 仍在，是評估其後路的關鍵。",
+    "url": "https://patents.google.com/patent/US10485791B2/en"
+  },
+  {
+    "id": "us20210023061",
+    "competitor": "Biohaven",
+    "asset": "Troriluzole",
+    "number": "US 2021/0023061 A1",
+    "title": "Use of riluzole prodrugs to treat ataxias（利魯唑前驅藥治療共濟失調之用途）",
+    "ptype": "用途／方法專利",
+    "assignee": "Biohaven Therapeutics Ltd",
+    "filed": "2018-11-11",
+    "status": "審查中（2021-01-28 公開）",
+    "expiry": "若核准約至 2038-11（估計，申請日＋20 年）",
+    "note": "→ 直接鎖定共濟失調（含 SCA）適應症用途，仍審查中，是最該盯的一件——核准與否影響同類前驅藥在 SCA 的用途空間。",
+    "url": "https://patents.google.com/patent/US20210023061A1/en"
+  },
+  {
+    "id": "wo2024196753",
+    "competitor": "Arrowhead / Sarepta",
+    "asset": "ARO-ATXN2",
+    "number": "WO 2024/196753 A2",
+    "title": "RNAi agents for inhibiting expression of ataxin-2 (ATXN2)（抑制 ATXN2 的 RNAi 藥劑）",
+    "ptype": "RNAi 組成／方法專利",
+    "assignee": "Arrowhead Pharmaceuticals Inc",
+    "filed": "2024-03-15",
+    "status": "審查中（PCT，2024-09-26 公開，已進多國國家階段）",
+    "expiry": "約 2044（估計，申請日＋20 年）",
+    "note": "→ Arrowhead ATXN2 siRNA 的核心 IP，2024 新申請、專利壽命長（約 2044）；SCA2 專屬（本社刻意避開 SCA2），屬鄰域監控。",
+    "url": "https://patents.google.com/patent/WO2024196753A2/en"
+  }
+]
