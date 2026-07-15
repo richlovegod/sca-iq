@@ -97,6 +97,12 @@
   .heartbeat.warn .dot{background:#ffce7a;box-shadow:0 0 8px #ffce7a}
   .heartbeat.err{background:rgba(231,76,60,.09);border:1px solid #6a2e2e;color:#f0b8b0}
   .heartbeat.err .dot{background:#e74c3c;box-shadow:0 0 8px #e74c3c}
+  /* 會議行事曆項目：即將(綠) vs 已結束(灰)，由日期自動切換 */
+  .confrow.upcoming{color:#6ee7a0}
+  .confrow.upcoming .host{color:#fff}
+  .confrow.past{color:#8b9bb0}
+  .confrow.past .host{color:#c9d6e3}
+  .cstat{font-size:11px}
   .rmsum{display:flex;gap:12px;margin-bottom:20px}
   .rmsum .box{flex:1;background:#182533;border:1px solid #243748;border-radius:9px;padding:14px 10px;text-align:center}
   .rmsum .n{font-size:20px;font-weight:800;color:#4da3ff}
@@ -144,7 +150,7 @@
 <!-- OVERVIEW -->
 <section id="ov" class="panel on">
   <div class="kpi">
-    <div class="box"><div class="n">7</div><div class="l">追蹤競品</div><div class="d">SCA 領域在研療法</div></div>
+    <div class="box"><div class="n" id="compCount">7</div><div class="l">追蹤競品</div><div class="d">SCA 領域在研療法</div></div>
     <div class="box"><div class="n r">2</div><div class="l">競品近期受挫 ✓利多</div><div class="d">Biohaven 退件、Biogen/Ionis 退場</div></div>
     <div class="box"><div class="n g">1</div><div class="l">最接近取證＝本社</div><div class="d">日本承認申請已送 PMDA</div></div>
     <div class="box"><div class="n" id="weekCount">2</div><div class="l">本週新增情報</div><div class="d">見右側自動摘要</div></div>
@@ -338,7 +344,7 @@
       <div class="card">
         <h2>◎ 學會 / 會議行事曆</h2>
         <div class="glossbox">
-          <p style="color:#6ee7a0"><b>2026/07/17　BioAsia Taiwan — Cell Therapy Leadership Forum</b><br>細胞治療臨床轉譯、法規、CMC、GMP 製造與國際合作。<b style="color:#fff">本社共同主辦</b>。</p>
+          <p id="confBioAsia" data-date="2026-07-17" class="confrow upcoming"><b>2026/07/17　BioAsia Taiwan — Cell Therapy Leadership Forum</b><span class="cstat"></span><br>細胞治療臨床轉譯、法規、CMC、GMP 製造與國際合作。<b class="host">本社共同主辦</b>。</p>
           <p style="margin-top:12px">下列為領域關鍵年度會議，正式版將自動追蹤各屆日程與競品發表：</p>
           <p style="margin-top:8px;color:#9fb4cc">・World Orphan Drug Congress（WODC）— 本社 2025/04 曾於此發表 Ph2<br>・NAF Annual Ataxia Conference（美國共濟失調基金會）<br>・MDS International Congress（動作障礙）<br>・ISSCR Annual Meeting（幹細胞）</p>
         </div>
@@ -644,6 +650,12 @@ function renderHeartbeat(){
   if(el){el.className='heartbeat '+cls;el.innerHTML='<span class="dot"></span><span>'+msg+' <span class="sub">· 下次掃描 '+esc(next)+'</span></span>';}
   if(fresh){fresh.textContent='（'+freshLabel(diff)+'）';fresh.style.color=diff<=1?'#6ee7a0':(diff===2?'#ffce7a':'#ff8a7a');}
 }
+
+/* ── KPI「追蹤競品」數：由競品全景表列數自動帶入，新增/移除競品時自動同步 ── */
+(function(){var cc=q2('compCount');if(!cc)return;var n=document.querySelectorAll('#lstab tr[data-f]').length;if(n)cc.textContent=n;})();
+
+/* ── 會議行事曆：日期過了自動轉灰並標「已結束」，不再固定顯示綠色「即將」 ── */
+(function(){document.querySelectorAll('.confrow[data-date]').forEach(function(p){var d=p.getAttribute('data-date');if(d&&daysAgo(d)>0){p.classList.remove('upcoming');p.classList.add('past');var s=p.querySelector('.cstat');if(s)s.textContent=' · 已結束';}});})();
 </script>
 </body>
 </html>
