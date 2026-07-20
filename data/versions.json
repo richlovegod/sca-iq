@@ -1,5 +1,15 @@
 [
   {
+    "version": "v1.8",
+    "dateDisplay": "2026/07/20",
+    "title": "新增「競品試驗結果與讀出」區塊（臨床開發進度頁）",
+    "changes": [
+      "臨床開發進度頁新增資料庫驅動的「競品試驗結果與讀出」，依公開來源類型分類（登錄／論文／研討會摘要／新聞稿）可篩選＋搜尋",
+      "收錄 8 筆競品讀出：Biohaven troriluzole（Ph3 全體失利 p=0.76、SCA3 次族群 nominal p=0.053；2025/11 FDA CRL 拒批）、Vico VO659（SCA 療效未讀出＋radiculitis 安全訊號）、Biogen BIIB132（2023 終止 SCA3 Ph1）、Arrowhead ARO-ATXN2（尚無讀出）、Cure Rare Disease CRD-002（臨床前）、Kissei rovatirelin（Ph3 失利撤件）、仲恩 Stemchymal（本社正面對照）",
+      "綠＝競品受挫（對本社有利）、紅＝威脅、藍＝中性；每筆附可查證來源，並如實標註『公司宣稱/真實世界對照』與『尚未正式讀出』等限制"
+    ]
+  },
+  {
     "version": "v1.7",
     "dateDisplay": "2026/07/20",
     "title": "新增「SCA 知識庫」頁籤（評估量表 + 疾病自然史）",

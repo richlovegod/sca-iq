@@ -149,7 +149,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.7</span> <a href="versions.html" class="relnote">擁有者控制台 ↗</a></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.8</span> <a href="versions.html" class="relnote">擁有者控制台 ↗</a></div>
         <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
       </div>
       <div class="meta">最後掃描：<b id="lastScan">—</b><span id="scanFresh"></span><br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
@@ -348,6 +348,22 @@
     </div>
     <p style="font-size:11.5px;color:#8b9bb0;margin-top:14px;line-height:1.6">解讀：Stemchymal 在進度上明顯領先——已完成 Ph2 並進入日本承認審查；小分子(Biohaven)與 ASO(Biogen/Ionis)接連受挫或暫停，唯 Vico 的 ASO 仍在早期推進。<b style="color:#6ee7a0">「時間領先 + 對照數據」是本社最有力的差異化。</b></p>
   </div>
+  <div class="card" id="trialresults" style="scroll-margin-top:16px">
+    <h2>◎ 競品試驗結果與讀出 (Trial Results &amp; Readouts)</h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px">競品臨床試驗的實際療效／安全讀出，依公開來源類型分類。綠＝競品受挫（對本社有利）、紅＝競品正面結果（威脅）、藍＝中性。每筆附可查證來源。</p>
+    <div class="filters" id="resultsFilters">
+      <button class="on" onclick="setResultsFilter('all',this)">全部</button>
+      <button onclick="setResultsFilter('登錄',this)">登錄</button>
+      <button onclick="setResultsFilter('論文',this)">論文</button>
+      <button onclick="setResultsFilter('研討會摘要',this)">研討會摘要</button>
+      <button onclick="setResultsFilter('新聞稿',this)">新聞稿</button>
+    </div>
+    <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
+      <input id="resultsSearch" placeholder="🔍 搜尋競品／藥物／結果…" oninput="renderResults()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
+      <span id="resultsCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+    </div>
+    <ul class="digest" id="resultsList"></ul>
+  </div>
 </section>
 
 <!-- IP / EXCLUSIVITY -->
@@ -435,7 +451,7 @@
 </section>
 
 <div class="foot">
-  <b>SCA-IQ 競品情報監測平台 v1.7</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
+  <b>SCA-IQ 競品情報監測平台 v1.8</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
   本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。<br>
   <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none">擁有者控制台 / Owner console ↗</a>
 </div>
@@ -538,6 +554,35 @@ function renderNaturalHistory(){
   document.getElementById('nhCount').textContent='共 '+rows.length+' 項'+(q?'（符合搜尋）':'');
 }
 fetch('data/naturalhistory.json').then(function(r){return r.json();}).then(function(d){nhData=d;renderNaturalHistory();}).catch(function(){});
+
+/* ── 競品試驗結果與讀出 data/results.json（依來源類型篩選） ── */
+var resultsData=[], resultsFilter='all';
+function setResultsFilter(f,btn){
+  resultsFilter=f;
+  var bs=document.querySelectorAll('#resultsFilters button');
+  for(var i=0;i<bs.length;i++) bs[i].classList.remove('on');
+  if(btn) btn.classList.add('on');
+  renderResults();
+}
+function renderResults(){
+  var ul=document.getElementById('resultsList'); if(!ul) return;
+  var q=(document.getElementById('resultsSearch').value||'').toLowerCase().trim();
+  var rows=resultsData.slice().sort(function(a,b){return (b.date||'').localeCompare(a.date||'');});
+  if(resultsFilter!=='all') rows=rows.filter(function(r){return r.sourceType===resultsFilter;});
+  if(q) rows=rows.filter(function(r){return JSON.stringify(r).toLowerCase().indexOf(q)>=0;});
+  ul.innerHTML=rows.map(function(r){
+    var lv=r.level||'info';
+    var cls=lv!=='info'?(' class="'+lv+'"'):'';
+    var st='<span style="display:inline-block;font-size:10px;color:#9fb4cc;border:1px solid #2b4a6d;border-radius:5px;padding:1px 7px;margin-left:6px;background:#12233a">'+esc(r.sourceType||'')+'</span>';
+    var trial=r.trial?(' <span style="color:#9fb4cc;font-size:11px">'+esc(r.trial)+'</span>'):'';
+    var imp=r.implication?('<br><span style="color:#8b9bb0;font-size:12px">'+esc(r.implication)+'</span>'):'';
+    var links=(r.links||[]).map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+' ↗</a>';}).join(' ');
+    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(r.competitor)+' · '+esc(r.drug)+'</span>'+st+trial+
+      '<br>'+esc(r.readout||'')+'<span class="date">'+esc(r.dateDisplay)+'</span>'+imp+(links?('<br>'+links):'')+'</li>';
+  }).join('');
+  document.getElementById('resultsCount').textContent='共 '+rows.length+' 筆'+((resultsFilter!=='all'||q)?'（篩選中）':'');
+}
+fetch('data/results.json').then(function(r){return r.json();}).then(function(d){resultsData=d;renderResults();}).catch(function(){});
 
 /* ── 臨床試驗雷達：由 data/trials.json 動態渲染 ── */
 var trialsData=[];
