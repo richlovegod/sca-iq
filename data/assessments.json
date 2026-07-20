@@ -1,0 +1,168 @@
+[
+  {
+    "id": "sara",
+    "abbr": "SARA",
+    "name": "Scale for the Assessment and Rating of Ataxia",
+    "nameZh": "共濟失調評估與評分量表",
+    "year": 2006,
+    "developer": "Schmitz-Hübsch、Klockgether 等（德國 Bonn 大學 / EUROSCA 聯盟）",
+    "measures": "8 項（步態、站姿、坐姿、語言、指鼻、指追、快速輪替、跟-脛），總分 0–40，分數越高越差；平均施測約 14 分鐘。",
+    "development": "於 167 + 119 名 SCA 病人兩組同時開發並驗證。",
+    "validation": "評分者間信度 ICC 0.98、再測 0.90、內部一致性 α 0.94，與整體評估高度線性相關。",
+    "useInTrials": "SCA 領域事實上的黃金標準主要終點。仲恩 Stemchymal Ph1/2a（NCT01649687，北榮，收案 SARA 10–20）與 Ph2（NCT02540655，台日跨國，收案 SARA ≥9）皆以 SARA／fSARA 為療效指標。",
+    "taiwan": "台灣臨床與研究廣泛使用（北榮 Soong Bing-Wen 團隊 199 名 SCA 五年縱貫世代即以 SARA 追蹤）。註：公開來源未見台灣本地發表的中文版 SARA 心理計量驗證，已知中文版驗證出自中國大陸——台灣屬直接沿用，非另立台灣常模。",
+    "tags": ["主流", "仲恩採用"],
+    "highlight": true,
+    "sources": [
+      { "label": "原始論文 Neurology 2006", "url": "https://pubmed.ncbi.nlm.nih.gov/16769946/" },
+      { "label": "台灣榮總 SARA 縱貫世代 2019", "url": "https://pubmed.ncbi.nlm.nih.gov/30591349/" }
+    ]
+  },
+  {
+    "id": "fsara",
+    "abbr": "f-SARA",
+    "name": "modified functional Scale for the Assessment and Rating of Ataxia",
+    "nameZh": "功能性 SARA（4 項簡化版）",
+    "year": 2024,
+    "developer": "Biohaven 主導改編；心理計量驗證 Potashman、Schmahmann 等（Cerebellum 2024）",
+    "measures": "取 SARA 的 4 個功能項目（步態、站姿、坐姿、語言），每項 0–4、總分 0–16，分數越高越差。",
+    "development": "為藥物試驗端點重新定義計分錨點的簡化版。",
+    "validation": "以 MGH 世代（n=33）與 troriluzole Ph3（NCT03701399，n=217，含 SCA3 n=89）驗證；內部一致性 α 0.90、再測 ICC 0.91。",
+    "useInTrials": "Biohaven troriluzole Ph3 主要終點；仲恩 Stemchymal Ph2 亦報告 fSARA 穩定化結果。",
+    "taiwan": "公開來源未見台灣特定驗證或常模；台灣經由仲恩 Ph2（台日跨國）實際使用。",
+    "tags": ["試驗端點", "仲恩採用"],
+    "highlight": true,
+    "sources": [
+      { "label": "f-SARA 驗證 Cerebellum 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/38865059/" },
+      { "label": "Troriluzole Ph3 試驗", "url": "https://clinicaltrials.gov/study/NCT03701399" }
+    ]
+  },
+  {
+    "id": "icars",
+    "abbr": "ICARS",
+    "name": "International Cooperative Ataxia Rating Scale",
+    "nameZh": "國際合作共濟失調評分量表",
+    "year": 1997,
+    "developer": "Trouillas 等（法國里昂 / 世界神經學聯盟 WFN 共濟失調神經藥理委員會）",
+    "measures": "19 項、總分 0–100，分 4 個次量表：姿勢與步態、肢體共濟失調、構音障礙、動眼障礙。",
+    "development": "為多中心國際化雙盲藥物試驗設計的半量化標準工具。",
+    "validation": "信效度廣泛驗證；後續研究指其項目有冗餘/共線性，促成 SARA 與 BARS 的誕生。",
+    "useInTrials": "SARA 問世前的主流終點，現多作為 SARA 收斂效度的對照。",
+    "taiwan": "公開來源未見台灣本地中文版驗證（已知有韓文版）；台灣早期研究/臨床有使用紀錄，但無獨立台灣常模。",
+    "tags": ["經典"],
+    "highlight": false,
+    "sources": [
+      { "label": "原始論文 J Neurol Sci 1997", "url": "https://pubmed.ncbi.nlm.nih.gov/9094050/" }
+    ]
+  },
+  {
+    "id": "scafi",
+    "abbr": "SCAFI",
+    "name": "Spinocerebellar Ataxia Functional Index",
+    "nameZh": "脊髓小腦共濟失調功能指數",
+    "year": 2008,
+    "developer": "Schmitz-Hübsch、Giunti、Klockgether 等（德國 Bonn / EUROSCA 多中心）",
+    "measures": "3 項客觀計時/計數測驗的複合 Z 分數：8 公尺步行計時（8MW）、9 孔插棒（9HPT）、10 秒內重複「PATA」音節次數。",
+    "development": "於 412 名 SCA1/2/3/6 病人多中心試驗中，將三項次測驗轉為 Z 分數組成複合指數。",
+    "validation": "與 SARA、功能量表、病程的相關性優於單一次測驗（r = −0.44 至 −0.87）。",
+    "useInTrials": "SCA 試驗客觀次要終點，常與 SARA 併用。",
+    "taiwan": "公開來源未見台灣特定驗證/常模。",
+    "tags": ["客觀測驗"],
+    "highlight": false,
+    "sources": [
+      { "label": "原始論文 Neurology 2008", "url": "https://pubmed.ncbi.nlm.nih.gov/18695159/" }
+    ]
+  },
+  {
+    "id": "inas",
+    "abbr": "INAS",
+    "name": "Inventory of Non-Ataxia Signs",
+    "nameZh": "非共濟失調體徵盤查表",
+    "year": 2013,
+    "developer": "Jacobi、Rakowicz 等（EUROSCA 聯盟；德國 Bonn 團隊）",
+    "measures": "標準化盤查伴隨 SCA 的非共濟失調體徵（反射異常、錐體束徵、痙攣、肌萎縮、肌陣攣、肌張力不全、感覺異常、動眼徵、認知障礙等），以出現的體徵類別數計「INAS count」。",
+    "development": "140 名測評估者間信度、28 名測評估者內信度，並用 EUROSCA 自然史資料測反應性與效度。",
+    "validation": "count 與多數單項的評估者間與再測信度皆高。",
+    "useInTrials": "自然史（EUROSCA）與試驗中描述非共濟失調負擔的輔助工具，非主要療效終點。",
+    "taiwan": "公開來源未見台灣特定驗證/常模。",
+    "tags": ["輔助"],
+    "highlight": false,
+    "sources": [
+      { "label": "驗證論文 Cerebellum 2013;12:418-428", "url": "https://link.springer.com/article/10.1007/s12311-012-0421-3" }
+    ]
+  },
+  {
+    "id": "bars",
+    "abbr": "BARS",
+    "name": "Brief Ataxia Rating Scale",
+    "nameZh": "簡明共濟失調評分量表",
+    "year": 2009,
+    "developer": "Schmahmann、Gardner、MacMore、Vangel（美國麻省總醫院 MGH / 哈佛）",
+    "measures": "5 項、總分 0–30：步態(0–8)、膝-脛(雙側各 0–4)、指鼻(雙側各 0–4)、構音(0–4)、動眼(0–2)。",
+    "development": "先擴充 ICARS 為 MICARS，再統計選出與總分最相關的 5 項子集，供快速施測。",
+    "validation": "評估者間信度 ICC 0.91（Mov Disord 2009）。",
+    "useInTrials": "門診/一般神經科快速評估與部分研究使用；藥物試驗較少作主要終點。",
+    "taiwan": "公開來源未見台灣特定驗證/常模。",
+    "tags": ["快速版"],
+    "highlight": false,
+    "sources": [
+      { "label": "原始論文 Mov Disord 2009", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3800087/" }
+    ]
+  },
+  {
+    "id": "ccfs",
+    "abbr": "CCFS",
+    "name": "Composite Cerebellar Functional Severity Score",
+    "nameZh": "複合小腦功能嚴重度分數",
+    "year": 2008,
+    "developer": "Tezenas du Montcel、Dürr 等（法國巴黎 Pitié-Salpêtrière / SPATAX）",
+    "measures": "兩項上肢客觀測驗的複合對數分數：9 孔插棒 + 點擊測驗（優勢手，依年齡校正），施測約 5 分鐘。",
+    "development": "於 123 對照、141 ADCA、53 ADSP 病人中驗證；迴歸顯示兩項即可解釋小腦功能障礙嚴重度。",
+    "validation": "ADCA 病人分數顯著差於對照與 ADSP；SCA1/2/3 次群可區分。（精確計算公式建議回 Brain 2008 原文核對常數）",
+    "useInTrials": "流病研究、試驗與追蹤的上肢客觀指標。",
+    "taiwan": "公開來源未見台灣特定驗證/常模。",
+    "tags": ["客觀測驗"],
+    "highlight": false,
+    "sources": [
+      { "label": "驗證論文 Brain 2008", "url": "https://pubmed.ncbi.nlm.nih.gov/18378516/" }
+    ]
+  },
+  {
+    "id": "prom-ataxia",
+    "abbr": "PROM-Ataxia",
+    "name": "Patient-Reported Outcome Measure of Ataxia",
+    "nameZh": "共濟失調病人自陳結果量表",
+    "year": 2021,
+    "developer": "Schmahmann 等（美國 MGH / 哈佛）",
+    "measures": "70 題問卷，源自病人經驗，涵蓋身體、日常活動、認知/情緒等面向，0–4 Likert 計分。",
+    "development": "首個由病人主導建構的共濟失調症狀清單。",
+    "validation": "原始論文為橫斷面驗證；後續研究進行縱貫與收斂效度驗證。",
+    "useInTrials": "已納入部分 SCA 自然史與試驗作病人自陳（PRO）端點，正翻譯多語版本。",
+    "taiwan": "公開來源未見台灣特定驗證；已知中文版驗證出自中國大陸（中山大學 2024），非台灣。",
+    "tags": ["病人自陳 PRO"],
+    "highlight": false,
+    "sources": [
+      { "label": "原始論文 Mov Disord 2021", "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.28670" },
+      { "label": "中國中文版驗證 Cerebellum 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/37943429/" }
+    ]
+  },
+  {
+    "id": "digital-wearable",
+    "abbr": "數位/穿戴",
+    "name": "Wearable-sensor gait & digital-motor biomarkers",
+    "nameZh": "穿戴式感測器步態／數位運動生物標記",
+    "year": 2022,
+    "developer": "Ilg 等（德國 Tübingen）為代表團隊；另有多中心穿戴感測研究",
+    "measures": "以慣性感測器量步態指標（如 toe-off angle 及其變異度、步速、步幅、複合步態指標）。",
+    "development": "於 SCA3 等病人以家用/實驗室穿戴感測器擷取自然步態（此領域仍在發展）。",
+    "validation": "1 年縱貫變化的效應量高於 SARA；早期病程對變化更敏感。樣本量估算：偵測 1 年 50% 病程減緩，數位步態指標約需 n≈42，SARA（2 年）需 n≈147。",
+    "useInTrials": "新興客觀/次要終點與試驗豐富化工具，尚非法規核可的主要終點。",
+    "taiwan": "公開來源未見台灣主導的 SCA 數位步態驗證研究（需查證）。",
+    "tags": ["新興", "客觀"],
+    "highlight": false,
+    "sources": [
+      { "label": "數位步態 SCA3 Mov Disord 2022", "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.29206" },
+      { "label": "穿戴感測 SCA 步態平衡 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34664180/" }
+    ]
+  }
+]

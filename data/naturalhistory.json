@@ -1,0 +1,197 @@
+[
+  {
+    "id": "sara-rate-summary",
+    "name": "各亞型 SARA 年進展速率對照（跨世代整合）",
+    "scope": "SCA1/2/3/6/17",
+    "group": "整合 EUROSCA、CRC-SCA、統合分析與台灣世代",
+    "n": "",
+    "findings": "統合平均（Diallo 2021）：SCA1 約 1.83、SCA2 約 1.40、SCA3 約 1.41、SCA6 約 0.81 分/年；SCA17 在台灣世代達 3.26（最快）。同一亞型跨世代可差 2–3 倍——例：SCA3 歐洲 EUROSCA 1.5–1.6 vs 美國 CRC-SCA 0.68。",
+    "significance": "→ 療效試驗的核心對照基準。關鍵警示：競品若宣稱「延緩 SARA X 分」，務必回查其對照世代的基線進展速率，否則療效幅度會被高估或低估。",
+    "region": "跨國",
+    "year": 2024,
+    "taiwan": "",
+    "highlight": true,
+    "sources": [
+      { "label": "統合分析 Diallo 2021 J Neurol", "url": "https://link.springer.com/article/10.1007/s00415-020-09815-2" },
+      { "label": "四世代整合 Petit 2024 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11571887/" }
+    ]
+  },
+  {
+    "id": "eurosca",
+    "name": "EUROSCA 前瞻自然史世代",
+    "scope": "SCA1/2/3/6",
+    "group": "Jacobi、Klockgether 等（EUROSCA；17 中心/10 歐洲國）",
+    "n": "526（基線）",
+    "findings": "長期（最長約 8 年）SARA 年進展：SCA1 2.11、SCA3 1.56、SCA2 1.49、SCA6 0.80 分/年（mean±SE）；SCA1 最快、SCA6 最慢且呈非線性。",
+    "significance": "→ 全球最重要的 SCA 自然史世代，確立各亞型進展基準線，是評估「疾病修飾療法能否壓平 SARA 斜率」的黃金對照。",
+    "region": "歐洲",
+    "year": 2015,
+    "taiwan": "",
+    "highlight": true,
+    "sources": [
+      { "label": "長期進展 Jacobi 2015 Lancet Neurol", "url": "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(15)00202-1/abstract" },
+      { "label": "2 年追蹤 Jacobi 2011 Neurology (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3174068/" }
+    ]
+  },
+  {
+    "id": "petit-crosscohort",
+    "name": "四世代 SARA 進展整合分析",
+    "scope": "SCA1/2/3/6",
+    "group": "Petit 等；整合 EUROSCA + RISCA + CRC-SCA + SPATAX",
+    "n": "850 攜帶者 / 3,431 觀察",
+    "findings": "同一亞型跨世代速率差異顯著、EUROSCA 一律最快。例：SCA3 EUROSCA 1.52 vs CRC-SCA 0.68；SCA1 EUROSCA 2.19 vs RISCA 1.32。",
+    "significance": "→ 關鍵情報：進展速率高度依賴收案世代，競品療效宣稱須以其對照世代為準來解讀。",
+    "region": "歐美",
+    "year": 2024,
+    "taiwan": "",
+    "highlight": true,
+    "sources": [
+      { "label": "Petit 2024 J Neurol (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11571887/" }
+    ]
+  },
+  {
+    "id": "diallo-meta",
+    "name": "SCA 自然史統合分析 (meta-analysis)",
+    "scope": "SCA1/2/3/6",
+    "group": "Diallo 等",
+    "n": "6 研究 / 1,215 病人",
+    "findings": "合併 SARA 年進展（95% CI）：SCA1 1.83（1.46–2.20）、SCA2 1.40（1.19–1.61）、SCA3 1.41（0.97–1.84）、SCA6 0.81（0.66–0.97）分/年。",
+    "significance": "→ 跨研究合併平均，是估算試驗樣本數與效應量最穩健的單一數字來源。",
+    "region": "多國統合",
+    "year": 2021,
+    "taiwan": "",
+    "highlight": false,
+    "sources": [
+      { "label": "Diallo 2021 J Neurol", "url": "https://link.springer.com/article/10.1007/s00415-020-09815-2" }
+    ]
+  },
+  {
+    "id": "risca",
+    "name": "RISCA 發病前 (preataxic) 世代",
+    "scope": "SCA1/2/3/6 發病前高風險者",
+    "group": "Klockgether、Durr 等（14 中心/7 歐洲國）",
+    "n": "302 收案 / 252 追蹤",
+    "findings": "追蹤期轉為顯性失調比例：SCA1 52%、SCA2 59%、SCA3 42%、SCA6 13%；非攜帶者幾乎不轉化。血清 NfL 在發病前即升高。",
+    "significance": "→ 唯一大型「發病前轉化率」世代，為症狀前介入試驗（ASO / 基因療法）提供轉化率與樣本數依據。",
+    "region": "歐洲",
+    "year": 2020,
+    "taiwan": "",
+    "highlight": false,
+    "sources": [
+      { "label": "RISCA 2020 Lancet Neurol", "url": "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(20)30235-0/abstract" }
+    ]
+  },
+  {
+    "id": "crc-readisca",
+    "name": "美國世代：CRC-SCA / READISCA",
+    "scope": "SCA1/2/3/6/7 等 + SCA1/3 試驗準備",
+    "group": "Ashizawa 等（NAF 支持）；READISCA 為 NIH 資助美歐合作",
+    "n": "CRC-SCA 累計 1,089；READISCA 臨床 200/影像 107",
+    "findings": "美國最大 SCA 生物樣本/臨床庫。READISCA：發病前 SCA1/3 攜帶者血漿 NfL 已顯著高於對照（對照 5.7、SCA1 18.0、SCA3 19.8 pg/mL）。",
+    "significance": "→ 北美對照與生物標記基準；直接對應 SCA1/SCA3 疾病修飾試驗的終點與生物標記選擇。",
+    "region": "美國",
+    "year": 2023,
+    "taiwan": "",
+    "highlight": false,
+    "sources": [
+      { "label": "CRC-SCA 生物標記庫 Lin 2025 Cerebellum", "url": "https://pubmed.ncbi.nlm.nih.gov/40679685/" },
+      { "label": "READISCA baseline Neurology 2023", "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000207088" }
+    ]
+  },
+  {
+    "id": "japan-sca6",
+    "name": "日本 SCA6 三年世代",
+    "scope": "SCA6",
+    "group": "Yasui 等（日本多中心）",
+    "n": "46",
+    "findings": "SARA 每年惡化 1.33±1.40 分/年（3 年間）；數值高於歐洲 EUROSCA 的 SCA6（0.80），提示族群/方法差異。",
+    "significance": "→ 亞洲 SCA6 進展速率的獨立佐證。",
+    "region": "日本",
+    "year": 2014,
+    "taiwan": "",
+    "highlight": false,
+    "sources": [
+      { "label": "Yasui 2014 Orphanet J Rare Dis (PMC)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223818/" }
+    ]
+  },
+  {
+    "id": "esmi-sca3",
+    "name": "ESMI — SCA3/MJD 生物標記縱貫世代",
+    "scope": "SCA3/MJD（含發病前）",
+    "group": "Berger、Klockgether 等（歐洲 5 國 + 美國）",
+    "n": "291 SCA3 + 121 對照",
+    "findings": "血漿 NfL 發病前約 21.5 年即開始異常升高；影像（腦橋體積）對進展比 SARA 更敏感；突變 ATXN3 蛋白全程幾乎恆定、不宜當進展指標。",
+    "significance": "→ 為 SCA3 ASO 療法（如 Biogen/Ionis 靶向 ATXN3）提供進展生物標記選擇依據。",
+    "region": "歐美",
+    "year": 2025,
+    "taiwan": "",
+    "highlight": false,
+    "sources": [
+      { "label": "Berger 2025 Lancet Reg Health Eur (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12270660/" }
+    ]
+  },
+  {
+    "id": "li-nfl-sca3",
+    "name": "SCA3 血清 NfL 生物標記（華人世代）",
+    "scope": "SCA3/MJD",
+    "group": "Li 等（中國）",
+    "n": "116 SCA3 + 91 對照（世代B）",
+    "findings": "顯性患者血清 NfL 37.6 vs 對照 9.1 pg/mL；與 SARA 正相關（r=0.55）、與小腦/腦幹體積負相關。",
+    "significance": "→ 確立血清 NfL 為 SCA3 發病與進展生物標記，並在華人族群驗證。",
+    "region": "中國",
+    "year": 2019,
+    "taiwan": "",
+    "highlight": false,
+    "sources": [
+      { "label": "Li 2019 Mol Neurodegener", "url": "https://molecularneurodegeneration.biomedcentral.com/articles/10.1186/s13024-019-0338-0" }
+    ]
+  },
+  {
+    "id": "taiwan-lan2025",
+    "name": "台灣 SCA 基因地景（876 例）",
+    "scope": "SCA1/2/3/6/8/DRPLA",
+    "group": "Lan、Lee 等（台北榮總，全國轉診中心，橫跨 25 年）",
+    "n": "876 例 / 514 家系",
+    "findings": "台灣亞型分佈：SCA3 最多 56.6%、SCA2 20.0%、SCA6 10.3%，其餘 SCA1/SCA8/DRPLA。重複擴增數與發病年齡顯著負相關（DRPLA 最強）。",
+    "significance": "→ 台灣最完整的 SCA 亞型分佈基準；SCA3 佔逾半數，是台灣 SCA 新藥市場與試驗招募的核心族群依據。",
+    "region": "台灣",
+    "year": 2025,
+    "taiwan": "台灣本土最大、最新的亞型分佈資料；SCA3 主導與國際一致但比例更高。",
+    "highlight": true,
+    "sources": [
+      { "label": "Lan 2025 Parkinsonism Relat Disord (PubMed 41082794)", "url": "https://pubmed.ncbi.nlm.nih.gov/41082794/" }
+    ]
+  },
+  {
+    "id": "taiwan-lin2019",
+    "name": "台灣 SCA 進展速率（華人 vs 高加索）",
+    "scope": "SCA1/2/3/6/17",
+    "group": "Lin、Soong Bing-Wen 等（台北榮總/陽明）",
+    "n": "199",
+    "findings": "SARA 年進展：SCA17 3.26（最快）、SCA3 1.60、SCA2 1.52、SCA1 1.23、SCA6 0.99 分/年；華人與高加索速率相近。",
+    "significance": "→ 唯一台灣本土 SARA 年進展數據，證明台灣患者可直接對比歐美世代、支持參與國際多中心試驗。",
+    "region": "台灣",
+    "year": 2019,
+    "taiwan": "唯一台灣本土進展速率。註：此世代 SCA3（1.60）明顯快於美國 CRC-SCA（0.68），凸顯世代/收案差異。",
+    "highlight": true,
+    "sources": [
+      { "label": "Lin 2019 Parkinsonism Relat Disord (PubMed 30591349)", "url": "https://pubmed.ncbi.nlm.nih.gov/30591349/" }
+    ]
+  },
+  {
+    "id": "taiwan-nonataxic",
+    "name": "台灣 SCA 非失調表現型",
+    "scope": "台灣 SCA 各亞型",
+    "group": "Chen 等（台灣）",
+    "n": "（樣本數需查證）",
+    "findings": "帕金森症候群為最常見的非失調表現（21.1%），比例高於高加索及其他亞洲 SCA 族群。",
+    "significance": "→ 台灣 SCA 臨床異質性高，療效評估不應只看 SARA，需納入非失調症狀。",
+    "region": "台灣",
+    "year": 2019,
+    "taiwan": "台灣族群非失調症狀特徵。",
+    "highlight": false,
+    "sources": [
+      { "label": "Chen 2019 Brain Behav (PubMed 31523939)", "url": "https://pubmed.ncbi.nlm.nih.gov/31523939/" }
+    ]
+  }
+]

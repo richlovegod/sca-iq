@@ -149,7 +149,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.6</span> <a href="versions.html" class="relnote">擁有者控制台 ↗</a></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.7</span> <a href="versions.html" class="relnote">擁有者控制台 ↗</a></div>
         <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
       </div>
       <div class="meta">最後掃描：<b id="lastScan">—</b><span id="scanFresh"></span><br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
@@ -161,6 +161,7 @@
       <button onclick="tab(event,'pl')">臨床開發進度</button>
       <button onclick="tab(event,'ip')">專利與獨占權</button>
       <button onclick="tab(event,'si')">科學情報</button>
+      <button onclick="tab(event,'kb')">SCA 知識庫</button>
       <button onclick="tab(event,'lg')">更新紀錄</button>
     </nav>
   </div>
@@ -398,6 +399,28 @@
   </div>
 </section>
 
+<!-- KNOWLEDGE BASE -->
+<section id="kb" class="panel">
+  <div class="card" id="coa" style="scroll-margin-top:16px">
+    <h2>◎ 臨床評估量表 (Clinical Outcome Assessments)</h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px">SCA 臨床試驗用來量化病情與療效的標準化量表——含原始開發者、驗證、試驗應用與台灣使用狀況。每筆附可查證來源。</p>
+    <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
+      <input id="assessmentSearch" placeholder="🔍 搜尋量表／開發者／關鍵字…" oninput="renderAssessments()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
+      <span id="assessmentCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+    </div>
+    <ul class="digest" id="assessmentList"></ul>
+  </div>
+  <div class="card" id="nathist" style="scroll-margin-top:16px">
+    <h2>◎ 疾病自然史與病程 (Natural History)</h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px">SCA 不治療時的自然病程（各亞型 SARA 年惡化速率等）——是療效試驗的對照基準。含關鍵世代研究、研究團隊與台灣資料。每筆附可查證來源。</p>
+    <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
+      <input id="nhSearch" placeholder="🔍 搜尋世代／團隊／亞型…" oninput="renderNaturalHistory()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
+      <span id="nhCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+    </div>
+    <ul class="digest" id="nhList"></ul>
+  </div>
+</section>
+
 <!-- CHANGELOG -->
 <section id="lg" class="panel">
   <div class="card">
@@ -412,7 +435,7 @@
 </section>
 
 <div class="foot">
-  <b>SCA-IQ 競品情報監測平台 v1.6</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
+  <b>SCA-IQ 競品情報監測平台 v1.7</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
   本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。<br>
   <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none">擁有者控制台 / Owner console ↗</a>
 </div>
@@ -472,6 +495,49 @@ function renderPapers(){
 fetch('data/papers.json').then(function(r){return r.json();}).then(function(d){papersData=d;renderPapers();}).catch(function(e){
   var ul=document.getElementById('paperList'); if(ul) ul.innerHTML='<li style="color:#8b9bb0">（文獻資料載入失敗：'+esc(e.message)+'）</li>';
 });
+
+/* ── SCA 知識庫：臨床評估量表 data/assessments.json ── */
+var assessmentsData=[];
+function kbLine(label,val){return val?('<br><span style="color:#9fb4cc;font-size:12px"><b style="color:#cfe0f2">'+label+'：</b>'+esc(val)+'</span>'):'';}
+function renderAssessments(){
+  var ul=document.getElementById('assessmentList'); if(!ul) return;
+  var q=(document.getElementById('assessmentSearch').value||'').toLowerCase().trim();
+  var rows=assessmentsData.slice().sort(function(a,b){return (b.highlight?1:0)-(a.highlight?1:0);});
+  if(q) rows=rows.filter(function(a){return JSON.stringify(a).toLowerCase().indexOf(q)>=0;});
+  ul.innerHTML=rows.map(function(a){
+    var cls=a.highlight?' class="win"':'';
+    var tagcls=a.highlight?'t-win':'t-info';
+    var meta='<br><span style="color:#6a7c92;font-size:11px">'+(a.year?esc(a.year)+' · ':'')+esc(a.developer||'')+'</span>';
+    var zh=a.nameZh?(' <span style="color:#8b9bb0">'+esc(a.nameZh)+'</span>'):'';
+    var src=(a.sources||[]).map(function(s){return '<a class="src" href="'+esc(s.url)+'" target="_blank">'+esc(s.label)+' ↗</a>';}).join(' ');
+    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(a.abbr)+'</span><b>'+esc(a.name)+'</b>'+zh+meta+
+      kbLine('量測',a.measures)+kbLine('開發',a.development)+kbLine('驗證',a.validation)+kbLine('試驗應用',a.useInTrials)+kbLine('台灣',a.taiwan)+
+      (src?('<br>'+src):'')+'</li>';
+  }).join('');
+  document.getElementById('assessmentCount').textContent='共 '+rows.length+' 項'+(q?'（符合搜尋）':'');
+}
+fetch('data/assessments.json').then(function(r){return r.json();}).then(function(d){assessmentsData=d;renderAssessments();}).catch(function(){});
+
+/* ── SCA 知識庫：疾病自然史 data/naturalhistory.json ── */
+var nhData=[];
+function renderNaturalHistory(){
+  var ul=document.getElementById('nhList'); if(!ul) return;
+  var q=(document.getElementById('nhSearch').value||'').toLowerCase().trim();
+  var rows=nhData.slice().sort(function(a,b){return (b.highlight?1:0)-(a.highlight?1:0);});
+  if(q) rows=rows.filter(function(h){return JSON.stringify(h).toLowerCase().indexOf(q)>=0;});
+  ul.innerHTML=rows.map(function(h){
+    var cls=h.highlight?' class="win"':'';
+    var tagcls=h.highlight?'t-win':'t-info';
+    var meta='<br><span style="color:#6a7c92;font-size:11px">'+esc(h.group||'')+(h.n?(' · n='+esc(h.n)):'')+(h.year?(' · '+esc(h.year)):'')+(h.region?(' · '+esc(h.region)):'')+'</span>';
+    var tw=(typeof h.taiwan==='string'&&h.taiwan)?h.taiwan:'';
+    var src=(h.sources||[]).map(function(s){return '<a class="src" href="'+esc(s.url)+'" target="_blank">'+esc(s.label)+' ↗</a>';}).join(' ');
+    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(h.scope||'SCA')+'</span><b>'+esc(h.name)+'</b>'+meta+
+      kbLine('關鍵發現',h.findings)+kbLine('意義',h.significance)+kbLine('台灣',tw)+
+      (src?('<br>'+src):'')+'</li>';
+  }).join('');
+  document.getElementById('nhCount').textContent='共 '+rows.length+' 項'+(q?'（符合搜尋）':'');
+}
+fetch('data/naturalhistory.json').then(function(r){return r.json();}).then(function(d){nhData=d;renderNaturalHistory();}).catch(function(){});
 
 /* ── 臨床試驗雷達：由 data/trials.json 動態渲染 ── */
 var trialsData=[];
