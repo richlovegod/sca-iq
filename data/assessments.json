@@ -11,12 +11,30 @@
     "validation": "評分者間信度 ICC 0.98、再測 0.90、內部一致性 α 0.94，與整體評估高度線性相關。",
     "useInTrials": "SCA 領域事實上的黃金標準主要終點。仲恩 Stemchymal Ph1/2a（NCT01649687，北榮，收案 SARA 10–20）與 Ph2（NCT02540655，台日跨國，收案 SARA ≥9）皆以 SARA／fSARA 為療效指標。",
     "taiwan": "台灣臨床與研究廣泛使用（北榮 Soong Bing-Wen 團隊 199 名 SCA 五年縱貫世代即以 SARA 追蹤）。註：公開來源未見台灣本地發表的中文版 SARA 心理計量驗證，已知中文版驗證出自中國大陸——台灣屬直接沿用，非另立台灣常模。",
-    "tags": ["主流", "仲恩採用"],
+    "tags": [
+      "主流",
+      "仲恩採用"
+    ],
     "highlight": true,
     "sources": [
-      { "label": "原始論文 Neurology 2006", "url": "https://pubmed.ncbi.nlm.nih.gov/16769946/" },
-      { "label": "台灣榮總 SARA 縱貫世代 2019", "url": "https://pubmed.ncbi.nlm.nih.gov/30591349/" }
-    ]
+      {
+        "label": "原始論文 Neurology 2006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16769946/"
+      },
+      {
+        "label": "台灣榮總 SARA 縱貫世代 2019",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30591349/"
+      }
+    ],
+    "domainKey": "clinician-ataxia",
+    "en": {
+      "developer": "Schmitz-Hübsch, Klockgether et al. (Univ. of Bonn, Germany / EUROSCA consortium)",
+      "measures": "8 items (gait, stance, sitting, speech, finger-chase, nose-finger, fast alternating hand movements, heel-shin); total 0–40, higher = worse; ~14 min to administer.",
+      "development": "Developed and validated simultaneously in two SCA cohorts of 167 + 119 patients.",
+      "validation": "Inter-rater ICC 0.98, test-retest 0.90, internal consistency α 0.94; highly linear with global assessment.",
+      "useInTrials": "The de facto gold-standard primary endpoint in SCA. Steminent's Stemchymal Ph1/2a (NCT01649687, Taipei VGH, enrolled SARA 10–20) and Ph2 (NCT02540655, Taiwan–Japan, enrolled SARA ≥9) both use SARA/f-SARA as efficacy measures.",
+      "taiwan": "Widely used in Taiwan clinical practice and research (Taipei VGH Soong Bing-Wen's 199-patient 5-year SCA cohort tracked with SARA). Note: no Taiwan-local psychometric validation of a Chinese SARA is published; the known Chinese-version validation is from mainland China — Taiwan uses it directly rather than establishing a local norm."
+    }
   },
   {
     "id": "fsara",
@@ -30,12 +48,30 @@
     "validation": "以 MGH 世代（n=33）與 troriluzole Ph3（NCT03701399，n=217，含 SCA3 n=89）驗證；內部一致性 α 0.90、再測 ICC 0.91。",
     "useInTrials": "Biohaven troriluzole Ph3 主要終點；仲恩 Stemchymal Ph2 亦報告 fSARA 穩定化結果。",
     "taiwan": "公開來源未見台灣特定驗證或常模；台灣經由仲恩 Ph2（台日跨國）實際使用。",
-    "tags": ["試驗端點", "仲恩採用"],
+    "tags": [
+      "試驗端點",
+      "仲恩採用"
+    ],
     "highlight": true,
     "sources": [
-      { "label": "f-SARA 驗證 Cerebellum 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/38865059/" },
-      { "label": "Troriluzole Ph3 試驗", "url": "https://clinicaltrials.gov/study/NCT03701399" }
-    ]
+      {
+        "label": "f-SARA 驗證 Cerebellum 2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38865059/"
+      },
+      {
+        "label": "Troriluzole Ph3 試驗",
+        "url": "https://clinicaltrials.gov/study/NCT03701399"
+      }
+    ],
+    "domainKey": "clinician-ataxia",
+    "en": {
+      "developer": "Adapted under Biohaven; psychometric validation Potashman, Schmahmann et al. (Cerebellum 2024)",
+      "measures": "The 4 functional SARA items (gait, stance, sitting, speech), each 0–4, total 0–16, higher = worse.",
+      "development": "A simplified version with re-defined scoring anchors for use as a drug-trial endpoint.",
+      "validation": "Validated in the MGH cohort (n=33) and the troriluzole Ph3 (NCT03701399, n=217, incl. SCA3 n=89); internal consistency α 0.90, test-retest ICC 0.91.",
+      "useInTrials": "Primary endpoint of Biohaven's troriluzole Ph3; Steminent's Stemchymal Ph2 also reports fSARA stabilization.",
+      "taiwan": "No Taiwan-specific validation/norm in public sources; used in Taiwan via Steminent's Ph2 (Taiwan–Japan)."
+    }
   },
   {
     "id": "icars",
@@ -49,11 +85,25 @@
     "validation": "信效度廣泛驗證；後續研究指其項目有冗餘/共線性，促成 SARA 與 BARS 的誕生。",
     "useInTrials": "SARA 問世前的主流終點，現多作為 SARA 收斂效度的對照。",
     "taiwan": "公開來源未見台灣本地中文版驗證（已知有韓文版）；台灣早期研究/臨床有使用紀錄，但無獨立台灣常模。",
-    "tags": ["經典"],
+    "tags": [
+      "經典"
+    ],
     "highlight": false,
     "sources": [
-      { "label": "原始論文 J Neurol Sci 1997", "url": "https://pubmed.ncbi.nlm.nih.gov/9094050/" }
-    ]
+      {
+        "label": "原始論文 J Neurol Sci 1997",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9094050/"
+      }
+    ],
+    "domainKey": "clinician-ataxia",
+    "en": {
+      "developer": "Trouillas et al. (Lyon, France / WFN Committee on Ataxia Neuropharmacology)",
+      "measures": "19 items, total 0–100, in 4 subscales: posture & gait, limb ataxia, dysarthria, oculomotor disorders.",
+      "development": "Designed as a semi-quantitative standard tool for multicenter international double-blind drug trials.",
+      "validation": "Reliability/validity widely established; later studies noted item redundancy/collinearity, prompting SARA and BARS.",
+      "useInTrials": "The mainstream endpoint before SARA; now mostly used as a convergent-validity comparator for SARA.",
+      "taiwan": "No Taiwan-local Chinese validation in public sources (a Korean version exists); used in early Taiwan research/clinical practice but no independent Taiwan norm."
+    }
   },
   {
     "id": "scafi",
@@ -67,11 +117,25 @@
     "validation": "與 SARA、功能量表、病程的相關性優於單一次測驗（r = −0.44 至 −0.87）。",
     "useInTrials": "SCA 試驗客觀次要終點，常與 SARA 併用。",
     "taiwan": "公開來源未見台灣特定驗證/常模。",
-    "tags": ["客觀測驗"],
+    "tags": [
+      "客觀測驗"
+    ],
     "highlight": false,
     "sources": [
-      { "label": "原始論文 Neurology 2008", "url": "https://pubmed.ncbi.nlm.nih.gov/18695159/" }
-    ]
+      {
+        "label": "原始論文 Neurology 2008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18695159/"
+      }
+    ],
+    "domainKey": "objective-timed",
+    "en": {
+      "developer": "Schmitz-Hübsch, Giunti, Klockgether et al. (Bonn, Germany / EUROSCA multicenter)",
+      "measures": "Composite Z-score of 3 objective timed/counted tests: 8-metre timed walk (8MW), 9-hole peg test (9HPT), and number of 'PATA' syllable repetitions in 10 s.",
+      "development": "Derived by converting the three subtests to Z-scores forming a composite index in a 412-patient SCA1/2/3/6 multicenter study.",
+      "validation": "Correlates with SARA, functional scales and disease course better than any single subtest (r = −0.44 to −0.87).",
+      "useInTrials": "An objective secondary endpoint in SCA trials, often used alongside SARA.",
+      "taiwan": "No Taiwan-specific validation/norm in public sources."
+    }
   },
   {
     "id": "inas",
@@ -85,11 +149,25 @@
     "validation": "count 與多數單項的評估者間與再測信度皆高。",
     "useInTrials": "自然史（EUROSCA）與試驗中描述非共濟失調負擔的輔助工具，非主要療效終點。",
     "taiwan": "公開來源未見台灣特定驗證/常模。",
-    "tags": ["輔助"],
+    "tags": [
+      "輔助"
+    ],
     "highlight": false,
     "sources": [
-      { "label": "驗證論文 Cerebellum 2013;12:418-428", "url": "https://link.springer.com/article/10.1007/s12311-012-0421-3" }
-    ]
+      {
+        "label": "驗證論文 Cerebellum 2013;12:418-428",
+        "url": "https://link.springer.com/article/10.1007/s12311-012-0421-3"
+      }
+    ],
+    "domainKey": "non-ataxia",
+    "en": {
+      "developer": "Jacobi, Rakowicz et al. (EUROSCA consortium; Bonn, Germany)",
+      "measures": "Standardized inventory of non-ataxia signs accompanying SCA (reflex abnormalities, pyramidal signs, spasticity, muscle atrophy, myoclonus, dystonia, sensory deficits, oculomotor signs, cognitive impairment, etc.), summarized as an 'INAS count' of sign categories present.",
+      "development": "Inter-rater reliability tested in 140 patients, intra-rater in 28, plus responsiveness/validity using EUROSCA natural-history data.",
+      "validation": "The count and most individual items show high inter-rater and test-retest reliability.",
+      "useInTrials": "An adjunct for describing non-ataxia burden in natural history (EUROSCA) and trials, not a primary efficacy endpoint.",
+      "taiwan": "No Taiwan-specific validation/norm in public sources."
+    }
   },
   {
     "id": "bars",
@@ -103,11 +181,25 @@
     "validation": "評估者間信度 ICC 0.91（Mov Disord 2009）。",
     "useInTrials": "門診/一般神經科快速評估與部分研究使用；藥物試驗較少作主要終點。",
     "taiwan": "公開來源未見台灣特定驗證/常模。",
-    "tags": ["快速版"],
+    "tags": [
+      "快速版"
+    ],
     "highlight": false,
     "sources": [
-      { "label": "原始論文 Mov Disord 2009", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3800087/" }
-    ]
+      {
+        "label": "原始論文 Mov Disord 2009",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3800087/"
+      }
+    ],
+    "domainKey": "clinician-ataxia",
+    "en": {
+      "developer": "Schmahmann, Gardner, MacMore, Vangel (Massachusetts General Hospital / Harvard, USA)",
+      "measures": "5 items, total 0–30: gait (0–8), knee-shin (each side 0–4), finger-nose (each side 0–4), dysarthria (0–4), oculomotor (0–2).",
+      "development": "First expanded ICARS into MICARS, then statistically selected the 5 items most correlated with the total for rapid administration.",
+      "validation": "Inter-rater ICC 0.91 (Mov Disord 2009).",
+      "useInTrials": "Used for rapid assessment in clinic/general neurology and some research; less common as a primary drug-trial endpoint.",
+      "taiwan": "No Taiwan-specific validation/norm in public sources."
+    }
   },
   {
     "id": "ccfs",
@@ -121,11 +213,25 @@
     "validation": "ADCA 病人分數顯著差於對照與 ADSP；SCA1/2/3 次群可區分。（精確計算公式建議回 Brain 2008 原文核對常數）",
     "useInTrials": "流病研究、試驗與追蹤的上肢客觀指標。",
     "taiwan": "公開來源未見台灣特定驗證/常模。",
-    "tags": ["客觀測驗"],
+    "tags": [
+      "客觀測驗"
+    ],
     "highlight": false,
     "sources": [
-      { "label": "驗證論文 Brain 2008", "url": "https://pubmed.ncbi.nlm.nih.gov/18378516/" }
-    ]
+      {
+        "label": "驗證論文 Brain 2008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18378516/"
+      }
+    ],
+    "domainKey": "objective-timed",
+    "en": {
+      "developer": "Tezenas du Montcel, Dürr et al. (Pitié-Salpêtrière, Paris, France / SPATAX)",
+      "measures": "Composite log score of two objective upper-limb tests: 9-hole peg test + click test (dominant hand, age-adjusted); ~5 min to administer.",
+      "development": "Validated in 123 controls, 141 ADCA and 53 ADSP patients; regression showed two tests suffice to explain cerebellar-dysfunction severity.",
+      "validation": "ADCA patients score significantly worse than controls and ADSP; distinguishes SCA1/2/3 subgroups. (Verify exact scoring constants against the Brain 2008 original.)",
+      "useInTrials": "An objective upper-limb measure in epidemiology, trials and follow-up.",
+      "taiwan": "No Taiwan-specific validation/norm in public sources."
+    }
   },
   {
     "id": "prom-ataxia",
@@ -139,11 +245,102 @@
     "validation": "原始論文為橫斷面驗證；後續研究進行縱貫與收斂效度驗證。",
     "useInTrials": "已納入部分 SCA 自然史與試驗作病人自陳（PRO）端點，正翻譯多語版本。",
     "taiwan": "公開來源未見台灣特定驗證；已知中文版驗證出自中國大陸（中山大學 2024），非台灣。",
-    "tags": ["病人自陳 PRO"],
+    "tags": [
+      "病人自陳 PRO"
+    ],
     "highlight": false,
     "sources": [
-      { "label": "原始論文 Mov Disord 2021", "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.28670" },
-      { "label": "中國中文版驗證 Cerebellum 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/37943429/" }
+      {
+        "label": "原始論文 Mov Disord 2021",
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.28670"
+      },
+      {
+        "label": "中國中文版驗證 Cerebellum 2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37943429/"
+      }
+    ],
+    "domainKey": "pro",
+    "en": {
+      "developer": "Schmahmann et al. (MGH / Harvard, USA)",
+      "measures": "70-item questionnaire derived from patient experience, covering physical, activities-of-daily-living, and cognitive/affective domains, scored 0–4 Likert.",
+      "development": "The first patient-led symptom inventory in ataxia.",
+      "validation": "Original paper cross-sectional; subsequent work adds longitudinal and convergent validity (Burt 2025 showed measurable progression in SCA).",
+      "useInTrials": "Incorporated into some SCA natural-history studies and trials as a patient-reported (PRO) endpoint; being translated into multiple languages.",
+      "taiwan": "No Taiwan-specific validation in public sources; the known Chinese-version validation is from mainland China (Sun Yat-sen Univ. 2024), not Taiwan."
+    }
+  },
+  {
+    "id": "eq5d",
+    "abbr": "EQ-5D",
+    "name": "EuroQol 5-Dimension (EQ-5D-3L)",
+    "nameZh": "歐洲五維健康量表（EQ-5D-3L）",
+    "year": 1990,
+    "developer": "EuroQol Group（歐洲多國聯盟）；SCA 專屬驗證 Cerebellum 2023（n=842）",
+    "domainKey": "qol",
+    "measures": "通用型健康相關生活品質（HRQoL）／健康效用量表：5 面向（行動、自我照顧、日常活動、疼痛/不適、焦慮/憂鬱）＋ EQ-VAS 自評健康 0–100。",
+    "development": "非 SCA 專屬的通用效用量表，可換算成 QALY 供衛生經濟評估。",
+    "validation": "SCA 專屬驗證（n=842 歐洲 SCA1/2/3/6，兩個縱貫世代）：EQ-5D-3L ICC 0.95、EQ-VAS ICC 0.88，可依年齡、SARA、ADL、INAS 區分族群。",
+    "useInTrials": "SCA 試驗與世代研究常用的生活品質/健康效用次要終點；量的是病人主觀健康，非運動失調嚴重度本身。",
+    "taiwan": "公開來源未見台灣 SCA 專屬 EQ-5D 驗證；台灣有通用中文版 EQ-5D 可沿用。",
+    "tags": [
+      "生活品質 QoL",
+      "通用量表"
+    ],
+    "highlight": false,
+    "en": {
+      "developer": "EuroQol Group (European consortium); SCA-specific validation Cerebellum 2023 (n=842)",
+      "measures": "Generic health-related quality-of-life (HRQoL) / health-utility measure: 5 dimensions (mobility, self-care, usual activities, pain/discomfort, anxiety/depression) + EQ-VAS self-rated health 0–100.",
+      "development": "A generic, non-SCA-specific utility measure convertible to QALYs for health-economic evaluation.",
+      "validation": "SCA-specific validation (n=842 European SCA1/2/3/6, two longitudinal cohorts): EQ-5D-3L ICC 0.95, EQ-VAS ICC 0.88; discriminates by age, SARA, ADL and INAS.",
+      "useInTrials": "A common quality-of-life / health-utility secondary endpoint in SCA trials and cohorts; captures patient-perceived health rather than ataxia severity itself.",
+      "taiwan": "No SCA-specific EQ-5D validation for Taiwan in public sources; a generic Chinese EQ-5D is available for use."
+    },
+    "sources": [
+      {
+        "label": "EQ-5D-3L SCA 驗證 Cerebellum 2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37713052/"
+      },
+      {
+        "label": "EuroQol 官方",
+        "url": "https://euroqol.org/information-and-support/euroqol-instruments/eq-5d-3l/"
+      }
+    ]
+  },
+  {
+    "id": "sf36",
+    "abbr": "SF-36",
+    "name": "36-Item Short Form Health Survey (SF-36)",
+    "nameZh": "36 項簡明健康量表（SF-36）",
+    "year": 1992,
+    "developer": "Ware、Sherbourne（美國 RAND / Medical Outcomes Study）",
+    "domainKey": "qol",
+    "measures": "通用型 HRQoL：8 個面向（生理功能、生理角色、身體疼痛、一般健康、活力、社會功能、情緒角色、心理健康），彙整成生理(PCS)與心理(MCS) summary。",
+    "development": "非 SCA 專屬的通用健康調查，跨疾病可比。",
+    "validation": "SCA 使用實例：一項 80 名 SCA 病人研究以 SF-36 評 HRQoL，發現有無照顧者是自覺生活品質的決定因子。",
+    "useInTrials": "作為 SCA 生活品質面向的描述性/次要指標；量的是主觀健康與功能，非運動失調嚴重度。",
+    "taiwan": "台灣有本地驗證的繁體中文版 SF-36（一般族群）可沿用；SCA 專屬台灣驗證未見。",
+    "tags": [
+      "生活品質 QoL",
+      "通用量表"
+    ],
+    "highlight": false,
+    "en": {
+      "developer": "Ware, Sherbourne (RAND / Medical Outcomes Study, USA)",
+      "measures": "Generic HRQoL: 8 domains (physical functioning, role-physical, bodily pain, general health, vitality, social functioning, role-emotional, mental health), aggregated into physical (PCS) and mental (MCS) summaries.",
+      "development": "A generic, non-SCA-specific health survey, comparable across diseases.",
+      "validation": "SCA use example: a study of 80 SCA patients assessed HRQoL with SF-36 and found the presence of a carer to be a determinant of self-perceived quality of life.",
+      "useInTrials": "A descriptive/secondary quality-of-life measure in SCA; captures subjective health and function, not ataxia severity.",
+      "taiwan": "A locally validated Traditional-Chinese SF-36 (general population) is available for use in Taiwan; no SCA-specific Taiwan validation found."
+    },
+    "sources": [
+      {
+        "label": "SF-36 於 SCA 之 HRQoL 研究 (Neurología)",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2173580816301365"
+      },
+      {
+        "label": "SF-36 (RAND 官方)",
+        "url": "https://www.rand.org/health-care/surveys_tools/mos/36-item-short-form.html"
+      }
     ]
   },
   {
@@ -158,11 +355,29 @@
     "validation": "1 年縱貫變化的效應量高於 SARA；早期病程對變化更敏感。樣本量估算：偵測 1 年 50% 病程減緩，數位步態指標約需 n≈42，SARA（2 年）需 n≈147。",
     "useInTrials": "新興客觀/次要終點與試驗豐富化工具，尚非法規核可的主要終點。",
     "taiwan": "公開來源未見台灣主導的 SCA 數位步態驗證研究（需查證）。",
-    "tags": ["新興", "客觀"],
+    "tags": [
+      "新興",
+      "客觀"
+    ],
     "highlight": false,
     "sources": [
-      { "label": "數位步態 SCA3 Mov Disord 2022", "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.29206" },
-      { "label": "穿戴感測 SCA 步態平衡 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34664180/" }
-    ]
+      {
+        "label": "數位步態 SCA3 Mov Disord 2022",
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.29206"
+      },
+      {
+        "label": "穿戴感測 SCA 步態平衡 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34664180/"
+      }
+    ],
+    "domainKey": "digital",
+    "en": {
+      "developer": "Ilg et al. (Tübingen, Germany) as a representative group; plus multicenter wearable-sensor studies",
+      "measures": "Inertial-sensor gait metrics (e.g. toe-off angle and its variability, gait speed, stride length, composite gait indices).",
+      "development": "Captures natural gait via home/lab wearable sensors in SCA3 and others (a field still maturing).",
+      "validation": "Effect size of 1-year longitudinal change exceeds SARA; more sensitive in early disease. Sample-size: to detect a 50% slowing of 1-year progression, digital gait needs ~n≈42 vs SARA (2-yr) ~n≈147.",
+      "useInTrials": "An emerging objective/secondary endpoint and trial-enrichment tool, not yet a regulatory-accepted primary endpoint.",
+      "taiwan": "No Taiwan-led SCA digital-gait validation study found in public sources (to be verified)."
+    }
   }
 ]

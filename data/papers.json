@@ -93,7 +93,8 @@
     "note": "→ 動物實驗直接支持異體脂肪 MSC（本社機制路線）對 SCA3 的神經保護與運動功能改善證據。",
     "highlight": true,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42386650/",
-    "urlLabel": "論文 ↗ PubMed 42386650"
+    "urlLabel": "論文 ↗ PubMed 42386650",
+    "company": "steminent"
   },
   {
     "id": "pubmed:42381263",
@@ -201,6 +202,7 @@
     "note": "",
     "highlight": true,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5657707/",
-    "urlLabel": "論文 ↗ PMC5657707"
+    "urlLabel": "論文 ↗ PMC5657707",
+    "company": "steminent"
   }
 ]

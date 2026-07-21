@@ -1,0 +1,149 @@
+[
+  {
+    "id": "steminent",
+    "name": "仲恩生醫 Steminent",
+    "nameEn": "Steminent Biotherapeutics",
+    "short": "仲恩",
+    "country": "台灣 Taiwan",
+    "ticker": "TPEx 7729",
+    "mechanism": "異體脂肪 MSC（旁分泌神經保護、誘導自噬清除突變 ataxin-3）",
+    "pipeline": "Stemchymal®｜SCA1/2/3/6（pan-polyQ）：日本承認審查中（SCA3/6，優先審查）、台灣附款許可並行、美國 Ph2（UCLA+USF，2026，單臂＋自然史對照）",
+    "insight": "本社。手握台日 Ph2 隨機雙盲安慰劑對照正面數據 ＋ 日本優先審查 ＋ 最接近取證，是全賽道唯一有 Ph2 對照證據的資產。",
+    "threat": "self",
+    "url": "https://www.steminent.com/",
+    "match": ["Steminent", "仲恩", "Stemchymal"],
+    "updates": [
+      { "date": "2026/06", "text": "REPROCELL 送日本製造販賣『承認』申請（SCA3/6）＋『業』許可送神奈川縣" }
+    ]
+  },
+  {
+    "id": "biohaven",
+    "name": "Biohaven",
+    "nameEn": "Biohaven Ltd.",
+    "short": "Biohaven",
+    "country": "美國 USA",
+    "ticker": "NYSE: BHVN",
+    "mechanism": "小分子（麩胺酸調節，利魯唑前驅藥）",
+    "pipeline": "Troriluzole（BHV-4157）｜pan-SCA：Ph3 全體終點未達、SCA3 次族群近顯著；NDA 遭 FDA CRL",
+    "insight": "最領先的口服對手但取證受挫：2025/11 FDA CRL、研發砍 60%。其真實世界外部對照證據不被 FDA 接受，反襯本社隨機對照的方法學優勢。",
+    "threat": "mid",
+    "url": "https://www.biohaven.com/",
+    "match": ["Biohaven", "Troriluzole", "利魯唑", "Vyglxia", "BHV-4157"],
+    "updates": [
+      { "date": "2026/02", "text": "削減約 60% 研發支出、爭取與 FDA 再協商" }
+    ]
+  },
+  {
+    "id": "vico",
+    "name": "Vico Therapeutics",
+    "nameEn": "Vico Therapeutics",
+    "short": "Vico",
+    "country": "荷蘭 Netherlands",
+    "ticker": "未上市 Private",
+    "mechanism": "反義寡核苷酸 ASO（CAG exon-skipping，源自 LUMC）",
+    "pipeline": "VO659｜SCA1 / SCA3 / 亨丁頓舞蹈症（HD）：Ph1/2a 進行中（歐洲）",
+    "insight": "與本社在 SCA3 重疊、時程遠期。SCA3 CSF 突變 ataxin-3 未見下降、SCA 尚無明確療效，且有 radiculitis 神經根炎安全訊號（鞘內注射 vs 本社靜脈輸注）。",
+    "threat": "high",
+    "url": "https://vicotx.com/",
+    "match": ["Vico", "VO659"],
+    "updates": [
+      { "date": "2026/02", "text": "改半年一次給藥的 Ph1/2 收案" }
+    ]
+  },
+  {
+    "id": "arrowhead",
+    "name": "Arrowhead / Sarepta",
+    "nameEn": "Arrowhead Pharmaceuticals / Sarepta",
+    "short": "Arrowhead",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: ARWR / SRPT",
+    "mechanism": "siRNA（RNAi，標的 ATXN2）",
+    "pipeline": "ARO-ATXN2｜SCA2：Ph1（NCT06672445）收案結束、含台北榮總站點",
+    "insight": "SCA2 版的上游 gene-silencing，鞘內給藥；本社刻意避開台灣 SCA2 主因。與 Stemchymal（主 SCA3/6）非直接重疊，屬鄰域監控。",
+    "threat": "mid",
+    "url": "https://arrowheadpharma.com/",
+    "match": ["Arrowhead", "Sarepta", "ARO-ATXN2"],
+    "updates": [
+      { "date": "2026中", "text": "Ph1（n=39）收滿、2026 年中停止收案，primary completion 估 2026/12" }
+    ]
+  },
+  {
+    "id": "biogen-ionis",
+    "name": "Biogen / Ionis",
+    "nameEn": "Biogen / Ionis",
+    "short": "Biogen/Ionis",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: BIIB / IONS",
+    "mechanism": "反義寡核苷酸 ASO（標的 ATXN3，非選擇性）",
+    "pipeline": "BIIB132（ION260）｜SCA3：Ph1（MERA）2023/04 主動放棄",
+    "insight": "資源雄厚大廠退出 SCA3 賽道——標的對、載具送不到深部小腦。對含 SCA3 的 Stemchymal 屬正面。注意 Roche 亦持有 ATXN3 ASO 專利，ATXN3 空間不只一家。",
+    "threat": "low",
+    "url": "https://www.biogen.com/",
+    "match": ["Biogen", "Ionis", "BIIB132", "ION260"],
+    "updates": [
+      { "date": "2023/04", "text": "宣布停止 SCA3 BIIB132 Ph1（研發優先化重整）" }
+    ]
+  },
+  {
+    "id": "crd",
+    "name": "Cure Rare Disease",
+    "nameEn": "Cure Rare Disease",
+    "short": "CRD",
+    "country": "美國 USA",
+    "ticker": "非營利 Non-profit",
+    "mechanism": "反義寡核苷酸 ASO（單股，標的 ATXN3）",
+    "pipeline": "CRD-002｜SCA3：臨床前，IND 預計 2026",
+    "insight": "非營利生技，技術與 Vico 同源自 LUMC。2025/05 獲 FDA 孤兒藥資格、CIRM $5.7M 補助。時程落後 Stemchymal 甚多，長線監測。",
+    "threat": "low",
+    "url": "https://www.cureraredisease.org/",
+    "match": ["Cure Rare Disease", "CRD-002"],
+    "updates": [
+      { "date": "2025/05", "text": "獲 FDA 孤兒藥資格（SCA3）" }
+    ]
+  },
+  {
+    "id": "uniqure",
+    "name": "uniQure 等 AAV 基因療法",
+    "nameEn": "uniQure et al. (AAV gene therapy)",
+    "short": "uniQure",
+    "country": "荷蘭/美國 NL/US",
+    "ticker": "NASDAQ: QURE",
+    "mechanism": "AAV 基因療法",
+    "pipeline": "AAV 基因療法｜SCA（多型）：臨床前/早期，離臨床尚遠",
+    "insight": "學界與數家 biotech 探索中；uniQure AMT-150（AAV）近年已去優先化。屬遠期低威脅，反映共濟失調領域投資熱度。",
+    "threat": "low",
+    "url": "https://www.uniqure.com/",
+    "match": ["uniQure", "AMT-150", "AAV 基因療法"],
+    "updates": []
+  },
+  {
+    "id": "kissei",
+    "name": "Kissei 橘生製藥",
+    "nameEn": "Kissei Pharmaceutical",
+    "short": "Kissei",
+    "country": "日本 Japan",
+    "ticker": "TSE: 4547",
+    "mechanism": "小分子（TRH 類似物，症狀治療）",
+    "pipeline": "Rovatirelin（KPS-0373）｜脊髓小腦退化（SCA6/31 等）：兩項 Ph3 主終點未達，日本藥證 2023/07 撤回、啟動追加 Ph3",
+    "insight": "症狀治療型對手，機轉與 Stemchymal 不同、屬間接參考。其 Ph3 失利反映 SCA 單一 Ph3 達標之難。",
+    "threat": "low",
+    "url": "https://www.kissei.co.jp/e_contents/",
+    "match": ["Kissei", "Rovatirelin", "KPS-0373"],
+    "updates": []
+  },
+  {
+    "id": "riluzole",
+    "name": "學名藥 Riluzole",
+    "nameEn": "Generic Riluzole",
+    "short": "Riluzole",
+    "country": "—",
+    "ticker": "學名藥 Generic",
+    "mechanism": "小分子",
+    "pipeline": "Riluzole｜SCA（仿單外 off-label）：已上市，僅症狀緩解、無法改變病程",
+    "insight": "基準對照，非直接競品；SCA 屬 off-label 使用。",
+    "threat": "low",
+    "url": "",
+    "match": ["Riluzole", "學名藥"],
+    "updates": []
+  }
+]
