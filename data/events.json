@@ -8,7 +8,11 @@
     "relevance": "細胞治療臨床轉譯、法規、CMC、GMP 製造與國際合作。<b>本社共同主辦</b>。",
     "highlight": true,
     "url": "",
-    "competitors": []
+    "competitors": [],
+    "en": {
+      "location": "Taipei",
+      "relevance": "Clinical translation, regulation, CMC, GMP manufacturing and international partnering in cell therapy. <b>Co-hosted by Steminent</b>."
+    }
   },
   {
     "id": "mds-congress-2026",
@@ -19,7 +23,12 @@
     "relevance": "動作障礙領域最大國際年會；SCA／共濟失調臨床與競品發表重鎮。",
     "highlight": false,
     "url": "https://www.mdscongress.org/",
-    "competitors": []
+    "competitors": [],
+    "en": {
+      "name": "MDS International Congress",
+      "location": "COEX, Seoul",
+      "relevance": "The largest international meeting in movement disorders; a key venue for SCA/ataxia clinical and competitor presentations."
+    }
   },
   {
     "id": "wodc-europe-2026",
@@ -30,7 +39,11 @@
     "relevance": "罕病／孤兒藥旗艦會議。<b>本社 2025/04 曾於 WODC 發表 Ph2</b>。",
     "highlight": true,
     "url": "https://www.terrapinn.com/conference/world-orphan-drug-congress/index.stm",
-    "competitors": []
+    "competitors": [],
+    "en": {
+      "location": "RAI, Amsterdam",
+      "relevance": "Flagship rare-disease/orphan-drug meeting. <b>Steminent presented its Ph2 at WODC in 2025/04</b>."
+    }
   },
   {
     "id": "naf-aac",
@@ -41,7 +54,12 @@
     "relevance": "SCA 病友、研究者與藥廠齊聚；競品常於此揭露臨床進度。下屆日期待官網公布。",
     "highlight": false,
     "url": "https://www.ataxia.org/aac/",
-    "competitors": []
+    "competitors": [],
+    "en": {
+      "name": "NAF Annual Ataxia Conference",
+      "location": "United States",
+      "relevance": "Brings together SCA patients, researchers and companies; competitors often disclose clinical progress here. Next date to be announced."
+    }
   },
   {
     "id": "isscr-2026",
@@ -52,6 +70,11 @@
     "relevance": "幹細胞與再生醫學旗艦會議（本社 MSC 領域）。下屆（2027）日期官網未公布。",
     "highlight": false,
     "url": "https://www.isscr.org/",
-    "competitors": []
+    "competitors": [],
+    "en": {
+      "name": "ISSCR Annual Meeting",
+      "location": "Montreal",
+      "relevance": "Flagship stem-cell and regenerative-medicine meeting (our MSC field). The 2027 date has not been posted."
+    }
   }
 ]

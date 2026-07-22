@@ -9,7 +9,13 @@
     "note": "→ 闡明 ATXN1（SCA1 致病蛋白）交互作用夥伴 Capicua 的兩種異構物 CIC-L／CIC-S 功能分化：各偏好結合不同 ATXN1 家族成員，可解釋 SCA1 為何選擇性侵犯小腦——屬 SCA1 致病機制與組織脆弱性基礎研究。",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42476817/",
-    "urlLabel": "論文 ↗ PubMed 42476817"
+    "urlLabel": "論文 ↗ PubMed 42476817",
+    "en": {
+      "tag": "SCA1 mechanism",
+      "journal": "Genes Dev · Lee H et al.",
+      "note": "→ Shows how the two isoforms of Capicua (CIC-L / CIC-S), an interaction partner of ATXN1 (the SCA1 disease protein), diverge functionally — each preferring different ATXN1-family members, which helps explain why SCA1 selectively strikes the cerebellum. Basic research on SCA1 pathogenesis and tissue vulnerability.",
+      "urlLabel": "Paper ↗ PubMed 42476817"
+    }
   },
   {
     "id": "pubmed:42090775",
@@ -21,7 +27,13 @@
     "note": "→ 探討新近確認亞型 SCA27B（FGF14 GAA 重複）之診斷困難，屬 SCA 亞型辨識與流病情報。",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42090775/",
-    "urlLabel": "論文 ↗ PubMed 42090775"
+    "urlLabel": "論文 ↗ PubMed 42090775",
+    "en": {
+      "tag": "SCA27B diagnosis",
+      "journal": "J Neurol Sci · Pons et al.",
+      "note": "→ Examines the diagnostic difficulties of the recently confirmed subtype SCA27B (FGF14 GAA repeat); subtype identification and epidemiological intelligence.",
+      "urlLabel": "Paper ↗ PubMed 42090775"
+    }
   },
   {
     "id": "pubmed:42432710",
@@ -33,7 +45,13 @@
     "note": "→ 競品訊號：另一組 MSC 細胞療法在遺傳性小腦萎縮症的 Ph1/2a 臨床（自體骨髓 MSC），與本社異體脂肪 MSC 為同機制對手；同時佐證 MSC 治療 SCA 的臨床可行性敘事。",
     "highlight": true,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42432710/",
-    "urlLabel": "論文 ↗ PubMed 42432710"
+    "urlLabel": "論文 ↗ PubMed 42432710",
+    "en": {
+      "tag": "MSC trial · competitor move",
+      "journal": "Stem Cell Res Ther · Moghaddam AS et al.",
+      "note": "→ Competitor signal: another MSC cell therapy in a Ph1/2a trial in hereditary cerebellar ataxia (autologous bone-marrow MSC) — a same-mechanism rival to our allogeneic adipose MSC, while also reinforcing the clinical feasibility narrative for MSC in SCA.",
+      "urlLabel": "Paper ↗ PubMed 42432710"
+    }
   },
   {
     "id": "pubmed:42437952",
@@ -45,7 +63,13 @@
     "note": "→ 釐清 NOP56 在中樞神經生成與維持的角色及其與 SCA36 病理的關聯，屬 SCA 亞型致病機制基礎研究。",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42437952/",
-    "urlLabel": "論文 ↗ PubMed 42437952"
+    "urlLabel": "論文 ↗ PubMed 42437952",
+    "en": {
+      "tag": "SCA36 mechanism",
+      "journal": "Acta Neuropathol Commun · Matsuzono K et al.",
+      "note": "→ Clarifies the role of NOP56 in generating and maintaining the central nervous system and its link to SCA36 pathology; basic research on subtype pathogenesis.",
+      "urlLabel": "Paper ↗ PubMed 42437952"
+    }
   },
   {
     "id": "pubmed:42403360",
@@ -57,7 +81,13 @@
     "note": "→ 以網絡統計法定位 SCA3 受損連結體，指出可作為神經調控介入的新治療標的。",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42403360/",
-    "urlLabel": "論文 ↗ PubMed 42403360"
+    "urlLabel": "論文 ↗ PubMed 42403360",
+    "en": {
+      "tag": "SCA3 neuromodulation target",
+      "journal": "CNS Neurosci Ther · Ou L et al.",
+      "note": "→ Uses network-based statistics to map the disrupted connectome in SCA3 and points to new targets for neuromodulation.",
+      "urlLabel": "Paper ↗ PubMed 42403360"
+    }
   },
   {
     "id": "pubmed:42426383",
@@ -69,7 +99,13 @@
     "note": "→ 綜述 SCA 的免疫活化與膠細胞失能，並探討免疫調節作為治療切入點——直接呼應本社異體 MSC 的抗神經發炎機制敘事。",
     "highlight": true,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42426383/",
-    "urlLabel": "論文 ↗ PubMed 42426383"
+    "urlLabel": "論文 ↗ PubMed 42426383",
+    "en": {
+      "tag": "SCA neuroinflammation · immunomodulation",
+      "journal": "Cerebellum · Vázquez-Mojena Y et al.",
+      "note": "→ Reviews immune activation and glial dysfunction in SCA and explores immunomodulation as a therapeutic entry point — directly echoing the anti-neuroinflammatory mechanism narrative of our allogeneic MSC.",
+      "urlLabel": "Paper ↗ PubMed 42426383"
+    }
   },
   {
     "id": "pubmed:42420064",
@@ -81,7 +117,13 @@
     "note": "→ 系統回顧 SCA 基因療法進展（ASO／AAV 等），對應 Vico VO659、AAV 基因療法競爭象限的最新格局盤點。",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42420064/",
-    "urlLabel": "論文 ↗ PubMed 42420064"
+    "urlLabel": "論文 ↗ PubMed 42420064",
+    "en": {
+      "tag": "SCA gene therapy review",
+      "journal": "Trends in Pharmacological Sciences · Eo H et al.",
+      "note": "→ Systematic review of gene-therapy progress in SCA (ASO, AAV and others); a current stocktake of the quadrant occupied by Vico VO659 and AAV gene therapy.",
+      "urlLabel": "Paper ↗ PubMed 42420064"
+    }
   },
   {
     "id": "pubmed:42386650",
@@ -94,7 +136,13 @@
     "highlight": true,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42386650/",
     "urlLabel": "論文 ↗ PubMed 42386650",
-    "company": "steminent"
+    "company": "steminent",
+    "en": {
+      "tag": "MSC animal study · most relevant",
+      "journal": "Int J Stem Cells · Lu KM, Ong WK, Ting AE et al.",
+      "note": "→ Animal data directly supporting neuroprotection and motor improvement in SCA3 from allogeneic adipose MSC — our own mechanistic route.",
+      "urlLabel": "Paper ↗ PubMed 42386650"
+    }
   },
   {
     "id": "pubmed:42381263",
@@ -106,7 +154,13 @@
     "note": "→ SCA3 生物標記追蹤方法學，與 Vico VO659 等以生物標記為療效指標的試驗設計相關。",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42381263/",
-    "urlLabel": "論文 ↗ PubMed 42381263"
+    "urlLabel": "論文 ↗ PubMed 42381263",
+    "en": {
+      "tag": "SCA3 biomarker",
+      "journal": "Movement Disorders",
+      "note": "→ Methodology for tracking SCA3 biomarkers, relevant to trials such as Vico VO659 that use biomarkers as efficacy endpoints.",
+      "urlLabel": "Paper ↗ PubMed 42381263"
+    }
   },
   {
     "id": "pubmed:42391783",
@@ -118,7 +172,13 @@
     "note": "→ 建立 SCA27B 病人來源 iPSC 細胞株，作為疾病建模與療法測試平台（幹細胞領域研究工具進展）。",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42391783/",
-    "urlLabel": "論文 ↗ PubMed 42391783"
+    "urlLabel": "論文 ↗ PubMed 42391783",
+    "en": {
+      "tag": "SCA disease model",
+      "journal": "Stem Cell Research · Pellerin D et al.",
+      "note": "→ Establishes patient-derived iPSC lines for SCA27B as a platform for disease modelling and therapy testing (a research-tool advance in the stem-cell field).",
+      "urlLabel": "Paper ↗ PubMed 42391783"
+    }
   },
   {
     "id": "pubmed:42405278",
@@ -130,7 +190,13 @@
     "note": "→ 針對 ATXN3 的 twin prime editing 基因編輯優化，屬基因層級療法路線，與 Vico VO659（ASO）、AAV 基因療法同一競爭象限。",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/42405278/",
-    "urlLabel": "論文 ↗ PubMed 42405278"
+    "urlLabel": "論文 ↗ PubMed 42405278",
+    "en": {
+      "tag": "SCA3 gene editing",
+      "journal": "Mol Ther Nucleic Acids · Gwon LW et al.",
+      "note": "→ Optimises twin prime editing against ATXN3; a gene-level therapeutic route in the same competitive quadrant as Vico VO659 (ASO) and AAV gene therapy.",
+      "urlLabel": "Paper ↗ PubMed 42405278"
+    }
   },
   {
     "id": "pubmed:41082794",
@@ -142,7 +208,14 @@
     "note": "",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/41082794/",
-    "urlLabel": "論文 ↗ PubMed 41082794"
+    "urlLabel": "論文 ↗ PubMed 41082794",
+    "en": {
+      "tag": "Taiwan genetics",
+      "title": "Genetic landscape of SCA in Taiwan (876 cases)",
+      "journal": "Parkinsonism Relat Disord",
+      "note": "",
+      "urlLabel": "Paper ↗ PubMed 41082794"
+    }
   },
   {
     "id": "pubmed:40471914",
@@ -154,7 +227,13 @@
     "note": "",
     "highlight": false,
     "url": "https://pubmed.ncbi.nlm.nih.gov/40471914/",
-    "urlLabel": "論文 ↗ PubMed 40471914"
+    "urlLabel": "論文 ↗ PubMed 40471914",
+    "en": {
+      "tag": "Taiwan epidemiology",
+      "journal": "Acta Neurol Taiwan",
+      "note": "",
+      "urlLabel": "Paper ↗ PubMed 40471914"
+    }
   },
   {
     "id": "pmc:PMC11591855",
@@ -166,7 +245,13 @@
     "note": "→ MSC 治療 SCA 的最新綜述，直接支撐本社機制敘事。",
     "highlight": true,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11591855/",
-    "urlLabel": "論文 ↗ PMC11591855"
+    "urlLabel": "論文 ↗ PMC11591855",
+    "en": {
+      "tag": "MSC · most relevant",
+      "journal": "Biomedicines",
+      "note": "→ The most recent review of MSC therapy in SCA; directly supports our mechanism narrative.",
+      "urlLabel": "Paper ↗ PMC11591855"
+    }
   },
   {
     "id": "pmc:PMC11012515",
@@ -178,7 +263,13 @@
     "note": "",
     "highlight": false,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11012515/",
-    "urlLabel": "論文 ↗ PMC11012515"
+    "urlLabel": "論文 ↗ PMC11012515",
+    "en": {
+      "tag": "Mechanism",
+      "journal": "Int J Mol Sci",
+      "note": "",
+      "urlLabel": "Paper ↗ PMC11012515"
+    }
   },
   {
     "id": "pmc:PMC9838137",
@@ -190,7 +281,13 @@
     "note": "",
     "highlight": false,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9838137/",
-    "urlLabel": "論文 ↗ PMC9838137"
+    "urlLabel": "論文 ↗ PMC9838137",
+    "en": {
+      "tag": "Cell therapy",
+      "journal": "Neural Regen Res",
+      "note": "",
+      "urlLabel": "Paper ↗ PMC9838137"
+    }
   },
   {
     "id": "pmc:PMC5657707",
@@ -203,6 +300,12 @@
     "highlight": true,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5657707/",
     "urlLabel": "論文 ↗ PMC5657707",
-    "company": "steminent"
+    "company": "steminent",
+    "en": {
+      "tag": "Our clinical data · foundational",
+      "journal": "Cell Transplant",
+      "note": "",
+      "urlLabel": "Paper ↗ PMC5657707"
+    }
   }
 ]

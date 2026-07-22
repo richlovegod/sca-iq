@@ -7,7 +7,13 @@
     "status": "美國 · 2026 啟動收案",
     "sponsor": "Steminent（本社）",
     "us": true,
-    "url": "https://clinicaltrials.gov/study/NCT06397274"
+    "url": "https://clinicaltrials.gov/study/NCT06397274",
+    "en": {
+      "mechanism": "Allogeneic adipose MSC",
+      "phase": "Ph2",
+      "status": "US · enrolment starts 2026",
+      "sponsor": "Steminent (us)"
+    }
   },
   {
     "nct": "NCT02540655",
@@ -17,7 +23,13 @@
     "status": "已完成（台灣單中心 n=56）",
     "sponsor": "Steminent（本社）",
     "us": true,
-    "url": "https://clinicaltrials.gov/study/NCT02540655"
+    "url": "https://clinicaltrials.gov/study/NCT02540655",
+    "en": {
+      "mechanism": "Allogeneic adipose MSC",
+      "phase": "Ph2",
+      "status": "Completed (single centre, Taiwan, n=56)",
+      "sponsor": "Steminent (us)"
+    }
   },
   {
     "nct": "NCT05822908",
@@ -27,7 +39,13 @@
     "status": "收案中（歐洲）",
     "sponsor": "Vico Therapeutics",
     "us": false,
-    "url": "https://clinicaltrials.gov/study/NCT05822908"
+    "url": "https://clinicaltrials.gov/study/NCT05822908",
+    "en": {
+      "mechanism": "ASO",
+      "phase": "Ph1/2a",
+      "status": "Enrolling (Europe)",
+      "sponsor": "Vico Therapeutics"
+    }
   },
   {
     "nct": "NCT03701399",
@@ -37,7 +55,13 @@
     "status": "已完成 → NDA 受挫",
     "sponsor": "Biohaven",
     "us": false,
-    "url": "https://clinicaltrials.gov/study/NCT03701399"
+    "url": "https://clinicaltrials.gov/study/NCT03701399",
+    "en": {
+      "mechanism": "Small molecule",
+      "phase": "Ph3",
+      "status": "Completed → NDA rejected",
+      "sponsor": "Biohaven"
+    }
   },
   {
     "nct": "NCT06672445",
@@ -47,7 +71,13 @@
     "status": "收案結束（含台北榮總）",
     "sponsor": "Arrowhead / Sarepta",
     "us": false,
-    "url": "https://clinicaltrials.gov/study/NCT06672445"
+    "url": "https://clinicaltrials.gov/study/NCT06672445",
+    "en": {
+      "mechanism": "siRNA (ATXN2)",
+      "phase": "Ph1",
+      "status": "Enrolment closed (sites incl. Taipei VGH)",
+      "sponsor": "Arrowhead / Sarepta"
+    }
   },
   {
     "nct": "NCT03378414",
@@ -57,7 +87,14 @@
     "status": "計畫中（2026 預計）",
     "sponsor": "其他細胞療法對手",
     "us": false,
-    "url": "https://clinicaltrials.gov/study/NCT03378414"
+    "url": "https://clinicaltrials.gov/study/NCT03378414",
+    "en": {
+      "drug": "Umbilical-cord MSC (iSCLife®-SA)",
+      "mechanism": "Allogeneic umbilical-cord MSC",
+      "phase": "—",
+      "status": "Planned (expected 2026)",
+      "sponsor": "Other cell-therapy rival"
+    }
   },
   {
     "nct": "NCT07467733",
@@ -67,6 +104,13 @@
     "status": "新登錄（2026/03）",
     "sponsor": "其他細胞療法對手",
     "us": false,
-    "url": "https://clinicaltrials.gov/study/NCT07467733"
+    "url": "https://clinicaltrials.gov/study/NCT07467733",
+    "en": {
+      "drug": "Neurally induced MSC + exosomes",
+      "mechanism": "MSC / exosome",
+      "phase": "Early",
+      "status": "Newly registered (2026/03)",
+      "sponsor": "Other cell-therapy rival"
+    }
   }
 ]

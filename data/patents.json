@@ -12,7 +12,16 @@
     "status": "已核准（美國）",
     "expiry": "—",
     "note": "→ 本社 MoA（誘導細胞自噬清除突變 ataxin-3）有美國核准專利保護（公司公開揭露）。具體專利號未見於公開新聞——本社自家 IP 建議由 Steminent 內部提供以完整化，勝過外部推測。",
-    "url": "https://www.geneonline.com/steminent-stands-ready-to-showcase-novel-msc-based-therapy-for-spinocerebellar-ataxia-at-global-stage/"
+    "url": "https://www.geneonline.com/steminent-stands-ready-to-showcase-novel-msc-based-therapy-for-spinocerebellar-ataxia-at-global-stage/",
+    "en": {
+      "competitor": "Steminent",
+      "title": "MSC mechanism inducing autophagy to clear mutant ataxin-3",
+      "ptype": "Method / mechanism patent",
+      "assignee": "Steminent (us)",
+      "status": "Granted (US)",
+      "note": "→ Our mechanism of action (inducing autophagy to clear mutant ataxin-3) is covered by a granted US patent, per the company’s own disclosure. The patent number does not appear in public reporting — Steminent should supply its own IP details internally rather than have them inferred from outside.",
+      "number": "Granted US patent (per company disclosure)"
+    }
   },
   {
     "id": "us10485791",
@@ -26,7 +35,15 @@
     "status": "已核准（2019-11-26）",
     "expiry": "約 2036-02-26（估計，未計最長 5 年專利期延長）",
     "note": "→ Troriluzole 的組成物護城河到 2036；即使 FDA 已退件，只要 Biohaven 重啟或對外授權，這道 IP 仍在，是評估其後路的關鍵。",
-    "url": "https://patents.google.com/patent/US10485791B2/en"
+    "url": "https://patents.google.com/patent/US10485791B2/en",
+    "en": {
+      "title": "Riluzole prodrugs and their use",
+      "ptype": "Composition-of-matter patent",
+      "assignee": "Biohaven Therapeutics Ltd",
+      "status": "Granted (2019-11-26)",
+      "expiry": "~2036-02-26 (estimate, excluding up to 5 years of term extension)",
+      "note": "→ Troriluzole’s composition moat runs to 2036. Even after the FDA rejection, this IP stands if Biohaven restarts or out-licenses the programme — key to assessing its fallback options."
+    }
   },
   {
     "id": "us20210023061",
@@ -40,7 +57,15 @@
     "status": "審查中（2021-01-28 公開）",
     "expiry": "若核准約至 2038-11（估計，申請日＋20 年）",
     "note": "→ 直接鎖定共濟失調（含 SCA）適應症用途，仍審查中，是最該盯的一件——核准與否影響同類前驅藥在 SCA 的用途空間。",
-    "url": "https://patents.google.com/patent/US20210023061A1/en"
+    "url": "https://patents.google.com/patent/US20210023061A1/en",
+    "en": {
+      "title": "Use of riluzole prodrugs to treat ataxias",
+      "ptype": "Use / method patent",
+      "assignee": "Biohaven Therapeutics Ltd",
+      "status": "Under examination (published 2021-01-28)",
+      "expiry": "If granted, to ~2038-11 (estimate, filing date + 20 years)",
+      "note": "→ Targets the ataxia indication (including SCA) directly and is still under examination — the single most important one to watch, since the outcome shapes how much room other prodrugs have in SCA."
+    }
   },
   {
     "id": "vico-lumc-foundational",
@@ -54,7 +79,17 @@
     "status": "已核准；部分成員已因未繳年費失效",
     "expiry": "基礎專利期約至 2030；VO659 專屬組成之較新請求項應在後續申請案（未列於此）",
     "note": "→ VO659 的 CAG exon-skipping 技術源自 LUMC 授權；此基礎專利已老化／部分失效，屬 Vico IP 的潛在弱點；資產專屬保護需看較新的 Vico/LUMC 申請案。",
-    "url": "https://patents.google.com/patent/US10590421B2/en"
+    "url": "https://patents.google.com/patent/US10590421B2/en",
+    "en": {
+      "number": "US 10,590,421 B2 (LUMC foundational platform patent)",
+      "title": "Antisense oligonucleotide exon skipping of CAG trinucleotide repeats (polyQ diseases)",
+      "ptype": "Foundational platform patent",
+      "assignee": "Leiden University Medical Center (LUMC)",
+      "filed": "2010-08-05 (priority)",
+      "status": "Granted; some family members lapsed for unpaid annuities",
+      "expiry": "Foundational term to ~2030; newer claims specific to VO659 would sit in later filings (not listed here)",
+      "note": "→ VO659’s CAG exon-skipping technology is licensed from LUMC; this foundational patent is ageing and partly lapsed, a potential weak point in Vico’s IP. Asset-specific protection depends on newer Vico/LUMC filings."
+    }
   },
   {
     "id": "wo2024196753",
@@ -68,7 +103,15 @@
     "status": "審查中（PCT，2024-09-26 公開，已進多國國家階段）",
     "expiry": "約 2044（估計，申請日＋20 年）",
     "note": "→ Arrowhead ATXN2 siRNA 的核心 IP，2024 新申請、專利壽命長（約 2044）；SCA2 專屬（本社刻意避開 SCA2），屬鄰域監控。",
-    "url": "https://patents.google.com/patent/WO2024196753A2/en"
+    "url": "https://patents.google.com/patent/WO2024196753A2/en",
+    "en": {
+      "title": "RNAi agents for inhibiting expression of ataxin-2 (ATXN2)",
+      "ptype": "RNAi composition / method patent",
+      "assignee": "Arrowhead Pharmaceuticals Inc",
+      "status": "Under examination (PCT published 2024-09-26, national phase entered in several countries)",
+      "expiry": "~2044 (estimate, filing date + 20 years)",
+      "note": "→ Core IP for Arrowhead’s ATXN2 siRNA: filed in 2024 with a long life (to about 2044). SCA2-specific — a subtype we deliberately avoid — so this is adjacent-space monitoring."
+    }
   },
   {
     "id": "biogen-biib132",
@@ -82,6 +125,14 @@
     "status": "研發中止（2023）",
     "expiry": "—",
     "note": "→ BIIB132 於 2023 放棄開發，其 SCA3 ASO 之 IP（Ionis 揭露持有）現為防禦／潛在再授權資產。另注意 Roche 亦持有 ATXN3 ASO 專利（TW202113082A，優先權 2019）——ATXN3 ASO 空間不只一家。",
-    "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/"
+    "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/",
+    "en": {
+      "competitor": "Biogen / Ionis",
+      "number": "— (programme discontinued)",
+      "title": "ATXN3 antisense oligonucleotide (SCA3 ASO)",
+      "assignee": "Ionis / Biogen",
+      "status": "Development discontinued (2023)",
+      "note": "→ BIIB132 was abandoned in 2023; the SCA3 ASO IP (disclosed as held by Ionis) is now a defensive or potentially re-licensable asset. Note that Roche also holds ATXN3 ASO patents (TW202113082A, priority 2019) — the ATXN3 ASO space has more than one player."
+    }
   }
 ]

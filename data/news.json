@@ -8,9 +8,31 @@
     "body": "本社 Stemchymal：<b>6/24 產品「承認申請」(SCA3/6) 送 PMDA</b>；6/18 MAH「業許可」送神奈川縣。",
     "note": "",
     "links": [
-      { "label": "承認 ↗", "url": "https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html" },
-      { "label": "業許可 ↗", "url": "https://udn.com/news/story/7241/9579117" }
-    ]
+      {
+        "label": "承認 ↗",
+        "url": "https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html"
+      },
+      {
+        "label": "業許可 ↗",
+        "url": "https://udn.com/news/story/7241/9579117"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2026/06",
+      "tag": "Milestone",
+      "body": "Our Stemchymal: <b>marketing approval application (SCA3/6) filed with PMDA on 6/24</b>; MAH business licence filed with Kanagawa Prefecture on 6/18.",
+      "note": "",
+      "links": [
+        {
+          "label": "Approval filing ↗",
+          "url": "https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html"
+        },
+        {
+          "label": "Business licence ↗",
+          "url": "https://udn.com/news/story/7241/9579117"
+        }
+      ]
+    }
   },
   {
     "id": "steminent-us-ph2-details",
@@ -21,8 +43,23 @@
     "body": "美國二期試驗細節公布：<b>UCLA＋USF 兩站點、預計 2026/09 首例收案</b>，收案 20 人（SCA3），共同主持人 <b>Susan Perlman、Theresa Zesiewicz</b> 醫師；採真實世界數據並<b>事先與 FDA 協議統計分析計畫（SAP）</b>——為 Troriluzole 教訓後的設計調整。",
     "note": "",
     "links": [
-      { "label": "來源 ↗ GeneOnline", "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/" }
-    ]
+      {
+        "label": "來源 ↗ GeneOnline",
+        "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/"
+      }
+    ],
+    "en": {
+      "dateDisplay": "Recent",
+      "tag": "US progress",
+      "body": "Details of the US Phase 2 released: <b>two sites, UCLA and USF, with first patient expected 2026/09</b>, enrolling 20 patients (SCA3), co-led by <b>Drs Susan Perlman and Theresa Zesiewicz</b>; it uses real-world data with a <b>statistical analysis plan (SAP) agreed with FDA in advance</b> — a design change learned from the troriluzole experience.",
+      "note": "",
+      "links": [
+        {
+          "label": "Source ↗ GeneOnline",
+          "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/"
+        }
+      ]
+    }
   },
   {
     "id": "steminent-earnings-2026-04",
@@ -33,8 +70,23 @@
     "body": "法說會揭露：<b>產能規劃 2026年300劑→2027年900劑→2028年2,700劑</b>；現金增資每股 NT$68、發行 750萬股；官方市場規模估計台灣 700人（SCA3）、日本 3,000人（SCA3+6）；聘請法規顧問 <b>Kurt Gunter</b>。",
     "note": "",
     "links": [
-      { "label": "來源 ↗ GeneOnline", "url": "https://geneonline.news/steminent-april-026newsearningscall/" }
-    ]
+      {
+        "label": "來源 ↗ GeneOnline",
+        "url": "https://geneonline.news/steminent-april-026newsearningscall/"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2026/04 earnings call",
+      "tag": "Capacity / financials",
+      "body": "Disclosed on the earnings call: <b>capacity plan of 300 doses in 2026 → 900 in 2027 → 2,700 in 2028</b>; cash capital increase at NT$68 per share, 7.5m shares issued; official market size estimates of 700 patients in Taiwan (SCA3) and 3,000 in Japan (SCA3+6); regulatory adviser <b>Kurt Gunter</b> engaged.",
+      "note": "",
+      "links": [
+        {
+          "label": "Source ↗ GeneOnline",
+          "url": "https://geneonline.news/steminent-april-026newsearningscall/"
+        }
+      ]
+    }
   },
   {
     "id": "biohaven-troriluzole-crl-2025-11",
@@ -45,9 +97,31 @@
     "body": "Biohaven 的 Troriluzole <b>遭 FDA 退件（CRL，2025/11）</b>；後續宣布 R&D 削減 60%、並要求與 FDA 正式會談爭取後路（2026/02）。",
     "note": "→ 領先小分子對手停滯，SCA 賽道出現空窗。",
     "links": [
-      { "label": "退件 ↗ CRL 2025/11", "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" },
-      { "label": "R&D↓60% ↗ 2026/02", "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease" }
-    ]
+      {
+        "label": "退件 ↗ CRL 2025/11",
+        "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
+      },
+      {
+        "label": "R&D↓60% ↗ 2026/02",
+        "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2025/11",
+      "tag": "Threat↓",
+      "body": "Biohaven’s troriluzole <b>received an FDA Complete Response Letter (CRL, 2025/11)</b>; the company then cut R&D spending by 60% and requested a formal FDA meeting to seek a path forward (2026/02).",
+      "note": "→ The leading small-molecule rival has stalled, opening a window in the SCA field.",
+      "links": [
+        {
+          "label": "CRL ↗ 2025/11",
+          "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
+        },
+        {
+          "label": "R&D↓60% ↗ 2026/02",
+          "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease"
+        }
+      ]
+    }
   },
   {
     "id": "vico-vo659-dosing-2026-02",
@@ -58,9 +132,38 @@
     "body": "Vico 的 ASO <b>VO659</b>（SCA1/SCA3/HD）2026/02/24 進入半年一次給藥 Ph1/2。",
     "note": "→ 與本社在 SCA3 重疊，但 <b style=\"color:#ffce7a\">SCA 尚無明確療效（SCA3 生物標記混合/微弱、SCA1 無；明確正面在 HD）</b>；曾見 radiculitis（神經根發炎，多數恢復中）。仍 Ph1/2a、遠期。",
     "links": [
-      { "label": "給藥公告 ↗ 2026/02", "url": "https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" },
-      { "label": "SCA數據/安全 ↗ HDBuzz", "url": "https://en.hdbuzz.net/398/" },
-      { "label": "試驗 ↗ NCT", "url": "https://clinicaltrials.gov/study/NCT05822908" }
-    ]
+      {
+        "label": "給藥公告 ↗ 2026/02",
+        "url": "https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1"
+      },
+      {
+        "label": "SCA數據/安全 ↗ HDBuzz",
+        "url": "https://en.hdbuzz.net/398/"
+      },
+      {
+        "label": "試驗 ↗ NCT",
+        "url": "https://clinicaltrials.gov/study/NCT05822908"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2026/02",
+      "tag": "Watch",
+      "body": "Vico’s ASO <b>VO659</b> (SCA1/SCA3/HD) moved to a twice-yearly dosing Ph1/2 on 2026/02/24.",
+      "note": "→ Overlaps with us in SCA3, but <b style=\"color:#ffce7a\">there is still no clear efficacy in SCA (SCA3 biomarkers mixed/weak, none in SCA1; the clear positive is in HD)</b>; radiculitis (nerve-root inflammation, mostly resolving) has been observed. Still Ph1/2a and years away.",
+      "links": [
+        {
+          "label": "Dosing release ↗ 2026/02",
+          "url": "https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1"
+        },
+        {
+          "label": "SCA data/safety ↗ HDBuzz",
+          "url": "https://en.hdbuzz.net/398/"
+        },
+        {
+          "label": "Trial ↗ NCT",
+          "url": "https://clinicaltrials.gov/study/NCT05822908"
+        }
+      ]
+    }
   }
 ]

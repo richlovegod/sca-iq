@@ -1,0 +1,205 @@
+[
+  {
+    "id": "steminent",
+    "threat": "us",
+    "company": "仲恩 Steminent",
+    "asset": "Stemchymal®",
+    "mechanism": "異體脂肪 MSC<br>(旁分泌)",
+    "indication": "pan-polyQ<br>SCA1/2/3/6<br><span style=\"color:#6a7c92\">(日本申請 SCA3/6)</span>",
+    "phase": "Ph2 完成→申請中",
+    "status": "① 6/18 MAH業許可送神奈川縣(Q3核准) ② 6/24 產品承認申請(SCA3/6)送 PMDA，優先審查約9個月，最快2027H1 ③ 台灣附款許可並行 ④ <b>美國 Ph2：UCLA+USF、2026/09首例、n=20、PI Perlman/Zesiewicz</b>",
+    "threatLabel": "本社",
+    "links": [
+      { "label": "承認 ↗", "url": "https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html" },
+      { "label": "業許可 ↗", "url": "https://udn.com/news/story/7241/9579117" },
+      { "label": "美國試驗 ↗", "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/" }
+    ],
+    "en": {
+      "company": "Steminent",
+      "mechanism": "Allogeneic adipose MSC<br>(paracrine)",
+      "indication": "pan-polyQ<br>SCA1/2/3/6<br><span style=\"color:#6a7c92\">(Japan filing: SCA3/6)</span>",
+      "phase": "Ph2 done → under review",
+      "status": "① 6/18 MAH business licence filed with Kanagawa Prefecture (approval expected Q3) ② 6/24 product marketing application (SCA3/6) filed with PMDA; ~9-month priority review, earliest approval 2027H1 ③ Taiwan conditional approval running in parallel ④ <b>US Ph2: UCLA + USF, first patient 2026/09, n=20, PIs Perlman/Zesiewicz</b>",
+      "threatLabel": "Us",
+      "links": [
+        { "label": "Marketing filing ↗", "url": "https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html" },
+        { "label": "Business licence ↗", "url": "https://udn.com/news/story/7241/9579117" },
+        { "label": "US trial ↗", "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/" }
+      ]
+    }
+  },
+  {
+    "id": "biohaven",
+    "threat": "mid",
+    "company": "Biohaven",
+    "asset": "Troriluzole",
+    "mechanism": "小分子<br>麩胺酸調節",
+    "indication": "pan-SCA",
+    "phase": "NDA 受挫",
+    "status": "<b style=\"color:#ff8a7a\">FDA CRL (2025/11)</b>；R&D 砍 60%、爭取與 FDA 再協商 (2026/02)",
+    "threatLabel": "中↓",
+    "links": [
+      { "label": "CRL ↗ 2025/11", "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" },
+      { "label": "R&D↓60% ↗", "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease" }
+    ],
+    "en": {
+      "mechanism": "Small molecule<br>glutamate modulation",
+      "indication": "pan-SCA",
+      "phase": "NDA rejected",
+      "status": "<b style=\"color:#ff8a7a\">FDA CRL (2025/11)</b>; R&D spend cut 60%, seeking further discussions with FDA (2026/02)",
+      "threatLabel": "Mid↓",
+      "links": [
+        { "label": "CRL ↗ 2025/11", "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" },
+        { "label": "R&D↓60% ↗", "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease" }
+      ]
+    }
+  },
+  {
+    "id": "vico",
+    "threat": "high",
+    "company": "Vico Therapeutics",
+    "asset": "VO659",
+    "mechanism": "ASO",
+    "indication": "SCA1/SCA3/HD",
+    "phase": "Ph1/2a",
+    "status": "2026/02/24 半年一次給藥 Ph1/2；<b>與本社在 SCA3 重疊</b>，惟 <b style=\"color:#ffce7a\">SCA 尚無明確療效</b>（SCA3 生物標記混合/微弱、SCA1 無；正面在 HD）；鞘內注射、曾見 radiculitis（多數恢復中；vs 本社靜脈輸注）",
+    "threatLabel": "高(遠期)",
+    "links": [
+      { "label": "給藥公告 ↗", "url": "https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" },
+      { "label": "SCA數據/安全 ↗ HDBuzz", "url": "https://en.hdbuzz.net/398/" },
+      { "label": "試驗 ↗ NCT", "url": "https://clinicaltrials.gov/study/NCT05822908" }
+    ],
+    "en": {
+      "mechanism": "ASO",
+      "indication": "SCA1/SCA3/HD",
+      "phase": "Ph1/2a",
+      "status": "2026/02/24 twice-yearly dosing Ph1/2; <b>overlaps with Steminent in SCA3</b>, but <b style=\"color:#ffce7a\">no clear efficacy in SCA yet</b> (SCA3 biomarkers mixed/weak, none in SCA1; positive signal is in HD); intrathecal dosing with observed radiculitis (mostly resolving; vs Steminent's IV infusion)",
+      "threatLabel": "High (long-term)",
+      "links": [
+        { "label": "Dosing release ↗", "url": "https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" },
+        { "label": "SCA data/safety ↗ HDBuzz", "url": "https://en.hdbuzz.net/398/" },
+        { "label": "Trial ↗ NCT", "url": "https://clinicaltrials.gov/study/NCT05822908" }
+      ]
+    }
+  },
+  {
+    "id": "arrowhead",
+    "threat": "mid",
+    "company": "Arrowhead / Sarepta",
+    "asset": "ARO-ATXN2",
+    "mechanism": "siRNA (RNAi)<br>ATXN2",
+    "indication": "SCA2",
+    "phase": "Ph1",
+    "status": "鞘內 siRNA、降 ataxin-2。一期 <b>NCT06672445</b> 已收滿 39 人、2026 年中停止收案；primary completion 估 2026/12。<b style=\"color:#ffce7a\">站點含台北榮總（郵遞區號 112201 反查確認）</b>——本社避開台灣 SCA2 的主因。屬「SCA2 版的上游 gene-silencing」，深部小腦交付未證。",
+    "threatLabel": "中(遠期)",
+    "links": [
+      { "label": "試驗 ↗ NCT06672445", "url": "https://clinicaltrials.gov/study/NCT06672445" },
+      { "label": "研究頁 ↗ NAF", "url": "https://www.ataxia.org/study/aroatxn2-1001/" }
+    ],
+    "en": {
+      "mechanism": "siRNA (RNAi)<br>ATXN2",
+      "indication": "SCA2",
+      "phase": "Ph1",
+      "status": "Intrathecal siRNA lowering ataxin-2. Phase 1 <b>NCT06672445</b> fully enrolled at 39 patients, enrolment closed mid-2026; primary completion estimated 2026/12. <b style=\"color:#ffce7a\">Sites include Taipei Veterans General Hospital (confirmed via postcode 112201)</b> — the main reason Steminent steers clear of SCA2 in Taiwan. Effectively the SCA2 version of upstream gene silencing; delivery to deep cerebellum still unproven.",
+      "threatLabel": "Mid (long-term)",
+      "links": [
+        { "label": "Trial ↗ NCT06672445", "url": "https://clinicaltrials.gov/study/NCT06672445" },
+        { "label": "Study page ↗ NAF", "url": "https://www.ataxia.org/study/aroatxn2-1001/" }
+      ]
+    }
+  },
+  {
+    "id": "biogen-ionis",
+    "threat": "low",
+    "company": "Biogen / Ionis",
+    "asset": "BIIB132 (ION260)",
+    "mechanism": "ASO (ATXN3)<br>非選擇性",
+    "indication": "SCA3",
+    "phase": "已放棄",
+    "status": "2023/04 Biogen 主動放棄（41 週猴子鞘內毒理＋人體 PD 不足）；一期僅收 8 人即終止。<b>標的對、載具送不到深部小腦</b>。〔另 BIIB105/ATXN2 為 ALS 案、2024 終止，非 SCA〕",
+    "threatLabel": "低(退場)",
+    "links": [
+      { "label": "試驗 ↗ NCT05160558", "url": "https://clinicaltrials.gov/study/NCT05160558" },
+      { "label": "停止 ↗ Ataxia UK", "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/" }
+    ],
+    "en": {
+      "mechanism": "ASO (ATXN3)<br>non-selective",
+      "indication": "SCA3",
+      "phase": "Discontinued",
+      "status": "Biogen discontinued in 2023/04 (41-week intrathecal monkey toxicology plus insufficient human PD); the Phase 1 stopped after only 8 patients. <b>Right target, but the delivery vehicle could not reach the deep cerebellum.</b> [Separately, BIIB105/ATXN2 was an ALS programme terminated in 2024 — not SCA.]",
+      "threatLabel": "Low (exited)",
+      "links": [
+        { "label": "Trial ↗ NCT05160558", "url": "https://clinicaltrials.gov/study/NCT05160558" },
+        { "label": "Discontinuation ↗ Ataxia UK", "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/" }
+      ]
+    }
+  },
+  {
+    "id": "crd",
+    "threat": "low",
+    "company": "Cure Rare Disease",
+    "asset": "CRD-002",
+    "mechanism": "ASO (ATXN3)<br>單股反義",
+    "indication": "SCA3",
+    "phase": "臨床前",
+    "status": "非營利生技；單股 ASO 降 ataxin-3。<b style=\"color:#ffce7a\">FDA 孤兒藥資格 2025/05</b>、獲 CIRM $5.7M 補助；IND 預計 2026。技術與 Vico 同源自 LUMC。",
+    "threatLabel": "低(臨床前)",
+    "links": [
+      { "label": "孤兒藥 ↗ CRD", "url": "https://www.cureraredisease.org/blog-posts/cure-rare-disease-receives-orphan-drug-designation-targeting-spinocerebellar-ataxia-type-3-sca3" },
+      { "label": "CIRM 補助 ↗", "url": "https://www.biospace.com/press-releases/cure-rare-disease-awarded-5-69-million-cirm-grant-to-advance-gene-therapy-for-spinocerebellar-ataxia-type-3" }
+    ],
+    "en": {
+      "mechanism": "ASO (ATXN3)<br>single-stranded",
+      "indication": "SCA3",
+      "phase": "Preclinical",
+      "status": "Non-profit biotech; single-stranded ASO lowering ataxin-3. <b style=\"color:#ffce7a\">FDA orphan drug designation 2025/05</b>, awarded a $5.7M CIRM grant; IND expected 2026. Technology traces to LUMC, the same origin as Vico's.",
+      "threatLabel": "Low (preclinical)",
+      "links": [
+        { "label": "Orphan designation ↗ CRD", "url": "https://www.cureraredisease.org/blog-posts/cure-rare-disease-receives-orphan-drug-designation-targeting-spinocerebellar-ataxia-type-3-sca3" },
+        { "label": "CIRM grant ↗", "url": "https://www.biospace.com/press-releases/cure-rare-disease-awarded-5-69-million-cirm-grant-to-advance-gene-therapy-for-spinocerebellar-ataxia-type-3" }
+      ]
+    }
+  },
+  {
+    "id": "uniqure",
+    "threat": "low",
+    "company": "UniQure 等",
+    "asset": "AAV 基因療法",
+    "mechanism": "AAV 基因療法",
+    "indication": "SCA (多型)",
+    "phase": "臨床前/早期",
+    "status": "學界與數家 biotech 探索中，離臨床尚遠",
+    "threatLabel": "低(遠期)",
+    "links": [],
+    "en": {
+      "company": "uniQure and others",
+      "asset": "AAV gene therapy",
+      "mechanism": "AAV gene therapy",
+      "indication": "SCA (multiple subtypes)",
+      "phase": "Preclinical/early",
+      "status": "Explored by academic groups and a handful of biotechs; still far from the clinic",
+      "threatLabel": "Low (long-term)"
+    }
+  },
+  {
+    "id": "riluzole",
+    "threat": "low",
+    "company": "學名藥",
+    "asset": "Riluzole",
+    "mechanism": "小分子",
+    "indication": "SCA (仿單外)",
+    "phase": "已上市",
+    "status": "僅症狀緩解、無法改變病程；SCA 屬 off-label",
+    "threatLabel": "低(基準)",
+    "links": [],
+    "en": {
+      "company": "Generic",
+      "asset": "Riluzole",
+      "mechanism": "Small molecule",
+      "indication": "SCA (off-label)",
+      "phase": "Marketed",
+      "status": "Symptomatic relief only, does not modify disease course; use in SCA is off-label",
+      "threatLabel": "Low (baseline)"
+    }
+  }
+]

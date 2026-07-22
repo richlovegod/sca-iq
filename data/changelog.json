@@ -5,7 +5,16 @@
     "tag": "每日掃描",
     "level": "info",
     "body": "新增 1 則科學文獻（SCA1〔ATXN1〕交互作用夥伴 Capicua 之異構物功能分化與小腦選擇性脆弱機制）。",
-    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 1 scientific paper (functional divergence of Capicua isoforms, an ATXN1/SCA1 interaction partner, and the mechanism of selective cerebellar vulnerability).",
+      "linkLabel": "See Literature Radar ↗"
+    }
   },
   {
     "date": "2026-07-16",
@@ -13,7 +22,16 @@
     "tag": "每日掃描",
     "level": "info",
     "body": "新增 1 則科學文獻（SCA27B〔FGF14 GAA 重複〕之診斷挑戰綜述）。",
-    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 1 scientific paper (review of the diagnostic challenges of SCA27B, the FGF14 GAA repeat subtype).",
+      "linkLabel": "See Literature Radar ↗"
+    }
   },
   {
     "date": "2026-07-15",
@@ -21,7 +39,15 @@
     "tag": "競品更新",
     "level": "info",
     "body": "新增追蹤競品 <b>Cure Rare Disease CRD-002</b>（SCA3，單股 ASO，非營利開發）：FDA 孤兒藥資格 2025/05、IND 預計 2026、技術源自 LUMC（與 Vico 同源）。已納入競品全景、臨床開發進度與市場獨占權雷達。",
-    "link": { "label": "詳見 競品全景 ↗", "tab": "ls" }
+    "link": {
+      "label": "詳見 競品全景 ↗",
+      "tab": "ls"
+    },
+    "en": {
+      "tag": "Competitor update",
+      "body": "Added <b>Cure Rare Disease CRD-002</b> to the tracked competitors (SCA3, single-stranded ASO, non-profit developer): FDA orphan drug designation 2025/05, IND expected 2026, technology from LUMC (the same origin as Vico’s). Now included in the landscape, pipeline and market-exclusivity radars.",
+      "linkLabel": "See Landscape ↗"
+    }
   },
   {
     "date": "2026-07-13",
@@ -29,7 +55,16 @@
     "tag": "每日掃描",
     "level": "info",
     "body": "新增 3 則科學文獻（遺傳性小腦萎縮症自體骨髓 MSC Ph1/2a 臨床＝MSC 競品訊號、SCA36 NOP56 致病機制、SCA3 連結體神經調控標的）。",
-    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 3 scientific papers (autologous bone-marrow MSC Ph1/2a in hereditary cerebellar ataxia = an MSC competitor signal; NOP56 pathogenesis in SCA36; connectome-based neuromodulation targets in SCA3).",
+      "linkLabel": "See Literature Radar ↗"
+    }
   },
   {
     "date": "2026-07-12",
@@ -37,7 +72,15 @@
     "tag": "競品更新",
     "level": "win",
     "body": "新增競品 Arrowhead ARO-ATXN2（SCA2，siRNA，站點含台北榮總）；更正 Biogen 追蹤標的 BIIB105（ATXN2／ALS 案）→ BIIB132（SCA3 ASO，2023 放棄）。掃描邏輯升級為主動發現清單外的新 SCA 療法。",
-    "link": { "label": "詳見 競品全景 ↗", "tab": "ls" }
+    "link": {
+      "label": "詳見 競品全景 ↗",
+      "tab": "ls"
+    },
+    "en": {
+      "tag": "Competitor update",
+      "body": "Added competitor Arrowhead ARO-ATXN2 (SCA2, siRNA, sites include Taipei Veterans General Hospital); corrected the Biogen programme tracked from BIIB105 (ATXN2/ALS) to BIIB132 (SCA3 ASO, discontinued 2023). Scan logic upgraded to actively discover SCA therapies outside the existing list.",
+      "linkLabel": "See Landscape ↗"
+    }
   },
   {
     "date": "2026-07-12",
@@ -45,7 +88,16 @@
     "tag": "每日掃描",
     "level": "info",
     "body": "新增 2 則科學文獻（SCA 免疫活化與膠細胞失能之免疫調節綜述、SCA 基因療法綜述）。",
-    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 2 scientific papers (review of immune activation and glial dysfunction with immunomodulation in SCA; review of gene therapy for SCA).",
+      "linkLabel": "See Literature Radar ↗"
+    }
   },
   {
     "date": "2026-07-11",
@@ -53,7 +105,16 @@
     "tag": "每日掃描",
     "level": "info",
     "body": "新增 2 則科學文獻（SCA27B 病人 iPSC 細胞株、SCA3 twin prime editing 基因編輯優化）。",
-    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 2 scientific papers (patient-derived iPSC lines for SCA27B; optimisation of twin prime editing in SCA3).",
+      "linkLabel": "See Literature Radar ↗"
+    }
   },
   {
     "date": "2026-07-10",
@@ -61,13 +122,26 @@
     "tag": "每日掃描",
     "level": "info",
     "body": "新增 2 則科學文獻（SCA3 小鼠 MSC 實驗、ATXN3 生物標記追蹤）。",
-    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 2 scientific papers (MSC experiment in SCA3 mice; ATXN3 biomarker tracking).",
+      "linkLabel": "See Literature Radar ↗"
+    }
   },
   {
     "date": "2026-07-09",
     "dateDisplay": "2026/07/09",
     "tag": "系統上線",
     "level": "win",
-    "body": "SCA-IQ 平台自動化正式啟用：每日排程掃描 ClinicalTrials.gov／PubMed／產業新聞，AI 判讀後直接更新本平台；每週一額外產出週報 email 草稿供人工審閱後寄送。"
+    "body": "SCA-IQ 平台自動化正式啟用：每日排程掃描 ClinicalTrials.gov／PubMed／產業新聞，AI 判讀後直接更新本平台；每週一額外產出週報 email 草稿供人工審閱後寄送。",
+    "en": {
+      "tag": "System launch",
+      "body": "SCA-IQ automation went live: a daily scheduled scan of ClinicalTrials.gov, PubMed and trade press, with AI triage writing straight into this platform; every Monday it additionally drafts a weekly email digest for human review before sending."
+    }
   }
 ]

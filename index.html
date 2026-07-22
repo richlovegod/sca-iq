@@ -172,6 +172,12 @@
   .corow b{color:#fff}
   .co-empty{font-size:12px;color:#6a7c92;padding:2px 0}
   .lit-co{display:inline-block;font-size:10px;font-weight:700;color:#7db6ff;background:#12233a;border:1px solid #2b4a6d;border-radius:20px;padding:1px 8px;margin-left:6px}
+  /* 全站中英切換：同一段內容中英各寫一份，依 <html data-lang> 顯示其一 */
+  html[data-lang="zh"] .i18n.en{display:none}
+  html[data-lang="en"] .i18n.zh{display:none}
+  .langsw{display:inline-flex;border:1px solid #2b4a6d;border-radius:20px;overflow:hidden;margin-top:7px}
+  .langsw button{background:#101c2a;border:none;color:#9fb4cc;font-family:inherit;font-size:11.5px;padding:4px 14px;cursor:pointer}
+  .langsw button.on{background:#1b3452;color:#fff;font-weight:700}
 </style>
 </head>
 <body>
@@ -179,20 +185,25 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v">競品情報監測平台 · v1.9</span> <a href="versions.html" class="relnote">擁有者控制台 ↗</a></div>
-        <div class="tag"><span class="live"></span>脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v"><span class="i18n zh">競品情報監測平台 · v2.0</span><span class="i18n en">Competitive Intelligence Platform · v2.0</span></span> <a href="versions.html" class="relnote"><span class="i18n zh">擁有者控制台 ↗</span><span class="i18n en">Owner console ↗</span></a></div>
+        <div class="tag"><span class="live"></span><span class="i18n zh">脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</span><span class="i18n en">Spinocerebellar ataxia (SCA) treatment landscape · AI-monitored · daily scan, weekly digest</span></div>
       </div>
-      <div class="meta">最後掃描：<b id="lastScan">—</b><span id="scanFresh"></span><br>下次掃描：<b id="nextScan">—</b><br>監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</div>
+      <div class="meta">
+        <span class="i18n zh">最後掃描：</span><span class="i18n en">Last scan: </span><b id="lastScan">—</b><span id="scanFresh"></span><br>
+        <span class="i18n zh">下次掃描：</span><span class="i18n en">Next scan: </span><b id="nextScan">—</b><br>
+        <span class="i18n zh">監測來源：ClinicalTrials.gov · 各家 IR · FDA/PMDA · PubMed · 產業新聞</span><span class="i18n en">Sources: ClinicalTrials.gov · company IR · FDA/PMDA · PubMed · trade press</span>
+        <div class="langsw"><button id="langZh" class="on" onclick="setLang('zh')">中文</button><button id="langEn" onclick="setLang('en')">EN</button></div>
+      </div>
     </div>
     <nav>
-      <button class="on" onclick="tab(event,'ov')">總覽</button>
-      <button onclick="tab(event,'ls')">競品全景</button>
-      <button onclick="tab(event,'jp')">日本法規時間軸</button>
-      <button onclick="tab(event,'pl')">臨床開發進度</button>
-      <button onclick="tab(event,'ip')">專利與獨占權</button>
-      <button onclick="tab(event,'si')">科學情報</button>
-      <button onclick="tab(event,'kb')">SCA 知識庫</button>
-      <button onclick="tab(event,'lg')">更新紀錄</button>
+      <button class="on" onclick="tab(event,'ov')"><span class="i18n zh">總覽</span><span class="i18n en">Overview</span></button>
+      <button onclick="tab(event,'ls')"><span class="i18n zh">競品全景</span><span class="i18n en">Landscape</span></button>
+      <button onclick="tab(event,'jp')"><span class="i18n zh">日本法規時間軸</span><span class="i18n en">Japan Regulatory</span></button>
+      <button onclick="tab(event,'pl')"><span class="i18n zh">臨床開發進度</span><span class="i18n en">Pipeline</span></button>
+      <button onclick="tab(event,'ip')"><span class="i18n zh">專利與獨占權</span><span class="i18n en">IP &amp; Exclusivity</span></button>
+      <button onclick="tab(event,'si')"><span class="i18n zh">科學情報</span><span class="i18n en">Scientific Intel</span></button>
+      <button onclick="tab(event,'kb')"><span class="i18n zh">SCA 知識庫</span><span class="i18n en">SCA Knowledge Base</span></button>
+      <button onclick="tab(event,'lg')"><span class="i18n zh">更新紀錄</span><span class="i18n en">Changelog</span></button>
     </nav>
   </div>
 </header>
@@ -202,23 +213,23 @@
 <!-- OVERVIEW -->
 <section id="ov" class="panel on">
   <div class="kpi">
-    <div class="box"><div class="n" id="compCount">7</div><div class="l">追蹤競品</div><div class="d">SCA 領域在研療法</div></div>
-    <div class="box"><div class="n r">2</div><div class="l">競品近期受挫 ✓利多</div><div class="d">Biohaven 退件、Biogen/Ionis 退場</div></div>
-    <div class="box"><div class="n g">1</div><div class="l">最接近取證＝本社</div><div class="d">日本承認申請已送 PMDA</div></div>
-    <div class="box"><div class="n" id="weekCount">2</div><div class="l">本週新增情報</div><div class="d">見右側自動摘要</div></div>
+    <div class="box"><div class="n" id="compCount">7</div><div class="l"><span class="i18n zh">追蹤競品</span><span class="i18n en">Competitors tracked</span></div><div class="d"><span class="i18n zh">SCA 領域在研療法</span><span class="i18n en">SCA therapies in development</span></div></div>
+    <div class="box"><div class="n r">2</div><div class="l"><span class="i18n zh">競品近期受挫 ✓利多</span><span class="i18n en">Recent competitor setbacks ✓</span></div><div class="d"><span class="i18n zh">Biohaven 退件、Biogen/Ionis 退場</span><span class="i18n en">Biohaven CRL; Biogen/Ionis exit</span></div></div>
+    <div class="box"><div class="n g">1</div><div class="l"><span class="i18n zh">最接近取證＝本社</span><span class="i18n en">Closest to approval = Steminent</span></div><div class="d"><span class="i18n zh">日本承認申請已送 PMDA</span><span class="i18n en">Japan marketing application filed with PMDA</span></div></div>
+    <div class="box"><div class="n" id="weekCount">2</div><div class="l"><span class="i18n zh">本週新增情報</span><span class="i18n en">New items this week</span></div><div class="d"><span class="i18n zh">見右側自動摘要</span><span class="i18n en">See the digest at right</span></div></div>
   </div>
   <div class="grid2">
     <div class="card">
-      <h2>◎ 本週情報摘要（AI 自動彙整）</h2>
+      <h2><span class="i18n zh">◎ 本週情報摘要（AI 自動彙整）</span><span class="i18n en">◎ This Week's Digest (AI-compiled)</span></h2>
       <ul class="digest" id="digestList"></ul>
     </div>
     <div class="card posit">
-      <h2>◎ 對本社的策略意涵</h2>
-      <p class="big">「對手挫敗、賽道空窗，Stemchymal 是唯一手握 Ph2 對照數據、且最接近取證的資產。」</p>
-      <p>• <b style="color:#fff">小分子受阻</b>：Biohaven CRL + R&D 大砍</p>
-      <p>• <b style="color:#fff">ASO 尚早</b>：Biogen/Ionis 退場，僅 Vico 早期推進</p>
-      <p>• <b style="color:#fff">本社優勢</b>：台日 Ph2 安慰劑對照正面 + 日本優先審查 + pan-polyQ 涵蓋多亞型</p>
-      <p style="color:#8b9bb0;font-size:12px;margin-top:4px">→ 投資敘事與 BD 洽談皆可主打「差異化證據 + 時間領先」。</p>
+      <h2><span class="i18n zh">◎ 對本社的策略意涵</span><span class="i18n en">◎ Strategic Implications for Steminent</span></h2>
+      <p class="big"><span class="i18n zh">「對手挫敗、賽道空窗，Stemchymal 是唯一手握 Ph2 對照數據、且最接近取證的資產。」</span><span class="i18n en">"With rivals stumbling and the field wide open, Stemchymal is the only asset holding controlled Phase 2 data and the closest to approval."</span></p>
+      <p><span class="i18n zh">• <b style="color:#fff">小分子受阻</b>：Biohaven CRL + R&D 大砍</span><span class="i18n en">• <b style="color:#fff">Small molecule blocked</b>: Biohaven CRL plus deep R&D cuts</span></p>
+      <p><span class="i18n zh">• <b style="color:#fff">ASO 尚早</b>：Biogen/Ionis 退場，僅 Vico 早期推進</span><span class="i18n en">• <b style="color:#fff">ASOs still early</b>: Biogen/Ionis exited; only Vico is advancing, at an early stage</span></p>
+      <p><span class="i18n zh">• <b style="color:#fff">本社優勢</b>：台日 Ph2 安慰劑對照正面 + 日本優先審查 + pan-polyQ 涵蓋多亞型</span><span class="i18n en">• <b style="color:#fff">Steminent's edge</b>: positive placebo-controlled Ph2 in Taiwan/Japan + Japanese priority review + pan-polyQ coverage across subtypes</span></p>
+      <p style="color:#8b9bb0;font-size:12px;margin-top:4px"><span class="i18n zh">→ 投資敘事與 BD 洽談皆可主打「差異化證據 + 時間領先」。</span><span class="i18n en">→ Both the investment narrative and BD talks can lead with "differentiated evidence + time lead".</span></p>
     </div>
   </div>
 </section>
@@ -226,66 +237,26 @@
 <!-- LANDSCAPE -->
 <section id="ls" class="panel">
   <div class="card">
-    <h2>◎ 競品全景 (Competitive Landscape)</h2>
+    <h2><span class="i18n zh">◎ 競品全景 (Competitive Landscape)</span><span class="i18n en">◎ Competitive Landscape</span></h2>
     <div class="filters">
-      <button class="on" onclick="filt(event,'all')">全部</button>
-      <button onclick="filt(event,'us')">本社</button>
-      <button onclick="filt(event,'high')">高威脅</button>
-      <button onclick="filt(event,'mid')">中威脅</button>
-      <button onclick="filt(event,'low')">低威脅</button>
+      <button class="on" onclick="filt(event,'all')"><span class="i18n zh">全部</span><span class="i18n en">All</span></button>
+      <button onclick="filt(event,'us')"><span class="i18n zh">本社</span><span class="i18n en">Us</span></button>
+      <button onclick="filt(event,'high')"><span class="i18n zh">高威脅</span><span class="i18n en">High threat</span></button>
+      <button onclick="filt(event,'mid')"><span class="i18n zh">中威脅</span><span class="i18n en">Mid threat</span></button>
+      <button onclick="filt(event,'low')"><span class="i18n zh">低威脅</span><span class="i18n en">Low threat</span></button>
     </div>
     <table id="lstab">
-      <tr><th>公司 / 藥物</th><th>機制</th><th>適應症</th><th>階段</th><th>最新狀態</th><th>威脅</th></tr>
-      <tr class="us" data-f="us">
-        <td><span class="co">仲恩 Steminent</span><br><span class="asset">Stemchymal®</span></td>
-        <td class="mod">異體脂肪 MSC<br>(旁分泌)</td><td class="mod">pan-polyQ<br>SCA1/2/3/6<br><span style="color:#6a7c92">(日本申請 SCA3/6)</span></td><td>Ph2 完成→申請中</td>
-        <td>① 6/18 MAH業許可送神奈川縣(Q3核准) ② 6/24 產品承認申請(SCA3/6)送 PMDA，優先審查約9個月，最快2027H1 ③ 台灣附款許可並行 ④ <b>美國 Ph2：UCLA+USF、2026/09首例、n=20、PI Perlman/Zesiewicz</b><br><a class="src" href="https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html" target="_blank">承認 ↗</a> <a class="src" href="https://udn.com/news/story/7241/9579117" target="_blank">業許可 ↗</a> <a class="src" href="https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/" target="_blank">美國試驗 ↗</a></td>
-        <td><span class="pill p-us">本社</span></td>
-      </tr>
-      <tr data-f="mid">
-        <td><span class="co">Biohaven</span><br><span class="asset">Troriluzole</span></td>
-        <td class="mod">小分子<br>麩胺酸調節</td><td class="mod">pan-SCA</td><td>NDA 受挫</td>
-        <td><b style="color:#ff8a7a">FDA CRL (2025/11)</b>；R&D 砍 60%、爭取與 FDA 再協商 (2026/02)<br><a class="src" href="https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" target="_blank">CRL ↗ 2025/11</a> <a class="src" href="https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease" target="_blank">R&D↓60% ↗</a></td>
-        <td><span class="pill p-mid">中↓</span></td>
-      </tr>
-      <tr data-f="high">
-        <td><span class="co">Vico Therapeutics</span><br><span class="asset">VO659</span></td>
-        <td class="mod">ASO</td><td class="mod">SCA1/SCA3/HD</td><td>Ph1/2a</td>
-        <td>2026/02/24 半年一次給藥 Ph1/2；<b>與本社在 SCA3 重疊</b>，惟 <b style="color:#ffce7a">SCA 尚無明確療效</b>（SCA3 生物標記混合/微弱、SCA1 無；正面在 HD）；鞘內注射、曾見 radiculitis（多數恢復中；vs 本社靜脈輸注）<br><a class="src" href="https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1" target="_blank">給藥公告 ↗</a> <a class="src" href="https://en.hdbuzz.net/398/" target="_blank">SCA數據/安全 ↗ HDBuzz</a> <a class="src" href="https://clinicaltrials.gov/study/NCT05822908" target="_blank">試驗 ↗ NCT</a></td>
-        <td><span class="pill p-high">高(遠期)</span></td>
-      </tr>
-      <tr data-f="mid">
-        <td><span class="co">Arrowhead / Sarepta</span><br><span class="asset">ARO-ATXN2</span></td>
-        <td class="mod">siRNA (RNAi)<br>ATXN2</td><td class="mod">SCA2</td><td>Ph1</td>
-        <td>鞘內 siRNA、降 ataxin-2。一期 <b>NCT06672445</b> 已收滿 39 人、2026 年中停止收案；primary completion 估 2026/12。<b style="color:#ffce7a">站點含台北榮總（郵遞區號 112201 反查確認）</b>——本社避開台灣 SCA2 的主因。屬「SCA2 版的上游 gene-silencing」，深部小腦交付未證。<br><a class="src" href="https://clinicaltrials.gov/study/NCT06672445" target="_blank">試驗 ↗ NCT06672445</a> <a class="src" href="https://www.ataxia.org/study/aroatxn2-1001/" target="_blank">研究頁 ↗ NAF</a></td>
-        <td><span class="pill p-mid">中(遠期)</span></td>
-      </tr>
-      <tr data-f="low">
-        <td><span class="co">Biogen / Ionis</span><br><span class="asset">BIIB132 (ION260)</span></td>
-        <td class="mod">ASO (ATXN3)<br>非選擇性</td><td class="mod">SCA3</td><td>已放棄</td>
-        <td>2023/04 Biogen 主動放棄（41 週猴子鞘內毒理＋人體 PD 不足）；一期僅收 8 人即終止。<b>標的對、載具送不到深部小腦</b>。〔另 BIIB105/ATXN2 為 ALS 案、2024 終止，非 SCA〕<br><a class="src" href="https://clinicaltrials.gov/study/NCT05160558" target="_blank">試驗 ↗ NCT05160558</a> <a class="src" href="https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/" target="_blank">停止 ↗ Ataxia UK</a></td>
-        <td><span class="pill p-low">低(退場)</span></td>
-      </tr>
-      <tr data-f="low">
-        <td><span class="co">Cure Rare Disease</span><br><span class="asset">CRD-002</span></td>
-        <td class="mod">ASO (ATXN3)<br>單股反義</td><td class="mod">SCA3</td><td>臨床前</td>
-        <td>非營利生技；單股 ASO 降 ataxin-3。<b style="color:#ffce7a">FDA 孤兒藥資格 2025/05</b>、獲 CIRM $5.7M 補助；IND 預計 2026。技術與 Vico 同源自 LUMC。<br><a class="src" href="https://www.cureraredisease.org/blog-posts/cure-rare-disease-receives-orphan-drug-designation-targeting-spinocerebellar-ataxia-type-3-sca3" target="_blank">孤兒藥 ↗ CRD</a> <a class="src" href="https://www.biospace.com/press-releases/cure-rare-disease-awarded-5-69-million-cirm-grant-to-advance-gene-therapy-for-spinocerebellar-ataxia-type-3" target="_blank">CIRM 補助 ↗</a></td>
-        <td><span class="pill p-low">低(臨床前)</span></td>
-      </tr>
-      <tr data-f="low">
-        <td><span class="co">UniQure 等</span><br><span class="asset">AAV 基因療法</span></td>
-        <td class="mod">AAV 基因療法</td><td class="mod">SCA (多型)</td><td>臨床前/早期</td>
-        <td>學界與數家 biotech 探索中，離臨床尚遠</td>
-        <td><span class="pill p-low">低(遠期)</span></td>
-      </tr>
-      <tr data-f="low">
-        <td><span class="co">學名藥</span><br><span class="asset">Riluzole</span></td>
-        <td class="mod">小分子</td><td class="mod">SCA (仿單外)</td><td>已上市</td>
-        <td>僅症狀緩解、無法改變病程；SCA 屬 off-label</td>
-        <td><span class="pill p-low">低(基準)</span></td>
-      </tr>
+      <thead><tr>
+        <th><span class="i18n zh">公司 / 藥物</span><span class="i18n en">Company / Asset</span></th>
+        <th><span class="i18n zh">機制</span><span class="i18n en">Mechanism</span></th>
+        <th><span class="i18n zh">適應症</span><span class="i18n en">Indication</span></th>
+        <th><span class="i18n zh">階段</span><span class="i18n en">Stage</span></th>
+        <th><span class="i18n zh">最新狀態</span><span class="i18n en">Latest status</span></th>
+        <th><span class="i18n zh">威脅</span><span class="i18n en">Threat</span></th>
+      </tr></thead>
+      <tbody id="lsBody"></tbody>
     </table>
-    <p style="font-size:11px;color:#6a7c92;margin-top:10px">鄰近適應症 (Friedreich's Ataxia)：Biogen omaveloxolone(已上市 FA)、PTC vatiquinone、Minoryx leriglitazone — 非直接競品，反映共濟失調領域投資熱度。</p>
+    <p style="font-size:11px;color:#6a7c92;margin-top:10px"><span class="i18n zh">鄰近適應症 (Friedreich's Ataxia)：Biogen omaveloxolone(已上市 FA)、PTC vatiquinone、Minoryx leriglitazone — 非直接競品，反映共濟失調領域投資熱度。</span><span class="i18n en">Adjacent indication (Friedreich's ataxia): Biogen omaveloxolone (approved in FA), PTC vatiquinone, Minoryx leriglitazone — not direct competitors, but a gauge of investment appetite in ataxia.</span></p>
   </div>
 </section>
 
@@ -293,39 +264,39 @@
 <section id="jp" class="panel">
   <div class="grid2">
     <div class="card">
-      <h2>◎ 日本上市進度時間軸</h2>
+      <h2><span class="i18n zh">◎ 日本上市進度時間軸</span><span class="i18n en">◎ Japan Approval Timeline</span></h2>
       <div class="tl">
-        <div class="ev done"><div class="d1">2018/12</div><div class="t1">孤兒再生醫療產品資格</div><div class="s1">MHLW 認定 → 取得 PMDA 優先審查資格（審查目標縮短至約 9 個月）</div></div>
-        <div class="ev done"><div class="d1">2024/11</div><div class="t1">日本外國製造業者認定</div><div class="s1">仲恩台灣細胞廠通過 MHLW 認定，亞太首家</div></div>
-        <div class="ev done"><div class="d1">2025 上半</div><div class="t1">台日 Ph2 正面結果</div><div class="s1">WODC 公開，SARA 顯著減緩惡化，具疾病修飾證據</div></div>
-        <div class="ev done"><div class="d1">2025</div><div class="t1">與 Kohjin Bio 簽署培養基合作</div><div class="s1">日本商業化供應鏈佈局起點</div></div>
-        <div class="ev done"><div class="d1">2026/01</div><div class="t1">與 Cyto-Facto 簽署量產合作意向書</div><div class="s1">Cyto-Facto 為日本再生醫療指標企業（曾產出全球首款CAR-T GMP廠），聚焦委託製造；具體條件待後續評估</div></div>
-        <div class="ev done"><div class="d1">2026/06/18</div><div class="t1">製造販賣「業」許可申請 → 神奈川縣</div><div class="s1">REPROCELL 申請 MAH 業許可（公司能賣藥的執照），約 3 個月審查</div></div>
-        <div class="ev done"><div class="d1">2026/06/24</div><div class="t1">製造販賣「承認」申請 → PMDA</div><div class="s1">產品藥證申請（SCA3/6）正式送件，啟動 9 個月優先審查</div></div>
-        <div class="ev future"><div class="d1">2026 Q3（預估）</div><div class="t1">業許可可望核准</div><div class="s1">REPROCELL 取得 MAH 資格</div></div>
-        <div class="ev future"><div class="d1">2026/09（預估）</div><div class="t1">美國 Ph2 首例收案</div><div class="s1">UCLA + USF，n=20，SCA3；PI：Susan Perlman、Theresa Zesiewicz</div></div>
-        <div class="ev future"><div class="d1">2027 上半（最快）</div><div class="t1">日本暫時藥證</div><div class="s1">附款許可可望核准 → 進入商用市場</div></div>
+        <div class="ev done"><div class="d1">2018/12</div><div class="t1"><span class="i18n zh">孤兒再生醫療產品資格</span><span class="i18n en">Orphan regenerative medicine designation</span></div><div class="s1"><span class="i18n zh">MHLW 認定 → 取得 PMDA 優先審查資格（審查目標縮短至約 9 個月）</span><span class="i18n en">MHLW designation → PMDA priority review (review target shortened to about 9 months)</span></div></div>
+        <div class="ev done"><div class="d1">2024/11</div><div class="t1"><span class="i18n zh">日本外國製造業者認定</span><span class="i18n en">Japanese foreign manufacturer accreditation</span></div><div class="s1"><span class="i18n zh">仲恩台灣細胞廠通過 MHLW 認定，亞太首家</span><span class="i18n en">Steminent's Taiwan cell facility accredited by MHLW — the first in Asia-Pacific</span></div></div>
+        <div class="ev done"><div class="d1"><span class="i18n zh">2025 上半</span><span class="i18n en">H1 2025</span></div><div class="t1"><span class="i18n zh">台日 Ph2 正面結果</span><span class="i18n en">Positive Taiwan/Japan Ph2 results</span></div><div class="s1"><span class="i18n zh">WODC 公開，SARA 顯著減緩惡化，具疾病修飾證據</span><span class="i18n en">Presented at WODC: significantly slowed SARA progression, evidence of disease modification</span></div></div>
+        <div class="ev done"><div class="d1">2025</div><div class="t1"><span class="i18n zh">與 Kohjin Bio 簽署培養基合作</span><span class="i18n en">Culture-medium partnership signed with Kohjin Bio</span></div><div class="s1"><span class="i18n zh">日本商業化供應鏈佈局起點</span><span class="i18n en">Starting point of the Japanese commercial supply chain</span></div></div>
+        <div class="ev done"><div class="d1">2026/01</div><div class="t1"><span class="i18n zh">與 Cyto-Facto 簽署量產合作意向書</span><span class="i18n en">LOI signed with Cyto-Facto for commercial manufacturing</span></div><div class="s1"><span class="i18n zh">Cyto-Facto 為日本再生醫療指標企業（曾產出全球首款CAR-T GMP廠），聚焦委託製造；具體條件待後續評估</span><span class="i18n en">Cyto-Facto is a bellwether Japanese regenerative-medicine company (built the GMP plant behind the world's first CAR-T), focused on contract manufacturing; terms still to be settled</span></div></div>
+        <div class="ev done"><div class="d1">2026/06/18</div><div class="t1"><span class="i18n zh">製造販賣「業」許可申請 → 神奈川縣</span><span class="i18n en">MAH business licence application → Kanagawa Prefecture</span></div><div class="s1"><span class="i18n zh">REPROCELL 申請 MAH 業許可（公司能賣藥的執照），約 3 個月審查</span><span class="i18n en">REPROCELL applied for the MAH business licence (a company's licence to sell drugs); review takes about 3 months</span></div></div>
+        <div class="ev done"><div class="d1">2026/06/24</div><div class="t1"><span class="i18n zh">製造販賣「承認」申請 → PMDA</span><span class="i18n en">Marketing approval application → PMDA</span></div><div class="s1"><span class="i18n zh">產品藥證申請（SCA3/6）正式送件，啟動 9 個月優先審查</span><span class="i18n en">Product approval application (SCA3/6) formally filed, starting the 9-month priority review</span></div></div>
+        <div class="ev future"><div class="d1"><span class="i18n zh">2026 Q3（預估）</span><span class="i18n en">Q3 2026 (est.)</span></div><div class="t1"><span class="i18n zh">業許可可望核准</span><span class="i18n en">Business licence expected to be granted</span></div><div class="s1"><span class="i18n zh">REPROCELL 取得 MAH 資格</span><span class="i18n en">REPROCELL obtains MAH status</span></div></div>
+        <div class="ev future"><div class="d1"><span class="i18n zh">2026/09（預估）</span><span class="i18n en">2026/09 (est.)</span></div><div class="t1"><span class="i18n zh">美國 Ph2 首例收案</span><span class="i18n en">First patient enrolled in the US Ph2</span></div><div class="s1"><span class="i18n zh">UCLA + USF，n=20，SCA3；PI：Susan Perlman、Theresa Zesiewicz</span><span class="i18n en">UCLA + USF, n=20, SCA3; PIs Susan Perlman and Theresa Zesiewicz</span></div></div>
+        <div class="ev future"><div class="d1"><span class="i18n zh">2027 上半（最快）</span><span class="i18n en">H1 2027 (earliest)</span></div><div class="t1"><span class="i18n zh">日本暫時藥證</span><span class="i18n en">Japanese conditional approval</span></div><div class="s1"><span class="i18n zh">附款許可可望核准 → 進入商用市場</span><span class="i18n en">Conditional, time-limited approval expected → commercial market entry</span></div></div>
       </div>
     </div>
     <div>
       <div class="card">
-        <h2>◎ 名詞速查：業許可 vs 承認</h2>
+        <h2><span class="i18n zh">◎ 名詞速查：業許可 vs 承認</span><span class="i18n en">◎ Quick Glossary: Business Licence vs Marketing Approval</span></h2>
         <div class="glossbox">
-          <p><b>MAH</b>（製造販賣業者）＝法律上掛名賣藥、負全責的主體（品質 GQP＋安全 GVP）。此處＝<b style="color:#fff">REPROCELL</b>。</p>
-          <p style="margin-top:10px"><b>業許可</b>（製造販賣<b>業</b>許可）＝公司「能賣藥的營業執照」。神奈川縣核發，<b>審查約需 3 個月</b>（最慢 2026 Q3 可望核准）。</p>
-          <p style="margin-top:10px"><b>承認</b>（製造販賣<b>承認</b>＝藥證）＝這支藥「本身」獲准。PMDA 審查 → MHLW 核發。</p>
-          <p style="margin-top:10px"><b>PMDA</b>＝日本藥品審查機關（≈ 美國 FDA 審查部門）。做產品安全/療效科學審查。</p>
-          <p style="margin-top:10px;color:#a8e0c0">→ 兩者平行、都要有才能開賣。分工：仲恩(台灣)製造，REPROCELL 負責日本銷售。</p>
+          <p><span class="i18n zh"><b>MAH</b>（製造販賣業者）＝法律上掛名賣藥、負全責的主體（品質 GQP＋安全 GVP）。此處＝<b style="color:#fff">REPROCELL</b>。</span><span class="i18n en"><b>MAH</b> (marketing authorisation holder) = the entity legally named as the seller and bearing full responsibility (quality GQP + safety GVP). Here that is <b style="color:#fff">REPROCELL</b>.</span></p>
+          <p style="margin-top:10px"><span class="i18n zh"><b>業許可</b>（製造販賣<b>業</b>許可）＝公司「能賣藥的營業執照」。神奈川縣核發，<b>審查約需 3 個月</b>（最慢 2026 Q3 可望核准）。</span><span class="i18n en"><b>Business licence</b> (manufacturing/marketing <b>business</b> licence) = the company's licence to sell drugs at all. Issued by Kanagawa Prefecture; <b>review takes about 3 months</b> (approval expected by Q3 2026 at the latest).</span></p>
+          <p style="margin-top:10px"><span class="i18n zh"><b>承認</b>（製造販賣<b>承認</b>＝藥證）＝這支藥「本身」獲准。PMDA 審查 → MHLW 核發。</span><span class="i18n en"><b>Marketing approval</b> (the product licence itself) = approval of <i>this particular drug</i>. Reviewed by PMDA, issued by MHLW.</span></p>
+          <p style="margin-top:10px"><span class="i18n zh"><b>PMDA</b>＝日本藥品審查機關（≈ 美國 FDA 審查部門）。做產品安全/療效科學審查。</span><span class="i18n en"><b>PMDA</b> = Japan's drug review agency (roughly the review arm of the US FDA). Conducts the scientific safety/efficacy review.</span></p>
+          <p style="margin-top:10px;color:#a8e0c0"><span class="i18n zh">→ 兩者平行、都要有才能開賣。分工：仲恩(台灣)製造，REPROCELL 負責日本銷售。</span><span class="i18n en">→ The two run in parallel and both are required before sales can start. Division of labour: Steminent manufactures in Taiwan, REPROCELL sells in Japan.</span></p>
         </div>
       </div>
       <div class="card">
-        <h2>◎ 產能規劃（公司公布）</h2>
+        <h2><span class="i18n zh">◎ 產能規劃（公司公布）</span><span class="i18n en">◎ Capacity Plan (company-disclosed)</span></h2>
         <div class="kpi" style="margin-bottom:8px">
           <div class="box"><div class="n">300</div><div class="l">2026</div></div>
           <div class="box"><div class="n g">900</div><div class="l">2027</div></div>
           <div class="box"><div class="n g">2,700</div><div class="l">2028</div></div>
         </div>
-        <p style="font-size:11px;color:#8b9bb0">單位：劑／年。搭配 Kohjin Bio（培養基）＋ Cyto-Facto（量產）供應鏈佈局。<a class="src" href="https://geneonline.news/steminent-april-026newsearningscall/" target="_blank">來源 ↗ 法說會</a> <a class="src" href="https://geneonline.news/steminent-cyto-facto-cdmo/" target="_blank">Cyto-Facto ↗</a></p>
+        <p style="font-size:11px;color:#8b9bb0"><span class="i18n zh">單位：劑／年。搭配 Kohjin Bio（培養基）＋ Cyto-Facto（量產）供應鏈佈局。</span><span class="i18n en">Unit: doses per year. Supported by the Kohjin Bio (culture medium) and Cyto-Facto (scale-up) supply chain.</span><a class="src" href="https://geneonline.news/steminent-april-026newsearningscall/" target="_blank"><span class="i18n zh">來源 ↗ 法說會</span><span class="i18n en">Source ↗ earnings call</span></a> <a class="src" href="https://geneonline.news/steminent-cyto-facto-cdmo/" target="_blank">Cyto-Facto ↗</a></p>
       </div>
     </div>
   </div>
@@ -334,59 +305,59 @@
 <!-- PIPELINE -->
 <section id="pl" class="panel">
   <div class="card">
-    <h2>◎ 臨床開發進度對照 (Pipeline by Phase)</h2>
+    <h2><span class="i18n zh">◎ 臨床開發進度對照 (Pipeline by Phase)</span><span class="i18n en">◎ Pipeline by Phase</span></h2>
     <div class="plrow" style="margin-bottom:6px">
       <div></div>
       <div class="track" style="background:none">
-        <div class="seg">臨床前</div><div class="seg">Ph1</div><div class="seg">Ph2</div><div class="seg">申請/審查</div><div class="seg">上市</div>
+        <div class="seg"><span class="i18n zh">臨床前</span><span class="i18n en">Preclinical</span></div><div class="seg">Ph1</div><div class="seg">Ph2</div><div class="seg"><span class="i18n zh">申請/審查</span><span class="i18n en">Filed/review</span></div><div class="seg"><span class="i18n zh">上市</span><span class="i18n en">Marketed</span></div>
       </div>
     </div>
     <div class="plrow">
-      <div class="nm"><span class="co">仲恩 Stemchymal®</span><span class="asset">異體 MSC</span></div>
+      <div class="nm"><span class="co"><span class="i18n zh">仲恩 Stemchymal®</span><span class="i18n en">Steminent Stemchymal®</span></span><span class="asset"><span class="i18n zh">異體 MSC</span><span class="i18n en">Allogeneic MSC</span></span></div>
       <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
-        <div class="bar b-us" style="left:2%;width:82%">Ph2 完成 → 日本承認審查中 (2027H1 最快)</div></div>
+        <div class="bar b-us" style="left:2%;width:82%"><span class="i18n zh">Ph2 完成 → 日本承認審查中 (2027H1 最快)</span><span class="i18n en">Ph2 done → under Japanese review (2027H1 earliest)</span></div></div>
     </div>
     <div class="plrow">
-      <div class="nm"><span class="co">Biohaven Troriluzole</span><span class="asset">小分子</span></div>
+      <div class="nm"><span class="co">Biohaven Troriluzole</span><span class="asset"><span class="i18n zh">小分子</span><span class="i18n en">Small molecule</span></span></div>
       <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
-        <div class="bar b-stop" style="left:2%;width:80%">NDA 遭 FDA 退件 → 上訴中</div></div>
+        <div class="bar b-stop" style="left:2%;width:80%"><span class="i18n zh">NDA 遭 FDA 退件 → 上訴中</span><span class="i18n en">NDA rejected by FDA → contesting</span></div></div>
     </div>
     <div class="plrow">
       <div class="nm"><span class="co">Vico VO659</span><span class="asset">ASO</span></div>
       <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
-        <div class="bar b-mid" style="left:2%;width:44%">Ph1/2a 進行中</div></div>
+        <div class="bar b-mid" style="left:2%;width:44%"><span class="i18n zh">Ph1/2a 進行中</span><span class="i18n en">Ph1/2a ongoing</span></div></div>
     </div>
     <div class="plrow">
       <div class="nm"><span class="co">Arrowhead ARO-ATXN2</span><span class="asset">siRNA (SCA2)</span></div>
       <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
-        <div class="bar b-mid" style="left:2%;width:30%">Ph1 收案結束</div></div>
+        <div class="bar b-mid" style="left:2%;width:30%"><span class="i18n zh">Ph1 收案結束</span><span class="i18n en">Ph1 enrolment closed</span></div></div>
     </div>
     <div class="plrow">
       <div class="nm"><span class="co">Biogen/Ionis BIIB132</span><span class="asset">ASO (ATXN3)</span></div>
       <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
-        <div class="bar b-stop" style="left:2%;width:22%">2023/04 放棄(Ph1)</div></div>
+        <div class="bar b-stop" style="left:2%;width:22%"><span class="i18n zh">2023/04 放棄(Ph1)</span><span class="i18n en">Discontinued 2023/04 (Ph1)</span></div></div>
     </div>
     <div class="plrow">
-      <div class="nm"><span class="co">UniQure 等 基因療法</span><span class="asset">AAV</span></div>
+      <div class="nm"><span class="co"><span class="i18n zh">UniQure 等 基因療法</span><span class="i18n en">uniQure et al. gene therapy</span></span><span class="asset">AAV</span></div>
       <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
-        <div class="bar b-low" style="left:2%;width:14%">臨床前</div></div>
+        <div class="bar b-low" style="left:2%;width:14%"><span class="i18n zh">臨床前</span><span class="i18n en">Preclinical</span></div></div>
     </div>
     <div class="plrow">
       <div class="nm"><span class="co">Cure Rare Disease CRD-002</span><span class="asset">ASO (SCA3)</span></div>
       <div class="track"><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
-        <div class="bar b-low" style="left:2%;width:12%">臨床前（IND 2026）</div></div>
+        <div class="bar b-low" style="left:2%;width:12%"><span class="i18n zh">臨床前（IND 2026）</span><span class="i18n en">Preclinical (IND 2026)</span></div></div>
     </div>
-    <p style="font-size:11.5px;color:#8b9bb0;margin-top:14px;line-height:1.6">解讀：Stemchymal 在進度上明顯領先——已完成 Ph2 並進入日本承認審查；小分子(Biohaven)與 ASO(Biogen/Ionis)接連受挫或暫停，唯 Vico 的 ASO 仍在早期推進。<b style="color:#6ee7a0">「時間領先 + 對照數據」是本社最有力的差異化。</b></p>
+    <p style="font-size:11.5px;color:#8b9bb0;margin-top:14px;line-height:1.6"><span class="i18n zh">解讀：Stemchymal 在進度上明顯領先——已完成 Ph2 並進入日本承認審查；小分子(Biohaven)與 ASO(Biogen/Ionis)接連受挫或暫停，唯 Vico 的 ASO 仍在早期推進。<b style="color:#6ee7a0">「時間領先 + 對照數據」是本社最有力的差異化。</b></span><span class="i18n en">Read-through: Stemchymal is clearly ahead on timeline — Ph2 complete and under Japanese marketing review; the small molecule (Biohaven) and ASO (Biogen/Ionis) programmes have stumbled or stopped, leaving only Vico's ASO advancing, and only at an early stage. <b style="color:#6ee7a0">"Time lead + controlled data" is Steminent's strongest differentiator.</b></span></p>
   </div>
   <div class="card" id="trialresults" style="scroll-margin-top:16px">
-    <h2>◎ 競品試驗結果與讀出 (Trial Results &amp; Readouts)</h2>
-    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px">競品臨床試驗的實際療效／安全讀出，依公開來源類型分類。綠＝競品受挫（對本社有利）、紅＝競品正面結果（威脅）、藍＝中性。每筆附可查證來源。</p>
+    <h2><span class="i18n zh">◎ 競品試驗結果與讀出 (Trial Results &amp; Readouts)</span><span class="i18n en">◎ Competitor Trial Results &amp; Readouts</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px"><span class="i18n zh">競品臨床試驗的實際療效／安全讀出，依公開來源類型分類。綠＝競品受挫（對本社有利）、紅＝競品正面結果（威脅）、藍＝中性。每筆附可查證來源。</span><span class="i18n en">Actual efficacy/safety readouts from competitor trials, classified by type of public source. Green = competitor setback (favourable to us), red = competitor positive result (threat), blue = neutral. Every entry cites a verifiable source.</span></p>
     <div class="filters" id="resultsFilters">
-      <button class="on" onclick="setResultsFilter('all',this)">全部</button>
-      <button onclick="setResultsFilter('登錄',this)">登錄</button>
-      <button onclick="setResultsFilter('論文',this)">論文</button>
-      <button onclick="setResultsFilter('研討會摘要',this)">研討會摘要</button>
-      <button onclick="setResultsFilter('新聞稿',this)">新聞稿</button>
+      <button class="on" onclick="setResultsFilter('all',this)"><span class="i18n zh">全部</span><span class="i18n en">All</span></button>
+      <button onclick="setResultsFilter('登錄',this)"><span class="i18n zh">登錄</span><span class="i18n en">Registry</span></button>
+      <button onclick="setResultsFilter('論文',this)"><span class="i18n zh">論文</span><span class="i18n en">Paper</span></button>
+      <button onclick="setResultsFilter('研討會摘要',this)"><span class="i18n zh">研討會摘要</span><span class="i18n en">Conference abstract</span></button>
+      <button onclick="setResultsFilter('新聞稿',this)"><span class="i18n zh">新聞稿</span><span class="i18n en">Press release</span></button>
     </div>
     <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
       <input id="resultsSearch" placeholder="🔍 搜尋競品／藥物／結果…" oninput="renderResults()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
@@ -399,33 +370,40 @@
 <!-- IP / EXCLUSIVITY -->
 <section id="ip" class="panel">
   <div class="card">
-    <h2>◎ 專利雷達</h2>
-    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6">追蹤競品與本社的關鍵專利（組成物／用途），每筆附 Google Patents 來源。到期日為<b>估計值</b>（申請日＋20 年，未計專利期延長／調整），僅供情報參考、<b>非法律意見</b>。</p>
+    <h2><span class="i18n zh">◎ 專利雷達</span><span class="i18n en">◎ Patent Radar</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6"><span class="i18n zh">追蹤競品與本社的關鍵專利（組成物／用途），每筆附 Google Patents 來源。到期日為<b>估計值</b>（申請日＋20 年，未計專利期延長／調整），僅供情報參考、<b>非法律意見</b>。</span><span class="i18n en">Tracks key composition-of-matter and use patents for competitors and for us, each linked to Google Patents. Expiry dates are <b>estimates</b> (filing date + 20 years, excluding term extension/adjustment) and are for intelligence only — <b>not legal advice</b>.</span></p>
     <div id="patentList"></div>
-    <p style="font-size:11px;color:#6a7c92;margin-top:10px;line-height:1.6">註：UniQure AMT-150（AAV）近年已去優先化、學名藥 Riluzole 組成物專利早已到期，故未列於雷達。本社自家專利號建議由 Steminent 內部提供以完整化。</p>
+    <p style="font-size:11px;color:#6a7c92;margin-top:10px;line-height:1.6"><span class="i18n zh">註：UniQure AMT-150（AAV）近年已去優先化、學名藥 Riluzole 組成物專利早已到期，故未列於雷達。本社自家專利號建議由 Steminent 內部提供以完整化。</span><span class="i18n en">Note: uniQure's AMT-150 (AAV) has been deprioritised in recent years and generic riluzole's composition patents expired long ago, so neither is listed. Steminent's own patent numbers should be supplied internally to complete this radar.</span></p>
   </div>
   <div class="card">
-    <h2>◎ 市場獨占權雷達</h2>
-    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6">孤兒藥的護城河不只專利——美國／歐盟孤兒藥<b>市場獨占</b>（核准後 7 年／10 年）、資料專屬期常同等關鍵。注意：「<b>孤兒藥資格 designation</b>」是研發階段身分，「<b>市場獨占 exclusivity</b>」須待核准才啟動，兩者不同。</p>
+    <h2><span class="i18n zh">◎ 市場獨占權雷達</span><span class="i18n en">◎ Market Exclusivity Radar</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px;line-height:1.6"><span class="i18n zh">孤兒藥的護城河不只專利——美國／歐盟孤兒藥<b>市場獨占</b>（核准後 7 年／10 年）、資料專屬期常同等關鍵。注意：「<b>孤兒藥資格 designation</b>」是研發階段身分，「<b>市場獨占 exclusivity</b>」須待核准才啟動，兩者不同。</span><span class="i18n en">An orphan drug's moat is not only patents — US/EU orphan <b>market exclusivity</b> (7 and 10 years post-approval) and data exclusivity are often just as decisive. Note the difference: an <b>orphan drug designation</b> is a development-stage status, while <b>market exclusivity</b> only starts on approval.</span></p>
     <div id="exclusivityList"></div>
-    <p style="font-size:11px;color:#6a7c92;margin-top:10px;line-height:1.6">註：Riluzole 為學名藥、無市場獨占；UniQure AMT-150 已去優先化，均不列於雷達。</p>
+    <p style="font-size:11px;color:#6a7c92;margin-top:10px;line-height:1.6"><span class="i18n zh">註：Riluzole 為學名藥、無市場獨占；UniQure AMT-150 已去優先化，均不列於雷達。</span><span class="i18n en">Note: riluzole is generic with no market exclusivity, and uniQure's AMT-150 has been deprioritised; neither is listed.</span></p>
   </div>
 </section>
 
 <!-- SCIENTIFIC INTELLIGENCE -->
 <section id="si" class="panel">
   <div class="card" id="trialradar" style="scroll-margin-top:16px">
-    <h2>◎ 臨床試驗雷達 (Clinical Trial Radar) · 全球 SCA 在研試驗</h2>
+    <h2><span class="i18n zh">◎ 臨床試驗雷達 (Clinical Trial Radar) · 全球 SCA 在研試驗</span><span class="i18n en">◎ Clinical Trial Radar · SCA trials worldwide</span></h2>
     <table>
-      <tr><th>試驗 (NCT)</th><th>介入 / 藥物</th><th>機制</th><th>期別</th><th>狀態</th><th>主導</th></tr>
+      <thead><tr>
+        <th><span class="i18n zh">試驗 (NCT)</span><span class="i18n en">Trial (NCT)</span></th>
+        <th><span class="i18n zh">介入 / 藥物</span><span class="i18n en">Intervention / drug</span></th>
+        <th><span class="i18n zh">機制</span><span class="i18n en">Mechanism</span></th>
+        <th><span class="i18n zh">期別</span><span class="i18n en">Phase</span></th>
+        <th><span class="i18n zh">狀態</span><span class="i18n en">Status</span></th>
+        <th><span class="i18n zh">主導</span><span class="i18n en">Sponsor</span></th>
+      </tr></thead>
       <tbody id="trialBody"></tbody>
     </table>
-    <p style="font-size:11.5px;color:#8b9bb0;margin-top:10px">雷達涵蓋所有機制路線：本社 MSC（2 案）、ASO（Vico）、<b style="color:#ffce7a">siRNA（Arrowhead／SCA2）</b>、小分子（Biohaven）、其他細胞療法對手（臍帶 MSC、外泌體）。→ 涵蓋小分子／ASO／siRNA／細胞／外泌體各路線，並持續主動掃描清單外的新進者。</p>
+    <p style="font-size:11.5px;color:#8b9bb0;margin-top:10px"><span class="i18n zh">雷達涵蓋所有機制路線：本社 MSC（2 案）、ASO（Vico）、<b style="color:#ffce7a">siRNA（Arrowhead／SCA2）</b>、小分子（Biohaven）、其他細胞療法對手（臍帶 MSC、外泌體）。→ 涵蓋小分子／ASO／siRNA／細胞／外泌體各路線，並持續主動掃描清單外的新進者。</span><span class="i18n en">The radar spans every mechanistic route: our MSC programmes (2), ASO (Vico), <b style="color:#ffce7a">siRNA (Arrowhead/SCA2)</b>, small molecule (Biohaven) and other cell-therapy rivals (umbilical-cord MSC, exosomes). → Small molecule, ASO, siRNA, cell and exosome routes are all covered, and new entrants outside the list are actively scanned for.</span></p>
   </div>
 
   <div class="grid2">
     <div class="card" id="litradar" style="scroll-margin-top:16px">
-      <h2>◎ 文獻雷達 (Literature Radar) · 近期關鍵論文</h2>
+      <h2><span class="i18n zh">◎ 文獻雷達 (Literature Radar) · 近期關鍵論文</span><span class="i18n en">◎ Literature Radar · recent key papers</span></h2>
       <div style="display:flex;gap:8px;margin:-4px 0 10px;flex-wrap:wrap;align-items:center">
         <input id="paperSearch" placeholder="🔍 搜尋標題／期刊／分類…" oninput="renderPapers()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
         <span id="paperCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
@@ -437,8 +415,8 @@
     </div>
     <div>
       <div class="card">
-        <h2>◎ 學會 / 會議雷達</h2>
-        <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px">領域關鍵會議的下屆日程自動追蹤：即將舉行標綠、結束後自動歸檔。競品若於會中發表且有公開來源，會併列於該會議下。</p>
+        <h2><span class="i18n zh">◎ 學會 / 會議雷達</span><span class="i18n en">◎ Society &amp; Conference Radar</span></h2>
+        <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px"><span class="i18n zh">領域關鍵會議的下屆日程自動追蹤：即將舉行標綠、結束後自動歸檔。競品若於會中發表且有公開來源，會併列於該會議下。</span><span class="i18n en">Automatically tracks the next edition of key conferences in the field: upcoming events are green, past ones are archived. Competitor presentations with a public source are listed under the relevant meeting.</span></p>
         <div class="glossbox" id="eventList"></div>
       </div>
     </div>
@@ -448,7 +426,6 @@
 <!-- KNOWLEDGE BASE -->
 <section id="kb" class="panel">
   <div class="kbtop">
-    <div class="kblang"><button id="kbLangZh" class="on" onclick="setKbLang('zh')">中文</button><button id="kbLangEn" onclick="setKbLang('en')">EN</button></div>
     <div class="kblegend" id="kbLegend"></div>
   </div>
   <div class="card" id="coa" style="scroll-margin-top:16px">
@@ -474,20 +451,19 @@
 <!-- CHANGELOG -->
 <section id="lg" class="panel">
   <div class="card">
-    <h2>◎ 情報更新紀錄 (Changelog)</h2>
-    <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px">本頁記錄每日排程掃描後實際新增的情報。當天有更新才會列出項目；當日掃描狀態顯示於下方。</p>
+    <h2><span class="i18n zh">◎ 情報更新紀錄 (Changelog)</span><span class="i18n en">◎ Intelligence Changelog</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px"><span class="i18n zh">本頁記錄每日排程掃描後實際新增的情報。當天有更新才會列出項目；當日掃描狀態顯示於下方。</span><span class="i18n en">This page logs what each daily scheduled scan actually added. Items appear only on days with new intelligence; the day's scan status is shown below.</span></p>
     <div id="scanHeartbeat" class="heartbeat"></div>
     <ul class="digest" id="logList"></ul>
     <div style="text-align:center;margin-top:4px">
-      <button id="clToggle" onclick="clExpanded=!clExpanded;renderChangelog()" style="background:#182533;border:1px solid #2b3a4d;color:#9fb4cc;font-size:12px;font-family:inherit;padding:6px 16px;border-radius:20px;cursor:pointer">顯示全部 ▾</button>
+      <button id="clToggle" onclick="clExpanded=!clExpanded;renderChangelog()" style="background:#182533;border:1px solid #2b3a4d;color:#9fb4cc;font-size:12px;font-family:inherit;padding:6px 16px;border-radius:20px;cursor:pointer"></button>
     </div>
   </div>
 </section>
 
 <div class="foot">
-  <b>SCA-IQ 競品情報監測平台 v1.9</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>
-  本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。<br>
-  <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none">擁有者控制台 / Owner console ↗</a>
+  <span class="i18n zh"><b>SCA-IQ 競品情報監測平台 v2.0</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。</span><span class="i18n en"><b>SCA-IQ Competitive Intelligence Platform v2.0</b>　|　Generated by an AI workflow · daily scheduled scan · for Steminent's evaluation<br>Every item on this platform cites a public, verifiable source; the AI only compiles and interprets — it does not invent content.</span><br>
+  <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none"><span class="i18n zh">擁有者控制台 ↗</span><span class="i18n en">Owner console ↗</span></a>
 </div>
 </div>
 
@@ -503,6 +479,109 @@
 </div>
 
 <script>
+function q2(id){return document.getElementById(id);}
+function esc(s){return (s==null?'':String(s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ══ 全站中英語言引擎 ══
+   靜態文字：HTML 內 .i18n.zh / .i18n.en 由 CSS 依 <html data-lang> 切換
+   資料文字：JSON 每筆的 en 物件，用 L(obj,'field') 取；缺英文自動 fallback 中文 */
+var LANG='zh';
+try{var _saved=localStorage.getItem('sca-iq-lang'); if(_saved==='en'||_saved==='zh') LANG=_saved;}catch(e){}
+function L(obj,field){
+  if(!obj) return '';
+  if(LANG==='en'&&obj.en&&obj.en[field]!=null&&obj.en[field]!=='') return obj.en[field];
+  return obj[field];
+}
+function T(k){var o=I18N[k];return o?(o[LANG]!=null?o[LANG]:o.zh):k;}
+/* 陣列型欄位（links / sources）的英文版；缺英文自動回中文 */
+function LA(obj,key){var a=(LANG==='en'&&obj&&obj.en&&obj.en[key])?obj.en[key]:(obj?obj[key]:null);return a||[];}
+
+var DOMAIN_LABEL={
+  'clinician-ataxia':{zh:'醫師評定·運動失調',en:'Clinician-rated ataxia',cls:'dbadge-phys'},
+  'objective-timed':{zh:'客觀計時測驗',en:'Objective timed test',cls:'dbadge-phys'},
+  'non-ataxia':{zh:'非失調體徵',en:'Non-ataxia signs',cls:'dbadge-phys'},
+  'digital':{zh:'數位/穿戴步態',en:'Digital-motor biomarker',cls:'dbadge-phys'},
+  'global-clinical':{zh:'醫師評定·整體',en:'Clinician-rated global',cls:'dbadge-phys'},
+  'autonomic':{zh:'自律神經（自陳）',en:'Autonomic (self-report)',cls:'dbadge-qol'},
+  'pro':{zh:'病人自陳 PRO',en:'Patient-reported (PRO)',cls:'dbadge-qol'},
+  'qol':{zh:'生活品質 QoL',en:'Quality of life (QoL)',cls:'dbadge-qol'}
+};
+var I18N={
+  title:{zh:'SCA-IQ｜競品情報監測平台',en:'SCA-IQ | Competitive Intelligence Platform'},
+  /* 知識庫 */
+  coaH2:{zh:'◎ 臨床評估量表 (Clinical Outcome Assessments)',en:'◎ Clinical Outcome Assessments'},
+  coaIntro:{zh:'SCA 臨床試驗用來量化病情與療效的標準化量表——含原始開發者、驗證、試驗應用與台灣使用狀況，並標示每個量表衡量的是「生理病程」還是「生活品質」。每筆附可查證來源。',en:'Standardized scales used in SCA trials to quantify disease and treatment effect — with original developers, validation, trial use and Taiwan status, each tagged as measuring physical disease course vs quality of life. Every entry cites a verifiable source.'},
+  nhH2:{zh:'◎ 疾病自然史與病程 (Natural History)',en:'◎ Disease Natural History & Progression'},
+  nhIntro:{zh:'SCA 不治療時的自然病程（各亞型 SARA 年惡化速率等）——是療效試驗的對照基準。含關鍵世代研究、研究團隊與台灣資料。每筆附可查證來源。',en:'The untreated natural course of SCA (per-subtype SARA annual progression, etc.) — the comparator baseline for efficacy trials. Includes key cohorts, research groups and Taiwan data. Every entry cites a verifiable source.'},
+  aSearch:{zh:'🔍 搜尋量表／開發者／關鍵字…',en:'🔍 Search scale / developer / keyword…'},
+  nSearch:{zh:'🔍 搜尋世代／團隊／亞型…',en:'🔍 Search cohort / group / subtype…'},
+  pSearch:{zh:'🔍 搜尋標題／期刊／分類…',en:'🔍 Search title / journal / tag…'},
+  rSearch:{zh:'🔍 搜尋競品／藥物／結果…',en:'🔍 Search competitor / drug / readout…'},
+  measures:{zh:'量測',en:'Measures'},development:{zh:'開發',en:'Development'},validation:{zh:'驗證',en:'Validation'},useInTrials:{zh:'試驗應用',en:'Use in trials'},taiwan:{zh:'台灣',en:'Taiwan'},
+  findings:{zh:'關鍵發現',en:'Key findings'},significance:{zh:'意義',en:'Significance'},
+  legendPhys:{zh:'<span><span class="dbadge dbadge-phys">生理</span> 病程面向</span><span><span class="dbadge dbadge-qol">PRO/QoL</span> 病人自陳／生活品質</span>',en:'<span><span class="dbadge dbadge-phys">physical</span> disease course</span><span><span class="dbadge dbadge-qol">PRO / QoL</span> patient-reported / quality of life</span>'},
+  /* 計數與展開 */
+  countItems:{zh:function(n,f){return '共 '+n+' 項'+(f?'（符合搜尋）':'');},en:function(n,f){return n+' item'+(n===1?'':'s')+(f?' (filtered)':'');}},
+  countPapers:{zh:function(n,f){return '共 '+n+' 篇'+(f?'（符合搜尋）':'');},en:function(n,f){return n+' paper'+(n===1?'':'s')+(f?' (filtered)':'');}},
+  countRows:{zh:function(n,f){return '共 '+n+' 筆'+(f?'（篩選中）':'');},en:function(n,f){return n+' item'+(n===1?'':'s')+(f?' (filtered)':'');}},
+  showRest:{zh:function(n){return '顯示全部（其餘 '+n+' 篇）▾';},en:function(n){return 'Show all ('+n+' more) ▾';}},
+  showAllN:{zh:function(n){return '顯示全部（共 '+n+' 筆）▾';},en:function(n){return 'Show all ('+n+' items) ▾';}},
+  collapse:{zh:'收合 ▴',en:'Collapse ▴'},
+  /* 連結標籤 */
+  lnkPaper:{zh:'論文 ↗',en:'Paper ↗'},lnkTrial:{zh:'試驗 ↗',en:'Trial ↗'},lnkPatent:{zh:'專利 ↗',en:'Patent ↗'},
+  lnkSource:{zh:'來源 ↗',en:'Source ↗'},lnkSite:{zh:'官網 ↗',en:'Website ↗'},lnkGP:{zh:'Google Patents ↗',en:'Google Patents ↗'},
+  /* 公司情報卡 */
+  coCta:{zh:'▸ 公司情報卡',en:'▸ Company dossier'},
+  coCountry:{zh:'國別',en:'Country'},coTicker:{zh:'股票',en:'Ticker'},coMech:{zh:'機制',en:'Mechanism'},coPipe:{zh:'Pipeline',en:'Pipeline'},
+  coTrials:{zh:'臨床試驗 Clinical trials',en:'Clinical trials'},coResults:{zh:'試驗結果讀出 Readouts',en:'Trial readouts'},
+  coPatents:{zh:'專利 Patents',en:'Patents'},coPapers:{zh:'相關論文 Papers',en:'Related papers'},
+  coEvents:{zh:'會議發表 Conference',en:'Conference presentations'},coUpdates:{zh:'近期動態 Updates',en:'Recent updates'},
+  coEmpty:{zh:'（目前無收錄項目）',en:'(nothing recorded yet)'},
+  thSelf:{zh:'本社',en:'Us'},thHigh:{zh:'高威脅',en:'High threat'},thMid:{zh:'中威脅',en:'Mid threat'},thLow:{zh:'低威脅',en:'Low threat'},
+  /* 專利／獨占權欄位標籤 */
+  pAssignee:{zh:'權利人',en:'Assignee'},pFiled:{zh:'申請',en:'Filed'},pStatus:{zh:'狀態',en:'Status'},pExpiry:{zh:'估計到期',en:'Est. expiry'},
+  pSelf:{zh:'本社',en:'Us'},pDue:{zh:'到期',en:'expires'},
+  /* 會議 */
+  evToday:{zh:'今日',en:'today'},evTomorrow:{zh:'明日',en:'tomorrow'},
+  evIn:{zh:function(n){return '還有 '+n+' 天';},en:function(n){return 'in '+n+' day'+(n===1?'':'s');}},
+  evEnded:{zh:'已結束',en:'ended'},evTbd:{zh:'日期待公布',en:'date TBC'},evSelf:{zh:'本社相關',en:'Steminent-related'},
+  /* 掃描心跳 */
+  hbTodayNew:{zh:'<b>今日已完成掃描</b>，新增情報見下方紀錄。',en:'<b>Today\'s scan is complete</b>; new items are logged below.'},
+  hbTodayNone:{zh:'<b>今日已完成掃描</b>，無新增情報。',en:'<b>Today\'s scan is complete</b>; nothing new found.'},
+  hbYesterday:{zh:function(d){return '<b>系統運作中</b>，最後掃描 '+d+'（昨日）；今日排程掃描預計於 09:45 執行。';},en:function(d){return '<b>System running</b>. Last scan '+d+' (yesterday); today\'s scheduled scan runs at 09:45.';}},
+  hbWarn:{zh:function(d,n){return '<b>掃描可能延遲</b>：最後一次成功掃描為 '+d+'（'+n+' 天前），今日與昨日尚無更新。';},en:function(d,n){return '<b>Scan may be delayed</b>: last successful scan was '+d+' ('+n+' days ago), with no update yesterday or today.';}},
+  hbErr:{zh:function(d,n){return '<b>掃描中斷</b>：最後一次成功掃描為 '+d+'（'+n+' 天前），排程可能未執行，建議檢查。';},en:function(d,n){return '<b>Scan interrupted</b>: last successful scan was '+d+' ('+n+' days ago); the schedule may not be running — worth checking.';}},
+  hbNext:{zh:'· 下次掃描 ',en:'· next scan '},
+  frToday:{zh:'今日',en:'today'},frYesterday:{zh:'昨日',en:'yesterday'},
+  frAgo:{zh:function(n){return n+' 天前';},en:function(n){return n+' days ago';}},
+  /* 載入失敗 */
+  errPapers:{zh:'（文獻資料載入失敗：',en:'(failed to load literature data: '},
+  errEvents:{zh:'（會議資料載入失敗）',en:'(failed to load conference data)'},
+  errPatents:{zh:'（專利資料載入失敗）',en:'(failed to load patent data)'},
+  errExcl:{zh:'（獨占權資料載入失敗）',en:'(failed to load exclusivity data)'},
+  errComp:{zh:'（競品資料載入失敗）',en:'(failed to load competitor data)'}
+};
+
+function setLang(l){
+  LANG=(l==='en')?'en':'zh';
+  try{localStorage.setItem('sca-iq-lang',LANG);}catch(e){}
+  document.documentElement.setAttribute('data-lang',LANG);
+  document.documentElement.setAttribute('lang',LANG==='en'?'en':'zh-Hant');
+  document.title=T('title');
+  var zb=q2('langZh'),eb=q2('langEn');
+  if(zb&&eb){zb.classList.toggle('on',LANG==='zh');eb.classList.toggle('on',LANG==='en');}
+  var ph=[['paperSearch','pSearch'],['resultsSearch','rSearch'],['assessmentSearch','aSearch'],['nhSearch','nSearch']];
+  ph.forEach(function(p){var el=q2(p[0]); if(el) el.placeholder=T(p[1]);});
+  ['coaH2','coaIntro','nhH2','nhIntro'].forEach(function(id){var el=q2(id); if(el) el.textContent=T(id);});
+  var lg=q2('kbLegend'); if(lg) lg.innerHTML=T('legendPhys');
+  renderAll();
+}
+function renderAll(){
+  renderLandscape();renderPapers();renderTrials();renderNews();renderResults();
+  renderChangelog();renderEvents();renderPatents();renderExclusivity();
+  renderAssessments();renderNaturalHistory();renderHeartbeat();
+}
+
 function tab(e,id){
   document.querySelectorAll('nav button').forEach(b=>b.classList.remove('on'));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
@@ -521,196 +600,169 @@ function goTab(id,anchor){
     else{window.scrollTo(0,0);}
   });
 }
+var lsFilter='all';
 function filt(e,f){
+  lsFilter=f;
   document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('on'));
-  e.currentTarget.classList.add('on');
+  if(e&&e.currentTarget) e.currentTarget.classList.add('on');
+  applyLsFilter();
+}
+function applyLsFilter(){
   document.querySelectorAll('#lstab tr[data-f]').forEach(r=>{
-    r.style.display = (f==='all'||r.dataset.f===f) ? '' : 'none';
+    r.style.display = (lsFilter==='all'||r.dataset.f===lsFilter) ? '' : 'none';
   });
 }
 
-/* ── 文獻雷達：由 data/papers.json 動態渲染（試點） ── */
+/* ── 競品全景：由 data/competitors.json 動態渲染（可點列開公司情報卡） ── */
+var competitorsData=[];
+var THREAT_PILL={us:'p-us',self:'p-us',high:'p-high',mid:'p-mid',low:'p-low'};
+function renderLandscape(){
+  var tb=q2('lsBody'); if(!tb) return;
+  tb.innerHTML=competitorsData.map(function(c){
+    var links=(LANG==='en'&&c.en&&c.en.links)?c.en.links:(c.links||[]);
+    var lk=links.map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+'</a>';}).join(' ');
+    var cta=companiesById[c.id]?('<div class="co-cta">'+esc(T('coCta'))+'</div>'):'';
+    return '<tr'+(c.threat==='us'?' class="us"':'')+' data-f="'+esc(c.threat)+'"'+(companiesById[c.id]?(' data-co="'+esc(c.id)+'"'):'')+'>'+
+      '<td'+(companiesById[c.id]?(' onclick="openCompany(\''+esc(c.id)+'\')"'):'')+'><span class="co">'+esc(L(c,'company'))+'</span><br><span class="asset">'+esc(L(c,'asset'))+'</span>'+cta+'</td>'+
+      '<td class="mod">'+L(c,'mechanism')+'</td>'+
+      '<td class="mod">'+L(c,'indication')+'</td>'+
+      '<td>'+esc(L(c,'phase'))+'</td>'+
+      '<td>'+L(c,'status')+(lk?('<br>'+lk):'')+'</td>'+
+      '<td><span class="pill '+(THREAT_PILL[c.threat]||'p-low')+'">'+esc(L(c,'threatLabel'))+'</span></td>'+
+    '</tr>';
+  }).join('');
+  var cc=q2('compCount'); if(cc&&competitorsData.length) cc.textContent=competitorsData.length;
+  applyLsFilter();
+}
+fetch('data/competitors.json').then(function(r){return r.json();}).then(function(d){
+  competitorsData=d; renderLandscape();
+}).catch(function(){var tb=q2('lsBody'); if(tb) tb.innerHTML='<tr><td colspan="6" style="color:#8b9bb0">'+T('errComp')+'</td></tr>';});
+
+/* ── 文獻雷達：data/papers.json ── */
 var papersData=[], papersExpanded=false;
 var PAPER_RECENT=5;
-function esc(s){return (s==null?'':String(s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function renderPapers(){
-  var ul=document.getElementById('paperList'); if(!ul) return;
-  var q=(document.getElementById('paperSearch').value||'').toLowerCase().trim();
+  var ul=q2('paperList'); if(!ul) return;
+  var q=(q2('paperSearch').value||'').toLowerCase().trim();
   var rows=papersData.slice().sort(function(a,b){return (b.date||'').localeCompare(a.date||'');});
-  if(q) rows=rows.filter(function(p){return ((p.title||'')+' '+(p.journal||'')+' '+(p.tag||'')+' '+(p.note||'')).toLowerCase().indexOf(q)>=0;});
+  if(q) rows=rows.filter(function(p){return JSON.stringify(p).toLowerCase().indexOf(q)>=0;});
   var total=rows.length;
   var shown=(papersExpanded||q)?rows:rows.slice(0,PAPER_RECENT);
   ul.innerHTML=shown.map(function(p){
     var cls=p.highlight?' class="win"':'';
     var tagcls=p.highlight?'t-win':'t-info';
-    var note=p.note?('<br><span style="color:#8b9bb0;font-size:12px">'+esc(p.note)+'</span>'):'';
-    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(p.tag)+'</span>'+coBadge(p.company)+esc(p.title)+
-      '<br><span style="color:#6a7c92;font-size:11px">'+esc(p.dateDisplay)+' · '+esc(p.journal)+'</span>'+note+
-      '<br><a class="src" href="'+esc(p.url)+'" target="_blank">'+esc(p.urlLabel||'論文 ↗')+'</a></li>';
+    var note=L(p,'note')?('<br><span style="color:#8b9bb0;font-size:12px">'+esc(L(p,'note'))+'</span>'):'';
+    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(L(p,'tag'))+'</span>'+coBadge(p.company)+esc(L(p,'title'))+
+      '<br><span style="color:#6a7c92;font-size:11px">'+esc(p.dateDisplay)+' · '+esc(L(p,'journal'))+'</span>'+note+
+      '<br><a class="src" href="'+esc(p.url)+'" target="_blank">'+esc(L(p,'urlLabel')||T('lnkPaper'))+'</a></li>';
   }).join('');
-  document.getElementById('paperCount').textContent='共 '+total+' 篇'+(q?'（符合搜尋）':'');
-  var tog=document.getElementById('paperToggle');
+  q2('paperCount').textContent=I18N.countPapers[LANG](total,!!q);
+  var tog=q2('paperToggle');
   if(q||total<=PAPER_RECENT){tog.style.display='none';}
-  else{tog.style.display='';tog.textContent=papersExpanded?'收合 ▴':('顯示全部（其餘 '+(total-PAPER_RECENT)+' 篇）▾');}
+  else{tog.style.display='';tog.textContent=papersExpanded?T('collapse'):I18N.showRest[LANG](total-PAPER_RECENT);}
 }
 fetch('data/papers.json').then(function(r){return r.json();}).then(function(d){papersData=d;renderPapers();}).catch(function(e){
-  var ul=document.getElementById('paperList'); if(ul) ul.innerHTML='<li style="color:#8b9bb0">（文獻資料載入失敗：'+esc(e.message)+'）</li>';
+  var ul=q2('paperList'); if(ul) ul.innerHTML='<li style="color:#8b9bb0">'+T('errPapers')+esc(e.message)+'）</li>';
 });
 
-/* ── SCA 知識庫：語言切換 + 衡量面向分類 ── */
-var kbLang='zh';
-var DOMAIN_LABEL={
-  'clinician-ataxia':{zh:'醫師評定·運動失調',en:'Clinician-rated ataxia',cls:'dbadge-phys'},
-  'objective-timed':{zh:'客觀計時測驗',en:'Objective timed test',cls:'dbadge-phys'},
-  'non-ataxia':{zh:'非失調體徵',en:'Non-ataxia signs',cls:'dbadge-phys'},
-  'digital':{zh:'數位/穿戴步態',en:'Digital-motor biomarker',cls:'dbadge-phys'},
-  'pro':{zh:'病人自陳 PRO',en:'Patient-reported (PRO)',cls:'dbadge-qol'},
-  'qol':{zh:'生活品質 QoL',en:'Quality of life (QoL)',cls:'dbadge-qol'}
-};
-var KB_I18N={
-  coaH2:{zh:'◎ 臨床評估量表 (Clinical Outcome Assessments)',en:'◎ Clinical Outcome Assessments'},
-  coaIntro:{zh:'SCA 臨床試驗用來量化病情與療效的標準化量表——含原始開發者、驗證、試驗應用與台灣使用狀況，並標示每個量表衡量的是「生理病程」還是「生活品質」。每筆附可查證來源。',en:'Standardized scales used in SCA trials to quantify disease and treatment effect — with original developers, validation, trial use and Taiwan status, each tagged as measuring physical disease course vs quality of life. Every entry cites a verifiable source.'},
-  nhH2:{zh:'◎ 疾病自然史與病程 (Natural History)',en:'◎ Disease Natural History & Progression'},
-  nhIntro:{zh:'SCA 不治療時的自然病程（各亞型 SARA 年惡化速率等）——是療效試驗的對照基準。含關鍵世代研究、研究團隊與台灣資料。每筆附可查證來源。',en:'The untreated natural course of SCA (per-subtype SARA annual progression, etc.) — the comparator baseline for efficacy trials. Includes key cohorts, research groups and Taiwan data. Every entry cites a verifiable source.'},
-  aSearch:{zh:'🔍 搜尋量表／開發者／關鍵字…',en:'🔍 Search scale / developer / keyword…'},
-  nSearch:{zh:'🔍 搜尋世代／團隊／亞型…',en:'🔍 Search cohort / group / subtype…'},
-  measures:{zh:'量測',en:'Measures'},development:{zh:'開發',en:'Development'},validation:{zh:'驗證',en:'Validation'},useInTrials:{zh:'試驗應用',en:'Use in trials'},taiwan:{zh:'台灣',en:'Taiwan'},
-  findings:{zh:'關鍵發現',en:'Key findings'},significance:{zh:'意義',en:'Significance'},
-  count:{zh:function(n,f){return '共 '+n+' 項'+(f?'（符合搜尋）':'');},en:function(n,f){return n+' item'+(n===1?'':'s')+(f?' (filtered)':'');}}
-};
-function kbT(k){var o=KB_I18N[k];return o?(o[kbLang]||o.zh):k;}
-function Lf(obj,field){return (kbLang==='en'&&obj.en&&obj.en[field]!=null&&obj.en[field]!=='')?obj.en[field]:obj[field];}
-function kbLine(label,val){return val?('<br><span style="color:#9fb4cc;font-size:12px"><b style="color:#cfe0f2">'+label+'：</b>'+esc(val)+'</span>'):'';}
-function dBadge(a){var d=a.domainKey&&DOMAIN_LABEL[a.domainKey];if(!d)return '';return ' <span class="dbadge '+d.cls+'">'+esc(kbLang==='en'?d.en:d.zh)+'</span>';}
-function setKbLang(l){
-  kbLang=l;
-  var zb=document.getElementById('kbLangZh'),eb=document.getElementById('kbLangEn');
-  if(zb&&eb){zb.classList.toggle('on',l==='zh');eb.classList.toggle('on',l==='en');}
-  ['coaH2','coaIntro','nhH2','nhIntro'].forEach(function(id){var el=document.getElementById(id);if(el)el.textContent=kbT(id);});
-  var as=document.getElementById('assessmentSearch');if(as)as.placeholder=kbT('aSearch');
-  var ns=document.getElementById('nhSearch');if(ns)ns.placeholder=kbT('nSearch');
-  var lg=document.getElementById('kbLegend');
-  if(lg){lg.innerHTML=(l==='en')
-    ? '<span><span class="dbadge dbadge-phys">physical</span> disease course</span><span><span class="dbadge dbadge-qol">PRO / QoL</span> patient-reported / quality of life</span>'
-    : '<span><span class="dbadge dbadge-phys">生理</span> 病程面向</span><span><span class="dbadge dbadge-qol">PRO/QoL</span> 病人自陳／生活品質</span>';}
-  renderAssessments();renderNaturalHistory();
-}
-
 /* ── SCA 知識庫：臨床評估量表 data/assessments.json ── */
+function kbLine(label,val){return val?('<br><span style="color:#9fb4cc;font-size:12px"><b style="color:#cfe0f2">'+label+'：</b>'+esc(val)+'</span>'):'';}
+function dBadge(a){var d=a.domainKey&&DOMAIN_LABEL[a.domainKey];if(!d)return '';return ' <span class="dbadge '+d.cls+'">'+esc(LANG==='en'?d.en:d.zh)+'</span>';}
 var assessmentsData=[];
 function renderAssessments(){
-  var ul=document.getElementById('assessmentList'); if(!ul) return;
-  var q=(document.getElementById('assessmentSearch').value||'').toLowerCase().trim();
+  var ul=q2('assessmentList'); if(!ul) return;
+  var q=(q2('assessmentSearch').value||'').toLowerCase().trim();
   var rows=assessmentsData.slice().sort(function(a,b){return (b.highlight?1:0)-(a.highlight?1:0);});
   if(q) rows=rows.filter(function(a){return JSON.stringify(a).toLowerCase().indexOf(q)>=0;});
   ul.innerHTML=rows.map(function(a){
     var cls=a.highlight?' class="win"':'';
     var tagcls=a.highlight?'t-win':'t-info';
-    var meta='<br><span style="color:#6a7c92;font-size:11px">'+(a.year?esc(a.year)+' · ':'')+esc(Lf(a,'developer')||'')+'</span>';
-    var zh=(kbLang==='zh'&&a.nameZh)?(' <span style="color:#8b9bb0">'+esc(a.nameZh)+'</span>'):'';
-    var src=(a.sources||[]).map(function(s){return '<a class="src" href="'+esc(s.url)+'" target="_blank">'+esc(s.label)+' ↗</a>';}).join(' ');
-    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(a.abbr)+'</span><b>'+esc(a.name)+'</b>'+zh+dBadge(a)+meta+
-      kbLine(kbT('measures'),Lf(a,'measures'))+kbLine(kbT('development'),Lf(a,'development'))+kbLine(kbT('validation'),Lf(a,'validation'))+kbLine(kbT('useInTrials'),Lf(a,'useInTrials'))+kbLine(kbT('taiwan'),Lf(a,'taiwan'))+
+    var meta='<br><span style="color:#6a7c92;font-size:11px">'+(a.year?esc(a.year)+' · ':'')+esc(L(a,'developer')||'')+'</span>';
+    var zh=(LANG==='zh'&&a.nameZh)?(' <span style="color:#8b9bb0">'+esc(a.nameZh)+'</span>'):'';
+    var src=LA(a,'sources').map(function(s){return '<a class="src" href="'+esc(s.url)+'" target="_blank">'+esc(s.label)+' ↗</a>';}).join(' ');
+    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(L(a,'abbr'))+'</span><b>'+esc(a.name)+'</b>'+zh+dBadge(a)+meta+
+      kbLine(T('measures'),L(a,'measures'))+kbLine(T('development'),L(a,'development'))+kbLine(T('validation'),L(a,'validation'))+kbLine(T('useInTrials'),L(a,'useInTrials'))+kbLine(T('taiwan'),L(a,'taiwan'))+
       (src?('<br>'+src):'')+'</li>';
   }).join('');
-  document.getElementById('assessmentCount').textContent=KB_I18N.count[kbLang](rows.length,!!q);
+  q2('assessmentCount').textContent=I18N.countItems[LANG](rows.length,!!q);
 }
 fetch('data/assessments.json').then(function(r){return r.json();}).then(function(d){assessmentsData=d;renderAssessments();}).catch(function(){});
 
 /* ── SCA 知識庫：疾病自然史 data/naturalhistory.json ── */
 var nhData=[];
 function renderNaturalHistory(){
-  var ul=document.getElementById('nhList'); if(!ul) return;
-  var q=(document.getElementById('nhSearch').value||'').toLowerCase().trim();
+  var ul=q2('nhList'); if(!ul) return;
+  var q=(q2('nhSearch').value||'').toLowerCase().trim();
   var rows=nhData.slice().sort(function(a,b){return (b.highlight?1:0)-(a.highlight?1:0);});
   if(q) rows=rows.filter(function(h){return JSON.stringify(h).toLowerCase().indexOf(q)>=0;});
   ul.innerHTML=rows.map(function(h){
     var cls=h.highlight?' class="win"':'';
     var tagcls=h.highlight?'t-win':'t-info';
-    var meta='<br><span style="color:#6a7c92;font-size:11px">'+esc(Lf(h,'group')||'')+(h.n?(' · n='+esc(h.n)):'')+(h.year?(' · '+esc(h.year)):'')+(h.region?(' · '+esc(h.region)):'')+'</span>';
-    var tw=Lf(h,'taiwan');tw=(typeof tw==='string'&&tw)?tw:'';
-    var title=(kbLang==='en'&&h.nameEn)?h.nameEn:h.name;
-    var src=(h.sources||[]).map(function(s){return '<a class="src" href="'+esc(s.url)+'" target="_blank">'+esc(s.label)+' ↗</a>';}).join(' ');
-    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(h.scope||'SCA')+'</span><b>'+esc(title)+'</b>'+meta+
-      kbLine(kbT('findings'),Lf(h,'findings'))+kbLine(kbT('significance'),Lf(h,'significance'))+kbLine(kbT('taiwan'),tw)+
+    var title=(LANG==='en'&&h.nameEn)?h.nameEn:h.name;
+    var src=LA(h,'sources').map(function(s){return '<a class="src" href="'+esc(s.url)+'" target="_blank">'+esc(s.label)+' ↗</a>';}).join(' ');
+    var meta='<br><span style="color:#6a7c92;font-size:11px">'+[esc(L(h,'group')||''),esc(L(h,'region')||''),(h.n?esc(L(h,'n')):''),(h.year?esc(h.year):'')].filter(function(x){return x;}).join(' · ')+'</span>';
+    return '<li'+cls+'><span class="tag '+tagcls+'">'+esc(L(h,'scope')||'')+'</span><b>'+esc(title)+'</b>'+meta+
+      kbLine(T('findings'),L(h,'findings'))+kbLine(T('significance'),L(h,'significance'))+
       (src?('<br>'+src):'')+'</li>';
   }).join('');
-  document.getElementById('nhCount').textContent=KB_I18N.count[kbLang](rows.length,!!q);
+  q2('nhCount').textContent=I18N.countItems[LANG](rows.length,!!q);
 }
 fetch('data/naturalhistory.json').then(function(r){return r.json();}).then(function(d){nhData=d;renderNaturalHistory();}).catch(function(){});
-setKbLang('zh');
 
 /* ── 競品全景 drill-down：公司詳情 data/companies.json ── */
 var companiesData=[], companiesById={};
-function coBadge(id){var c=id&&companiesById[id];return c?(' <span class="lit-co">'+esc(c.short||c.name)+'</span>'):'';}
+function coBadge(id){var c=id&&companiesById[id];return c?(' <span class="lit-co">'+esc(L(c,'short')||L(c,'name'))+'</span>'):'';}
 function coHas(str,aliases){
   var h=String(str||'').toLowerCase();
   for(var i=0;i<aliases.length;i++){ if(h.indexOf(String(aliases[i]).toLowerCase())>=0) return true; }
   return false;
 }
-var THREAT_LABEL={self:{t:'本社',c:'p-us'},high:{t:'高威脅',c:'p-high'},mid:{t:'中威脅',c:'p-mid'},low:{t:'低威脅',c:'p-low'}};
+var THREAT_LABEL={self:{k:'thSelf',c:'p-us'},high:{k:'thHigh',c:'p-high'},mid:{k:'thMid',c:'p-mid'},low:{k:'thLow',c:'p-low'}};
 function coList(title,items,render){
-  if(!items.length) return '<div class="cosec"><h4>'+title+'</h4><div class="co-empty">（目前無收錄項目）</div></div>';
+  if(!items.length) return '<div class="cosec"><h4>'+title+'</h4><div class="co-empty">'+T('coEmpty')+'</div></div>';
   return '<div class="cosec"><h4>'+title+'（'+items.length+'）</h4>'+items.map(render).join('')+'</div>';
 }
 function openCompany(id){
   var c=companiesById[id]; if(!c) return;
   var al=c.match||[c.name];
-  var th=THREAT_LABEL[c.threat]||{t:'',c:'p-low'};
-  document.getElementById('coName').innerHTML=esc(c.name)+' <span class="pill '+th.c+'" style="font-size:10px">'+esc(th.t)+'</span>';
-  document.getElementById('coMeta').innerHTML=
-    '<b>國別</b> '+esc(c.country||'—')+' ｜ <b>股票</b> '+esc(c.ticker||'—')+' ｜ <b>機制</b> '+esc(c.mechanism||'—')+
-    '<br><b>Pipeline</b> '+esc(c.pipeline||'—')+
-    (c.url?('<br><a class="src" href="'+esc(c.url)+'" target="_blank">官網 ↗</a>'):'');
+  var th=THREAT_LABEL[c.threat]||{k:'thLow',c:'p-low'};
+  q2('coName').innerHTML=esc(L(c,'name'))+' <span class="pill '+th.c+'" style="font-size:10px">'+esc(T(th.k))+'</span>';
+  q2('coMeta').innerHTML=
+    '<b>'+T('coCountry')+'</b> '+esc(L(c,'country')||'—')+' ｜ <b>'+T('coTicker')+'</b> '+esc(L(c,'ticker')||'—')+' ｜ <b>'+T('coMech')+'</b> '+esc(L(c,'mechanism')||'—')+
+    '<br><b>'+T('coPipe')+'</b> '+esc(L(c,'pipeline')||'—')+
+    (c.url?('<br><a class="src" href="'+esc(c.url)+'" target="_blank">'+T('lnkSite')+'</a>'):'');
   var trials=trialsData.filter(function(t){return coHas((t.sponsor||'')+' '+(t.drug||''),al);});
   var results=resultsData.filter(function(r){return coHas((r.competitor||'')+' '+(r.drug||''),al);});
   var pats=patentsData.filter(function(p){return coHas((p.competitor||'')+' '+(p.assignee||'')+' '+(p.asset||''),al);});
   var paps=papersData.filter(function(p){return p.company===id||coHas((p.title||'')+' '+(p.tag||''),al);});
   var evs=[]; eventsData.forEach(function(e){(e.competitors||[]).forEach(function(w){if(coHas(w.who||'',al))evs.push({e:e,w:w});});});
-  var body=(c.insight?('<div class="coins">'+esc(c.insight)+'</div>'):'');
-  body+=coList('臨床試驗 Clinical trials',trials,function(t){
-    return '<div class="corow"><b>'+esc(t.drug)+'</b> · '+esc(t.phase)+' · '+esc(t.status)+' <span style="color:#6a7c92">'+esc(t.nct)+'</span>'+
-      ' <a class="src" href="'+esc(t.url)+'" target="_blank">試驗 ↗</a></div>';});
-  body+=coList('試驗結果讀出 Readouts',results,function(r){
-    var links=(r.links||[]).map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+' ↗</a>';}).join(' ');
-    return '<div class="corow"><b>'+esc(r.drug)+'</b> <span style="color:#6a7c92">'+esc(r.dateDisplay)+' · '+esc(r.sourceType)+'</span><br>'+esc(r.readout)+(links?('<br>'+links):'')+'</div>';});
-  body+=coList('專利 Patents',pats,function(p){
-    return '<div class="corow"><b>'+esc(p.number)+'</b> — '+esc(p.title)+'<br><span style="color:#8b9bb0">'+esc(p.status)+' · 到期 '+esc(p.expiry)+'</span>'+
-      (p.url?(' <a class="src" href="'+esc(p.url)+'" target="_blank">專利 ↗</a>'):'')+'</div>';});
-  body+=coList('相關論文 Papers',paps,function(p){
-    return '<div class="corow"><b>'+esc(p.title)+'</b><br><span style="color:#8b9bb0">'+esc(p.dateDisplay)+' · '+esc(p.journal)+'</span>'+
-      ' <a class="src" href="'+esc(p.url)+'" target="_blank">論文 ↗</a></div>';});
-  if(evs.length) body+=coList('會議發表 Conference',evs,function(x){
-    return '<div class="corow"><b>'+esc(x.w.who||'')+'</b> @ '+esc(x.e.name)+'（'+esc(x.e.dateDisplay)+'）<br>'+esc(x.w.what||'')+'</div>';});
-  if(c.updates&&c.updates.length) body+=coList('近期動態 Updates',c.updates,function(u){
+  var body=(L(c,'insight')?('<div class="coins">'+esc(L(c,'insight'))+'</div>'):'');
+  body+=coList(T('coTrials'),trials,function(t){
+    return '<div class="corow"><b>'+esc(L(t,'drug'))+'</b> · '+esc(L(t,'phase'))+' · '+esc(L(t,'status'))+' <span style="color:#6a7c92">'+esc(t.nct)+'</span>'+
+      ' <a class="src" href="'+esc(t.url)+'" target="_blank">'+T('lnkTrial')+'</a></div>';});
+  body+=coList(T('coResults'),results,function(r){
+    var links=LA(r,'links').map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+' ↗</a>';}).join(' ');
+    return '<div class="corow"><b>'+esc(L(r,'drug'))+'</b> <span style="color:#6a7c92">'+esc(L(r,'dateDisplay'))+' · '+esc(L(r,'sourceType'))+'</span><br>'+esc(L(r,'readout'))+(links?('<br>'+links):'')+'</div>';});
+  body+=coList(T('coPatents'),pats,function(p){
+    return '<div class="corow"><b>'+esc(L(p,'number'))+'</b> — '+esc(L(p,'title'))+'<br><span style="color:#8b9bb0">'+esc(L(p,'status'))+' · '+T('pDue')+' '+esc(L(p,'expiry'))+'</span>'+
+      (p.url?(' <a class="src" href="'+esc(p.url)+'" target="_blank">'+T('lnkPatent')+'</a>'):'')+'</div>';});
+  body+=coList(T('coPapers'),paps,function(p){
+    return '<div class="corow"><b>'+esc(L(p,'title'))+'</b><br><span style="color:#8b9bb0">'+esc(p.dateDisplay)+' · '+esc(L(p,'journal'))+'</span>'+
+      ' <a class="src" href="'+esc(p.url)+'" target="_blank">'+T('lnkPaper')+'</a></div>';});
+  if(evs.length) body+=coList(T('coEvents'),evs,function(x){
+    return '<div class="corow"><b>'+esc(x.w.who||'')+'</b> @ '+esc(L(x.e,'name'))+'（'+esc(x.e.dateDisplay)+'）<br>'+esc(L(x.w,'what')||'')+'</div>';});
+  var ups=LA(c,'updates');
+  if(ups.length) body+=coList(T('coUpdates'),ups,function(u){
     return '<div class="corow"><b>'+esc(u.date)+'</b> '+esc(u.text)+'</div>';});
-  document.getElementById('coBody').innerHTML=body;
-  document.getElementById('coModal').classList.add('on');
+  q2('coBody').innerHTML=body;
+  q2('coModal').classList.add('on');
   window.scrollTo({top:0,behavior:'auto'});
 }
-function closeCompany(){document.getElementById('coModal').classList.remove('on');}
+function closeCompany(){q2('coModal').classList.remove('on');}
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeCompany();});
-function wireLandscapeRows(){
-  var rows=document.querySelectorAll('#lstab tr');
-  rows.forEach(function(tr){
-    if(!tr.querySelector('td')) return;        // skip header (th) row
-    if(tr.getAttribute('data-co')) return;     // already wired
-    var txt=tr.textContent||'', hit=null;
-    for(var i=0;i<companiesData.length;i++){
-      var al=companiesData[i].match||[];
-      for(var j=0;j<al.length;j++){ if(txt.indexOf(al[j])>=0){hit=companiesData[i];break;} }
-      if(hit) break;
-    }
-    if(!hit) return;
-    tr.setAttribute('data-co',hit.id);
-    var cell=tr.querySelector('td');
-    cell.addEventListener('click',function(){openCompany(hit.id);});
-    var cta=document.createElement('div'); cta.className='co-cta'; cta.textContent='▸ 公司情報卡'; cell.appendChild(cta);
-  });
-}
 fetch('data/companies.json').then(function(r){return r.json();}).then(function(d){
   companiesData=d; companiesById={}; d.forEach(function(c){companiesById[c.id]=c;});
-  wireLandscapeRows(); renderPapers();
+  renderLandscape(); renderPapers();
 }).catch(function(){});
 
 /* ── 競品試驗結果與讀出 data/results.json（依來源類型篩選） ── */
@@ -723,71 +775,72 @@ function setResultsFilter(f,btn){
   renderResults();
 }
 function renderResults(){
-  var ul=document.getElementById('resultsList'); if(!ul) return;
-  var q=(document.getElementById('resultsSearch').value||'').toLowerCase().trim();
+  var ul=q2('resultsList'); if(!ul) return;
+  var q=(q2('resultsSearch').value||'').toLowerCase().trim();
   var rows=resultsData.slice().sort(function(a,b){return (b.date||'').localeCompare(a.date||'');});
   if(resultsFilter!=='all') rows=rows.filter(function(r){return r.sourceType===resultsFilter;});
   if(q) rows=rows.filter(function(r){return JSON.stringify(r).toLowerCase().indexOf(q)>=0;});
   ul.innerHTML=rows.map(function(r){
     var lv=r.level||'info';
     var cls=lv!=='info'?(' class="'+lv+'"'):'';
-    var st='<span style="display:inline-block;font-size:10px;color:#9fb4cc;border:1px solid #2b4a6d;border-radius:5px;padding:1px 7px;margin-left:6px;background:#12233a">'+esc(r.sourceType||'')+'</span>';
-    var trial=r.trial?(' <span style="color:#9fb4cc;font-size:11px">'+esc(r.trial)+'</span>'):'';
-    var imp=r.implication?('<br><span style="color:#8b9bb0;font-size:12px">'+esc(r.implication)+'</span>'):'';
-    var links=(r.links||[]).map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+' ↗</a>';}).join(' ');
-    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(r.competitor)+' · '+esc(r.drug)+'</span>'+st+trial+
-      '<br>'+esc(r.readout||'')+'<span class="date">'+esc(r.dateDisplay)+'</span>'+imp+(links?('<br>'+links):'')+'</li>';
+    var st='<span style="display:inline-block;font-size:10px;color:#9fb4cc;border:1px solid #2b4a6d;border-radius:5px;padding:1px 7px;margin-left:6px;background:#12233a">'+esc(L(r,'sourceType')||'')+'</span>';
+    var trial=r.trial?(' <span style="color:#9fb4cc;font-size:11px">'+esc(L(r,'trial'))+'</span>'):'';
+    var imp=L(r,'implication')?('<br><span style="color:#8b9bb0;font-size:12px">'+esc(L(r,'implication'))+'</span>'):'';
+    var links=LA(r,'links').map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+' ↗</a>';}).join(' ');
+    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(L(r,'competitor'))+' · '+esc(L(r,'drug'))+'</span>'+st+trial+
+      '<br>'+esc(L(r,'readout')||'')+'<span class="date">'+esc(L(r,'dateDisplay'))+'</span>'+imp+(links?('<br>'+links):'')+'</li>';
   }).join('');
-  document.getElementById('resultsCount').textContent='共 '+rows.length+' 筆'+((resultsFilter!=='all'||q)?'（篩選中）':'');
+  q2('resultsCount').textContent=I18N.countRows[LANG](rows.length,(resultsFilter!=='all'||!!q));
 }
 fetch('data/results.json').then(function(r){return r.json();}).then(function(d){resultsData=d;renderResults();}).catch(function(){});
 
-/* ── 臨床試驗雷達：由 data/trials.json 動態渲染 ── */
+/* ── 臨床試驗雷達：data/trials.json ── */
 var trialsData=[];
 function renderTrials(){
-  var tb=document.getElementById('trialBody'); if(!tb) return;
+  var tb=q2('trialBody'); if(!tb) return;
   tb.innerHTML=trialsData.map(function(t){
     var us=t.us?' class="us"':'';
-    return '<tr'+us+'><td><span class="asset">'+esc(t.nct)+'</span></td><td class="co">'+esc(t.drug)+'</td>'+
-      '<td class="mod">'+esc(t.mechanism)+'</td><td>'+esc(t.phase)+'</td><td>'+esc(t.status)+'</td>'+
-      '<td>'+esc(t.sponsor)+'<br><a class="src" href="'+esc(t.url)+'" target="_blank">試驗 ↗</a></td></tr>';
+    return '<tr'+us+'><td><span class="asset">'+esc(t.nct)+'</span></td><td class="co">'+esc(L(t,'drug'))+'</td>'+
+      '<td class="mod">'+esc(L(t,'mechanism'))+'</td><td>'+esc(L(t,'phase'))+'</td><td>'+esc(L(t,'status'))+'</td>'+
+      '<td>'+esc(L(t,'sponsor'))+'<br><a class="src" href="'+esc(t.url)+'" target="_blank">'+T('lnkTrial')+'</a></td></tr>';
   }).join('');
 }
 fetch('data/trials.json').then(function(r){return r.json();}).then(function(d){trialsData=d;renderTrials();}).catch(function(){});
 
-/* ── 本週情報摘要：由 data/news.json 動態渲染（依編輯順序） ── */
+/* ── 本週情報摘要：data/news.json ── */
 var newsData=[];
 function renderNews(){
-  var ul=document.getElementById('digestList'); if(!ul) return;
+  var ul=q2('digestList'); if(!ul) return;
   ul.innerHTML=newsData.map(function(n){
     var lv=n.level||'info';
     var cls=lv!=='info'?(' class="'+lv+'"'):'';
-    var note=n.note?('<br><span style="color:#8b9bb0;font-size:12px">'+n.note+'</span>'):'';
-    var links=(n.links||[]).map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+'</a>';}).join(' ');
-    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(n.tag)+'</span>'+n.body+'<span class="date">'+esc(n.dateDisplay)+'</span>'+note+(links?('<br>'+links):'')+'</li>';
+    var note=L(n,'note')?('<br><span style="color:#8b9bb0;font-size:12px">'+L(n,'note')+'</span>'):'';
+    var links=LA(n,'links').map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+'</a>';}).join(' ');
+    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(L(n,'tag'))+'</span>'+L(n,'body')+'<span class="date">'+esc(L(n,'dateDisplay'))+'</span>'+note+(links?('<br>'+links):'')+'</li>';
   }).join('');
 }
 fetch('data/news.json').then(function(r){return r.json();}).then(function(d){newsData=d;renderNews();}).catch(function(){});
 
-/* ── 更新紀錄：由 data/changelog.json 動態渲染（新→舊，預設 12 筆） ── */
+/* ── 更新紀錄：data/changelog.json（新→舊，預設 12 筆） ── */
 var changelogData=[], clExpanded=false, CL_RECENT=12;
 function renderChangelog(){
-  var ul=document.getElementById('logList'); if(!ul) return;
+  var ul=q2('logList'); if(!ul) return;
   var rows=changelogData.slice().sort(function(a,b){return (b.date||'').localeCompare(a.date||'');});
   var shown=clExpanded?rows:rows.slice(0,CL_RECENT);
   ul.innerHTML=shown.map(function(c){
     var lv=c.level||'info';
     var cls=lv!=='info'?(' class="'+lv+'"'):'';
-    var link=c.link?('<br><a class="src" href="javascript:void(0)" onclick="goTab(\''+c.link.tab+'\''+(c.link.anchor?(',\''+c.link.anchor+'\''):'')+');return false;">'+esc(c.link.label)+'</a>'):'';
-    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(c.tag)+'</span>'+esc(c.body)+'<span class="date">'+esc(c.dateDisplay)+'</span>'+link+'</li>';
+    var lb=c.link?((LANG==='en'&&c.en&&c.en.linkLabel)?c.en.linkLabel:c.link.label):'';
+    var link=c.link?('<br><a class="src" href="javascript:void(0)" onclick="goTab(\''+c.link.tab+'\''+(c.link.anchor?(',\''+c.link.anchor+'\''):'')+');return false;">'+esc(lb)+'</a>'):'';
+    return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(L(c,'tag'))+'</span>'+esc(L(c,'body'))+'<span class="date">'+esc(c.dateDisplay)+'</span>'+link+'</li>';
   }).join('');
-  var tog=document.getElementById('clToggle'); if(!tog) return;
+  var tog=q2('clToggle'); if(!tog) return;
   if(rows.length<=CL_RECENT){tog.style.display='none';}
-  else{tog.style.display='';tog.textContent=clExpanded?'收合 ▴':('顯示全部（共 '+rows.length+' 筆）▾');}
+  else{tog.style.display='';tog.textContent=clExpanded?T('collapse'):I18N.showAllN[LANG](rows.length);}
 }
 fetch('data/changelog.json').then(function(r){return r.json();}).then(function(d){changelogData=d;renderChangelog();renderHeartbeat();}).catch(function(){});
 
-/* ── 頁首掃描日期 + KPI「本週新增」：由 data/meta.json 動態渲染 ── */
+/* ── 頁首掃描日期 + KPI「本週新增」：data/meta.json ── */
 var metaData=null;
 fetch('data/meta.json').then(function(r){return r.json();}).then(function(m){
   metaData=m;
@@ -796,12 +849,11 @@ fetch('data/meta.json').then(function(r){return r.json();}).then(function(m){
   if(q2('weekCount')&&m.weekNewCount!=null) q2('weekCount').textContent=m.weekNewCount;
   renderHeartbeat();
 }).catch(function(){});
-function q2(id){return document.getElementById(id);}
 
-/* ── 掃描心跳：比對 meta.lastScan 與今日，顯示「有跑但無新情報 / 有新情報 / 掃描中斷」── */
+/* ── 掃描心跳 ── */
 function todayStr(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function daysAgo(dateStr){var a=new Date(dateStr+'T00:00:00'),b=new Date(todayStr()+'T00:00:00');return Math.round((b-a)/86400000);}
-function freshLabel(diff){if(diff<=0)return '今日';if(diff===1)return '昨日';return diff+' 天前';}
+function freshLabel(diff){if(diff<=0)return T('frToday');if(diff===1)return T('frYesterday');return I18N.frAgo[LANG](diff);}
 function renderHeartbeat(){
   if(!metaData) return;
   var el=q2('scanHeartbeat'), fresh=q2('scanFresh');
@@ -810,32 +862,18 @@ function renderHeartbeat(){
   var today=todayStr();
   var addedToday=(changelogData||[]).some(function(c){return c.date===today;});
   var cls,msg;
-  if(diff<=0){
-    cls='ok';
-    msg=addedToday
-      ? '<b>今日已完成掃描</b>，新增情報見下方紀錄。'
-      : '<b>今日已完成掃描</b>，無新增情報。';
-  }else if(diff===1){
-    cls='ok';
-    msg='<b>系統運作中</b>，最後掃描 '+esc(last)+'（昨日）；今日排程掃描預計於 09:45 執行。';
-  }else if(diff===2){
-    cls='warn';
-    msg='<b>掃描可能延遲</b>：最後一次成功掃描為 '+esc(last)+'（'+diff+' 天前），今日與昨日尚無更新。';
-  }else{
-    cls='err';
-    msg='<b>掃描中斷</b>：最後一次成功掃描為 '+esc(last)+'（'+diff+' 天前），排程可能未執行，建議檢查。';
-  }
-  if(el){el.className='heartbeat '+cls;el.innerHTML='<span class="dot"></span><span>'+msg+' <span class="sub">· 下次掃描 '+esc(next)+'</span></span>';}
+  if(diff<=0){ cls='ok'; msg=addedToday?T('hbTodayNew'):T('hbTodayNone'); }
+  else if(diff===1){ cls='ok'; msg=I18N.hbYesterday[LANG](esc(last)); }
+  else if(diff===2){ cls='warn'; msg=I18N.hbWarn[LANG](esc(last),diff); }
+  else{ cls='err'; msg=I18N.hbErr[LANG](esc(last),diff); }
+  if(el){el.className='heartbeat '+cls;el.innerHTML='<span class="dot"></span><span>'+msg+' <span class="sub">'+T('hbNext')+esc(next)+'</span></span>';}
   if(fresh){fresh.textContent='（'+freshLabel(diff)+'）';fresh.style.color=diff<=1?'#6ee7a0':(diff===2?'#ffce7a':'#ff8a7a');}
 }
 
-/* ── KPI「追蹤競品」數：由競品全景表列數自動帶入，新增/移除競品時自動同步 ── */
-(function(){var cc=q2('compCount');if(!cc)return;var n=document.querySelectorAll('#lstab tr[data-f]').length;if(n)cc.textContent=n;})();
-
-/* ── 會議雷達：由 data/events.json 動態渲染（即將/待公布/已結束，過期自動歸檔）── */
+/* ── 會議雷達：data/events.json ── */
 var eventsData=[];
 function renderEvents(){
-  var box=document.getElementById('eventList'); if(!box) return;
+  var box=q2('eventList'); if(!box) return;
   function stOf(e){return !e.date?'tbd':(daysAgo(e.date)>0?'past':'up');}
   var ord={up:0,tbd:1,past:2};
   var rows=eventsData.map(function(e){return {e:e,st:stOf(e)};}).sort(function(a,b){
@@ -845,62 +883,65 @@ function renderEvents(){
   });
   box.innerHTML=rows.map(function(r){
     var e=r.e,st=r.st,badge;
-    if(st==='up'){var rem=-daysAgo(e.date);badge='<span class="cd">· '+(rem===0?'今日':(rem===1?'明日':('還有 '+rem+' 天')))+'</span>';}
-    else if(st==='past'){badge='<span class="cd">· 已結束</span>';}
-    else{badge='<span class="cd">· 日期待公布</span>';}
-    var dstr=e.dateDisplay||(st==='tbd'?'日期待公布':'');
-    var self=e.highlight?'<span class="selfpill">本社相關</span>':'';
-    var loc=e.location?('　'+esc(e.location)):'';
-    var link=e.url?(' <a class="src" href="'+esc(e.url)+'" target="_blank">官網 ↗</a>'):'';
-    var rel=e.relevance?('<div class="em">'+e.relevance+'</div>'):'';
+    if(st==='up'){var rem=-daysAgo(e.date);badge='<span class="cd">· '+(rem===0?T('evToday'):(rem===1?T('evTomorrow'):I18N.evIn[LANG](rem)))+'</span>';}
+    else if(st==='past'){badge='<span class="cd">· '+T('evEnded')+'</span>';}
+    else{badge='<span class="cd">· '+T('evTbd')+'</span>';}
+    var dstr=e.dateDisplay||(st==='tbd'?T('evTbd'):'');
+    var self=e.highlight?'<span class="selfpill">'+T('evSelf')+'</span>':'';
+    var loc=L(e,'location')?('　'+esc(L(e,'location'))):'';
+    var link=e.url?(' <a class="src" href="'+esc(e.url)+'" target="_blank">'+T('lnkSite')+'</a>'):'';
+    var rel=L(e,'relevance')?('<div class="em">'+L(e,'relevance')+'</div>'):'';
     var cmp=(e.competitors||[]).map(function(c){
-      return '<div class="cmp">▸ <b>'+esc(c.who)+'</b>：'+esc(c.what)+(c.url?(' <a class="src" href="'+esc(c.url)+'" target="_blank">來源 ↗</a>'):'')+'</div>';
+      return '<div class="cmp">▸ <b>'+esc(c.who)+'</b>：'+esc(L(c,'what'))+(c.url?(' <a class="src" href="'+esc(c.url)+'" target="_blank">'+T('lnkSource')+'</a>'):'')+'</div>';
     }).join('');
     return '<div class="evt '+st+'"><div><span class="ed">'+esc(dstr)+'</span>'+badge+self+'</div>'+
-      '<div class="en">'+esc(e.name)+loc+link+'</div>'+rel+cmp+'</div>';
+      '<div class="en">'+esc(L(e,'name'))+loc+link+'</div>'+rel+cmp+'</div>';
   }).join('');
 }
 fetch('data/events.json').then(function(r){return r.json();}).then(function(d){eventsData=d;renderEvents();}).catch(function(){
-  var b=document.getElementById('eventList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">（會議資料載入失敗）</p>';
+  var b=q2('eventList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">'+T('errEvents')+'</p>';
 });
 
-/* ── 專利雷達：由 data/patents.json 動態渲染（競品關鍵專利，附來源）── */
+/* ── 專利雷達：data/patents.json ── */
 var patentsData=[];
 function renderPatents(){
-  var box=document.getElementById('patentList'); if(!box) return;
+  var box=q2('patentList'); if(!box) return;
   box.innerHTML=patentsData.map(function(p){
     var stCls=(p.status||'').indexOf('核准')>=0?'granted':'pending';
     return '<div class="pat'+(p.self?' self':'')+'">'+
-      '<div class="ph">'+esc(p.competitor)+' · '+esc(p.asset)+'<span class="ptype">'+esc(p.ptype)+'</span>'+(p.self?'<span class="selfpill">本社</span>':'')+'</div>'+
-      '<div class="pnum">'+esc(p.number)+'</div>'+
-      '<div class="ptitle">'+esc(p.title)+'</div>'+
-      '<div class="pmeta">權利人 '+esc(p.assignee)+'　·　申請 '+esc(p.filed)+'　·　狀態 <b class="'+stCls+'">'+esc(p.status)+'</b>　·　估計到期 <b>'+esc(p.expiry)+'</b></div>'+
-      (p.note?'<div class="pnote">'+esc(p.note)+'</div>':'')+
-      '<a class="src" href="'+esc(p.url)+'" target="_blank">Google Patents ↗</a>'+
+      '<div class="ph">'+esc(L(p,'competitor'))+' · '+esc(L(p,'asset'))+'<span class="ptype">'+esc(L(p,'ptype'))+'</span>'+(p.self?'<span class="selfpill">'+T('pSelf')+'</span>':'')+'</div>'+
+      '<div class="pnum">'+esc(L(p,'number'))+'</div>'+
+      '<div class="ptitle">'+esc(L(p,'title'))+'</div>'+
+      '<div class="pmeta">'+T('pAssignee')+' '+esc(L(p,'assignee'))+'　·　'+T('pFiled')+' '+esc(L(p,'filed'))+'　·　'+T('pStatus')+' <b class="'+stCls+'">'+esc(L(p,'status'))+'</b>　·　'+T('pExpiry')+' <b>'+esc(L(p,'expiry'))+'</b></div>'+
+      (L(p,'note')?'<div class="pnote">'+esc(L(p,'note'))+'</div>':'')+
+      '<a class="src" href="'+esc(p.url)+'" target="_blank">'+T('lnkGP')+'</a>'+
     '</div>';
   }).join('');
 }
 fetch('data/patents.json').then(function(r){return r.json();}).then(function(d){patentsData=d;renderPatents();}).catch(function(){
-  var b=document.getElementById('patentList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">（專利資料載入失敗）</p>';
+  var b=q2('patentList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">'+T('errPatents')+'</p>';
 });
 
-/* ── 市場獨占權雷達：由 data/exclusivity.json 動態渲染（孤兒藥資格／市場獨占）── */
+/* ── 市場獨占權雷達：data/exclusivity.json ── */
 var exclusivityData=[];
 function renderExclusivity(){
-  var box=document.getElementById('exclusivityList'); if(!box) return;
+  var box=q2('exclusivityList'); if(!box) return;
   box.innerHTML=exclusivityData.map(function(e){
     return '<div class="pat'+(e.self?' self':'')+'">'+
-      '<div class="ph">'+esc(e.competitor)+' · '+esc(e.asset)+'<span class="ptype">'+esc(e.region)+'</span>'+(e.self?'<span class="selfpill">本社</span>':'')+'</div>'+
-      '<div class="ptitle">'+esc(e.type)+'</div>'+
-      '<div class="pmeta">狀態 <b>'+esc(e.status)+'</b></div>'+
-      (e.note?'<div class="pnote">'+esc(e.note)+'</div>':'')+
-      (e.url?'<a class="src" href="'+esc(e.url)+'" target="_blank">來源 ↗</a>':'')+
+      '<div class="ph">'+esc(L(e,'competitor'))+' · '+esc(L(e,'asset'))+'<span class="ptype">'+esc(L(e,'region'))+'</span>'+(e.self?'<span class="selfpill">'+T('pSelf')+'</span>':'')+'</div>'+
+      '<div class="ptitle">'+esc(L(e,'type'))+'</div>'+
+      '<div class="pmeta">'+T('pStatus')+' <b>'+esc(L(e,'status'))+'</b></div>'+
+      (L(e,'note')?'<div class="pnote">'+esc(L(e,'note'))+'</div>':'')+
+      (e.url?'<a class="src" href="'+esc(e.url)+'" target="_blank">'+T('lnkSource')+'</a>':'')+
     '</div>';
   }).join('');
 }
 fetch('data/exclusivity.json').then(function(r){return r.json();}).then(function(d){exclusivityData=d;renderExclusivity();}).catch(function(){
-  var b=document.getElementById('exclusivityList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">（獨占權資料載入失敗）</p>';
+  var b=q2('exclusivityList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">'+T('errExcl')+'</p>';
 });
+
+/* ── 啟動：套用記住的語言 ── */
+setLang(LANG);
 </script>
 </body>
 </html>

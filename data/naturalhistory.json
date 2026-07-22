@@ -26,7 +26,18 @@
       "group": "Integrates EUROSCA, CRC-SCA, meta-analyses and a Taiwan cohort",
       "findings": "Pooled means (Diallo 2021): SCA1 ~1.83, SCA2 ~1.40, SCA3 ~1.41, SCA6 ~0.81 points/yr; SCA17 reaches 3.26 (fastest) in a Taiwan cohort. The same subtype can differ 2–3× across cohorts — e.g. SCA3 European EUROSCA 1.5–1.6 vs US CRC-SCA 0.68.",
       "significance": "→ The core comparator baseline for efficacy trials. Key caveat: if a competitor claims to 'slow SARA by X points', always check the baseline progression rate of its comparator cohort, or the effect size is over- or under-stated.",
-      "taiwan": ""
+      "taiwan": "",
+      "sources": [
+        {
+          "label": "Meta-analysis, Diallo 2021 J Neurol",
+          "url": "https://link.springer.com/article/10.1007/s00415-020-09815-2"
+        },
+        {
+          "label": "Four-cohort pooled analysis, Petit 2024 (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11571887/"
+        }
+      ],
+      "region": "Cross-country"
     }
   },
   {
@@ -56,7 +67,19 @@
       "group": "Jacobi, Klockgether et al. (EUROSCA; 17 centres / 10 European countries)",
       "findings": "Long-term (up to ~8 yr) SARA annual progression: SCA1 2.11, SCA3 1.56, SCA2 1.49, SCA6 0.80 points/yr (mean±SE); SCA1 fastest, SCA6 slowest and non-linear.",
       "significance": "→ The single most important SCA natural-history cohort, establishing per-subtype progression baselines; the gold-standard comparator for whether a disease-modifying therapy can flatten the SARA slope.",
-      "taiwan": ""
+      "taiwan": "",
+      "sources": [
+        {
+          "label": "Long-term progression, Jacobi 2015 Lancet Neurol",
+          "url": "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(15)00202-1/abstract"
+        },
+        {
+          "label": "2-year follow-up, Jacobi 2011 Neurology (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3174068/"
+        }
+      ],
+      "n": "526 (baseline)",
+      "region": "Europe"
     }
   },
   {
@@ -82,7 +105,9 @@
       "group": "Petit et al.; integrates EUROSCA + RISCA + CRC-SCA + SPATAX",
       "findings": "Same-subtype rates differ significantly across cohorts, EUROSCA consistently fastest. E.g. SCA3 EUROSCA 1.52 vs CRC-SCA 0.68; SCA1 EUROSCA 2.19 vs RISCA 1.32.",
       "significance": "→ Key intelligence: progression rate depends heavily on the enrolled cohort; competitor efficacy claims must be read against their own comparator cohort.",
-      "taiwan": ""
+      "taiwan": "",
+      "n": "850 carriers / 3,431 observations",
+      "region": "Europe & US"
     }
   },
   {
@@ -108,7 +133,9 @@
       "group": "Diallo et al.",
       "findings": "Pooled SARA annual progression (95% CI): SCA1 1.83 (1.46–2.20), SCA2 1.40 (1.19–1.61), SCA3 1.41 (0.97–1.84), SCA6 0.81 (0.66–0.97) points/yr.",
       "significance": "→ A cross-study pooled mean; the most robust single-number source for estimating trial sample size and effect size.",
-      "taiwan": ""
+      "taiwan": "",
+      "n": "6 studies / 1,215 patients",
+      "region": "Multi-country pooled"
     }
   },
   {
@@ -134,7 +161,10 @@
       "group": "Klockgether, Durr et al. (14 centres / 7 European countries)",
       "findings": "Conversion to manifest ataxia during follow-up: SCA1 52%, SCA2 59%, SCA3 42%, SCA6 13%; non-carriers essentially do not convert. Serum NfL rises already in the pre-ataxic stage.",
       "significance": "→ The only large 'pre-ataxic conversion-rate' cohort, providing conversion rates and sample-size basis for pre-symptomatic intervention trials (ASO / gene therapy).",
-      "taiwan": ""
+      "taiwan": "",
+      "scope": "Pre-symptomatic at-risk carriers, SCA1/2/3/6",
+      "n": "302 enrolled / 252 followed",
+      "region": "Europe"
     }
   },
   {
@@ -164,7 +194,20 @@
       "group": "Ashizawa et al. (NAF-supported); READISCA is an NIH-funded US–Europe collaboration",
       "findings": "The largest US SCA biosample/clinical database. READISCA: pre-ataxic SCA1/3 carriers already have significantly elevated plasma NfL vs controls (control 5.7, SCA1 18.0, SCA3 19.8 pg/mL).",
       "significance": "→ North-American comparator and biomarker baseline; directly relevant to endpoint and biomarker choice for SCA1/SCA3 disease-modifying trials.",
-      "taiwan": ""
+      "taiwan": "",
+      "sources": [
+        {
+          "label": "CRC-SCA biomarker repository, Lin 2025 Cerebellum",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40679685/"
+        },
+        {
+          "label": "READISCA baseline Neurology 2023",
+          "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000207088"
+        }
+      ],
+      "scope": "SCA1/2/3/6/7 and others + SCA1/3 trial readiness",
+      "n": "CRC-SCA cumulative 1,089; READISCA 200 clinical / 107 imaging",
+      "region": "United States"
     }
   },
   {
@@ -184,7 +227,24 @@
       "group": "CRC-SCA (17-site academic consortium, supported by the National Ataxia Foundation; Ashizawa et al.)",
       "findings": "Since 2009 has tracked the natural course of common SCA subtypes with SARA as primary COA; from 2024 added late-onset RFC1/FGF14 (CANVAS, SCA27B). Such US+European natural-history cohorts have actually been used as an 'external control' for single-arm trials: Biohaven's troriluzole built an untreated comparator from 35-site US/European natural-history cohorts using propensity-score matching (matched on baseline f-SARA, age, sex, onset age, genotype, repeat length).",
       "significance": "→ Key for Steminent: if the US Phase 2 runs without a placebo arm, the NAF-supported natural-history dataset (longitudinal SARA) can serve as an external/historical control — the comparator basis for interpreting a single-arm cell-therapy trial. When citing, mind cohort-to-cohort differences in progression rate (see the cross-cohort entry).",
-      "taiwan": ""
+      "taiwan": "",
+      "sources": [
+        {
+          "label": "CRC-SCA natural history / biomarkers (NAF)",
+          "url": "https://www.ataxia.org/crc-sca/"
+        },
+        {
+          "label": "CRC-SCA natural-history repository, Lin 2025 Cerebellum",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40679685/"
+        },
+        {
+          "label": "Biohaven natural-history external control (NCT06529146)",
+          "url": "https://clinicaltrials.gov/study/NCT06529146"
+        }
+      ],
+      "scope": "SCA1/2/3/6/7 and others",
+      "n": "over 1,000 cumulative",
+      "region": "United States"
     },
     "sources": [
       {
@@ -224,7 +284,8 @@
       "group": "Yasui et al. (Japan multicenter)",
       "findings": "SARA worsens 1.33±1.40 points/yr (over 3 yr); higher than European EUROSCA SCA6 (0.80), suggesting population/method differences.",
       "significance": "→ Independent Asian evidence of SCA6 progression rate.",
-      "taiwan": ""
+      "taiwan": "",
+      "region": "Japan"
     }
   },
   {
@@ -250,7 +311,10 @@
       "group": "Berger, Klockgether et al. (5 European countries + USA)",
       "findings": "Plasma NfL starts to rise abnormally ~21.5 yr before onset; imaging (pons volume) is more sensitive to progression than SARA; mutant ATXN3 protein is near-constant throughout and unsuitable as a progression marker.",
       "significance": "→ Provides progression-biomarker selection guidance for SCA3 ASO therapies (e.g. Biogen/Ionis targeting ATXN3).",
-      "taiwan": ""
+      "taiwan": "",
+      "scope": "SCA3/MJD (including pre-symptomatic)",
+      "n": "291 SCA3 + 121 controls",
+      "region": "Europe & US"
     }
   },
   {
@@ -276,7 +340,9 @@
       "group": "Li et al. (China)",
       "findings": "Manifest patients' serum NfL 37.6 vs control 9.1 pg/mL; positively correlated with SARA (r=0.55) and negatively with cerebellar/brainstem volume.",
       "significance": "→ Establishes serum NfL as an onset and progression biomarker for SCA3, validated in a Chinese population.",
-      "taiwan": ""
+      "taiwan": "",
+      "n": "116 SCA3 + 91 controls (cohort B)",
+      "region": "China"
     }
   },
   {
@@ -302,7 +368,9 @@
       "group": "Lan, Lee et al. (Taipei VGH, national referral centre, spanning 25 years)",
       "findings": "Taiwan subtype distribution: SCA3 most common 56.6%, SCA2 20.0%, SCA6 10.3%, plus SCA1/SCA8/DRPLA. Repeat length inversely correlated with onset age (strongest in DRPLA).",
       "significance": "→ Taiwan's most complete SCA subtype-distribution baseline; SCA3 exceeds half, the core population for Taiwan's SCA drug market and trial recruitment.",
-      "taiwan": "Taiwan's largest, most recent subtype-distribution data; SCA3 dominance matches international trends but at a higher proportion."
+      "taiwan": "Taiwan's largest, most recent subtype-distribution data; SCA3 dominance matches international trends but at a higher proportion.",
+      "n": "876 cases / 514 families",
+      "region": "Taiwan"
     }
   },
   {
@@ -328,7 +396,8 @@
       "group": "Lin, Soong Bing-Wen et al. (Taipei VGH / Yang-Ming)",
       "findings": "SARA annual progression: SCA17 3.26 (fastest), SCA3 1.60, SCA2 1.52, SCA1 1.23, SCA6 0.99 points/yr; Chinese and Caucasian rates are similar.",
       "significance": "→ The only native-Taiwan SARA progression data, showing Taiwanese patients can be compared directly with European/US cohorts, supporting participation in international multicenter trials.",
-      "taiwan": "The only native-Taiwan progression rates. Note: this cohort's SCA3 (1.60) is markedly faster than US CRC-SCA (0.68), highlighting cohort/enrollment differences."
+      "taiwan": "The only native-Taiwan progression rates. Note: this cohort's SCA3 (1.60) is markedly faster than US CRC-SCA (0.68), highlighting cohort/enrollment differences.",
+      "region": "Taiwan"
     }
   },
   {
@@ -354,7 +423,10 @@
       "group": "Chen et al. (Taiwan)",
       "findings": "Parkinsonism is the most common non-ataxic feature (21.1%), higher than in Caucasian and other Asian SCA populations.",
       "significance": "→ High clinical heterogeneity in Taiwan SCA; efficacy assessment should not rely on SARA alone but also capture non-ataxic symptoms.",
-      "taiwan": "Non-ataxic symptom profile of the Taiwan population."
+      "taiwan": "Non-ataxic symptom profile of the Taiwan population.",
+      "scope": "SCA subtypes in Taiwan",
+      "n": "(sample size to be verified)",
+      "region": "Taiwan"
     }
   }
 ]

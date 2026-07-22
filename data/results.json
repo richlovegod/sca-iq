@@ -11,9 +11,31 @@
     "readout": "2025/11/04 FDA 發出 Complete Response Letter（拒批）。NDA 主打 3 年真實世界研究，公司宣稱使 SCA 進展減緩 50–70%、跌倒降逾 50%；FDA 拒批理由為真實世界/外部對照的偏差、設計缺陷、缺乏預先設定與未測量干擾因子。公司稱將爭取 FDA 會議、同時削減約 60% 研發支出。（RWE 數字為公司框架、非同儕審查）",
     "implication": "→ 最領先口服對手取證重大受挫、時程再延，且其療效證據等級（真實世界對照）不被 FDA 接受——反襯仲恩以隨機雙盲安慰劑對照數據申請的方法學優勢。",
     "links": [
-      { "label": "Biohaven IR — FDA CRL", "url": "https://ir.biohaven.com/news-releases/news-release-details/fda-issues-complete-response-letter-biohavens-vyglxia" },
-      { "label": "PRNewswire 全文", "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html" }
-    ]
+      {
+        "label": "Biohaven IR — FDA CRL",
+        "url": "https://ir.biohaven.com/news-releases/news-release-details/fda-issues-complete-response-letter-biohavens-vyglxia"
+      },
+      {
+        "label": "PRNewswire 全文",
+        "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
+      }
+    ],
+    "en": {
+      "trial": "NDA (Study 206 + 3-year real-world evidence)",
+      "sourceType": "Press release",
+      "readout": "On 2025/11/04 the FDA issued a Complete Response Letter (rejection). The NDA leaned on a 3-year real-world study; the company claimed 50–70% slowing of SCA progression and more than 50% fewer falls. The FDA cited bias in the real-world/external control, design flaws, lack of pre-specification and unmeasured confounders. Biohaven says it will seek an FDA meeting while cutting R&D spend by about 60%. (The RWE figures are the company’s own framing, not peer-reviewed.)",
+      "implication": "→ The leading oral rival has suffered a major regulatory setback and further delay, and its level of evidence (real-world control) was not accepted by the FDA — which highlights the methodological strength of Steminent filing on randomised, double-blind, placebo-controlled data.",
+      "links": [
+        {
+          "label": "Biohaven IR — FDA CRL",
+          "url": "https://ir.biohaven.com/news-releases/news-release-details/fda-issues-complete-response-letter-biohavens-vyglxia"
+        },
+        {
+          "label": "PRNewswire full release",
+          "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
+        }
+      ]
+    }
   },
   {
     "id": "biohaven-ph3-miss-2022-05",
@@ -27,9 +49,31 @@
     "readout": "全體 SCA 族群（N=213）未達主要終點：48 週 f-SARA 相對基線，治療組 vs 安慰劑 5.1 vs 5.2（p=0.76，疾病進展遠低於預期、天花板效應）。SCA3 次族群數值上獲益：48 週 f-SARA 差 −0.55（95% CI −1.12 至 0.01，nominal p=0.053），未達顯著但接近。安全：跌倒不良事件 10% vs 23%。",
     "implication": "→ 關鍵 Ph3 全體終點失利；惟 SCA3 次族群訊號提醒仲恩須在 SCA3 數據上維持優勢。",
     "links": [
-      { "label": "Biohaven Ph3 update PRNewswire 2022/05", "url": "https://www.prnewswire.com/news-releases/biohaven-provides-update-on-phase-3-clinical-trial-evaluating-troriluzole-for-spinocerebellar-ataxia-sca-301552633.html" },
-      { "label": "NeurologyLive — SCA3 次族群", "url": "https://www.neurologylive.com/view/troriluzole-shows-promise-spinocerebellar-ataxia-type-3-subgroup-despite-failing-achieve-primary-end-point" }
-    ]
+      {
+        "label": "Biohaven Ph3 update PRNewswire 2022/05",
+        "url": "https://www.prnewswire.com/news-releases/biohaven-provides-update-on-phase-3-clinical-trial-evaluating-troriluzole-for-spinocerebellar-ataxia-sca-301552633.html"
+      },
+      {
+        "label": "NeurologyLive — SCA3 次族群",
+        "url": "https://www.neurologylive.com/view/troriluzole-shows-promise-spinocerebellar-ataxia-type-3-subgroup-despite-failing-achieve-primary-end-point"
+      }
+    ],
+    "en": {
+      "trial": "NCT03701399 · Ph3 (Study 206)",
+      "sourceType": "Press release",
+      "readout": "The overall SCA population (N=213) missed the primary endpoint: change in f-SARA from baseline at 48 weeks was 5.1 for treatment vs 5.2 for placebo (p=0.76; disease progression was far slower than expected, with a ceiling effect). The SCA3 subgroup showed a numerical benefit: f-SARA difference of −0.55 at 48 weeks (95% CI −1.12 to 0.01, nominal p=0.053) — close to, but not reaching, significance. Safety: fall-related adverse events 10% vs 23%.",
+      "implication": "→ The pivotal Ph3 missed in the overall population; the SCA3 subgroup signal is a reminder that Steminent must keep its edge on SCA3 data.",
+      "links": [
+        {
+          "label": "Biohaven Ph3 update PRNewswire 2022/05",
+          "url": "https://www.prnewswire.com/news-releases/biohaven-provides-update-on-phase-3-clinical-trial-evaluating-troriluzole-for-spinocerebellar-ataxia-sca-301552633.html"
+        },
+        {
+          "label": "NeurologyLive — SCA3 subgroup",
+          "url": "https://www.neurologylive.com/view/troriluzole-shows-promise-spinocerebellar-ataxia-type-3-subgroup-despite-failing-achieve-primary-end-point"
+        }
+      ]
+    }
   },
   {
     "id": "vico-vo659-interim-2024-09",
@@ -43,9 +87,31 @@
     "readout": "HD 有生物標記數據（CSF 突變 HTT 降約 28–38%）。SCA 療效尚未正式讀出；HDBuzz 轉述之中期口徑：SCA3 腦脊液突變 ataxin-3 未見下降、僅部分人血中似有下降，未見 SARA 療效數字（屬中期、非正式數據）。安全訊號 radiculitis 神經根炎共 4 人（SCA1 2、SCA3 1、HD 1），4 中 3 有恢復跡象；已改降劑量、每年 1–3 次給藥。",
     "implication": "→ 主要 ASO 對手尚無 SCA 療效證據、CSF 未見 ataxin-3 下降並有神經根安全訊號——反襯 Stemchymal 靜脈給藥、無此類侵入性/安全負擔。需追蹤其 SCA 世代正式讀出。",
     "links": [
-      { "label": "Vico 新聞稿（HD 中期數據）", "url": "https://vicotx.com/press-release/vico-therapeutics-announces-positive-interim-phase-1-2a-clinical-data-of-vo659-in-treatment-of-huntingtons-disease/" },
-      { "label": "HDBuzz — 中期更新（含 SCA + radiculitis）", "url": "https://en.hdbuzz.net/398/" }
-    ]
+      {
+        "label": "Vico 新聞稿（HD 中期數據）",
+        "url": "https://vicotx.com/press-release/vico-therapeutics-announces-positive-interim-phase-1-2a-clinical-data-of-vo659-in-treatment-of-huntingtons-disease/"
+      },
+      {
+        "label": "HDBuzz — 中期更新（含 SCA + radiculitis）",
+        "url": "https://en.hdbuzz.net/398/"
+      }
+    ],
+    "en": {
+      "trial": "NCT05822908 · Ph1/2a (SCA1/SCA3/HD)",
+      "sourceType": "Conference abstract",
+      "readout": "Biomarker data exist for HD (CSF mutant HTT down roughly 28–38%). SCA efficacy has not formally read out; per HDBuzz’s account of the interim: CSF mutant ataxin-3 did not fall in SCA3, with an apparent drop in blood in some patients only, and no SARA efficacy figures were shown (interim, non-formal data). Safety signal: radiculitis in 4 patients (2 SCA1, 1 SCA3, 1 HD), 3 of 4 showing signs of recovery; dose lowered and dosing moved to 1–3 times a year.",
+      "implication": "→ The main ASO rival still has no SCA efficacy evidence, no CSF ataxin-3 reduction and a nerve-root safety signal — contrasting with Stemchymal’s intravenous dosing, which carries no such invasiveness or safety burden. Its formal SCA cohort readout needs watching.",
+      "links": [
+        {
+          "label": "Vico press release (HD interim data)",
+          "url": "https://vicotx.com/press-release/vico-therapeutics-announces-positive-interim-phase-1-2a-clinical-data-of-vo659-in-treatment-of-huntingtons-disease/"
+        },
+        {
+          "label": "HDBuzz — interim update (incl. SCA + radiculitis)",
+          "url": "https://en.hdbuzz.net/398/"
+        }
+      ]
+    }
   },
   {
     "id": "biogen-biib132-stop-2023-04",
@@ -59,9 +125,31 @@
     "readout": "2023/04 Biogen 宣布停止 SCA3 的 BIIB132 Ph1（MERA），屬研發優先化重整。官方稱綜合評估非臨床安全數據、臨床藥效動力學（PD）與未來開發前景後作出，未公開具體療效/生物標記數字，亦未點明主因是安全或無效（勿臆測）。",
     "implication": "→ 資源雄厚的大廠 ASO 對手（SCA3）退出臨床，直接減少 SCA3 賽道競爭者，對含 SCA3 的 Stemchymal 屬正面。",
     "links": [
-      { "label": "Ataxia UK — Biogen 停止 SCA3 試驗", "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/" },
-      { "label": "ClinicalTrials NCT05160558", "url": "https://clinicaltrials.gov/study/NCT05160558" }
-    ]
+      {
+        "label": "Ataxia UK — Biogen 停止 SCA3 試驗",
+        "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/"
+      },
+      {
+        "label": "ClinicalTrials NCT05160558",
+        "url": "https://clinicaltrials.gov/study/NCT05160558"
+      }
+    ],
+    "en": {
+      "trial": "NCT05160558 · Ph1 (MERA)",
+      "sourceType": "Press release",
+      "readout": "In 2023/04 Biogen announced it was stopping the BIIB132 Ph1 (MERA) in SCA3 as part of a pipeline reprioritisation. The company said the decision weighed non-clinical safety data, clinical pharmacodynamics (PD) and future development prospects; no specific efficacy/biomarker figures were released and it did not state whether safety or futility drove the decision (no speculation here).",
+      "implication": "→ A deep-pocketed large-cap ASO rival has left the SCA3 clinic, directly reducing competition in SCA3 — positive for Stemchymal, which covers SCA3.",
+      "links": [
+        {
+          "label": "Ataxia UK — Biogen stops SCA3 trial",
+          "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/"
+        },
+        {
+          "label": "ClinicalTrials NCT05160558",
+          "url": "https://clinicaltrials.gov/study/NCT05160558"
+        }
+      ]
+    }
   },
   {
     "id": "steminent-ph2-2025-04",
@@ -75,9 +163,32 @@
     "readout": "本社基準：2025/04 公布正面 Ph2。台灣試驗 56 名中重度 SCA3（SARA ≥9），隨機雙盲安慰劑對照、靜脈給藥 3 次、1 年追蹤——治療組疾病穩定化、進展慢於安慰劑，部分病人 SARA 改善逾 1 分，相對 SCA3 自然史（約 1.5–1.6 分/年）達統計顯著；日本試驗 59 人（SCA3+6、10 site）結果高度相似。（公開來源未見完整逐項 p 值/CI）",
     "implication": "→ 本社基準：相較對手，具「隨機雙盲安慰劑對照 + 台日雙族群一致陽性 + 靜脈低侵入給藥」的方法學與安全定位優勢。",
     "links": [
-      { "label": "Reprocell — Steminent 台灣 Ph2 結果", "url": "https://www.reprocell.com/news/announcement-by-steminent-biotherapeutics-phase-ii-clinical-trial-results-in-taiwan-for-spinocerebellar-ataxia-treatment-stemchymal" },
-      { "label": "BioSpace — WODC/ISCT 2025 展示", "url": "https://www.biospace.com/steminent-stands-ready-to-showcase-novel-msc-based-therapy-for-spinocerebellar-ataxia-at-global-stage" }
-    ]
+      {
+        "label": "Reprocell — Steminent 台灣 Ph2 結果",
+        "url": "https://www.reprocell.com/news/announcement-by-steminent-biotherapeutics-phase-ii-clinical-trial-results-in-taiwan-for-spinocerebellar-ataxia-treatment-stemchymal"
+      },
+      {
+        "label": "BioSpace — WODC/ISCT 2025 展示",
+        "url": "https://www.biospace.com/steminent-stands-ready-to-showcase-novel-msc-based-therapy-for-spinocerebellar-ataxia-at-global-stage"
+      }
+    ],
+    "en": {
+      "competitor": "Steminent (us)",
+      "trial": "NCT02540655 · Ph2 (Taiwan) + Japan Ph2",
+      "sourceType": "Press release",
+      "readout": "Our benchmark: positive Ph2 results released in 2025/04. The Taiwan trial enrolled 56 moderate-to-severe SCA3 patients (SARA ≥9) in a randomised, double-blind, placebo-controlled design with three intravenous doses and one year of follow-up — the treatment arm stabilised, progressing more slowly than placebo, with some patients improving more than 1 SARA point, reaching statistical significance against SCA3 natural history (about 1.5–1.6 points/year). The Japanese trial (59 patients, SCA3+6, 10 sites) produced highly similar results. (Full item-level p-values/CIs are not in the public sources.)",
+      "implication": "→ Our benchmark: against rivals, we hold a methodological and safety position built on randomised double-blind placebo control, consistent positive results across two cohorts (Taiwan and Japan) and low-invasiveness intravenous dosing.",
+      "links": [
+        {
+          "label": "Reprocell — Steminent Taiwan Ph2 results",
+          "url": "https://www.reprocell.com/news/announcement-by-steminent-biotherapeutics-phase-ii-clinical-trial-results-in-taiwan-for-spinocerebellar-ataxia-treatment-stemchymal"
+        },
+        {
+          "label": "BioSpace — WODC/ISCT 2025 showcase",
+          "url": "https://www.biospace.com/steminent-stands-ready-to-showcase-novel-msc-based-therapy-for-spinocerebellar-ataxia-at-global-stage"
+        }
+      ]
+    }
   },
   {
     "id": "kissei-rovatirelin-2023-07",
@@ -91,9 +202,33 @@
     "readout": "兩項雙盲 Ph3 於以小腦症狀為主的脊髓小腦退化（含 SCA6/SCA31/皮質小腦萎縮），SARA 總分相對安慰劑未達統計顯著，僅在「軀幹+肢體共濟失調」合併次族群顯示潛在效益。Kissei 2021/12 遞交藥證、PMDA 認為難核准，2023/07/19 撤回申請並啟動追加 Ph3。",
     "implication": "→ 另一症狀治療型對手 Ph3 主終點失利、日本藥證受阻，反映 SCA 領域單一 Ph3 達標困難；惟其為 SCA6/31、機轉與 Stemchymal 不同，屬間接參考。",
     "links": [
-      { "label": "JNNP (PMC) — Rovatirelin 兩項 Ph3", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7035688/" },
-      { "label": "ClinicalTrials NCT02889302（追加 Ph3）", "url": "https://clinicaltrials.gov/study/NCT02889302" }
-    ]
+      {
+        "label": "JNNP (PMC) — Rovatirelin 兩項 Ph3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7035688/"
+      },
+      {
+        "label": "ClinicalTrials NCT02889302（追加 Ph3）",
+        "url": "https://clinicaltrials.gov/study/NCT02889302"
+      }
+    ],
+    "en": {
+      "competitor": "Kissei",
+      "dateDisplay": "2020 paper · withdrawn 2023/07",
+      "trial": "Two Ph3 trials (KPS1301/1305) · additional NCT02889302",
+      "sourceType": "Paper",
+      "readout": "Two double-blind Ph3 trials in spinocerebellar degeneration dominated by cerebellar symptoms (including SCA6, SCA31 and cortical cerebellar atrophy) failed to show a statistically significant benefit on total SARA versus placebo, with potential benefit only in a combined truncal-plus-limb ataxia subgroup. Kissei filed for approval in 2021/12; PMDA saw approval as unlikely, and the application was withdrawn on 2023/07/19 with an additional Ph3 initiated.",
+      "implication": "→ Another symptomatic-treatment rival missed its Ph3 primary endpoint and stalled in Japan, showing how hard a single Ph3 is to hit in SCA. It targets SCA6/31 with a different mechanism from Stemchymal, so the read-across is indirect.",
+      "links": [
+        {
+          "label": "JNNP (PMC) — the two rovatirelin Ph3 trials",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7035688/"
+        },
+        {
+          "label": "ClinicalTrials NCT02889302 (additional Ph3)",
+          "url": "https://clinicaltrials.gov/study/NCT02889302"
+        }
+      ]
+    }
   },
   {
     "id": "crd002-odd-2025-05",
@@ -107,8 +242,23 @@
     "readout": "無臨床數據讀出。公開資訊僅：SCA3 小鼠模型顯示功能改善（未附具體數字），2025/05/14 獲 FDA 孤兒藥資格（ODD），IND 預計 2026 遞交後進 Ph1。",
     "implication": "→ 更早期對手，時程落後 Stemchymal 甚多，短期無威脅，列長線監測。",
     "links": [
-      { "label": "BusinessWire — CRD-002 獲 FDA ODD", "url": "https://www.businesswire.com/news/home/20250514432257/en/Cure-Rare-Disease-Receives-Orphan-Drug-Designation-from-FDA-for-Investigational-Therapy-Targeting-Spinocerebellar-Ataxia-Type-3-SCA3" }
-    ]
+      {
+        "label": "BusinessWire — CRD-002 獲 FDA ODD",
+        "url": "https://www.businesswire.com/news/home/20250514432257/en/Cure-Rare-Disease-Receives-Orphan-Drug-Designation-from-FDA-for-Investigational-Therapy-Targeting-Spinocerebellar-Ataxia-Type-3-SCA3"
+      }
+    ],
+    "en": {
+      "trial": "Preclinical; IND expected 2026",
+      "sourceType": "Press release",
+      "readout": "No clinical readout. Public information is limited to functional improvement in an SCA3 mouse model (no figures given) and FDA orphan drug designation on 2025/05/14, with an IND expected in 2026 ahead of Ph1.",
+      "implication": "→ A much earlier rival, far behind Stemchymal on timeline; no near-term threat, kept under long-range monitoring.",
+      "links": [
+        {
+          "label": "BusinessWire — CRD-002 receives FDA ODD",
+          "url": "https://www.businesswire.com/news/home/20250514432257/en/Cure-Rare-Disease-Receives-Orphan-Drug-Designation-from-FDA-for-Investigational-Therapy-Targeting-Spinocerebellar-Ataxia-Type-3-SCA3"
+        }
+      ]
+    }
   },
   {
     "id": "arrowhead-aroatxn2-2024-11",
@@ -122,8 +272,21 @@
     "readout": "公開來源未見任何中期讀出或安全數據。試驗 2024/11 起始、招募中，收 ≥33 CAG repeat 成人 SCA2，單次鞘內注射 ARO-ATXN2 或安慰劑，評估安全/耐受/PK/PD。",
     "implication": "→ SCA2 早期對手，短期無數據；與 Stemchymal（主 SCA3/6）非直接重疊，中性追蹤。",
     "links": [
-      { "label": "ClinicalTrials NCT06672445", "url": "https://clinicaltrials.gov/study/NCT06672445" },
-      { "label": "National Ataxia Foundation — AROATXN2-1001", "url": "https://www.ataxia.org/study/aroatxn2-1001/" }
-    ]
+      {
+        "label": "ClinicalTrials NCT06672445",
+        "url": "https://clinicaltrials.gov/study/NCT06672445"
+      },
+      {
+        "label": "National Ataxia Foundation — AROATXN2-1001",
+        "url": "https://www.ataxia.org/study/aroatxn2-1001/"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2024/11 (start; no readout yet)",
+      "trial": "NCT06672445 · Ph1 (SCA2)",
+      "sourceType": "Registry",
+      "readout": "No interim readout or safety data in public sources. The trial started in 2024/11 and is enrolling adults with SCA2 carrying ≥33 CAG repeats, giving a single intrathecal dose of ARO-ATXN2 or placebo to assess safety, tolerability, PK and PD.",
+      "implication": "→ An early-stage rival in SCA2 with no near-term data; it does not directly overlap Stemchymal (mainly SCA3/6), so tracking is neutral."
+    }
   }
 ]

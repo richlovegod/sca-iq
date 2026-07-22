@@ -33,7 +33,17 @@
       "development": "Developed and validated simultaneously in two SCA cohorts of 167 + 119 patients.",
       "validation": "Inter-rater ICC 0.98, test-retest 0.90, internal consistency α 0.94; highly linear with global assessment.",
       "useInTrials": "The de facto gold-standard primary endpoint in SCA. Steminent's Stemchymal Ph1/2a (NCT01649687, Taipei VGH, enrolled SARA 10–20) and Ph2 (NCT02540655, Taiwan–Japan, enrolled SARA ≥9) both use SARA/f-SARA as efficacy measures.",
-      "taiwan": "Widely used in Taiwan clinical practice and research (Taipei VGH Soong Bing-Wen's 199-patient 5-year SCA cohort tracked with SARA). Note: no Taiwan-local psychometric validation of a Chinese SARA is published; the known Chinese-version validation is from mainland China — Taiwan uses it directly rather than establishing a local norm."
+      "taiwan": "Widely used in Taiwan clinical practice and research (Taipei VGH Soong Bing-Wen's 199-patient 5-year SCA cohort tracked with SARA). Note: no Taiwan-local psychometric validation of a Chinese SARA is published; the known Chinese-version validation is from mainland China — Taiwan uses it directly rather than establishing a local norm.",
+      "sources": [
+        {
+          "label": "Original paper, Neurology 2006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16769946/"
+        },
+        {
+          "label": "Taipei VGH longitudinal SARA cohort, 2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30591349/"
+        }
+      ]
     }
   },
   {
@@ -70,7 +80,17 @@
       "development": "A simplified version with re-defined scoring anchors for use as a drug-trial endpoint.",
       "validation": "Validated in the MGH cohort (n=33) and the troriluzole Ph3 (NCT03701399, n=217, incl. SCA3 n=89); internal consistency α 0.90, test-retest ICC 0.91.",
       "useInTrials": "Primary endpoint of Biohaven's troriluzole Ph3; Steminent's Stemchymal Ph2 also reports fSARA stabilization.",
-      "taiwan": "No Taiwan-specific validation/norm in public sources; used in Taiwan via Steminent's Ph2 (Taiwan–Japan)."
+      "taiwan": "No Taiwan-specific validation/norm in public sources; used in Taiwan via Steminent's Ph2 (Taiwan–Japan).",
+      "sources": [
+        {
+          "label": "f-SARA validation, Cerebellum 2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38865059/"
+        },
+        {
+          "label": "Troriluzole Ph3 trial",
+          "url": "https://clinicaltrials.gov/study/NCT03701399"
+        }
+      ]
     }
   },
   {
@@ -102,7 +122,13 @@
       "development": "Designed as a semi-quantitative standard tool for multicenter international double-blind drug trials.",
       "validation": "Reliability/validity widely established; later studies noted item redundancy/collinearity, prompting SARA and BARS.",
       "useInTrials": "The mainstream endpoint before SARA; now mostly used as a convergent-validity comparator for SARA.",
-      "taiwan": "No Taiwan-local Chinese validation in public sources (a Korean version exists); used in early Taiwan research/clinical practice but no independent Taiwan norm."
+      "taiwan": "No Taiwan-local Chinese validation in public sources (a Korean version exists); used in early Taiwan research/clinical practice but no independent Taiwan norm.",
+      "sources": [
+        {
+          "label": "Original paper, J Neurol Sci 1997",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9094050/"
+        }
+      ]
     }
   },
   {
@@ -134,7 +160,13 @@
       "development": "Derived by converting the three subtests to Z-scores forming a composite index in a 412-patient SCA1/2/3/6 multicenter study.",
       "validation": "Correlates with SARA, functional scales and disease course better than any single subtest (r = −0.44 to −0.87).",
       "useInTrials": "An objective secondary endpoint in SCA trials, often used alongside SARA.",
-      "taiwan": "No Taiwan-specific validation/norm in public sources."
+      "taiwan": "No Taiwan-specific validation/norm in public sources.",
+      "sources": [
+        {
+          "label": "Original paper, Neurology 2008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18695159/"
+        }
+      ]
     }
   },
   {
@@ -166,7 +198,13 @@
       "development": "Inter-rater reliability tested in 140 patients, intra-rater in 28, plus responsiveness/validity using EUROSCA natural-history data.",
       "validation": "The count and most individual items show high inter-rater and test-retest reliability.",
       "useInTrials": "An adjunct for describing non-ataxia burden in natural history (EUROSCA) and trials, not a primary efficacy endpoint.",
-      "taiwan": "No Taiwan-specific validation/norm in public sources."
+      "taiwan": "No Taiwan-specific validation/norm in public sources.",
+      "sources": [
+        {
+          "label": "Validation paper, Cerebellum 2013;12:418-428",
+          "url": "https://link.springer.com/article/10.1007/s12311-012-0421-3"
+        }
+      ]
     }
   },
   {
@@ -198,7 +236,13 @@
       "development": "First expanded ICARS into MICARS, then statistically selected the 5 items most correlated with the total for rapid administration.",
       "validation": "Inter-rater ICC 0.91 (Mov Disord 2009).",
       "useInTrials": "Used for rapid assessment in clinic/general neurology and some research; less common as a primary drug-trial endpoint.",
-      "taiwan": "No Taiwan-specific validation/norm in public sources."
+      "taiwan": "No Taiwan-specific validation/norm in public sources.",
+      "sources": [
+        {
+          "label": "Original paper, Mov Disord 2009",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3800087/"
+        }
+      ]
     }
   },
   {
@@ -230,7 +274,13 @@
       "development": "Validated in 123 controls, 141 ADCA and 53 ADSP patients; regression showed two tests suffice to explain cerebellar-dysfunction severity.",
       "validation": "ADCA patients score significantly worse than controls and ADSP; distinguishes SCA1/2/3 subgroups. (Verify exact scoring constants against the Brain 2008 original.)",
       "useInTrials": "An objective upper-limb measure in epidemiology, trials and follow-up.",
-      "taiwan": "No Taiwan-specific validation/norm in public sources."
+      "taiwan": "No Taiwan-specific validation/norm in public sources.",
+      "sources": [
+        {
+          "label": "Validation paper, Brain 2008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18378516/"
+        }
+      ]
     }
   },
   {
@@ -266,7 +316,17 @@
       "development": "The first patient-led symptom inventory in ataxia.",
       "validation": "Original paper cross-sectional; subsequent work adds longitudinal and convergent validity (Burt 2025 showed measurable progression in SCA).",
       "useInTrials": "Incorporated into some SCA natural-history studies and trials as a patient-reported (PRO) endpoint; being translated into multiple languages.",
-      "taiwan": "No Taiwan-specific validation in public sources; the known Chinese-version validation is from mainland China (Sun Yat-sen Univ. 2024), not Taiwan."
+      "taiwan": "No Taiwan-specific validation in public sources; the known Chinese-version validation is from mainland China (Sun Yat-sen Univ. 2024), not Taiwan.",
+      "sources": [
+        {
+          "label": "Original paper, Mov Disord 2021",
+          "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.28670"
+        },
+        {
+          "label": "Chinese-language validation (mainland China), Cerebellum 2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37943429/"
+        }
+      ]
     }
   },
   {
@@ -293,7 +353,17 @@
       "development": "A generic, non-SCA-specific utility measure convertible to QALYs for health-economic evaluation.",
       "validation": "SCA-specific validation (n=842 European SCA1/2/3/6, two longitudinal cohorts): EQ-5D-3L ICC 0.95, EQ-VAS ICC 0.88; discriminates by age, SARA, ADL and INAS.",
       "useInTrials": "A common quality-of-life / health-utility secondary endpoint in SCA trials and cohorts; captures patient-perceived health rather than ataxia severity itself.",
-      "taiwan": "No SCA-specific EQ-5D validation for Taiwan in public sources; a generic Chinese EQ-5D is available for use."
+      "taiwan": "No SCA-specific EQ-5D validation for Taiwan in public sources; a generic Chinese EQ-5D is available for use.",
+      "sources": [
+        {
+          "label": "EQ-5D-3L validation in SCA, Cerebellum 2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37713052/"
+        },
+        {
+          "label": "EuroQol official site",
+          "url": "https://euroqol.org/information-and-support/euroqol-instruments/eq-5d-3l/"
+        }
+      ]
     },
     "sources": [
       {
@@ -330,7 +400,17 @@
       "development": "A generic, non-SCA-specific health survey, comparable across diseases.",
       "validation": "SCA use example: a study of 80 SCA patients assessed HRQoL with SF-36 and found the presence of a carer to be a determinant of self-perceived quality of life.",
       "useInTrials": "A descriptive/secondary quality-of-life measure in SCA; captures subjective health and function, not ataxia severity.",
-      "taiwan": "A locally validated Traditional-Chinese SF-36 (general population) is available for use in Taiwan; no SCA-specific Taiwan validation found."
+      "taiwan": "A locally validated Traditional-Chinese SF-36 (general population) is available for use in Taiwan; no SCA-specific Taiwan validation found.",
+      "sources": [
+        {
+          "label": "SF-36 HRQoL study in SCA (Neurología)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2173580816301365"
+        },
+        {
+          "label": "SF-36 (RAND official)",
+          "url": "https://www.rand.org/health-care/surveys_tools/mos/36-item-short-form.html"
+        }
+      ]
     },
     "sources": [
       {
@@ -377,7 +457,18 @@
       "development": "Captures natural gait via home/lab wearable sensors in SCA3 and others (a field still maturing).",
       "validation": "Effect size of 1-year longitudinal change exceeds SARA; more sensitive in early disease. Sample-size: to detect a 50% slowing of 1-year progression, digital gait needs ~n≈42 vs SARA (2-yr) ~n≈147.",
       "useInTrials": "An emerging objective/secondary endpoint and trial-enrichment tool, not yet a regulatory-accepted primary endpoint.",
-      "taiwan": "No Taiwan-led SCA digital-gait validation study found in public sources (to be verified)."
+      "taiwan": "No Taiwan-led SCA digital-gait validation study found in public sources (to be verified).",
+      "sources": [
+        {
+          "label": "Digital gait in SCA3, Mov Disord 2022",
+          "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.29206"
+        },
+        {
+          "label": "Wearable sensing of gait and balance in SCA, 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34664180/"
+        }
+      ],
+      "abbr": "Digital/wearable"
     }
   }
 ]
