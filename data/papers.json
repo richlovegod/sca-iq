@@ -1,5 +1,17 @@
 [
   {
+    "id": "pubmed:42476817",
+    "date": "2026-07-20",
+    "dateDisplay": "2026/07/20",
+    "title": "Functional divergence of Capicua isoforms explains differential tissue vulnerability in neurological disease",
+    "journal": "Genes Dev · Lee H 等",
+    "tag": "SCA1 機制",
+    "note": "→ 闡明 ATXN1（SCA1 致病蛋白）交互作用夥伴 Capicua 的兩種異構物 CIC-L／CIC-S 功能分化：各偏好結合不同 ATXN1 家族成員，可解釋 SCA1 為何選擇性侵犯小腦——屬 SCA1 致病機制與組織脆弱性基礎研究。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42476817/",
+    "urlLabel": "論文 ↗ PubMed 42476817"
+  },
+  {
     "id": "pubmed:42090775",
     "date": "2026-07-15",
     "dateDisplay": "2026/07/15",

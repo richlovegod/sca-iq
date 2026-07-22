@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-22",
+    "dateDisplay": "2026/07/22",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 1 則科學文獻（SCA1〔ATXN1〕交互作用夥伴 Capicua 之異構物功能分化與小腦選擇性脆弱機制）。",
+    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" }
+  },
+  {
     "date": "2026-07-16",
     "dateDisplay": "2026/07/16",
     "tag": "每日掃描",
