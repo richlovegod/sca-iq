@@ -697,7 +697,7 @@ function renderLandscape(){
   var cc=q2('compCount'); if(cc&&competitorsData.length) cc.textContent=competitorsData.length;
   applyLsFilter();
 }
-fetch('data/competitors.json').then(function(r){return r.json();}).then(function(d){
+fetch('data/competitors.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){
   competitorsData=d; renderLandscape();
 }).catch(function(){var tb=q2('lsBody'); if(tb) tb.innerHTML='<tr><td colspan="6" style="color:#8b9bb0">'+T('errComp')+'</td></tr>';});
 
@@ -734,7 +734,7 @@ function renderBenchmarks(){
   var nl=q2('bmNeuroList');
   if(nl) nl.innerHTML=benchData.filter(function(b){return b.group==='neuro';}).map(bmCard).join('');
 }
-fetch('data/benchmarks.json').then(function(r){return r.json();}).then(function(d){benchData=d;renderBenchmarks();}).catch(function(){
+fetch('data/benchmarks.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){benchData=d;renderBenchmarks();}).catch(function(){
   var ul=q2('bmList'); if(ul) ul.innerHTML='<li style="color:#8b9bb0">'+T('errBm')+'</li>';});
 
 /* ── 文獻雷達：data/papers.json ── */
@@ -760,7 +760,7 @@ function renderPapers(){
   if(q||total<=PAPER_RECENT){tog.style.display='none';}
   else{tog.style.display='';tog.textContent=papersExpanded?T('collapse'):I18N.showRest[LANG](total-PAPER_RECENT);}
 }
-fetch('data/papers.json').then(function(r){return r.json();}).then(function(d){papersData=d;renderPapers();}).catch(function(e){
+fetch('data/papers.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){papersData=d;renderPapers();}).catch(function(e){
   var ul=q2('paperList'); if(ul) ul.innerHTML='<li style="color:#8b9bb0">'+T('errPapers')+esc(e.message)+'）</li>';
 });
 
@@ -785,7 +785,7 @@ function renderAssessments(){
   }).join('');
   q2('assessmentCount').textContent=I18N.countItems[LANG](rows.length,!!q);
 }
-fetch('data/assessments.json').then(function(r){return r.json();}).then(function(d){assessmentsData=d;renderAssessments();}).catch(function(){});
+fetch('data/assessments.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){assessmentsData=d;renderAssessments();}).catch(function(){});
 
 /* ── SCA 知識庫：疾病自然史 data/naturalhistory.json ── */
 var nhData=[];
@@ -806,7 +806,7 @@ function renderNaturalHistory(){
   }).join('');
   q2('nhCount').textContent=I18N.countItems[LANG](rows.length,!!q);
 }
-fetch('data/naturalhistory.json').then(function(r){return r.json();}).then(function(d){nhData=d;renderNaturalHistory();}).catch(function(){});
+fetch('data/naturalhistory.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){nhData=d;renderNaturalHistory();}).catch(function(){});
 
 /* ── 競品全景 drill-down：公司詳情 data/companies.json ── */
 var companiesData=[], companiesById={};
@@ -859,7 +859,7 @@ function openCompany(id){
 }
 function closeCompany(){q2('coModal').classList.remove('on');}
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeCompany();});
-fetch('data/companies.json').then(function(r){return r.json();}).then(function(d){
+fetch('data/companies.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){
   companiesData=d; companiesById={}; d.forEach(function(c){companiesById[c.id]=c;});
   renderLandscape(); renderPapers(); renderBenchmarks();
 }).catch(function(){});
@@ -891,7 +891,7 @@ function renderResults(){
   }).join('');
   q2('resultsCount').textContent=I18N.countRows[LANG](rows.length,(resultsFilter!=='all'||!!q));
 }
-fetch('data/results.json').then(function(r){return r.json();}).then(function(d){resultsData=d;renderResults();}).catch(function(){});
+fetch('data/results.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){resultsData=d;renderResults();}).catch(function(){});
 
 /* ── 臨床試驗雷達：data/trials.json ── */
 var trialsData=[];
@@ -904,7 +904,7 @@ function renderTrials(){
       '<td>'+esc(L(t,'sponsor'))+'<br><a class="src" href="'+esc(t.url)+'" target="_blank">'+T('lnkTrial')+'</a></td></tr>';
   }).join('');
 }
-fetch('data/trials.json').then(function(r){return r.json();}).then(function(d){trialsData=d;renderTrials();}).catch(function(){});
+fetch('data/trials.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){trialsData=d;renderTrials();}).catch(function(){});
 
 /* ── 本週情報摘要：data/news.json ── */
 var newsData=[];
@@ -918,7 +918,7 @@ function renderNews(){
     return '<li'+cls+'><span class="tag t-'+lv+'">'+esc(L(n,'tag'))+'</span>'+L(n,'body')+'<span class="date">'+esc(L(n,'dateDisplay'))+'</span>'+note+(links?('<br>'+links):'')+'</li>';
   }).join('');
 }
-fetch('data/news.json').then(function(r){return r.json();}).then(function(d){newsData=d;renderNews();}).catch(function(){});
+fetch('data/news.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){newsData=d;renderNews();}).catch(function(){});
 
 /* ── 更新紀錄：data/changelog.json（新→舊，預設 12 筆） ── */
 var changelogData=[], clExpanded=false, CL_RECENT=12;
@@ -937,11 +937,11 @@ function renderChangelog(){
   if(rows.length<=CL_RECENT){tog.style.display='none';}
   else{tog.style.display='';tog.textContent=clExpanded?T('collapse'):I18N.showAllN[LANG](rows.length);}
 }
-fetch('data/changelog.json').then(function(r){return r.json();}).then(function(d){changelogData=d;renderChangelog();renderHeartbeat();}).catch(function(){});
+fetch('data/changelog.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){changelogData=d;renderChangelog();renderHeartbeat();}).catch(function(){});
 
 /* ── 頁首掃描日期 + KPI「本週新增」：data/meta.json ── */
 var metaData=null;
-fetch('data/meta.json').then(function(r){return r.json();}).then(function(m){
+fetch('data/meta.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(m){
   metaData=m;
   if(q2('lastScan')) q2('lastScan').textContent=m.lastScan||'—';
   if(q2('nextScan')) q2('nextScan').textContent=m.nextScan||'—';
@@ -997,7 +997,7 @@ function renderEvents(){
       '<div class="en">'+esc(L(e,'name'))+loc+link+'</div>'+rel+cmp+'</div>';
   }).join('');
 }
-fetch('data/events.json').then(function(r){return r.json();}).then(function(d){eventsData=d;renderEvents();}).catch(function(){
+fetch('data/events.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){eventsData=d;renderEvents();}).catch(function(){
   var b=q2('eventList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">'+T('errEvents')+'</p>';
 });
 
@@ -1017,7 +1017,7 @@ function renderPatents(){
     '</div>';
   }).join('');
 }
-fetch('data/patents.json').then(function(r){return r.json();}).then(function(d){patentsData=d;renderPatents();}).catch(function(){
+fetch('data/patents.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){patentsData=d;renderPatents();}).catch(function(){
   var b=q2('patentList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">'+T('errPatents')+'</p>';
 });
 
@@ -1035,7 +1035,7 @@ function renderExclusivity(){
     '</div>';
   }).join('');
 }
-fetch('data/exclusivity.json').then(function(r){return r.json();}).then(function(d){exclusivityData=d;renderExclusivity();}).catch(function(){
+fetch('data/exclusivity.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){exclusivityData=d;renderExclusivity();}).catch(function(){
   var b=q2('exclusivityList'); if(b) b.innerHTML='<p style="color:#8b9bb0;font-size:12px">'+T('errExcl')+'</p>';
 });
 

@@ -421,7 +421,7 @@ function render(){
 
 var loaded=0;
 FILES.forEach(function(f){
-  fetch('data/'+f+'.json').then(function(r){return r.json();}).then(function(d){DATA[f]=d;}).catch(function(){DATA[f]=[];})
+  fetch('data/'+f+'.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){DATA[f]=d;}).catch(function(){DATA[f]=[];})
     .then(function(){ if(++loaded===FILES.length) setLang(LANG); });
 });
 window.addEventListener('hashchange',render);

@@ -181,7 +181,7 @@
 </div>
 <script>
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
-fetch('data/versions.json').then(function(r){return r.json();}).then(function(rows){
+fetch('data/versions.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(rows){
   document.getElementById('verList').innerHTML=rows.map(function(v){
     var items=(v.changes||[]).map(function(c){return '<li>'+esc(c)+'</li>';}).join('');
     return '<div class="verrow"><div class="verhd"><span class="vtag">'+esc(v.version)+'</span>'+esc(v.title||'')+'<span class="vdate">'+esc(v.dateDisplay)+'</span></div><ul>'+items+'</ul></div>';
