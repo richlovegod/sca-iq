@@ -203,7 +203,13 @@
   <section id="dir" class="panel">
     <div class="card">
       <h2><span class="i18n zh">◎ 公司總覽 (All Companies)</span><span class="i18n en">◎ All Companies</span></h2>
-      <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px"><span class="i18n zh">平台追蹤的所有公司，點任一家可開啟該公司的完整頁面（有獨立網址，可直接分享）。</span><span class="i18n en">Every company tracked on this platform. Click any of them to open its full page — each has its own shareable URL.</span></p>
+      <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px"><span class="i18n zh">平台追蹤的所有公司，點任一家可開啟該公司的完整頁面。</span><span class="i18n en">Every company tracked on this platform. Click any of them to open its full page.</span></p>
+      <div class="filters" id="catFilters">
+        <button class="on" onclick="setCat('all',this)"><span class="i18n zh">全部</span><span class="i18n en">All</span></button>
+        <button onclick="setCat('sca',this)">SCA &amp; Ataxia</button>
+        <button onclick="setCat('cell',this)">Cell Therapy</button>
+        <button onclick="setCat('neuro',this)">Rare Neuro</button>
+      </div>
       <div style="display:flex;gap:8px;margin:0 0 12px;flex-wrap:wrap;align-items:center">
         <input id="dirSearch" placeholder="🔍" oninput="renderDir()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
         <span id="dirCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
@@ -257,8 +263,9 @@ var I18N={
   notFound:{zh:'找不到這家公司，以下是全部追蹤中的公司：',en:'That company was not found. Here are all tracked companies:'},
   search:{zh:'🔍 搜尋公司／國別／機制…',en:'🔍 Search company / country / mechanism…'},
   count:{zh:function(n){return '共 '+n+' 家';},en:function(n){return n+' compan'+(n===1?'y':'ies');}},
-  grpSca:{zh:'SCA 與共濟失調（競品全景）',en:'SCA & ataxia (competitive landscape)'},
-  grpBench:{zh:'細胞治療與罕病神經標竿',en:'Cell therapy & rare neurology benchmarks'},
+  catSca:{zh:'SCA & Ataxia — SCA 與共濟失調',en:'SCA & Ataxia'},
+  catCell:{zh:'Cell Therapy — 細胞治療',en:'Cell Therapy'},
+  catNeuro:{zh:'Rare Neuro — 罕病神經',en:'Rare Neuro'},
   ringSca:{zh:'直接 SCA',en:'Direct SCA'},ringPolyq:{zh:'鄰近 polyQ',en:'Adjacent polyQ'},ringAtaxia:{zh:'鄰近共濟失調',en:'Adjacent ataxia'},
   thUs:{zh:'本社',en:'Us'},thHigh:{zh:'高威脅',en:'High threat'},thMid:{zh:'中威脅',en:'Mid threat'},thLow:{zh:'低威脅',en:'Low threat'},thBench:{zh:'標竿',en:'Benchmark'}
 };
@@ -299,22 +306,31 @@ function srcs(o,key){
   return LA(o,key||'links').map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+'</a>';}).join(' ');
 }
 
+var catFilter='all';
+function setCat(f,btn){
+  catFilter=f;
+  document.querySelectorAll('#catFilters button').forEach(function(b){b.classList.remove('on');});
+  if(btn) btn.classList.add('on');
+  renderDir();
+}
 function renderDir(){
   var box=q2('dirList'); if(!box) return;
   var q=(q2('dirSearch').value||'').toLowerCase().trim();
   var rows=(DATA.companies||[]).filter(function(c){return !q||JSON.stringify(c).toLowerCase().indexOf(q)>=0;});
+  if(catFilter!=='all') rows=rows.filter(function(c){return (c.cat||'sca')===catFilter;});
   function group(list,title){
     if(!list.length) return '';
-    return '<div class="cosec"><h4>'+title+'（'+list.length+'）</h4>'+list.map(function(c){
+    var cnt = LANG==='en' ? (' ('+list.length+')') : ('（'+list.length+'）');
+    return '<div class="cosec"><h4>'+title+cnt+'</h4>'+list.map(function(c){
       var th=THP[c.threat]||'p-low';
       return '<div class="corow"><a href="company.html?id='+encodeURIComponent(c.id)+'" style="color:#7fb2ff;text-decoration:none;font-weight:700">'+esc(L(c,'name'))+'</a>'+
         ' <span class="pill '+th+'" style="font-size:9.5px">'+esc(T(THK[c.threat]||'thLow'))+'</span>'+
         '<br><span style="color:#8b9bb0;font-size:11.5px">'+esc(L(c,'country'))+' · '+esc(L(c,'mechanism'))+'</span></div>';
     }).join('')+'</div>';
   }
-  var comp=rows.filter(function(c){return c.threat!=='bench';});
-  var bench=rows.filter(function(c){return c.threat==='bench';});
-  box.innerHTML=group(comp,T('grpSca'))+group(bench,T('grpBench'));
+  box.innerHTML = group(rows.filter(function(c){return (c.cat||'sca')==='sca';}),   T('catSca'))
+                + group(rows.filter(function(c){return c.cat==='cell';}),           T('catCell'))
+                + group(rows.filter(function(c){return c.cat==='neuro';}),          T('catNeuro'));
   q2('dirCount').textContent=I18N.count[LANG](rows.length);
 }
 

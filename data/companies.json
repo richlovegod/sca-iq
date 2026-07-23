@@ -34,7 +34,8 @@
           "text": "REPROCELL filed the Japanese marketing approval application (SCA3/6) and the MAH business licence with Kanagawa Prefecture"
         }
       ]
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "biohaven",
@@ -72,7 +73,8 @@
           "text": "Cut R&D spending by about 60% and sought further discussions with the FDA"
         }
       ]
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "intrabio",
@@ -119,7 +121,8 @@
           "text": "NCT07221292 registry update: 12 sites, estimated enrolment start 2026/09"
         }
       ]
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "vico",
@@ -155,7 +158,8 @@
           "text": "Moved to dosing a Ph1/2 cohort on a twice-yearly regimen"
         }
       ]
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "arrowhead",
@@ -191,7 +195,8 @@
           "text": "Ph1 (n=39) fully enrolled, enrolment closed mid-2026, primary completion estimated 2026/12"
         }
       ]
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "biogen-ionis",
@@ -228,7 +233,8 @@
           "text": "Announced it was stopping the SCA3 BIIB132 Ph1 (pipeline reprioritisation)"
         }
       ]
-    }
+    },
+    "cat": "neuro"
   },
   {
     "id": "crd",
@@ -264,7 +270,8 @@
           "text": "Received FDA orphan drug designation (SCA3)"
         }
       ]
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "uniqure",
@@ -291,7 +298,8 @@
       "mechanism": "AAV gene therapy",
       "pipeline": "AAV gene therapy | SCA (multiple subtypes): preclinical/early, still far from the clinic",
       "insight": "Explored by academic groups and several biotechs; uniQure’s AMT-150 (AAV) has been deprioritised in recent years. A low, long-dated threat that mainly reflects investment appetite in ataxia."
-    }
+    },
+    "cat": "neuro"
   },
   {
     "id": "kissei",
@@ -318,7 +326,8 @@
       "mechanism": "Small molecule (TRH analogue, symptomatic treatment)",
       "pipeline": "Rovatirelin (KPS-0373) | spinocerebellar degeneration (SCA6/31 etc.): two Ph3 trials missed their primary endpoint, the Japanese application was withdrawn in 2023/07 and an additional Ph3 started",
       "insight": "A symptomatic-treatment rival with a different mechanism from Stemchymal, so the read-across is indirect. Its Ph3 failure shows how hard a single Ph3 is to hit in SCA."
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "riluzole",
@@ -345,7 +354,8 @@
       "mechanism": "Small molecule",
       "pipeline": "Riluzole | SCA (off-label): marketed, symptomatic relief only, does not modify disease course",
       "insight": "A baseline comparator rather than a direct competitor; use in SCA is off-label."
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "solaxa",
@@ -381,7 +391,8 @@
           "text": "Announced a registrational trial in SCA27B"
         }
       ]
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "annji",
@@ -420,7 +431,8 @@
           "text": "Presented a preliminary global Ph3 design at the KDA conference; received FDA Fast Track"
         }
       ]
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "neurolixis",
@@ -446,7 +458,8 @@
       "pipeline": "NLX-112 (befiradol) | SCA3 (also Parkinson's): SCA preclinical / PD Ph2",
       "insight": "Holds US and EU orphan designations in SCA, but SCA3 evidence is animal-only with no human trial yet; its clinical focus is levodopa-induced dyskinesia in Parkinson's.",
       "ticker": "Private"
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "seelos",
@@ -471,7 +484,8 @@
       "mechanism": "Autophagy induction, clearing protein aggregates",
       "pipeline": "SLS-005 (IV trehalose) | SCA (mainly SCA3): Registrational Ph2/3 (paused)",
       "insight": "Its registrational SCA3 Ph2/3 paused enrolment in 2023/04 for business reasons, with resources shifted to ALS; no restart has been reported. Orphan designation and Fast Track remain in place."
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "wave",
@@ -496,7 +510,8 @@
       "mechanism": "ASO / RNA editing, allele-selective",
       "pipeline": "Allele-selective ATXN3 oligonucleotide | SCA3: Undisclosed / apparently dormant",
       "insight": "Platform strength is allele-selective silencing (WVE-003 in HD showed selective lowering of mutant HTT). On SCA3, no public progress since it said in 2018 it would nominate a candidate."
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "design-tx",
@@ -521,7 +536,8 @@
       "mechanism": "Small molecule, targets the GAA repeat to raise frataxin",
       "pipeline": "DT-216P2 (GeneTAC™) | Friedreich's ataxia: Ph1/2 (RESTORE-FA)",
       "insight": "GeneTAC small molecules target nucleotide repeat expansions. Four-week IV data from RESTORE-FA in 2026/05 showed dose-dependent frataxin increases and clinical improvement, with a registrational path to be updated in Q4 2026. The concept is adjacent to polyQ, so watch for extension into SCA."
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "larimar",
@@ -546,7 +562,8 @@
       "mechanism": "Protein replacement, frataxin supplementation",
       "pipeline": "Nomlabofusp (CTI-1601) | Friedreich's ataxia: Rolling BLA under way",
       "insight": "A frataxin protein replacement therapy. Breakthrough Therapy designation in 2026/02 and the first module of a rolling BLA for accelerated approval submitted on 2026/06/29 — one of the few ataxia programmes to reach BLA stage."
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "lexeo",
@@ -570,7 +587,8 @@
       "mechanism": "AAV gene therapy, raises cardiac frataxin",
       "pipeline": "LX2006 | Friedreich's ataxia cardiomyopathy: Registrational design finalised",
       "insight": "AAV gene therapy for FA-associated cardiomyopathy. The SUNRISE-FA 2 pivotal protocol was finalised in 2026/06, targeting a BLA under accelerated approval in 2028; holds Breakthrough, RMAT, Orphan Drug and Fast Track designations."
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "minoryx",
@@ -595,7 +613,8 @@
       "pipeline": "Leriglitazone | Friedreich's ataxia (also X-ALD, Rett): Ph2 proof-of-concept in FA",
       "insight": "Leriglitazone holds US and EU orphan designations in FA with a Ph2 proof-of-concept, but the company's clinical focus has moved to X-ALD and Rett syndrome, with no pivotal trial in FA.",
       "ticker": "Private"
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "ptc",
@@ -619,7 +638,8 @@
       "mechanism": "Small molecule, 15-LO inhibition, oxidative stress",
       "pipeline": "Vatiquinone | Friedreich's ataxia: NDA rejected",
       "insight": "Vatiquinone's FA NDA received a CRL in 2025/08 (substantial evidence of efficacy not demonstrated). Together with Biohaven, a case of ataxia small molecules stalling at the FDA."
-    }
+    },
+    "cat": "sca"
   },
   {
     "id": "reprocell",
@@ -643,7 +663,8 @@
       "mechanism": "Allogeneic MSC (Japanese MAH)",
       "pipeline": "Stemchymal® (Japan)",
       "insight": "Japanese marketing authorisation holder. Filed for the MAH business licence with Kanagawa Prefecture on 2026/06/18 and submitted the Stemchymal marketing approval application to PMDA on 2026/06/24 (indications SCA3 and SCA6), under a ~9-month priority review."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "sumitomo-racthera",
@@ -666,8 +687,10 @@
       "country": "Japan",
       "mechanism": "iPSC-derived dopaminergic neural progenitors",
       "pipeline": "AMCHEPRY® (raguneprocel)",
-      "insight": "On 2026/03/06 Japan's MHLW granted <b>conditional, time-limited approval</b> for motor symptoms of Parkinson's disease in patients not responding to existing therapy including levodopa — together with RiHEART, <b>among the world's first approved iPSC-derived cell therapies</b>. The Ph1/2 implanted 7 patients, with motor improvement in 4 and no related serious adverse events."
-    }
+      "insight": "On 2026/03/06 Japan's MHLW granted <b>conditional, time-limited approval</b> for motor symptoms of Parkinson's disease in patients not responding to existing therapy including levodopa — together with RiHEART, <b>among the world's first approved iPSC-derived cell therapies</b>. The Ph1/2 implanted 7 patients, with motor improvement in 4 and no related serious adverse events.",
+      "name": "Sumitomo Pharma / RACTHERA"
+    },
+    "cat": "cell"
   },
   {
     "id": "cuorips",
@@ -691,7 +714,8 @@
       "mechanism": "iPSC-derived cardiomyocyte sheets",
       "pipeline": "RiHEART® (ReHeart)",
       "insight": "Received Japanese <b>conditional, time-limited approval</b> on 2026/03/06 (heart failure), alongside AMCHEPRY as among the world's first iPSC therapies. Sheets of iPSC-derived cardiomyocytes are surgically applied to the heart surface to promote vascularisation. Reported Japanese price is <b>¥53.2 million</b> (about US$326,400); launch in Japan planned for autumn 2026."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "heartseed",
@@ -715,7 +739,8 @@
       "mechanism": "iPSC-derived cardiomyocyte spheroids",
       "pipeline": "HS-001 / HS-005",
       "insight": "Dosed the first HS-005 patient at Shinshu University Hospital in late March 2026 (EMERALD Ph1/2, dilated cardiomyopathy) — the <b>world's first catheter administration of iPSC-derived cardiomyocyte spheroids</b>; 7 patients per cohort, 14 in total. Its earlier lead HS-001 requires open-heart surgery, while HS-005 uses a less invasive endocardial catheter."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "healios",
@@ -739,7 +764,8 @@
       "mechanism": "Somatic (multipotent adult progenitor) cells and iPSC",
       "pipeline": "HLCM051 (invimestrocel)",
       "insight": "Centred on acute respiratory distress syndrome (ARDS): a global Ph3 trial plan has been filed in Japan (REVIVE-ARDS, randomised placebo-controlled, up to 550 patients, primary endpoint ventilator-free days), with a strategy of seeking <b>conditional, time-limited approval</b> in Japan on the Ph2 results; also pursuing ischaemic stroke and trauma, plus an iPSC-derived gene-engineered killer cell platform."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "cellusion",
@@ -764,7 +790,8 @@
       "pipeline": "CLS001",
       "insight": "Reported the <b>first-in-human transplant</b> at the Japanese Society for Regenerative Medicine annual meeting in 2023/03: no adverse events at 3 months, with trends toward improved visual acuity and central/thinnest corneal thickness. Company-sponsored Japanese and global trials are in preparation.",
       "ticker": "Private"
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "orizuru",
@@ -788,7 +815,8 @@
       "pipeline": "(see company pipeline)",
       "insight": "A regenerative-medicine company spun out of the Takeda–CiRA (T-CiRA) collaboration, focused on iPSC-derived cell therapy platforms including islet cells. <b>Public information is limited</b>; refer to the company pipeline.",
       "ticker": "Private"
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "scm-lifescience",
@@ -812,7 +840,8 @@
       "mechanism": "Clonally isolated allogeneic MSC (cMSC)",
       "pipeline": "Stemchymal® (Korea) and others",
       "insight": "Signed an <b>exclusive Korean licence</b> with Steminent on 2020/10/13 for clinical development and commercialisation of Stemchymal in polyglutamine spinocerebellar ataxia in South Korea; terms include an upfront payment, regulatory milestones and a double-digit royalty. Its own platform is clonally isolated MSC."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "corestem",
@@ -836,7 +865,8 @@
       "mechanism": "Autologous bone-marrow MSC",
       "pipeline": "NeuroNata-R® (lenzumestrocel)",
       "insight": "NeuroNata-R received Korean <b>conditional approval</b> in 2014 for amyotrophic lateral sclerosis, one of the few marketed MSC products in neurodegeneration; in 2026/05 the MFDS <b>maintained the conditional approval and updated the label</b> after the completed Phase 3."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "medipost",
@@ -860,7 +890,8 @@
       "mechanism": "Cord-blood MSC",
       "pipeline": "Cartistem®",
       "insight": "Cartistem was <b>approved by Korea's MFDS in January 2012</b> for knee cartilage defects, an early example of commercialised allogeneic cord-blood MSC; the company also runs cell-therapy research in neurodegeneration."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "encell",
@@ -885,7 +916,8 @@
       "pipeline": "EN001",
       "insight": "EN001 received <b>FDA orphan drug designation in 2025/03</b> for Charcot-Marie-Tooth disease; the Ph1 showed no dose-limiting toxicity or infusion-related reactions, and it has advanced to Ph1b/2a (NCT06328712, CMT1A), with expansion into Duchenne muscular dystrophy and sarcopenia. It also operates a cell and gene therapy CDMO.",
       "ticker": "Private"
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "sbiomedics",
@@ -909,7 +941,8 @@
       "mechanism": "Pluripotent stem cell-derived dopaminergic progenitors",
       "pipeline": "A9-DPC (TED-A9)",
       "insight": "Produces high-purity ventral midbrain dopaminergic progenitors from human embryonic stem cells under GMP. In 2025/07 it reported positive safety and efficacy data <b>one year after transplantation in 12 Parkinson's patients</b> (Ph1/2a); in 2026/02 it entered a development and manufacturing partnership with Catalent. Long-term follow-up trial NCT06477744."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "pharmicell",
@@ -933,7 +966,8 @@
       "mechanism": "Autologous bone-marrow MSC",
       "pipeline": "Cellgram®",
       "insight": "Cellgram-AMI (acute myocardial infarction) was <b>among the first stem cell drugs approved in Korea (2011)</b> and is often cited as the world's first approved mesenchymal stem cell drug; the company also runs cell-therapy CDMO and materials businesses. <b>Verify details against the company site and MFDS announcements.</b>"
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "anterogen",
@@ -957,7 +991,8 @@
       "mechanism": "Adipose-derived MSC",
       "pipeline": "Cupistem® / Queencell® and others",
       "insight": "A leading example of commercialising <b>adipose-derived mesenchymal stem cells</b> under Korea's MFDS framework (Cupistem for Crohn's fistula) — the same cell source as Steminent's. <b>Verify approval details against the company site and MFDS announcements.</b>"
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "kangstem",
@@ -981,7 +1016,8 @@
       "mechanism": "Cord-blood MSC",
       "pipeline": "Furestem series",
       "insight": "Develops therapies for rare and inflammatory disorders (such as atopic dermatitis) on a cord-blood MSC platform. <b>Public information is limited</b>; refer to the company site for pipeline and status."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "cha-biotech",
@@ -1004,7 +1040,8 @@
       "mechanism": "Immune cell and MSC platforms, CDMO",
       "pipeline": "(platform-centric)",
       "insight": "A group company built around cord-blood banking, global cell manufacturing and CDMO infrastructure, spanning immune cell and MSC platforms. <b>Public information is limited</b>; refer to the company site."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "tego",
@@ -1028,7 +1065,8 @@
       "mechanism": "Cultured tissue cells (keratinocytes / fibroblasts)",
       "pipeline": "Kaloderm® / Rosmir® and others",
       "insight": "An early Korean example of commercialised tissue engineering and cell products (cultured skin cell products). <b>Verify approval years and indications against the company site and MFDS announcements.</b>"
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "mesoblast",
@@ -1052,7 +1090,8 @@
       "mechanism": "Allogeneic bone-marrow MSC",
       "pipeline": "Ryoncil® (remestemcel-L-rknd)",
       "insight": "<b>Approved by the FDA on 2024/12/18</b> for steroid-refractory acute graft-versus-host disease in children aged 2 months and older — the <b>first FDA-approved mesenchymal stem cell product</b>. The path included a BLA resubmission and PDUFA extension, making it the key precedent for allogeneic MSC BLA review and CMC scale-up."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "cynata",
@@ -1076,7 +1115,8 @@
       "mechanism": "iPSC-derived MSC (Cymerus™)",
       "pipeline": "CYP-001 / CYP-004",
       "insight": "Manufactures MSC from iPSC starting material, claiming <b>batch consistency and scalability</b>. The randomised double-blind Ph2 of CYP-001 in acute GvHD completed the 100-day primary evaluation for all 65 participants, with topline expected 2026/06; Ph3 results for CYP-004 in knee osteoarthritis are expected 2026/05."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "brainstorm",
@@ -1100,7 +1140,8 @@
       "mechanism": "Autologous MSC-NTF (neurotrophic factor secreting)",
       "pipeline": "NurOwn®",
       "insight": "A leading case of autologous MSC in neurodegeneration. The first Ph3 is complete; <b>in 2025/05 the FDA cleared a Ph3b (ENDURANCE) with the design settled under a Special Protocol Assessment</b>: about 200 patients with moderate ALS and under two years of symptoms, 24 weeks randomised double-blind followed by a 24-week open-label extension. Financing was secured and start-up preparations were under way as of 2026/02."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "capricor",
@@ -1124,7 +1165,8 @@
       "mechanism": "Allogeneic cardiosphere-derived cells",
       "pipeline": "Deramiocel (CAP-1002)",
       "insight": "For Duchenne muscular dystrophy cardiomyopathy. <b>It received a Complete Response Letter in 2025 (the FDA sought more efficacy data); the FDA subsequently lifted that CRL and resumed BLA review with a new PDUFA target of 2026/08/22</b>, and an advisory committee meeting has been scheduled; the resubmission includes Ph3 HOPE-3 results. A live case study of RMAT and accelerated review for rare-disease cell therapy."
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "bluerock",
@@ -1149,7 +1191,8 @@
       "pipeline": "Bemdaneprocel",
       "insight": "Neuronal replacement in Parkinson's disease. <b>The first patient has been dosed in the registrational exPDite-2 Ph3 (NCT06944522) — the first pivotal Ph3 of an allogeneic pluripotent stem cell-derived therapy in Parkinson's</b>; up to 102 patients at 7 US sites, primary endpoint change in daily ON time without troublesome dyskinesia over 78 weeks, data expected 2027. Positive effects continued at 36 months of follow-up.",
       "ticker": "Bayer subsidiary"
-    }
+    },
+    "cat": "cell"
   },
   {
     "id": "ultragenyx",
@@ -1172,6 +1215,7 @@
       "mechanism": "Gene therapy and small molecules",
       "pipeline": "(multiple marketed rare-disease drugs)",
       "insight": "Known for <b>executing trials and managing regulatory interactions in very small rare-disease cohorts</b>, with several approved rare-disease products — an operational reference for rare-disease development."
-    }
+    },
+    "cat": "neuro"
   }
 ]
