@@ -76,6 +76,53 @@
     }
   },
   {
+    "id": "intrabio",
+    "name": "IntraBio",
+    "nameEn": "IntraBio Inc",
+    "short": "IntraBio",
+    "country": "英國／美國 UK/USA",
+    "ticker": "未上市 Private",
+    "mechanism": "小分子 Levacetylleucine（N-acetyl-L-leucine，口服）",
+    "pipeline": "IB1001｜CACNA1A 相關疾病（含 SCA6、EA2、FHM1）：Ph3 IB1001-304，2026/05 監管放行、估 2026/09 起始｜同成分 Aqneursa 已於 Niemann-Pick C 上市",
+    "insight": "以已上市成分（Aqneursa／levacetylleucine）延伸至 CACNA1A 相關共濟失調，樞紐試驗主要指標為 SARA、n≈60、12 週交叉設計——開發成本與時程風險低於全新分子。<b>SCA6 與本社日本申請適應症重疊</b>，惟屬症狀改善型小分子、非疾病修飾細胞療法，定位可區隔。",
+    "threat": "mid",
+    "url": "https://intrabio.com/clinical-trials/",
+    "match": [
+      "IntraBio",
+      "Levacetylleucine",
+      "N-acetyl-L-leucine",
+      "IB1001",
+      "Aqneursa"
+    ],
+    "updates": [
+      {
+        "date": "2026/05",
+        "text": "CACNA1A（含 SCA6）Ph3 樞紐試驗獲美/英/歐/瑞監管放行"
+      },
+      {
+        "date": "2026/06",
+        "text": "NCT07221292 登錄更新，12 站點、估 2026/09 開始收案"
+      }
+    ],
+    "en": {
+      "country": "UK / USA",
+      "ticker": "Private",
+      "mechanism": "Small molecule levacetylleucine (N-acetyl-L-leucine, oral)",
+      "pipeline": "IB1001 | CACNA1A-related disorders (incl. SCA6, EA2, FHM1): Ph3 IB1001-304, cleared 2026/05, estimated start 2026/09 | the same molecule is marketed as Aqneursa in Niemann-Pick C",
+      "insight": "Extends an already-marketed molecule (Aqneursa / levacetylleucine) into CACNA1A-related ataxia; the pivotal trial uses SARA as primary endpoint, n≈60, 12-week crossover — lower cost and timeline risk than a novel molecule. <b>SCA6 overlaps the indication in our Japan filing</b>, though it is a symptomatic small molecule rather than a disease-modifying cell therapy, so positioning can be differentiated.",
+      "updates": [
+        {
+          "date": "2026/05",
+          "text": "Ph3 pivotal trial in CACNA1A (incl. SCA6) authorised in US/UK/EU/Switzerland"
+        },
+        {
+          "date": "2026/06",
+          "text": "NCT07221292 registry update: 12 sites, estimated enrolment start 2026/09"
+        }
+      ]
+    }
+  },
+  {
     "id": "vico",
     "name": "Vico Therapeutics",
     "nameEn": "Vico Therapeutics",

@@ -112,5 +112,21 @@
       "status": "Newly registered (2026/03)",
       "sponsor": "Other cell-therapy rival"
     }
+  },
+  {
+    "nct": "NCT07221292",
+    "drug": "Levacetylleucine (N-acetyl-L-leucine, IB1001)",
+    "mechanism": "小分子（口服）",
+    "phase": "Ph3",
+    "status": "尚未收案；2026/05 獲美英歐瑞監管放行、12 站點啟動中，估 2026/09 開始、n=60，主要指標 SARA",
+    "sponsor": "IntraBio",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07221292",
+    "en": {
+      "mechanism": "Small molecule (oral)",
+      "phase": "Ph3",
+      "status": "Not yet recruiting; regulatory clearance in US/UK/EU/Switzerland in 2026/05, 12 sites activating, estimated start 2026/09, n=60, primary endpoint SARA",
+      "sponsor": "IntraBio"
+    }
   }
 ]

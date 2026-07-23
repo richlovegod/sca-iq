@@ -1,5 +1,113 @@
 [
   {
+    "id": "pubmed:42484951",
+    "date": "2026-07-22",
+    "dateDisplay": "2026/07/22",
+    "title": "Comprehensive Characterization of Clinical Phenotypes and CTG Repeat-Associated Manifestations in Spinocerebellar Ataxia Type 8",
+    "journal": "Cerebellum · Yang D 等",
+    "tag": "SCA8 表現型",
+    "note": "→ 系統描繪 SCA8（ATXN8OS CTG 重複）之臨床表現型與重複長度相關性，屬亞型辨識與病程分層情報。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42484951/",
+    "urlLabel": "論文 ↗ PubMed 42484951",
+    "en": {
+      "tag": "SCA8 phenotype",
+      "journal": "Cerebellum · Yang D et al.",
+      "note": "→ Systematically characterises the clinical phenotypes of SCA8 (ATXN8OS CTG repeat) and their relation to repeat length; subtype identification and disease-stratification intelligence.",
+      "urlLabel": "Paper ↗ PubMed 42484951"
+    }
+  },
+  {
+    "id": "pubmed:42483834",
+    "date": "2026-07-17",
+    "dateDisplay": "2026/07/17",
+    "title": "Upstream non-AUG initiation and ribosomal -1 frameshifting in ATXN8OS CTA/CTG repeat-associated translation",
+    "journal": "Nucleic Acids Res · Sakamoto S 等",
+    "tag": "SCA8 機制 · RAN 轉譯",
+    "note": "→ 解析 ATXN8OS 重複序列的非 AUG 起始與核糖體移碼機制，屬重複擴增型 SCA 的毒性蛋白生成路徑基礎研究。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42483834/",
+    "urlLabel": "論文 ↗ PubMed 42483834",
+    "en": {
+      "tag": "SCA8 mechanism · RAN translation",
+      "journal": "Nucleic Acids Res · Sakamoto S et al.",
+      "note": "→ Dissects non-AUG initiation and ribosomal frameshifting at the ATXN8OS repeat; basic research on how repeat-expansion SCAs generate toxic proteins.",
+      "urlLabel": "Paper ↗ PubMed 42483834"
+    }
+  },
+  {
+    "id": "pubmed:42482997",
+    "date": "2026-07-20",
+    "dateDisplay": "2026/07/20",
+    "title": "A Translational Readiness Checklist for Stem-Cell-Based Trials in Movement Disorders: A Practical Roadmap",
+    "journal": "J Cent Nerv Syst Dis · Hemeda S 等",
+    "tag": "細胞治療試驗設計 · 最相關",
+    "note": "→ 提出幹細胞臨床試驗的「轉譯準備度查核表」（產品特性描述、基線表型調和、疾病別終點選單），並將 SCA 列為目標適應症之一——可對照本社 Ph2 試驗設計與法規論述。",
+    "highlight": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42482997/",
+    "urlLabel": "論文 ↗ PubMed 42482997",
+    "en": {
+      "tag": "Cell-therapy trial design · most relevant",
+      "journal": "J Cent Nerv Syst Dis · Hemeda S et al.",
+      "note": "→ Proposes a translational-readiness checklist for stem-cell trials (product characterisation, harmonised baseline phenotyping, disease-specific endpoint menus) and lists SCA among the target movement disorders — a useful benchmark for our Ph2 design and regulatory narrative.",
+      "urlLabel": "Paper ↗ PubMed 42482997"
+    }
+  },
+  {
+    "id": "pubmed:42481725",
+    "date": "2026-07-21",
+    "dateDisplay": "2026/07/21",
+    "title": "Cerebellar cognitive affective syndrome (CCAS) and [18F]-FDG PET findings in spinocerebellar ataxia type SCA27B",
+    "journal": "J Neurol · Cros L 等",
+    "tag": "SCA27B 認知 · 影像",
+    "note": "→ 描述 SCA27B 的小腦認知情感症候群與 FDG-PET 代謝變化，補充非運動症狀評估面向。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42481725/",
+    "urlLabel": "論文 ↗ PubMed 42481725",
+    "en": {
+      "tag": "SCA27B cognition · imaging",
+      "journal": "J Neurol · Cros L et al.",
+      "note": "→ Describes cerebellar cognitive affective syndrome and FDG-PET metabolic changes in SCA27B, adding to the non-motor assessment picture.",
+      "urlLabel": "Paper ↗ PubMed 42481725"
+    }
+  },
+  {
+    "id": "pubmed:42481419",
+    "date": "2026-07-21",
+    "dateDisplay": "2026/07/21",
+    "title": "Isoform-paralog specificity and tissue-dependent vulnerabilities in neurological disorders",
+    "journal": "Genes Dev · Hernandez-Quijada K 等",
+    "tag": "SCA1 機制",
+    "note": "→ 綜述廣泛表現的致病基因為何只傷特定腦區：ATXN1／ATXN1L 各自偏好與 CIC-L／CIC-S 結合，形成組織依賴的脆弱性——與同期 Capicua 異構物研究互為呼應。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42481419/",
+    "urlLabel": "論文 ↗ PubMed 42481419",
+    "en": {
+      "tag": "SCA1 mechanism",
+      "journal": "Genes Dev · Hernandez-Quijada K et al.",
+      "note": "→ Reviews why broadly expressed disease genes damage only specific brain regions: ATXN1 and ATXN1L each prefer CIC-L or CIC-S, creating tissue-dependent vulnerability — a companion to the Capicua isoform work published alongside it.",
+      "urlLabel": "Paper ↗ PubMed 42481419"
+    }
+  },
+  {
+    "id": "pubmed:42474585",
+    "date": "2026-07-20",
+    "dateDisplay": "2026/07/20",
+    "title": "Genotypic features of Spinocerebellar Ataxia in Northern China: A Comparative Analysis with Southern China",
+    "journal": "Cerebellum · Chen B 等",
+    "tag": "亞洲流病 · 亞型分布",
+    "note": "→ 比較中國南北方 SCA 亞型基因分布差異，可作為亞洲市場（含台灣、日本）亞型規模推估的對照資料。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42474585/",
+    "urlLabel": "論文 ↗ PubMed 42474585",
+    "en": {
+      "tag": "Asian epidemiology · subtype distribution",
+      "journal": "Cerebellum · Chen B et al.",
+      "note": "→ Compares SCA subtype genotype distribution between northern and southern China; a reference point for sizing subtypes across Asian markets including Taiwan and Japan.",
+      "urlLabel": "Paper ↗ PubMed 42474585"
+    }
+  },
+  {
     "id": "pubmed:42476817",
     "date": "2026-07-20",
     "dateDisplay": "2026/07/20",

@@ -1,5 +1,40 @@
 [
   {
+    "id": "intrabio-cacna1a-ph3-2026-05",
+    "date": "2026-05-20",
+    "dateDisplay": "2026/05",
+    "level": "hot",
+    "tag": "新競品",
+    "body": "新發現競品：<b>IntraBio levacetylleucine（N-acetyl-L-leucine）</b>之 CACNA1A 相關疾病 Ph3 樞紐試驗 <b>IB1001-304</b>（NCT07221292）已於 2026/05 獲美/英/歐盟/瑞士監管放行，12 個跨國站點啟動中，估 2026/09 開始收案、n≈60，<b>主要指標為 SARA</b>。",
+    "note": "→ 適應症明列 <b>SCA6</b>，與本社日本承認申請（SCA3/6）之 SCA6 部分正面重疊；惟其為口服症狀改善型小分子（同成分 Aqneursa 已於 NPC 上市），與細胞治療的疾病修飾定位不同。",
+    "links": [
+      {
+        "label": "監管放行 ↗ 2026/05",
+        "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
+      },
+      {
+        "label": "試驗 ↗ NCT07221292",
+        "url": "https://clinicaltrials.gov/study/NCT07221292"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2026/05",
+      "tag": "New competitor",
+      "body": "Newly identified competitor: <b>IntraBio's levacetylleucine (N-acetyl-L-leucine)</b> pivotal Ph3 trial in CACNA1A-related disorders, <b>IB1001-304</b> (NCT07221292), received regulatory authorisation to proceed in the US, UK, EU and Switzerland in 2026/05; 12 multinational sites are activating, enrolment estimated to start 2026/09 with n≈60 and <b>SARA as the primary endpoint</b>.",
+      "note": "→ The listed indications explicitly include <b>SCA6</b>, overlapping the SCA6 half of our Japanese marketing application (SCA3/6). It is, however, an oral symptomatic small molecule (the same molecule is already marketed as Aqneursa in NPC), positioned differently from disease-modifying cell therapy.",
+      "links": [
+        {
+          "label": "Regulatory clearance ↗ 2026/05",
+          "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
+        },
+        {
+          "label": "Trial ↗ NCT07221292",
+          "url": "https://clinicaltrials.gov/study/NCT07221292"
+        }
+      ]
+    }
+  },
+  {
     "id": "steminent-japan-submit-2026-06",
     "date": "2026-06-24",
     "dateDisplay": "2026/06",

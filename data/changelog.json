@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-23",
+    "dateDisplay": "2026/07/23",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增競品 <b>IntraBio levacetylleucine</b>（CACNA1A／含 SCA6，Ph3 NCT07221292，主要指標 SARA），同步登錄至競品全景、臨床試驗雷達與公司情報卡；另新增 6 則科學文獻（SCA8 表現型與 RAN 轉譯機制、幹細胞試驗轉譯準備度查核表、SCA27B 認知與 PET、SCA1 異構物脆弱性、中國南北 SCA 亞型分布）。",
+    "link": {
+      "label": "詳見 競品全景 ↗",
+      "tab": "ov"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added a new competitor, <b>IntraBio levacetylleucine</b> (CACNA1A incl. SCA6, Ph3 NCT07221292, primary endpoint SARA), registered across the competitor landscape, trial radar and company card; plus 6 scientific papers (SCA8 phenotype and RAN translation, a translational-readiness checklist for stem-cell trials, SCA27B cognition and PET, SCA1 isoform vulnerability, north-vs-south China SCA subtype distribution).",
+      "linkLabel": "See Competitor Landscape ↗"
+    }
+  },
+  {
     "date": "2026-07-22",
     "dateDisplay": "2026/07/22",
     "tag": "每日掃描",
