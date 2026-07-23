@@ -740,7 +740,8 @@
           "url": "https://www.biogen.com/"
         }
       ]
-    }
+    },
+    "co": "biogen-ionis"
   },
   {
     "id": "ionis-bm",
@@ -769,7 +770,8 @@
           "url": "https://neurology.ionis.com/our-pipeline"
         }
       ]
-    }
+    },
+    "co": "biogen-ionis"
   },
   {
     "id": "ultragenyx",
@@ -826,6 +828,7 @@
           "url": "https://www.uniqure.com/"
         }
       ]
-    }
+    },
+    "co": "uniqure"
   }
 ]

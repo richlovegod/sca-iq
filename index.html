@@ -172,6 +172,8 @@
   .corow:last-child{border-bottom:none}
   .corow b{color:#fff}
   .co-empty{font-size:12px;color:#6a7c92;padding:2px 0}
+  .colink{color:#7fb2ff;text-decoration:none;border-bottom:1px dotted #3f6bbd}
+  .colink:hover{color:#a8ccff;border-bottom-color:#7fb2ff}
   .lit-co{display:inline-block;font-size:10px;font-weight:700;color:#7db6ff;background:#12233a;border:1px solid #2b4a6d;border-radius:20px;padding:1px 8px;margin-left:6px}
   /* 全站中英切換：同一段內容中英各寫一份，依 <html data-lang> 顯示其一 */
   html[data-lang="zh"] .i18n.en{display:none}
@@ -186,7 +188,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v"><span class="i18n zh">競品情報監測平台 · v2.1</span><span class="i18n en">Competitive Intelligence Platform · v2.1</span></span> <a href="versions.html" class="relnote"><span class="i18n zh">控制台 ↗</span><span class="i18n en">Console ↗</span></a></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v"><span class="i18n zh">競品情報監測平台 · v2.1</span><span class="i18n en">Competitive Intelligence Platform · v2.1</span></span> <a href="company.html" class="relnote"><span class="i18n zh">公司總覽 ↗</span><span class="i18n en">All companies ↗</span></a> <a href="versions.html" class="relnote"><span class="i18n zh">控制台 ↗</span><span class="i18n en">Console ↗</span></a></div>
         <div class="tag"><span class="live"></span><span class="i18n zh">脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</span><span class="i18n en">Spinocerebellar ataxia (SCA) treatment landscape · AI-monitored · daily scan, weekly digest</span></div>
       </div>
       <div class="meta">
@@ -568,7 +570,7 @@ var I18N={
   lnkPaper:{zh:'論文 ↗',en:'Paper ↗'},lnkTrial:{zh:'試驗 ↗',en:'Trial ↗'},lnkPatent:{zh:'專利 ↗',en:'Patent ↗'},
   lnkSource:{zh:'來源 ↗',en:'Source ↗'},lnkSite:{zh:'官網 ↗',en:'Website ↗'},lnkGP:{zh:'Google Patents ↗',en:'Google Patents ↗'},
   /* 公司情報卡 */
-  coCta:{zh:'▸ 公司情報卡',en:'▸ Company dossier'},
+  coCta:{zh:'▸ 開啟公司頁 ↗',en:'▸ Open company page ↗'},
   coCountry:{zh:'國別',en:'Country'},coTicker:{zh:'股票',en:'Ticker'},coMech:{zh:'機制',en:'Mechanism'},coPipe:{zh:'Pipeline',en:'Pipeline'},
   coTrials:{zh:'臨床試驗 Clinical trials',en:'Clinical trials'},coResults:{zh:'試驗結果讀出 Readouts',en:'Trial readouts'},
   coPatents:{zh:'專利 Patents',en:'Patents'},coPapers:{zh:'相關論文 Papers',en:'Related papers'},
@@ -680,8 +682,11 @@ function renderLandscape(){
     var cta=companiesById[c.id]?('<div class="co-cta">'+esc(T('coCta'))+'</div>'):'';
     var rg=RING_LABEL[c.ring||'sca']||RING_LABEL.sca;
     var rb=' <span class="dbadge '+rg.cls+'">'+esc(rg[LANG]||rg.zh)+'</span>';
+    var nameHtml=companiesById[c.id]
+      ? '<a class="co colink" href="company.html?id='+encodeURIComponent(c.id)+'">'+esc(L(c,'company'))+'</a>'
+      : '<span class="co">'+esc(L(c,'company'))+'</span>';
     return '<tr'+(c.threat==='us'?' class="us"':'')+' data-f="'+esc(c.threat)+'" data-ring="'+esc(c.ring||'sca')+'"'+(companiesById[c.id]?(' data-co="'+esc(c.id)+'"'):'')+'>'+
-      '<td'+(companiesById[c.id]?(' onclick="openCompany(\''+esc(c.id)+'\')"'):'')+'><span class="co">'+esc(L(c,'company'))+'</span>'+rb+'<br><span class="asset">'+esc(L(c,'asset'))+'</span>'+cta+'</td>'+
+      '<td>'+nameHtml+rb+'<br><span class="asset">'+esc(L(c,'asset'))+'</span>'+cta+'</td>'+
       '<td class="mod">'+L(c,'mechanism')+'</td>'+
       '<td class="mod">'+L(c,'indication')+'</td>'+
       '<td>'+esc(L(c,'phase'))+'</td>'+
@@ -710,7 +715,9 @@ function bmCard(b){
   var reg=BM_REGION[b.region]||{zh:b.region,en:b.region};
   var links=LA(b,'links').map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+'</a>';}).join(' ');
   var cross=b.crossTab?('<br><a class="src" href="javascript:void(0)" onclick="goTab(&quot;'+b.crossTab+'&quot;);return false;">'+T('bmAlsoLs')+'</a>'):'';
-  return '<li'+cls+'><span class="tag '+(b.highlight?'t-win':'t-info')+'">'+esc(reg[LANG]||reg.zh)+'</span><b>'+esc(L(b,'company'))+'</b>'+
+  var bid=b.co||b.id;
+  var bname=companiesById[bid]?('<a class="colink" href="company.html?id='+encodeURIComponent(bid)+'"><b>'+esc(L(b,'company'))+'</b></a>'):('<b>'+esc(L(b,'company'))+'</b>');
+  return '<li'+cls+'><span class="tag '+(b.highlight?'t-win':'t-info')+'">'+esc(reg[LANG]||reg.zh)+'</span>'+bname+
     '<br><span style="color:#6a7c92;font-size:11px">'+esc(L(b,'modality'))+(L(b,'asset')?(' · '+esc(L(b,'asset'))):'')+'</span>'+
     '<br><span style="color:#9fb4cc;font-size:12px">'+L(b,'milestone')+'</span>'+
     (links?('<br>'+links):'')+cross+'</li>';
@@ -854,7 +861,7 @@ function closeCompany(){q2('coModal').classList.remove('on');}
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeCompany();});
 fetch('data/companies.json').then(function(r){return r.json();}).then(function(d){
   companiesData=d; companiesById={}; d.forEach(function(c){companiesById[c.id]=c;});
-  renderLandscape(); renderPapers();
+  renderLandscape(); renderPapers(); renderBenchmarks();
 }).catch(function(){});
 
 /* ── 競品試驗結果與讀出 data/results.json（依來源類型篩選） ── */

@@ -13,7 +13,6 @@
     "url": "https://www.steminent.com/",
     "match": [
       "Steminent",
-      "仲恩",
       "Stemchymal"
     ],
     "updates": [
@@ -362,8 +361,7 @@
     "url": "https://www.solaxa.com/",
     "match": [
       "Solaxa",
-      "SLX-100",
-      "SCA27B"
+      "SLX-100"
     ],
     "updates": [
       {
@@ -399,7 +397,6 @@
     "url": "https://www.annjibio.com/",
     "match": [
       "AnnJi",
-      "安基",
       "AJ201",
       "rosolutamide"
     ],
@@ -423,6 +420,758 @@
           "text": "Presented a preliminary global Ph3 design at the KDA conference; received FDA Fast Track"
         }
       ]
+    }
+  },
+  {
+    "id": "neurolixis",
+    "name": "Neurolixis",
+    "nameEn": "Neurolixis",
+    "short": "Neurolixis",
+    "country": "美國／歐盟 US/EU",
+    "ticker": "未上市 Private",
+    "mechanism": "小分子，5-HT1A 受體促效劑",
+    "pipeline": "NLX-112（befiradol）｜SCA3（另帕金森）：SCA 臨床前／PD Ph2",
+    "insight": "SCA 適應症已有美歐孤兒藥資格，但 SCA3 僅有動物數據、尚未進入人體；臨床主戰場是帕金森的左旋多巴引發異動症。",
+    "threat": "low",
+    "url": "https://www.neurologylive.com/view/european-commission-grants-nlx-112-orphan-medicinal-product-designation-spinocerebellar-ataxia",
+    "match": [
+      "Neurolixis",
+      "NLX-112",
+      "befiradol"
+    ],
+    "updates": [],
+    "en": {
+      "country": "US / EU",
+      "mechanism": "Small molecule, 5-HT1A receptor agonist",
+      "pipeline": "NLX-112 (befiradol) | SCA3 (also Parkinson's): SCA preclinical / PD Ph2",
+      "insight": "Holds US and EU orphan designations in SCA, but SCA3 evidence is animal-only with no human trial yet; its clinical focus is levodopa-induced dyskinesia in Parkinson's.",
+      "ticker": "Private"
+    }
+  },
+  {
+    "id": "seelos",
+    "name": "Seelos Therapeutics",
+    "nameEn": "Seelos Therapeutics",
+    "short": "Seelos",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: SEEL",
+    "mechanism": "自噬誘導，清除蛋白聚集",
+    "pipeline": "SLS-005（靜脈 trehalose）｜SCA（SCA3 為主）：註冊型 Ph2/3（已暫停）",
+    "insight": "SCA3 註冊型 Ph2/3 於 2023/04 因商業考量暫停收案、資源轉向 ALS；公開來源未見重啟。孤兒藥資格與快速通道仍在。",
+    "threat": "low",
+    "url": "https://www.prnewswire.com/news-releases/seelos-therapeutics-announces-fda-acceptance-of-investigational-new-drug-application-and-grant-of-fast-track-designation-for-sls-005-iv-trehalose-for-the-treatment-of-spinocerebellar-ataxia-301417731.html",
+    "match": [
+      "Seelos",
+      "SLS-005",
+      "trehalose"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "Autophagy induction, clearing protein aggregates",
+      "pipeline": "SLS-005 (IV trehalose) | SCA (mainly SCA3): Registrational Ph2/3 (paused)",
+      "insight": "Its registrational SCA3 Ph2/3 paused enrolment in 2023/04 for business reasons, with resources shifted to ALS; no restart has been reported. Orphan designation and Fast Track remain in place."
+    }
+  },
+  {
+    "id": "wave",
+    "name": "Wave Life Sciences",
+    "nameEn": "Wave Life Sciences",
+    "short": "Wave",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: WVE",
+    "mechanism": "ASO／RNA 編輯，對偶基因選擇性",
+    "pipeline": "ATXN3 對偶基因選擇性寡核苷酸｜SCA3：未公開／疑停滯",
+    "insight": "平台強項為對偶基因選擇性沉默（HD 的 WVE-003 已顯示選擇性降低突變 HTT）。SCA3 方向自 2018 年宣布將選定候選藥後，公開來源未見進展。",
+    "threat": "low",
+    "url": "https://wavelifesciences.com/",
+    "match": [
+      "Wave Life",
+      "WVE-",
+      "ATXN3 allele"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "ASO / RNA editing, allele-selective",
+      "pipeline": "Allele-selective ATXN3 oligonucleotide | SCA3: Undisclosed / apparently dormant",
+      "insight": "Platform strength is allele-selective silencing (WVE-003 in HD showed selective lowering of mutant HTT). On SCA3, no public progress since it said in 2018 it would nominate a candidate."
+    }
+  },
+  {
+    "id": "design-tx",
+    "name": "Design Therapeutics",
+    "nameEn": "Design Therapeutics",
+    "short": "Design",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: DSGN",
+    "mechanism": "小分子，標的 GAA 重複、提升 frataxin 表現",
+    "pipeline": "DT-216P2（GeneTAC™）｜Friedreich's Ataxia：Ph1/2（RESTORE-FA）",
+    "insight": "GeneTAC 小分子鎖定核苷酸重複擴增。2026/05 RESTORE-FA 四週靜脈給藥數據見劑量依存 frataxin 上升與臨床改善，將走註冊路徑（2026 Q4 更新）。技術概念與 polyQ 相通，值得追蹤是否延伸 SCA。",
+    "threat": "low",
+    "url": "https://investors.designtx.com/news-releases/news-release-details/design-therapeutics-announces-four-week-iv-data-restore-fa-trial/",
+    "match": [
+      "Design Therapeutics",
+      "GeneTAC",
+      "DT-216"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "Small molecule, targets the GAA repeat to raise frataxin",
+      "pipeline": "DT-216P2 (GeneTAC™) | Friedreich's ataxia: Ph1/2 (RESTORE-FA)",
+      "insight": "GeneTAC small molecules target nucleotide repeat expansions. Four-week IV data from RESTORE-FA in 2026/05 showed dose-dependent frataxin increases and clinical improvement, with a registrational path to be updated in Q4 2026. The concept is adjacent to polyQ, so watch for extension into SCA."
+    }
+  },
+  {
+    "id": "larimar",
+    "name": "Larimar Therapeutics",
+    "nameEn": "Larimar Therapeutics",
+    "short": "Larimar",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: LRMR",
+    "mechanism": "蛋白替代，補充 frataxin",
+    "pipeline": "Nomlabofusp（CTI-1601）｜Friedreich's Ataxia：滾動式 BLA 進行中",
+    "insight": "Frataxin 蛋白替代療法。2026/02 獲突破性療法認定、2026/06/29 遞交加速核准滾動式 BLA 第一模組——共濟失調領域少見走到 BLA 的案例。",
+    "threat": "low",
+    "url": "https://investors.larimartx.com/news-releases/news-release-details/larimar-therapeutics-announces-fda-breakthrough-therapy",
+    "match": [
+      "Larimar",
+      "nomlabofusp",
+      "CTI-1601"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "Protein replacement, frataxin supplementation",
+      "pipeline": "Nomlabofusp (CTI-1601) | Friedreich's ataxia: Rolling BLA under way",
+      "insight": "A frataxin protein replacement therapy. Breakthrough Therapy designation in 2026/02 and the first module of a rolling BLA for accelerated approval submitted on 2026/06/29 — one of the few ataxia programmes to reach BLA stage."
+    }
+  },
+  {
+    "id": "lexeo",
+    "name": "Lexeo Therapeutics",
+    "nameEn": "Lexeo Therapeutics",
+    "short": "Lexeo",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: LXEO",
+    "mechanism": "AAV 基因療法，提升心肌 frataxin",
+    "pipeline": "LX2006｜Friedreich's Ataxia 相關心肌病變：註冊型試驗設計定案",
+    "insight": "AAV 基因療法針對 FA 相關心肌病變。2026/06 樞紐試驗 SUNRISE-FA 2 方案定案，目標 2028 循加速核准遞交 BLA；持有突破性療法、RMAT、孤兒藥、快速通道四項資格。",
+    "threat": "low",
+    "url": "https://www.globenewswire.com/news-release/2026/06/15/3311662/0/en/lexeo-therapeutics-announces-regulatory-update-and-registrational-trial-design-for-lx2006-gene-therapy-in-friedreich-ataxia.html",
+    "match": [
+      "Lexeo",
+      "LX2006"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "AAV gene therapy, raises cardiac frataxin",
+      "pipeline": "LX2006 | Friedreich's ataxia cardiomyopathy: Registrational design finalised",
+      "insight": "AAV gene therapy for FA-associated cardiomyopathy. The SUNRISE-FA 2 pivotal protocol was finalised in 2026/06, targeting a BLA under accelerated approval in 2028; holds Breakthrough, RMAT, Orphan Drug and Fast Track designations."
+    }
+  },
+  {
+    "id": "minoryx",
+    "name": "Minoryx Therapeutics",
+    "nameEn": "Minoryx Therapeutics",
+    "short": "Minoryx",
+    "country": "西班牙 Spain",
+    "ticker": "未上市 Private",
+    "mechanism": "小分子，PPARγ 促效、抗神經發炎",
+    "pipeline": "Leriglitazone｜Friedreich's Ataxia （另 X-ALD、Rett）：FA 為 Ph2 概念驗證",
+    "insight": "Leriglitazone 於 FA 有美歐孤兒藥資格與 Ph2 概念驗證，但公司臨床重心已移向 X-ALD 與 Rett 症候群，FA 未見進入樞紐試驗。",
+    "threat": "low",
+    "url": "https://www.ataxia.org.uk/research-news/minoryx-therapeutics-granted-fda-orphan-drug-designation-in-friedreichs-ataxia-for-new-drug-leriglitazone/",
+    "match": [
+      "Minoryx",
+      "leriglitazone"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Spain",
+      "mechanism": "Small molecule, PPARγ agonist, anti-neuroinflammatory",
+      "pipeline": "Leriglitazone | Friedreich's ataxia (also X-ALD, Rett): Ph2 proof-of-concept in FA",
+      "insight": "Leriglitazone holds US and EU orphan designations in FA with a Ph2 proof-of-concept, but the company's clinical focus has moved to X-ALD and Rett syndrome, with no pivotal trial in FA.",
+      "ticker": "Private"
+    }
+  },
+  {
+    "id": "ptc",
+    "name": "PTC Therapeutics",
+    "nameEn": "PTC Therapeutics",
+    "short": "PTC",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: PTCT",
+    "mechanism": "小分子，15-LO 抑制、氧化壓力",
+    "pipeline": "Vatiquinone｜Friedreich's Ataxia：NDA 受挫",
+    "insight": "Vatiquinone 的 FA 新藥申請於 2025/08 收到 CRL（未證明實質療效證據）。與 Biohaven 並列「共濟失調小分子在 FDA 卡關」的案例。",
+    "threat": "low",
+    "url": "https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-fda-acceptance-and-priority-review-0",
+    "match": [
+      "PTC Therapeutics",
+      "vatiquinone"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "Small molecule, 15-LO inhibition, oxidative stress",
+      "pipeline": "Vatiquinone | Friedreich's ataxia: NDA rejected",
+      "insight": "Vatiquinone's FA NDA received a CRL in 2025/08 (substantial evidence of efficacy not demonstrated). Together with Biohaven, a case of ataxia small molecules stalling at the FDA."
+    }
+  },
+  {
+    "id": "reprocell",
+    "name": "REPROCELL",
+    "nameEn": "REPROCELL",
+    "short": "REPROCELL",
+    "country": "日本 Japan",
+    "ticker": "TSE: 4978",
+    "mechanism": "異體 MSC（日本 MAH）",
+    "pipeline": "Stemchymal®（日本）",
+    "insight": "日本製造販賣業者（MAH）。2026/06/18 向神奈川縣申請 MAH 業許可、2026/06/24 向 PMDA 遞交 Stemchymal 製造販賣承認申請（適應症 SCA3、SCA6），走約 9 個月優先審查。",
+    "threat": "bench",
+    "url": "https://www.prnewswire.com/news-releases/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6-302806662.html",
+    "match": [
+      "REPROCELL",
+      "Stemchymal"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Japan",
+      "mechanism": "Allogeneic MSC (Japanese MAH)",
+      "pipeline": "Stemchymal® (Japan)",
+      "insight": "Japanese marketing authorisation holder. Filed for the MAH business licence with Kanagawa Prefecture on 2026/06/18 and submitted the Stemchymal marketing approval application to PMDA on 2026/06/24 (indications SCA3 and SCA6), under a ~9-month priority review."
+    }
+  },
+  {
+    "id": "sumitomo-racthera",
+    "name": "住友製藥／RACTHERA",
+    "nameEn": "Sumitomo Pharma / RACTHERA",
+    "short": "住友製藥",
+    "country": "日本 Japan",
+    "ticker": "TSE: 4506",
+    "mechanism": "iPSC 衍生多巴胺神經前驅細胞",
+    "pipeline": "AMCHEPRY®（raguneprocel）",
+    "insight": "2026/03/06 日本厚生勞動省授予<b>附條件期限核准</b>，適應症為對既有療法（含左旋多巴）反應不佳的帕金森病運動症狀——與 RiHEART 並列<b>全球首批 iPSC 衍生細胞治療核准案</b>。Ph1/2 為 7 人植入，4 人見運動功能改善、無相關嚴重不良事件。",
+    "threat": "bench",
+    "url": "https://www.sumitomo-pharma.com/news/20260306.html",
+    "match": [
+      "住友製藥",
+      "AMCHEPRY"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Japan",
+      "mechanism": "iPSC-derived dopaminergic neural progenitors",
+      "pipeline": "AMCHEPRY® (raguneprocel)",
+      "insight": "On 2026/03/06 Japan's MHLW granted <b>conditional, time-limited approval</b> for motor symptoms of Parkinson's disease in patients not responding to existing therapy including levodopa — together with RiHEART, <b>among the world's first approved iPSC-derived cell therapies</b>. The Ph1/2 implanted 7 patients, with motor improvement in 4 and no related serious adverse events."
+    }
+  },
+  {
+    "id": "cuorips",
+    "name": "Cuorips",
+    "nameEn": "Cuorips",
+    "short": "Cuorips",
+    "country": "日本 Japan",
+    "ticker": "TSE: 5883",
+    "mechanism": "iPSC 衍生心肌細胞片",
+    "pipeline": "RiHEART®（ReHeart）",
+    "insight": "2026/03/06 獲日本<b>附條件期限核准</b>（心衰竭），與 AMCHEPRY 並列全球首批 iPSC 療法。iPS 心肌細胞片外科貼附於心臟表面，促進血管新生。公開報導之日本國內價格為 <b>5,320 萬日圓</b>（約 32.6 萬美元）；2026 年秋季在日本上市。",
+    "threat": "bench",
+    "url": "https://sj.jst.go.jp/news/202603/n0313-01n.html",
+    "match": [
+      "Cuorips",
+      "RiHEART"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Japan",
+      "mechanism": "iPSC-derived cardiomyocyte sheets",
+      "pipeline": "RiHEART® (ReHeart)",
+      "insight": "Received Japanese <b>conditional, time-limited approval</b> on 2026/03/06 (heart failure), alongside AMCHEPRY as among the world's first iPSC therapies. Sheets of iPSC-derived cardiomyocytes are surgically applied to the heart surface to promote vascularisation. Reported Japanese price is <b>¥53.2 million</b> (about US$326,400); launch in Japan planned for autumn 2026."
+    }
+  },
+  {
+    "id": "heartseed",
+    "name": "Heartseed",
+    "nameEn": "Heartseed",
+    "short": "Heartseed",
+    "country": "日本 Japan",
+    "ticker": "TSE: 219A",
+    "mechanism": "iPSC 衍生心肌細胞球",
+    "pipeline": "HS-001／HS-005",
+    "insight": "2026 年 3 月底於信州大學醫院完成 HS-005 首例給藥（EMERALD Ph1/2，擴張型心肌病），為<b>全球首例以導管投與 iPS 心肌細胞球</b>；每 cohort 7 人、共 14 人。既有主力 HS-001 需開胸手術，HS-005 改為經心內膜導管、侵入性較低。",
+    "threat": "bench",
+    "url": "https://www.biospace.com/press-releases/heartseed-worlds-first-clinical-trial-of-catheter-administration-of-ipsc-derived-cardiomyocyte-spheroids-first-patient-dosed",
+    "match": [
+      "Heartseed",
+      "HS-001／HS-005"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Japan",
+      "mechanism": "iPSC-derived cardiomyocyte spheroids",
+      "pipeline": "HS-001 / HS-005",
+      "insight": "Dosed the first HS-005 patient at Shinshu University Hospital in late March 2026 (EMERALD Ph1/2, dilated cardiomyopathy) — the <b>world's first catheter administration of iPSC-derived cardiomyocyte spheroids</b>; 7 patients per cohort, 14 in total. Its earlier lead HS-001 requires open-heart surgery, while HS-005 uses a less invasive endocardial catheter."
+    }
+  },
+  {
+    "id": "healios",
+    "name": "Healios",
+    "nameEn": "Healios",
+    "short": "Healios",
+    "country": "日本 Japan",
+    "ticker": "TSE: 4593",
+    "mechanism": "體細胞（多能成體前驅細胞）與 iPSC",
+    "pipeline": "HLCM051（invimestrocel）",
+    "insight": "以急性呼吸窘迫症候群（ARDS）為主軸，已於日本遞交全球 Ph3 試驗計畫（REVIVE-ARDS，隨機安慰劑對照、最多 550 人，主要終點為無呼吸器天數），策略上尋求依 Ph2 結果在日本取得<b>附條件期限核准</b>；另有缺血性腦中風與外傷適應症、以及 iPSC 衍生基因改造殺手細胞平台。",
+    "threat": "bench",
+    "url": "https://www.tipranks.com/news/company-announcements/healios-files-japan-trial-plan-for-global-phase-3-ards-stem-cell-study",
+    "match": [
+      "Healios",
+      "HLCM051"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Japan",
+      "mechanism": "Somatic (multipotent adult progenitor) cells and iPSC",
+      "pipeline": "HLCM051 (invimestrocel)",
+      "insight": "Centred on acute respiratory distress syndrome (ARDS): a global Ph3 trial plan has been filed in Japan (REVIVE-ARDS, randomised placebo-controlled, up to 550 patients, primary endpoint ventilator-free days), with a strategy of seeking <b>conditional, time-limited approval</b> in Japan on the Ph2 results; also pursuing ischaemic stroke and trauma, plus an iPSC-derived gene-engineered killer cell platform."
+    }
+  },
+  {
+    "id": "cellusion",
+    "name": "Cellusion",
+    "nameEn": "Cellusion",
+    "short": "Cellusion",
+    "country": "日本 Japan",
+    "ticker": "未上市 Private",
+    "mechanism": "iPSC 衍生角膜內皮細胞",
+    "pipeline": "CLS001",
+    "insight": "2023/03 於日本再生醫療學會年會發表<b>首例人體移植</b>（iPS 衍生角膜內皮細胞替代物）結果：術後 3 個月未見不良事件，視力、角膜中央與最薄厚度呈改善趨勢。現正籌備日本公司主導試驗與全球試驗。",
+    "threat": "bench",
+    "url": "https://cellusion.jp/news/en/980/",
+    "match": [
+      "Cellusion",
+      "CLS001"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Japan",
+      "mechanism": "iPSC-derived corneal endothelial cells",
+      "pipeline": "CLS001",
+      "insight": "Reported the <b>first-in-human transplant</b> at the Japanese Society for Regenerative Medicine annual meeting in 2023/03: no adverse events at 3 months, with trends toward improved visual acuity and central/thinnest corneal thickness. Company-sponsored Japanese and global trials are in preparation.",
+      "ticker": "Private"
+    }
+  },
+  {
+    "id": "orizuru",
+    "name": "Orizuru Therapeutics",
+    "nameEn": "Orizuru Therapeutics",
+    "short": "Orizuru",
+    "country": "日本 Japan",
+    "ticker": "未上市 Private",
+    "mechanism": "iPSC 衍生胰島細胞等再生細胞平台",
+    "pipeline": "（管線見官網）",
+    "insight": "武田與京大 iPS 細胞研究所 T-CiRA 合作衍生的再生醫療公司，聚焦 iPSC 衍生細胞治療平台（含胰島細胞方向）。<b>公開資訊有限</b>，以官網管線為準。",
+    "threat": "bench",
+    "url": "https://orizuru-therapeutics.com/en/",
+    "match": [
+      "Orizuru Therapeutics"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Japan",
+      "mechanism": "iPSC-derived islet and other regenerative cell platforms",
+      "pipeline": "(see company pipeline)",
+      "insight": "A regenerative-medicine company spun out of the Takeda–CiRA (T-CiRA) collaboration, focused on iPSC-derived cell therapy platforms including islet cells. <b>Public information is limited</b>; refer to the company pipeline.",
+      "ticker": "Private"
+    }
+  },
+  {
+    "id": "scm-lifescience",
+    "name": "SCM Lifescience",
+    "nameEn": "SCM Lifescience",
+    "short": "SCM",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 298060",
+    "mechanism": "純系分離異體 MSC（cMSC）",
+    "pipeline": "Stemchymal®（韓國）等",
+    "insight": "2020/10/13 與 Steminent 簽署<b>韓國獨家授權</b>，取得 Stemchymal 於 polyQ 型脊髓小腦萎縮症（PolyQ SCA）在韓國的臨床開發與商業化權利；對價含預付金、法規里程碑金與兩位數銷售權利金。自有平台為純系分離（clonal isolation）MSC。",
+    "threat": "bench",
+    "url": "https://bioinformant.com/steminent-biotherapeutics-scm-lifescience-stemchymal/",
+    "match": [
+      "SCM Lifescience",
+      "Stemchymal"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Clonally isolated allogeneic MSC (cMSC)",
+      "pipeline": "Stemchymal® (Korea) and others",
+      "insight": "Signed an <b>exclusive Korean licence</b> with Steminent on 2020/10/13 for clinical development and commercialisation of Stemchymal in polyglutamine spinocerebellar ataxia in South Korea; terms include an upfront payment, regulatory milestones and a double-digit royalty. Its own platform is clonally isolated MSC."
+    }
+  },
+  {
+    "id": "corestem",
+    "name": "CorestemChemon",
+    "nameEn": "CorestemChemon",
+    "short": "CorestemChemon",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 217600",
+    "mechanism": "自體骨髓 MSC",
+    "pipeline": "NeuroNata-R®（lenzumestrocel）",
+    "insight": "NeuroNata-R 於 2014 年取得韓國<b>附條件核准</b>用於肌萎縮性側索硬化症（ALS），是神經退化領域少數已上市的 MSC 產品；2026/05 韓國食藥處在完成第三期試驗資料後<b>維持其附條件核准並更新仿單</b>。",
+    "threat": "bench",
+    "url": "https://www.prnewswire.com/news-releases/neuronata-r-retains-conditional-approval-in-south-korea-302827142.html",
+    "match": [
+      "CorestemChemon",
+      "NeuroNata-R"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Autologous bone-marrow MSC",
+      "pipeline": "NeuroNata-R® (lenzumestrocel)",
+      "insight": "NeuroNata-R received Korean <b>conditional approval</b> in 2014 for amyotrophic lateral sclerosis, one of the few marketed MSC products in neurodegeneration; in 2026/05 the MFDS <b>maintained the conditional approval and updated the label</b> after the completed Phase 3."
+    }
+  },
+  {
+    "id": "medipost",
+    "name": "MediPost",
+    "nameEn": "MediPost",
+    "short": "MediPost",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 078160",
+    "mechanism": "臍帶血 MSC",
+    "pipeline": "Cartistem®",
+    "insight": "Cartistem 於 <b>2012 年 1 月取得韓國食藥處核准</b>，用於膝關節軟骨缺損，是異體臍帶血 MSC 商業化的早期案例；公司另有神經退化方向的細胞治療研發。",
+    "threat": "bench",
+    "url": "https://parentsguidecordblood.org/en/news/cartistem-cord-blood-derived-therapy-knee-arthritis",
+    "match": [
+      "MediPost",
+      "Cartistem"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Cord-blood MSC",
+      "pipeline": "Cartistem®",
+      "insight": "Cartistem was <b>approved by Korea's MFDS in January 2012</b> for knee cartilage defects, an early example of commercialised allogeneic cord-blood MSC; the company also runs cell-therapy research in neurodegeneration."
+    }
+  },
+  {
+    "id": "encell",
+    "name": "ENCell",
+    "nameEn": "ENCell",
+    "short": "ENCell",
+    "country": "南韓 South Korea",
+    "ticker": "未上市 Private",
+    "mechanism": "異體 MSC ＋ 細胞/基因 CDMO",
+    "pipeline": "EN001",
+    "insight": "EN001 於 <b>2025/03 取得 FDA 孤兒藥資格</b>（夏柯-馬里-杜斯氏病 CMT）；Ph1 未見劑量限制毒性或輸注相關反應，已進入 Ph1b/2a（NCT06328712，CMT1A），並將適應症擴及裘馨氏肌失養症與肌少症。兼營細胞與基因治療 CDMO。",
+    "threat": "bench",
+    "url": "https://www.businesswire.com/news/home/20250306675394/en/ENCells-EN001-Receives-Orphan-Drug-Designation-from-the-U.S.-FDA-for-Charcot-Marie-Tooth-Disease",
+    "match": [
+      "ENCell",
+      "EN001"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Allogeneic MSC plus cell/gene CDMO",
+      "pipeline": "EN001",
+      "insight": "EN001 received <b>FDA orphan drug designation in 2025/03</b> for Charcot-Marie-Tooth disease; the Ph1 showed no dose-limiting toxicity or infusion-related reactions, and it has advanced to Ph1b/2a (NCT06328712, CMT1A), with expansion into Duchenne muscular dystrophy and sarcopenia. It also operates a cell and gene therapy CDMO.",
+      "ticker": "Private"
+    }
+  },
+  {
+    "id": "sbiomedics",
+    "name": "S.Biomedics",
+    "nameEn": "S.Biomedics",
+    "short": "S.Biomedics",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 304360",
+    "mechanism": "多能幹細胞衍生多巴胺前驅細胞",
+    "pipeline": "A9-DPC（TED-A9）",
+    "insight": "以 GMP 條件自人類胚胎幹細胞製備高純度腹側中腦多巴胺前驅細胞。2025/07 公布帕金森病 Ph1/2a <b>12 人移植後一年</b>安全性與療效數據為正面；2026/02 與 Catalent 建立開發與製造夥伴關係。長期追蹤試驗 NCT06477744。",
+    "threat": "bench",
+    "url": "https://www.globenewswire.com/news-release/2025/07/21/3118506/0/en/S-BIOMEDICS-Cell-Therapy-for-Parkinson-s-Disease-Shows-Positive-Data-from-Its-Phase-1-2a-Clinical-Trial.html",
+    "match": [
+      "S.Biomedics",
+      "A9-DPC"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Pluripotent stem cell-derived dopaminergic progenitors",
+      "pipeline": "A9-DPC (TED-A9)",
+      "insight": "Produces high-purity ventral midbrain dopaminergic progenitors from human embryonic stem cells under GMP. In 2025/07 it reported positive safety and efficacy data <b>one year after transplantation in 12 Parkinson's patients</b> (Ph1/2a); in 2026/02 it entered a development and manufacturing partnership with Catalent. Long-term follow-up trial NCT06477744."
+    }
+  },
+  {
+    "id": "pharmicell",
+    "name": "Pharmicell",
+    "nameEn": "Pharmicell",
+    "short": "Pharmicell",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 005690",
+    "mechanism": "自體骨髓 MSC",
+    "pipeline": "Cellgram®",
+    "insight": "Cellgram-AMI（急性心肌梗塞）為<b>韓國最早核准的幹細胞藥品之一（2011）</b>，常被引用為全球首個獲核准的間質幹細胞藥；公司另營細胞治療 CDMO 與原料事業。<b>細節請以官網與韓國食藥處公告為準。</b>",
+    "threat": "bench",
+    "url": "https://www.pharmicell.com/en/",
+    "match": [
+      "Pharmicell",
+      "Cellgram"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Autologous bone-marrow MSC",
+      "pipeline": "Cellgram®",
+      "insight": "Cellgram-AMI (acute myocardial infarction) was <b>among the first stem cell drugs approved in Korea (2011)</b> and is often cited as the world's first approved mesenchymal stem cell drug; the company also runs cell-therapy CDMO and materials businesses. <b>Verify details against the company site and MFDS announcements.</b>"
+    }
+  },
+  {
+    "id": "anterogen",
+    "name": "Anterogen",
+    "nameEn": "Anterogen",
+    "short": "Anterogen",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 065660",
+    "mechanism": "脂肪來源 MSC",
+    "pipeline": "Cupistem®／Queencell® 等",
+    "insight": "以<b>脂肪來源間質幹細胞</b>在韓國食藥處架構下完成商業化的代表企業（Cupistem 用於克隆氏症肛瘻管）——與本社同屬脂肪 MSC 來源。<b>核准細節請以官網與韓國食藥處公告為準。</b>",
+    "threat": "bench",
+    "url": "http://www.anterogen.com/eng/",
+    "match": [
+      "Anterogen",
+      "Cupistem"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Adipose-derived MSC",
+      "pipeline": "Cupistem® / Queencell® and others",
+      "insight": "A leading example of commercialising <b>adipose-derived mesenchymal stem cells</b> under Korea's MFDS framework (Cupistem for Crohn's fistula) — the same cell source as Steminent's. <b>Verify approval details against the company site and MFDS announcements.</b>"
+    }
+  },
+  {
+    "id": "kangstem",
+    "name": "Kangstem Biotech",
+    "nameEn": "Kangstem Biotech",
+    "short": "Kangstem",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 217730",
+    "mechanism": "臍帶血 MSC",
+    "pipeline": "Furestem 系列",
+    "insight": "以臍帶血來源 MSC 平台開發罕病與發炎性疾病療法（如異位性皮膚炎）。<b>公開資訊有限</b>，管線與進度以官網為準。",
+    "threat": "bench",
+    "url": "https://www.kangstem.com/eng/",
+    "match": [
+      "Kangstem Biotech",
+      "Furestem 系列"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Cord-blood MSC",
+      "pipeline": "Furestem series",
+      "insight": "Develops therapies for rare and inflammatory disorders (such as atopic dermatitis) on a cord-blood MSC platform. <b>Public information is limited</b>; refer to the company site for pipeline and status."
+    }
+  },
+  {
+    "id": "cha-biotech",
+    "name": "CHA Biotech",
+    "nameEn": "CHA Biotech",
+    "short": "CHA",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 085660",
+    "mechanism": "免疫細胞與 MSC 平台、CDMO",
+    "pipeline": "（平台為主）",
+    "insight": "以臍帶血銀行、全球細胞製造與 CDMO 基礎設施為主體的集團型企業，涵蓋免疫細胞與 MSC 平台。<b>公開資訊有限</b>，以官網為準。",
+    "threat": "bench",
+    "url": "https://www.chabio.com/en/",
+    "match": [
+      "CHA Biotech"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Immune cell and MSC platforms, CDMO",
+      "pipeline": "(platform-centric)",
+      "insight": "A group company built around cord-blood banking, global cell manufacturing and CDMO infrastructure, spanning immune cell and MSC platforms. <b>Public information is limited</b>; refer to the company site."
+    }
+  },
+  {
+    "id": "tego",
+    "name": "Tego Science",
+    "nameEn": "Tego Science",
+    "short": "Tego",
+    "country": "南韓 South Korea",
+    "ticker": "KOSDAQ: 191420",
+    "mechanism": "培養組織細胞（角質細胞／纖維母細胞）",
+    "pipeline": "Kaloderm®／Rosmir® 等",
+    "insight": "韓國組織工程與細胞製劑商業化的早期案例（培養皮膚細胞產品）。<b>核准年份與適應症請以官網與韓國食藥處公告為準。</b>",
+    "threat": "bench",
+    "url": "https://www.tegoscience.com/en/",
+    "match": [
+      "Tego Science",
+      "Kaloderm"
+    ],
+    "updates": [],
+    "en": {
+      "country": "South Korea",
+      "mechanism": "Cultured tissue cells (keratinocytes / fibroblasts)",
+      "pipeline": "Kaloderm® / Rosmir® and others",
+      "insight": "An early Korean example of commercialised tissue engineering and cell products (cultured skin cell products). <b>Verify approval years and indications against the company site and MFDS announcements.</b>"
+    }
+  },
+  {
+    "id": "mesoblast",
+    "name": "Mesoblast",
+    "nameEn": "Mesoblast",
+    "short": "Mesoblast",
+    "country": "澳洲／美國 Australia/US",
+    "ticker": "ASX: MSB / NASDAQ: MESO",
+    "mechanism": "異體骨髓 MSC",
+    "pipeline": "Ryoncil®（remestemcel-L-rknd）",
+    "insight": "<b>2024/12/18 獲 FDA 核准</b>，用於 2 個月以上兒童的類固醇難治性急性移植物抗宿主病——<b>首個獲 FDA 核准的間質幹細胞（MSC）產品</b>。核准歷程含 BLA 重新遞交與 PDUFA 展延，是異體 MSC 的 BLA 審查與 CMC 放大量產的關鍵先例。",
+    "threat": "bench",
+    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-remestemcel-l-rknd-steroid-refractory-acute-graft-versus-host-disease-pediatric",
+    "match": [
+      "Mesoblast",
+      "Ryoncil"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Australia / US",
+      "mechanism": "Allogeneic bone-marrow MSC",
+      "pipeline": "Ryoncil® (remestemcel-L-rknd)",
+      "insight": "<b>Approved by the FDA on 2024/12/18</b> for steroid-refractory acute graft-versus-host disease in children aged 2 months and older — the <b>first FDA-approved mesenchymal stem cell product</b>. The path included a BLA resubmission and PDUFA extension, making it the key precedent for allogeneic MSC BLA review and CMC scale-up."
+    }
+  },
+  {
+    "id": "cynata",
+    "name": "Cynata Therapeutics",
+    "nameEn": "Cynata Therapeutics",
+    "short": "Cynata",
+    "country": "澳洲 Australia",
+    "ticker": "ASX: CYP",
+    "mechanism": "iPSC 衍生 MSC（Cymerus™）",
+    "pipeline": "CYP-001／CYP-004",
+    "insight": "以 iPSC 為起始細胞量產 MSC，訴求<b>批次一致性與可規模化</b>。CYP-001（急性 GvHD）隨機雙盲 Ph2 已完成全部 65 人的 100 天主要評估期，頂線數據預計 2026/06；CYP-004（膝骨關節炎）Ph3 結果預計 2026/05。",
+    "threat": "bench",
+    "url": "https://www.biospace.com/press-releases/patient-enrolment-completed-in-phase-2-agvhd-clinical-trial",
+    "match": [
+      "Cynata Therapeutics",
+      "CYP-001／CYP-004"
+    ],
+    "updates": [],
+    "en": {
+      "country": "Australia",
+      "mechanism": "iPSC-derived MSC (Cymerus™)",
+      "pipeline": "CYP-001 / CYP-004",
+      "insight": "Manufactures MSC from iPSC starting material, claiming <b>batch consistency and scalability</b>. The randomised double-blind Ph2 of CYP-001 in acute GvHD completed the 100-day primary evaluation for all 65 participants, with topline expected 2026/06; Ph3 results for CYP-004 in knee osteoarthritis are expected 2026/05."
+    }
+  },
+  {
+    "id": "brainstorm",
+    "name": "BrainStorm Cell Therapeutics",
+    "nameEn": "BrainStorm Cell Therapeutics",
+    "short": "BrainStorm",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: BCLI",
+    "mechanism": "自體 MSC-NTF（分泌神經營養因子）",
+    "pipeline": "NurOwn®",
+    "insight": "神經退化疾病自體 MSC 的代表案例。第一個 Ph3 已完成；<b>2025/05 取得 FDA 同意啟動 Ph3b（ENDURANCE）並以特殊試驗計畫評估（SPA）協議定案設計</b>：約 200 名症狀未滿兩年的中度 ALS 患者，24 週隨機雙盲對照後接 24 週開放延伸。2026/02 已完成募資、備妥啟動。",
+    "threat": "bench",
+    "url": "https://www.prnewswire.com/il/news-releases/brainstorm-receives-fda-clearance-to-initiate-phase-3b-trial-of-nurown-for-als-302458733.html",
+    "match": [
+      "BrainStorm Cell Therapeutics",
+      "NurOwn"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "Autologous MSC-NTF (neurotrophic factor secreting)",
+      "pipeline": "NurOwn®",
+      "insight": "A leading case of autologous MSC in neurodegeneration. The first Ph3 is complete; <b>in 2025/05 the FDA cleared a Ph3b (ENDURANCE) with the design settled under a Special Protocol Assessment</b>: about 200 patients with moderate ALS and under two years of symptoms, 24 weeks randomised double-blind followed by a 24-week open-label extension. Financing was secured and start-up preparations were under way as of 2026/02."
+    }
+  },
+  {
+    "id": "capricor",
+    "name": "Capricor Therapeutics",
+    "nameEn": "Capricor Therapeutics",
+    "short": "Capricor",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: CAPR",
+    "mechanism": "異體心臟球衍生細胞",
+    "pipeline": "Deramiocel（CAP-1002）",
+    "insight": "裘馨氏肌失養症心肌病變。<b>2025 年先收到完全回覆信（FDA 要求補療效資料），其後 FDA 撤回該 CRL 並恢復 BLA 審查，新 PDUFA 目標日 2026/08/22</b>，並已排定細胞、組織與基因治療諮詢委員會會議；重新遞交納入 Ph3 HOPE-3 結果。是罕病細胞治療走 RMAT／加速審查的活教材。",
+    "threat": "bench",
+    "url": "https://www.capricor.com/investors/news-events/press-releases/detail/338/capricor-therapeutics-announces-establishment-of-new-pdufa",
+    "match": [
+      "Capricor Therapeutics",
+      "Deramiocel"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "Allogeneic cardiosphere-derived cells",
+      "pipeline": "Deramiocel (CAP-1002)",
+      "insight": "For Duchenne muscular dystrophy cardiomyopathy. <b>It received a Complete Response Letter in 2025 (the FDA sought more efficacy data); the FDA subsequently lifted that CRL and resumed BLA review with a new PDUFA target of 2026/08/22</b>, and an advisory committee meeting has been scheduled; the resubmission includes Ph3 HOPE-3 results. A live case study of RMAT and accelerated review for rare-disease cell therapy."
+    }
+  },
+  {
+    "id": "bluerock",
+    "name": "BlueRock Therapeutics（Bayer）",
+    "nameEn": "BlueRock Therapeutics (Bayer)",
+    "short": "BlueRock",
+    "country": "美國／德國 US/Germany",
+    "ticker": "Bayer 子公司",
+    "mechanism": "多能幹細胞衍生神經元",
+    "pipeline": "Bemdaneprocel",
+    "insight": "帕金森病神經元replacement。<b>已在 exPDite-2 註冊型 Ph3 完成首例給藥（NCT06944522）——為異體多能幹細胞衍生療法在帕金森病的首個 Ph3 樞紐試驗</b>；收案至多 102 人、美國 7 個站點，主要終點為 78 週的每日「ON 時間（無困擾異動症）」，數據預計 2027。36 個月追蹤持續見正面效果。",
+    "threat": "bench",
+    "url": "https://www.bluerocktx.com/first-parkinsons-disease-patient-treated-in-bluerocks-pivotal-phase-iii-trial-of-investigational-cell-therapy-bemdaneprocel/",
+    "match": [
+      "BlueRock Therapeutics",
+      "Bemdaneprocel"
+    ],
+    "updates": [],
+    "en": {
+      "country": "US / Germany",
+      "mechanism": "Pluripotent stem cell-derived neurons",
+      "pipeline": "Bemdaneprocel",
+      "insight": "Neuronal replacement in Parkinson's disease. <b>The first patient has been dosed in the registrational exPDite-2 Ph3 (NCT06944522) — the first pivotal Ph3 of an allogeneic pluripotent stem cell-derived therapy in Parkinson's</b>; up to 102 patients at 7 US sites, primary endpoint change in daily ON time without troublesome dyskinesia over 78 weeks, data expected 2027. Positive effects continued at 36 months of follow-up.",
+      "ticker": "Bayer subsidiary"
+    }
+  },
+  {
+    "id": "ultragenyx",
+    "name": "Ultragenyx",
+    "nameEn": "Ultragenyx",
+    "short": "Ultragenyx",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: RARE",
+    "mechanism": "基因療法與小分子",
+    "pipeline": "（多項已上市罕病藥）",
+    "insight": "以<b>小樣本罕病族群的試驗執行與法規互動</b>著稱，多項罕病藥物已取得核准，是罕病開發營運面的參照對象。",
+    "threat": "bench",
+    "url": "https://www.ultragenyx.com/",
+    "match": [
+      "Ultragenyx"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "Gene therapy and small molecules",
+      "pipeline": "(multiple marketed rare-disease drugs)",
+      "insight": "Known for <b>executing trials and managing regulatory interactions in very small rare-disease cohorts</b>, with several approved rare-disease products — an operational reference for rare-disease development."
     }
   }
 ]
