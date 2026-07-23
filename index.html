@@ -151,6 +151,7 @@
   .dbadge{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;margin-left:6px;vertical-align:middle;white-space:nowrap}
   .dbadge-phys{background:#14304a;color:#7db6ff;border:1px solid #24567f}
   .dbadge-qol{background:#2a1f3f;color:#c7a3ff;border:1px solid #4a2f7d}
+  .dbadge-adj{background:#2a2418;color:#e0c48a;border:1px solid #6a5a2e}
   /* 競品全景 → 公司詳情 modal（drill-down） */
   #lstab tr[data-co] td:first-child{cursor:pointer}
   #lstab tr[data-co]:hover td{background:#16283a}
@@ -185,7 +186,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v"><span class="i18n zh">競品情報監測平台 · v2.0</span><span class="i18n en">Competitive Intelligence Platform · v2.0</span></span> <a href="versions.html" class="relnote"><span class="i18n zh">控制台 ↗</span><span class="i18n en">Console ↗</span></a></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v"><span class="i18n zh">競品情報監測平台 · v2.1</span><span class="i18n en">Competitive Intelligence Platform · v2.1</span></span> <a href="versions.html" class="relnote"><span class="i18n zh">控制台 ↗</span><span class="i18n en">Console ↗</span></a></div>
         <div class="tag"><span class="live"></span><span class="i18n zh">脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</span><span class="i18n en">Spinocerebellar ataxia (SCA) treatment landscape · AI-monitored · daily scan, weekly digest</span></div>
       </div>
       <div class="meta">
@@ -201,6 +202,7 @@
       <button onclick="tab(event,'jp')"><span class="i18n zh">日本法規時間軸</span><span class="i18n en">Japan Regulatory</span></button>
       <button onclick="tab(event,'pl')"><span class="i18n zh">臨床開發進度</span><span class="i18n en">Pipeline</span></button>
       <button onclick="tab(event,'ip')"><span class="i18n zh">專利與獨占權</span><span class="i18n en">IP &amp; Exclusivity</span></button>
+      <button onclick="tab(event,'bm')"><span class="i18n zh">細胞治療標竿</span><span class="i18n en">Cell Therapy Benchmarks</span></button>
       <button onclick="tab(event,'si')"><span class="i18n zh">科學情報</span><span class="i18n en">Scientific Intel</span></button>
       <button onclick="tab(event,'kb')"><span class="i18n zh">SCA 知識庫</span><span class="i18n en">SCA Knowledge Base</span></button>
       <button onclick="tab(event,'lg')"><span class="i18n zh">更新紀錄</span><span class="i18n en">Changelog</span></button>
@@ -238,16 +240,25 @@
 <section id="ls" class="panel">
   <div class="card">
     <h2><span class="i18n zh">◎ 競品全景 (Competitive Landscape)</span><span class="i18n en">◎ Competitive Landscape</span></h2>
-    <div class="filters">
-      <button class="on" onclick="filt(event,'all')"><span class="i18n zh">全部</span><span class="i18n en">All</span></button>
-      <button onclick="filt(event,'us')"><span class="i18n zh">本社</span><span class="i18n en">Us</span></button>
-      <button onclick="filt(event,'high')"><span class="i18n zh">高威脅</span><span class="i18n en">High threat</span></button>
-      <button onclick="filt(event,'mid')"><span class="i18n zh">中威脅</span><span class="i18n en">Mid threat</span></button>
-      <button onclick="filt(event,'low')"><span class="i18n zh">低威脅</span><span class="i18n en">Low threat</span></button>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px"><span class="i18n zh">依<b>適應症圈層</b>（直接 SCA／鄰近 polyQ／鄰近共濟失調）與<b>威脅等級</b>雙軸篩選。鄰近圈層不是直接競品，但反映賽道熱度與可能的跨適應症延伸。</span><span class="i18n en">Filter on two axes: <b>indication ring</b> (direct SCA / adjacent polyQ / adjacent ataxia) and <b>threat level</b>. Adjacent rings are not direct competitors but show where investment is going and where cross-indication moves could come from.</span></p>
+    <div class="filters" id="ringFilters">
+      <span style="font-size:11px;color:#6a7c92;align-self:center;margin-right:2px"><span class="i18n zh">圈層</span><span class="i18n en">Ring</span></span>
+      <button class="on" onclick="setRing('all',this)"><span class="i18n zh">全部</span><span class="i18n en">All</span></button>
+      <button onclick="setRing('sca',this)"><span class="i18n zh">直接 SCA</span><span class="i18n en">Direct SCA</span></button>
+      <button onclick="setRing('polyq',this)"><span class="i18n zh">鄰近 polyQ</span><span class="i18n en">Adjacent polyQ</span></button>
+      <button onclick="setRing('ataxia',this)"><span class="i18n zh">鄰近共濟失調</span><span class="i18n en">Adjacent ataxia</span></button>
+    </div>
+    <div class="filters" id="threatFilters">
+      <span style="font-size:11px;color:#6a7c92;align-self:center;margin-right:2px"><span class="i18n zh">威脅</span><span class="i18n en">Threat</span></span>
+      <button class="on" onclick="setThreat('all',this)"><span class="i18n zh">全部</span><span class="i18n en">All</span></button>
+      <button onclick="setThreat('us',this)"><span class="i18n zh">本社</span><span class="i18n en">Us</span></button>
+      <button onclick="setThreat('high',this)"><span class="i18n zh">高威脅</span><span class="i18n en">High threat</span></button>
+      <button onclick="setThreat('mid',this)"><span class="i18n zh">中威脅</span><span class="i18n en">Mid threat</span></button>
+      <button onclick="setThreat('low',this)"><span class="i18n zh">低威脅</span><span class="i18n en">Low threat</span></button>
     </div>
     <table id="lstab">
       <thead><tr>
-        <th><span class="i18n zh">公司 / 藥物</span><span class="i18n en">Company / Asset</span></th>
+        <th><span class="i18n zh">公司 / 藥物</span><span class="i18n en">Company / Asset</span><br><span style="font-weight:400;text-transform:none;letter-spacing:0"><span class="i18n zh">（含圈層）</span><span class="i18n en">(with ring)</span></span></th>
         <th><span class="i18n zh">機制</span><span class="i18n en">Mechanism</span></th>
         <th><span class="i18n zh">適應症</span><span class="i18n en">Indication</span></th>
         <th><span class="i18n zh">階段</span><span class="i18n en">Stage</span></th>
@@ -256,7 +267,8 @@
       </tr></thead>
       <tbody id="lsBody"></tbody>
     </table>
-    <p style="font-size:11px;color:#6a7c92;margin-top:10px"><span class="i18n zh">鄰近適應症 (Friedreich's Ataxia)：Biogen omaveloxolone(已上市 FA)、PTC vatiquinone、Minoryx leriglitazone — 非直接競品，反映共濟失調領域投資熱度。</span><span class="i18n en">Adjacent indication (Friedreich's ataxia): Biogen omaveloxolone (approved in FA), PTC vatiquinone, Minoryx leriglitazone — not direct competitors, but a gauge of investment appetite in ataxia.</span></p>
+    <div style="text-align:right;font-size:11px;color:#6a7c92;margin-top:6px" id="lsShown"></div>
+    <p style="font-size:11px;color:#6a7c92;margin-top:10px"><span class="i18n zh">註：Friedreich's Ataxia（鄰近共濟失調圈層）另有 Biogen omaveloxolone 已於 FA 上市，本表未列。威脅等級依「與本社適應症重疊度 × 開發階段」判定，非公司規模。細胞治療與罕病神經的法規／商業化先例見「細胞治療標竿」頁籤。</span><span class="i18n en">Note: in the adjacent-ataxia ring, Biogen's omaveloxolone is already marketed in Friedreich's ataxia and is not listed here. Threat level reflects overlap with our indications × development stage, not company size. Regulatory and commercial precedents in cell therapy and rare neurology are on the Cell Therapy Benchmarks tab.</span></p>
   </div>
 </section>
 
@@ -383,6 +395,31 @@
   </div>
 </section>
 
+<!-- CELL THERAPY BENCHMARKS -->
+<section id="bm" class="panel">
+  <div class="card">
+    <h2><span class="i18n zh">◎ 細胞治療法規與商業化先例</span><span class="i18n en">◎ Cell Therapy Regulatory &amp; Commercial Precedents</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px"><span class="i18n zh">細胞治療領域已走完（或正在走）法規與商業化路徑的案例——日本 PMDA 附條件期限核准、韓國食藥處上市先例、美國 FDA 的 MSC 與細胞治療審查。<b>本區為產業事實整理</b>：只記錄核准年份、監管機關、產品與平台，不含評價或推薦。每筆附可查證來源。</span><span class="i18n en">Cases that have completed — or are working through — the regulatory and commercial path in cell therapy: Japan's PMDA conditional time-limited approvals, Korean MFDS marketing precedents, and FDA review of MSC and cell therapies. <b>This section records industry facts only</b> — approval years, regulators, products and platforms — with no evaluation or recommendation. Every entry cites a verifiable source.</span></p>
+    <div class="filters" id="bmRegionFilters">
+      <span style="font-size:11px;color:#6a7c92;align-self:center;margin-right:2px"><span class="i18n zh">區域</span><span class="i18n en">Region</span></span>
+      <button class="on" onclick="setBmRegion('all',this)"><span class="i18n zh">全部</span><span class="i18n en">All</span></button>
+      <button onclick="setBmRegion('jp',this)"><span class="i18n zh">日本</span><span class="i18n en">Japan</span></button>
+      <button onclick="setBmRegion('kr',this)"><span class="i18n zh">韓國</span><span class="i18n en">South Korea</span></button>
+      <button onclick="setBmRegion('us',this)"><span class="i18n zh">美國／澳洲</span><span class="i18n en">US / Australia</span></button>
+    </div>
+    <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
+      <input id="bmSearch" placeholder="🔍" oninput="renderBenchmarks()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
+      <span id="bmCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+    </div>
+    <ul class="digest" id="bmList"></ul>
+  </div>
+  <div class="card">
+    <h2><span class="i18n zh">◎ 罕病神經開發標竿</span><span class="i18n en">◎ Rare Neurology Development Benchmarks</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px"><span class="i18n zh">罕見神經疾病在終點設計、CNS 遞送、小樣本試驗執行上的主要參照。部分公司同時是競品，已於下方標註連結。</span><span class="i18n en">Key references for endpoint design, CNS delivery and running trials in very small cohorts in rare neurology. Some of these are also competitors, linked below.</span></p>
+    <ul class="digest" id="bmNeuroList"></ul>
+  </div>
+</section>
+
 <!-- SCIENTIFIC INTELLIGENCE -->
 <section id="si" class="panel">
   <div class="card" id="trialradar" style="scroll-margin-top:16px">
@@ -462,7 +499,7 @@
 </section>
 
 <div class="foot">
-  <span class="i18n zh"><b>SCA-IQ 競品情報監測平台 v2.0</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。</span><span class="i18n en"><b>SCA-IQ Competitive Intelligence Platform v2.0</b>　|　Generated by an AI workflow · daily scheduled scan · for Steminent's evaluation<br>Every item on this platform cites a public, verifiable source; the AI only compiles and interprets — it does not invent content.</span><br>
+  <span class="i18n zh"><b>SCA-IQ 競品情報監測平台 v2.1</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。</span><span class="i18n en"><b>SCA-IQ Competitive Intelligence Platform v2.1</b>　|　Generated by an AI workflow · daily scheduled scan · for Steminent's evaluation<br>Every item on this platform cites a public, verifiable source; the AI only compiles and interprets — it does not invent content.</span><br>
   <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none"><span class="i18n zh">控制台 ↗</span><span class="i18n en">Console ↗</span></a>
 </div>
 </div>
@@ -559,7 +596,11 @@ var I18N={
   errEvents:{zh:'（會議資料載入失敗）',en:'(failed to load conference data)'},
   errPatents:{zh:'（專利資料載入失敗）',en:'(failed to load patent data)'},
   errExcl:{zh:'（獨占權資料載入失敗）',en:'(failed to load exclusivity data)'},
-  errComp:{zh:'（競品資料載入失敗）',en:'(failed to load competitor data)'}
+  errComp:{zh:'（競品資料載入失敗）',en:'(failed to load competitor data)'},
+  bmSearch:{zh:'🔍 搜尋公司／產品／平台…',en:'🔍 Search company / product / platform…'},
+  bmModality:{zh:'模式',en:'Modality'},bmAsset:{zh:'產品',en:'Product'},bmMile:{zh:'法規／商業化里程碑',en:'Regulatory / commercial milestone'},
+  bmAlsoLs:{zh:'▸ 亦見競品全景',en:'▸ also in the competitive landscape'},
+  errBm:{zh:'（標竿資料載入失敗）',en:'(failed to load benchmark data)'}
 };
 
 function setLang(l){
@@ -570,7 +611,7 @@ function setLang(l){
   document.title=T('title');
   var zb=q2('langZh'),eb=q2('langEn');
   if(zb&&eb){zb.classList.toggle('on',LANG==='zh');eb.classList.toggle('on',LANG==='en');}
-  var ph=[['paperSearch','pSearch'],['resultsSearch','rSearch'],['assessmentSearch','aSearch'],['nhSearch','nSearch']];
+  var ph=[['paperSearch','pSearch'],['resultsSearch','rSearch'],['assessmentSearch','aSearch'],['nhSearch','nSearch'],['bmSearch','bmSearch']];
   ph.forEach(function(p){var el=q2(p[0]); if(el) el.placeholder=T(p[1]);});
   ['coaH2','coaIntro','nhH2','nhIntro'].forEach(function(id){var el=q2(id); if(el) el.textContent=T(id);});
   var lg=q2('kbLegend'); if(lg) lg.innerHTML=T('legendPhys');
@@ -579,7 +620,7 @@ function setLang(l){
 function renderAll(){
   renderLandscape();renderPapers();renderTrials();renderNews();renderResults();
   renderChangelog();renderEvents();renderPatents();renderExclusivity();
-  renderAssessments();renderNaturalHistory();renderHeartbeat();
+  renderAssessments();renderNaturalHistory();renderBenchmarks();renderHeartbeat();
 }
 
 function tab(e,id){
@@ -600,30 +641,47 @@ function goTab(id,anchor){
     else{window.scrollTo(0,0);}
   });
 }
-var lsFilter='all';
-function filt(e,f){
-  lsFilter=f;
-  document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('on'));
-  if(e&&e.currentTarget) e.currentTarget.classList.add('on');
+var ringFilter='all', threatFilter='all';
+function setRing(f,btn){
+  ringFilter=f;
+  document.querySelectorAll('#ringFilters button').forEach(b=>b.classList.remove('on'));
+  if(btn) btn.classList.add('on');
+  applyLsFilter();
+}
+function setThreat(f,btn){
+  threatFilter=f;
+  document.querySelectorAll('#threatFilters button').forEach(b=>b.classList.remove('on'));
+  if(btn) btn.classList.add('on');
   applyLsFilter();
 }
 function applyLsFilter(){
+  var shown=0;
   document.querySelectorAll('#lstab tr[data-f]').forEach(r=>{
-    r.style.display = (lsFilter==='all'||r.dataset.f===lsFilter) ? '' : 'none';
+    var ok = (ringFilter==='all'||r.dataset.ring===ringFilter) && (threatFilter==='all'||r.dataset.f===threatFilter);
+    r.style.display = ok ? '' : 'none';
+    if(ok) shown++;
   });
+  var el=q2('lsShown'); if(el) el.textContent=I18N.countRows[LANG](shown,(ringFilter!=='all'||threatFilter!=='all'));
 }
 
 /* ── 競品全景：由 data/competitors.json 動態渲染（可點列開公司情報卡） ── */
 var competitorsData=[];
 var THREAT_PILL={us:'p-us',self:'p-us',high:'p-high',mid:'p-mid',low:'p-low'};
+var RING_LABEL={
+  sca:{zh:'直接 SCA',en:'Direct SCA',cls:'dbadge-phys'},
+  polyq:{zh:'鄰近 polyQ',en:'Adjacent polyQ',cls:'dbadge-qol'},
+  ataxia:{zh:'鄰近共濟失調',en:'Adjacent ataxia',cls:'dbadge-adj'}
+};
 function renderLandscape(){
   var tb=q2('lsBody'); if(!tb) return;
   tb.innerHTML=competitorsData.map(function(c){
     var links=(LANG==='en'&&c.en&&c.en.links)?c.en.links:(c.links||[]);
     var lk=links.map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+'</a>';}).join(' ');
     var cta=companiesById[c.id]?('<div class="co-cta">'+esc(T('coCta'))+'</div>'):'';
-    return '<tr'+(c.threat==='us'?' class="us"':'')+' data-f="'+esc(c.threat)+'"'+(companiesById[c.id]?(' data-co="'+esc(c.id)+'"'):'')+'>'+
-      '<td'+(companiesById[c.id]?(' onclick="openCompany(\''+esc(c.id)+'\')"'):'')+'><span class="co">'+esc(L(c,'company'))+'</span><br><span class="asset">'+esc(L(c,'asset'))+'</span>'+cta+'</td>'+
+    var rg=RING_LABEL[c.ring||'sca']||RING_LABEL.sca;
+    var rb=' <span class="dbadge '+rg.cls+'">'+esc(rg[LANG]||rg.zh)+'</span>';
+    return '<tr'+(c.threat==='us'?' class="us"':'')+' data-f="'+esc(c.threat)+'" data-ring="'+esc(c.ring||'sca')+'"'+(companiesById[c.id]?(' data-co="'+esc(c.id)+'"'):'')+'>'+
+      '<td'+(companiesById[c.id]?(' onclick="openCompany(\''+esc(c.id)+'\')"'):'')+'><span class="co">'+esc(L(c,'company'))+'</span>'+rb+'<br><span class="asset">'+esc(L(c,'asset'))+'</span>'+cta+'</td>'+
       '<td class="mod">'+L(c,'mechanism')+'</td>'+
       '<td class="mod">'+L(c,'indication')+'</td>'+
       '<td>'+esc(L(c,'phase'))+'</td>'+
@@ -637,6 +695,40 @@ function renderLandscape(){
 fetch('data/competitors.json').then(function(r){return r.json();}).then(function(d){
   competitorsData=d; renderLandscape();
 }).catch(function(){var tb=q2('lsBody'); if(tb) tb.innerHTML='<tr><td colspan="6" style="color:#8b9bb0">'+T('errComp')+'</td></tr>';});
+
+/* ── 細胞治療標竿：data/benchmarks.json（產業事實，中立呈現） ── */
+var benchData=[], bmRegion='all';
+var BM_REGION={jp:{zh:'日本',en:'Japan'},kr:{zh:'韓國',en:'South Korea'},us:{zh:'美國／澳洲',en:'US / Australia'},eu:{zh:'歐洲',en:'Europe'}};
+function setBmRegion(f,btn){
+  bmRegion=f;
+  document.querySelectorAll('#bmRegionFilters button').forEach(b=>b.classList.remove('on'));
+  if(btn) btn.classList.add('on');
+  renderBenchmarks();
+}
+function bmCard(b){
+  var cls=b.highlight?' class="win"':'';
+  var reg=BM_REGION[b.region]||{zh:b.region,en:b.region};
+  var links=LA(b,'links').map(function(l){return '<a class="src" href="'+esc(l.url)+'" target="_blank">'+esc(l.label)+'</a>';}).join(' ');
+  var cross=b.crossTab?('<br><a class="src" href="javascript:void(0)" onclick="goTab(&quot;'+b.crossTab+'&quot;);return false;">'+T('bmAlsoLs')+'</a>'):'';
+  return '<li'+cls+'><span class="tag '+(b.highlight?'t-win':'t-info')+'">'+esc(reg[LANG]||reg.zh)+'</span><b>'+esc(L(b,'company'))+'</b>'+
+    '<br><span style="color:#6a7c92;font-size:11px">'+esc(L(b,'modality'))+(L(b,'asset')?(' · '+esc(L(b,'asset'))):'')+'</span>'+
+    '<br><span style="color:#9fb4cc;font-size:12px">'+L(b,'milestone')+'</span>'+
+    (links?('<br>'+links):'')+cross+'</li>';
+}
+function renderBenchmarks(){
+  var ul=q2('bmList'); if(!ul) return;
+  var q=(q2('bmSearch').value||'').toLowerCase().trim();
+  var rows=benchData.filter(function(b){return b.group==='cell';});
+  if(bmRegion!=='all') rows=rows.filter(function(b){return b.region===bmRegion;});
+  if(q) rows=rows.filter(function(b){return JSON.stringify(b).toLowerCase().indexOf(q)>=0;});
+  rows=rows.slice().sort(function(a,b){return (b.highlight?1:0)-(a.highlight?1:0);});
+  ul.innerHTML=rows.map(bmCard).join('');
+  q2('bmCount').textContent=I18N.countRows[LANG](rows.length,(bmRegion!=='all'||!!q));
+  var nl=q2('bmNeuroList');
+  if(nl) nl.innerHTML=benchData.filter(function(b){return b.group==='neuro';}).map(bmCard).join('');
+}
+fetch('data/benchmarks.json').then(function(r){return r.json();}).then(function(d){benchData=d;renderBenchmarks();}).catch(function(){
+  var ul=q2('bmList'); if(ul) ul.innerHTML='<li style="color:#8b9bb0">'+T('errBm')+'</li>';});
 
 /* ── 文獻雷達：data/papers.json ── */
 var papersData=[], papersExpanded=false;

@@ -347,5 +347,82 @@
       "pipeline": "Riluzole | SCA (off-label): marketed, symptomatic relief only, does not modify disease course",
       "insight": "A baseline comparator rather than a direct competitor; use in SCA is off-label."
     }
+  },
+  {
+    "id": "solaxa",
+    "name": "Solaxa",
+    "nameEn": "Solaxa Inc.",
+    "short": "Solaxa",
+    "country": "美國 USA",
+    "ticker": "公益公司 PBC",
+    "mechanism": "小分子（4-aminopyridine 再定位）",
+    "pipeline": "SLX-100｜SCA27B：註冊型臨床試驗（2025/03 宣布），與多家共濟失調卓越中心合作",
+    "insight": "SCA27B（FGF14 GAA 重複）目前無 FDA 核准療法。試驗部分經費來自 CDMRP 對 UCLA Susan Perlman 醫師的 $7.3M 補助——與本社美國二期同一位主持人。與本社 SCA3/6 不同亞型，但若先取證將是 SCA 領域首個核准藥。",
+    "threat": "mid",
+    "url": "https://www.solaxa.com/",
+    "match": [
+      "Solaxa",
+      "SLX-100",
+      "SCA27B"
+    ],
+    "updates": [
+      {
+        "date": "2025/03",
+        "text": "宣布 SCA27B 註冊型臨床試驗"
+      }
+    ],
+    "en": {
+      "country": "USA",
+      "ticker": "Public benefit corporation",
+      "mechanism": "Small molecule (repurposed 4-aminopyridine)",
+      "pipeline": "SLX-100 | SCA27B: registrational trial announced 2025/03, run with leading ataxia centres of excellence",
+      "insight": "There is no FDA-approved therapy for SCA27B (FGF14 GAA repeat). The trial is funded in part by a $7.3M CDMRP grant to Dr Susan Perlman at UCLA — the same principal investigator as Steminent's US Phase 2. A different subtype from Steminent's SCA3/6, but the first to reach approval would be the first approved drug in SCA.",
+      "updates": [
+        {
+          "date": "2025/03",
+          "text": "Announced a registrational trial in SCA27B"
+        }
+      ]
+    }
+  },
+  {
+    "id": "annji",
+    "name": "安基生技 AnnJi",
+    "nameEn": "AnnJi Pharmaceutical",
+    "short": "安基",
+    "country": "台灣 Taiwan",
+    "ticker": "未上市 Private",
+    "mechanism": "小分子（降解突變雄性素受體、活化 Nrf1/Nrf2）",
+    "pipeline": "AJ201（rosolutamide）｜SBMA：Ph1b/2a 完成、規劃全球 Ph3；FDA 孤兒藥資格另含 HD 與 SCA",
+    "insight": "台灣本土的 polyQ 玩家。臨床目前僅在 SBMA（甘迺迪症），但孤兒藥資格已涵蓋 SCA，是最可能從鄰近適應症切入 SCA 的在地公司。美國權利已授權 Avenue Therapeutics。",
+    "threat": "low",
+    "url": "https://www.annjibio.com/",
+    "match": [
+      "AnnJi",
+      "安基",
+      "AJ201",
+      "rosolutamide"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "KDA 年會公布全球多中心 Ph3 初步設計；獲 FDA 快速通道"
+      }
+    ],
+    "en": {
+      "name": "AnnJi Pharmaceutical",
+      "short": "AnnJi",
+      "country": "Taiwan",
+      "ticker": "Private",
+      "mechanism": "Small molecule (degrades mutant androgen receptor; activates Nrf1/Nrf2)",
+      "pipeline": "AJ201 (rosolutamide) | SBMA: Ph1b/2a complete, global Ph3 planned; FDA orphan designation also covers HD and SCA",
+      "insight": "A Taiwan-based polyQ player. Clinical work is in SBMA (Kennedy's disease) only, but its orphan designation already covers SCA, making it the local company most likely to enter SCA from an adjacent indication. US rights are licensed to Avenue Therapeutics.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "Presented a preliminary global Ph3 design at the KDA conference; received FDA Fast Track"
+        }
+      ]
+    }
   }
 ]

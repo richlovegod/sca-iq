@@ -1,5 +1,18 @@
 [
   {
+    "version": "v2.1",
+    "dateDisplay": "2026/07/23",
+    "title": "競品全景擴編至 19 家＋適應症圈層；新增「細胞治療標竿」頁籤",
+    "changes": [
+      "依仲恩 BD 提供的 41 家追蹤名單擴編：競品全景由 9 家增至 19 家，新增 Solaxa（SCA27B 註冊型試驗）、Seelos、Neurolixis、Wave、安基生技 AnnJi、Design Therapeutics、PTC、Larimar、Lexeo、Minoryx",
+      "競品全景新增「適應症圈層」維度（直接 SCA／鄰近 polyQ／鄰近共濟失調），可與威脅等級雙軸篩選，避免鄰近適應症公司被誤讀為直接競品",
+      "更新 Arrowhead：與 Sarepta 的合作下 ARO-ATXN1（SCA1）與 ARO-ATXN3（SCA3）預計 2026 CTA-ready，siRNA 路線將從 SCA2 擴至與本社重疊的亞型",
+      "新增第 9 個頁籤「細胞治療標竿」：22 筆細胞治療法規與商業化先例（日本 PMDA 附條件核准的首批 iPSC 療法、韓國 MSC 上市案例、Mesoblast 首個 FDA 核准 MSC 等）＋4 筆罕病神經開發標竿，僅記錄客觀事實與來源",
+      "誠實標註：Wave Life Sciences 的 SCA3 專案公開來源自 2018 年後無進展、Seelos 註冊型試驗 2023 年暫停——不採用未經查證的第三方描述",
+      "每日掃描修正根因：ClinicalTrials.gov 查詢由單一 SCA 擴為五組適應症（含 Friedreich's ataxia、SBMA、polyglutamine、CACNA1A），避免鄰近圈層競品再被漏掉"
+    ]
+  },
+  {
     "version": "v2.0",
     "dateDisplay": "2026/07/22",
     "title": "全站中英雙語切換；競品全景改為資料庫驅動",

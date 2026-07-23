@@ -44,83 +44,8 @@
           "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/"
         }
       ]
-    }
-  },
-  {
-    "id": "biohaven",
-    "threat": "mid",
-    "company": "Biohaven",
-    "asset": "Troriluzole",
-    "mechanism": "小分子<br>麩胺酸調節",
-    "indication": "pan-SCA",
-    "phase": "NDA 受挫",
-    "status": "<b style=\"color:#ff8a7a\">FDA CRL (2025/11)</b>；R&D 砍 60%、爭取與 FDA 再協商 (2026/02)",
-    "threatLabel": "中↓",
-    "links": [
-      {
-        "label": "CRL ↗ 2025/11",
-        "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
-      },
-      {
-        "label": "R&D↓60% ↗",
-        "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease"
-      }
-    ],
-    "en": {
-      "mechanism": "Small molecule<br>glutamate modulation",
-      "indication": "pan-SCA",
-      "phase": "NDA rejected",
-      "status": "<b style=\"color:#ff8a7a\">FDA CRL (2025/11)</b>; R&D spend cut 60%, seeking further discussions with FDA (2026/02)",
-      "threatLabel": "Mid↓",
-      "links": [
-        {
-          "label": "CRL ↗ 2025/11",
-          "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
-        },
-        {
-          "label": "R&D↓60% ↗",
-          "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease"
-        }
-      ]
-    }
-  },
-  {
-    "id": "intrabio",
-    "threat": "mid",
-    "company": "IntraBio",
-    "asset": "Levacetylleucine<br>(N-acetyl-L-leucine)",
-    "mechanism": "小分子<br>口服、胺基酸衍生物",
-    "indication": "CACNA1A 相關疾病<br><b>含 SCA6</b>、EA2、FHM1",
-    "phase": "Ph3",
-    "status": "IB1001-304 樞紐試驗：<b>2026/05 獲美/英/歐盟/瑞士監管放行</b>，12 個跨國站點啟動中；12 週隨機雙盲安慰劑對照交叉，n≈60、4 歲以上，<b>主要指標 SARA</b>，估 2026/09 起始。同成分已以 Aqneursa 於 NPC 上市。<b style=\"color:#ffce7a\">與本社日本申請的 SCA6 適應症正面重疊</b>。",
-    "threatLabel": "中(SCA6)",
-    "links": [
-      {
-        "label": "試驗 ↗ NCT07221292",
-        "url": "https://clinicaltrials.gov/study/NCT07221292"
-      },
-      {
-        "label": "監管放行 ↗ 2026/05",
-        "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
-      }
-    ],
-    "en": {
-      "mechanism": "Small molecule<br>oral amino-acid derivative",
-      "indication": "CACNA1A-related disorders<br><b>incl. SCA6</b>, EA2, FHM1",
-      "phase": "Ph3",
-      "status": "IB1001-304 pivotal trial: <b>regulatory authorisation to proceed in the US, UK, EU and Switzerland (2026/05)</b>, 12 multinational sites activating; 12-week randomised, double-blind, placebo-controlled crossover, n≈60, age 4+, <b>primary endpoint SARA</b>, estimated start 2026/09. The same molecule is already marketed as Aqneursa in NPC. <b style=\"color:#ffce7a\">Directly overlaps the SCA6 indication in our Japan filing.</b>",
-      "threatLabel": "Mid (SCA6)",
-      "links": [
-        {
-          "label": "Trial ↗ NCT07221292",
-          "url": "https://clinicaltrials.gov/study/NCT07221292"
-        },
-        {
-          "label": "Regulatory clearance ↗ 2026/05",
-          "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
-        }
-      ]
-    }
+    },
+    "ring": "sca"
   },
   {
     "id": "vico",
@@ -166,7 +91,8 @@
           "url": "https://clinicaltrials.gov/study/NCT05822908"
         }
       ]
-    }
+    },
+    "ring": "sca"
   },
   {
     "id": "arrowhead",
@@ -176,8 +102,8 @@
     "mechanism": "siRNA (RNAi)<br>ATXN2",
     "indication": "SCA2",
     "phase": "Ph1",
-    "status": "鞘內 siRNA、降 ataxin-2。一期 <b>NCT06672445</b> 已收滿 39 人、2026 年中停止收案；primary completion 估 2026/12。<b style=\"color:#ffce7a\">站點含台北榮總（郵遞區號 112201 反查確認）</b>——本社避開台灣 SCA2 的主因。屬「SCA2 版的上游 gene-silencing」，深部小腦交付未證。",
-    "threatLabel": "中(遠期)",
+    "status": "鞘內 siRNA、降 ataxin-2。一期 <b>NCT06672445</b> 已收滿 39 人、2026 年中停止收案；primary completion 估 2026/12。<b style=\"color:#ffce7a\">站點含台北榮總</b>——本社避開台灣 SCA2 的主因。<b style=\"color:#ff8a7a\">2024/11 與 Sarepta 全球授權合作：ARO-ATXN1（SCA1）與 ARO-ATXN3（SCA3）臨床前，兩案均預計 2026 年 CTA-ready</b>——若如期推進，siRNA 路線將從 SCA2 擴到與本社正面重疊的 SCA1／SCA3。",
+    "threatLabel": "中↑(擴至SCA1/3)",
     "links": [
       {
         "label": "試驗 ↗ NCT06672445",
@@ -186,22 +112,145 @@
       {
         "label": "研究頁 ↗ NAF",
         "url": "https://www.ataxia.org/study/aroatxn2-1001/"
+      },
+      {
+        "label": "Sarepta 授權合作 ↗ 2024/11",
+        "url": "https://investorrelations.sarepta.com/news-releases/news-release-details/sarepta-therapeutics-announces-global-licensing-and"
       }
     ],
     "en": {
       "mechanism": "siRNA (RNAi)<br>ATXN2",
       "indication": "SCA2",
       "phase": "Ph1",
-      "status": "Intrathecal siRNA lowering ataxin-2. Phase 1 <b>NCT06672445</b> fully enrolled at 39 patients, enrolment closed mid-2026; primary completion estimated 2026/12. <b style=\"color:#ffce7a\">Sites include Taipei Veterans General Hospital (confirmed via postcode 112201)</b> — the main reason Steminent steers clear of SCA2 in Taiwan. Effectively the SCA2 version of upstream gene silencing; delivery to deep cerebellum still unproven.",
-      "threatLabel": "Mid (long-term)",
+      "status": "Intrathecal siRNA lowering ataxin-2. Phase 1 <b>NCT06672445</b> fully enrolled at 39 patients, enrolment closed mid-2026; primary completion estimated 2026/12. <b style=\"color:#ffce7a\">Sites include Taipei Veterans General Hospital</b> — the main reason Steminent steers clear of SCA2 in Taiwan. <b style=\"color:#ff8a7a\">Under the global licence and collaboration with Sarepta (2024/11), ARO-ATXN1 (SCA1) and ARO-ATXN3 (SCA3) are preclinical with both expected to be CTA-ready in 2026</b> — if they advance on schedule, the siRNA route extends from SCA2 into SCA1 and SCA3, directly overlapping Steminent.",
+      "threatLabel": "Mid↑ (extending to SCA1/3)",
       "links": [
         {
           "label": "Trial ↗ NCT06672445",
           "url": "https://clinicaltrials.gov/study/NCT06672445"
         },
         {
-          "label": "Study page ↗ NAF",
-          "url": "https://www.ataxia.org/study/aroatxn2-1001/"
+          "label": "Sarepta licence & collaboration ↗ 2024/11",
+          "url": "https://investorrelations.sarepta.com/news-releases/news-release-details/sarepta-therapeutics-announces-global-licensing-and"
+        }
+      ]
+    },
+    "ring": "sca"
+  },
+  {
+    "id": "biohaven",
+    "threat": "mid",
+    "company": "Biohaven",
+    "asset": "Troriluzole",
+    "mechanism": "小分子<br>麩胺酸調節",
+    "indication": "pan-SCA",
+    "phase": "NDA 受挫",
+    "status": "<b style=\"color:#ff8a7a\">FDA CRL (2025/11)</b>；R&D 砍 60%、爭取與 FDA 再協商 (2026/02)",
+    "threatLabel": "中↓",
+    "links": [
+      {
+        "label": "CRL ↗ 2025/11",
+        "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
+      },
+      {
+        "label": "R&D↓60% ↗",
+        "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease"
+      }
+    ],
+    "en": {
+      "mechanism": "Small molecule<br>glutamate modulation",
+      "indication": "pan-SCA",
+      "phase": "NDA rejected",
+      "status": "<b style=\"color:#ff8a7a\">FDA CRL (2025/11)</b>; R&D spend cut 60%, seeking further discussions with FDA (2026/02)",
+      "threatLabel": "Mid↓",
+      "links": [
+        {
+          "label": "CRL ↗ 2025/11",
+          "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
+        },
+        {
+          "label": "R&D↓60% ↗",
+          "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease"
+        }
+      ]
+    },
+    "ring": "sca"
+  },
+  {
+    "id": "intrabio",
+    "threat": "mid",
+    "company": "IntraBio",
+    "asset": "Levacetylleucine<br>(N-acetyl-L-leucine)",
+    "mechanism": "小分子<br>口服、胺基酸衍生物",
+    "indication": "CACNA1A 相關疾病<br><b>含 SCA6</b>、EA2、FHM1",
+    "phase": "Ph3",
+    "status": "IB1001-304 樞紐試驗：<b>2026/05 獲美/英/歐盟/瑞士監管放行</b>，12 個跨國站點啟動中；12 週隨機雙盲安慰劑對照交叉，n≈60、4 歲以上，<b>主要指標 SARA</b>，估 2026/09 起始。同成分已以 Aqneursa 於 NPC 上市。<b style=\"color:#ffce7a\">與本社日本申請的 SCA6 適應症正面重疊</b>。",
+    "threatLabel": "中(SCA6)",
+    "links": [
+      {
+        "label": "試驗 ↗ NCT07221292",
+        "url": "https://clinicaltrials.gov/study/NCT07221292"
+      },
+      {
+        "label": "監管放行 ↗ 2026/05",
+        "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
+      }
+    ],
+    "en": {
+      "mechanism": "Small molecule<br>oral amino-acid derivative",
+      "indication": "CACNA1A-related disorders<br><b>incl. SCA6</b>, EA2, FHM1",
+      "phase": "Ph3",
+      "status": "IB1001-304 pivotal trial: <b>regulatory authorisation to proceed in the US, UK, EU and Switzerland (2026/05)</b>, 12 multinational sites activating; 12-week randomised, double-blind, placebo-controlled crossover, n≈60, age 4+, <b>primary endpoint SARA</b>, estimated start 2026/09. The same molecule is already marketed as Aqneursa in NPC. <b style=\"color:#ffce7a\">Directly overlaps the SCA6 indication in our Japan filing.</b>",
+      "threatLabel": "Mid (SCA6)",
+      "links": [
+        {
+          "label": "Trial ↗ NCT07221292",
+          "url": "https://clinicaltrials.gov/study/NCT07221292"
+        },
+        {
+          "label": "Regulatory clearance ↗ 2026/05",
+          "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
+        }
+      ]
+    },
+    "ring": "sca"
+  },
+  {
+    "id": "solaxa",
+    "ring": "sca",
+    "threat": "mid",
+    "company": "Solaxa",
+    "asset": "SLX-100（4-aminopyridine 再定位）",
+    "mechanism": "小分子<br>老藥新用",
+    "indication": "<b>SCA27B</b><br>(FGF14 GAA 重複)",
+    "phase": "註冊型試驗",
+    "status": "2025/03/28 宣布 SCA27B <b>註冊型（pivotal-powered）臨床試驗</b>，與多家共濟失調卓越中心合作；部分經費來自 CDMRP 對 UCLA <b>Susan Perlman</b> 醫師的 $7.3M 補助——<b style=\"color:#ffce7a\">與本社美國二期為同一位主持人</b>。SCA27B 目前無 FDA 核准療法。與本社 SCA3/6 不同亞型，但若先取證將成為 SCA 領域首個核准藥。",
+    "threatLabel": "中(SCA27B)",
+    "links": [
+      {
+        "label": "Solaxa 公告 ↗ 2025/03",
+        "url": "https://www.solaxa.com/solaxa-announces-phase-3-clinical-trial-for-spinocerebellar-ataxia-type-27b/"
+      },
+      {
+        "label": "Ataxia UK 報導 ↗",
+        "url": "https://www.ataxia.org.uk/research-news/solaxa-announces-plan-for-phase-3-clinical-trial-for-sca27b/"
+      }
+    ],
+    "en": {
+      "asset": "SLX-100 (repurposed 4-aminopyridine)",
+      "mechanism": "Small molecule<br>drug repurposing",
+      "indication": "<b>SCA27B</b><br>(FGF14 GAA repeat)",
+      "phase": "Registrational trial",
+      "status": "On 2025/03/28 Solaxa announced a <b>registrational (pivotal-powered) trial</b> in SCA27B run with leading ataxia centres of excellence; it is funded in part by a $7.3M CDMRP grant to Dr <b>Susan Perlman</b> at UCLA — <b style=\"color:#ffce7a\">the same principal investigator as Steminent's US Phase 2</b>. There is no FDA-approved therapy for SCA27B. A different subtype from Steminent's SCA3/6, but the first to reach approval would become the first approved drug in SCA.",
+      "threatLabel": "Mid (SCA27B)",
+      "links": [
+        {
+          "label": "Solaxa announcement ↗ 2025/03",
+          "url": "https://www.solaxa.com/solaxa-announces-phase-3-clinical-trial-for-spinocerebellar-ataxia-type-27b/"
+        },
+        {
+          "label": "Ataxia UK coverage ↗",
+          "url": "https://www.ataxia.org.uk/research-news/solaxa-announces-plan-for-phase-3-clinical-trial-for-sca27b/"
         }
       ]
     }
@@ -242,7 +291,8 @@
           "url": "https://www.ataxia.org.uk/research-news/biogen-announce-they-have-stopped-sca3-clinical-trial/"
         }
       ]
-    }
+    },
+    "ring": "sca"
   },
   {
     "id": "crd",
@@ -280,27 +330,47 @@
           "url": "https://www.biospace.com/press-releases/cure-rare-disease-awarded-5-69-million-cirm-grant-to-advance-gene-therapy-for-spinocerebellar-ataxia-type-3"
         }
       ]
-    }
+    },
+    "ring": "sca"
   },
   {
-    "id": "uniqure",
+    "id": "neurolixis",
+    "ring": "sca",
     "threat": "low",
-    "company": "UniQure 等",
-    "asset": "AAV 基因療法",
-    "mechanism": "AAV 基因療法",
-    "indication": "SCA (多型)",
-    "phase": "臨床前/早期",
-    "status": "學界與數家 biotech 探索中，離臨床尚遠",
-    "threatLabel": "低(遠期)",
-    "links": [],
+    "company": "Neurolixis",
+    "asset": "NLX-112（befiradol）",
+    "mechanism": "小分子<br>5-HT1A 受體促效劑",
+    "indication": "SCA3（另帕金森）",
+    "phase": "SCA 臨床前／PD Ph2",
+    "status": "SCA 適應症已取得<b>歐盟（EU/3/24/2951，2024/09/25）與美國（DRU-2025-10752）孤兒藥資格</b>；SCA3 目前僅有動物模型數據（改善運動協調與平衡、延緩惡化）。臨床端主戰場為帕金森的左旋多巴引發異動症 Ph2a。<b>SCA 尚未進入人體試驗。</b>",
+    "threatLabel": "低(臨床前)",
+    "links": [
+      {
+        "label": "歐盟孤兒藥資格 ↗",
+        "url": "https://www.neurologylive.com/view/european-commission-grants-nlx-112-orphan-medicinal-product-designation-spinocerebellar-ataxia"
+      },
+      {
+        "label": "Neurolixis 官網 ↗",
+        "url": "https://www.neurolixis.com/en/news.html"
+      }
+    ],
     "en": {
-      "company": "uniQure and others",
-      "asset": "AAV gene therapy",
-      "mechanism": "AAV gene therapy",
-      "indication": "SCA (multiple subtypes)",
-      "phase": "Preclinical/early",
-      "status": "Explored by academic groups and a handful of biotechs; still far from the clinic",
-      "threatLabel": "Low (long-term)"
+      "asset": "NLX-112 (befiradol)",
+      "mechanism": "Small molecule<br>5-HT1A receptor agonist",
+      "indication": "SCA3 (also Parkinson's)",
+      "phase": "SCA preclinical / PD Ph2",
+      "status": "Holds <b>EU (EU/3/24/2951, 2024/09/25) and US (DRU-2025-10752) orphan designations</b> in SCA; SCA3 evidence is animal-model only (improved motor coordination and balance, slower deterioration). Its clinical focus is Ph2a in levodopa-induced dyskinesia in Parkinson's. <b>It has not entered human trials in SCA.</b>",
+      "threatLabel": "Low (preclinical)",
+      "links": [
+        {
+          "label": "EU orphan designation ↗",
+          "url": "https://www.neurologylive.com/view/european-commission-grants-nlx-112-orphan-medicinal-product-designation-spinocerebellar-ataxia"
+        },
+        {
+          "label": "Neurolixis website ↗",
+          "url": "https://www.neurolixis.com/en/news.html"
+        }
+      ]
     }
   },
   {
@@ -322,6 +392,354 @@
       "phase": "Marketed",
       "status": "Symptomatic relief only, does not modify disease course; use in SCA is off-label",
       "threatLabel": "Low (baseline)"
+    },
+    "ring": "sca"
+  },
+  {
+    "id": "seelos",
+    "ring": "sca",
+    "threat": "low",
+    "company": "Seelos Therapeutics",
+    "asset": "SLS-005（靜脈 trehalose）",
+    "mechanism": "自噬誘導<br>清除蛋白聚集",
+    "indication": "SCA（SCA3 為主）",
+    "phase": "註冊型 Ph2/3（已暫停）",
+    "status": "FDA 接受 IND 並給予 SCA 快速通道，SCA3 另有美歐孤兒藥資格；2022/11 於 SCA3 註冊型 Ph2/3（規劃收案至 245 人）投第一例。<b style=\"color:#ffce7a\">2023/04 公司宣布因商業考量暫停該試驗收案、資源轉向 ALS</b>，公開來源未見重啟消息。",
+    "threatLabel": "低(已暫停)",
+    "links": [
+      {
+        "label": "IND／快速通道 ↗",
+        "url": "https://www.prnewswire.com/news-releases/seelos-therapeutics-announces-fda-acceptance-of-investigational-new-drug-application-and-grant-of-fast-track-designation-for-sls-005-iv-trehalose-for-the-treatment-of-spinocerebellar-ataxia-301417731.html"
+      },
+      {
+        "label": "Ph2/3 首例給藥 ↗",
+        "url": "https://www.clinicaltrialsarena.com/news/seelos-spinocerebellar-ataxia-trial/"
+      }
+    ],
+    "en": {
+      "asset": "SLS-005 (IV trehalose)",
+      "mechanism": "Autophagy induction<br>clearing protein aggregates",
+      "indication": "SCA (mainly SCA3)",
+      "phase": "Registrational Ph2/3 (paused)",
+      "status": "FDA accepted the IND and granted Fast Track in SCA, with US and EU orphan designations in SCA3; the first patient was dosed in a registrational SCA3 Ph2/3 (planned enrolment up to 245) in 2022/11. <b style=\"color:#ffce7a\">In 2023/04 the company paused enrolment for business reasons and shifted resources to ALS</b>; public sources show no restart.",
+      "threatLabel": "Low (paused)",
+      "links": [
+        {
+          "label": "IND / Fast Track ↗",
+          "url": "https://www.prnewswire.com/news-releases/seelos-therapeutics-announces-fda-acceptance-of-investigational-new-drug-application-and-grant-of-fast-track-designation-for-sls-005-iv-trehalose-for-the-treatment-of-spinocerebellar-ataxia-301417731.html"
+        },
+        {
+          "label": "Ph2/3 first dosing ↗",
+          "url": "https://www.clinicaltrialsarena.com/news/seelos-spinocerebellar-ataxia-trial/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wave",
+    "ring": "sca",
+    "threat": "low",
+    "company": "Wave Life Sciences",
+    "asset": "ATXN3 對偶基因選擇性寡核苷酸",
+    "mechanism": "ASO／RNA 編輯<br>對偶基因選擇性",
+    "indication": "SCA3",
+    "phase": "未公開／疑停滯",
+    "status": "公司平台強項為<b>對偶基因選擇性沉默</b>（在亨丁頓舞蹈症 WVE-003 已顯示可選擇性降低突變 HTT 而保留正常 HTT）。<b style=\"color:#ffce7a\">SCA3 方向：2018 年曾宣布將選定 ATXN3 候選藥，此後公開來源未見進展更新</b>，現行管線亦未見 SCA3 專案——本平台以「無近期公開進展」記錄，不臆測是否終止。",
+    "threatLabel": "低(無近期進展)",
+    "links": [
+      {
+        "label": "Wave 官網管線 ↗",
+        "url": "https://wavelifesciences.com/"
+      }
+    ],
+    "en": {
+      "asset": "Allele-selective ATXN3 oligonucleotide",
+      "mechanism": "ASO / RNA editing<br>allele-selective",
+      "indication": "SCA3",
+      "phase": "Undisclosed / apparently dormant",
+      "status": "The company's platform strength is <b>allele-selective silencing</b> (in Huntington's, WVE-003 showed selective lowering of mutant HTT while preserving wild-type). <b style=\"color:#ffce7a\">On SCA3: it announced in 2018 that it would nominate an ATXN3 candidate, but public sources show no update since</b>, and the current pipeline shows no SCA3 programme — recorded here as \"no recent public progress\" without speculating on discontinuation.",
+      "threatLabel": "Low (no recent progress)",
+      "links": [
+        {
+          "label": "Wave pipeline ↗",
+          "url": "https://wavelifesciences.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "annji",
+    "ring": "polyq",
+    "threat": "low",
+    "company": "安基生技 AnnJi（台灣）",
+    "asset": "AJ201（rosolutamide）",
+    "mechanism": "小分子<br>降解突變雄性素受體<br>活化 Nrf1/Nrf2",
+    "indication": "SBMA（甘迺迪症）<br><b>孤兒藥資格另含 HD、SCA</b>",
+    "phase": "Ph1b/2a 完成→規劃 Ph3",
+    "status": "<b style=\"color:#ffce7a\">台灣本土 polyQ 玩家</b>。Ph1b/2a（25 人、12 週、隨機安慰劑對照）耐受良好並見身體活動改善；已獲 FDA 快速通道，2026 KDA 年會公布全球多中心 Ph3 初步設計。已授權 Avenue Therapeutics 於美國開發與商業化。<b>FDA 孤兒藥資格涵蓋 SBMA、亨丁頓舞蹈症與 SCA</b>，惟目前臨床僅在 SBMA。",
+    "threatLabel": "低(鄰域·台灣)",
+    "links": [
+      {
+        "label": "2026 KDA 年會 Ph3 設計 ↗",
+        "url": "https://www.prnewswire.com/news-releases/empowering-the-sbma-community-annji-highlights-patient--family-forum-and-shares-aj201-scientific-advancement-at-the-2026-kda-conference-302704676.html"
+      },
+      {
+        "label": "Avenue 授權 ↗",
+        "url": "https://ir.avenuetx.com/news-events/press-releases/detail/65/avenue-therapeutics-enters-into-a-transformational-license"
+      }
+    ],
+    "en": {
+      "company": "AnnJi Pharmaceutical (Taiwan)",
+      "asset": "AJ201 (rosolutamide)",
+      "mechanism": "Small molecule<br>degrades mutant androgen receptor<br>activates Nrf1/Nrf2",
+      "indication": "SBMA (Kennedy's disease)<br><b>orphan designation also covers HD and SCA</b>",
+      "phase": "Ph1b/2a done → Ph3 planned",
+      "status": "<b style=\"color:#ffce7a\">A Taiwan-based polyQ player.</b> The Ph1b/2a (25 patients, 12 weeks, randomised placebo-controlled) was well tolerated with signs of improved physical activity; FDA Fast Track granted, and a preliminary global multicentre Ph3 design was presented at the 2026 KDA conference. US development and commercialisation are licensed to Avenue Therapeutics. <b>FDA orphan designation covers SBMA, Huntington's disease and SCA</b>, though clinical work to date is in SBMA only.",
+      "threatLabel": "Low (adjacent, Taiwan)",
+      "links": [
+        {
+          "label": "2026 KDA conference Ph3 design ↗",
+          "url": "https://www.prnewswire.com/news-releases/empowering-the-sbma-community-annji-highlights-patient--family-forum-and-shares-aj201-scientific-advancement-at-the-2026-kda-conference-302704676.html"
+        },
+        {
+          "label": "Avenue licence ↗",
+          "url": "https://ir.avenuetx.com/news-events/press-releases/detail/65/avenue-therapeutics-enters-into-a-transformational-license"
+        }
+      ]
+    }
+  },
+  {
+    "id": "uniqure",
+    "threat": "low",
+    "company": "uniQure 等 AAV 基因療法",
+    "asset": "AMT-130（HD）／SCA AAV",
+    "mechanism": "AAV 基因療法",
+    "indication": "亨丁頓舞蹈症 HD<br>SCA（探索中）",
+    "phase": "HD 臨床後期／SCA 臨床前",
+    "status": "主資產 <b>AMT-130</b> 為亨丁頓舞蹈症（polyQ 疾病）AAV 基因療法，是 polyQ 領域「一次性基因療法能否改變病程」的重要參照；SCA 方向仍由學界與數家 biotech 探索、離臨床尚遠（uniQure AMT-150 近年已去優先化）。",
+    "threatLabel": "低(遠期)",
+    "links": [
+      {
+        "label": "uniQure 官網 ↗",
+        "url": "https://www.uniqure.com/"
+      }
+    ],
+    "en": {
+      "company": "uniQure and others (AAV gene therapy)",
+      "asset": "AMT-130 (HD) / SCA AAV",
+      "mechanism": "AAV gene therapy",
+      "indication": "Huntington's disease<br>SCA (exploratory)",
+      "phase": "HD late-stage / SCA preclinical",
+      "status": "The lead asset <b>AMT-130</b> is an AAV gene therapy for Huntington's disease (a polyQ disorder) and a key reference for whether one-time gene therapy can modify a polyQ disease; the SCA direction remains academic and early-stage biotech work, far from the clinic (uniQure's AMT-150 has been deprioritised).",
+      "threatLabel": "Low (long-term)",
+      "links": [
+        {
+          "label": "uniQure website ↗",
+          "url": "https://www.uniqure.com/"
+        }
+      ]
+    },
+    "ring": "polyq"
+  },
+  {
+    "id": "design-tx",
+    "ring": "ataxia",
+    "threat": "low",
+    "company": "Design Therapeutics",
+    "asset": "DT-216P2（GeneTAC™）",
+    "mechanism": "小分子<br>標的 GAA 重複、提升 frataxin 表現",
+    "indication": "Friedreich's Ataxia",
+    "phase": "Ph1/2（RESTORE-FA）",
+    "status": "2026/05/18 公布 RESTORE-FA 四週靜脈給藥數據：16 人、4 個劑量組，見<b>劑量依存的 FXN mRNA 與蛋白上升</b>；最高劑量組（1 mg/kg）mFARS 自基線平均改善 6.4 分、直立穩定度改善 2.7 分。公司表示將走註冊路徑，2026 Q4 更新規劃。<b>技術路線（小分子調控核苷酸重複擴增）與 polyQ 疾病概念相通</b>，值得追蹤是否延伸至 SCA。",
+    "threatLabel": "低(FA)",
+    "links": [
+      {
+        "label": "RESTORE-FA 數據 ↗ 2026/05",
+        "url": "https://investors.designtx.com/news-releases/news-release-details/design-therapeutics-announces-four-week-iv-data-restore-fa-trial/"
+      },
+      {
+        "label": "FARA 藥物頁 ↗",
+        "url": "https://www.curefa.org/drug-development/dt-216/"
+      }
+    ],
+    "en": {
+      "asset": "DT-216P2 (GeneTAC™)",
+      "mechanism": "Small molecule<br>targets the GAA repeat to raise frataxin",
+      "indication": "Friedreich's ataxia",
+      "phase": "Ph1/2 (RESTORE-FA)",
+      "status": "On 2026/05/18 Design reported four-week IV data from RESTORE-FA: 16 patients across 4 dose cohorts, showing <b>dose-dependent increases in FXN mRNA and protein</b>; in the top cohort (1 mg/kg), mean improvement from baseline was 6.4 points on mFARS and 2.7 points on upright stability. The company intends to pursue a registrational path with an update in Q4 2026. <b>The approach — a small molecule modulating a nucleotide repeat expansion — is conceptually adjacent to polyQ disease</b>, so any extension into SCA is worth watching.",
+      "threatLabel": "Low (FA)",
+      "links": [
+        {
+          "label": "RESTORE-FA data ↗ 2026/05",
+          "url": "https://investors.designtx.com/news-releases/news-release-details/design-therapeutics-announces-four-week-iv-data-restore-fa-trial/"
+        },
+        {
+          "label": "FARA drug page ↗",
+          "url": "https://www.curefa.org/drug-development/dt-216/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "larimar",
+    "ring": "ataxia",
+    "threat": "low",
+    "company": "Larimar Therapeutics",
+    "asset": "Nomlabofusp（CTI-1601）",
+    "mechanism": "蛋白替代<br>補充 frataxin",
+    "indication": "Friedreich's Ataxia",
+    "phase": "滾動式 BLA 進行中",
+    "status": "2026/02 取得 FDA <b>突破性療法認定</b>；<b>2026/06/29 遞交加速核准滾動式 BLA 第一模組</b>，其餘模組預計 2026 下半年送出。支持資料為長期開放標籤研究：皮膚 FXN 升至無症狀帶因者水準，mFARS、FARS-ADL、9-HPT、疲勞量表四項一年後方向一致改善。<b>共濟失調領域少見走到 BLA 的案例</b>。",
+    "threatLabel": "低(FA)",
+    "links": [
+      {
+        "label": "突破性療法認定 ↗ 2026/02",
+        "url": "https://investors.larimartx.com/news-releases/news-release-details/larimar-therapeutics-announces-fda-breakthrough-therapy"
+      },
+      {
+        "label": "滾動式 BLA 首模組 ↗ 2026/06",
+        "url": "https://www.globenewswire.com/news-release/2026/06/29/3318791/0/en/Larimar-Therapeutics-Reports-Positive-Open-Label-Data-and-Submission-of-First-Module-of-Rolling-BLA-for-Accelerated-Approval-of-Nomlabofusp-for-Friedreich-s-Ataxia.html"
+      }
+    ],
+    "en": {
+      "asset": "Nomlabofusp (CTI-1601)",
+      "mechanism": "Protein replacement<br>frataxin supplementation",
+      "indication": "Friedreich's ataxia",
+      "phase": "Rolling BLA under way",
+      "status": "Received FDA <b>Breakthrough Therapy designation</b> in 2026/02 and <b>submitted the first module of a rolling BLA for accelerated approval on 2026/06/29</b>, with remaining modules expected in 2H 2026. Supporting data come from a long-term open-label study: skin FXN rose to levels expected in asymptomatic carriers, with consistent directional improvement at one year across mFARS, FARS-ADL, 9-HPT and the fatigue scale. <b>One of the few ataxia programmes to reach BLA stage.</b>",
+      "threatLabel": "Low (FA)",
+      "links": [
+        {
+          "label": "Breakthrough designation ↗ 2026/02",
+          "url": "https://investors.larimartx.com/news-releases/news-release-details/larimar-therapeutics-announces-fda-breakthrough-therapy"
+        },
+        {
+          "label": "First rolling-BLA module ↗ 2026/06",
+          "url": "https://www.globenewswire.com/news-release/2026/06/29/3318791/0/en/Larimar-Therapeutics-Reports-Positive-Open-Label-Data-and-Submission-of-First-Module-of-Rolling-BLA-for-Accelerated-Approval-of-Nomlabofusp-for-Friedreich-s-Ataxia.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lexeo",
+    "ring": "ataxia",
+    "threat": "low",
+    "company": "Lexeo Therapeutics",
+    "asset": "LX2006",
+    "mechanism": "AAV 基因療法<br>提升心肌 frataxin",
+    "indication": "Friedreich's Ataxia<br>相關心肌病變",
+    "phase": "註冊型試驗設計定案",
+    "status": "2026/06 宣布 <b>SUNRISE-FA 2 樞紐試驗方案與統計分析計畫定案</b>，目標循加速核准途徑於 2028 遞交 BLA；次要終點含 mFARS、KCCQ、高敏感肌鈣蛋白 I 與心室壁厚度。已獲突破性療法、RMAT、孤兒藥與快速通道四項資格。期中數據顯示心臟生物標記與心／神經功能改善，接受心肌切片者皆見 frataxin 上升。",
+    "threatLabel": "低(FA)",
+    "links": [
+      {
+        "label": "註冊型試驗設計 ↗ 2026/06",
+        "url": "https://www.globenewswire.com/news-release/2026/06/15/3311662/0/en/lexeo-therapeutics-announces-regulatory-update-and-registrational-trial-design-for-lx2006-gene-therapy-in-friedreich-ataxia.html"
+      },
+      {
+        "label": "FARA 藥物頁 ↗",
+        "url": "https://www.curefa.org/drug-development/lx2006-gene-therapy/"
+      }
+    ],
+    "en": {
+      "asset": "LX2006",
+      "mechanism": "AAV gene therapy<br>raises cardiac frataxin",
+      "indication": "Friedreich's ataxia<br>cardiomyopathy",
+      "phase": "Registrational design finalised",
+      "status": "In 2026/06 Lexeo announced that the <b>SUNRISE-FA 2 pivotal protocol and statistical analysis plan are final</b>, targeting a BLA under the accelerated approval pathway in 2028; key secondary endpoints include mFARS, KCCQ, high-sensitivity troponin-I and lateral wall thickness. It holds Breakthrough, RMAT, Orphan Drug and Fast Track designations. Interim data showed improvements in cardiac biomarkers and cardiac/neurologic function, with increased frataxin in all participants who had cardiac biopsies.",
+      "threatLabel": "Low (FA)",
+      "links": [
+        {
+          "label": "Registrational design ↗ 2026/06",
+          "url": "https://www.globenewswire.com/news-release/2026/06/15/3311662/0/en/lexeo-therapeutics-announces-regulatory-update-and-registrational-trial-design-for-lx2006-gene-therapy-in-friedreich-ataxia.html"
+        },
+        {
+          "label": "FARA drug page ↗",
+          "url": "https://www.curefa.org/drug-development/lx2006-gene-therapy/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "minoryx",
+    "ring": "ataxia",
+    "threat": "low",
+    "company": "Minoryx Therapeutics（西班牙）",
+    "asset": "Leriglitazone",
+    "mechanism": "小分子<br>PPARγ 促效、抗神經發炎",
+    "indication": "Friedreich's Ataxia<br>（另 X-ALD、Rett）",
+    "phase": "FA 為 Ph2 概念驗證",
+    "status": "Leriglitazone 於 FA 已取得<b>美國與歐盟孤兒藥資格</b>；Ph2 概念驗證顯示耐受良好、可調節 frataxin 路徑並改善生物能量缺損。公司目前臨床重心在腦性腎上腺腦白質失養症（X-ALD）與 Rett 症候群（TREE 研究，2026 上半年讀出）；<b>FA 未見進入樞紐試驗</b>。",
+    "threatLabel": "低(FA)",
+    "links": [
+      {
+        "label": "FA 孤兒藥資格 ↗",
+        "url": "https://www.ataxia.org.uk/research-news/minoryx-therapeutics-granted-fda-orphan-drug-designation-in-friedreichs-ataxia-for-new-drug-leriglitazone/"
+      },
+      {
+        "label": "FA Ph2 結果 ↗ FARA",
+        "url": "https://www.curefa.org/minoryxs-clinical-candidate-leriglitazone-shows-clinical-benefit-in-a-proof-of-concept-phase-2-study-in-friedreichs-ataxia/"
+      }
+    ],
+    "en": {
+      "company": "Minoryx Therapeutics (Spain)",
+      "asset": "Leriglitazone",
+      "mechanism": "Small molecule<br>PPARγ agonist, anti-neuroinflammatory",
+      "indication": "Friedreich's ataxia<br>(also X-ALD, Rett)",
+      "phase": "Ph2 proof-of-concept in FA",
+      "status": "Leriglitazone holds <b>US and EU orphan designations</b> in FA; the Ph2 proof-of-concept showed good tolerability with modulation of the frataxin pathway and restored bioenergetics. The company's clinical focus is now X-ALD and Rett syndrome (TREE study, reading out in 1H 2026); <b>no pivotal trial has started in FA</b>.",
+      "threatLabel": "Low (FA)",
+      "links": [
+        {
+          "label": "FA orphan designation ↗",
+          "url": "https://www.ataxia.org.uk/research-news/minoryx-therapeutics-granted-fda-orphan-drug-designation-in-friedreichs-ataxia-for-new-drug-leriglitazone/"
+        },
+        {
+          "label": "FA Ph2 results ↗ FARA",
+          "url": "https://www.curefa.org/minoryxs-clinical-candidate-leriglitazone-shows-clinical-benefit-in-a-proof-of-concept-phase-2-study-in-friedreichs-ataxia/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ptc",
+    "ring": "ataxia",
+    "threat": "low",
+    "company": "PTC Therapeutics",
+    "asset": "Vatiquinone",
+    "mechanism": "小分子<br>15-LO 抑制、氧化壓力",
+    "indication": "Friedreich's Ataxia",
+    "phase": "NDA 受挫",
+    "status": "2025/02 FDA 受理 NDA 並給予優先審查（PDUFA 2025/08/19），<b style=\"color:#ff8a7a\">2025/08/19 收到完全回覆信（CRL），理由為未證明實質療效證據</b>。試驗曾在部分次量表見顯著效果、但主要終點未達。<b>與 Biohaven 同屬「共濟失調小分子在 FDA 卡關」的案例</b>，是終點選擇與證據等級的重要參照。",
+    "threatLabel": "低(FA·受挫)",
+    "links": [
+      {
+        "label": "NDA 受理／優先審查 ↗",
+        "url": "https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-fda-acceptance-and-priority-review-0"
+      },
+      {
+        "label": "CRL 報導 ↗ 2025/08",
+        "url": "https://www.neurologylive.com/view/fda-denies-approval-friedreich-ataxia-agent-vatiquinone-citing-more-efficacy-needed"
+      }
+    ],
+    "en": {
+      "asset": "Vatiquinone",
+      "mechanism": "Small molecule<br>15-LO inhibition, oxidative stress",
+      "indication": "Friedreich's ataxia",
+      "phase": "NDA rejected",
+      "status": "The FDA accepted the NDA with priority review in 2025/02 (PDUFA 2025/08/19) and <b style=\"color:#ff8a7a\">issued a Complete Response Letter on 2025/08/19, citing that substantial evidence of efficacy had not been demonstrated</b>. Trials showed significant effects on certain subscales but missed the primary endpoint. <b>Together with Biohaven it forms a pattern of ataxia small molecules stalling at the FDA</b> — an important reference on endpoint choice and evidence level.",
+      "threatLabel": "Low (FA, setback)",
+      "links": [
+        {
+          "label": "NDA accepted / priority review ↗",
+          "url": "https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-fda-acceptance-and-priority-review-0"
+        },
+        {
+          "label": "CRL coverage ↗ 2025/08",
+          "url": "https://www.neurologylive.com/view/fda-denies-approval-friedreich-ataxia-agent-vatiquinone-citing-more-efficacy-needed"
+        }
+      ]
     }
   }
 ]
