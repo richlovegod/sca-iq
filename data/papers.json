@@ -1,5 +1,23 @@
 [
   {
+    "id": "pubmed:42495432",
+    "date": "2026-07-22",
+    "dateDisplay": "2026/07/22",
+    "title": "Diagnostic Pitfalls in Hereditary Neurological Disorders: Machado-Joseph Disease Presenting as Charcot-Marie-Tooth Disease: A Case Report",
+    "journal": "Clin Case Rep · Lim ECN 等",
+    "tag": "SCA3 診斷 · 案例報告",
+    "note": "→ Machado-Joseph 病（SCA3）以周邊神經病變（似 Charcot-Marie-Tooth）表現的診斷陷阱案例，屬 SCA3 表現型辨識與鑑別診斷情報。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42495432/",
+    "urlLabel": "論文 ↗ PubMed 42495432",
+    "en": {
+      "tag": "SCA3 diagnosis · case report",
+      "journal": "Clin Case Rep · Lim ECN et al.",
+      "note": "→ A diagnostic-pitfall case of Machado-Joseph disease (SCA3) presenting as a peripheral neuropathy (Charcot-Marie-Tooth-like); SCA3 phenotype-recognition and differential-diagnosis intelligence.",
+      "urlLabel": "Paper ↗ PubMed 42495432"
+    }
+  },
+  {
     "id": "pubmed:42484951",
     "date": "2026-07-22",
     "dateDisplay": "2026/07/22",

@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-25",
+    "dateDisplay": "2026/07/25",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 1 則科學文獻（Machado-Joseph 病〔SCA3〕以 Charcot-Marie-Tooth 樣周邊神經病變表現之診斷陷阱案例報告）。五組適應症 CT.gov 掃描（SCA／Friedreich／SBMA／polyQ／CACNA1A）未見清單外新競品，既有競品僅例行登錄更新。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 1 scientific paper (a diagnostic-pitfall case report of Machado-Joseph disease/SCA3 presenting as a Charcot-Marie-Tooth-like peripheral neuropathy). The five-indication CT.gov sweep (SCA/Friedreich/SBMA/polyQ/CACNA1A) surfaced no new competitors beyond the tracked list; existing programmes showed only routine registry refreshes.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-07-23",
     "dateDisplay": "2026/07/23",
     "tag": "每日掃描",
