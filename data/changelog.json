@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-26",
+    "dateDisplay": "2026/07/26",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增競品試驗 <b>Lexeo LX2006 SUNRISE-FA 2</b>（NCT07721025，AAVrh.10hFXN 基因療法，Friedreich's Ataxia 相關心肌病變，Ph2 註冊型，2026/06/25 啟動、現正收案，主要指標＝心臟 MRI 左心室質量指數變化）；同步更新競品全景中 Lexeo 一列的狀態。五組適應症 CT.gov 掃描（SCA／Friedreich／SBMA／polyQ／CACNA1A）與 PubMed 近 7 天未見其他清單外新競品或新文獻。",
+    "link": {
+      "label": "詳見 臨床試驗雷達 ↗",
+      "tab": "si",
+      "anchor": "trialradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added a competitor trial, <b>Lexeo LX2006 SUNRISE-FA 2</b> (NCT07721025, AAVrh.10hFXN gene therapy, Friedreich ataxia cardiomyopathy, Ph2 registrational, started 2026/06/25 and now recruiting, primary endpoint = change in LV mass index by cardiac MRI); the Lexeo row in the competitor landscape was updated accordingly. The five-indication CT.gov sweep (SCA/Friedreich/SBMA/polyQ/CACNA1A) and the 7-day PubMed scan surfaced no other off-list competitors or new papers.",
+      "linkLabel": "See Trial Radar ↗"
+    }
+  },
+  {
     "date": "2026-07-25",
     "dateDisplay": "2026/07/25",
     "tag": "每日掃描",

@@ -629,10 +629,14 @@
     "asset": "LX2006",
     "mechanism": "AAV 基因療法<br>提升心肌 frataxin",
     "indication": "Friedreich's Ataxia<br>相關心肌病變",
-    "phase": "註冊型試驗設計定案",
-    "status": "2026/06 宣布 <b>SUNRISE-FA 2 樞紐試驗方案與統計分析計畫定案</b>，目標循加速核准途徑於 2028 遞交 BLA；次要終點含 mFARS、KCCQ、高敏感肌鈣蛋白 I 與心室壁厚度。已獲突破性療法、RMAT、孤兒藥與快速通道四項資格。期中數據顯示心臟生物標記與心／神經功能改善，接受心肌切片者皆見 frataxin 上升。",
+    "phase": "註冊型試驗 收案中",
+    "status": "<b>SUNRISE-FA 2 樞紐試驗（NCT07721025）已於 2026/06/25 啟動、2026/07 起收案</b>（n=26，主要指標＝心臟 MRI 左心室質量指數變化）；目標循加速核准途徑於 2028 遞交 BLA，次要終點含 mFARS、KCCQ、高敏感肌鈣蛋白 I 與心室壁厚度。已獲突破性療法、RMAT、孤兒藥與快速通道四項資格。期中數據顯示心臟生物標記與心／神經功能改善，接受心肌切片者皆見 frataxin 上升。",
     "threatLabel": "低(FA)",
     "links": [
+      {
+        "label": "試驗登錄 ↗ NCT07721025",
+        "url": "https://clinicaltrials.gov/study/NCT07721025"
+      },
       {
         "label": "註冊型試驗設計 ↗ 2026/06",
         "url": "https://www.globenewswire.com/news-release/2026/06/15/3311662/0/en/lexeo-therapeutics-announces-regulatory-update-and-registrational-trial-design-for-lx2006-gene-therapy-in-friedreich-ataxia.html"
@@ -646,10 +650,14 @@
       "asset": "LX2006",
       "mechanism": "AAV gene therapy<br>raises cardiac frataxin",
       "indication": "Friedreich's ataxia<br>cardiomyopathy",
-      "phase": "Registrational design finalised",
-      "status": "In 2026/06 Lexeo announced that the <b>SUNRISE-FA 2 pivotal protocol and statistical analysis plan are final</b>, targeting a BLA under the accelerated approval pathway in 2028; key secondary endpoints include mFARS, KCCQ, high-sensitivity troponin-I and lateral wall thickness. It holds Breakthrough, RMAT, Orphan Drug and Fast Track designations. Interim data showed improvements in cardiac biomarkers and cardiac/neurologic function, with increased frataxin in all participants who had cardiac biopsies.",
+      "phase": "Registrational trial recruiting",
+      "status": "The <b>SUNRISE-FA 2 pivotal trial (NCT07721025) started on 2026/06/25 and began recruiting in 2026/07</b> (n=26, primary endpoint = change in LV mass index by cardiac MRI); Lexeo is targeting a BLA under the accelerated approval pathway in 2028, with key secondary endpoints including mFARS, KCCQ, high-sensitivity troponin-I and lateral wall thickness. It holds Breakthrough, RMAT, Orphan Drug and Fast Track designations. Interim data showed improvements in cardiac biomarkers and cardiac/neurologic function, with increased frataxin in all participants who had cardiac biopsies.",
       "threatLabel": "Low (FA)",
       "links": [
+        {
+          "label": "Trial registry ↗ NCT07721025",
+          "url": "https://clinicaltrials.gov/study/NCT07721025"
+        },
         {
           "label": "Registrational design ↗ 2026/06",
           "url": "https://www.globenewswire.com/news-release/2026/06/15/3311662/0/en/lexeo-therapeutics-announces-regulatory-update-and-registrational-trial-design-for-lx2006-gene-therapy-in-friedreich-ataxia.html"

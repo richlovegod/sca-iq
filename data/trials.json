@@ -128,5 +128,22 @@
       "status": "Not yet recruiting; regulatory clearance in US/UK/EU/Switzerland in 2026/05, 12 sites activating, estimated start 2026/09, n=60, primary endpoint SARA",
       "sponsor": "IntraBio"
     }
+  },
+  {
+    "nct": "NCT07721025",
+    "drug": "LX2006 (AAVrh.10hFXN)",
+    "mechanism": "AAV 基因療法（遞送 FXN／frataxin 基因）",
+    "phase": "Ph2",
+    "status": "收案中（SUNRISE-FA 2 註冊型；2026/06/25 啟動、n=26，主要指標＝心臟 MRI 左心室質量指數自基線變化）",
+    "sponsor": "Lexeo Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07721025",
+    "en": {
+      "drug": "LX2006 (AAVrh.10hFXN)",
+      "mechanism": "AAV gene therapy (delivers the FXN/frataxin gene)",
+      "phase": "Ph2",
+      "status": "Recruiting (SUNRISE-FA 2 registrational; started 2026/06/25, n=26, primary endpoint = change from baseline in LV mass index by cardiac MRI)",
+      "sponsor": "Lexeo Therapeutics"
+    }
   }
 ]
