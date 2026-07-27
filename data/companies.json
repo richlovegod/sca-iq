@@ -1217,5 +1217,43 @@
       "insight": "Known for <b>executing trials and managing regulatory interactions in very small rare-disease cohorts</b>, with several approved rare-disease products — an operational reference for rare-disease development."
     },
     "cat": "neuro"
+  },
+  {
+    "id": "nido",
+    "name": "Nido Biosciences",
+    "nameEn": "Nido Biosciences",
+    "short": "Nido",
+    "country": "美國 USA",
+    "ticker": "未上市 Private（2026 初結束營運）",
+    "mechanism": "口服小分子選擇性雄性素受體調節劑（SARM），結合 AR 的 BF3 位點",
+    "pipeline": "NIDO-361｜SBMA（甘迺迪症）：Ph2（n=54）完成，主要終點肌肉 MRI 瘦肌肉體積未達；美國與歐盟孤兒藥資格",
+    "insight": "polyQ 鄰近圈層的口服小分子玩家。2020 年由 5AM Ventures 孵化、2023 年亮相時累計募資 1.09 億美元。全球 Ph2 以全身肌肉 MRI 瘦肌肉體積為主要終點，2026/03 登錄公告顯示未見藥物優勢，公司於 2026 年初結束營運；其與 NIH／名古屋／UCL 合作的肌肉 MRI 生物標記方法學已發表於 Neurology（2026/07）。",
+    "threat": "low",
+    "url": "https://clinicaltrials.gov/study/NCT06411912",
+    "match": [
+      "Nido Biosciences",
+      "Nido Bio",
+      "NIDO-361"
+    ],
+    "updates": [
+      {
+        "date": "2026-03",
+        "text": "CT.gov 公告 Ph2 結果：主要終點未達；公司於 2026 年初結束營運"
+      }
+    ],
+    "en": {
+      "country": "USA",
+      "ticker": "Private (wound down in early 2026)",
+      "mechanism": "Oral small-molecule selective androgen receptor modulator (SARM) binding the BF3 site of AR",
+      "pipeline": "NIDO-361 | SBMA (Kennedy's disease): Ph2 (n=54) complete, primary muscle-MRI lean muscle volume endpoint missed; US and EU orphan drug designation",
+      "insight": "An oral small-molecule player in the adjacent polyQ ring. Incubated by 5AM Ventures in 2020 and launched in 2023 with $109M raised to date. Its global Ph2 used whole-body muscle MRI lean muscle volume as the primary endpoint; registry results posted in 2026/03 showed no drug advantage and the company wound down in early 2026. The muscle-MRI biomarker methodology it developed with the NIH, Nagoya University and UCL was published in Neurology in 2026/07.",
+      "updates": [
+        {
+          "date": "2026-03",
+          "text": "Ph2 results posted to CT.gov: primary endpoint missed; the company wound down in early 2026"
+        }
+      ]
+    },
+    "cat": "sca"
   }
 ]

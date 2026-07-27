@@ -145,5 +145,21 @@
       "status": "Recruiting (SUNRISE-FA 2 registrational; started 2026/06/25, n=26, primary endpoint = change from baseline in LV mass index by cardiac MRI)",
       "sponsor": "Lexeo Therapeutics"
     }
+  },
+  {
+    "nct": "NCT06411912",
+    "drug": "NIDO-361",
+    "mechanism": "口服小分子選擇性雄性素受體調節劑（SARM）<br>結合 AR 的 BF3 位點",
+    "phase": "Ph2",
+    "status": "已完成（2024/03 啟動–2025/10 結束，n=54，歐盟／英國／南韓）；<b>2026/03 登錄公告結果，主要終點肌肉 MRI 瘦肌肉體積未見優於安慰劑</b>，公司於 2026 年初結束營運",
+    "sponsor": "Nido Biosciences",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06411912",
+    "en": {
+      "mechanism": "Oral small-molecule selective androgen receptor modulator (SARM)<br>binds the BF3 site of AR",
+      "phase": "Ph2",
+      "status": "Completed (started 2024/03, ended 2025/10; n=54 across the EU, UK and South Korea); <b>results posted to the registry in 2026/03 showed no advantage over placebo on the primary muscle-MRI lean muscle volume endpoint</b>, and the company wound down in early 2026",
+      "sponsor": "Nido Biosciences"
+    }
   }
 ]

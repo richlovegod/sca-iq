@@ -1,5 +1,43 @@
 [
   {
+    "id": "nido-361-ph2-2026-03",
+    "date": "2026-03-03",
+    "dateDisplay": "2026/03",
+    "competitor": "Nido Biosciences",
+    "drug": "NIDO-361",
+    "trial": "NCT06411912 Ph2（隨機雙盲安慰劑對照，n=54，12 個月）",
+    "sourceType": "登錄",
+    "level": "info",
+    "readout": "CT.gov 於 2026/03/03 公告結果：<b>主要終點（肌肉 MRI 瘦肌肉體積）未見藥物優勢</b>——大腿 LMV 自基線變化（末次訪視）安慰劑 −0.1363 vs NIDO-361 −0.1511；全身 LMV −0.3120 vs −0.4147（皆為登錄公告之組平均，登錄未附 p 值或統計檢定）。次要指標方向不一致：2 分鐘步行距離第 360 天安慰劑 −1.8 m vs NIDO-361 +3.3 m；m-SBMAFRS 變化 +1.2 vs +0.1。公司隨後結束營運（產業媒體報導 2026 年初全面關閉）。",
+    "implication": "→ 鄰近 polyQ 圈層又一次以「影像／肌肉體積」為主要終點的中期試驗未達預期並直接導致公司退場，顯示生物標記型主要終點在 12 個月內偵測 polyQ 病程變化的難度——反襯本社以 SARA 等臨床功能量表為主要終點的取捨。",
+    "links": [
+      {
+        "label": "CT.gov 結果公告",
+        "url": "https://clinicaltrials.gov/study/NCT06411912?tab=results"
+      },
+      {
+        "label": "FierceBiotech 報導公司關閉",
+        "url": "https://www.fiercebiotech.com/biotech/neuro-biotech-nido-closes-after-phase-2-study-fails-move-needle-rare-disease"
+      }
+    ],
+    "en": {
+      "trial": "NCT06411912 Ph2 (randomised, double-blind, placebo-controlled; n=54; 12 months)",
+      "sourceType": "Registry",
+      "readout": "Results posted to CT.gov on 2026/03/03 showed <b>no drug advantage on the primary muscle-MRI lean muscle volume endpoint</b>: change from baseline in thigh LMV at the last visit was −0.1363 on placebo vs −0.1511 on NIDO-361, and total LMV −0.3120 vs −0.4147 (group means as posted; the registry gives no p-values or statistical tests). Secondary measures were directionally mixed: the 2-minute walk test at Day 360 was −1.8 m on placebo vs +3.3 m on NIDO-361, and m-SBMAFRS change was +1.2 vs +0.1. The company subsequently wound down (trade press reported a full closure in early 2026).",
+      "implication": "→ Another mid-stage trial in the adjacent polyQ ring built on an imaging/muscle-volume primary endpoint missed and led directly to the company's exit, underlining how hard it is for a biomarker primary endpoint to detect polyQ progression within 12 months — which puts Steminent's choice of clinical functional scales such as SARA in context.",
+      "links": [
+        {
+          "label": "CT.gov posted results",
+          "url": "https://clinicaltrials.gov/study/NCT06411912?tab=results"
+        },
+        {
+          "label": "FierceBiotech on the closure",
+          "url": "https://www.fiercebiotech.com/biotech/neuro-biotech-nido-closes-after-phase-2-study-fails-move-needle-rare-disease"
+        }
+      ]
+    }
+  },
+  {
     "id": "biohaven-crl-2025-11",
     "date": "2025-11-04",
     "dateDisplay": "2025/11",

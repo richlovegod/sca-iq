@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-27",
+    "dateDisplay": "2026/07/27",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 4 則科學文獻，其中 <b>MSC 治療小腦共濟失調系統性回顧</b>（CNS Neurosci Ther，韓國慶北大學）直接支持異體策略——共濟失調病人自體 MSC 的抗發炎分泌體能力低於健康捐贈者，且 SCA2 模型症狀後給藥仍見療效；另收 SCA2 N140 電生理生物標記、SBMA 肌肉 MRI 影像生物標記（Neurology）與 polyQ 多系統病理回顧。<b>主動發現清單外競品 Nido Biosciences（NIDO-361，口服 SARM，SBMA／polyQ 鄰域）</b>：Ph2（NCT06411912，n=54）主要終點肌肉 MRI 瘦肌肉體積未見優於安慰劑，2026/03 登錄公告結果，公司於 2026 年初結束營運——已建立競品全景、公司情報卡、試驗與結果讀出各一筆。追蹤競品數 19→20。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 4 papers. The <b>systematic review of MSC therapy for cerebellar ataxia</b> (CNS Neurosci Ther, Kyungpook National University, Korea) directly supports an allogeneic strategy — MSCs from ataxia patients have weaker anti-inflammatory secretome capacity than healthy-donor MSCs, and efficacy in the SCA2 model held even when dosing began after symptom onset. Also added an SCA2 N140 electrophysiology biomarker, an SBMA muscle-MRI imaging biomarker (Neurology) and a review of polyQ multisystem pathology. <b>Discovered an off-list competitor, Nido Biosciences (NIDO-361, an oral SARM in SBMA / the adjacent polyQ ring)</b>: its Ph2 (NCT06411912, n=54) showed no advantage over placebo on the primary muscle-MRI lean muscle volume endpoint, results were posted to the registry in 2026/03, and the company wound down in early 2026 — now recorded as a competitor-landscape row, a company card, a trial and a results readout. Tracked competitors 19 → 20.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-07-26",
     "dateDisplay": "2026/07/26",
     "tag": "每日掃描",

@@ -749,5 +749,54 @@
         }
       ]
     }
+  },
+  {
+    "id": "nido",
+    "ring": "polyq",
+    "threat": "low",
+    "company": "Nido Biosciences（美國）",
+    "asset": "NIDO-361",
+    "mechanism": "口服小分子<br>選擇性雄性素受體調節劑（SARM）<br>結合 AR 的 BF3 位點",
+    "indication": "SBMA（甘迺迪症）",
+    "phase": "Ph2 完成（主要終點未達）",
+    "status": "<b style=\"color:#8fa3b8\">已退場</b>。2020 年由 5AM Ventures 孵化、2023 年公開亮相時累計募資 1.09 億美元（Eli Lilly、Bioluminescence Ventures 參與）。NIDO-361 曾獲美國與歐盟孤兒藥資格；全球 Ph2（n=54，歐盟／英國／南韓）主要終點肌肉 MRI 瘦肌肉體積未見優於安慰劑，2026/03 登錄公告結果，公司於 2026 年初結束營運。",
+    "threatLabel": "已退場(鄰域)",
+    "links": [
+      {
+        "label": "CT.gov 結果 ↗",
+        "url": "https://clinicaltrials.gov/study/NCT06411912?tab=results"
+      },
+      {
+        "label": "孤兒藥資格 ↗",
+        "url": "https://www.businesswire.com/news/home/20241022598801/en/Nido-Biosciences-Announces-Orphan-Drug-Designation-for-Lead-Clinical-Candidate-to-Treat-Spinal-and-Bulbar-Muscular-Atrophy"
+      },
+      {
+        "label": "FierceBiotech 關閉報導 ↗",
+        "url": "https://www.fiercebiotech.com/biotech/neuro-biotech-nido-closes-after-phase-2-study-fails-move-needle-rare-disease"
+      }
+    ],
+    "en": {
+      "company": "Nido Biosciences (USA)",
+      "asset": "NIDO-361",
+      "mechanism": "Oral small molecule<br>selective androgen receptor modulator (SARM)<br>binds the BF3 site of AR",
+      "indication": "SBMA (Kennedy's disease)",
+      "phase": "Ph2 complete (primary endpoint missed)",
+      "status": "<b style=\"color:#8fa3b8\">Exited.</b> Incubated by 5AM Ventures in 2020 and launched publicly in 2023 with $109M raised to date (Eli Lilly and Bioluminescence Ventures among investors). NIDO-361 held US and EU orphan drug designation; its global Ph2 (n=54 across the EU, UK and South Korea) showed no advantage over placebo on the primary muscle-MRI lean muscle volume endpoint, results were posted to the registry in 2026/03, and the company wound down in early 2026.",
+      "threatLabel": "Exited (adjacent)",
+      "links": [
+        {
+          "label": "CT.gov results ↗",
+          "url": "https://clinicaltrials.gov/study/NCT06411912?tab=results"
+        },
+        {
+          "label": "Orphan drug designation ↗",
+          "url": "https://www.businesswire.com/news/home/20241022598801/en/Nido-Biosciences-Announces-Orphan-Drug-Designation-for-Lead-Clinical-Candidate-to-Treat-Spinal-and-Bulbar-Muscular-Atrophy"
+        },
+        {
+          "label": "FierceBiotech on the closure ↗",
+          "url": "https://www.fiercebiotech.com/biotech/neuro-biotech-nido-closes-after-phase-2-study-fails-move-needle-rare-disease"
+        }
+      ]
+    }
   }
 ]

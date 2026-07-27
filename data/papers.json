@@ -1,5 +1,78 @@
 [
   {
+    "id": "pubmed:42489872",
+    "date": "2026-07-23",
+    "dateDisplay": "2026/07/23",
+    "title": "Mesenchymal Stem Cell-Based Therapy for Cerebellar Ataxia: From Bench to Bedside",
+    "journal": "CNS Neurosci Ther · Suk K 等（韓國慶北大學）",
+    "tag": "MSC 治療共濟失調 · 系統性回顧",
+    "note": "→ 直接對應本社機制的獨立回顧（文獻期間 2000–2026）：hMSC 移植在 LPS 誘發、Ara-C 誘發與 SCA2 轉基因模型皆改善運動功能、保留浦金氏細胞完整性並抑制神經發炎；關鍵觀察是<b>共濟失調病人自體 MSC 的抗發炎分泌體能力明顯低於健康捐贈者，為異體（allogeneic）策略提供理由</b>；SCA2 模型在症狀出現後給藥仍見療效。作者結論支持推進安慰劑對照隨機試驗。",
+    "highlight": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42489872/",
+    "urlLabel": "論文 ↗ PubMed 42489872",
+    "en": {
+      "tag": "MSC therapy for ataxia · systematic review",
+      "journal": "CNS Neurosci Ther · Suk K et al. (Kyungpook National University, Korea)",
+      "note": "→ An independent review that maps directly onto Steminent's mechanism (literature 2000–2026): hMSC transplantation improved motor function, preserved Purkinje cell integrity and attenuated neuroinflammation across LPS-induced, Ara-C-induced and SCA2 transgenic models. A key observation is that <b>MSCs from ataxia patients show markedly lower anti-inflammatory secretome capacity than healthy-donor MSCs, which justifies an allogeneic strategy</b>; efficacy in the SCA2 model was maintained even when dosing began after symptom onset. The authors conclude that placebo-controlled randomised trials are warranted.",
+      "urlLabel": "Paper ↗ PubMed 42489872"
+    }
+  },
+  {
+    "id": "pubmed:42501220",
+    "date": "2026-07-25",
+    "dateDisplay": "2026/07/25",
+    "title": "N140 Latency as a Novel Biomarker for the Evaluation of Somatosensory Dysfunction in Patients with Spinocerebellar Ataxia Type 2",
+    "journal": "Cerebellum · Gutiérrez J 等（古巴神經學與神經外科研究所）",
+    "tag": "SCA2 生物標記 · 電生理",
+    "note": "→ 古巴 SCA2 世代（28 名病人 vs 34 名年齡配對對照）發現長潛時體感覺誘發電位 N140 潛時延長，且 N140 與 N20 潛時皆與 SARA 分數正相關；作者主張 N140 可作為 N20 之外的補充指標，反映視丘－皮質與小腦－皮質連結缺損。與試驗生物標記／次要終點選擇相關。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42501220/",
+    "urlLabel": "論文 ↗ PubMed 42501220",
+    "en": {
+      "tag": "SCA2 biomarker · electrophysiology",
+      "journal": "Cerebellum · Gutiérrez J et al. (Cuban Institute of Neurology and Neurosurgery)",
+      "note": "→ In a Cuban SCA2 cohort (28 patients vs 34 age-matched controls), long-latency somatosensory evoked potential N140 latency was prolonged, and both N140 and N20 latencies correlated positively with SARA scores. The authors argue N140 complements N20 and reflects impaired thalamo-cortical and cerebello-cortical connectivity — relevant to biomarker and secondary-endpoint selection in trials.",
+      "urlLabel": "Paper ↗ PubMed 42501220"
+    }
+  },
+  {
+    "id": "pubmed:42479997",
+    "date": "2026-07-21",
+    "dateDisplay": "2026/07/21",
+    "title": "Muscle MRI as an Imaging Biomarker of Muscle Damage in Patients With Spinal and Bulbar Muscular Atrophy",
+    "journal": "Neurology · Grunseich C 等（NIH／名古屋大學／UCL／Nido Biosciences）",
+    "tag": "SBMA 影像生物標記（polyQ 鄰域）",
+    "note": "→ 非介入縱貫研究，全身 Dixon MRI 以 AMRA Researcher 量測雙側 19 組肌肉的瘦肌肉體積、肌肉脂肪分率與脂肪浸潤，基線起每 6 個月追蹤至 18 個月，並與 SBMAFRS、2 分鐘步行測試比對靈敏度。此即 Nido Biosciences 於 NIDO-361 Ph2 採用之主要終點的方法學來源。",
+    "company": "nido",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42479997/",
+    "urlLabel": "論文 ↗ PubMed 42479997",
+    "en": {
+      "tag": "SBMA imaging biomarker (adjacent polyQ)",
+      "journal": "Neurology · Grunseich C et al. (NIH / Nagoya University / UCL / Nido Biosciences)",
+      "note": "→ A non-interventional longitudinal study using whole-body Dixon MRI analysed with AMRA Researcher to quantify lean muscle volume, muscle fat fraction and fat infiltration across 19 bilateral muscle groups, assessed at baseline and every 6 months for up to 18 months, and correlated with SBMAFRS and the 2-minute walk test. This is the methodological source of the primary endpoint Nido Biosciences used in the NIDO-361 Ph2.",
+      "urlLabel": "Paper ↗ PubMed 42479997"
+    }
+  },
+  {
+    "id": "pubmed:42471049",
+    "date": "2026-07-18",
+    "dateDisplay": "2026/07/18",
+    "title": "Beyond the brain: Polyglutamine disease pathology outside the nervous system",
+    "journal": "Neurobiol Dis · Rausch JP 等（Wayne State University）",
+    "tag": "polyQ 多系統病理 · 回顧",
+    "note": "→ 主張 polyQ 疾病（亨丁頓舞蹈症、SBMA、DRPLA 與六種 SCA）應視為具器官選擇性的<b>全身性蛋白錯誤折疊症候群</b>：臨床、影像、生化與屍檢資料顯示周邊器官異常常早於或伴隨神經症狀出現，並影響失能與死亡率。作者建議未來試驗設計納入縱貫、多系統表現型評估。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42471049/",
+    "urlLabel": "論文 ↗ PubMed 42471049",
+    "en": {
+      "tag": "polyQ multisystem pathology · review",
+      "journal": "Neurobiol Dis · Rausch JP et al. (Wayne State University)",
+      "note": "→ Argues that polyglutamine diseases (Huntington's disease, SBMA, DRPLA and six spinocerebellar ataxias) should be viewed as <b>systemic protein-misfolding syndromes with organ-selective vulnerability</b>: clinical, imaging, biochemical and post-mortem data show peripheral abnormalities that often precede or accompany neurological symptoms and contribute to disability and mortality. The authors call for longitudinal, multisystem phenotyping in future trial design.",
+      "urlLabel": "Paper ↗ PubMed 42471049"
+    }
+  },
+  {
     "id": "pubmed:42495432",
     "date": "2026-07-22",
     "dateDisplay": "2026/07/22",
