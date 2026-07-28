@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-28",
+    "dateDisplay": "2026/07/28",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 1 則科學文獻：<b>SCA2 前臨床期辨識的多變量 MRI 模型</b>（Tomography，墨西哥／古巴 Holguín 團隊）——以多項 MRI 線性測量區辨健康對照、ATXN2 前臨床帶因者與已發病者，整體準確率 80.7%（前臨床 AUC 0.75）。五組適應症 CT.gov 掃描（SCA／Friedreich／SBMA／polyQ／CACNA1A）近 7 天無清單外新療法試驗，SBMA 組命中皆為前列腺癌雄性素路徑試驗之字面誤中；本社與 Biohaven、Vico、Arrowhead 亦無新監管或臨床動態。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 1 paper: a <b>multivariate MRI model for identifying the preclinical stage of SCA2</b> (Tomography; Mexican / Cuban Holguín groups) that discriminates healthy controls, preclinical ATXN2 carriers and manifest patients with 80.7% overall accuracy (preclinical AUC 0.75). The five-indication CT.gov sweep (SCA/Friedreich/SBMA/polyQ/CACNA1A) found no off-list therapy trials in the last 7 days — the SBMA hits were all literal false matches from prostate-cancer androgen-pathway studies — and there was no new regulatory or clinical movement from Steminent, Biohaven, Vico or Arrowhead.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-07-27",
     "dateDisplay": "2026/07/27",
     "tag": "每日掃描",

@@ -1,5 +1,23 @@
 [
   {
+    "id": "pubmed:42506857",
+    "date": "2026-07-27",
+    "dateDisplay": "2026/07/27",
+    "title": "Improving the Identification of the Preclinical Stages of Spinocerebellar Ataxia Type 2",
+    "journal": "Tomography · Mora-Batista C 等（墨西哥 Guerrero 自治大學／古巴 Holguín 遺傳性共濟失調研究與復健中心）",
+    "tag": "SCA2 前臨床期辨識 · MRI 影像模型",
+    "note": "→ 針對「帶有 ATXN2 致病突變但運動症狀尚未出現」的前臨床帶因者，改用多變量方法：以多項 MRI 線性測量建立多項式邏輯迴歸，區辨健康對照（n=72）、前臨床帶因者（n=17）與已發病 SCA2（n=61），並以 SMOTE 處理前臨床組樣本不平衡。整體準確率 80.7%，AUC 分別為對照 0.96、前臨床 0.75、已發病 0.95。<b>前臨床辨識能力仍是所有 SCA 疾病修飾療法（含細胞治療）能否往早期介入推進的關鍵瓶頸</b>，此為方法學上的漸進改善。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42506857/",
+    "urlLabel": "論文 ↗ PubMed 42506857",
+    "en": {
+      "tag": "SCA2 preclinical staging · MRI model",
+      "journal": "Tomography · Mora-Batista C et al. (Universidad Autónoma de Guerrero, Mexico / Centro de Investigación y Rehabilitación de las Ataxias Hereditarias, Holguín, Cuba)",
+      "note": "→ Aimed at preclinical carriers who hold the pathogenic ATXN2 mutation but have no motor manifestations yet, this study replaces univariate linear measures with a multivariate approach: a multinomial logistic regression built on multiple MRI linear measurements discriminates healthy controls (n=72), preclinical carriers (n=17) and manifest SCA2 patients (n=61), with SMOTE used to offset the small preclinical subgroup. Overall accuracy was 80.7%, with AUCs of 0.96 for controls, 0.75 for preclinical carriers and 0.95 for manifest disease. <b>Preclinical identification remains the key bottleneck for moving any SCA disease-modifying therapy — cell therapy included — into earlier intervention</b>; this is an incremental methodological gain.",
+      "urlLabel": "Paper ↗ PubMed 42506857"
+    }
+  },
+  {
     "id": "pubmed:42489872",
     "date": "2026-07-23",
     "dateDisplay": "2026/07/23",
