@@ -1,5 +1,59 @@
 [
   {
+    "id": "pubmed:42513188",
+    "date": "2026-07-17",
+    "dateDisplay": "2026/07/17",
+    "title": "Polyphenol-Rich Cinnamon Bud Extract Affects Ataxin-3 Aggregation and Ameliorates SCA3 Phenotypes",
+    "journal": "Molecules · Sciandrone B, Pensotti R, Ami D 等（義大利米蘭比可卡大學生物技術與生物科學系）",
+    "tag": "SCA3 蛋白聚集 · 天然物",
+    "note": "→ 以 ataxin-3 的異常自組裝成類澱粉聚集體為標的：肉桂芽萃取物之多酚可減少富含 β-摺板的類澱粉聚集體形成，並在秀麗隱桿線蟲 SCA3 模型改善運動缺損、提升抗氧化壓力耐受。<b>屬體外／線蟲模型階段的探索性研究，距人體試驗甚遠</b>；記錄價值在於「抑制聚集」與本社 MSC 誘導自噬清除突變 ataxin-3 屬同一下游目標的不同路徑。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42513188/",
+    "urlLabel": "論文 ↗ PubMed 42513188",
+    "en": {
+      "tag": "SCA3 protein aggregation · natural product",
+      "journal": "Molecules · Sciandrone B, Pensotti R, Ami D et al. (Dept. of Biotechnology and Biosciences, University of Milano-Bicocca, Italy)",
+      "note": "→ Targets the aberrant self-assembly of ataxin-3 into amyloid aggregates: polyphenols from cinnamon bud extract reduced the formation of β-sheet-rich amyloid assemblies and, in a C. elegans SCA3 model, improved locomotor defects and increased resistance to oxidative stress. <b>This is exploratory in-vitro and nematode-model work, far from human trials</b>; it is recorded because aggregate suppression is the same downstream goal our MSC reaches by a different route (inducing autophagy to clear mutant ataxin-3).",
+      "urlLabel": "Paper ↗ PubMed 42513188"
+    }
+  },
+  {
+    "id": "pubmed:42501193",
+    "date": "2026-07-25",
+    "dateDisplay": "2026/07/25",
+    "title": "Abnormal Local Brain Activity in SCA3 Patients with Cognitive Impairment: A Resting-State Functional MRI Study",
+    "journal": "Cerebellum · Fan S, Li M, Chen X 等（中國福建醫科大學附屬第一醫院放射科）",
+    "tag": "SCA3 認知 · 靜息態 fMRI",
+    "note": "→ 84 名 SCA3 病人與 41 名健康對照的靜息態 fMRI：合併認知障礙者在額紋狀體區 ALFF 上升、預設模式網絡 ALFF 下降，且變化與認知表現相關，涉及皮質－紋狀體－視丘－皮質迴路與小腦。<b>SCA3 的非運動症狀評估與次要終點選擇情報</b>——本社美國 Ph2 亦收 SCA3 族群。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42501193/",
+    "urlLabel": "論文 ↗ PubMed 42501193",
+    "en": {
+      "tag": "SCA3 cognition · resting-state fMRI",
+      "journal": "Cerebellum · Fan S, Li M, Chen X et al. (Dept. of Radiology, First Affiliated Hospital, Fujian Medical University, China)",
+      "note": "→ Resting-state fMRI in 84 SCA3 patients and 41 healthy controls: those with cognitive impairment showed increased ALFF in fronto-striatal regions and decreased ALFF in the default mode network, with the alterations correlating with cognitive performance and implicating the cortico-striato-thalamo-cortical loop and the cerebellum. <b>Intelligence on non-motor assessment and secondary-endpoint choice in SCA3</b> — the population our US Ph2 is enrolling.",
+      "urlLabel": "Paper ↗ PubMed 42501193"
+    }
+  },
+  {
+    "id": "pubmed:42474884",
+    "date": "2026-07-20",
+    "dateDisplay": "2026/07/20",
+    "title": "Patient-Reported Visual Function in Ataxias and Association with Clinical Oculomotor Findings",
+    "journal": "Cerebellum · Yang FX, Manohar R, Luddy AC 等（美國麻省總醫院／哈佛醫學院神經科）",
+    "tag": "共濟失調 病人自述終點",
+    "note": "→ 56 名基因確診共濟失調病人（含 SCA3）與 61 名對照：各共濟失調族群自述視功能皆顯著差於對照，缺損最大者為視覺處理速度；凝視誘發眼震為視功能下降的獨立預測因子。<b>與病人自述型結果測量（PRO）作為試驗終點的可用性相關</b>。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42474884/",
+    "urlLabel": "論文 ↗ PubMed 42474884",
+    "en": {
+      "tag": "Ataxia patient-reported endpoint",
+      "journal": "Cerebellum · Yang FX, Manohar R, Luddy AC et al. (Dept. of Neurology, Massachusetts General Hospital / Harvard Medical School, USA)",
+      "note": "→ In 56 people with genetically defined ataxias (including SCA3) and 61 controls, every ataxia group reported significantly worse visual function than controls, with the largest deficit in visual processing speed; gaze-evoked nystagmus independently predicted reduced visual function. <b>Relevant to the usability of patient-reported outcome measures as trial endpoints.</b>",
+      "urlLabel": "Paper ↗ PubMed 42474884"
+    }
+  },
+  {
     "id": "pubmed:42506857",
     "date": "2026-07-27",
     "dateDisplay": "2026/07/27",

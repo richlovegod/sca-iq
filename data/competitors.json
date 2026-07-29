@@ -718,8 +718,8 @@
     "asset": "Vatiquinone",
     "mechanism": "小分子<br>15-LO 抑制、氧化壓力",
     "indication": "Friedreich's Ataxia",
-    "phase": "NDA 受挫",
-    "status": "2025/02 FDA 受理 NDA 並給予優先審查（PDUFA 2025/08/19），<b style=\"color:#ff8a7a\">2025/08/19 收到完全回覆信（CRL），理由為未證明實質療效證據</b>。試驗曾在部分次量表見顯著效果、但主要終點未達。<b>與 Biohaven 同屬「共濟失調小分子在 FDA 卡關」的案例</b>，是終點選擇與證據等級的重要參照。",
+    "phase": "NDA 受挫→新 Ph3",
+    "status": "2025/02 FDA 受理 NDA 並給予優先審查（PDUFA 2025/08/19），<b style=\"color:#ff8a7a\">2025/08/19 收到完全回覆信（CRL），理由為未證明實質療效證據</b>。試驗曾在部分次量表見顯著效果、但主要終點未達。<b style=\"color:#ffce7a\">2026/07 登錄新 Ph3「PROVE-FA」（NCT07681713）</b>：n≈120、24 個月、主要指標 mFARS，估 2026/08 起始——惟<b>設計為單臂開放標籤、無安慰劑對照</b>。<b>與 Biohaven 同屬「共濟失調小分子在 FDA 卡關」的案例</b>，是終點選擇與證據等級的重要參照。",
     "threatLabel": "低(FA·受挫)",
     "links": [
       {
@@ -735,8 +735,8 @@
       "asset": "Vatiquinone",
       "mechanism": "Small molecule<br>15-LO inhibition, oxidative stress",
       "indication": "Friedreich's ataxia",
-      "phase": "NDA rejected",
-      "status": "The FDA accepted the NDA with priority review in 2025/02 (PDUFA 2025/08/19) and <b style=\"color:#ff8a7a\">issued a Complete Response Letter on 2025/08/19, citing that substantial evidence of efficacy had not been demonstrated</b>. Trials showed significant effects on certain subscales but missed the primary endpoint. <b>Together with Biohaven it forms a pattern of ataxia small molecules stalling at the FDA</b> — an important reference on endpoint choice and evidence level.",
+      "phase": "NDA rejected → new Ph3",
+      "status": "The FDA accepted the NDA with priority review in 2025/02 (PDUFA 2025/08/19) and <b style=\"color:#ff8a7a\">issued a Complete Response Letter on 2025/08/19, citing that substantial evidence of efficacy had not been demonstrated</b>. Trials showed significant effects on certain subscales but missed the primary endpoint. <b style=\"color:#ffce7a\">A new Ph3, \"PROVE-FA\" (NCT07681713), was registered in 2026/07</b>: n≈120 over 24 months with mFARS as the primary endpoint, estimated to start 2026/08 — but it is <b>single-arm and open-label, with no placebo control</b>. <b>Together with Biohaven it forms a pattern of ataxia small molecules stalling at the FDA</b> — an important reference on endpoint choice and evidence level.",
       "threatLabel": "Low (FA, setback)",
       "links": [
         {
@@ -746,6 +746,47 @@
         {
           "label": "CRL coverage ↗ 2025/08",
           "url": "https://www.neurologylive.com/view/fda-denies-approval-friedreich-ataxia-agent-vatiquinone-citing-more-efficacy-needed"
+        }
+      ]
+    }
+  },
+  {
+    "id": "solid-bio",
+    "ring": "ataxia",
+    "threat": "low",
+    "company": "Solid Biosciences（美國）",
+    "asset": "SGT-212",
+    "mechanism": "AAVhu68 基因療法<br>密碼子最佳化 FXN cDNA<br><b>雙途徑遞送</b>：雙側齒狀核＋靜脈",
+    "indication": "Friedreich's Ataxia",
+    "phase": "Ph1b 收案中",
+    "status": "首次人體、開放標籤劑量探索試驗 <b>NCT07180355</b>：2025/10/22 啟動、n≈10（可行走與不可行走兩世代）、追蹤約 5 年，主要指標為 12 個月治療相關不良事件；站點 UCLA、俄亥俄州立大學、費城兒童醫院。<b style=\"color:#ffce7a\">值得留意的是遞送策略——直接注輸小腦齒狀核＋靜脈的雙途徑</b>，正是為解決 Biogen BIIB132 當年「標的對、載具送不到深部小腦」的同一難題；若安全性成立，將是 polyQ／SCA 基因療法遞送路線的重要參照。目前僅 FA 適應症，未見延伸至 SCA。",
+    "threatLabel": "低(FA)",
+    "links": [
+      {
+        "label": "試驗 ↗ NCT07180355",
+        "url": "https://clinicaltrials.gov/study/NCT07180355"
+      },
+      {
+        "label": "Solid Biosciences 官網 ↗",
+        "url": "https://www.solidbio.com/"
+      }
+    ],
+    "en": {
+      "company": "Solid Biosciences (USA)",
+      "asset": "SGT-212",
+      "mechanism": "AAVhu68 gene therapy<br>codon-optimised FXN cDNA<br><b>dual-route delivery</b>: bilateral dentate nucleus plus IV",
+      "indication": "Friedreich's ataxia",
+      "phase": "Ph1b recruiting",
+      "status": "First-in-human, open-label, dose-finding trial <b>NCT07180355</b>: started 2025/10/22, n≈10 across ambulatory and non-ambulatory cohorts, ~5 years of follow-up, with TEAEs at month 12 as the primary endpoint; sites are UCLA, Ohio State University and Children's Hospital of Philadelphia. <b style=\"color:#ffce7a\">The notable feature is the delivery strategy — direct infusion into the cerebellar dentate nucleus combined with an IV dose</b>, aimed at exactly the problem that sank Biogen's BIIB132 (right target, but the vehicle could not reach the deep cerebellum). If the safety profile holds, it becomes an important reference for gene-therapy delivery in polyQ and SCA. The programme is currently in FA only, with no announced extension to SCA.",
+      "threatLabel": "Low (FA)",
+      "links": [
+        {
+          "label": "Trial ↗ NCT07180355",
+          "url": "https://clinicaltrials.gov/study/NCT07180355"
+        },
+        {
+          "label": "Solid Biosciences website ↗",
+          "url": "https://www.solidbio.com/"
         }
       ]
     }

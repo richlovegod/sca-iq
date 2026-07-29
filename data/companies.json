@@ -624,8 +624,8 @@
     "country": "美國 USA",
     "ticker": "NASDAQ: PTCT",
     "mechanism": "小分子，15-LO 抑制、氧化壓力",
-    "pipeline": "Vatiquinone｜Friedreich's Ataxia：NDA 受挫",
-    "insight": "Vatiquinone 的 FA 新藥申請於 2025/08 收到 CRL（未證明實質療效證據）。與 Biohaven 並列「共濟失調小分子在 FDA 卡關」的案例。",
+    "pipeline": "Vatiquinone｜Friedreich's Ataxia：NDA 受挫；新 Ph3 PROVE-FA（NCT07681713）2026/07 登錄",
+    "insight": "Vatiquinone 的 FA 新藥申請於 2025/08 收到 CRL（未證明實質療效證據）。與 Biohaven 並列「共濟失調小分子在 FDA 卡關」的案例。2026/07 登錄新 Ph3「PROVE-FA」（n≈120、24 個月、主要指標 mFARS，估 2026/08 起始），惟設計為單臂開放標籤、無安慰劑對照。",
     "threat": "low",
     "url": "https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-fda-acceptance-and-priority-review-0",
     "match": [
@@ -636,8 +636,33 @@
     "en": {
       "country": "USA",
       "mechanism": "Small molecule, 15-LO inhibition, oxidative stress",
-      "pipeline": "Vatiquinone | Friedreich's ataxia: NDA rejected",
-      "insight": "Vatiquinone's FA NDA received a CRL in 2025/08 (substantial evidence of efficacy not demonstrated). Together with Biohaven, a case of ataxia small molecules stalling at the FDA."
+      "pipeline": "Vatiquinone | Friedreich's ataxia: NDA rejected; new Ph3 PROVE-FA (NCT07681713) registered 2026/07",
+      "insight": "Vatiquinone's FA NDA received a CRL in 2025/08 (substantial evidence of efficacy not demonstrated). Together with Biohaven, a case of ataxia small molecules stalling at the FDA. A new Ph3, PROVE-FA, was registered in 2026/07 (n≈120 over 24 months, primary endpoint mFARS, estimated start 2026/08) — but it is single-arm and open-label, with no placebo control."
+    },
+    "cat": "sca"
+  },
+  {
+    "id": "solid-bio",
+    "name": "Solid Biosciences",
+    "nameEn": "Solid Biosciences Inc.",
+    "short": "Solid Bio",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: SLDB",
+    "mechanism": "AAVhu68 基因療法，密碼子最佳化 FXN cDNA；雙側齒狀核直接注輸＋靜脈雙途徑遞送",
+    "pipeline": "SGT-212｜Friedreich's Ataxia：Ph1b 首次人體試驗收案中（NCT07180355）",
+    "insight": "2026/07/29 主動掃描發現的清單外玩家。其 SGT-212 採「小腦齒狀核直接注輸＋靜脈」雙途徑遞送，正面處理 Biogen BIIB132 當年折戟的深部小腦遞送難題；目前僅 FA 適應症，未見延伸 SCA，但遞送路線值得長期追蹤。",
+    "threat": "low",
+    "url": "https://www.solidbio.com/",
+    "match": [
+      "Solid Biosciences",
+      "SGT-212"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "AAVhu68 gene therapy with codon-optimised FXN cDNA; dual-route delivery by bilateral intradentate nucleus infusion plus IV",
+      "pipeline": "SGT-212 | Friedreich's ataxia: Ph1b first-in-human trial recruiting (NCT07180355)",
+      "insight": "An off-list player picked up by the 2026/07/29 sweep. SGT-212 uses dual-route delivery — direct infusion into the cerebellar dentate nucleus plus an IV dose — addressing head-on the deep-cerebellar delivery problem that sank Biogen's BIIB132. It is in FA only with no announced SCA extension, but the delivery route is worth tracking."
     },
     "cat": "sca"
   },

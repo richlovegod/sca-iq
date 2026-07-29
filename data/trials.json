@@ -147,6 +147,38 @@
     }
   },
   {
+    "nct": "NCT07180355",
+    "drug": "SGT-212",
+    "mechanism": "AAVhu68 基因療法（密碼子最佳化 FXN cDNA）<br>雙途徑：雙側齒狀核直接注輸＋靜脈輸注",
+    "phase": "Ph1b",
+    "status": "收案中（首次人體、開放標籤、劑量探索；2025/10/22 啟動、n≈10、含可行走與不可行走兩世代，追蹤約 5 年；主要指標為 12 個月治療相關不良事件發生率與嚴重度。站點：UCLA、俄亥俄州立大學、費城兒童醫院）",
+    "sponsor": "Solid Biosciences",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07180355",
+    "en": {
+      "mechanism": "AAVhu68 gene therapy (codon-optimised FXN cDNA)<br>dual route: bilateral intradentate nucleus infusion plus IV infusion",
+      "phase": "Ph1b",
+      "status": "Recruiting (first-in-human, open-label, dose-finding; started 2025/10/22, n≈10 across ambulatory and non-ambulatory cohorts, ~5 years of follow-up; primary endpoint is incidence and severity of TEAEs at month 12. Sites: UCLA, Ohio State University, Children's Hospital of Philadelphia)",
+      "sponsor": "Solid Biosciences"
+    }
+  },
+  {
+    "nct": "NCT07681713",
+    "drug": "Vatiquinone (PTC743)",
+    "mechanism": "小分子（15-LO 抑制、氧化壓力）",
+    "phase": "Ph3",
+    "status": "尚未收案（PROVE-FA 長期療效試驗；<b>單臂開放標籤、不設盲</b>，n≈120、口服每日三次 24 個月，估 2026/08/15 起始、2029/03 主要完成。主要指標＝mFARS 總分自基線至 24 個月變化；次要含 mFARS 次量表、FARS-ADL、25 呎步行測試）",
+    "sponsor": "PTC Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07681713",
+    "en": {
+      "mechanism": "Small molecule (15-LO inhibition, oxidative stress)",
+      "phase": "Ph3",
+      "status": "Not yet recruiting (PROVE-FA long-term efficacy study; <b>single-arm, open-label, no masking</b>, n≈120, oral three times daily for 24 months, estimated start 2026/08/15 and primary completion 2029/03. Primary endpoint = change in total mFARS from baseline to month 24; secondary endpoints include mFARS subscales, FARS-ADL and the 25-foot walk test)",
+      "sponsor": "PTC Therapeutics"
+    }
+  },
+  {
     "nct": "NCT06411912",
     "drug": "NIDO-361",
     "mechanism": "口服小分子選擇性雄性素受體調節劑（SARM）<br>結合 AR 的 BF3 位點",

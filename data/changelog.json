@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-29",
+    "dateDisplay": "2026/07/29",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "<b>主動發現清單外競品 Solid Biosciences（NASDAQ: SLDB）</b>：Friedreich's Ataxia 基因療法 SGT-212 首次人體 Ph1b（NCT07180355）自 2025/10 收案中，採<b>雙側小腦齒狀核注輸＋靜脈雙途徑遞送</b>——正對應 Biogen BIIB132 折戟的深部小腦遞送難題；已建立競品全景、公司情報卡與試驗各一筆，追蹤競品數 20→21。另補收 <b>PTC Therapeutics 新 Ph3「PROVE-FA」</b>（NCT07681713，n≈120、24 個月、主要指標 mFARS、估 2026/08 起始），惟為單臂開放標籤無對照設計。新增 3 則科學文獻：SCA3 類澱粉聚集抑制（肉桂芽多酚，線蟲模型）、SCA3 認知障礙靜息態 fMRI（n=84）、共濟失調病人自述視功能與眼動關聯（MGH／哈佛）。",
+    "link": {
+      "label": "詳見 臨床試驗雷達 ↗",
+      "tab": "si",
+      "anchor": "trialradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "<b>Discovered an off-list competitor, Solid Biosciences (NASDAQ: SLDB)</b>: its Friedreich's ataxia gene therapy SGT-212 has been recruiting into a first-in-human Ph1b (NCT07180355) since 2025/10, using <b>dual-route delivery via bilateral cerebellar dentate-nucleus infusion plus IV</b> — aimed at the deep-cerebellar delivery problem that sank Biogen's BIIB132. Added as a competitor-landscape row, a company card and a trial; tracked competitors 20 → 21. Also captured <b>PTC Therapeutics' new Ph3, PROVE-FA</b> (NCT07681713; n≈120 over 24 months, primary endpoint mFARS, estimated start 2026/08), though it is single-arm, open-label and uncontrolled. Added 3 papers: suppression of ataxin-3 amyloid aggregation by cinnamon-bud polyphenols in a C. elegans model, resting-state fMRI in SCA3 with cognitive impairment (n=84), and patient-reported visual function and its oculomotor correlates in ataxias (MGH / Harvard).",
+      "linkLabel": "See Clinical Trial Radar ↗"
+    }
+  },
+  {
     "date": "2026-07-28",
     "dateDisplay": "2026/07/28",
     "tag": "每日掃描",

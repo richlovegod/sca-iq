@@ -1,5 +1,32 @@
 [
   {
+    "id": "solidbio-sgt212-2026-07",
+    "date": "2026-07-29",
+    "dateDisplay": "2026/07",
+    "level": "info",
+    "tag": "新競品",
+    "body": "主動掃描發現清單外玩家 <b>Solid Biosciences（NASDAQ: SLDB）</b>：其 Friedreich's Ataxia 基因療法 <b>SGT-212</b> 首次人體 Ph1b（NCT07180355）自 2025/10 起收案，n≈10、追蹤約 5 年，站點為 UCLA、俄亥俄州立大學與費城兒童醫院。",
+    "note": "→ 關鍵在遞送策略：<b>雙側小腦齒狀核直接注輸＋靜脈輸注雙途徑</b>，正對應 Biogen BIIB132（ATXN3 ASO）當年「標的對、載具送不到深部小腦」的失敗主因。目前僅 FA 適應症、未見延伸 SCA，但若安全性成立，將成為 polyQ／SCA 基因療法遞送路線的重要參照。",
+    "links": [
+      {
+        "label": "試驗 ↗ NCT07180355",
+        "url": "https://clinicaltrials.gov/study/NCT07180355"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2026/07",
+      "tag": "New competitor",
+      "body": "The proactive sweep picked up an off-list player, <b>Solid Biosciences (NASDAQ: SLDB)</b>: its Friedreich's ataxia gene therapy <b>SGT-212</b> has been recruiting into a first-in-human Ph1b (NCT07180355) since 2025/10, with n≈10 and roughly 5 years of follow-up, at UCLA, Ohio State University and Children's Hospital of Philadelphia.",
+      "note": "→ The delivery strategy is the point: <b>bilateral direct infusion into the cerebellar dentate nucleus combined with an IV dose</b>, aimed squarely at the failure mode of Biogen's BIIB132 (ATXN3 ASO) — right target, but the vehicle could not reach the deep cerebellum. It is in FA only for now with no announced SCA extension, but if the safety profile holds it becomes a key reference for gene-therapy delivery in polyQ and SCA.",
+      "links": [
+        {
+          "label": "Trial ↗ NCT07180355",
+          "url": "https://clinicaltrials.gov/study/NCT07180355"
+        }
+      ]
+    }
+  },
+  {
     "id": "intrabio-cacna1a-ph3-2026-05",
     "date": "2026-05-20",
     "dateDisplay": "2026/05",
