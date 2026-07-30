@@ -42,6 +42,34 @@
   .pill{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap}
   .p-high{background:#4a1f1c;color:#ff8a7a}.p-mid{background:#4a3a1c;color:#ffce7a}
   .p-low{background:#20303f;color:#9fb4cc}.p-us{background:#183a29;color:#6ee7a0}
+  .p-bench{background:#1e2f3d;color:#8fb3d9}.p-partner{background:#1c3546;color:#7ec8f0}
+  /* 合作機會 */
+  .pagrp{margin-bottom:26px}
+  .pagrp>h3{font-size:13px;margin:0 0 4px;display:flex;align-items:center;gap:8px}
+  .pagrp>p.phint{font-size:11.5px;color:#7d8fa6;margin:0 0 12px;line-height:1.6}
+  .pnum{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;font-size:11px;font-weight:700}
+  .pnum1{background:#183a29;color:#6ee7a0}.pnum2{background:#4a3a1c;color:#ffce7a}.pnum3{background:#20303f;color:#9fb4cc}
+  .pacard{background:#101a25;border:1px solid #223547;border-left:3px solid #2b3a4d;border-radius:8px;padding:14px 16px;margin-bottom:10px}
+  .pacard.p1{border-left-color:#3fae72}.pacard.p2{border-left-color:#c9992f}.pacard.p3{border-left-color:#3c5063}
+  .pahd{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px;margin-bottom:8px}
+  .paname{font-size:14px;font-weight:700;color:#e6edf3;text-decoration:none}
+  .paname:hover{color:#6ee7a0;text-decoration:underline}
+  .pamkt{font-size:11.5px;color:#7d8fa6}
+  .pafield{font-size:12.5px;line-height:1.75;margin:7px 0;color:#c4d2e0}
+  .pafield b{color:#8fb3d9;font-weight:700}
+  .paforms{list-style:none;padding:0;margin:6px 0 0}
+  .paforms li{font-size:12.5px;line-height:1.7;color:#c4d2e0;padding-left:15px;position:relative}
+  .paforms li:before{content:'▸';position:absolute;left:0;color:#5a7590}
+  .pasrc{margin-top:9px;padding-top:8px;border-top:1px solid #1d2b39;font-size:11px}
+  .pasrc a{color:#5f9ec9;text-decoration:none;margin-right:12px}
+  .pasrc a:hover{text-decoration:underline}
+  .pstat{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px}
+  .st-existing{background:#183a29;color:#6ee7a0}.st-talking{background:#1c3546;color:#7ec8f0}
+  .st-stalled{background:#4a3a1c;color:#ffce7a}.st-target{background:#20303f;color:#9fb4cc}
+  .st-untouched{background:#1b2836;color:#8195aa}
+  #paMatrix td.zero{color:#4a5a6b}
+  #paMatrix td.hit{color:#6ee7a0;font-weight:700}
+  #paMatrix td.gap{background:#2a1a1a;color:#ff8a7a;font-weight:700}
   .mod{color:#9fb4cc;font-size:11.5px}.co{font-weight:700;color:#fff}.asset{color:#4da3ff;font-size:11.5px}
   .src{display:inline-block;margin-top:6px;font-size:10.5px;color:#4da3ff;text-decoration:none;border:1px solid #2b4a6d;border-radius:5px;padding:1px 7px;background:#12233a}
   .src:hover{background:#1b3452;text-decoration:underline}
@@ -188,7 +216,7 @@
   <div class="wrap">
     <div class="brand">
       <div>
-        <div class="logo">SCA<b>-IQ</b> <span class="v"><span class="i18n zh">競品情報監測平台 · v2.1</span><span class="i18n en">Competitive Intelligence Platform · v2.1</span></span> <a href="company.html" class="relnote"><span class="i18n zh">公司總覽 ↗</span><span class="i18n en">All companies ↗</span></a> <a href="versions.html" class="relnote"><span class="i18n zh">控制台 ↗</span><span class="i18n en">Console ↗</span></a></div>
+        <div class="logo">SCA<b>-IQ</b> <span class="v"><span class="i18n zh">競品情報監測平台 · v2.2</span><span class="i18n en">Competitive Intelligence Platform · v2.2</span></span> <a href="company.html" class="relnote"><span class="i18n zh">公司總覽 ↗</span><span class="i18n en">All companies ↗</span></a> <a href="versions.html" class="relnote"><span class="i18n zh">控制台 ↗</span><span class="i18n en">Console ↗</span></a></div>
         <div class="tag"><span class="live"></span><span class="i18n zh">脊髓小腦萎縮症 (SCA) 治療競爭情報 · AI 自動監測 · 每日掃描・每週摘要</span><span class="i18n en">Spinocerebellar ataxia (SCA) treatment landscape · AI-monitored · daily scan, weekly digest</span></div>
       </div>
       <div class="meta">
@@ -201,6 +229,7 @@
     <nav>
       <button class="on" onclick="tab(event,'ov')"><span class="i18n zh">總覽</span><span class="i18n en">Overview</span></button>
       <button onclick="tab(event,'ls')"><span class="i18n zh">競品全景</span><span class="i18n en">Landscape</span></button>
+      <button onclick="tab(event,'pa')"><span class="i18n zh">合作機會</span><span class="i18n en">Partnering</span></button>
       <button onclick="tab(event,'jp')"><span class="i18n zh">日本法規時間軸</span><span class="i18n en">Japan Regulatory</span></button>
       <button onclick="tab(event,'pl')"><span class="i18n zh">臨床開發進度</span><span class="i18n en">Pipeline</span></button>
       <button onclick="tab(event,'ip')"><span class="i18n zh">專利與獨占權</span><span class="i18n en">IP &amp; Exclusivity</span></button>
@@ -487,6 +516,32 @@
   </div>
 </section>
 
+<!-- 合作機會 -->
+<section id="pa" class="panel">
+  <div class="card">
+    <h2><span class="i18n zh">◎ 市場覆蓋地圖 (Market Coverage)</span><span class="i18n en">◎ Market Coverage Map</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:14px"><span class="i18n zh">目標市場 × 對象層別的家數矩陣。<b>掛零的格子就是缺口</b>——這是清單看不出、只有攤成矩陣才浮得出來的東西。層別：<b>競品</b>（正面競爭）／<b>治療型</b>（機轉互補的開發者）／<b>製造生態系</b>（CDMO、供應鏈、加速器）／<b>通路</b>（病人接觸）／<b>學術</b>（世代與資料）。</span><span class="i18n en">A matrix of counts by target market and counterparty layer. <b>Empty cells are the gaps</b> — the thing a list cannot show and only a matrix surfaces. Layers: <b>rival</b> (head-on competition), <b>therapeutic</b> (mechanistically complementary developers), <b>platform</b> (CDMOs, supply chain, accelerators), <b>channel</b> (patient access) and <b>academic</b> (cohorts and data).</span></p>
+    <div class="tblbox"><table id="paMatrix"></table></div>
+  </div>
+
+  <div class="card">
+    <h2><span class="i18n zh">◎ 合作機會與優先序 (Partnering Opportunities)</span><span class="i18n en">◎ Partnering Opportunities &amp; Priorities</span></h2>
+    <p style="font-size:12px;color:#8b9bb0;margin-bottom:10px"><span class="i18n zh">逐家分析：為什麼是夥伴而非對手、契合點在哪、可行的合作形式，以及排這個順位的理由。判定準則為「機轉重疊」三軸（神經保護／異常蛋白堆疊／細胞治療相鄰）再加一條價值鏈軸（製造、供應、通路）。每筆附可查證來源。</span><span class="i18n en">A company-by-company analysis: why each is a partner rather than a rival, where the fit lies, what forms a collaboration could take, and the reasoning behind its rank. Assessment follows three mechanistic axes — neuroprotection, protein aggregation and cell therapy adjacency — plus a value chain axis covering manufacturing, supply and channel. Every entry cites a verifiable source.</span></p>
+    <div class="filters" id="paLayerFilters">
+      <span style="font-size:11px;color:#6a7c92;align-self:center;margin-right:2px"><span class="i18n zh">層別</span><span class="i18n en">Layer</span></span>
+      <button class="on" onclick="setPaLayer('all',this)"><span class="i18n zh">全部</span><span class="i18n en">All</span></button>
+      <button onclick="setPaLayer('therapeutic',this)"><span class="i18n zh">治療型</span><span class="i18n en">Therapeutic</span></button>
+      <button onclick="setPaLayer('platform',this)"><span class="i18n zh">製造生態系</span><span class="i18n en">Platform</span></button>
+      <button onclick="setPaLayer('channel',this)"><span class="i18n zh">通路</span><span class="i18n en">Channel</span></button>
+      <button onclick="setPaLayer('academic',this)"><span class="i18n zh">學術</span><span class="i18n en">Academic</span></button>
+      <button onclick="setPaLayer('rival',this)"><span class="i18n zh">競品</span><span class="i18n en">Rival</span></button>
+    </div>
+    <input class="search" id="paSearch" oninput="renderPartnering()">
+    <div id="paCount" style="font-size:11px;color:#6a7c92;margin:2px 0 12px"></div>
+    <div id="paList"></div>
+  </div>
+</section>
+
 <!-- CHANGELOG -->
 <section id="lg" class="panel">
   <div class="card">
@@ -501,7 +556,7 @@
 </section>
 
 <div class="foot">
-  <span class="i18n zh"><b>SCA-IQ 競品情報監測平台 v2.1</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。</span><span class="i18n en"><b>SCA-IQ Competitive Intelligence Platform v2.1</b>　|　Generated by an AI workflow · daily scheduled scan · for Steminent's evaluation<br>Every item on this platform cites a public, verifiable source; the AI only compiles and interprets — it does not invent content.</span><br>
+  <span class="i18n zh"><b>SCA-IQ 競品情報監測平台 v2.2</b>　|　由 AI 工作流自動生成 · 每日排程掃描 · 供仲恩生醫評估用途<br>本平台所有情報均附公開來源、可查證；AI 只做整理與判讀，不編造內容。</span><span class="i18n en"><b>SCA-IQ Competitive Intelligence Platform v2.2</b>　|　Generated by an AI workflow · daily scheduled scan · for Steminent's evaluation<br>Every item on this platform cites a public, verifiable source; the AI only compiles and interprets — it does not invent content.</span><br>
   <a href="versions.html" style="color:#5a6b82;font-size:11px;text-decoration:none"><span class="i18n zh">控制台 ↗</span><span class="i18n en">Console ↗</span></a>
 </div>
 </div>
@@ -577,6 +632,26 @@ var I18N={
   coEvents:{zh:'會議發表 Conference',en:'Conference presentations'},coUpdates:{zh:'近期動態 Updates',en:'Recent updates'},
   coEmpty:{zh:'（目前無收錄項目）',en:'(nothing recorded yet)'},
   thSelf:{zh:'本社',en:'Us'},thHigh:{zh:'高威脅',en:'High threat'},thMid:{zh:'中威脅',en:'Mid threat'},thLow:{zh:'低威脅',en:'Low threat'},
+  thBench:{zh:'標竿',en:'Benchmark'},thPartner:{zh:'夥伴',en:'Partner'},
+  /* 合作機會 */
+  paSearch:{zh:'🔍 搜尋公司／市場／合作形式…',en:'🔍 Search company / market / form of collaboration…'},
+  paP1:{zh:'優先序 1 · 現在就該起手',en:'Priority 1 · start now'},
+  paP2:{zh:'優先序 2 · 三到六個月',en:'Priority 2 · three to six months'},
+  paP3:{zh:'優先序 3 · 觀察與機會型',en:'Priority 3 · watch and opportunistic'},
+  paP1h:{zh:'已有關係可延伸，或直接補上當下最痛的缺口；冷啟動成本最低。',en:'An existing relationship to extend, or a direct fix for the most pressing gap; lowest cold-start cost.'},
+  paP2h:{zh:'方向明確但需要前置條件或準備期，先做評估、後談合約。',en:'Clear direction but with preconditions or lead time; assess first, contract later.'},
+  paP3h:{zh:'現在只需追蹤。多數是未來才用得到的選項，或情報價值高於合作價值的對象。',en:'Tracking is enough for now. Mostly options that only matter later, or counterparties whose intelligence value exceeds their partnership value.'},
+  paFit:{zh:'契合點',en:'Where the fit is'},
+  paWhy:{zh:'為什麼是夥伴而非對手',en:'Why a partner, not a rival'},
+  paForms:{zh:'可行的合作形式',en:'Possible forms of collaboration'},
+  paRank:{zh:'為什麼排這個順位',en:'Why this rank'},
+  paLayerL:{zh:{rival:'競品',therapeutic:'治療型',platform:'製造生態系',channel:'通路',academic:'學術'},
+            en:{rival:'Rival',therapeutic:'Therapeutic',platform:'Platform',channel:'Channel',academic:'Academic'}},
+  paStatL:{zh:{existing:'既有合作',talking:'洽談中',stalled:'停擺',target:'目標',untouched:'尚未接觸'},
+           en:{existing:'Existing',talking:'In discussion',stalled:'Stalled',target:'Target',untouched:'Not yet approached'}},
+  paMsa:{zh:'亦與 MSA 相關',en:'Also relevant to MSA'},
+  paMatMkt:{zh:'目標市場',en:'Target market'},paMatTot:{zh:'合計',en:'Total'},
+  paNone:{zh:'（沒有符合條件的項目）',en:'(no matching items)'},
   /* 專利／獨占權欄位標籤 */
   pAssignee:{zh:'權利人',en:'Assignee'},pFiled:{zh:'申請',en:'Filed'},pStatus:{zh:'狀態',en:'Status'},pExpiry:{zh:'估計到期',en:'Est. expiry'},
   pSelf:{zh:'本社',en:'Us'},pDue:{zh:'到期',en:'expires'},
@@ -623,6 +698,7 @@ function renderAll(){
   renderLandscape();renderPapers();renderTrials();renderNews();renderResults();
   renderChangelog();renderEvents();renderPatents();renderExclusivity();
   renderAssessments();renderNaturalHistory();renderBenchmarks();renderHeartbeat();
+  renderPartnering();
 }
 
 function tab(e,id){
@@ -643,6 +719,15 @@ function goTab(id,anchor){
     else{window.scrollTo(0,0);}
   });
 }
+/* 從 company.html 等外部連結進來時，依 #hash 直接切到對應頁籤 */
+(function(){
+  function jump(){
+    var h=(location.hash||'').replace('#','');
+    if(h && document.getElementById(h) && document.getElementById(h).classList.contains('panel')) goTab(h);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',jump); else jump();
+  window.addEventListener('hashchange',jump);
+})();
 var ringFilter='all', threatFilter='all';
 function setRing(f,btn){
   ringFilter=f;
@@ -816,7 +901,7 @@ function coHas(str,aliases){
   for(var i=0;i<aliases.length;i++){ if(h.indexOf(String(aliases[i]).toLowerCase())>=0) return true; }
   return false;
 }
-var THREAT_LABEL={self:{k:'thSelf',c:'p-us'},high:{k:'thHigh',c:'p-high'},mid:{k:'thMid',c:'p-mid'},low:{k:'thLow',c:'p-low'}};
+var THREAT_LABEL={self:{k:'thSelf',c:'p-us'},high:{k:'thHigh',c:'p-high'},mid:{k:'thMid',c:'p-mid'},low:{k:'thLow',c:'p-low'},bench:{k:'thBench',c:'p-bench'},partner:{k:'thPartner',c:'p-partner'}};
 function coList(title,items,render){
   if(!items.length) return '<div class="cosec"><h4>'+title+'</h4><div class="co-empty">'+T('coEmpty')+'</div></div>';
   return '<div class="cosec"><h4>'+title+'（'+items.length+'）</h4>'+items.map(render).join('')+'</div>';
@@ -861,7 +946,7 @@ function closeCompany(){q2('coModal').classList.remove('on');}
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeCompany();});
 fetch('data/companies.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){
   companiesData=d; companiesById={}; d.forEach(function(c){companiesById[c.id]=c;});
-  renderLandscape(); renderPapers(); renderBenchmarks();
+  renderLandscape(); renderPapers(); renderBenchmarks(); renderPartnering();
 }).catch(function(){});
 
 /* ── 競品試驗結果與讀出 data/results.json（依來源類型篩選） ── */
@@ -892,6 +977,108 @@ function renderResults(){
   q2('resultsCount').textContent=I18N.countRows[LANG](rows.length,(resultsFilter!=='all'||!!q));
 }
 fetch('data/results.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){resultsData=d;renderResults();}).catch(function(){});
+
+/* ── 合作機會：data/partnership.json（以 companies.json 的 id 為鍵）── */
+var paData=[], paLayer='all';
+var PA_LAYERS=['rival','therapeutic','platform','channel','academic'];
+function setPaLayer(l,btn){
+  paLayer=l;
+  var bs=q2('paLayerFilters').getElementsByTagName('button');
+  for(var i=0;i<bs.length;i++) bs[i].className='';
+  btn.className='on'; renderPartnering();
+}
+/* 12 個目標市場（2026-07-28 定案）。跨國別的記錄會同時計入所屬各國。 */
+var PA_MARKETS=[
+  {tok:'美國',  zh:'美國',  en:'United States'},
+  {tok:'台灣',  zh:'台灣',  en:'Taiwan'},
+  {tok:'日本',  zh:'日本',  en:'Japan'},
+  {tok:'南韓',  zh:'南韓',  en:'South Korea'},
+  {tok:'英國',  zh:'英國',  en:'United Kingdom'},
+  {tok:'法國',  zh:'法國',  en:'France'},
+  {tok:'德國',  zh:'德國',  en:'Germany'},
+  {tok:'瑞士',  zh:'瑞士',  en:'Switzerland'},
+  {tok:'加拿大',zh:'加拿大',en:'Canada'},
+  {tok:'澳洲',  zh:'澳洲',  en:'Australia'},
+  {tok:'比利時',zh:'比利時',en:'Belgium'},
+  {tok:'瑞典',  zh:'瑞典',  en:'Sweden'}
+];
+/* 市場覆蓋矩陣：把「哪一個目標市場的哪一層是空的」直接攤出來 */
+function renderPaMatrix(){
+  var t=q2('paMatrix'); if(!t||!paData.length) return;
+  var head='<thead><tr><th>'+esc(T('paMatMkt'))+'</th>'+
+    PA_LAYERS.map(function(l){return '<th style="text-align:center">'+esc(I18N.paLayerL[LANG][l])+'</th>';}).join('')+
+    '<th style="text-align:center">'+esc(T('paMatTot'))+'</th></tr></thead>';
+  function row(label,rows,isOther){
+    var tds=PA_LAYERS.map(function(l){
+      var n=rows.filter(function(r){return r.layer===l;}).length;
+      /* 只有「治療型」與「製造生態系」全空才算真缺口——競品、通路、學術不是每國都該有 */
+      var isGap=(!isOther && n===0 && (l==='therapeutic'||l==='platform'));
+      var cls=n===0?(isGap?'gap':'zero'):'hit';
+      return '<td class="'+cls+'" style="text-align:center">'+(n||'—')+'</td>';
+    }).join('');
+    return '<tr><td><b>'+esc(label)+'</b></td>'+tds+'<td style="text-align:center;color:#9fb4cc">'+rows.length+'</td></tr>';
+  }
+  var body=PA_MARKETS.map(function(m){
+    return row(LANG==='en'?m.en:m.zh, paData.filter(function(r){return r.market.indexOf(m.tok)>=0;}), false);
+  }).join('');
+  var other=paData.filter(function(r){
+    return !PA_MARKETS.some(function(m){return r.market.indexOf(m.tok)>=0;});
+  });
+  if(other.length) body+=row(LANG==='en'?'Outside target markets':'目標市場以外',other,true);
+  t.innerHTML=head+'<tbody>'+body+'</tbody>';
+}
+/* market 欄位是「中文 English」合寫，英文模式下把中文部分去掉 */
+function paMkt(s){
+  s=String(s||'');
+  return (LANG==='en') ? (s.replace(/[⺀-鿿＀-￯]+/g,'').replace(/\s+/g,' ').trim()||s) : s;
+}
+function renderPartnering(){
+  var box=q2('paList'); if(!box) return;
+  var si=q2('paSearch'); if(si) si.placeholder=T('paSearch');
+  var q=(si&&si.value||'').trim().toLowerCase();
+  var rows=paData.filter(function(r){
+    if(paLayer!=='all'&&r.layer!==paLayer) return false;
+    if(!q) return true;
+    var c=companiesById[r.id];
+    return (JSON.stringify(r)+(c?JSON.stringify(c):'')).toLowerCase().indexOf(q)>=0;
+  });
+  q2('paCount').textContent=I18N.countRows[LANG](rows.length,(paLayer!=='all'||!!q));
+  if(!rows.length){ box.innerHTML='<div class="co-empty">'+esc(T('paNone'))+'</div>'; renderPaMatrix(); return; }
+  var html='';
+  [1,2,3].forEach(function(p){
+    var grp=rows.filter(function(r){return r.priority===p;});
+    if(!grp.length) return;
+    var par=(LANG==='en')?['(',')']:['（','）'];
+    html+='<div class="pagrp"><h3><span class="pnum pnum'+p+'">'+p+'</span>'+esc(T('paP'+p))+
+          ' <span style="font-weight:400;color:#6a7c92;font-size:11.5px">'+par[0]+grp.length+par[1]+'</span></h3>'+
+          '<p class="phint">'+esc(T('paP'+p+'h'))+'</p>';
+    html+=grp.map(function(r){
+      var c=companiesById[r.id]||{};
+      var nm=esc(L(c,'name')||r.id);
+      var th=THREAT_LABEL[c.threat]||null;
+      var pills='<span class="pill p-low" style="font-size:10px">'+esc(I18N.paLayerL[LANG][r.layer]||r.layer)+'</span>'+
+                ' <span class="pstat st-'+esc(r.status)+'">'+esc(I18N.paStatL[LANG][r.status]||r.status)+'</span>'+
+                (th?(' <span class="pill '+th.c+'" style="font-size:10px">'+esc(T(th.k))+'</span>'):'')+
+                (r.alsoMSA?' <span class="pstat st-talking">'+esc(T('paMsa'))+'</span>':'');
+      var forms=LA(r,'forms').map(function(f){return '<li>'+esc(f)+'</li>';}).join('');
+      var srcs=LA(r,'sources').map(function(s){return '<a href="'+esc(s.url)+'" target="_blank">'+esc(s.label)+' ↗</a>';}).join('');
+      var cl=(LANG==='en')?': ':'：';
+      return '<div class="pacard p'+r.priority+'">'+
+        '<div class="pahd"><a class="paname" href="company.html?id='+encodeURIComponent(r.id)+'">'+nm+'</a>'+
+        '<span class="pamkt">'+esc(paMkt(r.market))+'</span>'+pills+'</div>'+
+        '<div class="pafield"><b>'+esc(T('paFit'))+cl+'</b>'+esc(L(r,'fit'))+'</div>'+
+        '<div class="pafield"><b>'+esc(T('paWhy'))+cl+'</b>'+esc(L(r,'whyNotRival'))+'</div>'+
+        '<div class="pafield"><b>'+esc(T('paForms'))+cl+'</b><ul class="paforms">'+forms+'</ul></div>'+
+        '<div class="pafield"><b>'+esc(T('paRank'))+cl+'</b>'+esc(L(r,'priorityWhy'))+'</div>'+
+        (srcs?('<div class="pasrc">'+srcs+'</div>'):'')+
+      '</div>';
+    }).join('');
+    html+='</div>';
+  });
+  box.innerHTML=html;
+  renderPaMatrix();
+}
+fetch('data/partnership.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(function(d){paData=d;renderPartnering();}).catch(function(){});
 
 /* ── 臨床試驗雷達：data/trials.json ── */
 var trialsData=[];

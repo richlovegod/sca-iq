@@ -438,15 +438,19 @@
     "ticker": "未上市 Private",
     "mechanism": "小分子（降解突變雄性素受體、活化 Nrf1/Nrf2）",
     "pipeline": "AJ201（rosolutamide）｜SBMA：Ph1b/2a 完成、規劃全球 Ph3；FDA 孤兒藥資格另含 HD 與 SCA",
-    "insight": "台灣本土的 polyQ 玩家。臨床目前僅在 SBMA（甘迺迪症），但孤兒藥資格已涵蓋 SCA，是最可能從鄰近適應症切入 SCA 的在地公司。美國權利已授權 Avenue Therapeutics。",
+    "insight": "台灣本土的 polyQ 玩家。臨床目前僅在 SBMA（甘迺迪症），但孤兒藥資格已涵蓋 SCA，是最可能從鄰近適應症切入 SCA 的在地公司。美國權利已授權 Avenue Therapeutics。⚠️ 但美國權利處於爭議中：Avenue 於 2025-03 向國際仲裁法院聲請緊急禁制令，要求禁止安基進一步分析 AJ201 的 1b/2a 檢體，安基則主張對方一再拖延解盲時程、未盡合理商業努力。",
     "threat": "low",
-    "url": "https://www.annjibio.com/",
+    "url": "https://www.ajpharm.com/",
     "match": [
       "AnnJi",
       "AJ201",
       "rosolutamide"
     ],
     "updates": [
+      {
+        "date": "2025/03",
+        "text": "與被授權方 Avenue Therapeutics 就 AJ201（授權金上限 2.5 億美元）之解盲時程爆發爭議，Avenue 向國際仲裁法院聲請緊急禁制令"
+      },
       {
         "date": "2026",
         "text": "KDA 年會公布全球多中心 Ph3 初步設計；獲 FDA 快速通道"
@@ -459,8 +463,12 @@
       "ticker": "Private",
       "mechanism": "Small molecule (degrades mutant androgen receptor; activates Nrf1/Nrf2)",
       "pipeline": "AJ201 (rosolutamide) | SBMA: Ph1b/2a complete, global Ph3 planned; FDA orphan designation also covers HD and SCA",
-      "insight": "A Taiwan-based polyQ player. Clinical work is in SBMA (Kennedy's disease) only, but its orphan designation already covers SCA, making it the local company most likely to enter SCA from an adjacent indication. US rights are licensed to Avenue Therapeutics.",
+      "insight": "A Taiwan-based polyQ player. Clinical work is in SBMA (Kennedy's disease) only, but its orphan designation already covers SCA, making it the local company most likely to enter SCA from an adjacent indication. US rights are licensed to Avenue Therapeutics. Note that the US rights are in dispute: in March 2025 Avenue sought an emergency injunction from the International Court of Arbitration to bar AnnJi from further analysis of the AJ201 Ph1b/2a samples, while AnnJi contends the licensee repeatedly delayed the unblinding schedule and failed to make reasonable commercial efforts.",
       "updates": [
+        {
+          "date": "2025/03",
+          "text": "A dispute with licensee Avenue Therapeutics over the AJ201 unblinding schedule (a licence worth up to US$250M) led Avenue to seek an emergency injunction from the International Court of Arbitration"
+        },
         {
           "date": "2026",
           "text": "Presented a preliminary global Ph3 design at the KDA conference; received FDA Fast Track"
@@ -748,7 +756,8 @@
       "mechanism": "iPSC-derived dopaminergic neural progenitors",
       "pipeline": "AMCHEPRY® (raguneprocel)",
       "insight": "On 2026/03/06 Japan's MHLW granted <b>conditional, time-limited approval</b> for motor symptoms of Parkinson's disease in patients not responding to existing therapy including levodopa — together with RiHEART, <b>among the world's first approved iPSC-derived cell therapies</b>. The Ph1/2 implanted 7 patients, with motor improvement in 4 and no related serious adverse events.",
-      "name": "Sumitomo Pharma / RACTHERA"
+      "name": "Sumitomo Pharma / RACTHERA",
+      "short": "Sumitomo Pharma"
     },
     "cat": "cell"
   },
@@ -1250,7 +1259,8 @@
       "mechanism": "Pluripotent stem cell-derived neurons",
       "pipeline": "Bemdaneprocel",
       "insight": "Neuronal replacement in Parkinson's disease. <b>The first patient has been dosed in the registrational exPDite-2 Ph3 (NCT06944522) — the first pivotal Ph3 of an allogeneic pluripotent stem cell-derived therapy in Parkinson's</b>; up to 102 patients at 7 US sites, primary endpoint change in daily ON time without troublesome dyskinesia over 78 weeks, data expected 2027. Positive effects continued at 36 months of follow-up.",
-      "ticker": "Bayer subsidiary"
+      "ticker": "Bayer subsidiary",
+      "name": "BlueRock Therapeutics (Bayer)"
     },
     "cat": "cell"
   },
@@ -1311,6 +1321,967 @@
         {
           "date": "2026-03",
           "text": "Ph2 results posted to CT.gov: primary endpoint missed; the company wound down in early 2026"
+        }
+      ]
+    },
+    "cat": "sca"
+  },
+  {
+    "id": "cyto-facto",
+    "name": "Cyto-Facto サイト・ファクト",
+    "nameEn": "Cyto-Facto Inc.",
+    "short": "Cyto-Facto",
+    "country": "日本 Japan",
+    "ticker": "未上市 Private",
+    "mechanism": "基因細胞製劑 CDMO（GCTP 準拠）；自有雲端整合製造管理系統 CytoFactory4.0",
+    "pipeline": "受託製造服務｜神戶醫療產業都市（KBIC）主廠；已量產商業化 CAR-T、製造過 MSC 臨床試驗品",
+    "insight": "仲恩的日本 CDMO。2026-01-14 雙方簽 LOI，將在日本製造 Stemchymal，並朝技轉與商業供貨正式合約推進。日本藥事法把「製造販売業」（上市許可）與「製造業」（實體 GMP 廠）分成兩張執照，REPROCELL 持前者、不含製造，故製造缺口由仲恩自行補上——Cyto-Facto 補的是仲恩自己的洞，不是 REPROCELL 的洞。",
+    "threat": "partner",
+    "url": "https://www.cytofacto.com/en/",
+    "match": [
+      "Cyto-Facto",
+      "CytoFactory"
+    ],
+    "updates": [
+      {
+        "date": "2026/01",
+        "text": "與仲恩簽署基本合意書（LOI），就 Stemchymal 日本製造與供應展開合作"
+      }
+    ],
+    "en": {
+      "name": "Cyto-Facto Inc.",
+      "country": "Japan",
+      "ticker": "Private",
+      "mechanism": "Gene and cell therapy CDMO (GCTP-compliant); proprietary cloud-based manufacturing execution system, CytoFactory4.0",
+      "pipeline": "Contract manufacturing services | Main plant at Kobe Biomedical Innovation Cluster (KBIC); has produced commercial CAR-T and clinical-grade MSC batches",
+      "insight": "Steminent's Japanese CDMO. The two signed a letter of intent on 14 Jan 2026 to manufacture Stemchymal in Japan, working toward technology transfer and a formal commercial supply agreement. Japan's pharmaceutical law splits the marketing authorisation (MAH) and the physical GMP manufacturing licence into two separate permits; REPROCELL holds the former and its licence never covered manufacturing, so Cyto-Facto fills Steminent's own gap rather than REPROCELL's.",
+      "updates": [
+        {
+          "date": "2026/01",
+          "text": "Signed a letter of intent with Steminent covering Japanese manufacturing and supply of Stemchymal"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "terumo-bct",
+    "name": "Terumo BCT 泰爾茂",
+    "nameEn": "Terumo Blood and Cell Technologies",
+    "short": "Terumo BCT",
+    "country": "美國／日本 US/Japan",
+    "ticker": "TSE: 4543（Terumo 子公司）",
+    "mechanism": "細胞製程設備與自動化；Quantum Flex 細胞擴增平台（多尺寸反應器，可跑自體／異體／病毒載體／外泌體）",
+    "pipeline": "製程平台｜Quantum Flex 於 2022 上市，為少數可從製程開發一路做到商業化製造的系統",
+    "insight": "仲恩的製程自動化夥伴。2026-05 雙方合作推進 MSC 後期臨床製造，里程碑達成後仲恩計畫擴大使用 Quantum Flex 以支撐更廣的臨床轉譯與商業化。異體 MSC 的成本結構取決於單批產出規模，設備選型等於提前決定了 COGs 天花板。",
+    "threat": "partner",
+    "url": "https://www.terumobct.com/",
+    "match": [
+      "Terumo",
+      "Quantum Flex"
+    ],
+    "updates": [
+      {
+        "date": "2026/05",
+        "text": "與仲恩簽署策略合作，以 Quantum Flex 推進 MSC 後期臨床製造"
+      },
+      {
+        "date": "2025/01",
+        "text": "與 Akron Bio 完成 GMP 級 fibronectin 於 Quantum Flex 擴增 MSC 的等效性研究"
+      }
+    ],
+    "en": {
+      "name": "Terumo Blood and Cell Technologies",
+      "country": "US / Japan",
+      "ticker": "Subsidiary of Terumo (TSE: 4543)",
+      "mechanism": "Cell-processing equipment and automation; the Quantum Flex cell expansion platform (multiple bioreactor sizes, supporting autologous, allogeneic, viral vector and exosome applications)",
+      "pipeline": "Process platform | Quantum Flex launched in 2022, one of the few systems spanning process development through commercial manufacturing",
+      "insight": "Steminent's process-automation partner. The two announced a collaboration in May 2026 to advance late-stage clinical manufacturing of MSCs; on hitting development milestones Steminent plans to expand its use of Quantum Flex to support broader clinical translation and commercialisation. The cost structure of an allogeneic MSC product is set by batch scale, so the equipment choice effectively fixes the COGs ceiling in advance.",
+      "updates": [
+        {
+          "date": "2026/05",
+          "text": "Signed a strategic collaboration with Steminent to advance late-stage clinical MSC manufacturing on Quantum Flex"
+        },
+        {
+          "date": "2025/01",
+          "text": "Completed an equivalency study with Akron Bio on GMP-grade fibronectin for MSC expansion on Quantum Flex"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "histocell",
+    "name": "Histocell",
+    "nameEn": "Histocell S.L.",
+    "short": "Histocell",
+    "country": "西班牙 Spain",
+    "ticker": "未上市 Private（REPROCELL 投資標的）",
+    "mechanism": "細胞治療 CDMO 兼臨床階段生技公司；持有 EMA 授權可製造臨床級 MSC 的主細胞庫與工作細胞庫",
+    "pipeline": "受託製造服務｜畢爾包／Larrabetzu 800 m² GMP 廠，為歐、美、日客戶製造人用試驗藥",
+    "insight": "REPROCELL 的歐洲 CDMO 夥伴兼投資標的。已取得 EMA Regulation (EU) 2017/1569 臨床級細胞製造授權與西班牙 AEMPS 的 GMP 認證，且授權範圍明確涵蓋 MSC 的 MCB／WCB。對仲恩而言，這是進入歐洲最短的 GMP 路徑——不必從零找廠，而是沿既有的日本授權夥伴關係往歐洲延伸。",
+    "threat": "partner",
+    "url": "https://www.histocell.com/",
+    "match": [
+      "Histocell"
+    ],
+    "updates": [
+      {
+        "date": "2025/10",
+        "text": "取得以 REPROCELL StemRNA 臨床級 iPSC 製作 MCB/WCB 的 AEMPS GMP 認證"
+      }
+    ],
+    "en": {
+      "name": "Histocell S.L.",
+      "country": "Spain",
+      "ticker": "Private (a REPROCELL investee)",
+      "mechanism": "Cell therapy CDMO and clinical-stage biopharma; holds EMA authorisation to manufacture clinical-grade MSC master and working cell banks",
+      "pipeline": "Contract manufacturing | An 800 m² GMP plant in Bilbao / Larrabetzu producing investigational medicinal products for European, US and Japanese clients",
+      "insight": "REPROCELL's European CDMO partner and investee. It holds clinical-grade cell manufacturing authorisation under EMA Regulation (EU) 2017/1569 plus Spanish AEMPS GMP certification, and the scope explicitly covers MSC master and working cell banks. For Steminent this is the shortest route into European GMP — extending an existing Japanese licensing relationship westward rather than sourcing a plant from scratch.",
+      "updates": [
+        {
+          "date": "2025/10",
+          "text": "Received AEMPS GMP certification for producing MCBs/WCBs from REPROCELL's StemRNA clinical iPSCs"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "gwoxi",
+    "name": "國璽幹細胞 GWOXI",
+    "nameEn": "GWOXI Stem Cell Applied Technology",
+    "short": "國璽",
+    "country": "台灣 Taiwan",
+    "ticker": "TPEx 6704（興櫃）",
+    "mechanism": "自體脂肪間質幹細胞（與 Stemchymal 同組織來源、異體 vs 自體之別）",
+    "pipeline": "思益優 GXNPC1｜慢性缺血性中風：Ph2 完成、2026 向 TFDA 提三期申請；另有四項幹細胞臨床試驗、兩項已達三期",
+    "insight": "台灣機轉最接近仲恩的同業——同樣取自脂肪組織的 MSC，差別在自體 vs 異體、適應症在中風而非 SCA。Ph1/2 影像顯示治療六個月後腦損傷區域縮小約 30%。2026 預計取得細胞藥廠 PIC/S GMP 認證、年產能逾千劑（自體與異體皆可），是少數在台灣同時具臨床與產能的本土玩家。",
+    "threat": "low",
+    "url": "https://www.gwoxi.com/",
+    "match": [
+      "GWOXI",
+      "國璽",
+      "GXNPC1"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "思益優 GXNPC1 慢性缺血性中風向 TFDA 提出三期臨床申請；細胞藥廠預計取得 PIC/S GMP 認證"
+      }
+    ],
+    "en": {
+      "name": "GWOXI Stem Cell Applied Technology",
+      "short": "GWOXI",
+      "country": "Taiwan",
+      "ticker": "TPEx Emerging 6704",
+      "mechanism": "Autologous adipose-derived mesenchymal stem cells (same tissue source as Stemchymal; autologous rather than allogeneic)",
+      "pipeline": "GXNPC1 | Chronic ischaemic stroke: Ph2 complete, Ph3 application filed with Taiwan's TFDA in 2026; four stem cell trials running in total, two at Phase 3",
+      "insight": "The Taiwanese peer whose mechanism sits closest to Steminent's — adipose-derived MSCs, differing in being autologous rather than allogeneic and in targeting stroke rather than SCA. Ph1/2 imaging showed roughly a 30% reduction in the damaged brain area six months after treatment. Its cell-drug plant is scheduled for PIC/S GMP certification in 2026 with annual capacity above a thousand doses of both autologous and allogeneic product, making it one of the few domestic players holding clinical assets and capacity at once.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "Filed a Phase 3 application with the TFDA for GXNPC1 in chronic ischaemic stroke; cell-drug plant scheduled for PIC/S GMP certification"
+        }
+      ]
+    },
+    "cat": "cell"
+  },
+  {
+    "id": "stemcyte",
+    "name": "永笙-KY StemCyte",
+    "nameEn": "StemCyte",
+    "short": "永笙",
+    "country": "台灣 Taiwan",
+    "ticker": "TWSE 4178",
+    "mechanism": "臍帶血幹細胞；持有全球規模最大的公捐臍帶血庫之一",
+    "pipeline": "REGENECYTE｜已獲美國 FDA 藥證（BLA），用於造血與免疫系統疾病；長新冠 Ph2 已解盲並取得 FDA RMAT、已申請三期樞紐試驗；急性中風主打發病後 6–9 天治療窗",
+    "insight": "**台灣唯一取得美國 FDA 細胞治療新藥藥證（BLA）的公司**。對仲恩而言，它的價值不在適應症重疊（幾乎沒有），而在它已經走完一次台灣公司拿到 FDA BLA 的完整路徑——法規、CMC、查廠的實戰經驗，正是仲恩美國線最缺的一塊。2026-04 下旬掛牌上市。",
+    "threat": "low",
+    "url": "https://www.stemcyte.com/",
+    "match": [
+      "StemCyte",
+      "永笙",
+      "REGENECYTE"
+    ],
+    "updates": [
+      {
+        "date": "2026/04",
+        "text": "掛牌上市；法說會揭示 FDA 藥證＋長新冠＋急性中風「細胞三箭」策略"
+      }
+    ],
+    "en": {
+      "name": "StemCyte",
+      "short": "StemCyte",
+      "country": "Taiwan",
+      "ticker": "TWSE 4178",
+      "mechanism": "Cord blood stem cells; operator of one of the world's largest public cord blood banks",
+      "pipeline": "REGENECYTE | US FDA-approved (BLA) for haematopoietic and immune disorders; long-COVID Ph2 unblinded with FDA RMAT designation and a pivotal Ph3 application filed; acute stroke programme targeting a 6–9 day post-onset treatment window",
+      "insight": "The only Taiwanese company holding a US FDA biologics licence for a cell therapy. Its value to Steminent lies not in indication overlap (there is almost none) but in having already completed the full path a Taiwanese company must walk to obtain an FDA BLA — the regulatory, CMC and inspection experience that Steminent's US track most lacks. Listed in late April 2026.",
+      "updates": [
+        {
+          "date": "2026/04",
+          "text": "Listed on the Taiwan Stock Exchange; investor briefing set out a three-pronged strategy spanning its FDA licence, long COVID and acute stroke"
+        }
+      ]
+    },
+    "cat": "cell"
+  },
+  {
+    "id": "leica-regen",
+    "name": "樂迦再生 Leica Regenerative",
+    "nameEn": "Leica Regenerative Medicine",
+    "short": "樂迦",
+    "country": "台灣 Taiwan",
+    "ticker": "TPEx 6891（興櫃）",
+    "mechanism": "細胞治療 CDMO；PIC/S GMP 規格智慧細胞廠",
+    "pipeline": "受託製造服務｜竹北生醫園區智慧細胞廠，總樓地板約 6,100 坪、24 間細胞操作室，2026 投產",
+    "insight": "號稱亞洲最大的 PIC/S GMP 智慧細胞廠。仲恩目前的製造佈局是台灣自製＋日本 Cyto-Facto，但《再生醫療法》2026 元旦上路後台灣進入放量期，本土產能會變成議價籌碼——多一個在地 CDMO 選項，等於在跟日本廠談條件時多一張牌。",
+    "threat": "partner",
+    "url": "https://www.leica-regen.com/",
+    "match": [
+      "樂迦",
+      "Leica Regenerative"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "竹北智慧細胞廠完工啟用、進入投產"
+      }
+    ],
+    "en": {
+      "name": "Leica Regenerative Medicine",
+      "short": "Leica Regen",
+      "country": "Taiwan",
+      "ticker": "TPEx Emerging 6891",
+      "mechanism": "Cell therapy CDMO; PIC/S GMP-grade smart cell manufacturing",
+      "pipeline": "Contract manufacturing | A smart cell plant at Zhubei Biomedical Park with roughly 20,000 m² of floor area and 24 cell processing suites, entering production in 2026",
+      "insight": "Billed as Asia's largest PIC/S GMP smart cell plant. Steminent's manufacturing footprint today is in-house Taiwanese production plus Cyto-Facto in Japan, but Taiwan enters a volume phase now that the Regenerative Medicine Act took effect on 1 January 2026, and domestic capacity becomes negotiating leverage — a second local CDMO option is another card to hold when setting terms with the Japanese plant.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "Zhubei smart cell plant completed and entering production"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "tbt-taiwan",
+    "name": "台寶生醫",
+    "nameEn": "Taiwan Bio Therapeutics",
+    "short": "台寶",
+    "country": "台灣 Taiwan",
+    "ticker": "TPEx 6892（興櫃）",
+    "mechanism": "細胞與基因治療 CDMO；GTP／GMP 產能",
+    "pipeline": "受託開發與製造服務｜以跨國策略合作與 GTP/GMP 產能建置切入國際市場",
+    "insight": "台灣 CGT CDMO 的代表性業者之一，路線是靠跨國合作把本土產能接上國際客戶。與樂迦同屬「本土產能選項」，差別在台寶較早走國際代工、樂迦以單廠規模取勝。",
+    "threat": "partner",
+    "url": "https://www.tbt-tw.com/",
+    "match": [
+      "台寶",
+      "Taiwan Bio Therapeutics"
+    ],
+    "updates": [],
+    "en": {
+      "name": "Taiwan Bio Therapeutics",
+      "short": "TBT",
+      "country": "Taiwan",
+      "ticker": "TPEx Emerging 6892",
+      "mechanism": "Cell and gene therapy CDMO; GTP/GMP capacity",
+      "pipeline": "Contract development and manufacturing | Entering international markets through cross-border strategic partnerships and GTP/GMP capacity build-out",
+      "insight": "One of the representative CGT CDMOs in Taiwan, pursuing international clients by pairing local capacity with cross-border partnerships. It sits alongside Leica as a domestic capacity option, differing in having moved earlier into international contract work where Leica competes on single-site scale."
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "everfront",
+    "name": "長聖國際生技",
+    "nameEn": "Ever Supreme Bio Technology",
+    "short": "長聖",
+    "country": "台灣 Taiwan",
+    "ticker": "TPEx 6712",
+    "mechanism": "細胞治療（免疫細胞與幹細胞）",
+    "pipeline": "多項細胞治療產品｜被法人點名為《再生醫療法》首波暫時性藥證的主要角逐者之一",
+    "insight": "台灣再生醫療法上路後的搶證前段班。與仲恩的關係主要不在適應症競爭，而在**法規賽道競爭**——首批拿到暫時性藥證的公司會定義審查標準與定價錨點，對後續申請者的影響比臨床數據更直接。",
+    "threat": "low",
+    "url": "https://www.eversupreme.com.tw/",
+    "match": [
+      "長聖",
+      "Ever Supreme"
+    ],
+    "updates": [
+      {
+        "date": "2025/12",
+        "text": "法人點名為《再生醫療法》首波暫時性藥證主要角逐者之一"
+      }
+    ],
+    "en": {
+      "name": "Ever Supreme Bio Technology",
+      "short": "Ever Supreme",
+      "country": "Taiwan",
+      "ticker": "TPEx 6712",
+      "mechanism": "Cell therapy (immune cells and stem cells)",
+      "pipeline": "Multiple cell therapy products | Named by analysts as a leading contender for one of the first conditional approvals under Taiwan's Regenerative Medicine Act",
+      "insight": "A front-runner in the race for approval now that Taiwan's Regenerative Medicine Act is in force. Its relevance to Steminent is less indication overlap than a regulatory race: whoever wins the first conditional approvals will set the review standard and the pricing anchor, which bears on later applicants more directly than clinical data does.",
+      "updates": [
+        {
+          "date": "2025/12",
+          "text": "Named by analysts as a leading contender for the first wave of conditional approvals under the Regenerative Medicine Act"
+        }
+      ]
+    },
+    "cat": "cell"
+  },
+  {
+    "id": "unicocell",
+    "name": "向榮生技 UnicoCell",
+    "nameEn": "UnicoCell Biomed",
+    "short": "向榮",
+    "country": "台灣 Taiwan",
+    "ticker": "TWSE 6794",
+    "mechanism": "間質幹細胞與細胞分泌物（secretome）平台",
+    "pipeline": "慢性腎臟病細胞新藥（2026-02 臨床研究獲國際期刊發表）；細胞分泌物功效檢測平台（2026-04 取得台灣發明專利）",
+    "insight": "台灣少數同時做細胞本體與分泌物的業者。分泌物路線與 Stemchymal 的旁分泌機轉論述同源——若未來仲恩要往無細胞（cell-free）的次世代產品走，這條技術線是在地最接近的參照與潛在技術夥伴。",
+    "threat": "low",
+    "url": "https://www.unicocell.com/",
+    "match": [
+      "UnicoCell",
+      "向榮生"
+    ],
+    "updates": [
+      {
+        "date": "2026/04",
+        "text": "細胞分泌物產品功效檢測平台技術取得台灣發明專利"
+      },
+      {
+        "date": "2026/02",
+        "text": "慢性腎臟病細胞新藥臨床研究獲國際期刊發表"
+      }
+    ],
+    "en": {
+      "name": "UnicoCell Biomed",
+      "short": "UnicoCell",
+      "country": "Taiwan",
+      "ticker": "TWSE 6794",
+      "mechanism": "Mesenchymal stem cells and a cell secretome platform",
+      "pipeline": "A chronic kidney disease cell therapy (clinical research published in an international journal, Feb 2026); a secretome potency assay platform (Taiwanese invention patent granted, Apr 2026)",
+      "insight": "One of the few Taiwanese players working on both cells and their secretome. The secretome route shares its rationale with Stemchymal's paracrine mechanism, making it the closest local reference point — and a potential technology partner — should Steminent move toward a cell-free next-generation product.",
+      "updates": [
+        {
+          "date": "2026/04",
+          "text": "Granted a Taiwanese invention patent for its secretome potency assay platform"
+        },
+        {
+          "date": "2026/02",
+          "text": "Clinical research on its chronic kidney disease cell therapy published in an international journal"
+        }
+      ]
+    },
+    "cat": "cell"
+  },
+  {
+    "id": "omniabio-ccrm",
+    "name": "OmniaBio／CCRM",
+    "nameEn": "OmniaBio / CCRM",
+    "short": "OmniaBio",
+    "country": "加拿大 Canada",
+    "ticker": "未上市 Private（CCRM 於 2022 成立）",
+    "mechanism": "細胞與基因治療 CDMO；AI 賦能製造；CCRM 為公私合營的再生醫學商業化中心",
+    "pipeline": "受託製造服務｜安大略 Hamilton 廠 120,000 平方英尺，2024–2026 分三階段開放、完成後共 57 間無塵室，總投資逾 5.8 億元、250 個技術職缺；加拿大最大 CGT CDMO",
+    "insight": "**這條線最值得看的不是產能，是誰在用它——Medipost（南韓）是該廠首個商業期客戶兼合作方。** 換句話說，仲恩在韓國原本想談的對象，已經先一步用加拿大產能解決了北美製造與落地問題。這既是可複製的模板，也可能是繞道進入北美的捷徑。CCRM 另於 2026-06 與 Avectas 評估自動化平台、2026-07 與 STEMCELL Technologies 合作供應配對的 GMP／RUO iPSC 品系。",
+    "threat": "partner",
+    "url": "https://omniabio.com/",
+    "match": [
+      "OmniaBio",
+      "CCRM"
+    ],
+    "updates": [
+      {
+        "date": "2026/07",
+        "text": "CCRM 與 STEMCELL Technologies 合作，供應配對的 GMP 與 RUO iPSC 品系"
+      },
+      {
+        "date": "2026/06",
+        "text": "CCRM 與 OmniaBio 和 Avectas 簽約評估自動化細胞治療製造平台"
+      },
+      {
+        "date": "2024/10",
+        "text": "Hamilton 商業化製造廠啟用，Medipost 為首個商業期客戶"
+      }
+    ],
+    "en": {
+      "name": "OmniaBio / CCRM",
+      "country": "Canada",
+      "ticker": "Private (founded by CCRM in 2022)",
+      "mechanism": "Cell and gene therapy CDMO with AI-enabled manufacturing; CCRM is a public-private regenerative medicine commercialisation centre",
+      "pipeline": "Contract manufacturing | A 120,000 sq ft plant in Hamilton, Ontario opening in three phases across 2024–2026 for a total of 57 cleanrooms, on investment above C$580M and creating 250 skilled jobs; Canada's largest dedicated CGT CDMO",
+      "insight": "The striking fact here is not the capacity but who is using it — Medipost of South Korea is both a partner and the site's first commercial-stage client. The Korean company Steminent had been circling has already solved its North American manufacturing and landing problem using Canadian capacity. That makes this both a replicable template and a possible side door into North America. CCRM separately agreed in June 2026 to evaluate Avectas' automation platform, and in July 2026 to supply matched GMP and RUO iPSC lines with STEMCELL Technologies.",
+      "updates": [
+        {
+          "date": "2026/07",
+          "text": "CCRM partnered with STEMCELL Technologies to supply matched GMP and RUO iPSC lines"
+        },
+        {
+          "date": "2026/06",
+          "text": "CCRM and OmniaBio agreed to evaluate Avectas' automated cell therapy manufacturing platform"
+        },
+        {
+          "date": "2024/10",
+          "text": "Hamilton commercial manufacturing facility opened with Medipost as its first commercial-stage client"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "lonza",
+    "name": "Lonza 龍沙",
+    "nameEn": "Lonza Group",
+    "short": "Lonza",
+    "country": "瑞士 Switzerland",
+    "ticker": "SIX: LONN",
+    "mechanism": "全球 CDMO；異體細胞治療、病毒載體、外泌體與自體細胞治療皆有 cGMP 產線",
+    "pipeline": "受託製造服務｜MSC 工業級製造已產出數百批 GMP 批次；針對大規模商業需求優化 COGs 的營運模式；橫跨三大洲",
+    "insight": "異體 MSC 商業化最現成的規模化選項。它的差異化不在能不能做，而在**已經把 MSC 的單位成本壓到商業可行**——對一個要靠反覆給藥（仲恩法說會預估每年三劑）的產品來說，COGs 決定了定價與給付談判的空間，比產能本身更關鍵。",
+    "threat": "partner",
+    "url": "https://www.lonza.com/",
+    "match": [
+      "Lonza"
+    ],
+    "updates": [],
+    "en": {
+      "name": "Lonza Group",
+      "country": "Switzerland",
+      "ticker": "SIX: LONN",
+      "mechanism": "Global CDMO with cGMP lines spanning allogeneic cell therapy, viral vectors, exosomes and autologous cell therapy",
+      "pipeline": "Contract manufacturing | Industrial MSC manufacturing with hundreds of GMP batches produced; an operating model optimised to reduce COGs for large-scale commercial demand; a footprint across three continents",
+      "insight": "The most readily available route to scale for a commercial allogeneic MSC product. What sets it apart is not capability but that it has already driven MSC unit costs down to a commercially viable level — and for a product dosed repeatedly (Steminent's investor guidance assumes three doses a year), COGs governs the room available in pricing and reimbursement negotiations more than capacity does."
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "miltenyi",
+    "name": "Miltenyi Biotec 美天旎",
+    "nameEn": "Miltenyi Biotec / Miltenyi Bioindustry",
+    "short": "Miltenyi",
+    "country": "德國 Germany",
+    "ticker": "未上市 Private",
+    "mechanism": "細胞與基因治療 CDMO；自動化封閉式細胞製造製程",
+    "pipeline": "受託製造服務｜1989 年起投入 CGT、CDMO 資歷 25 年；已產出 700+ 批臨床細胞治療與 400+ 批臨床慢病毒載體；北美、歐洲、亞太皆設廠",
+    "insight": "德國唯一具規模的細胞治療 CDMO，且與平台上既有的 CHA Biotech（南韓）已有 BaEV 慢病毒載體平台合作。自動化封閉式製程是它與 Lonza 的路線差異——前者壓縮人力與污染風險，後者壓規模與單位成本，兩條路對應不同的產品階段。",
+    "threat": "partner",
+    "url": "https://www.miltenyibioindustry.com/",
+    "match": [
+      "Miltenyi"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "與 CHA Biotech 合作 BaEV 慢病毒載體平台，強化 CAR-NK 製造效率"
+      }
+    ],
+    "en": {
+      "name": "Miltenyi Biotec / Miltenyi Bioindustry",
+      "country": "Germany",
+      "ticker": "Private",
+      "mechanism": "Cell and gene therapy CDMO built on automated, closed-system cell manufacturing",
+      "pipeline": "Contract manufacturing | In cell and gene therapy since 1989 with 25 years as a CDMO; over 700 clinical cell therapy batches and 400 clinical lentiviral vector batches produced; sites in North America, Europe and Asia-Pacific",
+      "insight": "Germany's only cell therapy CDMO at scale, and already partnered with CHA Biotech of South Korea — also tracked here — on a BaEV lentiviral vector platform. Its automated closed-system approach is the strategic difference from Lonza: closed processing compresses labour and contamination risk, where Lonza competes on scale and unit cost, and the two suit different product stages.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "Partnered with CHA Biotech on a BaEV lentiviral vector platform to improve CAR-NK manufacturing efficiency"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "cellistic",
+    "name": "Cellistic",
+    "nameEn": "Cellistic",
+    "short": "Cellistic",
+    "country": "比利時 Belgium",
+    "ticker": "未上市 Private",
+    "mechanism": "iPSC 細胞治療專屬製造平台",
+    "pipeline": "受託製造服務｜總部 Mont-Saint-Guibert，設有全球首座 EMA 認證且符合 FDA 與 PMDA 規範的專建 iPSC 細胞治療 GMP 廠",
+    "insight": "比利時剩下的細胞治療產能主力（Catalent Gosselies 正在收攤，見該筆）。對仲恩的相關性目前是間接的——Stemchymal 是原代脂肪 MSC 不是 iPSC 衍生，但若日後要走 iPSC 來源 MSC（如 Cynata 的 Cymerus 路線）以解決捐贈者變異，這裡是歐洲最成熟的落點。",
+    "threat": "partner",
+    "url": "https://www.cellistic.com/",
+    "match": [
+      "Cellistic"
+    ],
+    "updates": [],
+    "en": {
+      "name": "Cellistic",
+      "country": "Belgium",
+      "ticker": "Private",
+      "mechanism": "A dedicated iPSC cell therapy manufacturing platform",
+      "pipeline": "Contract manufacturing | Headquartered in Mont-Saint-Guibert, home to the first purpose-built iPSC cell therapy GMP facility certified by the EMA and compliant with FDA and PMDA requirements",
+      "insight": "The remaining anchor of Belgian cell therapy capacity, with Catalent's Gosselies site winding down (see that entry). Relevance to Steminent is indirect today, since Stemchymal is a primary adipose MSC rather than iPSC-derived — but should the company later pursue iPSC-derived MSCs to eliminate donor variability, as Cynata does with Cymerus, this is Europe's most mature landing site."
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "catalent-gosselies",
+    "name": "Catalent（Gosselies 廠）",
+    "nameEn": "Catalent (Gosselies site)",
+    "short": "Catalent",
+    "country": "比利時 Belgium",
+    "ticker": "Novo Holdings 持有（2024 年底完成收購）",
+    "mechanism": "曾為商業級細胞治療與質體 DNA 製造；「歐洲細胞治療卓越中心」",
+    "pipeline": "⚠️ 收攤中｜2022 完工的 60,000 平方英尺商業級細胞治療廠一度是全球最大之一；2026 因產量下滑決定收掉 Gosselies 營運，影響約 150 人",
+    "insight": "列在這裡不是因為它是夥伴候選，而是因為它是**歐洲細胞治療產能正在退出的警訊**。全球最大的細胞治療廠之一因產量不足而關閉，說明歐洲 CGT 的產能過剩與需求落差是真的——這對仲恩的意義是雙面的：歐洲找代工的議價空間變好，但也要小心把供應綁在一個可能撤守的廠區。設備與人才短期內會流入市場。",
+    "threat": "low",
+    "url": "https://www.catalent.com/our-locations/europe/gosselies-belgium/",
+    "match": [
+      "Catalent",
+      "Gosselies"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "宣布收掉 Gosselies 細胞治療與質體營運，約 150 人受影響"
+      },
+      {
+        "date": "2024",
+        "text": "Catalent 由 Novo Holdings 完成收購"
+      }
+    ],
+    "en": {
+      "name": "Catalent (Gosselies site)",
+      "country": "Belgium",
+      "ticker": "Owned by Novo Holdings (acquisition closed late 2024)",
+      "mechanism": "Formerly commercial-scale cell therapy and plasmid DNA manufacturing; billed as a European Centre of Excellence for cell therapy",
+      "pipeline": "Winding down | The 60,000 sq ft commercial cell therapy plant completed in 2022 was once among the world's largest; in 2026 Catalent moved to close the Gosselies operation on declining volumes, affecting around 150 staff",
+      "insight": "Listed not as a partner candidate but as a warning sign that European cell therapy capacity is exiting. One of the world's largest cell therapy plants closing for want of volume says the overcapacity gap in European CGT is real. The implication for Steminent cuts both ways: bargaining power when sourcing European contract manufacturing improves, but tying supply to a site that may retreat carries its own risk. Equipment and talent will reach the market in the near term.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "Announced the wind-down of cell therapy and plasmid operations at Gosselies, affecting around 150 staff"
+        },
+        {
+          "date": "2024",
+          "text": "Catalent's acquisition by Novo Holdings completed"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "stemcell-tech",
+    "name": "STEMCELL Technologies",
+    "nameEn": "STEMCELL Technologies",
+    "short": "STEMCELL",
+    "country": "加拿大 Canada",
+    "ticker": "未上市 Private",
+    "mechanism": "細胞培養試劑與起始材料供應；GMP 與研究級 iPSC 品系製造配銷",
+    "pipeline": "供應鏈服務｜2026-07 與 CCRM 合作，製造並全球配銷源自 LineaBio GMP iPSC 品系的研究級（RUO）品系，並提供可配對的 GMP 品系",
+    "insight": "細胞治療的上游供應端。「研究級與 GMP 級可配對」這件事解決的是產業長年的痛點——研發期用一種細胞、進臨床要換另一種，等於重跑一次製程驗證。對任何要從實驗室走到臨床的細胞產品，這是可省下數月的槓桿點。",
+    "threat": "partner",
+    "url": "https://www.stemcell.com/",
+    "match": [
+      "STEMCELL Technologies"
+    ],
+    "updates": [
+      {
+        "date": "2026/07",
+        "text": "與 CCRM 合作供應配對的 GMP 與 RUO iPSC 品系"
+      }
+    ],
+    "en": {
+      "name": "STEMCELL Technologies",
+      "country": "Canada",
+      "ticker": "Private",
+      "mechanism": "Cell culture reagents and starting materials; manufacture and distribution of GMP and research-grade iPSC lines",
+      "pipeline": "Supply chain services | Partnered with CCRM in July 2026 to manufacture and globally distribute research-use-only lines derived from LineaBio's GMP iPSC lines, with matched GMP lines available",
+      "insight": "The upstream supply end of cell therapy. Matching research-grade to GMP-grade lines addresses a long-standing industry pain point: developing on one cell source and switching to another for the clinic means repeating process validation. For any cell product moving from bench to clinic, this is a lever worth months.",
+      "updates": [
+        {
+          "date": "2026/07",
+          "text": "Partnered with CCRM to supply matched GMP and RUO iPSC lines"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "xintela",
+    "name": "Xintela",
+    "nameEn": "Xintela AB",
+    "short": "Xintela",
+    "country": "瑞典 Sweden",
+    "ticker": "Nasdaq First North: XINT",
+    "mechanism": "以標記篩選（integrin α10β1）的異體間質幹細胞 XSTEM；另有 EQSTEM 動物用產品線",
+    "pipeline": "XSTEM｜難癒性靜脈腿部潰瘍 Ph1/2a 達主要安全性目標；膝關節炎臨床試驗進行中。自建 ATMP GMP 廠並獲瑞典藥品管理局製造許可",
+    "insight": "瑞典唯一具規模的幹細胞 ATMP 公司，也是歐洲少數自有 GMP 產能的異體 MSC 開發者。它的標記篩選技術正對應異體 MSC 最被詬病的批次一致性問題。⚠️ 2026-06 股價約 US$0.02，屬財務困難狀態——這反而讓「取得其 GMP 產能或技術」的成本遠低於自建，但也代表往來前要先評估其存續風險。",
+    "threat": "low",
+    "url": "https://www.xintela.se/en/",
+    "match": [
+      "Xintela",
+      "XSTEM"
+    ],
+    "updates": [
+      {
+        "date": "2026/06",
+        "text": "股價約 US$0.02，財務狀況緊繃"
+      },
+      {
+        "date": "2025",
+        "text": "XSTEM 難癒性靜脈腿部潰瘍 Ph1/2a 安全且耐受良好，達主要目標"
+      }
+    ],
+    "en": {
+      "name": "Xintela AB",
+      "country": "Sweden",
+      "ticker": "Nasdaq First North: XINT",
+      "mechanism": "XSTEM, an allogeneic mesenchymal stem cell product selected on the integrin α10β1 marker; plus the EQSTEM veterinary line",
+      "pipeline": "XSTEM | Ph1/2a in difficult-to-heal venous leg ulcers met its primary safety objective; a knee osteoarthritis study is running. Operates its own ATMP GMP facility licensed by the Swedish Medical Products Agency",
+      "insight": "Sweden's only stem cell ATMP company of any scale, and one of the few European allogeneic MSC developers with in-house GMP capacity. Its marker-based selection speaks directly to the batch-consistency criticism that dogs allogeneic MSCs. Note that its share price sat near US$0.02 in June 2026, indicating financial distress — which makes acquiring its GMP capacity or technology far cheaper than building equivalent capability, while also demanding a solvency assessment before any engagement.",
+      "updates": [
+        {
+          "date": "2026/06",
+          "text": "Share price around US$0.02, indicating financial strain"
+        },
+        {
+          "date": "2025",
+          "text": "XSTEM was safe and well tolerated in the Ph1/2a in difficult-to-heal venous leg ulcers, meeting the primary objective"
+        }
+      ]
+    },
+    "cat": "cell"
+  },
+  {
+    "id": "anthony-nolan",
+    "name": "Anthony Nolan",
+    "nameEn": "Anthony Nolan",
+    "short": "Anthony Nolan",
+    "country": "英國 UK",
+    "ticker": "慈善機構 Charity",
+    "mechanism": "血液幹細胞與臍帶組織捐贈登錄與供應",
+    "pipeline": "起始material供應｜2026-05-05 與 INmune Bio 簽訂修訂後的材料移轉暨授權合約，長期供應臍帶組織供 CORDStrom 平台使用，涵蓋英、歐、美",
+    "insight": "異體細胞治療的最上游——捐贈者來源。它在 INmune Bio 案裡的角色說明了一件事：**異體產品的長期供貨風險不在工廠，在捐贈者材料的取得權**。仲恩用的是脂肪組織來源，供應鏈結構不同，但「先鎖定長期材料來源再談產能」的順序是可借鏡的。",
+    "threat": "partner",
+    "url": "https://www.anthonynolan.org/",
+    "match": [
+      "Anthony Nolan"
+    ],
+    "updates": [
+      {
+        "date": "2026/05",
+        "text": "與 INmune Bio 簽訂修訂後的材料移轉暨授權合約，長期供應臍帶組織"
+      }
+    ],
+    "en": {
+      "name": "Anthony Nolan",
+      "country": "UK",
+      "ticker": "Charity",
+      "mechanism": "Blood stem cell and umbilical cord tissue donor registry and supply",
+      "pipeline": "Starting material supply | Signed an amended and restated material transfer and licence agreement with INmune Bio on 5 May 2026 for long-term cord tissue supply to the CORDStrom platform, covering the UK, EU and US",
+      "insight": "The furthest upstream point in allogeneic cell therapy — donor sourcing. Its role in the INmune Bio deal illustrates a general point: the long-term supply risk in an allogeneic product lies less in the factory than in the right to obtain donor material. Steminent draws on adipose tissue and so faces a different supply chain, but the sequencing — secure long-term material rights before negotiating capacity — transfers.",
+      "updates": [
+        {
+          "date": "2026/05",
+          "text": "Signed an amended and restated material transfer and licence agreement with INmune Bio for long-term cord tissue supply"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "inmune-bio",
+    "name": "INmune Bio",
+    "nameEn": "INmune Bio Inc.",
+    "short": "INmune Bio",
+    "country": "美國／英國 US/UK",
+    "ticker": "NASDAQ: INMB",
+    "mechanism": "CORDStrom｜臍帶來源異體 MSC，經檢驗、篩選、混合（pooled）建立標準化「MSC Bank」",
+    "pipeline": "CORDStrom｜RDEB（隱性失養性水疱性表皮鬆解症）預計 2026 仲夏於英國送 MAA，隨後送 EMA 與 FDA；另拓展 CORDStrom-TRAIL（腫瘤）、骨關節炎與紅斑性狼瘡",
+    "insight": "**目前最值得盯的異體 MSC 法規先例。** 它與仲恩面對的是同一組難題（捐贈者變異、製造一致性），解法是把多位捐贈者的細胞混合成標準化細胞庫。若 RDEB 的 MAA 在英國過關，將是歐洲第一個以 pooled MSC 取證的案例，直接影響 EMA 對異體 MSC 的可比性與效價要求——仲恩之後進歐洲，審查官心裡的標準會是它訂的。2026-07-20 已宣布完成支持全球註冊送件的商業化製造里程碑。",
+    "threat": "low",
+    "url": "https://www.inmunebio.com/",
+    "match": [
+      "INmune Bio",
+      "CORDStrom"
+    ],
+    "updates": [
+      {
+        "date": "2026/07",
+        "text": "宣布完成支持全球註冊送件的 CORDStrom 商業化製造里程碑"
+      },
+      {
+        "date": "2026/05",
+        "text": "與 Anthony Nolan 擴大合作，確保臍帶組織長期供應，涵蓋英、歐、美"
+      }
+    ],
+    "en": {
+      "name": "INmune Bio Inc.",
+      "country": "US / UK",
+      "ticker": "NASDAQ: INMB",
+      "mechanism": "CORDStrom — allogeneic cord-derived MSCs that are tested, screened and pooled into standardised MSC banks",
+      "pipeline": "CORDStrom | An MAA for recessive dystrophic epidermolysis bullosa was targeted for the UK in mid-summer 2026, with EMA and FDA submissions to follow; the platform is also being extended to CORDStrom-TRAIL in oncology, osteoarthritis and lupus",
+      "insight": "The allogeneic MSC regulatory precedent most worth watching. It faces the same problems as Steminent — donor variability and manufacturing consistency — and answers them by pooling cells from multiple donors into standardised banks. If the RDEB MAA clears in the UK it becomes Europe's first approval of a pooled MSC product, which will shape how the EMA frames comparability and potency requirements for allogeneic MSCs. When Steminent later enters Europe, the standard in the reviewer's mind will be the one this sets. The company announced on 20 July 2026 that it had completed the commercial manufacturing milestone supporting its planned global filings.",
+      "updates": [
+        {
+          "date": "2026/07",
+          "text": "Completed the CORDStrom commercial manufacturing milestone supporting planned global registration filings"
+        },
+        {
+          "date": "2026/05",
+          "text": "Expanded its Anthony Nolan collaboration to secure long-term cord tissue supply across the UK, EU and US"
+        }
+      ]
+    },
+    "cat": "cell"
+  },
+  {
+    "id": "nurexone",
+    "name": "NurExone Biologic",
+    "nameEn": "NurExone Biologic Inc.",
+    "short": "NurExone",
+    "country": "加拿大／以色列 Canada/Israel",
+    "ticker": "TSXV: NRX / OTCQB: NRXBF",
+    "mechanism": "MSC 衍生外泌體載 PTEN siRNA（ExoPTEN），非細胞（cell-free）給藥",
+    "pipeline": "ExoPTEN｜急性脊髓損傷：2026 預計啟動首次人體 Ph1/2a（C5–T10、ASIA A/B、傷後 3–7 天內收案）；另探索視神經損傷、創傷性腦損傷與顏面神經。已獲 FDA 與 EMA 孤兒藥資格",
+    "insight": "無細胞路線的代表。它把 MSC 的治療訊號抽出來裝進外泌體，繞開活細胞的低溫物流、存活率與免疫排斥問題——這正是 Stemchymal 這類活細胞產品的結構性成本來源。適應症完全不重疊（脊髓損傷 vs SCA），所以是純技術面的互補而非競爭；對仲恩來說是「次世代該不該走無細胞」這題的活體實驗。",
+    "threat": "low",
+    "url": "https://nurexone.com/",
+    "match": [
+      "NurExone",
+      "ExoPTEN"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "預計啟動 ExoPTEN 急性脊髓損傷首次人體 Ph1/2a 試驗"
+      }
+    ],
+    "en": {
+      "name": "NurExone Biologic Inc.",
+      "country": "Canada / Israel",
+      "ticker": "TSXV: NRX / OTCQB: NRXBF",
+      "mechanism": "MSC-derived exosomes loaded with PTEN siRNA (ExoPTEN), delivered cell-free",
+      "pipeline": "ExoPTEN | Acute spinal cord injury: a first-in-human Ph1/2a was planned for 2026 (levels C5–T10, ASIA grade A or B, enrolled 3–7 days post-injury); optic nerve damage, traumatic brain injury and facial nerve injury are also being explored. Orphan drug designation granted by both the FDA and the EMA",
+      "insight": "The standard-bearer for the cell-free route. It extracts the therapeutic signal of MSCs into exosomes, sidestepping the cold chain, viability and immune-rejection problems of living cells — precisely the structural cost drivers of a live-cell product like Stemchymal. The indications do not overlap at all (spinal cord injury versus SCA), making this technical complementarity rather than competition, and a live experiment in whether a cell-free next generation is worth pursuing.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "Planned initiation of the first-in-human Ph1/2a of ExoPTEN in acute spinal cord injury"
+        }
+      ]
+    },
+    "cat": "cell"
+  },
+  {
+    "id": "sclnow",
+    "name": "賽萊拉 Sclnow",
+    "nameEn": "Sclnow Biotechnology",
+    "short": "Sclnow",
+    "country": "中國 China",
+    "ticker": "未上市 Private",
+    "mechanism": "臍帶間質幹細胞（異體）",
+    "pipeline": "19#iSCLife®-SA｜脊髓小腦失調症（SCA）：NCT03378414，登錄之預估開始日為 2026-12-31",
+    "insight": "**全球第二個把細胞治療推進 SCA 的公司，也是 Stemchymal 在細胞治療賽道上唯一的正面對手。** 差別在細胞來源（臍帶 vs 脂肪）與市場（中國 vs 台日美韓）。目前仍停在登錄階段、尚未有讀出，威脅是未來式；但它的存在破除了「細胞治療賽道全空」的假設，若中國先出數據，會直接影響 SCA 細胞治療的敘事主導權。",
+    "threat": "mid",
+    "url": "https://clinicaltrials.gov/study/NCT03378414",
+    "match": [
+      "Sclnow",
+      "iSCLife"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "NCT03378414 登錄之預估開始日為 2026-12-31，尚無讀出"
+      }
+    ],
+    "en": {
+      "name": "Sclnow Biotechnology",
+      "country": "China",
+      "ticker": "Private",
+      "mechanism": "Allogeneic umbilical cord mesenchymal stem cells",
+      "pipeline": "19#iSCLife®-SA | Spinocerebellar ataxia: NCT03378414, with a registered estimated start date of 31 December 2026",
+      "insight": "The second company worldwide to push a cell therapy into SCA, and Stemchymal's only head-on rival within the cell therapy lane. The differences are cell source (cord versus adipose) and market (China versus Taiwan, Japan, the US and Korea). It remains at the registration stage with no readout, so the threat is prospective — but its existence disproves the assumption that the cell therapy lane is empty, and a Chinese readout arriving first would shift who controls the narrative in SCA cell therapy.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "NCT03378414 carries a registered estimated start date of 31 December 2026; no readout yet"
+        }
+      ]
+    },
+    "cat": "sca"
+  },
+  {
+    "id": "denali",
+    "name": "Denali Therapeutics",
+    "nameEn": "Denali Therapeutics",
+    "short": "Denali",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: DNLI",
+    "mechanism": "TransportVehicle（TV）血腦障壁穿透平台；DNL422（OTV:SNCA）直接靶向 α-synuclein 以減少毒性聚集",
+    "pipeline": "DNL422｜仍在 IND-enabling 階段、主打帕金森病；列於 2025–2027 IND-enabling 名單，最快 2026 進臨床",
+    "insight": "與 MSA 的關聯是機轉相鄰而非直接競爭：MSA 與帕金森同屬 α-synuclein 病變，但 MSA 的病灶在寡突膠細胞、帕金森在神經元，靶細胞不同，藥物未必能直接跨過去。真正值得注意的是 TV 平台——如果血腦障壁遞送被解決，整個「打得到標的但送不進去」的失敗類別（BIIB132、VO659 都死在這）會被重新洗牌。",
+    "threat": "low",
+    "url": "https://www.denalitherapeutics.com/",
+    "match": [
+      "Denali",
+      "DNL422"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "DNL422 仍處 IND-enabling 階段，最快 2026 進入臨床"
+      }
+    ],
+    "en": {
+      "name": "Denali Therapeutics",
+      "country": "USA",
+      "ticker": "NASDAQ: DNLI",
+      "mechanism": "The TransportVehicle (TV) blood-brain-barrier platform; DNL422 (OTV:SNCA) targets alpha-synuclein directly to reduce toxic aggregates",
+      "pipeline": "DNL422 | Still IND-enabling and aimed at Parkinson's disease; listed among the 2025–2027 IND-enabling programmes and could enter trials as early as 2026",
+      "insight": "Its link to MSA is mechanistic adjacency rather than direct competition: MSA and Parkinson's are both synucleinopathies, but MSA pathology sits in oligodendrocytes and Parkinson's in neurons, so a drug does not necessarily carry across. The part that matters is the TV platform — if blood-brain-barrier delivery is genuinely solved, the whole failure category of drugs that engage their target but cannot reach it (where both BIIB132 and VO659 died) gets reshuffled.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "DNL422 remains in IND-enabling work and could enter the clinic as early as 2026"
+        }
+      ]
+    },
+    "cat": "neuro"
+  },
+  {
+    "id": "servier",
+    "name": "Servier 施維雅",
+    "nameEn": "Servier Laboratories",
+    "short": "Servier",
+    "country": "法國 France",
+    "ticker": "基金會持股 Foundation-owned",
+    "mechanism": "大型製藥集團；於 SCA3 領域以資助世代研究與 AI 資料分析切入，尚無公開的 SCA 在研藥物",
+    "pipeline": "無公開 SCA 在研資產｜2022-03-18 與 DZNE 統籌的 ESMI（歐洲 SCA3／馬查多－約瑟夫病聯盟）簽三年合作：Servier 支付世代成員年度回診費用並以 AI 與計算方法協助分析，換取逾 450 名 SCA3 帶因者、跨五國的標準化世代資料",
+    "insight": "⚠️ **這是 2022 年的舊約、三年期程推算應已屆滿，現況未公開，不可當成 2026 新動態解讀。** 但它的意義沒有過期：一家大藥廠已經用最便宜的方式（資助自然史世代）在 SCA3 卡了位，拿到的是定義試驗終點所需的基準資料。ESMI 成員含 UCL、Radboud UMC、Coimbra 大學與四所德國大學醫院——這同時也是歐洲 SCA3 臨床網絡的名單。",
+    "threat": "low",
+    "url": "https://www.dzne.de/en/news/press-releases/press/european-partnership-between-academia-and-pharma-to-study-sca3-ataxia/",
+    "match": [
+      "Servier"
+    ],
+    "updates": [
+      {
+        "date": "2022/03",
+        "text": "與 DZNE 統籌之 ESMI 簽署三年合作，資助 SCA3 世代追蹤並協助 AI 資料分析（現況未公開）"
+      }
+    ],
+    "en": {
+      "name": "Servier Laboratories",
+      "country": "France",
+      "ticker": "Foundation-owned",
+      "mechanism": "A large pharmaceutical group that entered SCA3 by funding cohort research and AI data analysis rather than with a disclosed drug candidate",
+      "pipeline": "No disclosed SCA asset | On 18 March 2022 it signed a three-year agreement with ESMI, the European Spinocerebellar Ataxia Type 3/Machado-Joseph Disease Initiative coordinated by DZNE: Servier covers the cost of annual study visits and contributes AI and computational analysis in return for access to standardised data on more than 450 SCA3 mutation carriers across five countries",
+      "insight": "This is a 2022 agreement whose three-year term has likely expired, with no public update — it should not be read as a 2026 development. Its significance has not expired, though: a large pharmaceutical company staked a position in SCA3 by the cheapest available route, funding a natural history cohort, and what it obtained is the baseline data needed to define trial endpoints. ESMI's membership — UCL, Radboud UMC, the University of Coimbra and four German university hospitals — doubles as the roster of Europe's SCA3 clinical network.",
+      "updates": [
+        {
+          "date": "2022/03",
+          "text": "Signed a three-year agreement with DZNE-coordinated ESMI funding SCA3 cohort follow-up and contributing AI data analysis (current status undisclosed)"
+        }
+      ]
+    },
+    "cat": "sca"
+  },
+  {
+    "id": "synapticure",
+    "name": "Synapticure",
+    "nameEn": "Synapticure",
+    "short": "Synapticure",
+    "country": "美國 USA",
+    "ticker": "未上市 Private",
+    "mechanism": "虛擬（遠距）神經退化疾病照護網絡；動作障礙專科神經科醫師、遺傳諮詢、縱貫式照護",
+    "pipeline": "全國性 ataxia 照護方案｜2026-07-16 啟動，可與病人既有醫療團隊共同照護；與 Biogen 合作支持疾病衛教與意識推廣",
+    "insight": "**直接對應仲恩美國線最尷尬的缺口——目前無合作對象、病人只能自行接洽。** 這類虛擬照護網絡解的是罕病最貴的一段成本：找到分散在全美各地、且確診正確的病人。值得注意的是 Biogen 已經先一步接上——這是一家剛放棄自家 SCA3 ASO 的公司，卻仍在維持與 ataxia 病人社群的接觸點，這件事本身就是訊號。",
+    "threat": "partner",
+    "url": "https://www.synapticure.com/with/ataxia",
+    "match": [
+      "Synapticure"
+    ],
+    "updates": [
+      {
+        "date": "2026/07",
+        "text": "推出全國性虛擬 ataxia 照護方案，與 Biogen 合作進行疾病衛教"
+      }
+    ],
+    "en": {
+      "name": "Synapticure",
+      "country": "USA",
+      "ticker": "Private",
+      "mechanism": "A virtual care network for neurodegenerative disease offering movement-disorder-trained neurologists, genetic counselling and longitudinal care",
+      "pipeline": "Nationwide ataxia care programme | Launched 16 July 2026, able to co-manage patients alongside their existing care team; partnered with Biogen on disease education and awareness",
+      "insight": "This speaks directly to the most awkward gap on Steminent's US track — no partner in place, with patients reaching out on their own. A virtual care network addresses the most expensive problem in rare disease: finding correctly diagnosed patients scattered across a continent. Note that Biogen got there first — a company that had abandoned its own SCA3 ASO yet is still maintaining a touchpoint with the ataxia patient community, which is itself a signal.",
+      "updates": [
+        {
+          "date": "2026/07",
+          "text": "Launched a nationwide virtual ataxia care programme with Biogen supporting disease education"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "dzne-esmi",
+    "name": "DZNE／ESMI 聯盟",
+    "nameEn": "DZNE / ESMI consortium",
+    "short": "DZNE/ESMI",
+    "country": "德國 Germany",
+    "ticker": "研究機構 Research institute",
+    "mechanism": "德國神經退化疾病中心（DZNE）統籌的歐洲 SCA3／馬查多－約瑟夫病聯盟（ESMI）",
+    "pipeline": "世代研究｜逾 450 名 SCA3 帶因者、跨五國、標準化臨床檢查流程；已建立腦部變化與生物標記的既有洞察。成員含 Coimbra 大學、Azores 大學、Valdecilla 研究所、Radboud UMC、UCL，以及亞琛／埃森／海德堡／杜賓根大學醫院",
+    "insight": "歐洲 SCA3 的臨床與資料樞紐。對仲恩的價值有兩層：一是**外部對照的資料來源**（仲恩美國 Ph2 不設安慰劑對照，需要自然史對照）；二是**歐洲臨床站點的入口名單**——ESMI 的成員機構就是日後歐洲試驗要找的中心。Servier 已經用資助的方式接上這條線，路徑是現成的。",
+    "threat": "partner",
+    "url": "https://www.dzne.de/",
+    "match": [
+      "DZNE",
+      "ESMI"
+    ],
+    "updates": [],
+    "en": {
+      "name": "DZNE / ESMI consortium",
+      "country": "Germany",
+      "ticker": "Research institute",
+      "mechanism": "The European Spinocerebellar Ataxia Type 3/Machado-Joseph Disease Initiative (ESMI), coordinated by the German Center for Neurodegenerative Diseases (DZNE)",
+      "pipeline": "Cohort research | More than 450 SCA3 mutation carriers across five countries under standardised clinical examination protocols, with established insights into brain changes and biomarkers. Members include the University of Coimbra, the University of the Azores, the Valdecilla research institute, Radboud UMC, UCL and the university hospitals of Aachen, Essen, Heidelberg and Tübingen",
+      "insight": "Europe's clinical and data hub for SCA3, valuable to Steminent on two counts. First as a source of external control data, since the US Phase 2 runs without a placebo arm and needs natural history comparators. Second as the entry list for European clinical sites — ESMI's member institutions are the centres any future European trial would need to recruit. Servier has already connected to this network by funding it, so the path is well trodden."
+    },
+    "cat": "sca"
+  },
+  {
+    "id": "biocells",
+    "name": "Biocells Medical",
+    "nameEn": "Biocells Medical",
+    "short": "Biocells",
+    "country": "波蘭 Poland",
+    "ticker": "未上市 Private",
+    "mechanism": "神經誘導間質幹細胞（neuroinduced MSC）＋外泌體併用；鞘內與鼻內兩種給藥途徑",
+    "pipeline": "神經誘導 MSC ＋ 外泌體｜脊髓小腦失調症（全亞型）：NCT07467733，Ph1/2、預估收案 90 人、2026-06 起、主要完成 2028-06，站點在華沙",
+    "insight": "**細胞治療賽道上第三個進入 SCA 的玩家，也是最容易被漏掉的一個**（登錄名稱用的是 spinocerebellar palsy）。三點值得注意：一、預估收案 90 人，比仲恩美國 Ph2（n≈20）大得多；二、同時給細胞與外泌體，等於把「活細胞 vs 無細胞」兩條路押在同一個試驗裡；三、採鞘內＋鼻內給藥，直接挑戰中樞遞送這個 SCA 領域反覆致命的環節（BIIB132、VO659 都死在送不到）。若它先讀出，會同時衝擊仲恩的靜脈給藥論述與細胞治療賽道的先行者地位。",
+    "threat": "mid",
+    "url": "https://clinicaltrials.gov/study/NCT07467733",
+    "match": [
+      "Biocells",
+      "neuroinduced"
+    ],
+    "updates": [
+      {
+        "date": "2026/06",
+        "text": "NCT07467733 登錄之預估開始日；Ph1/2、n=90、鞘內＋鼻內給藥，尚未收案"
+      }
+    ],
+    "en": {
+      "country": "Poland",
+      "ticker": "Private",
+      "mechanism": "Neuroinduced mesenchymal stem cells combined with exosomes, delivered both intrathecally and intranasally",
+      "pipeline": "Neuroinduced MSC + exosomes | Spinocerebellar ataxia (all subtypes): NCT07467733, Ph1/2, estimated enrolment of 90, starting June 2026 with primary completion in June 2028, at a site in Warsaw",
+      "insight": "The third player to enter SCA within the cell therapy lane, and the easiest to miss — the registry lists the condition as spinocerebellar palsy. Three things stand out. Its estimated enrolment of 90 is far larger than Steminent's US Ph2 at roughly 20. It administers cells and exosomes together, effectively betting on the live-cell and cell-free routes within a single trial. And it uses intrathecal plus intranasal delivery, taking direct aim at CNS delivery — the step that has repeatedly proved fatal in this field, killing both BIIB132 and VO659. An early readout would pressure both Steminent's intravenous delivery rationale and its first-mover position in the lane.",
+      "updates": [
+        {
+          "date": "2026/06",
+          "text": "Registered estimated start date for NCT07467733; Ph1/2, n=90, intrathecal plus intranasal, not yet recruiting"
         }
       ]
     },

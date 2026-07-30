@@ -48,6 +48,71 @@
     "ring": "sca"
   },
   {
+    "id": "sclnow",
+    "ring": "sca",
+    "threat": "mid",
+    "company": "賽萊拉 Sclnow",
+    "asset": "19#iSCLife®-SA",
+    "mechanism": "異體<b>臍帶 MSC</b>，靜脈輸注＋鞘內注射併用",
+    "indication": "SCA1／2／3／6（<b>與本社適應症幾乎完全重疊</b>）",
+    "phase": "Ph2",
+    "threatLabel": "細胞治療正面對手",
+    "status": "尚未收案；登錄之預估開始日 2026-12-31，預估收案 45 人",
+    "links": [
+      {
+        "label": "NCT03378414 ↗",
+        "url": "https://clinicaltrials.gov/study/NCT03378414"
+      }
+    ],
+    "en": {
+      "company": "Sclnow",
+      "asset": "19#iSCLife®-SA",
+      "mechanism": "Allogeneic <b>umbilical-cord MSC</b>, intravenous infusion combined with intrathecal injection",
+      "indication": "SCA1, 2, 3 and 6 (<b>almost entirely overlapping our own indications</b>)",
+      "phase": "Ph2",
+      "threatLabel": "Direct cell-therapy rival",
+      "status": "Not yet recruiting; registered estimated start 31 Dec 2026, estimated enrolment 45",
+      "links": [
+        {
+          "label": "NCT03378414 ↗",
+          "url": "https://clinicaltrials.gov/study/NCT03378414"
+        }
+      ]
+    }
+  },
+  {
+    "id": "biocells",
+    "ring": "sca",
+    "threat": "mid",
+    "company": "Biocells Medical",
+    "asset": "神經誘導 MSC ＋ 外泌體",
+    "mechanism": "神經誘導 MSC 併<b>外泌體</b>；<b>鞘內＋鼻內</b>給藥",
+    "indication": "SCA 全亞型",
+    "phase": "Ph1/2",
+    "threatLabel": "細胞治療正面對手",
+    "status": "尚未收案；登錄之預估開始日 2026-06-01，<b>預估收案 90 人</b>，站點華沙",
+    "links": [
+      {
+        "label": "NCT07467733 ↗",
+        "url": "https://clinicaltrials.gov/study/NCT07467733"
+      }
+    ],
+    "en": {
+      "asset": "Neuroinduced MSC + exosomes",
+      "mechanism": "Neuroinduced MSC combined with <b>exosomes</b>; <b>intrathecal plus intranasal</b> delivery",
+      "indication": "All SCA subtypes",
+      "phase": "Ph1/2",
+      "threatLabel": "Direct cell-therapy rival",
+      "status": "Not yet recruiting; registered estimated start 1 Jun 2026, <b>estimated enrolment 90</b>, site in Warsaw",
+      "links": [
+        {
+          "label": "NCT07467733 ↗",
+          "url": "https://clinicaltrials.gov/study/NCT07467733"
+        }
+      ]
+    }
+  },
+  {
     "id": "vico",
     "threat": "high",
     "company": "Vico Therapeutics",

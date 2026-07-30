@@ -1,5 +1,19 @@
 [
   {
+    "version": "v2.2",
+    "dateDisplay": "2026/07/31",
+    "title": "合作機會分析層上線；公司層由 45 家擴充至 70 家",
+    "changes": [
+      "新增第 10 個分頁「合作機會」：68 家的逐家分析（契合點／為什麼是夥伴而非對手／可行合作形式／優先序理由），依優先序 1–3 分組，可依層別篩選與全文搜尋",
+      "新增「市場覆蓋地圖」：12 個目標市場 × 5 個對象層別的家數矩陣，治療型與製造生態系皆掛零的市場以紅色標出",
+      "公司層 45 → 70 家：補進仲恩既有價值鏈成員（Cyto-Facto、Terumo BCT、Histocell）、台灣 6 家再生醫療同業、國際製造生態系（OmniaBio/CCRM、Lonza、Miltenyi、Cellistic、STEMCELL Technologies、Xintela、Catalent Gosselies）與通路（Synapticure）",
+      "新增 companies.json 分類 platform（製造與生態系）與威脅等級 partner（夥伴）；company.html 同步新增分類與「合作機會分析」卡",
+      "查證後具名兩筆原本匿名的細胞治療對手：NCT03378414 = 賽萊拉 Sclnow（中國，Ph2、n=45、涵蓋 SCA1/2/3/6）、NCT07467733 = Biocells Medical（波蘭，Ph1/2、n=90、鞘內＋鼻內，登錄病名為 spinocerebellar palsy 故先前掃描未命中）",
+      "修正 THREAT_LABEL 缺少 bench 造成標竿公司在情報卡誤顯示為「低威脅」的問題；補上兩筆既有記錄的英文欄位缺口",
+      "⚠️ 政策變更：合作對象分析原訂為內部文件、不上公開站（2026-07-22 對齊會議決定四），經重新拍板改為公開發布，並以中性的產業合作地圖角度撰寫"
+    ]
+  },
+  {
     "version": "v2.1",
     "dateDisplay": "2026/07/23",
     "title": "競品全景擴編至 19 家＋適應症圈層；新增「細胞治療標竿」頁籤",

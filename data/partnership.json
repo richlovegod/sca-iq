@@ -1,0 +1,2768 @@
+[
+  {
+    "id": "histocell",
+    "market": "西班牙 Spain",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "untouched",
+    "fit": "仲恩缺歐洲 GMP 落點，Histocell 缺的是穩定的長約客戶。它已持有 EMA Regulation (EU) 2017/1569 臨床級細胞製造授權與西班牙 AEMPS 的 GMP 認證，且授權範圍明確涵蓋 MSC 的主細胞庫與工作細胞庫——不是「可以做 MSC」，是「已經被監管機關核准做 MSC 的細胞庫」，這兩件事在送件時的份量差很多。",
+    "whyNotRival": "它是純受託方，自有的臨床資產在再生醫學但不碰共濟失調，與 Stemchymal 沒有任何適應症或市場重疊。更關鍵的是它已經是 REPROCELL 的投資標的兼歐洲 CDMO 夥伴——仲恩與 REPROCELL 的關係已經存在，這條線不是開發新關係，是把既有關係往西延伸。",
+    "forms": [
+      "委託製造歐洲用的 MSC 主細胞庫與工作細胞庫",
+      "技轉可行性評估（先做 feasibility，不必一次簽長約）",
+      "以 REPROCELL 三方架構切入，避免從零談判",
+      "未來歐洲臨床試驗用藥的供應"
+    ],
+    "priorityWhy": "五家裡冷啟動成本最低的一家。仲恩要進歐洲遲早要有 EU GMP，而這條路不必自己找廠、不必自己驗證、也不必重新建立信任——沿著既有的日本授權關係走過去就好。談判成本低到不談反而奇怪。",
+    "sources": [
+      {
+        "label": "REPROCELL：Histocell 為其 GMP iPSC 與 MSC 製造夥伴",
+        "url": "https://www.reprocell.com/clinical-stem-cell-services/histocell-our-gmp-cell-manufacturing-partner"
+      },
+      {
+        "label": "REPROCELL 投資 Histocell",
+        "url": "https://www.reprocell.com/news/reprocell-invests-in-histocell-s.l.-a-spain-based-cdmo"
+      },
+      {
+        "label": "Histocell 取得 AEMPS 授權與 GMP 認證",
+        "url": "https://www.reprocell.com/news/histocell-obtains-aemps-authorisation-and-gmp-certification-for-its-new-manufacturing-plant-for-cell-therapy-and-associated-biological-medicinal-products-in-larrabetzu"
+      }
+    ],
+    "en": {
+      "fit": "Steminent lacks a European GMP landing site; Histocell lacks committed long-term clients. It already holds clinical-grade cell manufacturing authorisation under EMA Regulation (EU) 2017/1569 plus Spanish AEMPS GMP certification, with a scope that explicitly covers MSC master and working cell banks — not merely 'able to make MSCs' but 'already authorised by a regulator to make MSC banks', and that distinction carries real weight at filing.",
+      "whyNotRival": "It is a pure contract manufacturer; its own clinical assets sit in regenerative medicine but nowhere near ataxia, so there is no overlap with Stemchymal in indication or market. More to the point, it is already REPROCELL's investee and European CDMO partner — and Steminent's relationship with REPROCELL already exists, so this is not building a new relationship but extending an existing one westward.",
+      "forms": [
+        "Contract manufacture of European MSC master and working cell banks",
+        "A technology transfer feasibility study (start with feasibility rather than a long-term contract)",
+        "Enter through a three-party structure with REPROCELL rather than negotiating from scratch",
+        "Supply of investigational product for future European trials"
+      ],
+      "priorityWhy": "The lowest cold-start cost of the five. Steminent will need EU GMP eventually, and this route requires no plant search, no fresh validation and no new trust-building — it follows an existing Japanese licensing relationship west. The negotiating cost is low enough that not opening the conversation is the odd choice.",
+      "sources": [
+        {
+          "label": "REPROCELL: Histocell as its GMP iPSC and MSC manufacturing partner",
+          "url": "https://www.reprocell.com/clinical-stem-cell-services/histocell-our-gmp-cell-manufacturing-partner"
+        },
+        {
+          "label": "REPROCELL invests in Histocell",
+          "url": "https://www.reprocell.com/news/reprocell-invests-in-histocell-s.l.-a-spain-based-cdmo"
+        },
+        {
+          "label": "Histocell obtains AEMPS authorisation and GMP certification",
+          "url": "https://www.reprocell.com/news/histocell-obtains-aemps-authorisation-and-gmp-certification-for-its-new-manufacturing-plant-for-cell-therapy-and-associated-biological-medicinal-products-in-larrabetzu"
+        }
+      ]
+    }
+  },
+  {
+    "id": "omniabio-ccrm",
+    "market": "加拿大 Canada",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "untouched",
+    "fit": "北美製造與落地的現成基礎設施：Hamilton 廠 120,000 平方英尺、2026 完成後共 57 間無塵室，加上 CCRM 的公私合營網絡與商業化輔導。仲恩在美國有 Ph2 但沒有北美產能，也沒有北美的法規與商務落地夥伴——這裡兩件事一次補齊。",
+    "whyNotRival": "CDMO 兼加速器，不開發自己的治療產品，結構上不可能與 Stemchymal 競爭。真正的重點在另一件事：**Medipost 是這座廠的首個商業期客戶兼合作方**。也就是說，仲恩原本在韓國想談的那家公司，已經先一步用加拿大產能解決了北美製造。這讓 OmniaBio 同時是兩種東西——可複製的模板，以及重新接上 Medipost 的第三方場域。",
+    "forms": [
+      "北美臨床與商業供貨的委託製造",
+      "循 Medipost 模板：以 CDMO 合作換取北美落地與在地信譽",
+      "透過 CCRM 網絡接觸加拿大法規與臨床站點",
+      "以第三方場域重啟與 Medipost 的對話（比雙邊直談少了主客關係的尷尬）"
+    ],
+    "priorityWhy": "它同時解掉兩個獨立問題——北美產能與韓國僵局——這在整份名單裡是唯一一個。而且 Medipost 已經走過一次，路徑風險大幅降低；先行者的存在讓「值不值得」這題不必自己從頭驗證。",
+    "sources": [
+      {
+        "label": "OmniaBio 商業化製造廠啟用，Medipost 為首個商業期客戶",
+        "url": "https://www.prnewswire.com/news-releases/omniabio-announces-opening-of-new-commercial-manufacturing-facility-in-canada-bringing-life-saving-cell-and-gene-therapies-to-patients-302279160.html"
+      },
+      {
+        "label": "Invest Ontario：OmniaBio 成為加拿大最大 CGT CDMO 之路",
+        "url": "https://www.investontario.ca/case-study/omniabio-road-canadas-largest-cell-gene-therapy-cdmo"
+      },
+      {
+        "label": "CCRM、OmniaBio 與 Avectas 合作改善細胞治療製造",
+        "url": "https://www.biospace.com/press-releases/ccrm-omniabio-and-avectas-partner-to-improve-cell-therapy-manufacturing"
+      }
+    ],
+    "en": {
+      "fit": "Ready-made infrastructure for North American manufacturing and market entry: a 120,000 sq ft Hamilton plant reaching 57 cleanrooms on completion in 2026, plus CCRM's public-private network and commercialisation support. Steminent has a US Phase 2 but no North American capacity and no regulatory or commercial landing partner there — this addresses both at once.",
+      "whyNotRival": "A CDMO and accelerator that develops no therapeutics of its own, so it is structurally incapable of competing with Stemchymal. The real point lies elsewhere: Medipost is both a partner and this plant's first commercial-stage client. The Korean company Steminent had been circling has already solved North American manufacturing using Canadian capacity. That makes OmniaBio two things at once — a replicable template, and neutral ground on which to re-engage Medipost.",
+      "forms": [
+        "Contract manufacturing for North American clinical and commercial supply",
+        "Follow the Medipost template: trade CDMO commitment for North American presence and local credibility",
+        "Reach Canadian regulators and clinical sites through the CCRM network",
+        "Use a third-party venue to restart the Medipost conversation, avoiding the awkward host-guest dynamic of bilateral talks"
+      ],
+      "priorityWhy": "It resolves two independent problems — North American capacity and the Korean impasse — which nothing else on this list does. Medipost has already walked the path, sharply reducing route risk, and a precedent means the 'is it worth it' question does not have to be answered from scratch.",
+      "sources": [
+        {
+          "label": "OmniaBio opens commercial manufacturing facility with Medipost as first commercial client",
+          "url": "https://www.prnewswire.com/news-releases/omniabio-announces-opening-of-new-commercial-manufacturing-facility-in-canada-bringing-life-saving-cell-and-gene-therapies-to-patients-302279160.html"
+        },
+        {
+          "label": "Invest Ontario: OmniaBio's road to Canada's largest CGT CDMO",
+          "url": "https://www.investontario.ca/case-study/omniabio-road-canadas-largest-cell-gene-therapy-cdmo"
+        },
+        {
+          "label": "CCRM, OmniaBio and Avectas partner to improve cell therapy manufacturing",
+          "url": "https://www.biospace.com/press-releases/ccrm-omniabio-and-avectas-partner-to-improve-cell-therapy-manufacturing"
+        }
+      ]
+    }
+  },
+  {
+    "id": "synapticure",
+    "market": "美國 USA",
+    "layer": "channel",
+    "stance": "partner",
+    "alsoMSA": true,
+    "priority": 1,
+    "status": "untouched",
+    "fit": "罕病最貴的一段成本不是製造，是找到散佈全美、且確診正確的病人。Synapticure 於 2026-07-16 啟動的全國性虛擬 ataxia 照護方案，正好是這段的基礎設施：動作障礙專科神經科醫師、遺傳諮詢、可與病人既有團隊共同照護。仲恩在美國有 Ph2（NCT06397274）卻沒有病人接觸管道，目前是病人自行找上門。",
+    "whyNotRival": "它是照護服務網絡，不開發藥物，與任何療法都沒有競爭關係；相反地，它的商業模式需要有療法可以轉介。要留意的是 **Biogen 已經先接上**——一家剛放棄自家 SCA3 ASO 的公司，仍在維持與 ataxia 病人社群的接觸點。這說明兩件事：這條通路有價值，而且它不是排他的。",
+    "forms": [
+      "臨床試驗轉介與病人招募合作",
+      "病人衛教與疾病意識推廣（比照 Biogen 的做法）",
+      "遺傳確診協作，鎖定 SCA1／2／3／6 亞型分布",
+      "上市後的自費市場病人接觸與長期追蹤"
+    ],
+    "priorityWhy": "它直擊仲恩美國線最尷尬的空白，成本低、可逆、且不排他——不需要簽長約就能開始。而且時效性明確：方案 7 月剛啟動，早期參與的談判空間比它做大之後好得多。",
+    "sources": [
+      {
+        "label": "Synapticure 推出全國性 ataxia 照護方案（2026-07-16）",
+        "url": "https://www.prnewswire.com/news-releases/synapticure-launches-groundbreaking-ataxia-care-program-expanding-access-to-specialized-neurology-nationwide-302826696.html"
+      },
+      {
+        "label": "Synapticure ataxia 專頁",
+        "url": "https://www.synapticure.com/with/ataxia"
+      }
+    ],
+    "en": {
+      "fit": "The most expensive step in rare disease is not manufacturing but locating correctly diagnosed patients scattered across a continent. The nationwide virtual ataxia care programme Synapticure launched on 16 July 2026 is exactly that infrastructure: movement-disorder-trained neurologists, genetic counselling and co-management alongside a patient's existing team. Steminent has a US Phase 2 (NCT06397274) but no channel to patients, who currently find their own way to the company.",
+      "whyNotRival": "It is a care network that develops no drugs and competes with no therapy; if anything its business model depends on having therapies to refer to. Worth noting that Biogen got there first — a company that had abandoned its own SCA3 ASO yet still maintains a touchpoint with the ataxia patient community. That tells you the channel has value, and that it is not exclusive.",
+      "forms": [
+        "Clinical trial referral and patient recruitment",
+        "Patient education and disease awareness, mirroring Biogen's arrangement",
+        "Collaboration on genetic confirmation to map SCA1/2/3/6 subtype distribution",
+        "Post-approval patient access and long-term follow-up in the self-pay market"
+      ],
+      "priorityWhy": "It lands squarely on the most awkward blank in Steminent's US plan, at low cost, reversibly, and without exclusivity — no long-term contract is needed to begin. Timing also argues for moving now: the programme launched only in July, and terms available to an early participant beat those available once it has scaled.",
+      "sources": [
+        {
+          "label": "Synapticure launches nationwide ataxia care program (16 Jul 2026)",
+          "url": "https://www.prnewswire.com/news-releases/synapticure-launches-groundbreaking-ataxia-care-program-expanding-access-to-specialized-neurology-nationwide-302826696.html"
+        },
+        {
+          "label": "Synapticure ataxia page",
+          "url": "https://www.synapticure.com/with/ataxia"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dzne-esmi",
+    "market": "德國 Germany",
+    "layer": "academic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "untouched",
+    "fit": "兩個具體缺口一次補上。其一，仲恩的美國 Ph2 採單臂設計、不設安慰劑對照，需要自然史外部對照——ESMI 手上是逾 450 名 SCA3 帶因者、跨五國、標準化檢查流程的世代資料，正是這種設計最需要的比較基準。其二，ESMI 的成員機構（UCL、Radboud UMC、Coimbra 大學，以及亞琛、埃森、海德堡、杜賓根四所德國大學醫院）本身就是歐洲 SCA3 臨床網絡的入口名單。",
+    "whyNotRival": "學術聯盟不開發療法，它的產出是資料與方法論，且本質上尋求與業界合作——Servier 就是循這條路進來的。對仲恩來說這不是零和關係，反而是少數「對方也希望你來」的對象。",
+    "forms": [
+      "取得自然史世代資料作為單臂試驗的外部對照",
+      "生物標記與結果指標的方法論合作",
+      "以成員機構為歐洲臨床試驗站點的接觸起點",
+      "比照 Servier 模式，以資助世代追蹤換取資料近用"
+    ],
+    "priorityWhy": "外部對照不是錦上添花——單臂試驗若拿不出可信的對照，療效論述在審查時會直接被挑戰（Biohaven 就是死在外部對照的偏差上）。而且 Servier 已經示範了進入方式與大致代價，路徑不必自己摸索。",
+    "sources": [
+      {
+        "label": "DZNE：ESMI 與 Servier 的學術－產業合作",
+        "url": "https://www.dzne.de/en/news/press-releases/press/european-partnership-between-academia-and-pharma-to-study-sca3-ataxia/"
+      }
+    ],
+    "en": {
+      "fit": "It fills two concrete gaps at once. First, Steminent's US Phase 2 is single-arm with no placebo control and therefore needs an external natural-history comparator — and ESMI holds standardised cohort data on more than 450 SCA3 mutation carriers across five countries, precisely the baseline such a design requires. Second, ESMI's member institutions (UCL, Radboud UMC, the University of Coimbra and the university hospitals of Aachen, Essen, Heidelberg and Tübingen) are themselves the entry list to Europe's SCA3 clinical network.",
+      "whyNotRival": "An academic consortium develops no therapies; its output is data and methodology, and it actively seeks industry collaboration — Servier entered by exactly this route. For Steminent this is not zero-sum but one of the few counterparties that wants you to show up.",
+      "forms": [
+        "Access natural-history cohort data as an external control for the single-arm trial",
+        "Methodological collaboration on biomarkers and outcome measures",
+        "Use member institutions as the starting point for European trial sites",
+        "Follow the Servier model: fund cohort follow-up in exchange for data access"
+      ],
+      "priorityWhy": "An external control is not a nice-to-have — a single-arm trial that cannot produce a credible comparator will have its efficacy claim challenged at review, which is exactly how Biohaven's external-control filing failed. Servier has already demonstrated the mode of entry and its rough price, so the path need not be worked out from first principles.",
+      "sources": [
+        {
+          "label": "DZNE: European academia-pharma partnership to study SCA3",
+          "url": "https://www.dzne.de/en/news/press-releases/press/european-partnership-between-academia-and-pharma-to-study-sca3-ataxia/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "gwoxi",
+    "market": "台灣 Taiwan",
+    "layer": "therapeutic",
+    "stance": "both",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "untouched",
+    "fit": "台灣機轉最接近的同業——同樣取自脂肪組織的 MSC，差別在自體 vs 異體。它有兩樣仲恩缺的東西：2026 將取得 PIC/S GMP 認證、年產能逾千劑（自體與異體皆可）的細胞藥廠，以及一個已推進到三期申請的中樞神經適應症（慢性缺血性中風，Ph1/2 影像顯示腦損傷區域縮小約 30%）。",
+    "whyNotRival": "適應症完全不重疊（中風 vs SCA），細胞來源同為脂肪但取得方式相反——自體無法規模化、異體才是商品化路線，兩者不爭同一批病人也不爭同一套產能邏輯。真正重疊的是《再生醫療法》下的審查資源與監管注意力，屬於同賽道搶證而非同產品競爭；這種重疊多半靠協調而非對抗處理比較划算。",
+    "forms": [
+      "台灣境內的產能互備（互為對方的第二來源）",
+      "共同面對 TFDA 的異體 MSC 審查標準與效價（potency）方法論",
+      "脂肪 MSC 的原料取得與捐贈者管理經驗交換",
+      "中樞神經適應症的臨床站點與神經科醫師網絡共用"
+    ],
+    "priorityWhy": "地緣最近、溝通成本最低、且 2026 是台灣再生醫療元年——審查標準正在被前幾家申請者定型的當口。此刻與另一家脂肪 MSC 公司對齊效價方法論，比各自被主管機關要求不同標準要省得多。",
+    "sources": [
+      {
+        "label": "國璽幹細胞 GXNPC1 提出 TFDA 三期臨床申請",
+        "url": "https://www.genetinfo.com/investment/featured/item/96371.html"
+      },
+      {
+        "label": "國璽幹細胞推進新藥產品化",
+        "url": "https://expo.taiwan-healthcare.org/zh/news_detail.php?REFDOCID=0sja3c73pziuuvmt"
+      }
+    ],
+    "en": {
+      "fit": "The Taiwanese peer closest in mechanism — adipose-derived MSCs, differing in being autologous rather than allogeneic. It holds two things Steminent lacks: a cell-drug plant due for PIC/S GMP certification in 2026 with annual capacity above a thousand doses of both autologous and allogeneic product, and a CNS indication already at Phase 3 application (chronic ischaemic stroke, with Ph1/2 imaging showing roughly a 30% reduction in the damaged brain area).",
+      "whyNotRival": "The indications do not overlap at all (stroke versus SCA), and while both draw on adipose tissue the sourcing is opposite — autologous cannot scale, allogeneic is the commercial route — so they compete neither for the same patients nor within the same capacity logic. What genuinely overlaps is review bandwidth and regulatory attention under the Regenerative Medicine Act: a race for approval in the same lane rather than product competition, and that kind of overlap is usually cheaper to coordinate than to fight.",
+      "forms": [
+        "Mutual capacity backup within Taiwan, each acting as the other's second source",
+        "A common front on TFDA expectations for allogeneic MSC review and potency methodology",
+        "Exchange of experience on adipose MSC sourcing and donor management",
+        "Shared CNS clinical sites and neurologist networks"
+      ],
+      "priorityWhy": "Geographically closest, cheapest to talk to, and 2026 is the first year of Taiwan's regenerative medicine regime — the moment when review standards are being set by the first few applicants. Aligning potency methodology now with another adipose MSC company costs far less than each being held to a different standard later.",
+      "sources": [
+        {
+          "label": "GWOXI files Phase 3 application with the TFDA for GXNPC1",
+          "url": "https://www.genetinfo.com/investment/featured/item/96371.html"
+        },
+        {
+          "label": "GWOXI advances its stem cell drug toward commercialisation",
+          "url": "https://expo.taiwan-healthcare.org/zh/news_detail.php?REFDOCID=0sja3c73pziuuvmt"
+        }
+      ]
+    }
+  },
+  {
+    "id": "reprocell",
+    "market": "日本 Japan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "existing",
+    "fit": "日本開發與商業化的獨家授權方，同時是股東（出資先）。2016-11-11 協議的分工白紙黑字：製造由台灣的仲恩負責、銷售與配銷由 REPROCELL 負責日本所有活動。2026-06-24 已由 REPROCELL 具名送出日本製造販売承認申請（SCA3 與 SCA6，優先審查，目標審查期九個月）。",
+    "whyNotRival": "它取得的是日本的開發＋商業化獨家權與其他適應症優先談判權，對價是投資仲恩約 US$1M（認新股）＋里程碑金約 US$4M ＋商業化後權利金——利益結構與仲恩同向。它也是進入 Histocell（歐洲 GMP）的橋樑。",
+    "forms": [
+      "日本審查期間的法規應對協作（受理起九個月，約 2027 年 3 月見分曉）",
+      "其他適應症優先談判權的行使討論——尤其 SCA1 是否納入後續適應症擴增",
+      "透過其歐洲 CDMO Histocell 延伸至歐盟",
+      "藉其 IR 管道支撐仲恩的募資敘事"
+    ],
+    "priorityWhy": "唯一一個已在監管機關手上的案子，時間壓力最高。另有一件必須主動處理的事：2016 年協議的原始時程是「2020 年有條件核准、2023 年上市許可」，實際 2026-06 才送件、最快 2027 核准，落後約三年——這在募資或買家 DD 時必被問到，說法要與 REPROCELL 對齊，不能兩邊講不一樣。",
+    "sources": [
+      {
+        "label": "REPROCELL 送出日本製造販売承認申請（2026-06-24）",
+        "url": "https://www.reprocell.com/news/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6"
+      },
+      {
+        "label": "REPROCELL × Steminent 合作暨商業化協議（2016-11-11）",
+        "url": "https://www.reprocell.com/news/announcement-on-the-initiation-of-a-new-business-from-the-collaboration-and-commercialization-agreement-with-steminent-biotherapeutics-inc-for-cell-therapy"
+      }
+    ],
+    "en": {
+      "fit": "The exclusive licensee for Japanese development and commercialisation, and also a shareholder. The 2016 agreement divided the work explicitly: manufacturing sits with Steminent in Taiwan, sales and distribution with REPROCELL across Japan. REPROCELL filed the Japanese marketing approval application in its own name on 24 June 2026 (SCA3 and SCA6, under priority review with a nine-month target).",
+      "whyNotRival": "What it holds is exclusive Japanese development and commercialisation rights plus a right of first negotiation on further indications, in exchange for roughly US$1M invested in Steminent through a share subscription, about US$4M in milestones and royalties after commercialisation — an interest structure aligned with Steminent's. It is also the bridge to Histocell and European GMP.",
+      "forms": [
+        "Regulatory coordination through the Japanese review (nine months from acceptance, so a decision around March 2027)",
+        "Discussion of how the right of first negotiation on further indications is exercised, particularly whether SCA1 enters a label expansion",
+        "Extension into the EU via its European CDMO, Histocell",
+        "Use of its investor relations channel to support Steminent's financing narrative"
+      ],
+      "priorityWhy": "The only file already in a regulator's hands, and therefore the most time-pressured. One item needs handling proactively: the 2016 agreement assumed conditional approval in 2020 and marketing authorisation in 2023, where filing in fact came in June 2026 with approval no earlier than 2027 — roughly three years late. That will be raised in any financing or buyer due diligence, and the explanation must be agreed with REPROCELL rather than told two different ways.",
+      "sources": [
+        {
+          "label": "REPROCELL files for Japanese marketing approval (24 Jun 2026)",
+          "url": "https://www.reprocell.com/news/reprocell-submits-application-for-manufacturing-and-marketing-approval-in-japan-for-stem-cell-therapy-stemchymal-for-spinocerebellar-ataxia-sca3-and-sca6"
+        },
+        {
+          "label": "REPROCELL x Steminent collaboration and commercialisation agreement (11 Nov 2016)",
+          "url": "https://www.reprocell.com/news/announcement-on-the-initiation-of-a-new-business-from-the-collaboration-and-commercialization-agreement-with-steminent-biotherapeutics-inc-for-cell-therapy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cyto-facto",
+    "market": "日本 Japan",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "existing",
+    "fit": "補上日本商業量產的實體產能。日本藥事法把「製造販売業」（上市許可、由 REPROCELL 持有）與「製造業」（實體 GMP 廠）拆成兩張執照，而 2016 年授權從來就不含製造——製造是仲恩的合約義務，但仲恩在日本無商業規模 GMP 產能。Cyto-Facto 補的是仲恩自己的洞。",
+    "whyNotRival": "純受託製造方，不持有產品權利。它已量產過商業化 CAR-T、也製造過 MSC 臨床試驗品，是少數同時具備商業與 MSC 經驗的日本 CDMO。",
+    "forms": [
+      "技術移轉與製程驗證（LOI 已簽，待轉為正式受託製造合約）",
+      "日本核准後的商業量產供貨",
+      "以其 CytoFactory4.0 製造管理系統銜接批次紀錄與放行文件",
+      "作為與 Terumo BCT 製程自動化落地的實作場域"
+    ],
+    "priorityWhy": "時程被日本審查綁死：受理起九個月、約 2027 年 3 月見分曉，核准後必須立刻有貨。技轉與製程驗證需要的前置時間長，現在不推進就會變成拿到藥證卻供不了貨。",
+    "sources": [
+      {
+        "label": "Cyto-Facto 官網",
+        "url": "https://www.cytofacto.com/en/"
+      },
+      {
+        "label": "REPROCELL 公告：出資先 Steminent 與 Cyto-Facto 締結基本合意書",
+        "url": "https://www.dreamnews.jp/press/0000339353"
+      }
+    ],
+    "en": {
+      "fit": "It supplies the physical capacity for Japanese commercial production. Japanese pharmaceutical law splits the marketing authorisation held by REPROCELL from the manufacturing licence for a physical GMP plant, and the 2016 licence never covered manufacturing — which remains Steminent's contractual obligation despite Steminent having no commercial-scale GMP capacity in Japan. Cyto-Facto fills Steminent's own gap.",
+      "whyNotRival": "A pure contract manufacturer holding no product rights. It has produced commercial CAR-T and clinical-grade MSC batches, making it one of the few Japanese CDMOs with both commercial and MSC experience.",
+      "forms": [
+        "Technology transfer and process validation, converting the signed LOI into a formal contract manufacturing agreement",
+        "Commercial supply following Japanese approval",
+        "Use of its CytoFactory4.0 manufacturing execution system for batch records and release documentation",
+        "A practical site at which to land the Terumo BCT process automation"
+      ],
+      "priorityWhy": "The timeline is pinned by the Japanese review — nine months from acceptance, so a decision around March 2027, with product needed immediately on approval. Technology transfer and process validation carry long lead times, so failing to push now risks holding an approval that cannot be supplied.",
+      "sources": [
+        {
+          "label": "Cyto-Facto website",
+          "url": "https://www.cytofacto.com/en/"
+        },
+        {
+          "label": "REPROCELL notice on the Steminent-Cyto-Facto letter of intent",
+          "url": "https://www.dreamnews.jp/press/0000339353"
+        }
+      ]
+    }
+  },
+  {
+    "id": "terumo-bct",
+    "market": "美國／日本 US/Japan",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "existing",
+    "fit": "異體 MSC 的單位成本由單批產出規模決定，而製程平台等於提前把 COGs 天花板訂死。2026-05 雙方已簽策略合作以 Quantum Flex 推進後期臨床製造，里程碑達成後仲恩計畫擴大使用。",
+    "whyNotRival": "設備與耗材供應商，商業模式是賣平台與耗材，產品賣得越好對它越有利，利益完全同向。",
+    "forms": [
+      "後期臨床製程開發里程碑的達成與驗收",
+      "擴大至商業化規模的產能規劃",
+      "沿用其與 Akron Bio 的 GMP 級 fibronectin 等效性成果，縮短原料切換的驗證工作",
+      "以其全球佈局支援台、日、美三地製程一致性"
+    ],
+    "priorityWhy": "關係已建立、方向明確，屬於執行而非談判，所以排在第二序而非第一序。但要注意它與 Cyto-Facto 的順序耦合——製程平台若在技轉後才定案，等於要驗證兩次。",
+    "sources": [
+      {
+        "label": "Terumo BCT 與 Steminent 合作推進 MSC 後期臨床製造",
+        "url": "https://www.terumobct.com/en/gl/our-company/news-and-events/news-releases/2026/terumo-blood-and-cell-technologies-and-steminent-collaborate-to-.html"
+      },
+      {
+        "label": "Terumo BCT 與 Akron Bio 完成 Quantum Flex 上 MSC 擴增的等效性研究",
+        "url": "https://www.terumo.com/newsrelease/detail/20250121/6446"
+      }
+    ],
+    "en": {
+      "fit": "Unit cost for an allogeneic MSC product is set by batch scale, so the process platform effectively fixes the COGs ceiling in advance. The two signed a strategic collaboration in May 2026 to advance late-stage clinical manufacturing on Quantum Flex, with Steminent planning to expand usage once development milestones are met.",
+      "whyNotRival": "An equipment and consumables supplier whose business model is selling platforms and consumables — the better the product sells, the better it does, so interests are fully aligned.",
+      "forms": [
+        "Meeting and accepting the late-stage process development milestones",
+        "Capacity planning for the move to commercial scale",
+        "Reuse of its Akron Bio GMP-grade fibronectin equivalency work to shorten raw-material changeover validation",
+        "Leveraging its global footprint to keep processes consistent across Taiwan, Japan and the US"
+      ],
+      "priorityWhy": "The relationship exists and the direction is clear, making this execution rather than negotiation — hence second rather than first priority. One coupling to watch: if the process platform is only settled after technology transfer, the work gets validated twice.",
+      "sources": [
+        {
+          "label": "Terumo BCT and Steminent collaborate on late-stage clinical MSC manufacturing",
+          "url": "https://www.terumobct.com/en/gl/our-company/news-and-events/news-releases/2026/terumo-blood-and-cell-technologies-and-steminent-collaborate-to-.html"
+        },
+        {
+          "label": "Terumo BCT and Akron Bio complete MSC expansion equivalency study on Quantum Flex",
+          "url": "https://www.terumo.com/newsrelease/detail/20250121/6446"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scm-lifescience",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "stalled",
+    "fit": "2020-10-13 簽署的南韓獨家授權，範圍是 polyQ 型 SCA 的臨床開發與商業化。SCM 的差異化在其 clonal（單株分離）異體 MSC 技術——批次一致性正是異體 MSC 最被監管機關追問的一點。",
+    "whyNotRival": "持有授權的被授權方，利益與仲恩同向；問題不在立場而在進度。公開資料仍將南韓列為 Stemchymal 全球開發的四地之一，但多年未見實質臨床推進。",
+    "forms": [
+      "先釐清授權現況與里程碑達成情形（重啟或收回，兩條路都得先有事實）",
+      "若重啟：明確的臨床時程與里程碑違約條款",
+      "若收回：南韓替代夥伴的評估（Corestem、Medipost、ENCell 皆在名單上）",
+      "無論哪條路，其 clonal MSC 的批次一致性方法論都值得技術交流"
+    ],
+    "priorityWhy": "排第一序不是因為機會大，而是因為**它是所有韓國選項的前置條件**——授權範圍未釐清之前，跟 Corestem 或 Medipost 談任何 SCA 相關合作都會踩到既有合約。這題不解，韓國市場整片是鎖住的。",
+    "sources": [
+      {
+        "label": "Steminent 授權 SCM Lifescience 於南韓開發 Stemchymal",
+        "url": "https://bioinformant.com/steminent-biotherapeutics-scm-lifescience-stemchymal/"
+      }
+    ],
+    "en": {
+      "fit": "An exclusive South Korean licence signed on 13 October 2020 covering clinical development and commercialisation for polyQ spinocerebellar ataxias. SCM's differentiator is its clonal allogeneic MSC isolation technology, and batch consistency is exactly the point regulators press hardest on for allogeneic MSCs.",
+      "whyNotRival": "A licensee whose interests align with Steminent's; the problem is not position but progress. Public materials still list South Korea among the four territories where Stemchymal is being developed, yet no substantive clinical advance has been visible for years.",
+      "forms": [
+        "First establish the factual status of the licence and its milestones — both restarting and reclaiming require that",
+        "If restarting: a defined clinical timeline with milestone default provisions",
+        "If reclaiming: assessment of alternative Korean partners, with Corestem, Medipost and ENCell all on the list",
+        "Either way, a technical exchange on the batch-consistency methodology behind its clonal MSCs is worth having"
+      ],
+      "priorityWhy": "This ranks first not because the opportunity is large but because it is the precondition for every Korean option — until the licence scope is clarified, any SCA-related discussion with Corestem or Medipost risks colliding with an existing contract. Leave this unresolved and the entire Korean market stays locked.",
+      "sources": [
+        {
+          "label": "Steminent licenses South Korean rights for Stemchymal to SCM Lifescience",
+          "url": "https://bioinformant.com/steminent-biotherapeutics-scm-lifescience-stemchymal/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "medipost",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "both",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "talking",
+    "fit": "南韓異體臍帶血 MSC 老牌業者，CARTISTEM（膝關節炎，2012 上市）是全球首個上市的異體 MSC 產品之一，另有 NEUROSTEM 阿茲海默 Ph2a 的中樞神經程式。真正的新資訊是：**它已是加拿大 OmniaBio 廠的首個商業期客戶兼合作方**，等於已經取得北美製造與落地的立足點。",
+    "whyNotRival": "主力產品在骨關節炎、與 SCA 無適應症重疊；但它同時是韓國市場的潛在通路與潛在對手，取決於談判形態。過往接觸中雙方興趣互相抓不準——對方談的合作條件涉及互相在對方市場代理產品，這對仲恩的價值不對等。",
+    "forms": [
+      "以 OmniaBio 為第三方場域重啟對話，把議題從「互相代理」換成「共用北美產能」",
+      "北美落地經驗的取經（它已走過一次）",
+      "南韓市場的通路合作（但須先解 SCM 授權範圍）",
+      "異體 MSC 商業化後的定價與給付經驗交換"
+    ],
+    "priorityWhy": "排第二序有兩個理由：一是韓國市場被 SCM 的既有授權鎖住，談判空間要等前一題有答案；二是過往的錯位在於議題設定（互相代理），換成北美產能這個雙方都缺的題目，成功率會高得多，但這需要先與 OmniaBio 建立關係才有場域。",
+    "sources": [
+      {
+        "label": "OmniaBio 廠啟用，Medipost 為首個商業期客戶",
+        "url": "https://www.prnewswire.com/news-releases/omniabio-announces-opening-of-new-commercial-manufacturing-facility-in-canada-bringing-life-saving-cell-and-gene-therapies-to-patients-302279160.html"
+      },
+      {
+        "label": "Medipost 官網",
+        "url": "https://en.medi-post.co.kr/intro/"
+      }
+    ],
+    "en": {
+      "fit": "A long-established Korean allogeneic cord-blood MSC company whose CARTISTEM (knee osteoarthritis, launched 2012) was among the world's first approved allogeneic MSC products, alongside a CNS programme in NEUROSTEM for Alzheimer's at Ph2a. The genuinely new information is that it is already both a partner and the first commercial-stage client of Canada's OmniaBio plant, giving it a North American manufacturing and market foothold.",
+      "whyNotRival": "Its lead product is in osteoarthritis with no indication overlap in SCA, yet it is simultaneously a potential Korean channel and a potential competitor depending on how a deal is framed. Past contact suffered from mismatched interest — the terms discussed involved each party distributing the other's products in its home market, which is not a symmetric trade in value for Steminent.",
+      "forms": [
+        "Restart the conversation on the neutral ground of OmniaBio, shifting the topic from mutual distribution to shared North American capacity",
+        "Learn from its North American entry, which it has already completed once",
+        "Channel collaboration in South Korea, contingent on resolving the SCM licence scope first",
+        "Exchange on pricing and reimbursement experience for a commercialised allogeneic MSC"
+      ],
+      "priorityWhy": "Second priority for two reasons. The Korean market is locked by SCM's existing licence, so the negotiating room depends on that question being answered first. And the earlier mismatch was one of agenda-setting: reframing around North American capacity, which both parties want, has a far better chance — but that requires a relationship with OmniaBio to provide the venue.",
+      "sources": [
+        {
+          "label": "OmniaBio facility opens with Medipost as first commercial-stage client",
+          "url": "https://www.prnewswire.com/news-releases/omniabio-announces-opening-of-new-commercial-manufacturing-facility-in-canada-bringing-life-saving-cell-and-gene-therapies-to-patients-302279160.html"
+        },
+        {
+          "label": "Medipost corporate site",
+          "url": "https://en.medi-post.co.kr/intro/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "inmune-bio",
+    "market": "美國／英國 US/UK",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "它與仲恩面對同一組難題——捐贈者變異與製造一致性——但解法不同：把多位捐贈者的細胞混合成標準化「MSC Bank」。RDEB 的 MAA 預計 2026 仲夏於英國送件，隨後送 EMA 與 FDA，2026-07-20 已完成支持全球註冊送件的商業化製造里程碑。",
+    "whyNotRival": "適應症在 RDEB、腫瘤、骨關節炎與紅斑性狼瘡，與 SCA 毫無交集。它對仲恩的意義是法規先例而非市場競爭——若 pooled MSC 在英國過關，將直接形塑 EMA 對異體 MSC 的可比性與效價要求，仲恩之後進歐洲時審查官心裡的標準就是它訂的。",
+    "forms": [
+      "異體 MSC 可比性與效價方法論的技術交流",
+      "共同面對監管機關對 pooled vs 單一捐贈者策略的期待差異",
+      "英國／歐盟法規路徑的經驗取經",
+      "起始材料長期供應的合約架構參考（其 Anthony Nolan 案是現成範本）"
+    ],
+    "priorityWhy": "優先序 2 但**情報價值是第一序**：它的 MAA 結果會改變仲恩歐洲策略的前提。建議做法是先當作監測對象緊盯讀出與審查意見，再視結果決定要不要主動接觸——現在就談，籌碼與議題都還不清楚。",
+    "sources": [
+      {
+        "label": "INmune Bio 完成支持全球註冊送件的 CORDStrom 商業化製造里程碑",
+        "url": "https://www.globenewswire.com/news-release/2026/07/20/3329616/0/en/INmune-Bio-Completes-Commercial-Manufacturing-Milestone-Supporting-Planned-Global-Registration-Filings-for-CORDStrom-Platform.html"
+      },
+      {
+        "label": "INmune Bio 與 Anthony Nolan 擴大 CORDStrom 合作",
+        "url": "https://www.inmunebio.com/index.php/newsroom/2026-news/muneioandnthonyolannnouncetrategicxpansionof20260505130503"
+      }
+    ],
+    "en": {
+      "fit": "It faces the same problems as Steminent — donor variability and manufacturing consistency — but answers them differently, pooling cells from multiple donors into standardised MSC banks. Its RDEB marketing authorisation application was targeted for the UK in mid-summer 2026 with EMA and FDA filings to follow, and it announced completion of the supporting commercial manufacturing milestone on 20 July 2026.",
+      "whyNotRival": "Its indications are RDEB, oncology, osteoarthritis and lupus, with no intersection with SCA. Its significance to Steminent is regulatory precedent rather than market competition — if a pooled MSC clears in the UK, it will shape how the EMA frames comparability and potency for allogeneic MSCs, and the standard in the reviewer's mind when Steminent enters Europe will be the one it set.",
+      "forms": [
+        "Technical exchange on allogeneic MSC comparability and potency methodology",
+        "A common view on how regulators treat pooled versus single-donor strategies",
+        "Learning from its UK and EU regulatory route",
+        "Its Anthony Nolan agreement as a template for long-term starting-material supply contracts"
+      ],
+      "priorityWhy": "Second priority for partnership but first for intelligence: the outcome of its MAA changes the premises of Steminent's European strategy. The sensible approach is to track the readout and review commentary closely first, then decide whether to approach — engaging now, before the outcome is known, leaves both the agenda and the leverage undefined.",
+      "sources": [
+        {
+          "label": "INmune Bio completes CORDStrom commercial manufacturing milestone",
+          "url": "https://www.globenewswire.com/news-release/2026/07/20/3329616/0/en/INmune-Bio-Completes-Commercial-Manufacturing-Milestone-Supporting-Planned-Global-Registration-Filings-for-CORDStrom-Platform.html"
+        },
+        {
+          "label": "INmune Bio and Anthony Nolan expand the CORDStrom collaboration",
+          "url": "https://www.inmunebio.com/index.php/newsroom/2026-news/muneioandnthonyolannnouncetrategicxpansionof20260505130503"
+        }
+      ]
+    }
+  },
+  {
+    "id": "stemcyte",
+    "market": "台灣 Taiwan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "**台灣唯一取得美國 FDA 細胞治療新藥藥證（BLA）的公司**。仲恩美國線最缺的不是科學而是法規實戰——CMC 文件怎麼寫、FDA 查廠怎麼過、台灣廠如何滿足美國期待，這些是走過一次才有的知識，而全台灣只有一家走過。",
+    "whyNotRival": "產品在臍帶血造血與免疫適應症，與 SCA 完全不重疊；另兩個管線（長新冠、急性中風）也不碰共濟失調。它是同鄉而非同業競爭者，且已於 2026-04 掛牌，有公開身分可談。",
+    "forms": [
+      "法規與 CMC 顧問合作（最務實、最低成本的形式）",
+      "美國查廠與 BLA 流程的經驗移轉",
+      "共用美國臨床或商務資源（其已有美國據點）",
+      "台灣細胞治療業者的共同法規倡議"
+    ],
+    "priorityWhy": "價值高但不緊急——它解的是「怎麼把事情做對」而不是「有沒有得做」。建議在美國 Ph2 有初步數據、要開始規劃 BLA 路徑時再正式接觸，那時問題才問得具體。現在先建立關係即可。",
+    "sources": [
+      {
+        "label": "永笙-KY 上市前法人說明會：FDA 藥證與細胞三箭",
+        "url": "https://money.udn.com/money/story/11074/9429870"
+      },
+      {
+        "label": "永笙靠臍帶血站上國際要角",
+        "url": "https://ibmi.taiwan-healthcare.org/zh/bio_highlights_detail.php?REFDOCID=0t6flxm3yeil5owm&PageNO=1"
+      }
+    ],
+    "en": {
+      "fit": "The only Taiwanese company holding a US FDA biologics licence for a cell therapy. What Steminent's US track most lacks is not science but regulatory practice — how the CMC dossier is written, how an FDA inspection is passed, how a Taiwanese plant meets American expectations. That knowledge only comes from doing it, and exactly one company in Taiwan has.",
+      "whyNotRival": "Its product sits in haematopoietic and immune indications from cord blood with no overlap with SCA, and neither of its other programmes (long COVID, acute stroke) touches ataxia. It is a compatriot rather than a competitor, and having listed in April 2026 it has a public profile to negotiate from.",
+      "forms": [
+        "Regulatory and CMC advisory collaboration — the most practical and lowest-cost form",
+        "Transfer of experience with US inspections and the BLA process",
+        "Shared US clinical or commercial resources, given its existing US presence",
+        "Joint regulatory advocacy among Taiwanese cell therapy companies"
+      ],
+      "priorityWhy": "High value but not urgent — it answers how to do things right rather than whether they can be done at all. The sensible timing is once the US Phase 2 has preliminary data and BLA route planning begins, when the questions become specific. For now, establishing the relationship is enough.",
+      "sources": [
+        {
+          "label": "StemCyte pre-listing investor briefing on its FDA licence and pipeline",
+          "url": "https://money.udn.com/money/story/11074/9429870"
+        },
+        {
+          "label": "How StemCyte built an international position from cord blood",
+          "url": "https://ibmi.taiwan-healthcare.org/zh/bio_highlights_detail.php?REFDOCID=0t6flxm3yeil5owm&PageNO=1"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lonza",
+    "market": "瑞士 Switzerland",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "異體 MSC 商業化最現成的規模化選項：已產出數百批 GMP MSC 批次，且營運模式明確針對大規模商業需求優化 COGs。仲恩法說會預估的定價是每劑約新台幣 100 萬、每年三劑，這種反覆給藥的產品，COGs 直接決定定價與給付談判的空間。",
+    "whyNotRival": "全球 CDMO，不開發自有療法。它與 Miltenyi 的路線差異值得留意：Lonza 壓規模與單位成本、Miltenyi 壓自動化與封閉製程，對應的產品階段不同。",
+    "forms": [
+      "商業化階段的規模化製造",
+      "COGs 建模與製程經濟性評估（可在簽約前先做）",
+      "以其跨三洲佈局支援多地供貨",
+      "作為 Cyto-Facto 之外的第二來源，降低單一供應商風險"
+    ],
+    "priorityWhy": "現階段用不到——仲恩仍在後期臨床，且日本量產已定 Cyto-Facto。但 COGs 建模值得提早做：定價策略若建立在錯誤的成本假設上，等到商業化才發現就來不及改了。建議先做評估、不簽產能。",
+    "sources": [
+      {
+        "label": "Lonza 異體細胞治療製造（CDMO）",
+        "url": "https://www.lonza.com/specialized-modalities/cell-and-gene/allogeneic-cell-therapies"
+      }
+    ],
+    "en": {
+      "fit": "The most readily available route to commercial scale for an allogeneic MSC: hundreds of GMP MSC batches produced, on an operating model explicitly tuned to reduce COGs for large-scale demand. Steminent's investor guidance assumes roughly NT$1M per dose and three doses a year, and for a repeatedly dosed product COGs directly governs the room available in pricing and reimbursement talks.",
+      "whyNotRival": "A global CDMO that develops no therapies of its own. Its strategic contrast with Miltenyi is worth noting: Lonza competes on scale and unit cost, Miltenyi on automation and closed processing, and the two suit different product stages.",
+      "forms": [
+        "Commercial-stage manufacturing at scale",
+        "COGs modelling and process economics assessment, which can precede any contract",
+        "Multi-territory supply drawing on its three-continent footprint",
+        "A second source alongside Cyto-Facto to reduce single-supplier risk"
+      ],
+      "priorityWhy": "Not needed yet — Steminent remains in late-stage clinical work and Japanese production is already assigned to Cyto-Facto. The COGs modelling, however, is worth doing early: a pricing strategy built on wrong cost assumptions cannot be corrected once commercialisation arrives. Assess now, commit capacity later.",
+      "sources": [
+        {
+          "label": "Lonza allogeneic cell therapy manufacturing (CDMO)",
+          "url": "https://www.lonza.com/specialized-modalities/cell-and-gene/allogeneic-cell-therapies"
+        }
+      ]
+    }
+  },
+  {
+    "id": "leica-regen",
+    "market": "台灣 Taiwan",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "竹北智慧細胞廠約 6,100 坪、24 間細胞操作室、PIC/S GMP 規格、2026 投產，號稱亞洲最大。仲恩目前的製造是台灣自製＋日本 Cyto-Facto，缺的是台灣端的產能彈性與第二來源。",
+    "whyNotRival": "專營受託製造，不開發自有適應症。且《再生醫療法》2026 元旦上路後台灣進入放量期，CDMO 需要長約客戶的程度不亞於藥廠需要產能。",
+    "forms": [
+      "台灣端的產能備援與尖峰調度",
+      "取證後放量階段的委託製造",
+      "以本土產能選項強化與日本廠的議價位置",
+      "共同因應 TFDA 對細胞製劑的查廠與放行標準"
+    ],
+    "priorityWhy": "價值明確但不緊急，而且有一個現在就用得到的用途——**即使不簽約，手上有可行的本土替代方案本身就是談判籌碼**。建議先做產能與報價的實質評估，資訊本身就有價值。",
+    "sources": [
+      {
+        "label": "樂迦再生啟動亞洲最大細胞治療 CDMO 引擎",
+        "url": "https://www.genetinfo.com/investment/featured/item/94463.html"
+      }
+    ],
+    "en": {
+      "fit": "A Zhubei smart cell plant of roughly 20,000 m² with 24 processing suites to PIC/S GMP standard, entering production in 2026 and billed as Asia's largest. Steminent manufactures in Taiwan and through Cyto-Facto in Japan, and what it lacks is Taiwanese capacity flexibility and a second source.",
+      "whyNotRival": "A dedicated contract manufacturer that pursues no indications of its own. And with Taiwan's Regenerative Medicine Act in force from January 2026 the market enters a volume phase, so a CDMO needs committed clients at least as much as a developer needs capacity.",
+      "forms": [
+        "Domestic capacity backup and peak-load scheduling",
+        "Contract manufacturing during the post-approval volume phase",
+        "A local capacity option to strengthen the bargaining position with the Japanese plant",
+        "A shared approach to TFDA inspection and release expectations for cell products"
+      ],
+      "priorityWhy": "Clear value but no urgency — with one use that applies immediately: even unsigned, a credible domestic alternative is itself negotiating leverage. Running a substantive capacity and pricing assessment is worth doing for the information alone.",
+      "sources": [
+        {
+          "label": "Leica Regenerative starts up what it calls Asia's largest cell therapy CDMO engine",
+          "url": "https://www.genetinfo.com/investment/featured/item/94463.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "nurexone",
+    "market": "加拿大／以色列 Canada/Israel",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "把 MSC 的治療訊號抽出來裝進外泌體，繞開活細胞的低溫物流、存活率與免疫排斥——正是 Stemchymal 這類活細胞產品的結構性成本來源。ExoPTEN 已獲 FDA 與 EMA 孤兒藥資格，2026 預計啟動首次人體 Ph1/2a。",
+    "whyNotRival": "適應症在急性脊髓損傷與視神經損傷，與 SCA 完全不重疊，是純技術面的互補。對仲恩來說它是「次世代該不該走無細胞」這題的活體實驗——別人出錢驗證，仲恩看結果。",
+    "forms": [
+      "外泌體平台的技術授權或共同開發評估",
+      "無細胞劑型在中樞神經遞送的可行性交流",
+      "以其 Ph1/2a 讀出作為無細胞路線的決策依據",
+      "效價（potency）與批次放行方法的交換——外泌體與細胞面對的是同一類分析難題"
+    ],
+    "priorityWhy": "現在只需要盯，不需要談。它的首次人體試驗 2026 才啟動，安全性與可行性都還沒有答案；在那之前談技術合作是為未驗證的假設付錢。但這條線值得長期追蹤，因為若無細胞路線走通，整個異體細胞治療的成本結構會被重寫。",
+    "sources": [
+      {
+        "label": "NurExone 2025 年度財報與公司動態（含 2026 首次人體試驗規劃）",
+        "url": "https://www.globenewswire.com/news-release/2026/04/16/3275467/0/en/nurexone-biologic-inc-announces-fourth-quarter-and-full-year-2025-financial-results-and-provides-corporate-update.html"
+      },
+      {
+        "label": "ExoPTEN 產品頁",
+        "url": "https://nurexone.com/exopten/"
+      }
+    ],
+    "en": {
+      "fit": "It extracts the therapeutic signal of MSCs into exosomes, sidestepping cold chain, viability and immune rejection — precisely the structural cost drivers of a live-cell product like Stemchymal. ExoPTEN holds orphan designation from both the FDA and the EMA, with a first-in-human Ph1/2a planned for 2026.",
+      "whyNotRival": "Its indications are acute spinal cord and optic nerve injury, with no overlap with SCA, making this purely technical complementarity. For Steminent it is a live experiment in whether a cell-free next generation is worth pursuing — someone else funds the validation and Steminent reads the result.",
+      "forms": [
+        "Assessment of technology licensing or co-development around the exosome platform",
+        "Exchange on the feasibility of cell-free formulations for CNS delivery",
+        "Use of its Ph1/2a readout as the basis for a decision on the cell-free route",
+        "Exchange on potency and batch release methods, since exosomes and cells face the same class of analytical problem"
+      ],
+      "priorityWhy": "Watch rather than negotiate. Its first-in-human study only starts in 2026 and neither safety nor feasibility has an answer yet; talking technical collaboration before then means paying for an unvalidated hypothesis. The line is worth long-term tracking, though, because a working cell-free route would rewrite the cost structure of allogeneic cell therapy entirely.",
+      "sources": [
+        {
+          "label": "NurExone FY2025 results and corporate update, including 2026 first-in-human plans",
+          "url": "https://www.globenewswire.com/news-release/2026/04/16/3275467/0/en/nurexone-biologic-inc-announces-fourth-quarter-and-full-year-2025-financial-results-and-provides-corporate-update.html"
+        },
+        {
+          "label": "ExoPTEN product page",
+          "url": "https://nurexone.com/exopten/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mesoblast",
+    "market": "澳洲／美國 Australia/US",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "Ryoncil（remestemcel-L）是**首個獲 FDA 核准的 MSC 療法**（2024-12，兒童類固醇難治型 aGvHD），並取得七年孤兒藥獨占；2026-04 又獲 IND 許可直接進入 DMD 的樞紐試驗。它是整個異體 MSC 領域唯一走完 FDA 全程的資產。",
+    "whyNotRival": "適應症在 GvHD、發炎性腸道疾病與 DMD，與 SCA 無交集。它的價值全在先例——Ryoncil 的核准把「MSC 能不能拿到 FDA 藥證」這題從假設變成事實，其效價放行標準與 CMC 要求，就是後續所有異體 MSC 送件的參考點。",
+    "forms": [
+      "效價（potency）放行標準的方法論取經",
+      "FDA 對異體 MSC 之 CMC 期待的實例研究",
+      "孤兒藥獨占策略的參照（其七年獨占是實質競爭壁壘）",
+      "澳洲臨床與法規環境的接觸點"
+    ],
+    "priorityWhy": "情報價值遠大於合作價值，且大部分可從公開文件取得，不必動用關係。列在第二序是為了確保有人真的去把 Ryoncil 的審查文件讀完——那份文件對仲恩 CMC 策略的價值，高過多數新談的合作。",
+    "sources": [
+      {
+        "label": "FDA 核准首個間質基質細胞療法治療類固醇難治型 aGvHD",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-mesenchymal-stromal-cell-therapy-treat-steroid-refractory-acute-graft-versus-host"
+      },
+      {
+        "label": "Mesoblast 獲 FDA IND 許可直接進入 Ryoncil 的 DMD 樞紐試驗",
+        "url": "https://www.biospace.com/press-releases/mesoblast-receives-ind-clearance-from-fda-to-directly-proceed-to-registrational-trial-for-approval-of-ryoncil-in-duchenne-muscular-dystrophy"
+      }
+    ],
+    "en": {
+      "fit": "Ryoncil (remestemcel-L) is the first FDA-approved MSC therapy (December 2024, paediatric steroid-refractory aGvHD) and carries seven years of orphan exclusivity; in April 2026 it received IND clearance to proceed directly to a registrational trial in DMD. It is the only asset in the allogeneic MSC field to have completed the full FDA path.",
+      "whyNotRival": "Its indications are GvHD, inflammatory bowel disease and DMD, none of which intersect SCA. Its value is entirely precedent — Ryoncil's approval converted 'can an MSC obtain an FDA licence' from hypothesis to fact, and its potency release specifications and CMC requirements are now the reference point for every allogeneic MSC filing that follows.",
+      "forms": [
+        "Learning from its potency release specification methodology",
+        "A case study of FDA expectations for allogeneic MSC CMC",
+        "Its orphan exclusivity strategy as a reference, since seven years is a genuine competitive barrier",
+        "A point of contact with the Australian clinical and regulatory environment"
+      ],
+      "priorityWhy": "Intelligence value far exceeds partnership value, and most of it is obtainable from public documents without spending relationship capital. It is listed here mainly to ensure someone actually reads the Ryoncil review documentation through — that document is worth more to Steminent's CMC strategy than most new partnerships would be.",
+      "sources": [
+        {
+          "label": "FDA approves first mesenchymal stromal cell therapy for steroid-refractory aGvHD",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-mesenchymal-stromal-cell-therapy-treat-steroid-refractory-acute-graft-versus-host"
+        },
+        {
+          "label": "Mesoblast receives FDA IND clearance to proceed to a registrational Ryoncil trial in DMD",
+          "url": "https://www.biospace.com/press-releases/mesoblast-receives-ind-clearance-from-fda-to-directly-proceed-to-registrational-trial-for-approval-of-ryoncil-in-duchenne-muscular-dystrophy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "corestem",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": true,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "檔案上比 Medipost 更契合：自體骨髓 MSC，NeuroNata-R 是全球首個獲准的 ALS 幹細胞藥（2014），且**同時在做 MSA**——MSA 正是仲恩選題地圖裡列為「備一個」的鄰近適應症。機轉同源（MSC 神經保護），神經退化領域經驗完整。",
+    "whyNotRival": "適應症在 ALS 與 MSA，與 SCA 不重疊；自體 vs 異體的路線差異也讓兩者不爭同一套製造邏輯。若仲恩要往 MSA 擴，它是韓國最現成的臨床與法規夥伴，而非對手。",
+    "forms": [
+      "MSA 適應症的共同開發或授權評估",
+      "韓國 MFDS 對 MSC 神經退化適應症的審查經驗取經",
+      "若 SCM 授權收回，作為南韓替代夥伴的首選評估對象",
+      "神經退化 MSC 的效價與臨床終點方法論交流"
+    ],
+    "priorityWhy": "它在 vault 的合作夥伴掃描裡被評為「檔案上更契合但未在會議提及」——這個落差本身就值得處理。排第二序是因為受制於同一個前提：SCM 的南韓授權範圍未釐清前，任何 SCA 相關接觸都有合約風險；但 **MSA 適應症不在 SCM 授權範圍內**，這條路現在就走得通。",
+    "sources": [
+      {
+        "label": "Corestem NeuroNata-R：首個獲授權的 ALS 幹細胞療法",
+        "url": "https://biopharmadealmakers.nature.com/users/171693-corestem/posts/52565-first-licensed-stem-cell-therapy-for-als"
+      }
+    ],
+    "en": {
+      "fit": "On paper a better fit than Medipost: autologous bone marrow MSCs, with NeuroNata-R the world's first approved stem cell drug for ALS (2014), and an MSA programme running — MSA being the adjacent indication Steminent's own indication map flags as the one to hold in reserve. The mechanism is cognate (MSC neuroprotection) and its neurodegeneration experience is complete.",
+      "whyNotRival": "Its indications are ALS and MSA, neither overlapping SCA, and the autologous-versus-allogeneic split means the two do not compete within the same manufacturing logic. Should Steminent expand into MSA, this is the most ready-made Korean clinical and regulatory partner rather than a rival.",
+      "forms": [
+        "Assessment of co-development or licensing in MSA",
+        "Learning from its experience of MFDS review for MSCs in neurodegenerative indications",
+        "First candidate to evaluate as an alternative Korean partner should the SCM licence be reclaimed",
+        "Exchange on potency and clinical endpoint methodology for neurodegenerative MSCs"
+      ],
+      "priorityWhy": "Steminent's own partner scan rated it a better fit on paper than the company actually discussed in meetings — a gap worth addressing in itself. It sits at second priority because of the same precondition: until SCM's Korean licence scope is clear, any SCA-related contact carries contractual risk. But MSA falls outside that licence, so that route is open now.",
+      "sources": [
+        {
+          "label": "Corestem's NeuroNata-R, the first licensed stem cell therapy for ALS",
+          "url": "https://biopharmadealmakers.nature.com/users/171693-corestem/posts/52565-first-licensed-stem-cell-therapy-for-als"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cynata",
+    "market": "澳洲 Australia",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "Cymerus 平台以 iPSC 衍生 MSC，訴求是可規模化、批次一致——直接對應異體 MSC 最大的結構弱點：供體來源有限、批間變異大。仲恩若要把產能推到商業規模，供體策略遲早要面對這題。",
+    "whyNotRival": "適應症不在共濟失調，且它賣的是平台而非終端市場競爭。兩者的關係是「細胞來源策略」的替代選項，不是同一個病人族群的爭奪。",
+    "forms": [
+      "iPSC 衍生 MSC 的平台技術授權評估",
+      "供體策略長期路線圖的比較分析（原代 vs iPSC 衍生）",
+      "批次一致性方法論交流",
+      "澳洲臨床與 TGA 法規的接觸點"
+    ],
+    "priorityWhy": "是「三到五年後的問題」，但值得現在就把技術盡職調查做起來。原代脂肪 MSC 的供體限制在放量後才會咬人，屆時再研究平台轉換就太遲——而平台轉換本身是要重跑臨床的重大決定。",
+    "sources": [
+      {
+        "label": "Cynata Cymerus 平台",
+        "url": "https://www.cynata.com/"
+      }
+    ],
+    "en": {
+      "fit": "The Cymerus platform derives MSCs from iPSCs, promising scalability and batch consistency — aimed squarely at the structural weakness of allogeneic MSCs, namely limited donor supply and batch-to-batch variability. Any push to commercial-scale capacity eventually forces Steminent to confront its donor strategy.",
+      "whyNotRival": "Its indications are not in ataxia and it sells a platform rather than competing in an end market. The relationship is one of alternative cell-sourcing strategies, not a contest over the same patient population.",
+      "forms": [
+        "Assessment of licensing the iPSC-derived MSC platform",
+        "Comparative analysis of long-term sourcing strategy, primary versus iPSC-derived",
+        "Exchange on batch-consistency methodology",
+        "A point of contact with Australian clinical practice and TGA regulation"
+      ],
+      "priorityWhy": "A three-to-five-year question, but the technical due diligence is worth starting now. Donor limits on primary adipose MSCs only bite once volumes rise, and beginning to study a platform switch at that point is too late — a switch of this kind means repeating clinical work.",
+      "sources": [
+        {
+          "label": "Cynata's Cymerus platform",
+          "url": "https://www.cynata.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "brainstorm",
+    "market": "美國 USA",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "NurOwn 是自體 MSC-NTF（分泌神經營養因子的 MSC），MOA 為調節神經發炎＋神經保護——與 Stemchymal 的旁分泌論述幾乎是機制上的雙胞胎，且已取得 FDA 特別方案評估（SPA）。",
+    "whyNotRival": "適應症在 ALS，與 SCA 不重疊；自體路線也讓它在製造與定價邏輯上與仲恩不同賽道。它對仲恩最大的用處是**負面教訓**：機制相近的資產在 FDA 手上遭遇了什麼，是預判仲恩自己審查風險的最佳樣本。",
+    "forms": [
+      "FDA 對 MSC 類神經退化資產之審查意見的案例研究",
+      "神經營養因子分泌作為效價指標的方法論參考",
+      "美國 SPA 流程的經驗取經"
+    ],
+    "priorityWhy": "以研究對象而非合作對象處理即可。它的價值在於揭示 FDA 怎麼看「MSC 治神經退化」這個命題，而這些多半可從公開文件與其 SEC 申報取得。",
+    "sources": [
+      {
+        "label": "BrainStorm SEC 10-K FY2025",
+        "url": "https://www.sec.gov/Archives/edgar/data/1137883/000110465926037927/bcli-20251231x10k.htm"
+      }
+    ],
+    "en": {
+      "fit": "NurOwn is an autologous MSC-NTF product — MSCs engineered to secrete neurotrophic factors — with a mechanism of anti-neuroinflammation plus neuroprotection that is close to a mechanistic twin of Stemchymal's paracrine rationale, and it holds an FDA Special Protocol Assessment.",
+      "whyNotRival": "Its indication is ALS with no SCA overlap, and its autologous route puts it in a different lane on manufacturing and pricing logic. Its greatest use to Steminent is as a cautionary case: what happened to a mechanistically similar asset in the FDA's hands is the best available sample for anticipating Steminent's own review risk.",
+      "forms": [
+        "Case study of FDA review commentary on MSC-class neurodegeneration assets",
+        "Reference methodology for neurotrophic factor secretion as a potency measure",
+        "Learning from its US Special Protocol Assessment process"
+      ],
+      "priorityWhy": "Best handled as a research subject rather than a partner. Its value lies in revealing how the FDA views the proposition of MSCs in neurodegeneration, and most of that is obtainable from public filings.",
+      "sources": [
+        {
+          "label": "BrainStorm SEC 10-K FY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1137883/000110465926037927/bcli-20251231x10k.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "capricor",
+    "market": "美國 USA",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "Deramiocel（CAP-1002）走 FDA RMAT 路徑治 DMD，是罕病異體細胞治療取得加速審查資格的實作範例。仲恩已有美國孤兒藥資格，但 RMAT 是另一套機制，且對細胞治療特別相關。",
+    "whyNotRival": "適應症在 DMD，與 SCA 無交集，且不做中樞神經。純法規路徑的參照對象。",
+    "forms": [
+      "RMAT 資格申請的條件與時機評估",
+      "異體細胞治療在 FDA 加速路徑上的實例研究"
+    ],
+    "priorityWhy": "低優先，但有一個具體行動值得排進待辦：確認仲恩是否符合 RMAT 資格條件、以及申請時機。RMAT 帶來的與 FDA 早期密集互動，對單臂設計的試驗特別有價值。",
+    "sources": [
+      {
+        "label": "Capricor 官網",
+        "url": "https://capricor.com/"
+      }
+    ],
+    "en": {
+      "fit": "Deramiocel (CAP-1002) pursued the FDA's RMAT pathway in DMD, a worked example of an allogeneic cell therapy in a rare disease securing an accelerated designation. Steminent already holds US orphan designation, but RMAT is a separate mechanism and one especially relevant to cell therapies.",
+      "whyNotRival": "Its indication is DMD with no SCA intersection and no CNS work. Purely a regulatory-pathway reference.",
+      "forms": [
+        "Assessment of RMAT eligibility criteria and timing",
+        "Case study of allogeneic cell therapies on FDA accelerated pathways"
+      ],
+      "priorityWhy": "Low priority, but with one concrete action worth adding to the list: confirm whether Steminent meets RMAT criteria and when to apply. The intensive early FDA interaction RMAT brings is particularly valuable for a single-arm design.",
+      "sources": [
+        {
+          "label": "Capricor corporate site",
+          "url": "https://capricor.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "xintela",
+    "market": "瑞典 Sweden",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "歐洲少數自有 GMP 產能的異體 MSC 開發者，且其 integrin α10β1 標記篩選技術正對應異體 MSC 最被詬病的批次一致性問題。自建 ATMP 廠已獲瑞典藥品管理局製造許可。",
+    "whyNotRival": "適應症在膝關節炎與難癒性腿部潰瘍，與 SCA 完全不重疊。⚠️ 但要注意它 2026-06 股價僅約 US$0.02，屬財務困難——這使它同時是機會與風險：取得其 GMP 產能或標記篩選技術的成本遠低於自建，但往來前必須評估存續能力，且不宜把任何關鍵路徑綁在它身上。",
+    "forms": [
+      "標記篩選技術的授權或評估（解決批次一致性）",
+      "北歐 GMP 產能的機會型取得",
+      "⚠️ 任何合作前先做財務盡職調查"
+    ],
+    "priorityWhy": "機會型而非策略型。價值取決於它的財務走向，不是仲恩能控制的變數；建議列入觀察，若出現資產處分或重整再評估。現在投入談判資源不划算。",
+    "sources": [
+      {
+        "label": "Xintela GMP 廠獲准製造細胞治療產品",
+        "url": "https://xintela.se/en/mfn_news/xintelas-gmp-facility-approved-for-manufacturing-of-cell-therapy-products/"
+      },
+      {
+        "label": "Xintela 公司概況（含股價）",
+        "url": "https://pitchbook.com/profiles/company/60032-53"
+      }
+    ],
+    "en": {
+      "fit": "One of the few European allogeneic MSC developers with in-house GMP capacity, and its integrin α10β1 marker selection speaks to the batch-consistency criticism that dogs allogeneic MSCs. Its own ATMP facility is licensed by the Swedish Medical Products Agency.",
+      "whyNotRival": "Its indications are knee osteoarthritis and difficult-to-heal leg ulcers, with no SCA overlap. Note however that its share price sat near US$0.02 in June 2026, indicating financial distress — which makes it simultaneously an opportunity and a risk: acquiring its GMP capacity or selection technology would cost far less than building equivalent capability, but any engagement demands a solvency assessment and no critical path should depend on it.",
+      "forms": [
+        "Licensing or evaluating the marker selection technology to address batch consistency",
+        "Opportunistic acquisition of Nordic GMP capacity",
+        "A financial due diligence before any collaboration"
+      ],
+      "priorityWhy": "Opportunistic rather than strategic. Its value depends on a financial trajectory Steminent does not control; the sensible course is to watch and reassess if assets are divested or the company restructures. Committing negotiating resource now does not pay.",
+      "sources": [
+        {
+          "label": "Xintela's GMP facility approved for cell therapy manufacturing",
+          "url": "https://xintela.se/en/mfn_news/xintelas-gmp-facility-approved-for-manufacturing-of-cell-therapy-products/"
+        },
+        {
+          "label": "Xintela company profile including share price",
+          "url": "https://pitchbook.com/profiles/company/60032-53"
+        }
+      ]
+    }
+  },
+  {
+    "id": "miltenyi",
+    "market": "德國 Germany",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "德國唯一具規模的細胞治療 CDMO，700+ 批臨床細胞治療與 400+ 批臨床慢病毒載體。自動化封閉式製程壓的是人力與污染風險，與 Lonza 的規模路線互補而非重疊。",
+    "whyNotRival": "受託方，不開發自有療法；且已與平台上既有的 CHA Biotech（南韓）合作，在亞洲有現成接觸面。",
+    "forms": [
+      "歐洲臨床試驗用藥的委託製造（Histocell 之外的第二選項）",
+      "自動化封閉製程的評估",
+      "透過其 CHA Biotech 合作關係建立接觸"
+    ],
+    "priorityWhy": "歐洲產能已有 Histocell 這條成本更低的路，Miltenyi 是備案而非首選。列入名單是為了避免單一供應商依賴，不是現在要談。",
+    "sources": [
+      {
+        "label": "Miltenyi Bioindustry CDMO 服務",
+        "url": "https://www.miltenyibioindustry.com/en/"
+      }
+    ],
+    "en": {
+      "fit": "Germany's only cell therapy CDMO at scale, with over 700 clinical cell therapy batches and 400 clinical lentiviral vector batches. Its automated closed processing compresses labour and contamination risk, complementing rather than duplicating Lonza's scale play.",
+      "whyNotRival": "A contract manufacturer developing no therapies of its own, and already partnered with CHA Biotech of South Korea, giving it an existing Asian touchpoint.",
+      "forms": [
+        "Contract manufacture of European trial supply as a second option alongside Histocell",
+        "Evaluation of automated closed processing",
+        "Approach via its existing CHA Biotech relationship"
+      ],
+      "priorityWhy": "Histocell offers a cheaper route to European capacity, making Miltenyi a fallback rather than a first choice. It is on the list to avoid single-supplier dependence, not as a live negotiation.",
+      "sources": [
+        {
+          "label": "Miltenyi Bioindustry CDMO services",
+          "url": "https://www.miltenyibioindustry.com/en/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cellistic",
+    "market": "比利時 Belgium",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "全球首座 EMA 認證且符合 FDA 與 PMDA 規範的專建 iPSC 細胞治療 GMP 廠，也是 Catalent Gosselies 收攤後比利時剩下的細胞治療產能主力。",
+    "whyNotRival": "純受託製造。相關性目前是間接的——Stemchymal 是原代脂肪 MSC 不是 iPSC 衍生。",
+    "forms": [
+      "若日後轉向 iPSC 衍生 MSC，作為歐洲落點",
+      "一次同時滿足 EMA／FDA／PMDA 三地規範的製造安排"
+    ],
+    "priorityWhy": "與 Cynata 同一組決策——只有在供體策略轉向 iPSC 時才需要。現在納入追蹤即可。",
+    "sources": [
+      {
+        "label": "Cellistic 官網",
+        "url": "https://www.cellistic.com/"
+      }
+    ],
+    "en": {
+      "fit": "Home to the first purpose-built iPSC cell therapy GMP facility certified by the EMA and compliant with FDA and PMDA requirements, and the mainstay of Belgian cell therapy capacity now that Catalent's Gosselies site is winding down.",
+      "whyNotRival": "A pure contract manufacturer. Relevance is currently indirect, since Stemchymal is a primary adipose MSC rather than iPSC-derived.",
+      "forms": [
+        "A European landing site should the company move to iPSC-derived MSCs",
+        "A manufacturing arrangement satisfying EMA, FDA and PMDA requirements at once"
+      ],
+      "priorityWhy": "Part of the same decision as Cynata — relevant only if the sourcing strategy turns to iPSCs. Tracking is sufficient for now.",
+      "sources": [
+        {
+          "label": "Cellistic corporate site",
+          "url": "https://www.cellistic.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "stemcell-tech",
+    "market": "加拿大 Canada",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "上游起始材料供應。「研究級與 GMP 級可配對」解的是研發期用一種細胞、進臨床要換另一種、等於重跑製程驗證的老問題。與 CCRM 的合作也讓它與加拿大那條線相連。",
+    "whyNotRival": "試劑與材料供應商，不開發療法。",
+    "forms": [
+      "起始材料與試劑的 GMP 級供應",
+      "與 OmniaBio／CCRM 一併評估，作為北美方案的一部分"
+    ],
+    "priorityWhy": "附屬於 OmniaBio 那條線，不必獨立推進。若北美製造成案，這一項會自然被帶進來。",
+    "sources": [
+      {
+        "label": "STEMCELL Technologies 與 CCRM 合作供應配對 iPSC 品系",
+        "url": "https://www.businesswire.com/news/home/20260708212795/en/STEMCELL-Technologies-and-CCRM-Partner-to-Expand-Access-to-Matched-GMP-and-RUO-iPSC-Lines-for-Cell-Therapy-Development"
+      }
+    ],
+    "en": {
+      "fit": "Upstream starting-material supply. Matching research-grade to GMP-grade lines addresses the familiar problem of developing on one cell source and switching for the clinic, which forces process validation to be repeated. Its CCRM partnership also ties it to the Canadian route.",
+      "whyNotRival": "A reagents and materials supplier that develops no therapies.",
+      "forms": [
+        "GMP-grade supply of starting materials and reagents",
+        "Evaluate alongside OmniaBio and CCRM as part of a North American package"
+      ],
+      "priorityWhy": "Subordinate to the OmniaBio line and not worth advancing separately. If North American manufacturing proceeds, this comes with it.",
+      "sources": [
+        {
+          "label": "STEMCELL Technologies and CCRM partner on matched iPSC lines",
+          "url": "https://www.businesswire.com/news/home/20260708212795/en/STEMCELL-Technologies-and-CCRM-Partner-to-Expand-Access-to-Matched-GMP-and-RUO-iPSC-Lines-for-Cell-Therapy-Development"
+        }
+      ]
+    }
+  },
+  {
+    "id": "anthony-nolan",
+    "market": "英國 UK",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "異體細胞治療的最上游——捐贈者材料來源。它在 INmune Bio 案裡的角色說明：異體產品的長期供貨風險不在工廠，在材料取得權。",
+    "whyNotRival": "非營利登錄機構，不開發療法。但仲恩用的是脂肪組織來源，與臍帶組織供應鏈不同，直接適用性有限。",
+    "forms": [
+      "長期材料供應合約架構的參考（其 INmune Bio 案是現成範本）",
+      "若日後拓展至臍帶來源產品線，作為英歐美供應的接觸點"
+    ],
+    "priorityWhy": "以方法論參考為主，實質合作的必要性低。「先鎖定長期材料來源再談產能」這個順序值得借鏡，但對象未必是它。",
+    "sources": [
+      {
+        "label": "INmune Bio 與 Anthony Nolan 擴大合作",
+        "url": "https://www.inmunebio.com/index.php/newsroom/2026-news/muneioandnthonyolannnouncetrategicxpansionof20260505130503"
+      }
+    ],
+    "en": {
+      "fit": "The furthest upstream point in allogeneic cell therapy — donor material sourcing. Its role in the INmune Bio deal shows that long-term supply risk in an allogeneic product sits less in the factory than in the right to obtain material.",
+      "whyNotRival": "A non-profit registry developing no therapies. Steminent draws on adipose tissue rather than cord tissue, so direct applicability is limited.",
+      "forms": [
+        "Its INmune Bio agreement as a template for long-term material supply contracts",
+        "A UK/EU/US supply contact should a cord-derived line ever be added"
+      ],
+      "priorityWhy": "Chiefly a methodological reference; the case for a substantive partnership is weak. The sequencing lesson — secure long-term material rights before negotiating capacity — transfers even if the counterparty does not.",
+      "sources": [
+        {
+          "label": "INmune Bio and Anthony Nolan expand their collaboration",
+          "url": "https://www.inmunebio.com/index.php/newsroom/2026-news/muneioandnthonyolannnouncetrategicxpansionof20260505130503"
+        }
+      ]
+    }
+  },
+  {
+    "id": "catalent-gosselies",
+    "market": "比利時 Belgium",
+    "layer": "platform",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "不是夥伴候選。列在這裡是因為它是歐洲細胞治療產能正在退出的警訊：曾為全球最大商業級細胞治療廠之一，2026 因產量下滑決定收攤、影響約 150 人。",
+    "whyNotRival": "它與仲恩沒有競爭關係，但也不再是可依賴的供應選項。歐洲 CGT 的產能過剩與需求落差是真的——這對仲恩的意義雙面：找歐洲代工的議價空間變好，但要小心把供應綁在可能撤守的廠區。設備與人才短期內會流入市場。",
+    "forms": [
+      "不建議合作",
+      "作為歐洲產能佈局的風險參數：任何歐洲代工合約都應納入產能退場條款",
+      "留意其設備處分與人才流動帶來的機會"
+    ],
+    "priorityWhy": "以警訊而非機會處理。它的存在改變的是「歐洲代工要怎麼簽」這個問題的答案，而不是要不要跟它談。",
+    "sources": [
+      {
+        "label": "Catalent 收掉歐洲細胞治療製造樞紐",
+        "url": "https://www.fiercepharma.com/manufacturing/catalent-moves-wind-down-operations-eu-cell-therapy-manufacturing-hub"
+      }
+    ],
+    "en": {
+      "fit": "Not a partner candidate. It is listed because it signals that European cell therapy capacity is exiting: once among the world's largest commercial cell therapy plants, it moved to wind down in 2026 on declining volumes, affecting around 150 staff.",
+      "whyNotRival": "It does not compete with Steminent, but it is no longer a dependable supply option either. The overcapacity gap in European CGT is real, and the implication cuts both ways: bargaining power in European contract manufacturing improves, but tying supply to a site that may retreat carries its own risk. Equipment and talent will reach the market in the near term.",
+      "forms": [
+        "Collaboration not advised",
+        "Treat as a risk parameter for European capacity planning: any European contract should carry capacity-exit provisions",
+        "Watch for opportunities arising from asset disposal and talent movement"
+      ],
+      "priorityWhy": "Handle as a warning rather than an opportunity. What it changes is the answer to how a European manufacturing contract should be written, not whether to approach this counterparty.",
+      "sources": [
+        {
+          "label": "Catalent moves to wind down operations at EU cell therapy hub",
+          "url": "https://www.fiercepharma.com/manufacturing/catalent-moves-wind-down-operations-eu-cell-therapy-manufacturing-hub"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tbt-taiwan",
+    "market": "台灣 Taiwan",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "台灣 CGT CDMO 代表業者之一，路線是靠跨國合作把本土產能接上國際客戶。與樂迦同屬本土產能選項，差別在台寶較早走國際代工。",
+    "whyNotRival": "受託製造，不開發自有適應症。",
+    "forms": [
+      "本土產能的第三選項評估",
+      "其跨國代工經驗對接國際客戶的做法可供參考"
+    ],
+    "priorityWhy": "與樂迦擇一評估即可，不必同時推進兩家。列入名單是為了讓本土產能有比較基準。",
+    "sources": [
+      {
+        "label": "台寶生醫公司介紹（環球生技）",
+        "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=950"
+      }
+    ],
+    "en": {
+      "fit": "One of Taiwan's representative CGT CDMOs, connecting local capacity to international clients through cross-border partnerships. Like Leica it is a domestic capacity option, differing in having moved earlier into international contract work.",
+      "whyNotRival": "A contract manufacturer pursuing no indications of its own.",
+      "forms": [
+        "Evaluation as a third domestic capacity option",
+        "Its approach to winning international contract work as a reference"
+      ],
+      "priorityWhy": "Evaluate either this or Leica rather than pursuing both. It is on the list to give domestic capacity a comparison point.",
+      "sources": [
+        {
+          "label": "Taiwan Bio Therapeutics company profile (GBI Monthly)",
+          "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=950"
+        }
+      ]
+    }
+  },
+  {
+    "id": "everfront",
+    "market": "台灣 Taiwan",
+    "layer": "therapeutic",
+    "stance": "both",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "被法人點名為《再生醫療法》首波暫時性藥證的主要角逐者之一。與仲恩的交集不在適應症而在**法規賽道**：首批取證者會定義審查標準與定價錨點。",
+    "whyNotRival": "適應症不重疊，但同賽道搶證。這種重疊多半靠協調（共同面對主管機關）比對抗划算。",
+    "forms": [
+      "台灣再生醫療產業的共同法規倡議",
+      "暫時性藥證審查標準與定價錨點的觀察",
+      "細胞製劑查廠與放行標準的經驗交換"
+    ],
+    "priorityWhy": "以觀察為主。2026 是台灣再生醫療元年，前幾家的取證過程本身就是最有價值的情報，不必透過合作取得。",
+    "sources": [
+      {
+        "label": "再生醫療法上路倒數：法人點將長聖、向榮等 5 家",
+        "url": "https://www.ctee.com.tw/news/20251220700017-430504"
+      }
+    ],
+    "en": {
+      "fit": "Named by analysts as a leading contender for the first conditional approvals under Taiwan's Regenerative Medicine Act. Its intersection with Steminent is not indication but regulatory lane: the first approvals will set the review standard and the pricing anchor.",
+      "whyNotRival": "No indication overlap, but a race for approval in the same lane — an overlap usually cheaper to coordinate around, by presenting a common front to the regulator, than to fight.",
+      "forms": [
+        "Joint regulatory advocacy for Taiwan's regenerative medicine industry",
+        "Observation of conditional-approval review standards and pricing anchors",
+        "Exchange on inspection and release standards for cell products"
+      ],
+      "priorityWhy": "Primarily an observation target. With 2026 the first year of Taiwan's regenerative medicine regime, the approval process of the first few companies is itself the most valuable intelligence, and obtaining it does not require a partnership.",
+      "sources": [
+        {
+          "label": "Analysts name five contenders for Taiwan's first conditional approvals",
+          "url": "https://www.ctee.com.tw/news/20251220700017-430504"
+        }
+      ]
+    }
+  },
+  {
+    "id": "unicocell",
+    "market": "台灣 Taiwan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "台灣少數同時做細胞本體與分泌物（secretome）的業者，2026-04 取得細胞分泌物功效檢測平台的台灣發明專利。分泌物路線與 Stemchymal 的旁分泌機轉論述同源。",
+    "whyNotRival": "適應症在慢性腎臟病，與 SCA 無交集。若仲恩要往無細胞的次世代產品走，這是在地最接近的參照與潛在技術夥伴。",
+    "forms": [
+      "分泌物功效檢測方法的技術交流（效價指標是仲恩自己也要解的題）",
+      "無細胞路線的在地技術合作評估"
+    ],
+    "priorityWhy": "與 NurExone 同一組決策——次世代路線的選項之一，現在只需納入追蹤。但其功效檢測平台值得單獨關注：效價指標是異體 MSC 送件時的共同難題，不必等到轉向無細胞才有用。",
+    "sources": [
+      {
+        "label": "向榮生技新聞中心",
+        "url": "https://www.unicocell.com/news"
+      }
+    ],
+    "en": {
+      "fit": "One of the few Taiwanese companies working on both cells and their secretome, with a Taiwanese invention patent granted in April 2026 for a secretome potency assay platform. The secretome route shares its rationale with Stemchymal's paracrine mechanism.",
+      "whyNotRival": "Its indication is chronic kidney disease with no SCA intersection. Should Steminent pursue a cell-free next generation, this is the closest local reference and a potential technology partner.",
+      "forms": [
+        "Technical exchange on secretome potency assay methods, a problem Steminent must solve for itself",
+        "Assessment of local technical collaboration on a cell-free route"
+      ],
+      "priorityWhy": "Part of the same decision as NurExone — one option for a next-generation route, needing only tracking for now. Its potency assay platform deserves separate attention though: potency measurement is a shared difficulty for allogeneic MSC filings and useful well before any move to cell-free.",
+      "sources": [
+        {
+          "label": "UnicoCell newsroom",
+          "url": "https://www.unicocell.com/news"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sclnow",
+    "market": "中國 China",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "沒有互補面。19#iSCLife®-SA 是異體臍帶 MSC、靜脈輸注併鞘內注射，適應症涵蓋 SCA1／2／3／6——**與 Stemchymal 幾乎完全重疊**，連 SCA1 都包含在內（而仲恩的日本首張藥證不含 SCA1）。",
+    "whyNotRival": "這一筆的答案是反過來的：它就是對手，而且是細胞治療賽道上最正面的那一個。它的存在推翻了「細胞治療賽道幾乎全空」這個曾經成立的判斷——選題地圖若仍建立在該假設上，需要重寫。",
+    "forms": [
+      "不適用合作",
+      "監測重點：登錄之預估開始日 2026-12-31、主要完成 2027-06-30、預估收案 45 人",
+      "若中國先出療效數據，將直接影響 SCA 細胞治療的敘事主導權，須預先備妥差異化說法（異體脂肪 vs 臍帶、靜脈 vs 鞘內、既有 Ph2 對照數據）"
+    ],
+    "priorityWhy": "優先序 2 指的是**監測**優先序而非合作優先序。它尚未收案、威脅是未來式，但仲恩最大的資產是「全賽道唯一有 Ph2 對照證據」，一旦對手也拿出數據，這個護城河就會變窄。",
+    "sources": [
+      {
+        "label": "NCT03378414（Sclnow，Ph2，n=45，SCA1/2/3/6）",
+        "url": "https://clinicaltrials.gov/study/NCT03378414"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. 19#iSCLife®-SA is an allogeneic cord MSC given by intravenous infusion with intrathecal injection, covering SCA1, 2, 3 and 6 — almost entirely overlapping Stemchymal, including SCA1, which Steminent's first Japanese approval does not cover.",
+      "whyNotRival": "Here the answer runs the other way: it is a rival, and the most direct one within the cell therapy lane. Its existence overturns the once-valid judgement that the cell therapy lane is essentially empty, and any indication map still resting on that assumption needs rewriting.",
+      "forms": [
+        "Collaboration not applicable",
+        "Monitoring priorities: registered estimated start 31 Dec 2026, primary completion 30 Jun 2027, estimated enrolment 45",
+        "If Chinese efficacy data emerges first it will shift narrative control in SCA cell therapy, so differentiating arguments should be prepared in advance — allogeneic adipose versus cord, intravenous versus intrathecal, and existing controlled Ph2 evidence"
+      ],
+      "priorityWhy": "Second priority here means monitoring priority, not partnership priority. It has not begun enrolling and the threat is prospective, but Steminent's greatest asset is being the only controlled Phase 2 evidence in the field — and that moat narrows the moment a rival produces data of its own.",
+      "sources": [
+        {
+          "label": "NCT03378414 (Sclnow, Ph2, n=45, SCA1/2/3/6)",
+          "url": "https://clinicaltrials.gov/study/NCT03378414"
+        }
+      ]
+    }
+  },
+  {
+    "id": "biocells",
+    "market": "波蘭 Poland",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "沒有互補面，而且是最容易被漏掉的一個——CT.gov 登錄名稱寫的是 spinocerebellar palsy 而非 ataxia，一般關鍵字掃描會直接錯過。",
+    "whyNotRival": "細胞治療賽道的第三個玩家。三點值得注意：預估收案 90 人，比仲恩美國 Ph2（n≈20）大得多；同時給細胞與外泌體，等於把「活細胞 vs 無細胞」押在同一個試驗；採鞘內＋鼻內給藥，直接挑戰中樞遞送這個 SCA 領域反覆致命的環節。",
+    "forms": [
+      "不適用合作",
+      "監測重點：2026-06 起、主要完成 2028-06、站點華沙",
+      "其鼻內給藥若證明可行，會直接衝擊仲恩靜脈給藥的論述基礎"
+    ],
+    "priorityWhy": "它的發現本身就說明每日掃描有盲點：只掃 spinocerebellar ataxia 關鍵字會漏掉用其他病名登錄的試驗。建議把掃描條件擴充到 spinocerebellar palsy 等替代寫法。",
+    "sources": [
+      {
+        "label": "NCT07467733（Biocells Medical，Ph1/2，n=90，鞘內＋鼻內）",
+        "url": "https://clinicaltrials.gov/study/NCT07467733"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity, and the easiest entrant to miss — the registry lists the condition as spinocerebellar palsy rather than ataxia, so a routine keyword scan passes straight over it.",
+      "whyNotRival": "The third player in the cell therapy lane. Three points stand out: estimated enrolment of 90 is far larger than Steminent's US Phase 2 at roughly 20; it gives cells and exosomes together, betting on live-cell and cell-free within a single trial; and it uses intrathecal plus intranasal delivery, taking direct aim at the CNS delivery step that has repeatedly proved fatal in this field.",
+      "forms": [
+        "Collaboration not applicable",
+        "Monitoring priorities: start June 2026, primary completion June 2028, site in Warsaw",
+        "If its intranasal route proves feasible it undercuts the rationale for intravenous delivery"
+      ],
+      "priorityWhy": "Finding it at all exposes a blind spot in the daily scan: screening only on 'spinocerebellar ataxia' misses trials registered under other disease names. The scan criteria should be widened to include variants such as spinocerebellar palsy.",
+      "sources": [
+        {
+          "label": "NCT07467733 (Biocells Medical, Ph1/2, n=90, intrathecal plus intranasal)",
+          "url": "https://clinicaltrials.gov/study/NCT07467733"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vico",
+    "market": "荷蘭 Netherlands",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "機制上無互補空間：VO659 是 allele-preferential ASO，直接瞄準擴增的 CAG 重複本身，一藥可跨 HD／SCA1／SCA3。它打的是因，仲恩打的是果。",
+    "whyNotRival": "三個競品裡唯一還活著的，且與仲恩爭同一批 SCA1／SCA3 病人。但它至今零 SCA 療效數據（全從 HD 外推），且面對與 BIIB132 相同的深部小腦／腦幹交付天花板。競爭故事的核心是：VO659 打得到因但送不到，Stemchymal 送得到但打的是果。",
+    "forms": [
+      "不適用合作",
+      "監測重點：SCA1／SCA3 首次生物標記讀出（估 2026–27）是關鍵催化劑",
+      "其 radiculitis 安全訊號值得持續追蹤"
+    ],
+    "priorityWhy": "威脅是未來式但催化劑明確。它若讀出正面，「上游沉默」的敘事會壓過「廣效神經保護」；若讀出失敗或安全訊號惡化，細胞治療的交付論述會強化。兩種結果都需要預備說法。",
+    "sources": [
+      {
+        "label": "Vico Therapeutics",
+        "url": "https://vicotx.com/"
+      }
+    ],
+    "en": {
+      "fit": "No mechanistic room for complementarity: VO659 is an allele-preferential ASO aimed at the expanded CAG repeat itself, applicable across HD, SCA1 and SCA3. It addresses the cause where Steminent addresses the consequence.",
+      "whyNotRival": "The only one of the three principal rivals still alive, and it competes for the same SCA1 and SCA3 patients. Yet it has no SCA efficacy data at all, extrapolating entirely from HD, and faces the same deep cerebellar and brainstem delivery ceiling that killed BIIB132. The competitive story reduces to this: VO659 hits the cause but cannot reach the tissue; Stemchymal reaches the tissue but addresses the consequence.",
+      "forms": [
+        "Collaboration not applicable",
+        "Monitoring priority: the first SCA1/SCA3 biomarker readout, expected 2026–27, is the key catalyst",
+        "Its radiculitis safety signal warrants continued tracking"
+      ],
+      "priorityWhy": "The threat is prospective but the catalyst is well defined. A positive readout would let the upstream-silencing narrative override broad neuroprotection; a failure or worsening safety signal would strengthen the delivery argument for cell therapy. Both outcomes need a prepared response.",
+      "sources": [
+        {
+          "label": "Vico Therapeutics",
+          "url": "https://vicotx.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "biohaven",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "無互補面。Troriluzole 兩個隨機對照試驗都沒過主要終點，改用回溯式外部對照 RWE 送 NDA，FDA 於 2025-11-04 發出完全回應信駁回。",
+    "whyNotRival": "對手，但已是敗戰對手。它對仲恩的價值幾乎全是**負面教訓**：不要把 RWE／外部對照當主要核准依據（FDA 已連續駁回多個外部對照罕病案）；SCA3 次群組雖有名目訊號但撐不起藥證；疾病太慢加上藥效太弱，換更靈敏的量表也救不回來。",
+    "forms": [
+      "不適用合作",
+      "作為外部對照策略的反面教材——這一點與 DZNE/ESMI 那條線直接相關：仲恩用外部對照必須做得比它嚴謹"
+    ],
+    "priorityWhy": "低優先，情報已充分（vault 已有 17 頁競品解剖）。維持追蹤即可。",
+    "sources": [
+      {
+        "label": "Biohaven",
+        "url": "https://www.biohaven.com/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. Both randomised trials of troriluzole missed their primary endpoint; the company switched to a retrospective externally controlled RWE filing and received an FDA complete response letter on 4 November 2025.",
+      "whyNotRival": "A rival, but a defeated one. Its value to Steminent is almost entirely cautionary: do not rest an approval on RWE or external controls, since the FDA has rejected a run of externally controlled rare disease filings; a nominal SCA3 subgroup signal will not carry a licence; and where the disease is slow and the effect weak, a more sensitive scale does not rescue the result.",
+      "forms": [
+        "Collaboration not applicable",
+        "A counter-example for external control strategy — which bears directly on the DZNE/ESMI route: if Steminent uses an external control it must be done more rigorously than this"
+      ],
+      "priorityWhy": "Low priority with intelligence already sufficient, given the seventeen-page competitor teardown already on file. Continued tracking is enough.",
+      "sources": [
+        {
+          "label": "Biohaven",
+          "url": "https://www.biohaven.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "arrowhead",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "無互補面。ARO-ATXN2 是 siRNA（非基因療法），鞘內沉默 ATXN2 治 SCA2，2026 年中已收滿 39 人、停止收案。",
+    "whyNotRival": "上游 gene-silencing 對手，且**在台北榮總設站**——這正是仲恩避開台灣 SCA2 的原因（站點被卡）。適應症在 SCA2，與仲恩主力 SCA3 錯開，屬部分競爭。",
+    "forms": [
+      "不適用合作",
+      "監測重點：其讀出將是 polyQ siRNA 路線的第一個實質答案",
+      "若未來要碰 SCA2，須有差異化說法並避開台灣站點"
+    ],
+    "priorityWhy": "低優先。SCA2 目前不在仲恩的主力選題（選題地圖建議「緩」），且台灣站點已被佔。",
+    "sources": [
+      {
+        "label": "NCT06672445",
+        "url": "https://clinicaltrials.gov/study/NCT06672445"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. ARO-ATXN2 is an siRNA rather than a gene therapy, silencing ATXN2 intrathecally in SCA2, and it had completed enrolment of 39 patients by mid-2026.",
+      "whyNotRival": "An upstream gene-silencing rival, and one with a site at Taipei Veterans General Hospital — the reason Steminent steers clear of SCA2 in Taiwan, since the site is taken. Its indication is SCA2, offset from Steminent's focus on SCA3, making this partial competition.",
+      "forms": [
+        "Collaboration not applicable",
+        "Monitoring priority: its readout will be the first substantive answer on the polyQ siRNA route",
+        "Any future move into SCA2 needs a differentiated rationale and must avoid Taiwanese sites"
+      ],
+      "priorityWhy": "Low priority. SCA2 is not among Steminent's focus indications — its own map advises holding back — and the Taiwanese site is already occupied.",
+      "sources": [
+        {
+          "label": "NCT06672445",
+          "url": "https://clinicaltrials.gov/study/NCT06672445"
+        }
+      ]
+    }
+  },
+  {
+    "id": "biogen-ionis",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "both",
+    "alsoMSA": true,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "曾被視為理想買家，但**現實檢查是不利的**：Biogen 2023 主動放棄自家 SCA3 ASO（BIIB132）、把多個 ASO 退還 Ionis、幾乎零細胞治療布局，且展現併購紀律。它已在 ataxia 領域——但是 Friedreich's、用小分子 SKYCLARYS（併 Reata 取得），不是 SCA3／基因／細胞。",
+    "whyNotRival": "對「早期異體 MSC」它是**弱買家**。但有一個新訊號值得注意：它與 Synapticure 合作支持 ataxia 病人衛教——一家剛放棄自家 SCA3 資產的公司，仍在維持與病人社群的接觸點。這說明它沒有完全退出這個領域，只是換了成本更低的參與方式。",
+    "forms": [
+      "不適合作為現階段的授權或併購對象（要它有興趣得夠晚期、夠去風險）",
+      "透過 Synapticure 這條共同通路建立間接接觸面",
+      "其 NfL 生物標記與 SARA 應用經驗是可參照的標竿"
+    ],
+    "priorityWhy": "低優先，但建議調整期待：把它從「理想買家」重新定位為「領域標竿與間接接觸對象」。持續把它當買家經營會錯配資源。",
+    "sources": [
+      {
+        "label": "Synapticure 與 Biogen 合作支持 ataxia 衛教",
+        "url": "https://www.prnewswire.com/news-releases/synapticure-launches-groundbreaking-ataxia-care-program-expanding-access-to-specialized-neurology-nationwide-302826696.html"
+      }
+    ],
+    "en": {
+      "fit": "Long viewed as the ideal acquirer, but the reality check is unfavourable: Biogen abandoned its own SCA3 ASO (BIIB132) in 2023, returned several ASOs to Ionis, holds almost no cell therapy footprint and has shown acquisition discipline. It is already in ataxia — but in Friedreich's, with the small molecule SKYCLARYS obtained by acquiring Reata, not in SCA3, genetics or cells.",
+      "whyNotRival": "For an early-stage allogeneic MSC it is a weak buyer. One new signal is worth noting though: it partnered with Synapticure to support ataxia patient education — a company that dropped its own SCA3 asset yet still maintains a touchpoint with the patient community. It has not left the field, merely switched to a cheaper form of participation.",
+      "forms": [
+        "Not a suitable licensing or acquisition counterparty at this stage; interest would require a later-stage, de-risked asset",
+        "Build indirect contact through the shared Synapticure channel",
+        "Its NfL biomarker and SARA experience is a useful benchmark"
+      ],
+      "priorityWhy": "Low priority, but expectations should be reset: reposition it from ideal buyer to field benchmark and indirect contact. Continuing to court it as an acquirer misallocates effort.",
+      "sources": [
+        {
+          "label": "Synapticure partners with Biogen on ataxia education",
+          "url": "https://www.prnewswire.com/news-releases/synapticure-launches-groundbreaking-ataxia-care-program-expanding-access-to-specialized-neurology-nationwide-302826696.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "denali",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": true,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "與 MSA 的關聯是機轉相鄰而非直接競爭：MSA 與帕金森同屬 α-synuclein 病變，但 MSA 病灶在寡突膠細胞、帕金森在神經元，靶細胞不同，藥物未必跨得過去。",
+    "whyNotRival": "目前仍在 IND-enabling、主打帕金森，短期不構成威脅。真正該盯的是 TransportVehicle 血腦障壁平台——若 CNS 遞送被解決，整個「打得到標的但送不進去」的失敗類別（BIIB132、VO659 都死在這）會被重新洗牌，而那正是細胞治療目前的相對優勢所在。",
+    "forms": [
+      "不適用合作",
+      "監測重點：TV 平台的臨床驗證進度，而非 DNL422 本身"
+    ],
+    "priorityWhy": "低優先但**監測角度要對**：重點不是它會不會做 MSA，而是血腦障壁遞送這個結構性瓶頸會不會被別人解掉。",
+    "sources": [
+      {
+        "label": "Denali 2025 里程碑與優先事項",
+        "url": "https://investors.denalitherapeutics.com/news-releases/news-release-details/denali-therapeutics-announces-key-anticipated-2025-milestones"
+      }
+    ],
+    "en": {
+      "fit": "Its link to MSA is mechanistic adjacency rather than direct competition: MSA and Parkinson's are both synucleinopathies, but MSA pathology sits in oligodendrocytes and Parkinson's in neurons, so a drug does not necessarily carry across.",
+      "whyNotRival": "Still IND-enabling and aimed at Parkinson's, so no near-term threat. What deserves attention is the TransportVehicle blood-brain-barrier platform — if CNS delivery is genuinely solved, the entire failure category of drugs that engage a target but cannot reach it (where BIIB132 and VO659 both died) gets reshuffled, and that is precisely where cell therapy's relative advantage currently lies.",
+      "forms": [
+        "Collaboration not applicable",
+        "Monitoring priority: clinical validation of the TV platform rather than DNL422 itself"
+      ],
+      "priorityWhy": "Low priority, but the monitoring angle matters: the question is not whether it enters MSA but whether someone else solves the structural bottleneck of blood-brain-barrier delivery.",
+      "sources": [
+        {
+          "label": "Denali's anticipated milestones and priorities",
+          "url": "https://investors.denalitherapeutics.com/news-releases/news-release-details/denali-therapeutics-announces-key-anticipated-2025-milestones"
+        }
+      ]
+    }
+  },
+  {
+    "id": "servier",
+    "market": "法國 France",
+    "layer": "rival",
+    "stance": "both",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "它沒有公開的 SCA 在研藥物，卻已在 SCA3 卡位——用最便宜的方式：資助 ESMI 世代追蹤，換取定義試驗終點所需的基準資料。這種佈局方式本身就值得學。",
+    "whyNotRival": "兩面都成立。它目前不是產品競爭對手（無公開資產），但握有 SCA3 世代資料的近用權，若日後推出資產，起跑點會比別人前面。另一方面，它是**歐洲 SCA3 網絡的現成入口**——同一條 ESMI 線，仲恩也走得通。",
+    "forms": [
+      "不建議直接接觸（資訊不對稱對我方不利）",
+      "改從 ESMI／DZNE 端切入同一個網絡",
+      "其「資助世代換資料近用」的模式值得複製"
+    ],
+    "priorityWhy": "⚠️ 但必須先查證現況：該合作是 2022-03-18 公告、為期三年，推算應已屆滿，現況未公開。**在確認 Servier 是否仍在 SCA3 佈局之前，不宜據此做任何策略判斷。** 這是本輪掃描中最需要補查的一筆。",
+    "sources": [
+      {
+        "label": "DZNE：ESMI 與 Servier 的學術－產業合作（2022-03-18）",
+        "url": "https://www.dzne.de/en/news/press-releases/press/european-partnership-between-academia-and-pharma-to-study-sca3-ataxia/"
+      }
+    ],
+    "en": {
+      "fit": "It has no disclosed SCA candidate yet has already staked a position in SCA3 by the cheapest available route — funding ESMI cohort follow-up in exchange for the baseline data needed to define trial endpoints. The manoeuvre itself is worth learning from.",
+      "whyNotRival": "Both readings hold. It is not a product competitor today, having no disclosed asset, but it holds access to SCA3 cohort data and would start ahead of others should it later field a candidate. Equally, it is a ready-made entrance to Europe's SCA3 network — the same ESMI route is open to Steminent.",
+      "forms": [
+        "Direct contact not advised, as the information asymmetry runs against us",
+        "Approach the same network through ESMI and DZNE instead",
+        "Its model of funding a cohort in exchange for data access is worth replicating"
+      ],
+      "priorityWhy": "The current status must be verified first: the agreement was announced on 18 March 2022 for a three-year term, which has likely expired, with no public update. Until it is confirmed whether Servier is still positioned in SCA3, no strategic conclusion should be drawn from this. It is the single most important verification gap from this scan.",
+      "sources": [
+        {
+          "label": "DZNE: ESMI and Servier academia-industry partnership (18 Mar 2022)",
+          "url": "https://www.dzne.de/en/news/press-releases/press/european-partnership-between-academia-and-pharma-to-study-sca3-ataxia/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "annji",
+    "market": "台灣 Taiwan",
+    "layer": "therapeutic",
+    "stance": "both",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "台灣本土的 polyQ 玩家。臨床目前僅在 SBMA（甘迺迪症），但 FDA 孤兒藥資格已涵蓋 HD 與 SCA——是最可能從鄰近適應症切入 SCA 的在地公司。美國權利已授權 Avenue Therapeutics。",
+    "whyNotRival": "機轉不同（小分子降解突變雄性素受體 vs MSC 旁分泌），適應症目前不重疊，但孤兒藥資格重疊意味著未來可能對撞。同時它已完成一次台灣公司把資產授權給美國公司的交易，這個路徑經驗對仲恩有參考價值。另一個現成的教訓：它與被授權方 Avenue 的爭議（授權金上限 2.5 億美元）顯示，**把單一市場的權利獨家授權出去後，開發節奏就不再由自己掌握**——這與仲恩在南韓面對 SCM 停擺的處境是同一類問題。",
+    "forms": [
+      "polyQ 領域的台灣本土協作（臨床站點、病人登錄、神經科網絡）",
+      "其美國授權交易架構的經驗參考",
+      "留意其是否啟動 SCA 適應症——那將改變彼此關係的性質"
+    ],
+    "priorityWhy": "低優先但要盯著孤兒藥資格那條線。它若真的把 SCA 納入臨床，台灣本土會出現第二個 SCA 玩家，選題與法規策略都要重算。",
+    "sources": [
+      {
+        "label": "安基生技",
+        "url": "https://www.ajpharm.com/"
+      },
+      {
+        "label": "環球生技：Avenue 聲請禁制令阻 AJ201 解盲",
+        "url": "https://news.gbimonthly.com/tw/article/show.php?num=75222"
+      }
+    ],
+    "en": {
+      "fit": "Taiwan's home-grown polyQ player. Its clinical work is confined to SBMA, but its FDA orphan designation already covers HD and SCA, making it the local company most likely to enter SCA from an adjacent indication. US rights are licensed to Avenue Therapeutics.",
+      "whyNotRival": "A different mechanism (a small molecule degrading the mutant androgen receptor versus MSC paracrine action) and no current indication overlap, though overlapping orphan designations imply possible future collision. It has also completed a licensing deal taking a Taiwanese asset to a US company, and that path experience has reference value. A ready-made lesson also sits here: its dispute with licensee Avenue over a licence worth up to US$250M shows that once exclusive rights to a market are granted, development pace is no longer yours to set — the same class of problem Steminent faces with the stalled SCM licence in South Korea.",
+      "forms": [
+        "Domestic collaboration in polyQ across clinical sites, patient registries and neurologist networks",
+        "Its US licensing deal structure as a reference",
+        "Watch for any move to open an SCA indication, which would change the nature of the relationship"
+      ],
+      "priorityWhy": "Low priority, but the orphan designation deserves watching. Should it genuinely take SCA into the clinic, Taiwan gains a second SCA player and both indication and regulatory strategy need recalculating.",
+      "sources": [
+        {
+          "label": "AnnJi Pharmaceutical",
+          "url": "https://www.ajpharm.com/"
+        },
+        {
+          "label": "GBI Monthly: Avenue seeks injunction over AJ201 unblinding",
+          "url": "https://news.gbimonthly.com/tw/article/show.php?num=75222"
+        }
+      ]
+    }
+  },
+  {
+    "id": "healios",
+    "market": "日本 Japan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "日本 PMDA 再生醫療架構下的法規先行者，體細胞與 iPSC 兩條線都有。仲恩正在日本審查中（受理起九個月），對「PMDA 怎麼看再生醫療產品」的實務理解愈多愈好。",
+    "whyNotRival": "適應症不重疊，且它的價值主要在法規路徑而非市場競爭。",
+    "forms": [
+      "日本條件及期限付承認制度的實務經驗參考",
+      "PMDA 審查互動的做法交流"
+    ],
+    "priorityWhy": "低優先，且多數資訊可從公開資料與 REPROCELL 取得，不必另闢管道。",
+    "sources": [
+      {
+        "label": "Healios",
+        "url": "https://www.healios.co.jp/en/"
+      }
+    ],
+    "en": {
+      "fit": "A regulatory pioneer within Japan's PMDA regenerative medicine framework, running both somatic and iPSC lines. With Steminent's own file under Japanese review on a nine-month clock, practical understanding of how the PMDA treats regenerative products is worth accumulating.",
+      "whyNotRival": "No indication overlap, and its value lies in regulatory pathway rather than market competition.",
+      "forms": [
+        "Reference experience with Japan's conditional and time-limited approval system",
+        "Exchange on approaches to PMDA review interaction"
+      ],
+      "priorityWhy": "Low priority, and most of the information is available publicly or through REPROCELL without opening a separate channel.",
+      "sources": [
+        {
+          "label": "Healios",
+          "url": "https://www.healios.co.jp/en/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "encell",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "異體 MSC 加上細胞／基因 CDMO 業務的雙重身分，EN001 針對罕見神經肌肉疾病（CMT、DMD）——罕見神經疾病＋異體 MSC，與仲恩的組合最接近。",
+    "whyNotRival": "適應症在神經肌肉而非小腦，不爭同一批病人；且其 CDMO 業務讓它同時可能是產能夥伴而非純競爭者。",
+    "forms": [
+      "南韓的異體 MSC 罕病開發經驗交流",
+      "其 CDMO 產能作為南韓在地製造選項",
+      "若 SCM 授權收回，與 Corestem 並列為替代夥伴候選"
+    ],
+    "priorityWhy": "低優先，且同樣受制於 SCM 授權未釐清。列入名單是為了讓韓國替代方案不只有一個選項。",
+    "sources": [
+      {
+        "label": "ENCell",
+        "url": "https://www.encellinc.com/"
+      }
+    ],
+    "en": {
+      "fit": "A dual identity as an allogeneic MSC developer and a cell and gene CDMO, with EN001 aimed at rare neuromuscular diseases including CMT and DMD — rare neurological disease plus allogeneic MSC, the closest combination to Steminent's own.",
+      "whyNotRival": "Its indications are neuromuscular rather than cerebellar, so no contest over the same patients, and its CDMO arm means it could be a capacity partner rather than purely a competitor.",
+      "forms": [
+        "Exchange on Korean experience developing allogeneic MSCs for rare disease",
+        "Its CDMO capacity as a local Korean manufacturing option",
+        "Alongside Corestem as an alternative partner candidate should the SCM licence be reclaimed"
+      ],
+      "priorityWhy": "Low priority and equally constrained by the unresolved SCM licence. It is listed to ensure the Korean fallback is not a single option.",
+      "sources": [
+        {
+          "label": "ENCell",
+          "url": "https://www.encellinc.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cha-biotech",
+    "market": "南韓 South Korea",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "全球細胞製造、臍帶血銀行與 CDMO 基礎設施，且已與 Miltenyi Biotec（德國）合作 BaEV 慢病毒載體平台——是少數同時連結亞洲與歐洲製造網絡的韓國業者。",
+    "whyNotRival": "以基礎設施與受託服務為主，不與 Stemchymal 爭適應症。",
+    "forms": [
+      "南韓在地製造選項",
+      "透過其 Miltenyi 合作關係間接連結歐洲產能網絡"
+    ],
+    "priorityWhy": "低優先。它的價值在網絡連結而非單點合作，適合列入長期名單而非現在推進。",
+    "sources": [
+      {
+        "label": "CHA Biotech",
+        "url": "https://www.chabio.com/en/"
+      }
+    ],
+    "en": {
+      "fit": "Global cell manufacturing, cord blood banking and CDMO infrastructure, and already partnered with Miltenyi Biotec of Germany on a BaEV lentiviral vector platform — one of the few Korean players linking Asian and European manufacturing networks.",
+      "whyNotRival": "Primarily infrastructure and contract services, competing with Stemchymal on no indication.",
+      "forms": [
+        "A local Korean manufacturing option",
+        "Indirect connection to European capacity networks through its Miltenyi relationship"
+      ],
+      "priorityWhy": "Low priority. Its value lies in network connections rather than a single collaboration, which suits a long-term list rather than immediate pursuit.",
+      "sources": [
+        {
+          "label": "CHA Biotech",
+          "url": "https://www.chabio.com/en/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bluerock",
+    "market": "美國／德國 US/Germany",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "Bayer 子公司，bemdaneprocel 是帕金森的 iPSC 神經元替代療法——大藥廠如何買下並經營一個細胞治療平台的實例，對仲恩的併購敘事有參照價值。",
+    "whyNotRival": "適應症在帕金森、模式是神經元替代而非旁分泌保護，與 Stemchymal 無交集。",
+    "forms": [
+      "大藥廠併購細胞治療資產的架構參照",
+      "德國／美國雙據點營運的組織模式參考"
+    ],
+    "priorityWhy": "低優先，屬敘事與併購策略的參考案例，不是合作對象。",
+    "sources": [
+      {
+        "label": "BlueRock Therapeutics",
+        "url": "https://bluerocktx.com/"
+      }
+    ],
+    "en": {
+      "fit": "A Bayer subsidiary whose bemdaneprocel is an iPSC-derived neuronal replacement therapy for Parkinson's — a worked example of how a large pharmaceutical company acquires and runs a cell therapy platform, with reference value for Steminent's acquisition narrative.",
+      "whyNotRival": "Its indication is Parkinson's and its modality neuronal replacement rather than paracrine protection, so no intersection with Stemchymal.",
+      "forms": [
+        "A reference structure for large-pharma acquisition of cell therapy assets",
+        "A reference operating model for running dual German and US sites"
+      ],
+      "priorityWhy": "Low priority; a reference case for narrative and acquisition strategy rather than a partner.",
+      "sources": [
+        {
+          "label": "BlueRock Therapeutics",
+          "url": "https://bluerocktx.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "intrabio",
+    "market": "英國／美國 UK/USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "沒有互補面。Levacetylleucine 為小分子，Ph3（NCT07221292）涵蓋 CACNA1A／SCA6，主要指標 SARA，2026/05 獲美英歐瑞四地監管放行、12 站點啟動中。",
+    "whyNotRival": "對手，且是目前推進最快的一個：**它與仲恩用同一把尺（SARA）**，主要終點直接可比。SCA6 又正是仲恩日本首張藥證涵蓋的兩個亞型之一，等於在同一塊地上正面對撞。",
+    "forms": [
+      "不適用合作",
+      "監測重點：估 2026/09 開始收案、n=60，讀出將是 SARA 作為主要終點在小分子上的又一次檢驗",
+      "其四地同步放行的法規操作值得參照"
+    ],
+    "priorityWhy": "小分子在 SCA 已連續失敗（troriluzole、rovatirelin），但它挑的是 CACNA1A 這個機轉較明確的亞型。監測優先序高，因為終點可比、亞型重疊。",
+    "sources": [
+      {
+        "label": "NCT07221292",
+        "url": "https://clinicaltrials.gov/study/NCT07221292"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. Levacetylleucine is a small molecule whose Phase 3 (NCT07221292) covers CACNA1A and SCA6 with SARA as the primary endpoint; regulatory clearance came in four territories in May 2026 with twelve sites activating.",
+      "whyNotRival": "A rival, and currently the fastest-moving one: it measures with the same ruler Steminent uses, making its primary endpoint directly comparable, and SCA6 is one of the two subtypes covered by Steminent's first Japanese approval — a head-on collision on the same ground.",
+      "forms": [
+        "Collaboration not applicable",
+        "Monitoring priorities: enrolment estimated to open September 2026 at n=60, with the readout another test of SARA as a primary endpoint for a small molecule",
+        "Its simultaneous four-territory clearance is a regulatory model worth studying"
+      ],
+      "priorityWhy": "Small molecules have failed repeatedly in SCA, from troriluzole to rovatirelin, but this one picked CACNA1A where the mechanism is better defined. Monitoring priority is high because the endpoint is comparable and the subtype overlaps.",
+      "sources": [
+        {
+          "label": "NCT07221292",
+          "url": "https://clinicaltrials.gov/study/NCT07221292"
+        }
+      ]
+    }
+  },
+  {
+    "id": "crd",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "both",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "非營利組織，開發針對 SCA3 的客製化基因療法（CRD-SCA3），已獲 FDA 孤兒藥資格與 CIRM 補助。它的組織形態與商業公司不同，較不以市場排他為目標。",
+    "whyNotRival": "適應症正面重疊（SCA3），但**非營利屬性讓它更可能成為資料與病人社群的協作對象而非商業對手**。它在病人社群的信譽與招募能力，是商業公司很難複製的。",
+    "forms": [
+      "病人社群與招募的協作可能",
+      "SCA3 自然史與基因型資料的交換",
+      "監測其 CIRM 補助支撐的開發進度"
+    ],
+    "priorityWhy": "低優先。它仍在早期，且非營利模式下的推進速度通常慢；但若要在美國建立病人社群信任，它是少數立場中性的接觸點。",
+    "sources": [
+      {
+        "label": "Cure Rare Disease",
+        "url": "https://www.cureraredisease.org/"
+      }
+    ],
+    "en": {
+      "fit": "A non-profit developing a customised gene therapy for SCA3 (CRD-SCA3), holding FDA orphan designation and a CIRM grant. Its organisational form differs from a commercial company and it is less oriented toward market exclusivity.",
+      "whyNotRival": "The indication overlaps head-on in SCA3, but its non-profit character makes it a more plausible collaborator on data and patient community than a commercial rival. Its standing with patients and its recruitment reach are hard for a commercial company to replicate.",
+      "forms": [
+        "Possible collaboration on patient community and recruitment",
+        "Exchange of SCA3 natural history and genotype data",
+        "Monitor development progress supported by its CIRM grant"
+      ],
+      "priorityWhy": "Low priority. It remains early stage and non-profit development typically moves slowly, but if the goal is building patient community trust in the US it is one of the few neutral points of contact.",
+      "sources": [
+        {
+          "label": "Cure Rare Disease",
+          "url": "https://www.cureraredisease.org/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "kissei",
+    "market": "日本 Japan",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。TRH 類似物小分子，Ph3 失利後撤件。",
+    "whyNotRival": "已退場的日本對手。它的價值在於證明**日本監管機關對 SCA 療效證據的標準**，而仲恩正在同一個機關手上受審——它為什麼沒過，比它做了什麼更值得讀。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Kissei 橘生製藥｜公司資料與來源",
+        "url": "https://www.kissei.co.jp/e_contents/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. A TRH analogue small molecule whose Phase 3 failed, leading to withdrawal.",
+      "whyNotRival": "A Japanese rival that has exited. Its value lies in what it reveals about the evidentiary bar the Japanese regulator applies in SCA — and Steminent's file sits with that same regulator, so why it failed matters more than what it attempted.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Kissei Pharmaceutical — company profile and sources",
+          "url": "https://www.kissei.co.jp/e_contents/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "solaxa",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。小分子，Ph3 針對 SCA27B（FGF14 重複擴增）。",
+    "whyNotRival": "亞型不重疊（SCA27B 非 polyQ），屬鄰近而非正面競爭。SCA27B 近年才被大量診斷出來，它等於在開一個新的亞型市場——若成功，會證明「單一 SCA 亞型可獨立成藥」，對仲恩的 pan-polyQ 定位是另一種論述壓力。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Solaxa｜公司資料與來源",
+        "url": "https://www.solaxa.com/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. A small molecule in Phase 3 for SCA27B (FGF14 repeat expansion).",
+      "whyNotRival": "The subtype does not overlap, since SCA27B is not a polyQ disease, making this adjacent rather than direct competition. SCA27B has only recently been diagnosed in numbers, so the company is effectively opening a new subtype market — and success would establish that a single SCA subtype can carry a drug on its own, which puts a different kind of argumentative pressure on Steminent's pan-polyQ positioning.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Solaxa Inc. — company profile and sources",
+          "url": "https://www.solaxa.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "neurolixis",
+    "market": "美國／歐盟 US/EU",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。5-HT1A 促效劑小分子，獲 FDA/EMA 孤兒藥資格，針對 SCA3 運動缺損。",
+    "whyNotRival": "適應症重疊（SCA3）但機轉為症狀緩解而非疾病修飾，兩者可並存於同一病人——**理論上是合併用藥的候選，而非零和對手**。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Neurolixis｜公司資料與來源",
+        "url": "https://www.neurologylive.com/view/european-commission-grants-nlx-112-orphan-medicinal-product-designation-spinocerebellar-ataxia"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. A 5-HT1A agonist small molecule with FDA and EMA orphan designation targeting SCA3 motor deficits.",
+      "whyNotRival": "The indication overlaps in SCA3, but its mechanism is symptomatic relief rather than disease modification, so the two could coexist in the same patient — in principle a combination candidate rather than a zero-sum rival.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Neurolixis — company profile and sources",
+          "url": "https://www.neurologylive.com/view/european-commission-grants-nlx-112-orphan-medicinal-product-designation-spinocerebellar-ataxia"
+        }
+      ]
+    }
+  },
+  {
+    "id": "seelos",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。Trehalose，自噬誘導劑，針對 polyQ 共濟失調的蛋白聚集清除。",
+    "whyNotRival": "機轉部分重疊——Stemchymal 的機制論述也包含誘導自噬清除突變 ataxin-3。差別在給藥形式與作用強度。它若讀出正面，會**強化**自噬清除這條機轉路徑的可信度，對仲恩的機轉論述其實有利。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Seelos Therapeutics｜公司資料與來源",
+        "url": "https://www.prnewswire.com/news-releases/seelos-therapeutics-announces-fda-acceptance-of-investigational-new-drug-application-and-grant-of-fast-track-designation-for-sls-005-iv-trehalose-for-the-treatment-of-spinocerebellar-ataxia-301417731.html"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. Trehalose, an autophagy inducer aimed at clearing protein aggregates in polyQ ataxias.",
+      "whyNotRival": "Partial mechanistic overlap — Steminent's own rationale for Stemchymal includes inducing autophagy to clear mutant ataxin-3, differing in delivery and potency. A positive readout would strengthen the credibility of the autophagy-clearance pathway, which actually helps Steminent's mechanistic argument.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Seelos Therapeutics — company profile and sources",
+          "url": "https://www.prnewswire.com/news-releases/seelos-therapeutics-announces-fda-acceptance-of-investigational-new-drug-application-and-grant-of-fast-track-designation-for-sls-005-iv-trehalose-for-the-treatment-of-spinocerebellar-ataxia-301417731.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wave",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。等位基因選擇性 ASO／RNA 編輯，針對突變 ATXN3 轉錄本。",
+    "whyNotRival": "上游沉默對手，與 Vico 同一類。它面對的是同一道牆——鞘內 ASO 送不進深部小腦與腦幹，這正是 BIIB132 的死因。RNA 編輯若能繞過遞送問題，威脅等級要重估。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Wave Life Sciences｜公司資料與來源",
+        "url": "https://wavelifesciences.com/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. Allele-selective ASO and RNA editing targeting the mutant ATXN3 transcript.",
+      "whyNotRival": "An upstream silencing rival of the same class as Vico, facing the same wall: intrathecal ASOs do not reach the deep cerebellum and brainstem, which is what killed BIIB132. If RNA editing sidesteps the delivery problem, the threat level needs reassessing.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Wave Life Sciences — company profile and sources",
+          "url": "https://wavelifesciences.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "design-tx",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。GeneTAC™ 小分子平台，針對核苷酸重複擴增（polyQ 與 Friedreich 共濟失調）。",
+    "whyNotRival": "平台型對手：口服小分子若能調控重複擴增的轉錄，將同時繞過 ASO 的遞送問題與細胞治療的成本問題。**這是長期最該盯的技術威脅類型**，但目前仍在早期。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Design Therapeutics｜公司資料與來源",
+        "url": "https://investors.designtx.com/news-releases/news-release-details/design-therapeutics-announces-four-week-iv-data-restore-fa-trial/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. The GeneTAC small molecule platform targeting nucleotide repeat expansions in polyQ and Friedreich's ataxia.",
+      "whyNotRival": "A platform rival: an oral small molecule able to modulate transcription at a repeat expansion would sidestep both the ASO delivery problem and the cost problem of cell therapy at once. This is the class of technical threat most worth watching long-term, though it remains early.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Design Therapeutics — company profile and sources",
+          "url": "https://investors.designtx.com/news-releases/news-release-details/design-therapeutics-announces-four-week-iv-data-restore-fa-trial/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "larimar",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。蛋白替代療法（CTI-1601），補充 Friedreich 共濟失調的 frataxin 缺乏。",
+    "whyNotRival": "適應症在 Friedreich 而非 SCA，不直接競爭。價值在法規面：它是共濟失調領域少數推進到後期的資產，其終點選擇與 FDA 互動是可參照的先例。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Larimar Therapeutics｜公司資料與來源",
+        "url": "https://investors.larimartx.com/news-releases/news-release-details/larimar-therapeutics-announces-fda-breakthrough-therapy"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. A protein replacement therapy (CTI-1601) addressing frataxin deficiency in Friedreich's ataxia.",
+      "whyNotRival": "Its indication is Friedreich's rather than SCA, so no direct competition. The value is regulatory: it is one of the few late-stage assets in ataxia, and its endpoint choices and FDA interactions offer a usable precedent.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Larimar Therapeutics — company profile and sources",
+          "url": "https://investors.larimartx.com/news-releases/news-release-details/larimar-therapeutics-announces-fda-breakthrough-therapy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lexeo",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。AAVrh.10hFXN 基因療法，針對 Friedreich 共濟失調相關心肌病變；SUNRISE-FA 2 註冊型 Ph2 於 2026/06/25 啟動、n=26。",
+    "whyNotRival": "適應症與器官都不重疊（心肌 vs 小腦）。它的參照價值在**用心臟 MRI 左心室質量指數當主要指標**——一個以影像生物標記作主要終點的註冊型試驗，正好是 Nido 失敗的那條路，值得對照看兩者差異。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Lexeo Therapeutics｜公司資料與來源",
+        "url": "https://www.globenewswire.com/news-release/2026/06/15/3311662/0/en/lexeo-therapeutics-announces-regulatory-update-and-registrational-trial-design-for-lx2006-gene-therapy-in-friedreich-ataxia.html"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. An AAVrh.10hFXN gene therapy for Friedreich's ataxia-associated cardiomyopathy; the registrational SUNRISE-FA 2 Phase 2 opened on 25 June 2025 with n=26.",
+      "whyNotRival": "Neither indication nor organ overlaps, being cardiac rather than cerebellar. Its reference value lies in using cardiac MRI left ventricular mass index as the primary endpoint — a registrational trial resting on an imaging biomarker, which is precisely the route on which Nido failed, making the contrast between the two instructive.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Lexeo Therapeutics — company profile and sources",
+          "url": "https://www.globenewswire.com/news-release/2026/06/15/3311662/0/en/lexeo-therapeutics-announces-regulatory-update-and-registrational-trial-design-for-lx2006-gene-therapy-in-friedreich-ataxia.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "minoryx",
+    "market": "西班牙 Spain",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。PPARγ 促效劑口服藥，針對遺傳性共濟失調的神經發炎。",
+    "whyNotRival": "**機轉與 Stemchymal 高度同源——都打神經發炎**，差別在小分子 vs 細胞。它是驗證「抗神經發炎能否在共濟失調產生臨床效益」這個命題的平行實驗，讀出對仲恩的機轉論述有直接外溢效果。另可作為西班牙／歐洲的接觸點（與 Histocell 同國）。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Minoryx Therapeutics｜公司資料與來源",
+        "url": "https://www.ataxia.org.uk/research-news/minoryx-therapeutics-granted-fda-orphan-drug-designation-in-friedreichs-ataxia-for-new-drug-leriglitazone/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. An oral PPARγ agonist targeting neuroinflammation in hereditary ataxias.",
+      "whyNotRival": "Mechanistically close to Stemchymal in that both address neuroinflammation, differing only in being a small molecule rather than a cell. It is a parallel test of whether anti-neuroinflammation produces clinical benefit in ataxia, so its readout spills directly onto Steminent's mechanistic argument. It also offers a Spanish and European contact point, in the same country as Histocell.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Minoryx Therapeutics — company profile and sources",
+          "url": "https://www.ataxia.org.uk/research-news/minoryx-therapeutics-granted-fda-orphan-drug-designation-in-friedreichs-ataxia-for-new-drug-leriglitazone/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ptc",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。小分子，Friedreich 共濟失調，已進入法規審查。",
+    "whyNotRival": "適應症在 Friedreich，不直接競爭。價值在其**共濟失調領域的法規與終點先例**——審查機關在共濟失調上接受什麼、不接受什麼，它是現行最新的樣本。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "PTC Therapeutics｜公司資料與來源",
+        "url": "https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-fda-acceptance-and-priority-review-0"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. A small molecule in Friedreich's ataxia that has entered regulatory review.",
+      "whyNotRival": "Its indication is Friedreich's, so no direct competition. Its value is as regulatory and endpoint precedent in ataxia — the most current sample of what reviewers will and will not accept in this disease area.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "PTC Therapeutics — company profile and sources",
+          "url": "https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-fda-acceptance-and-priority-review-0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "solid-bio",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。基因療法，Friedreich 共濟失調。",
+    "whyNotRival": "適應症不重疊。列入追蹤是因為 Friedreich 領域近年資產密集，其取證進度會影響整個共濟失調類別的審查節奏與投資人期待。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Solid Biosciences｜公司資料與來源",
+        "url": "https://www.solidbio.com/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. A gene therapy in Friedreich's ataxia.",
+      "whyNotRival": "No indication overlap. It is tracked because Friedreich's has become asset-dense in recent years, and approval progress there shapes both review cadence and investor expectations across the ataxia category as a whole.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Solid Biosciences Inc. — company profile and sources",
+          "url": "https://www.solidbio.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "nido",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。口服 SARM，SBMA（polyQ 鄰域）；Ph2 主要終點肌肉 MRI 瘦肌肉體積未達，公司 2026 年初結束營運。",
+    "whyNotRival": "已退場。**最重要的教訓**：以影像／體積生物標記作為主要終點，在 12 個月內偵測 polyQ 病程變化的難度極高——這直接支持仲恩以 SARA 等臨床功能量表為主要終點的選擇。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Nido Biosciences｜公司資料與來源",
+        "url": "https://clinicaltrials.gov/study/NCT06411912"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. An oral SARM in SBMA within the polyQ neighbourhood; its Phase 2 missed the primary endpoint of lean muscle volume on MRI and the company wound down in early 2026.",
+      "whyNotRival": "Wound down. The key lesson is that using an imaging or volumetric biomarker as a primary endpoint makes detecting polyQ disease progression within twelve months extremely difficult — which directly supports Steminent's choice of clinical functional scales such as SARA as its primary endpoint.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Nido Biosciences — company profile and sources",
+          "url": "https://clinicaltrials.gov/study/NCT06411912"
+        }
+      ]
+    }
+  },
+  {
+    "id": "uniqure",
+    "market": "荷蘭／美國 NL/US",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。AAV 基因療法，亨丁頓舞蹈症（polyQ）。",
+    "whyNotRival": "適應症不重疊但機轉類別相鄰（polyQ 基因修飾）。價值在**耐久性標竿**——一次性基因療法若證實長期有效，會對仲恩「反覆給藥」的模式構成價值主張上的壓力（每年三劑 vs 一次給藥）。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "uniQure 等 AAV 基因療法｜公司資料與來源",
+        "url": "https://www.uniqure.com/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. An AAV gene therapy in Huntington's disease, a polyQ condition.",
+      "whyNotRival": "No indication overlap but an adjacent mechanistic class in polyQ gene modification. Its value is as a durability benchmark — if a one-time gene therapy proves durable, it pressures the value proposition of a repeatedly dosed product, three doses a year against a single administration.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "uniQure et al. (AAV gene therapy) — company profile and sources",
+          "url": "https://www.uniqure.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ultragenyx",
+    "market": "美國 USA",
+    "layer": "rival",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有互補面。基因療法與小分子，專長在小型罕病世代的臨床試驗執行。",
+    "whyNotRival": "不競爭。它是**罕病臨床執行的營運標竿**——如何在極小樣本下設計出可被監管接受的試驗，正是仲恩美國 Ph2（n≈20）面對的問題。",
+    "forms": [
+      "不適用合作",
+      "以競品情報方式持續追蹤"
+    ],
+    "priorityWhy": "低優先，維持每日掃描追蹤即可；情報價值高於合作價值。",
+    "sources": [
+      {
+        "label": "Ultragenyx｜公司資料與來源",
+        "url": "https://www.ultragenyx.com/"
+      }
+    ],
+    "en": {
+      "fit": "No complementarity. Gene therapies and small molecules, with expertise in executing trials in small rare disease cohorts.",
+      "whyNotRival": "Not a competitor. It is an operational benchmark for rare disease execution — how to design a trial acceptable to regulators on a very small sample, which is exactly the problem facing Steminent's US Phase 2 at roughly twenty patients.",
+      "forms": [
+        "Collaboration not applicable",
+        "Continue tracking as competitive intelligence"
+      ],
+      "priorityWhy": "Low priority; the daily scan is sufficient. Intelligence value exceeds partnership value.",
+      "sources": [
+        {
+          "label": "Ultragenyx — company profile and sources",
+          "url": "https://www.ultragenyx.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sumitomo-racthera",
+    "market": "日本 Japan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症與模式皆不重疊，價值在**日本法規先例**：AMCHEPRY®，iPSC 前驅細胞治帕金森病，2026 取得 PMDA 條件及期限付承認。仲恩的日本申請正在 PMDA 手上（受理起九個月），這些案子構成審查機關近期的決策樣本。",
+    "whyNotRival": "不與 Stemchymal 爭適應症或病人。它們的意義是替仲恩把「PMDA 現在怎麼看再生醫療產品」這題回答掉——尤其條件及期限付承認的實際門檻。",
+    "forms": [
+      "日本條件及期限付承認制度的實務先例研究",
+      "PMDA 審查互動與資料要求的參照",
+      "日本再生醫療產業網絡的接觸點"
+    ],
+    "priorityWhy": "低優先，且多數可從公開資料與 REPROCELL 取得，不必另闢管道。列入是為了讓日本審查期間有完整的先例對照。",
+    "sources": [
+      {
+        "label": "住友製藥／RACTHERA｜公司資料與來源",
+        "url": "https://www.sumitomo-pharma.com/news/20260306.html"
+      }
+    ],
+    "en": {
+      "fit": "Neither indication nor modality overlaps; the value is Japanese regulatory precedent: AMCHEPRY, an iPSC-derived progenitor cell therapy for Parkinson's that received PMDA conditional and time-limited approval in 2026. Steminent's Japanese application sits with the PMDA on a nine-month clock, and these cases form the regulator's recent decision record.",
+      "whyNotRival": "It competes with Stemchymal for neither indication nor patients. Its significance is in answering how the PMDA currently views regenerative products, and in particular the real threshold for conditional and time-limited approval.",
+      "forms": [
+        "Study of practical precedent under Japan's conditional and time-limited approval system",
+        "Reference for PMDA review interaction and data expectations",
+        "A contact point within Japan's regenerative medicine network"
+      ],
+      "priorityWhy": "Low priority, and most of it is available publicly or through REPROCELL without opening a separate channel. It is included so the Japanese review period has a complete set of precedents to compare against.",
+      "sources": [
+        {
+          "label": "Sumitomo Pharma / RACTHERA — company profile and sources",
+          "url": "https://www.sumitomo-pharma.com/news/20260306.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cuorips",
+    "market": "日本 Japan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症與模式皆不重疊，價值在**日本法規先例**：RiHEART®，iPSC 心肌細胞，2026 取得 PMDA 條件及期限付承認。仲恩的日本申請正在 PMDA 手上（受理起九個月），這些案子構成審查機關近期的決策樣本。",
+    "whyNotRival": "不與 Stemchymal 爭適應症或病人。它們的意義是替仲恩把「PMDA 現在怎麼看再生醫療產品」這題回答掉——尤其條件及期限付承認的實際門檻。",
+    "forms": [
+      "日本條件及期限付承認制度的實務先例研究",
+      "PMDA 審查互動與資料要求的參照",
+      "日本再生醫療產業網絡的接觸點"
+    ],
+    "priorityWhy": "低優先，且多數可從公開資料與 REPROCELL 取得，不必另闢管道。列入是為了讓日本審查期間有完整的先例對照。",
+    "sources": [
+      {
+        "label": "Cuorips｜公司資料與來源",
+        "url": "https://sj.jst.go.jp/news/202603/n0313-01n.html"
+      }
+    ],
+    "en": {
+      "fit": "Neither indication nor modality overlaps; the value is Japanese regulatory precedent: RiHEART, iPSC-derived cardiomyocytes that received PMDA conditional and time-limited approval in 2026. Steminent's Japanese application sits with the PMDA on a nine-month clock, and these cases form the regulator's recent decision record.",
+      "whyNotRival": "It competes with Stemchymal for neither indication nor patients. Its significance is in answering how the PMDA currently views regenerative products, and in particular the real threshold for conditional and time-limited approval.",
+      "forms": [
+        "Study of practical precedent under Japan's conditional and time-limited approval system",
+        "Reference for PMDA review interaction and data expectations",
+        "A contact point within Japan's regenerative medicine network"
+      ],
+      "priorityWhy": "Low priority, and most of it is available publicly or through REPROCELL without opening a separate channel. It is included so the Japanese review period has a complete set of precedents to compare against.",
+      "sources": [
+        {
+          "label": "Cuorips — company profile and sources",
+          "url": "https://sj.jst.go.jp/news/202603/n0313-01n.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "heartseed",
+    "market": "日本 Japan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症與模式皆不重疊，價值在**日本法規先例**：HS-005，iPSC 心肌細胞再生。仲恩的日本申請正在 PMDA 手上（受理起九個月），這些案子構成審查機關近期的決策樣本。",
+    "whyNotRival": "不與 Stemchymal 爭適應症或病人。它們的意義是替仲恩把「PMDA 現在怎麼看再生醫療產品」這題回答掉——尤其條件及期限付承認的實際門檻。",
+    "forms": [
+      "日本條件及期限付承認制度的實務先例研究",
+      "PMDA 審查互動與資料要求的參照",
+      "日本再生醫療產業網絡的接觸點"
+    ],
+    "priorityWhy": "低優先，且多數可從公開資料與 REPROCELL 取得，不必另闢管道。列入是為了讓日本審查期間有完整的先例對照。",
+    "sources": [
+      {
+        "label": "Heartseed｜公司資料與來源",
+        "url": "https://www.biospace.com/press-releases/heartseed-worlds-first-clinical-trial-of-catheter-administration-of-ipsc-derived-cardiomyocyte-spheroids-first-patient-dosed"
+      }
+    ],
+    "en": {
+      "fit": "Neither indication nor modality overlaps; the value is Japanese regulatory precedent: HS-005, iPSC-derived cardiomyocyte regeneration. Steminent's Japanese application sits with the PMDA on a nine-month clock, and these cases form the regulator's recent decision record.",
+      "whyNotRival": "It competes with Stemchymal for neither indication nor patients. Its significance is in answering how the PMDA currently views regenerative products, and in particular the real threshold for conditional and time-limited approval.",
+      "forms": [
+        "Study of practical precedent under Japan's conditional and time-limited approval system",
+        "Reference for PMDA review interaction and data expectations",
+        "A contact point within Japan's regenerative medicine network"
+      ],
+      "priorityWhy": "Low priority, and most of it is available publicly or through REPROCELL without opening a separate channel. It is included so the Japanese review period has a complete set of precedents to compare against.",
+      "sources": [
+        {
+          "label": "Heartseed — company profile and sources",
+          "url": "https://www.biospace.com/press-releases/heartseed-worlds-first-clinical-trial-of-catheter-administration-of-ipsc-derived-cardiomyocyte-spheroids-first-patient-dosed"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cellusion",
+    "market": "日本 Japan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症與模式皆不重疊，價值在**日本法規先例**：CLS001，iPSC 角膜內皮細胞替代。仲恩的日本申請正在 PMDA 手上（受理起九個月），這些案子構成審查機關近期的決策樣本。",
+    "whyNotRival": "不與 Stemchymal 爭適應症或病人。它們的意義是替仲恩把「PMDA 現在怎麼看再生醫療產品」這題回答掉——尤其條件及期限付承認的實際門檻。",
+    "forms": [
+      "日本條件及期限付承認制度的實務先例研究",
+      "PMDA 審查互動與資料要求的參照",
+      "日本再生醫療產業網絡的接觸點"
+    ],
+    "priorityWhy": "低優先，且多數可從公開資料與 REPROCELL 取得，不必另闢管道。列入是為了讓日本審查期間有完整的先例對照。",
+    "sources": [
+      {
+        "label": "Cellusion｜公司資料與來源",
+        "url": "https://cellusion.jp/news/en/980/"
+      }
+    ],
+    "en": {
+      "fit": "Neither indication nor modality overlaps; the value is Japanese regulatory precedent: CLS001, iPSC-derived corneal endothelial cell replacement. Steminent's Japanese application sits with the PMDA on a nine-month clock, and these cases form the regulator's recent decision record.",
+      "whyNotRival": "It competes with Stemchymal for neither indication nor patients. Its significance is in answering how the PMDA currently views regenerative products, and in particular the real threshold for conditional and time-limited approval.",
+      "forms": [
+        "Study of practical precedent under Japan's conditional and time-limited approval system",
+        "Reference for PMDA review interaction and data expectations",
+        "A contact point within Japan's regenerative medicine network"
+      ],
+      "priorityWhy": "Low priority, and most of it is available publicly or through REPROCELL without opening a separate channel. It is included so the Japanese review period has a complete set of precedents to compare against.",
+      "sources": [
+        {
+          "label": "Cellusion — company profile and sources",
+          "url": "https://cellusion.jp/news/en/980/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "orizuru",
+    "market": "日本 Japan",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症與模式皆不重疊，價值在**日本法規先例**：iPSC 胰島細胞，代謝與內分泌疾病。仲恩的日本申請正在 PMDA 手上（受理起九個月），這些案子構成審查機關近期的決策樣本。",
+    "whyNotRival": "不與 Stemchymal 爭適應症或病人。它們的意義是替仲恩把「PMDA 現在怎麼看再生醫療產品」這題回答掉——尤其條件及期限付承認的實際門檻。",
+    "forms": [
+      "日本條件及期限付承認制度的實務先例研究",
+      "PMDA 審查互動與資料要求的參照",
+      "日本再生醫療產業網絡的接觸點"
+    ],
+    "priorityWhy": "低優先，且多數可從公開資料與 REPROCELL 取得，不必另闢管道。列入是為了讓日本審查期間有完整的先例對照。",
+    "sources": [
+      {
+        "label": "Orizuru Therapeutics｜公司資料與來源",
+        "url": "https://orizuru-therapeutics.com/en/"
+      }
+    ],
+    "en": {
+      "fit": "Neither indication nor modality overlaps; the value is Japanese regulatory precedent: iPSC-derived islet cells for metabolic and endocrine disease. Steminent's Japanese application sits with the PMDA on a nine-month clock, and these cases form the regulator's recent decision record.",
+      "whyNotRival": "It competes with Stemchymal for neither indication nor patients. Its significance is in answering how the PMDA currently views regenerative products, and in particular the real threshold for conditional and time-limited approval.",
+      "forms": [
+        "Study of practical precedent under Japan's conditional and time-limited approval system",
+        "Reference for PMDA review interaction and data expectations",
+        "A contact point within Japan's regenerative medicine network"
+      ],
+      "priorityWhy": "Low priority, and most of it is available publicly or through REPROCELL without opening a separate channel. It is included so the Japanese review period has a complete set of precedents to compare against.",
+      "sources": [
+        {
+          "label": "Orizuru Therapeutics — company profile and sources",
+          "url": "https://orizuru-therapeutics.com/en/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sbiomedics",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症不重疊，價值在**南韓 MFDS 的商業化先例**：幹細胞衍生多巴胺神經前驅細胞，帕金森病。",
+    "whyNotRival": "不與 Stemchymal 爭病人。南韓是仲恩既有授權（SCM）所在地，理解當地審查與商業化生態，對判斷授權要不要重啟或收回是必要背景。",
+    "forms": [
+      "南韓 MFDS 細胞治療審查與商業化先例研究",
+      "若 SCM 授權收回，作為替代夥伴池的一部分",
+      "南韓在地製造與通路的備選"
+    ],
+    "priorityWhy": "低優先，且同樣受制於 SCM 授權未釐清。列入是為了讓韓國替代方案有足夠寬的候選池，而非只有一兩個選項。",
+    "sources": [
+      {
+        "label": "S.Biomedics｜公司資料與來源",
+        "url": "https://www.globenewswire.com/news-release/2025/07/21/3118506/0/en/S-BIOMEDICS-Cell-Therapy-for-Parkinson-s-Disease-Shows-Positive-Data-from-Its-Phase-1-2a-Clinical-Trial.html"
+      }
+    ],
+    "en": {
+      "fit": "No indication overlap; the value is commercialisation precedent under South Korea's MFDS: Stem cell-derived dopaminergic progenitor cells for Parkinson's disease. ",
+      "whyNotRival": "It does not compete for Stemchymal's patients. South Korea is where Steminent's existing licence with SCM sits, and understanding the local review and commercialisation environment is necessary background for deciding whether to restart or reclaim that licence.",
+      "forms": [
+        "Study of MFDS cell therapy review and commercialisation precedent",
+        "Part of the alternative partner pool should the SCM licence be reclaimed",
+        "A fallback for Korean local manufacturing and distribution"
+      ],
+      "priorityWhy": "Low priority and equally constrained by the unresolved SCM licence. It is included so the Korean fallback rests on a wide enough candidate pool rather than one or two options.",
+      "sources": [
+        {
+          "label": "S.Biomedics — company profile and sources",
+          "url": "https://www.globenewswire.com/news-release/2025/07/21/3118506/0/en/S-BIOMEDICS-Cell-Therapy-for-Parkinson-s-Disease-Shows-Positive-Data-from-Its-Phase-1-2a-Clinical-Trial.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pharmicell",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症不重疊，價值在**南韓 MFDS 的商業化先例**：Cellgram®，南韓首個商業化幹細胞產品核准先例。",
+    "whyNotRival": "不與 Stemchymal 爭病人。南韓是仲恩既有授權（SCM）所在地，理解當地審查與商業化生態，對判斷授權要不要重啟或收回是必要背景。",
+    "forms": [
+      "南韓 MFDS 細胞治療審查與商業化先例研究",
+      "若 SCM 授權收回，作為替代夥伴池的一部分",
+      "南韓在地製造與通路的備選"
+    ],
+    "priorityWhy": "低優先，且同樣受制於 SCM 授權未釐清。列入是為了讓韓國替代方案有足夠寬的候選池，而非只有一兩個選項。",
+    "sources": [
+      {
+        "label": "Pharmicell｜公司資料與來源",
+        "url": "https://www.pharmicell.com/en/"
+      }
+    ],
+    "en": {
+      "fit": "No indication overlap; the value is commercialisation precedent under South Korea's MFDS: Cellgram, the first commercial stem cell product approval precedent in South Korea. ",
+      "whyNotRival": "It does not compete for Stemchymal's patients. South Korea is where Steminent's existing licence with SCM sits, and understanding the local review and commercialisation environment is necessary background for deciding whether to restart or reclaim that licence.",
+      "forms": [
+        "Study of MFDS cell therapy review and commercialisation precedent",
+        "Part of the alternative partner pool should the SCM licence be reclaimed",
+        "A fallback for Korean local manufacturing and distribution"
+      ],
+      "priorityWhy": "Low priority and equally constrained by the unresolved SCM licence. It is included so the Korean fallback rests on a wide enough candidate pool rather than one or two options.",
+      "sources": [
+        {
+          "label": "Pharmicell — company profile and sources",
+          "url": "https://www.pharmicell.com/en/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "anterogen",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症不重疊，價值在**南韓 MFDS 的商業化先例**：脂肪 MSC 於 MFDS 架構下的商業化。**Anterogen 特別值得看——同樣是脂肪來源 MSC**，是南韓最直接的機轉對照。",
+    "whyNotRival": "不與 Stemchymal 爭病人。南韓是仲恩既有授權（SCM）所在地，理解當地審查與商業化生態，對判斷授權要不要重啟或收回是必要背景。",
+    "forms": [
+      "南韓 MFDS 細胞治療審查與商業化先例研究",
+      "若 SCM 授權收回，作為替代夥伴池的一部分",
+      "南韓在地製造與通路的備選"
+    ],
+    "priorityWhy": "低優先，且同樣受制於 SCM 授權未釐清。列入是為了讓韓國替代方案有足夠寬的候選池，而非只有一兩個選項。",
+    "sources": [
+      {
+        "label": "Anterogen｜公司資料與來源",
+        "url": "http://www.anterogen.com/eng/"
+      }
+    ],
+    "en": {
+      "fit": "No indication overlap; the value is commercialisation precedent under South Korea's MFDS: Adipose MSC commercialisation under the MFDS framework. Anterogen is especially worth attention as another adipose-derived MSC, making it the most direct mechanistic comparator in South Korea. ",
+      "whyNotRival": "It does not compete for Stemchymal's patients. South Korea is where Steminent's existing licence with SCM sits, and understanding the local review and commercialisation environment is necessary background for deciding whether to restart or reclaim that licence.",
+      "forms": [
+        "Study of MFDS cell therapy review and commercialisation precedent",
+        "Part of the alternative partner pool should the SCM licence be reclaimed",
+        "A fallback for Korean local manufacturing and distribution"
+      ],
+      "priorityWhy": "Low priority and equally constrained by the unresolved SCM licence. It is included so the Korean fallback rests on a wide enough candidate pool rather than one or two options.",
+      "sources": [
+        {
+          "label": "Anterogen — company profile and sources",
+          "url": "http://www.anterogen.com/eng/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "kangstem",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症不重疊，價值在**南韓 MFDS 的商業化先例**：Puristem 平台，罕病與發炎性疾病。",
+    "whyNotRival": "不與 Stemchymal 爭病人。南韓是仲恩既有授權（SCM）所在地，理解當地審查與商業化生態，對判斷授權要不要重啟或收回是必要背景。",
+    "forms": [
+      "南韓 MFDS 細胞治療審查與商業化先例研究",
+      "若 SCM 授權收回，作為替代夥伴池的一部分",
+      "南韓在地製造與通路的備選"
+    ],
+    "priorityWhy": "低優先，且同樣受制於 SCM 授權未釐清。列入是為了讓韓國替代方案有足夠寬的候選池，而非只有一兩個選項。",
+    "sources": [
+      {
+        "label": "Kangstem Biotech｜公司資料與來源",
+        "url": "https://www.kangstem.com/eng/"
+      }
+    ],
+    "en": {
+      "fit": "No indication overlap; the value is commercialisation precedent under South Korea's MFDS: The Puristem platform for rare and inflammatory disease. ",
+      "whyNotRival": "It does not compete for Stemchymal's patients. South Korea is where Steminent's existing licence with SCM sits, and understanding the local review and commercialisation environment is necessary background for deciding whether to restart or reclaim that licence.",
+      "forms": [
+        "Study of MFDS cell therapy review and commercialisation precedent",
+        "Part of the alternative partner pool should the SCM licence be reclaimed",
+        "A fallback for Korean local manufacturing and distribution"
+      ],
+      "priorityWhy": "Low priority and equally constrained by the unresolved SCM licence. It is included so the Korean fallback rests on a wide enough candidate pool rather than one or two options.",
+      "sources": [
+        {
+          "label": "Kangstem Biotech — company profile and sources",
+          "url": "https://www.kangstem.com/eng/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tego",
+    "market": "南韓 South Korea",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症不重疊，價值在**南韓 MFDS 的商業化先例**：培養組織細胞，南韓商業化組織工程先例。",
+    "whyNotRival": "不與 Stemchymal 爭病人。南韓是仲恩既有授權（SCM）所在地，理解當地審查與商業化生態，對判斷授權要不要重啟或收回是必要背景。",
+    "forms": [
+      "南韓 MFDS 細胞治療審查與商業化先例研究",
+      "若 SCM 授權收回，作為替代夥伴池的一部分",
+      "南韓在地製造與通路的備選"
+    ],
+    "priorityWhy": "低優先，且同樣受制於 SCM 授權未釐清。列入是為了讓韓國替代方案有足夠寬的候選池，而非只有一兩個選項。",
+    "sources": [
+      {
+        "label": "Tego Science｜公司資料與來源",
+        "url": "https://www.tegoscience.com/en/"
+      }
+    ],
+    "en": {
+      "fit": "No indication overlap; the value is commercialisation precedent under South Korea's MFDS: Cultured tissue cells, a commercial tissue engineering precedent in South Korea. ",
+      "whyNotRival": "It does not compete for Stemchymal's patients. South Korea is where Steminent's existing licence with SCM sits, and understanding the local review and commercialisation environment is necessary background for deciding whether to restart or reclaim that licence.",
+      "forms": [
+        "Study of MFDS cell therapy review and commercialisation precedent",
+        "Part of the alternative partner pool should the SCM licence be reclaimed",
+        "A fallback for Korean local manufacturing and distribution"
+      ],
+      "priorityWhy": "Low priority and equally constrained by the unresolved SCM licence. It is included so the Korean fallback rests on a wide enough candidate pool rather than one or two options.",
+      "sources": [
+        {
+          "label": "Tego Science — company profile and sources",
+          "url": "https://www.tegoscience.com/en/"
+        }
+      ]
+    }
+  }
+]
