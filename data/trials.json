@@ -193,5 +193,53 @@
       "status": "Completed (started 2024/03, ended 2025/10; n=54 across the EU, UK and South Korea); <b>results posted to the registry in 2026/03 showed no advantage over placebo on the primary muscle-MRI lean muscle volume endpoint</b>, and the company wound down in early 2026",
       "sponsor": "Nido Biosciences"
     }
+  },
+  {
+    "nct": "NCT07040137",
+    "drug": "Rovatirelin（KPS-0373）",
+    "mechanism": "口服小分子<br>TRH（甲狀腺促素釋素）類似物<br>促進乙醯膽鹼與單胺釋放",
+    "phase": "Ph3",
+    "status": "<b>日本第三次 Ph3 確認試驗</b>（2023/07 藥證撤回後重啟）；多中心隨機雙盲安慰劑對照、每日一次隨早餐口服 24 週、n=142，<b>主要指標＝SARA 總分自基線變化</b>；2025/07 起於日本收案，主要完成估 2027/03",
+    "sponsor": "Kissei 橘生製藥（日本）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07040137",
+    "en": {
+      "mechanism": "Oral small molecule<br>TRH (thyrotropin-releasing hormone) analogue<br>promotes acetylcholine and monoamine release",
+      "phase": "Ph3",
+      "status": "<b>A third Ph3 confirmatory study in Japan</b>, restarted after the 2023/07 withdrawal of the Japanese application; multicentre, randomised, double-blind and placebo-controlled, dosed orally once daily with breakfast for 24 weeks, n=142, with <b>change from baseline in total SARA as the primary endpoint</b>; recruiting in Japan since 2025/07, primary completion estimated 2027/03",
+      "sponsor": "Kissei Pharmaceutical (Japan)"
+    }
+  },
+  {
+    "nct": "NCT07185347",
+    "drug": "Fampridine（4-aminopyridine 緩釋 10mg）",
+    "mechanism": "小分子鉀離子通道阻斷劑<br>老藥新用（症狀改善）",
+    "phase": "Ph3",
+    "status": "<b>學術主導的 SCA27B 隨機對照試驗</b>；雙盲安慰劑對照、10mg 每日兩次共 12 週、n=70、法國 9 家中心，主要指標＝第 12 週 FARS 功能分期改善 ≥0.5 分之病人比例；2025/10 起收案，主要完成估 2027/05。<b>與 Solaxa SLX-100 同為 4-AP 再定位</b>，可能先產出同分子於 SCA27B 的隨機對照證據",
+    "sponsor": "AP-HP 巴黎公立醫院聯盟（法國）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07185347",
+    "en": {
+      "mechanism": "Small-molecule potassium-channel blocker<br>drug repurposing (symptomatic)",
+      "phase": "Ph3",
+      "status": "<b>An academic randomised controlled trial in SCA27B</b>: double-blind and placebo-controlled, 10 mg twice daily for 12 weeks, n=70 across nine French centres, with the primary endpoint being the proportion of patients improving by at least 0.5 point on FARS functional staging at week 12; recruiting since 2025/10, primary completion estimated 2027/05. <b>The same repurposed 4-AP molecule as Solaxa's SLX-100</b>, so it may produce randomised evidence for that molecule in SCA27B first",
+      "sponsor": "AP-HP, Paris public hospitals (France)"
+    }
+  },
+  {
+    "nct": "NCT06681766",
+    "drug": "Nomlabofusp（CTI-1601）",
+    "mechanism": "蛋白替代<br>皮下注射補充 frataxin",
+    "phase": "Ph1",
+    "status": "兒童／青少年 Friedreich's Ataxia 之 PK／安全性試驗（n=18，2024/12–2025/04）；登錄狀態為「終止」，惟<b>公告理由為行政性</b>——第一世代資料檢視後讓受試者直接轉入開放標籤研究、避免給藥空窗，<b>非安全性或療效問題</b>",
+    "sponsor": "Larimar Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06681766",
+    "en": {
+      "mechanism": "Protein replacement<br>subcutaneous frataxin supplementation",
+      "phase": "Ph1",
+      "status": "A PK / safety study in children and adolescents with Friedreich's ataxia (n=18, 2024/12–2025/04). The registry status reads TERMINATED, but the <b>stated reason is administrative</b> — after review of cohort 1 data participants were enrolled directly into the open-label study to avoid a gap in dosing, <b>not a safety or efficacy problem</b>",
+      "sponsor": "Larimar Therapeutics"
+    }
   }
 ]

@@ -1,5 +1,48 @@
 [
   {
+    "id": "kissei-rovatirelin-ph3-2026-07",
+    "date": "2026-07-30",
+    "dateDisplay": "2026/07",
+    "level": "hot",
+    "tag": "日本監管",
+    "body": "掃描發現 <b>Kissei 橘生製藥（TSE: 4547）</b>的 rovatirelin（KPS-0373）在日本藥證 2023/07 撤回後重啟的<b>第三次 Ph3 確認試驗已登錄（NCT07040137）</b>：多中心隨機雙盲安慰劑對照、口服每日一次 24 週、n=142、<b>主要指標＝SARA 總分自基線變化</b>，2025/07 起於日本收案，主要完成估 2027/03。",
+    "note": "→ 與本社日本承認申請面對<b>同一監管機關（PMDA）、同一主要量表（SARA）、重疊的 SCD 市場範疇</b>。PMDA 當年以「以現有臨床資料難以核准」要求 Kissei 補做第三個 Ph3，是日本對 SCD 療效證據門檻最直接的公開案例；其 2027/03 的讀出時點值得納入本社日本策略時程一併考量。",
+    "links": [
+      {
+        "label": "追加 Ph3 公告 ↗ 2025/03",
+        "url": "https://www.kissei.co.jp/e_contents/news/2025/20250314-5015.html"
+      },
+      {
+        "label": "試驗 ↗ NCT07040137",
+        "url": "https://clinicaltrials.gov/study/NCT07040137"
+      },
+      {
+        "label": "藥證撤回公告 ↗ 2023/07",
+        "url": "https://www.kissei.co.jp/e_contents/news/2023/20230719-4670.html"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2026/07",
+      "tag": "Japan regulatory",
+      "body": "The sweep found that <b>Kissei Pharmaceutical (TSE: 4547)</b> has registered the <b>third Ph3 confirmatory study of rovatirelin (KPS-0373)</b> that it restarted after withdrawing its Japanese application in 2023/07 (NCT07040137): multicentre, randomised, double-blind and placebo-controlled, dosed orally once daily for 24 weeks, n=142, with <b>change from baseline in total SARA as the primary endpoint</b>; recruiting in Japan since 2025/07, primary completion estimated 2027/03.",
+      "note": "→ It faces the <b>same regulator (PMDA), the same primary scale (SARA) and an overlapping SCD market scope</b> as Steminent's Japanese application. The PMDA's position that approval would be difficult on the existing clinical data — and the resulting demand for a third Ph3 — is the most direct public case study of Japan's evidence bar in SCD, and the 2027/03 readout is worth folding into Steminent's Japanese strategic timeline.",
+      "links": [
+        {
+          "label": "Additional Ph3 announcement ↗ 2025/03",
+          "url": "https://www.kissei.co.jp/e_contents/news/2025/20250314-5015.html"
+        },
+        {
+          "label": "Trial ↗ NCT07040137",
+          "url": "https://clinicaltrials.gov/study/NCT07040137"
+        },
+        {
+          "label": "Application withdrawal ↗ 2023/07",
+          "url": "https://www.kissei.co.jp/e_contents/news/2023/20230719-4670.html"
+        }
+      ]
+    }
+  },
+  {
     "id": "solidbio-sgt212-2026-07",
     "date": "2026-07-29",
     "dateDisplay": "2026/07",
@@ -119,68 +162,6 @@
         {
           "label": "Source ↗ GeneOnline",
           "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/"
-        }
-      ]
-    }
-  },
-  {
-    "id": "steminent-earnings-2026-04",
-    "date": "2026-04-01",
-    "dateDisplay": "2026/04 法說會",
-    "level": "info",
-    "tag": "產能／財務",
-    "body": "法說會揭露：<b>產能規劃 2026年300劑→2027年900劑→2028年2,700劑</b>；現金增資每股 NT$68、發行 750萬股；官方市場規模估計台灣 700人（SCA3）、日本 3,000人（SCA3+6）；聘請法規顧問 <b>Kurt Gunter</b>。",
-    "note": "",
-    "links": [
-      {
-        "label": "來源 ↗ GeneOnline",
-        "url": "https://geneonline.news/steminent-april-026newsearningscall/"
-      }
-    ],
-    "en": {
-      "dateDisplay": "2026/04 earnings call",
-      "tag": "Capacity / financials",
-      "body": "Disclosed on the earnings call: <b>capacity plan of 300 doses in 2026 → 900 in 2027 → 2,700 in 2028</b>; cash capital increase at NT$68 per share, 7.5m shares issued; official market size estimates of 700 patients in Taiwan (SCA3) and 3,000 in Japan (SCA3+6); regulatory adviser <b>Kurt Gunter</b> engaged.",
-      "note": "",
-      "links": [
-        {
-          "label": "Source ↗ GeneOnline",
-          "url": "https://geneonline.news/steminent-april-026newsearningscall/"
-        }
-      ]
-    }
-  },
-  {
-    "id": "biohaven-troriluzole-crl-2025-11",
-    "date": "2025-11-01",
-    "dateDisplay": "2025/11",
-    "level": "hot",
-    "tag": "威脅↓",
-    "body": "Biohaven 的 Troriluzole <b>遭 FDA 退件（CRL，2025/11）</b>；後續宣布 R&D 削減 60%、並要求與 FDA 正式會談爭取後路（2026/02）。",
-    "note": "→ 領先小分子對手停滯，SCA 賽道出現空窗。",
-    "links": [
-      {
-        "label": "退件 ↗ CRL 2025/11",
-        "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
-      },
-      {
-        "label": "R&D↓60% ↗ 2026/02",
-        "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease"
-      }
-    ],
-    "en": {
-      "dateDisplay": "2025/11",
-      "tag": "Threat↓",
-      "body": "Biohaven’s troriluzole <b>received an FDA Complete Response Letter (CRL, 2025/11)</b>; the company then cut R&D spending by 60% and requested a formal FDA meeting to seek a path forward (2026/02).",
-      "note": "→ The leading small-molecule rival has stalled, opening a window in the SCA field.",
-      "links": [
-        {
-          "label": "CRL ↗ 2025/11",
-          "url": "https://www.prnewswire.com/news-releases/fda-issues-complete-response-letter-for-biohavens-vyglxia-troriluzole-new-drug-application-for-spinocerebellar-ataxia-302604884.html"
-        },
-        {
-          "label": "R&D↓60% ↗ 2026/02",
-          "url": "https://www.biospace.com/business/biohaven-cuts-r-d-spending-by-60-after-fda-rejection-of-drug-for-rare-neurodegenerative-disease"
         }
       ]
     }

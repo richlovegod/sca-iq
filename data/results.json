@@ -234,7 +234,7 @@
     "dateDisplay": "2020 論文 · 2023/07 撤件",
     "competitor": "Kissei",
     "drug": "Rovatirelin (KPS-0373)",
-    "trial": "兩項 Ph3（KPS1301/1305）· 追加 NCT02889302",
+    "trial": "兩項 Ph3（KPS1301／NCT02889302，n=203）· 撤件後第三次 Ph3 NCT07040137",
     "sourceType": "論文",
     "level": "win",
     "readout": "兩項雙盲 Ph3 於以小腦症狀為主的脊髓小腦退化（含 SCA6/SCA31/皮質小腦萎縮），SARA 總分相對安慰劑未達統計顯著，僅在「軀幹+肢體共濟失調」合併次族群顯示潛在效益。Kissei 2021/12 遞交藥證、PMDA 認為難核准，2023/07/19 撤回申請並啟動追加 Ph3。",
@@ -245,14 +245,18 @@
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7035688/"
       },
       {
-        "label": "ClinicalTrials NCT02889302（追加 Ph3）",
+        "label": "ClinicalTrials NCT02889302（第二項 Ph3）",
         "url": "https://clinicaltrials.gov/study/NCT02889302"
+      },
+      {
+        "label": "第三次 Ph3 ↗ NCT07040137",
+        "url": "https://clinicaltrials.gov/study/NCT07040137"
       }
     ],
     "en": {
       "competitor": "Kissei",
       "dateDisplay": "2020 paper · withdrawn 2023/07",
-      "trial": "Two Ph3 trials (KPS1301/1305) · additional NCT02889302",
+      "trial": "Two Ph3 trials (KPS1301 / NCT02889302, n=203) · a third Ph3, NCT07040137, after the withdrawal",
       "sourceType": "Paper",
       "readout": "Two double-blind Ph3 trials in spinocerebellar degeneration dominated by cerebellar symptoms (including SCA6, SCA31 and cortical cerebellar atrophy) failed to show a statistically significant benefit on total SARA versus placebo, with potential benefit only in a combined truncal-plus-limb ataxia subgroup. Kissei filed for approval in 2021/12; PMDA saw approval as unlikely, and the application was withdrawn on 2023/07/19 with an additional Ph3 initiated.",
       "implication": "→ Another symptomatic-treatment rival missed its Ph3 primary endpoint and stalled in Japan, showing how hard a single Ph3 is to hit in SCA. It targets SCA6/31 with a different mechanism from Stemchymal, so the read-across is indirect.",
@@ -262,8 +266,12 @@
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7035688/"
         },
         {
-          "label": "ClinicalTrials NCT02889302 (additional Ph3)",
+          "label": "ClinicalTrials NCT02889302 (second Ph3)",
           "url": "https://clinicaltrials.gov/study/NCT02889302"
+        },
+        {
+          "label": "Third Ph3 ↗ NCT07040137",
+          "url": "https://clinicaltrials.gov/study/NCT07040137"
         }
       ]
     }

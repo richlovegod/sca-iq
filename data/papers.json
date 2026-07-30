@@ -578,5 +578,59 @@
       "note": "",
       "urlLabel": "Paper ↗ PMC5657707"
     }
+  },
+  {
+    "id": "pubmed:42509533",
+    "date": "2026-07-27",
+    "dateDisplay": "2026/07/27",
+    "title": "Spatial analysis of paraneoplastic cerebellar degeneration in ovarian cancer with anti-Yo syndrome and SCA1",
+    "journal": "J Neurol · Künzle T 等（巴黎腦研究所／索邦大學）",
+    "tag": "SCA1 影像·免疫性退化對照",
+    "note": "→ 同一套小腦形態學比較自體免疫（anti-Yo，n=11）與遺傳性（SCA1，n=17）退化、對照 17 名健康者：免疫型呈前側小腦皮質顯著變薄，SCA1 為較輕的後側萎縮，區域特徵在機器學習下可區辨兩組。對以發炎／免疫調節為機轉的療法界定適用族群與影像終點有參考價值。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42509533/",
+    "urlLabel": "論文 ↗ PubMed 42509533",
+    "en": {
+      "tag": "SCA1 imaging · immune-mediated comparison",
+      "journal": "J Neurol · Künzle T et al. (Paris Brain Institute / Sorbonne University)",
+      "note": "→ One cerebellar morphometry framework applied to autoimmune (anti-Yo, n=11) and genetic (SCA1, n=17) degeneration against 17 healthy controls: the immune-mediated group showed pronounced anterior cortical thinning while SCA1 showed milder posterior atrophy, and regional features separated the groups under machine learning. Useful for defining the treatable population and imaging endpoints for therapies acting through inflammation or immune modulation.",
+      "urlLabel": "Paper ↗ PubMed 42509533"
+    }
+  },
+  {
+    "id": "pubmed:42512530",
+    "date": "2026-07-17",
+    "dateDisplay": "2026/07/17",
+    "title": "How Early Should I Refer My Patient? The Benefits of a Quick Ophthalmic Referral in Spinocerebellar Ataxias, a Case Series and Literature Review",
+    "journal": "Brain Sci · Fiscal-Carvajal AB 等（墨西哥新萊昂自治大學）",
+    "tag": "SCA 診斷延遲·眼科線索",
+    "note": "→ 三例步態障礙病人最終確診 SCA2、SCA7 與 SCAR32，均歷經數年多次就診才確診；文獻回顧歸納五項可快速縮小亞型鑑別的臨床線索（巨斑病變、視神經受累、紅斑角化症、聽力損失、失智）。<b>診斷延遲直接壓縮可收案的早期病人池</b>，與收案速度相關。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42512530/",
+    "urlLabel": "論文 ↗ PubMed 42512530",
+    "en": {
+      "tag": "SCA diagnostic delay · ophthalmic clues",
+      "journal": "Brain Sci · Fiscal-Carvajal AB et al. (Universidad Autónoma de Nuevo León, Mexico)",
+      "note": "→ Three patients presenting with gait disturbance were eventually diagnosed with SCA2, SCA7 and SCAR32, all after years of repeated consultations; the accompanying review distils five clinical clues that quickly narrow the subtype differential (macular anomalies, optic nerve involvement, erythrokeratodermia, hearing loss, dementia). <b>Diagnostic delay directly shrinks the pool of early patients available to enrol</b>, so it bears on recruitment speed.",
+      "urlLabel": "Paper ↗ PubMed 42512530"
+    }
+  },
+  {
+    "id": "pubmed:42516548",
+    "date": "2026-07-13",
+    "dateDisplay": "2026/07/13",
+    "title": "Diagnostic redirection in dementia-first spinocerebellar ataxia type 17: a family-based case report and focused literature review",
+    "journal": "Front Neurosci · Zhang S 等（湖北中醫藥大學／武漢市第一醫院）",
+    "tag": "SCA17 表現型譜",
+    "note": "→ 以失智為首發表現的 SCA17 家族案例（TBP 重複 37／51，無症狀女兒亦帶 51 重複），併 25 篇文獻回顧：發病年齡與 TBP 重複數變異大，表現橫跨認知主導、行為、亨丁頓樣、帕金森樣與癲癇型。提醒<b>以運動症狀為主的收案條件可能系統性漏掉部分亞型病人</b>。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42516548/",
+    "urlLabel": "論文 ↗ PubMed 42516548",
+    "en": {
+      "tag": "SCA17 phenotype spectrum",
+      "journal": "Front Neurosci · Zhang S et al. (Hubei University of Chinese Medicine / Wuhan No. 1 Hospital)",
+      "note": "→ A family case of SCA17 presenting dementia-first (TBP alleles 37/51, with an asymptomatic daughter also carrying the 51-repeat allele) plus a review of 25 studies: age at onset and TBP repeat size vary widely, and presentations span cognition-dominant, behavioural, Huntington-like, parkinsonian and seizure-associated forms. A reminder that <b>eligibility criteria anchored on motor symptoms can systematically miss part of the subtype population</b>.",
+      "urlLabel": "Paper ↗ PubMed 42516548"
+    }
   }
 ]

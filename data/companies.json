@@ -309,23 +309,58 @@
     "country": "日本 Japan",
     "ticker": "TSE: 4547",
     "mechanism": "小分子（TRH 類似物，症狀治療）",
-    "pipeline": "Rovatirelin（KPS-0373）｜脊髓小腦退化（SCA6/31 等）：兩項 Ph3 主終點未達，日本藥證 2023/07 撤回、啟動追加 Ph3",
-    "insight": "症狀治療型對手，機轉與 Stemchymal 不同、屬間接參考。其 Ph3 失利反映 SCA 單一 Ph3 達標之難。",
-    "threat": "low",
+    "pipeline": "Rovatirelin（KPS-0373）｜脊髓小腦退化 SCD（含 SCA6／SCA31／皮質小腦萎縮）：日本藥證 2021/12 遞交、2023/07 撤回，2025/07 起執行第三次 Ph3 確認試驗（NCT07040137，n=142，主要指標 SARA，估 2027/03 主要完成）",
+    "insight": "症狀治療型對手，機轉（TRH 類似物）與 Stemchymal 不同、療效讀出屬間接參考；但監管上高度相關——同為 PMDA、同以 SARA 為主要量表、日本 SCD 市場範疇與本社 SCA3/6 承認申請重疊。PMDA 當年以「現有資料難以核准」要求補做第三個 Ph3，是日本 SCD 療效證據門檻最直接的公開案例。",
+    "threat": "mid",
     "url": "https://www.kissei.co.jp/e_contents/",
     "match": [
       "Kissei",
       "Rovatirelin",
       "KPS-0373"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "date": "2021/12",
+        "text": "日本遞交 rovatirelin 藥證申請"
+      },
+      {
+        "date": "2023/07",
+        "text": "PMDA 認為現有資料難核准，撤回申請"
+      },
+      {
+        "date": "2025/03",
+        "text": "宣布啟動追加 Ph3"
+      },
+      {
+        "date": "2025/07",
+        "text": "第三次 Ph3 確認試驗（NCT07040137）開始收案"
+      }
+    ],
     "en": {
       "name": "Kissei Pharmaceutical",
       "short": "Kissei",
       "country": "Japan",
       "mechanism": "Small molecule (TRH analogue, symptomatic treatment)",
-      "pipeline": "Rovatirelin (KPS-0373) | spinocerebellar degeneration (SCA6/31 etc.): two Ph3 trials missed their primary endpoint, the Japanese application was withdrawn in 2023/07 and an additional Ph3 started",
-      "insight": "A symptomatic-treatment rival with a different mechanism from Stemchymal, so the read-across is indirect. Its Ph3 failure shows how hard a single Ph3 is to hit in SCA."
+      "pipeline": "Rovatirelin (KPS-0373) | spinocerebellar degeneration (SCD, covering SCA6, SCA31 and cortical cerebellar atrophy): filed in Japan 2021/12, withdrawn 2023/07, and running a third Ph3 confirmatory study since 2025/07 (NCT07040137, n=142, SARA primary endpoint, primary completion estimated 2027/03)",
+      "insight": "A symptomatic-treatment rival whose mechanism (a TRH analogue) differs from Stemchymal, so the efficacy read-across is indirect — but the regulatory overlap is close: the same regulator (PMDA), the same primary scale (SARA), and a Japanese SCD market scope that overlaps Steminent's SCA3/6 application. The PMDA's view that the existing data could not support approval, and the resulting demand for a third Ph3, is the most direct public case study of Japan's evidence bar in SCD.",
+      "updates": [
+        {
+          "date": "2021/12",
+          "text": "Filed the Japanese application for rovatirelin"
+        },
+        {
+          "date": "2023/07",
+          "text": "Withdrew the application after the PMDA said approval was unlikely on existing data"
+        },
+        {
+          "date": "2025/03",
+          "text": "Announced an additional Ph3"
+        },
+        {
+          "date": "2025/07",
+          "text": "Third Ph3 confirmatory study (NCT07040137) began recruiting"
+        }
+      ]
     },
     "cat": "sca"
   },

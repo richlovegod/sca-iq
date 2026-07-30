@@ -224,7 +224,7 @@
     "mechanism": "小分子<br>老藥新用",
     "indication": "<b>SCA27B</b><br>(FGF14 GAA 重複)",
     "phase": "註冊型試驗",
-    "status": "2025/03/28 宣布 SCA27B <b>註冊型（pivotal-powered）臨床試驗</b>，與多家共濟失調卓越中心合作；部分經費來自 CDMRP 對 UCLA <b>Susan Perlman</b> 醫師的 $7.3M 補助——<b style=\"color:#ffce7a\">與本社美國二期為同一位主持人</b>。SCA27B 目前無 FDA 核准療法。與本社 SCA3/6 不同亞型，但若先取證將成為 SCA 領域首個核准藥。",
+    "status": "2025/03/28 宣布 SCA27B <b>註冊型（pivotal-powered）臨床試驗</b>，與多家共濟失調卓越中心合作；部分經費來自 CDMRP 對 UCLA <b>Susan Perlman</b> 醫師的 $7.3M 補助——<b style=\"color:#ffce7a\">與本社美國二期為同一位主持人</b>。SCA27B 目前無 FDA 核准療法。與本社 SCA3/6 不同亞型，但若先取證將成為 SCA 領域首個核准藥。 <b style=\"color:#ffce7a\">2026/02/23 與 Alvogen 簽訂全球授權</b>：Alvogen 取得 SLX-100 於 SCA27B 的全球開發與商業化權利（美國以 Almatica 品牌），付予前期款＋里程碑款合計最高 9,500 萬美元＋兩位數銷售權利金；Solaxa 表示註冊型試驗擬於 2026 年中啟動、資料支持 2027 遞交 NDA。<b>另有同分子平行讀出</b>：法國 AP-HP 主導的學術 Ph3（NCT07185347）以 fampridine（4-AP 緩釋 10mg 每日兩次、12 週、n=70、法國 9 中心）治療 SCA27B，2025/10 起收案、主要完成估 2027/05，可能先於 Solaxa 產出 4-AP 在 SCA27B 的隨機對照證據。",
     "threatLabel": "中(SCA27B)",
     "links": [
       {
@@ -234,6 +234,14 @@
       {
         "label": "Ataxia UK 報導 ↗",
         "url": "https://www.ataxia.org.uk/research-news/solaxa-announces-plan-for-phase-3-clinical-trial-for-sca27b/"
+      },
+      {
+        "label": "Alvogen 全球授權 ↗ 2026/02",
+        "url": "https://www.alvogen.com/newsroom/solaxa-alvogen-agreement"
+      },
+      {
+        "label": "學術平行試驗 ↗ NCT07185347",
+        "url": "https://clinicaltrials.gov/study/NCT07185347"
       }
     ],
     "en": {
@@ -241,7 +249,7 @@
       "mechanism": "Small molecule<br>drug repurposing",
       "indication": "<b>SCA27B</b><br>(FGF14 GAA repeat)",
       "phase": "Registrational trial",
-      "status": "On 2025/03/28 Solaxa announced a <b>registrational (pivotal-powered) trial</b> in SCA27B run with leading ataxia centres of excellence; it is funded in part by a $7.3M CDMRP grant to Dr <b>Susan Perlman</b> at UCLA — <b style=\"color:#ffce7a\">the same principal investigator as Steminent's US Phase 2</b>. There is no FDA-approved therapy for SCA27B. A different subtype from Steminent's SCA3/6, but the first to reach approval would become the first approved drug in SCA.",
+      "status": "On 2025/03/28 Solaxa announced a <b>registrational (pivotal-powered) trial</b> in SCA27B run with leading ataxia centres of excellence; it is funded in part by a $7.3M CDMRP grant to Dr <b>Susan Perlman</b> at UCLA — <b style=\"color:#ffce7a\">the same principal investigator as Steminent's US Phase 2</b>. There is no FDA-approved therapy for SCA27B. A different subtype from Steminent's SCA3/6, but the first to reach approval would become the first approved drug in SCA. <b style=\"color:#ffce7a\">A global licence with Alvogen was signed on 2026/02/23</b>: Alvogen takes worldwide development and commercialisation rights to SLX-100 in SCA27B (marketed in the US under its Almatica label) for an upfront payment plus milestones of up to $95 million in aggregate and double-digit royalties; Solaxa says registrational studies should begin around mid-2026 with data supporting an NDA filing in 2027. <b>There is also a parallel readout on the same molecule</b>: an academic Ph3 led by AP-HP in France (NCT07185347) is testing fampridine (prolonged-release 4-AP 10 mg twice daily for 12 weeks, n=70, nine French centres) in SCA27B, recruiting since 2025/10 with primary completion estimated 2027/05, and could produce randomised evidence for 4-AP in SCA27B before Solaxa does.",
       "threatLabel": "Mid (SCA27B)",
       "links": [
         {
@@ -251,6 +259,63 @@
         {
           "label": "Ataxia UK coverage ↗",
           "url": "https://www.ataxia.org.uk/research-news/solaxa-announces-plan-for-phase-3-clinical-trial-for-sca27b/"
+        },
+        {
+          "label": "Alvogen global licence ↗ 2026/02",
+          "url": "https://www.alvogen.com/newsroom/solaxa-alvogen-agreement"
+        },
+        {
+          "label": "Parallel academic trial ↗ NCT07185347",
+          "url": "https://clinicaltrials.gov/study/NCT07185347"
+        }
+      ]
+    }
+  },
+  {
+    "id": "kissei",
+    "ring": "sca",
+    "threat": "mid",
+    "company": "Kissei 橘生製藥（日本，TSE: 4547）",
+    "asset": "Rovatirelin（KPS-0373）",
+    "mechanism": "口服小分子<br>TRH 類似物<br>促進乙醯膽鹼與單胺釋放",
+    "indication": "脊髓小腦退化 SCD<br>（日本適應症範疇含 <b>SCA6</b>／SCA31／皮質小腦萎縮）",
+    "phase": "Ph3（第三次確認試驗）",
+    "status": "<b style=\"color:#ffce7a\">日本本土症狀治療對手，藥證撤回後已重啟樞紐試驗</b>。兩項 Ph3 合併分析下 SARA 改善優於安慰劑（<b>公司公告</b>：2.4mg 組改善 1.64 分 vs 安慰劑 1.03 分，JNNP 2020），惟 2021/12 遞交日本藥證後 PMDA 表示「以現有臨床資料難以核准」，<b style=\"color:#ff8a7a\">2023/07/19 撤回申請</b>。2025/03 宣布追加試驗，<b style=\"color:#ffce7a\">2026/07 掃描確認已登錄 NCT07040137「第三次 Ph3 確認試驗」</b>：日本多中心、隨機雙盲安慰劑對照、每日一次口服 24 週、n=142、<b>主要指標＝SARA 總分自基線變化</b>，2025/07 起收案、主要完成估 2027/03。<b>與本社日本承認申請面對同一監管機關、同一主要量表、市場範疇重疊</b>——是 PMDA 對 SCD 療效證據門檻最直接的公開參照。",
+    "threatLabel": "中(日本·SARA)",
+    "links": [
+      {
+        "label": "追加 Ph3 公告 ↗ 2025/03",
+        "url": "https://www.kissei.co.jp/e_contents/news/2025/20250314-5015.html"
+      },
+      {
+        "label": "藥證撤回公告 ↗ 2023/07",
+        "url": "https://www.kissei.co.jp/e_contents/news/2023/20230719-4670.html"
+      },
+      {
+        "label": "試驗 ↗ NCT07040137",
+        "url": "https://clinicaltrials.gov/study/NCT07040137"
+      }
+    ],
+    "en": {
+      "company": "Kissei Pharmaceutical (Japan, TSE: 4547)",
+      "asset": "Rovatirelin (KPS-0373)",
+      "mechanism": "Oral small molecule<br>TRH analogue<br>promotes acetylcholine and monoamine release",
+      "indication": "Spinocerebellar degeneration (SCD)<br>(the Japanese indication category covers <b>SCA6</b>, SCA31 and cortical cerebellar atrophy)",
+      "phase": "Ph3 (third confirmatory study)",
+      "status": "<b style=\"color:#ffce7a\">A Japan-based symptomatic-treatment rival that has restarted its pivotal programme after withdrawing its application.</b> A pooled analysis of two Ph3 trials showed greater SARA improvement than placebo (<b>company statement</b>: 1.64 points on 2.4 mg vs 1.03 on placebo; JNNP 2020), but after filing in Japan in 2021/12 the PMDA said approval would be difficult on the existing clinical data and the <b style=\"color:#ff8a7a\">application was withdrawn on 2023/07/19</b>. An additional study was announced in 2025/03 and the <b style=\"color:#ffce7a\">2026/07 sweep confirmed it is now registered as NCT07040137, a \"third Ph3 confirmatory study\"</b>: multicentre in Japan, randomised, double-blind and placebo-controlled, dosed orally once daily for 24 weeks, n=142, with <b>change from baseline in total SARA as the primary endpoint</b>; recruiting since 2025/07, primary completion estimated 2027/03. <b>It faces the same regulator, the same primary scale and an overlapping market scope as Steminent's Japanese application</b> — the most direct public reference for the PMDA's evidence bar in SCD.",
+      "threatLabel": "Mid (Japan, SARA)",
+      "links": [
+        {
+          "label": "Additional Ph3 announcement ↗ 2025/03",
+          "url": "https://www.kissei.co.jp/e_contents/news/2025/20250314-5015.html"
+        },
+        {
+          "label": "Application withdrawal ↗ 2023/07",
+          "url": "https://www.kissei.co.jp/e_contents/news/2023/20230719-4670.html"
+        },
+        {
+          "label": "Trial ↗ NCT07040137",
+          "url": "https://clinicaltrials.gov/study/NCT07040137"
         }
       ]
     }

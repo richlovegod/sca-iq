@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-30",
+    "dateDisplay": "2026/07/30",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "<b>補收長期漏掉的日本競品 Kissei 橘生製藥 rovatirelin（KPS-0373）之現行樞紐試驗</b>：藥證 2023/07 撤回後重啟的第三次 Ph3 確認試驗已登錄 <b>NCT07040137</b>（日本多中心、隨機雙盲安慰劑對照、n=142、24 週、主要指標 SARA 總分，2025/07 起收案、估 2027/03 主要完成）——同一監管機關、同一主要量表、市場範疇與本社日本承認申請重疊，威脅等級由「低」調整為「中」，並新增競品全景一列、更新公司情報卡與試驗結果讀出。另補收 <b>SCA27B 學術 Ph3（NCT07185347）</b>：法國 AP-HP 以 fampridine（4-AP 緩釋 10mg BID、12 週、n=70、9 中心）治療 SCA27B，與 Solaxa SLX-100 同分子；同步補上 <b>Solaxa 2026/02 與 Alvogen 的全球授權</b>（最高 9,500 萬美元里程碑＋兩位數權利金）。另收 Larimar 兒童 FA 之 Ph1（NCT06681766，登錄狀態「終止」但理由為行政性轉入開放標籤，非安全性問題）。新增 3 則科學文獻：anti-Yo 免疫性小腦退化 vs SCA1 之小腦形態學比較（巴黎腦研究所）、SCA 診斷延遲與五項眼科鑑別線索（墨西哥）、以失智為首發的 SCA17 家族案例與表現型譜回顧。",
+    "link": {
+      "label": "詳見 臨床試驗雷達 ↗",
+      "tab": "si",
+      "anchor": "trialradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "<b>Captured the current pivotal trial of a long-missed Japanese competitor, Kissei Pharmaceutical's rovatirelin (KPS-0373)</b>: the third Ph3 confirmatory study it restarted after withdrawing its Japanese application in 2023/07 is registered as <b>NCT07040137</b> (multicentre in Japan, randomised, double-blind, placebo-controlled, n=142 over 24 weeks, total SARA as the primary endpoint, recruiting since 2025/07 with primary completion estimated 2027/03). Same regulator, same primary scale and a market scope overlapping Steminent's Japanese application, so its threat level moves from low to mid; a competitor-landscape row was added and the company card and results readout were updated. Also captured the <b>academic SCA27B Ph3 (NCT07185347)</b>, in which AP-HP in France is testing fampridine (prolonged-release 4-AP 10 mg twice daily for 12 weeks, n=70, nine centres) — the same molecule as Solaxa's SLX-100 — and filled in <b>Solaxa's 2026/02 global licence with Alvogen</b> (milestones of up to $95 million plus double-digit royalties). Larimar's paediatric FA Ph1 (NCT06681766) was added as well, noting that its TERMINATED status is administrative — participants moved directly into the open-label study — not a safety issue. Three papers were added: a cerebellar-morphometry comparison of anti-Yo immune-mediated degeneration versus SCA1 (Paris Brain Institute), diagnostic delay in SCA with five ophthalmic differentiating clues (Mexico), and a dementia-first SCA17 family case with a phenotype-spectrum review.",
+      "linkLabel": "See Clinical Trial Radar ↗"
+    }
+  },
+  {
     "date": "2026-07-29",
     "dateDisplay": "2026/07/29",
     "tag": "每日掃描",
