@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42527844",
+    "date": "2026-07-29",
+    "dateDisplay": "2026/07/29",
+    "title": "Understanding Hereditary Ataxias: A Historical Quest for Definition and Classification",
+    "journal": "Movement Disorders · Coutinho L, Camargo CHF, Teive HAG（巴西巴拉那聯邦大學臨床醫院神經疾病研究群）",
+    "tag": "遺傳性共濟失調 · 分類架構",
+    "note": "→ 回顧兩世紀來遺傳性共濟失調分類的演變：從解剖描述走向以基因為本的架構，Gordon Holmes、Joseph Greenfield 與 Anita Harding 依序形塑此領域，其中 Harding 於 1980 年代提出的遺傳模式分類法直接促成 SCA1 等致病基因的發現。作者指出<b>現行分類在臨床上仍然受限——實質上是不斷加長的基因清單，對診斷與治療決策提供的指引有限</b>；體染色體隱性小腦共濟失調的命名標準化雖有改善，但表型異質性與術語不一致仍未解決。記錄價值：分類混亂正是 SCA 臨床試驗難以定義同質族群的上游原因，也是跨亞型（SCA1/2/3/6）共通機轉療法在納入條件設計上相對有利的背景。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42527844/",
+    "urlLabel": "論文 ↗ PubMed 42527844",
+    "en": {
+      "tag": "Hereditary ataxia · classification framework",
+      "journal": "Movement Disorders · Coutinho L, Camargo CHF, Teive HAG (Neurological Diseases Group, Hospital de Clinicas, Federal University of Parana, Brazil)",
+      "note": "→ A review of how hereditary ataxia classification has evolved over two centuries, moving from anatomical description toward genetically informed frameworks shaped in turn by Gordon Holmes, Joseph Greenfield and Anita Harding, whose inheritance-based model in the 1980s directly enabled identification of causative genes such as SCA1. The authors argue that <b>current classifications remain clinically limited — in practice an ever-growing gene list offering little guidance for diagnostic or therapeutic decisions</b>; standardisation for autosomal recessive cerebellar ataxias has improved clarity but phenotypic variability and inconsistent terminology remain unresolved. Why it is recorded: classification disorder is the upstream reason SCA trials struggle to define homogeneous populations, and it is the backdrop against which therapies acting on mechanisms shared across subtypes (SCA1/2/3/6) have an easier time designing eligibility criteria.",
+      "urlLabel": "Paper ↗ PubMed 42527844"
+    }
+  },
+  {
     "id": "pubmed:42513188",
     "date": "2026-07-17",
     "dateDisplay": "2026/07/17",

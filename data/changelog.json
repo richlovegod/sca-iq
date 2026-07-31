@@ -4,14 +4,14 @@
     "dateDisplay": "2026/07/31",
     "tag": "系統上線",
     "level": "win",
-    "body": "新增「合作機會」分頁與市場覆蓋地圖：涵蓋 12 個目標市場、三層對象共 68 家的逐家合作分析。公司層由 45 家擴充至 70 家，補進仲恩既有價值鏈成員（Cyto-Facto、Terumo BCT、Histocell）、台灣 6 家再生醫療同業，以及先前完全空白的國際製造生態系。另查證具名兩筆原本匿名的細胞治療對手：賽萊拉 Sclnow（中國，NCT03378414，Ph2、n=45、涵蓋 SCA1/2/3/6）與全新發現的 Biocells Medical（波蘭，NCT07467733，Ph1/2、n=90、鞘內＋鼻內給藥）——後者因登錄病名寫作 spinocerebellar palsy，先前的關鍵字掃描未命中，掃描條件已據此擴充。⚠️ 合作對象分析原訂維持內部、不上公開站，經重新拍板改為公開發布。",
+    "body": "新增「合作機會」分頁與市場覆蓋地圖：涵蓋 12 個目標市場、三層對象共 68 家的逐家合作分析。公司層由 45 家擴充至 70 家，補進仲恩既有價值鏈成員（Cyto-Facto、Terumo BCT、Histocell）、台灣 6 家再生醫療同業，以及先前完全空白的國際製造生態系。另查證具名兩筆原本匿名的細胞治療對手：賽萊拉 Sclnow（中國，NCT03378414，Ph2、n=45、涵蓋 SCA1/2/3/6）與全新發現的 Biocells Medical（波蘭，NCT07467733，Ph1/2、n=90、鞘內＋鼻內給藥）——後者因登錄病名寫作 spinocerebellar palsy，先前的關鍵字掃描未命中，掃描條件已據此擴充。⚠️ 合作對象分析原訂維持內部、不上公開站，經重新拍板改為公開發布。 當日第二輪掃描另補收 1 則文獻（Movement Disorders 遺傳性共濟失調分類架構回顧）。",
     "link": {
       "label": "詳見 合作機會 ↗",
       "tab": "pa"
     },
     "en": {
       "tag": "Release",
-      "body": "Added a Partnering tab and a market coverage map: a company-by-company partnering assessment covering 68 companies across 12 target markets and three layers. The company layer grew from 45 to 70, adding Steminent's existing value-chain members (Cyto-Facto, Terumo BCT, Histocell), six Taiwanese regenerative medicine peers, and an international manufacturing ecosystem that had been entirely absent. Two previously anonymous cell therapy rivals were also identified: Sclnow of China (NCT03378414, Ph2, n=45, covering SCA1/2/3/6) and the newly discovered Biocells Medical of Poland (NCT07467733, Ph1/2, n=90, intrathecal plus intranasal) — the latter had been missed because its registry entry names the condition spinocerebellar palsy, and the scan criteria have been widened accordingly. Note that the partnering analysis was originally to be kept internal and off the public site; that decision was revisited and it is now published.",
+      "body": "Added a Partnering tab and a market coverage map: a company-by-company partnering assessment covering 68 companies across 12 target markets and three layers. The company layer grew from 45 to 70, adding Steminent's existing value-chain members (Cyto-Facto, Terumo BCT, Histocell), six Taiwanese regenerative medicine peers, and an international manufacturing ecosystem that had been entirely absent. Two previously anonymous cell therapy rivals were also identified: Sclnow of China (NCT03378414, Ph2, n=45, covering SCA1/2/3/6) and the newly discovered Biocells Medical of Poland (NCT07467733, Ph1/2, n=90, intrathecal plus intranasal) — the latter had been missed because its registry entry names the condition spinocerebellar palsy, and the scan criteria have been widened accordingly. Note that the partnering analysis was originally to be kept internal and off the public site; that decision was revisited and it is now published. A second scan pass the same day added one further paper (a Movement Disorders review of hereditary ataxia classification frameworks).",
       "linkLabel": "See Partnering ↗"
     }
   },
