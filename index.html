@@ -26,6 +26,19 @@
   @media (max-width:900px){ nav button{font-size:12.5px;padding:10px 9px} }
   nav button:hover{color:#cfe0f2}
   nav button.on{color:#4da3ff;border-bottom-color:#4da3ff}
+  /* 搜尋框元件（原本 5 處各自複製一份 inline style，且圖示塞在 placeholder 裡會被截斷） */
+  .searchbox{display:flex;align-items:center;gap:10px;margin:0 0 13px;flex-wrap:wrap}
+  .searchwrap{position:relative;flex:1;min-width:180px;display:flex;align-items:center}
+  .sico{position:absolute;left:11px;width:14px;height:14px;stroke:#6a7c92;stroke-width:1.7;fill:none;stroke-linecap:round;pointer-events:none;transition:stroke .15s}
+  .searchwrap:focus-within .sico{stroke:#4da3ff}
+  .search{width:100%;background:#0f1a26;border:1px solid #2b3a4d;color:#e6edf3;font-size:13px;font-family:inherit;padding:9px 32px 9px 33px;border-radius:8px;outline:none;transition:border-color .15s,box-shadow .15s,background .15s}
+  .search::placeholder{color:#5a6b82}
+  .search:hover{border-color:#3a4d63}
+  .search:focus{border-color:#4da3ff;background:#12202e;box-shadow:0 0 0 3px rgba(77,163,255,.14)}
+  .sclear{position:absolute;right:6px;display:none;background:none;border:none;color:#6a7c92;font-size:12px;cursor:pointer;padding:5px 7px;border-radius:5px;line-height:1;font-family:inherit}
+  .sclear:hover{color:#e6edf3;background:#22303f}
+  .searchwrap.has .sclear{display:block}
+  .scount{font-size:11.5px;color:#6a7c92;white-space:nowrap}
   .panel{display:none;padding-top:24px}
   .panel.on{display:block}
   .card{background:#141f2c;border:1px solid #243748;border-radius:10px;padding:18px 20px;margin-bottom:18px}
@@ -419,9 +432,9 @@
       <button onclick="setResultsFilter('研討會摘要',this)"><span class="i18n zh">研討會摘要</span><span class="i18n en">Conference abstract</span></button>
       <button onclick="setResultsFilter('新聞稿',this)"><span class="i18n zh">新聞稿</span><span class="i18n en">Press release</span></button>
     </div>
-    <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
-      <input id="resultsSearch" placeholder="🔍 搜尋競品／藥物／結果…" oninput="renderResults()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
-      <span id="resultsCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+    <div class="searchbox">
+      <span class="searchwrap"><svg class="sico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.7"/><line x1="10.2" y1="10.2" x2="14" y2="14"/></svg><input class="search" id="resultsSearch" placeholder="搜尋競品／藥物／結果…" oninput="renderResults()"><button class="sclear" onclick="sclr(this)" title="clear" aria-label="clear">✕</button></span>
+      <span class="scount" id="resultsCount"></span>
     </div>
     <ul class="digest" id="resultsList"></ul>
   </div>
@@ -455,9 +468,9 @@
       <button onclick="setBmRegion('kr',this)"><span class="i18n zh">韓國</span><span class="i18n en">South Korea</span></button>
       <button onclick="setBmRegion('us',this)"><span class="i18n zh">美國／澳洲</span><span class="i18n en">US / Australia</span></button>
     </div>
-    <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
-      <input id="bmSearch" placeholder="🔍" oninput="renderBenchmarks()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
-      <span id="bmCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+    <div class="searchbox">
+      <span class="searchwrap"><svg class="sico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.7"/><line x1="10.2" y1="10.2" x2="14" y2="14"/></svg><input class="search" id="bmSearch" placeholder="" oninput="renderBenchmarks()"><button class="sclear" onclick="sclr(this)" title="clear" aria-label="clear">✕</button></span>
+      <span class="scount" id="bmCount"></span>
     </div>
     <ul class="digest" id="bmList"></ul>
   </div>
@@ -489,9 +502,9 @@
   <div class="grid2">
     <div class="card" id="litradar" style="scroll-margin-top:16px">
       <h2><span class="i18n zh">◎ 文獻雷達 (Literature Radar) · 近期關鍵論文</span><span class="i18n en">◎ Literature Radar · recent key papers</span></h2>
-      <div style="display:flex;gap:8px;margin:-4px 0 10px;flex-wrap:wrap;align-items:center">
-        <input id="paperSearch" placeholder="🔍 搜尋標題／期刊／分類…" oninput="renderPapers()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
-        <span id="paperCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+      <div class="searchbox" style="margin-top:-4px">
+        <span class="searchwrap"><svg class="sico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.7"/><line x1="10.2" y1="10.2" x2="14" y2="14"/></svg><input class="search" id="paperSearch" placeholder="搜尋標題／期刊／分類…" oninput="renderPapers()"><button class="sclear" onclick="sclr(this)" title="clear" aria-label="clear">✕</button></span>
+        <span class="scount" id="paperCount"></span>
       </div>
       <ul class="digest" id="paperList"></ul>
       <div style="text-align:center;margin-top:4px">
@@ -516,18 +529,18 @@
   <div class="card" id="coa" style="scroll-margin-top:16px">
     <h2 id="coaH2">◎ 臨床評估量表 (Clinical Outcome Assessments)</h2>
     <p id="coaIntro" style="font-size:12px;color:#8b9bb0;margin-bottom:10px">SCA 臨床試驗用來量化病情與療效的標準化量表——含原始開發者、驗證、試驗應用與台灣使用狀況。每筆附可查證來源。</p>
-    <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
-      <input id="assessmentSearch" placeholder="🔍 搜尋量表／開發者／關鍵字…" oninput="renderAssessments()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
-      <span id="assessmentCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+    <div class="searchbox">
+      <span class="searchwrap"><svg class="sico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.7"/><line x1="10.2" y1="10.2" x2="14" y2="14"/></svg><input class="search" id="assessmentSearch" placeholder="搜尋量表／開發者／關鍵字…" oninput="renderAssessments()"><button class="sclear" onclick="sclr(this)" title="clear" aria-label="clear">✕</button></span>
+      <span class="scount" id="assessmentCount"></span>
     </div>
     <ul class="digest" id="assessmentList"></ul>
   </div>
   <div class="card" id="nathist" style="scroll-margin-top:16px">
     <h2 id="nhH2">◎ 疾病自然史與病程 (Natural History)</h2>
     <p id="nhIntro" style="font-size:12px;color:#8b9bb0;margin-bottom:10px">SCA 不治療時的自然病程（各亞型 SARA 年惡化速率等）——是療效試驗的對照基準。含關鍵世代研究、研究團隊與台灣資料。每筆附可查證來源。</p>
-    <div style="display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap;align-items:center">
-      <input id="nhSearch" placeholder="🔍 搜尋世代／團隊／亞型…" oninput="renderNaturalHistory()" style="flex:1;min-width:150px;background:#182533;border:1px solid #2b3a4d;color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;font-family:inherit">
-      <span id="nhCount" style="font-size:11px;color:#6a7c92;white-space:nowrap"></span>
+    <div class="searchbox">
+      <span class="searchwrap"><svg class="sico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.7"/><line x1="10.2" y1="10.2" x2="14" y2="14"/></svg><input class="search" id="nhSearch" placeholder="搜尋世代／團隊／亞型…" oninput="renderNaturalHistory()"><button class="sclear" onclick="sclr(this)" title="clear" aria-label="clear">✕</button></span>
+      <span class="scount" id="nhCount"></span>
     </div>
     <ul class="digest" id="nhList"></ul>
   </div>
@@ -553,8 +566,10 @@
       <button onclick="setPaLayer('academic',this)"><span class="i18n zh">學術</span><span class="i18n en">Academic</span></button>
       <button onclick="setPaLayer('rival',this)"><span class="i18n zh">競品</span><span class="i18n en">Rival</span></button>
     </div>
-    <input class="search" id="paSearch" oninput="renderPartnering()">
-    <div id="paCount" style="font-size:11px;color:#6a7c92;margin:2px 0 12px"></div>
+    <div class="searchbox">
+      <span class="searchwrap"><svg class="sico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.7"/><line x1="10.2" y1="10.2" x2="14" y2="14"/></svg><input class="search" id="paSearch" oninput="renderPartnering()"><button class="sclear" onclick="sclr(this)" title="clear" aria-label="clear">✕</button></span>
+      <span class="scount" id="paCount"></span>
+    </div>
     <div id="paList"></div>
   </div>
 </section>
@@ -624,10 +639,10 @@ var I18N={
   coaIntro:{zh:'SCA 臨床試驗用來量化病情與療效的標準化量表——含原始開發者、驗證、試驗應用與台灣使用狀況，並標示每個量表衡量的是「生理病程」還是「生活品質」。每筆附可查證來源。',en:'Standardized scales used in SCA trials to quantify disease and treatment effect — with original developers, validation, trial use and Taiwan status, each tagged as measuring physical disease course vs quality of life. Every entry cites a verifiable source.'},
   nhH2:{zh:'◎ 疾病自然史與病程 (Natural History)',en:'◎ Disease Natural History & Progression'},
   nhIntro:{zh:'SCA 不治療時的自然病程（各亞型 SARA 年惡化速率等）——是療效試驗的對照基準。含關鍵世代研究、研究團隊與台灣資料。每筆附可查證來源。',en:'The untreated natural course of SCA (per-subtype SARA annual progression, etc.) — the comparator baseline for efficacy trials. Includes key cohorts, research groups and Taiwan data. Every entry cites a verifiable source.'},
-  aSearch:{zh:'🔍 搜尋量表／開發者／關鍵字…',en:'🔍 Search scale / developer / keyword…'},
-  nSearch:{zh:'🔍 搜尋世代／團隊／亞型…',en:'🔍 Search cohort / group / subtype…'},
-  pSearch:{zh:'🔍 搜尋標題／期刊／分類…',en:'🔍 Search title / journal / tag…'},
-  rSearch:{zh:'🔍 搜尋競品／藥物／結果…',en:'🔍 Search competitor / drug / readout…'},
+  aSearch:{zh:'搜尋量表／開發者／關鍵字…',en:'Search scale / developer / keyword…'},
+  nSearch:{zh:'搜尋世代／團隊／亞型…',en:'Search cohort / group / subtype…'},
+  pSearch:{zh:'搜尋標題／期刊／分類…',en:'Search title / journal / tag…'},
+  rSearch:{zh:'搜尋競品／藥物／結果…',en:'Search competitor / drug / readout…'},
   measures:{zh:'量測',en:'Measures'},development:{zh:'開發',en:'Development'},validation:{zh:'驗證',en:'Validation'},useInTrials:{zh:'試驗應用',en:'Use in trials'},taiwan:{zh:'台灣',en:'Taiwan'},
   findings:{zh:'關鍵發現',en:'Key findings'},significance:{zh:'意義',en:'Significance'},
   legendPhys:{zh:'<span><span class="dbadge dbadge-phys">生理</span> 病程面向</span><span><span class="dbadge dbadge-qol">PRO/QoL</span> 病人自陳／生活品質</span>',en:'<span><span class="dbadge dbadge-phys">physical</span> disease course</span><span><span class="dbadge dbadge-qol">PRO / QoL</span> patient-reported / quality of life</span>'},
@@ -651,7 +666,7 @@ var I18N={
   thSelf:{zh:'本社',en:'Us'},thHigh:{zh:'高威脅',en:'High threat'},thMid:{zh:'中威脅',en:'Mid threat'},thLow:{zh:'低威脅',en:'Low threat'},
   thBench:{zh:'標竿',en:'Benchmark'},thPartner:{zh:'夥伴',en:'Partner'},
   /* 合作機會 */
-  paSearch:{zh:'🔍 搜尋公司／市場／合作形式…',en:'🔍 Search company / market / form of collaboration…'},
+  paSearch:{zh:'搜尋公司／市場／合作形式…',en:'Search company / market / form of collaboration…'},
   paP1:{zh:'優先序 1 · 現在就該起手',en:'Priority 1 · start now'},
   paP2:{zh:'優先序 2 · 三到六個月',en:'Priority 2 · three to six months'},
   paP3:{zh:'優先序 3 · 觀察與機會型',en:'Priority 3 · watch and opportunistic'},
@@ -691,7 +706,7 @@ var I18N={
   errPatents:{zh:'（專利資料載入失敗）',en:'(failed to load patent data)'},
   errExcl:{zh:'（獨占權資料載入失敗）',en:'(failed to load exclusivity data)'},
   errComp:{zh:'（競品資料載入失敗）',en:'(failed to load competitor data)'},
-  bmSearch:{zh:'🔍 搜尋公司／產品／平台…',en:'🔍 Search company / product / platform…'},
+  bmSearch:{zh:'搜尋公司／產品／平台…',en:'Search company / product / platform…'},
   bmModality:{zh:'模式',en:'Modality'},bmAsset:{zh:'產品',en:'Product'},bmMile:{zh:'法規／商業化里程碑',en:'Regulatory / commercial milestone'},
   bmAlsoLs:{zh:'▸ 亦見競品全景',en:'▸ also in the competitive landscape'},
   errBm:{zh:'（標竿資料載入失敗）',en:'(failed to load benchmark data)'}
@@ -736,6 +751,25 @@ function goTab(id,anchor){
     else{window.scrollTo(0,0);}
   });
 }
+/* ── 搜尋框：清除鈕與有值狀態 ── */
+function sclr(btn){
+  var w=btn.parentElement, i=w.querySelector('.search');
+  if(!i) return;
+  i.value=''; w.classList.remove('has');
+  i.dispatchEvent(new Event('input'));   /* 觸發各分頁原本的 oninput */
+  i.focus();
+}
+(function(){
+  function wire(){
+    document.querySelectorAll('.search').forEach(function(i){
+      var w=i.parentElement;
+      w.classList.toggle('has', !!i.value);
+      i.addEventListener('input', function(){ w.classList.toggle('has', !!i.value); });
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', wire); else wire();
+})();
+
 /* 從 company.html 等外部連結進來時，依 #hash 直接切到對應頁籤 */
 (function(){
   function jump(){
