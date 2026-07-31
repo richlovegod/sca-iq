@@ -175,6 +175,16 @@
   .badge{display:inline-block;font-size:10.5px;padding:2px 9px;border-radius:20px;margin:8px 6px 0 0}
   .b-h{background:#20303f;color:#9fb4cc}.b-risk{background:#183a29;color:#6ee7a0}
   @media(max-width:820px){.grid2{grid-template-columns:1fr}.flow{flex-direction:column}.arrow{transform:rotate(90deg);padding:6px 0}.rmsum{flex-wrap:wrap}.phase{grid-template-columns:1fr}}
+  /* grid/flex 子項預設 min-width:auto，內容撐不下時不會縮 —— 這是窄視窗撐破版面的主因 */
+  .grid2>*,.plrow>*{min-width:0}
+  @media(max-width:760px){
+    .kpi{flex-wrap:wrap}
+    .kpi .box{flex:1 1 calc(50% - 6px);min-width:calc(50% - 6px)}
+    /* 寬表與甘特圖改在自己的容器內橫向捲動，不推擠整頁 */
+    #trialradar,#ganttCard{overflow-x:auto}
+    #trialradar>table,#ganttCard>.plrow{min-width:600px}
+    .plrow{grid-template-columns:130px 1fr}
+  }
   /* SCA 知識庫：語言切換 + 衡量面向 badge */
   .kbtop{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:16px}
   .kblang{display:inline-flex;border:1px solid #2b4a6d;border-radius:20px;overflow:hidden}
@@ -292,6 +302,7 @@
       <button onclick="setThreat('mid',this)"><span class="i18n zh">中威脅</span><span class="i18n en">Mid threat</span></button>
       <button onclick="setThreat('low',this)"><span class="i18n zh">低威脅</span><span class="i18n en">Low threat</span></button>
     </div>
+    <div class="tblbox">
     <table id="lstab">
       <thead><tr>
         <th><span class="i18n zh">公司 / 藥物</span><span class="i18n en">Company / Asset</span><br><span style="font-weight:400;text-transform:none;letter-spacing:0"><span class="i18n zh">（含圈層）</span><span class="i18n en">(with ring)</span></span></th>
@@ -303,6 +314,7 @@
       </tr></thead>
       <tbody id="lsBody"></tbody>
     </table>
+    </div>
     <div style="text-align:right;font-size:11px;color:#6a7c92;margin-top:6px" id="lsShown"></div>
     <p style="font-size:11px;color:#6a7c92;margin-top:10px"><span class="i18n zh">註：Friedreich's Ataxia（鄰近共濟失調圈層）另有 Biogen omaveloxolone 已於 FA 上市，本表未列。威脅等級依「與本社適應症重疊度 × 開發階段」判定，非公司規模。細胞治療與罕病神經的法規／商業化先例見「細胞治療標竿」頁籤。</span><span class="i18n en">Note: in the adjacent-ataxia ring, Biogen's omaveloxolone is already marketed in Friedreich's ataxia and is not listed here. Threat level reflects overlap with our indications × development stage, not company size. Regulatory and commercial precedents in cell therapy and rare neurology are on the Cell Therapy Benchmarks tab.</span></p>
   </div>
@@ -352,7 +364,7 @@
 
 <!-- PIPELINE -->
 <section id="pl" class="panel">
-  <div class="card">
+  <div class="card" id="ganttCard">
     <h2><span class="i18n zh">◎ 臨床開發進度對照 (Pipeline by Phase)</span><span class="i18n en">◎ Pipeline by Phase</span></h2>
     <div class="plrow" style="margin-bottom:6px">
       <div></div>
