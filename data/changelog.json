@@ -2,6 +2,22 @@
   {
     "date": "2026-07-31",
     "dateDisplay": "2026/07/31",
+    "tag": "合作機會",
+    "level": "win",
+    "body": "合作機會頁補齊「學術層」：新增 5 個 SCA 自然史世代聯盟（美國 CRC-SCA／READISCA、台灣台北榮總、歐洲 EUROSCA／RISCA、日本 SCA6、中國 NfL），市場覆蓋地圖中美國與台灣的學術缺口已填上。",
+    "link": {
+      "label": "詳見 合作機會 ↗",
+      "tab": "pa"
+    },
+    "en": {
+      "tag": "Partnering",
+      "body": "Filled the academic layer on the Partnering tab: added 5 SCA natural-history consortia (US CRC-SCA/READISCA, Taiwan's Taipei VGH, Europe's EUROSCA/RISCA, Japan's SCA6, China's NfL), closing the empty US- and Taiwan-academic cells on the market-coverage map.",
+      "linkLabel": "See Partnering ↗"
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "dateDisplay": "2026/07/31",
     "tag": "系統上線",
     "level": "win",
     "body": "新增「合作機會」分頁與市場覆蓋地圖：涵蓋 12 個目標市場、三層對象共 68 家的逐家合作分析。公司層由 45 家擴充至 70 家，補進仲恩既有價值鏈成員（Cyto-Facto、Terumo BCT、Histocell）、台灣 6 家再生醫療同業，以及先前完全空白的國際製造生態系。另查證具名兩筆原本匿名的細胞治療對手：賽萊拉 Sclnow（中國，NCT03378414，Ph2、n=45、涵蓋 SCA1/2/3/6）與全新發現的 Biocells Medical（波蘭，NCT07467733，Ph1/2、n=90、鞘內＋鼻內給藥）——後者因登錄病名寫作 spinocerebellar palsy，先前的關鍵字掃描未命中，掃描條件已據此擴充。⚠️ 合作對象分析原訂維持內部、不上公開站，經重新拍板改為公開發布。 當日第二輪掃描另補收 1 則文獻（Movement Disorders 遺傳性共濟失調分類架構回顧）。",

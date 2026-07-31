@@ -2764,5 +2764,242 @@
         }
       ]
     }
+  },
+  {
+    "id": "crc-sca",
+    "market": "美國 USA",
+    "layer": "academic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "untouched",
+    "fit": "這是仲恩美國 Ph2 單臂設計最直接的外部對照來源。CRC-SCA 是 National Ataxia Foundation 支持、Ashizawa 主持的 17 站學術聯盟，累計逾 1,000 名 SCA1/2/3/6 病人的標準化自然史與生物標記資料；其延伸的 READISCA 由 NIH 資助、專為 SCA1/3 的試驗準備而設計。仲恩要在美國以無安慰劑對照的設計說服 FDA，需要的正是這種可信、可公開引用的疾病進展基準。",
+    "whyNotRival": "學術聯盟不開發療法，產出是資料與方法論，且本質上尋求業界合作分攤世代追蹤成本。更具體的是：Biohaven 已經登錄了一項以自然史資料為外部對照的試驗（NCT06529146）——同一類資料的產業近用模式已經存在，仲恩不是要開一條新路。",
+    "forms": [
+      "取得 SCA3/SCA6 自然史世代資料作為美國 Ph2 的外部對照",
+      "以 READISCA 的試驗準備資料校準終點與收案標準",
+      "循 CRC-SCA 成員站點接觸美國臨床網絡",
+      "生物標記（NfL、影像）方法學對接，讓本社數據與領域基準可比"
+    ],
+    "priorityWhy": "最高優先，因為它直接對應仲恩美國策略最脆弱的一環。單臂試驗若拿不出可信外部對照，療效論述會在審查時被挑戰——Biohaven 的 NDA 就是死在外部對照的偏差。這筆補的不是錦上添花，是補一個會決定成敗的缺口，而且對象在美國、正好填上矩陣裡美國學術＝0 的那格。",
+    "sources": [
+      {
+        "label": "CRC-SCA 自然史/生物標記 (NAF)",
+        "url": "https://www.ataxia.org/crc-sca/"
+      },
+      {
+        "label": "CRC-SCA 生物標記庫 Lin 2025 Cerebellum",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40679685/"
+      },
+      {
+        "label": "以自然史為外部對照之試驗 NCT06529146",
+        "url": "https://clinicaltrials.gov/study/NCT06529146"
+      }
+    ],
+    "en": {
+      "fit": "This is the most direct external-control source for Steminent's single-arm US Phase 2. CRC-SCA is a 17-site academic consortium supported by the National Ataxia Foundation and led by Ashizawa, with standardised natural-history and biomarker data on more than 1,000 SCA1/2/3/6 patients; its READISCA extension is NIH-funded and purpose-built for SCA1/3 trial readiness. To convince the FDA with a placebo-free design in the US, this is exactly the kind of credible, citable disease-progression baseline Steminent needs.",
+      "whyNotRival": "An academic consortium develops no therapies; its output is data and methodology, and it actively seeks industry collaboration to share the cost of cohort follow-up. Concretely: Biohaven has already registered a trial using natural-history data as an external control (NCT06529146) — the industry-access model for this kind of data already exists, so Steminent is not breaking new ground.",
+      "forms": [
+        "Access SCA3/SCA6 natural-history cohort data as the external control for the US Ph2",
+        "Use READISCA's trial-readiness data to calibrate endpoints and enrolment criteria",
+        "Reach the US clinical network through CRC-SCA member sites",
+        "Align biomarker (NfL, imaging) methodology so our data is comparable with the field's baseline"
+      ],
+      "priorityWhy": "Top priority because it addresses the weakest link in Steminent's US strategy. A single-arm trial that cannot produce a credible external control will have its efficacy claim challenged at review — Biohaven's NDA failed precisely on external-control bias. This fills a make-or-break gap, and the counterparty is in the US, filling the empty US-academic cell in the matrix.",
+      "sources": [
+        {
+          "label": "CRC-SCA natural history/biomarkers (NAF)",
+          "url": "https://www.ataxia.org/crc-sca/"
+        },
+        {
+          "label": "CRC-SCA biomarker repository, Lin 2025 Cerebellum",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40679685/"
+        },
+        {
+          "label": "External-control trial using natural history, NCT06529146",
+          "url": "https://clinicaltrials.gov/study/NCT06529146"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vghtpe-cohort",
+    "market": "台灣 Taiwan",
+    "layer": "academic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "untouched",
+    "fit": "仲恩母國的在地對照與臨床網絡入口。台北榮總是台灣的全國 SCA 轉診中心，Lan／Soong Bing-Wen 團隊橫跨 25 年、累積 876 例／514 家系的基因與病程資料，是台灣本土最完整的世代。台灣附款許可與美國 Ph2 都需要在地或跨族群的進展基準；本社的日本申請是 SCA3/6，而這個世代正好以 SCA3 為大宗。",
+    "whyNotRival": "純學術醫學中心，不開發競品療法，其角色是資料、診斷與病人。它同時也是 Arrowhead 收 SCA2 的站點——代表這個中心對業界試驗合作是開放的，仲恩作為台灣本土公司反而有近水樓台的關係優勢。",
+    "forms": [
+      "取得台灣 SCA3/6 自然史與家系資料作為在地對照",
+      "以榮總為台灣臨床試驗與病人識別的中心",
+      "跨族群（華人 vs 高加索）進展速率比較，強化療效論述的外推性",
+      "與神經科團隊合作校準 SARA 施測與生物標記流程"
+    ],
+    "priorityWhy": "高優先且冷啟動成本最低——仲恩是台灣公司，與本地醫學中心建立合作的門檻遠低於跨國聯盟。這格補的是矩陣裡台灣學術＝0，而台灣正是本社最該有在地資料主場的市場。",
+    "sources": [
+      {
+        "label": "台灣 SCA 基因地景 Lan 2025 (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41082794/"
+      },
+      {
+        "label": "台灣 SCA 進展速率 Lin/Soong 2019 (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30591349/"
+      }
+    ],
+    "en": {
+      "fit": "A local comparator and clinical-network entry point in Steminent's home country. Taipei Veterans General Hospital is Taiwan's national SCA referral centre, and the Lan/Soong Bing-Wen group has accumulated genetic and progression data on 876 cases across 514 families over 25 years — the most complete local cohort in Taiwan. Both the Taiwan conditional approval and the US Ph2 need a local or cross-ethnic progression baseline, and this cohort is dominated by SCA3, matching the Japan filing's SCA3/6.",
+      "whyNotRival": "A purely academic medical centre that develops no competing therapy; its role is data, diagnosis and patients. It is also the site where Arrowhead runs its SCA2 trial — showing it is open to industry trial collaboration, where Steminent as a domestic Taiwanese company has a natural relationship advantage.",
+      "forms": [
+        "Access Taiwan SCA3/6 natural-history and pedigree data as a local comparator",
+        "Use VGH-Taipei as the hub for Taiwanese trials and patient identification",
+        "Compare cross-ethnic (Han vs Caucasian) progression rates to strengthen the generalisability of the efficacy argument",
+        "Work with the neurology team to align SARA administration and biomarker workflows"
+      ],
+      "priorityWhy": "High priority and the lowest cold-start cost — as a Taiwanese company, Steminent faces a far lower barrier to partnering with a local medical centre than with an international consortium. This fills the empty Taiwan-academic cell, and Taiwan is precisely where Steminent should own the local-data home turf.",
+      "sources": [
+        {
+          "label": "Genetic landscape of SCA in Taiwan, Lan 2025 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41082794/"
+        },
+        {
+          "label": "SCA progression in Taiwan, Lin/Soong 2019 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30591349/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eurosca-risca",
+    "market": "德國 Germany",
+    "layer": "academic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "泛歐最大的 SCA 自然史底層。EUROSCA（Jacobi／Klockgether，17 中心／10 國，基線 526 人）建立了各亞型 SARA 年進展速率的歐洲基準；RISCA（Klockgether／Durr，14 中心／7 國）則追蹤發病前帶因者，是「疾病修飾療法能否延緩發病」這類論述唯一的資料來源。統籌中心在波昂（DZNE/波昂大學），與已收錄的 ESMI 同一個學術樞紐、但世代與問題互補。",
+    "whyNotRival": "與 DZNE/ESMI 同性質——學術聯盟只產出資料與方法，且主動與業界合作（Servier 已循此路進入）。EUROSCA 的價值在於它是歐洲監管與臨床界公認的進展基準，引用它等於借用整個歐洲學界的可信度。",
+    "forms": [
+      "取得跨亞型 SARA 年進展速率作為歐洲市場的對照基準",
+      "以 RISCA 發病前世代支持長期／預防性療效敘事",
+      "循 EUROSCA 成員中心佈局歐洲臨床試驗站點",
+      "與波昂統籌團隊做終點與量表施測的方法學對接"
+    ],
+    "priorityWhy": "次高優先。歐洲不是本社最近期的市場，但 EUROSCA 是全球被引用最多的 SCA 自然史基準，早一步建立關係可同時服務未來的歐洲試驗與現在的療效論述可信度。與 ESMI 併看即涵蓋歐洲 SCA3 的臨床樞紐與泛亞型的進展基準兩面。",
+    "sources": [
+      {
+        "label": "EUROSCA 長期進展 Jacobi 2015 Lancet Neurol",
+        "url": "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(15)00202-1/abstract"
+      },
+      {
+        "label": "RISCA 發病前世代 2020 Lancet Neurol",
+        "url": "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(20)30235-0/abstract"
+      }
+    ],
+    "en": {
+      "country": "Germany",
+      "fit": "The largest pan-European natural-history foundation in SCA. EUROSCA (Jacobi/Klockgether, 17 centres across 10 countries, 526 at baseline) established Europe's benchmark for per-subtype annual SARA progression; RISCA (Klockgether/Durr, 14 centres across 7 countries) follows pre-symptomatic carriers and is the only data source for claims about delaying disease onset. Its coordinating centre is in Bonn (DZNE/University of Bonn), the same academic hub as the already-listed ESMI but with complementary cohorts and questions.",
+      "whyNotRival": "Same nature as DZNE/ESMI — an academic consortium that produces only data and methodology and actively partners with industry (Servier entered by this route). EUROSCA's value is that it is the progression benchmark recognised by European regulators and clinicians; citing it borrows the credibility of the whole European academic community.",
+      "forms": [
+        "Access cross-subtype annual SARA progression as the comparator baseline for the European market",
+        "Use the RISCA pre-symptomatic cohort to support long-term or preventive efficacy narratives",
+        "Lay out European trial sites through EUROSCA member centres",
+        "Align endpoint and scale-administration methodology with the Bonn coordinating team"
+      ],
+      "priorityWhy": "Second-tier priority. Europe is not Steminent's nearest market, but EUROSCA is the world's most-cited SCA natural-history benchmark, so an early relationship serves both future European trials and the present credibility of the efficacy argument. Read together with ESMI, it covers both the European SCA3 clinical hub and the pan-subtype progression baseline.",
+      "sources": [
+        {
+          "label": "EUROSCA long-term progression, Jacobi 2015 Lancet Neurol",
+          "url": "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(15)00202-1/abstract"
+        },
+        {
+          "label": "RISCA pre-symptomatic cohort, 2020 Lancet Neurol",
+          "url": "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(20)30235-0/abstract"
+        }
+      ]
+    }
+  },
+  {
+    "id": "japan-nh",
+    "market": "日本 Japan",
+    "layer": "academic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "日本在地世代，直接對應本社日本申請的 SCA3/6 適應症與 REPROCELL 的商業化市場。Yasui 等的日本多中心自然史研究提供了 SCA6 的病程資料，是日本監管與定價脈絡下的在地進展基準。日本是本社最接近取證的市場，擁有日本自己的對照資料能強化承認申請後的療效溝通。",
+    "whyNotRival": "學術臨床研究群，不開發療法。與 REPROCELL（日本 MAH）的商業化角色互補：REPROCELL 負責銷售與法規、學術世代提供療效脈絡的資料基礎，兩者服務同一個日本上市目標。",
+    "forms": [
+      "取得日本 SCA6 病程資料作為日本市場的在地對照",
+      "與日本神經科網絡對接，支援承認後的真實世界資料收集",
+      "以在地世代校準日本醫界對療效的判讀基準",
+      "銜接 REPROCELL 三方架構，讓資料合作沿既有關係推進"
+    ],
+    "priorityWhy": "次高優先。日本世代的樣本數（SCA6 n≈46）小於美歐，作為統計對照力道有限，但它的價值在於「日本自己的資料」——在 PMDA 審查與日本定價的脈絡下，在地基準的說服力高於外國世代。優先序次於美台，但高於純方法學的中國世代。",
+    "sources": [
+      {
+        "label": "日本 SCA6 三年世代 Yasui 2014 Orphanet J Rare Dis",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223818/"
+      }
+    ],
+    "en": {
+      "fit": "A local Japanese cohort that maps directly onto the SCA3/6 indications in Steminent's Japan filing and REPROCELL's commercial market. The Japanese multicentre natural-history study by Yasui et al. provides SCA6 progression data — a local baseline in the Japanese regulatory and pricing context. Japan is Steminent's closest market to approval, and having Japan's own comparator data strengthens post-approval efficacy communication.",
+      "whyNotRival": "An academic clinical research group that develops no therapy. It complements REPROCELL's commercial role as Japanese MAH: REPROCELL handles sales and regulation while the academic cohort supplies the data foundation for the efficacy context — both serving the same Japanese launch.",
+      "forms": [
+        "Access Japanese SCA6 progression data as a local comparator for the Japan market",
+        "Connect with the Japanese neurology network to support post-approval real-world data collection",
+        "Use the local cohort to calibrate how Japanese clinicians read efficacy",
+        "Route the collaboration through the existing REPROCELL three-party structure"
+      ],
+      "priorityWhy": "Second-tier priority. The Japanese cohort's sample (SCA6 n≈46) is smaller than the US and European ones, limiting its statistical power as a control, but its value is being 'Japan's own data' — in the PMDA-review and Japanese-pricing context, a local baseline is more persuasive than a foreign cohort. Below the US and Taiwan, above the methodology-only China cohort.",
+      "sources": [
+        {
+          "label": "Japanese SCA6 three-year cohort, Yasui 2014 Orphanet J Rare Dis",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223818/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "china-nfl",
+    "market": "中國 China",
+    "layer": "academic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "生物標記方法學參照，非市場進入。Li 等（中國）以 116 名 SCA3 加 91 名對照的世代，驗證血清神經絲輕鏈（NfL）作為 SCA3 病程與療效追蹤的血液生物標記。對仲恩的價值在方法而非病人——若未來想在試驗中用血液 NfL 追療效，這是華人族群已驗證的參照。",
+    "whyNotRival": "學術研究群、非療法開發者。中國並非本社目標市場，故此筆定位為「觀察」而非主動接觸對象；收錄的理由是它補足了生物標記方法學這一面，讓學術層不只是世代對照、也涵蓋資料工具。",
+    "forms": [
+      "參照華人族群已驗證的血清 NfL 方法，用於未來試驗的療效追蹤",
+      "比較華人 vs 歐美世代的 NfL 基準，支援跨族群外推",
+      "（若中國市場未來納入評估）以此世代作為在地資料起點"
+    ],
+    "priorityWhy": "第三優先／觀察級。中國不在本社近期市場範圍內，此筆的作用是讓學術層的覆蓋從『世代對照』延伸到『生物標記工具』，而非一個要主動去談的合作對象。列出但標為觀察，維持地圖的方法學完整性。",
+    "sources": [
+      {
+        "label": "SCA3 血清 NfL Li 2019 Mol Neurodegener",
+        "url": "https://molecularneurodegeneration.biomedcentral.com/articles/10.1186/s13024-019-0338-0"
+      }
+    ],
+    "en": {
+      "country": "China",
+      "fit": "A biomarker-methodology reference rather than a market-entry play. Li et al. (China) used a cohort of 116 SCA3 patients plus 91 controls to validate serum neurofilament light (NfL) as a blood biomarker for tracking SCA3 progression and treatment effect. The value to Steminent is in the method, not the patients — if a future trial wants to track efficacy with blood NfL, this is a Han-Chinese-population validated reference.",
+      "whyNotRival": "An academic research group, not a therapy developer. China is not a Steminent target market, so this entry is positioned as 'watch' rather than an active-outreach target; it is included because it rounds out the biomarker-methodology dimension, so the academic layer covers data tools and not only cohort comparators.",
+      "forms": [
+        "Reference the validated Han-Chinese serum NfL method for efficacy tracking in a future trial",
+        "Compare NfL baselines between Chinese and Western cohorts to support cross-ethnic extrapolation",
+        "(If the China market is later assessed) use this cohort as a local-data starting point"
+      ],
+      "priorityWhy": "Third-tier / watch level. China is outside Steminent's near-term markets; this entry's role is to extend the academic layer from 'cohort comparators' to 'biomarker tools', not to be an active partner. Listed but marked as watch, to keep the map methodologically complete.",
+      "sources": [
+        {
+          "label": "Serum NfL in SCA3, Li 2019 Mol Neurodegener",
+          "url": "https://molecularneurodegeneration.biomedcentral.com/articles/10.1186/s13024-019-0338-0"
+        }
+      ]
+    }
   }
 ]

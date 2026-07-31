@@ -1,5 +1,27 @@
 [
   {
+    "version": "v2.3",
+    "dateDisplay": "2026/07/31",
+    "title": "合作機會補齊「學術層」：5 個 SCA 自然史世代聯盟",
+    "changes": [
+      "市場覆蓋地圖原本學術層幾乎全空（僅德國 ESMI 1 家），現補入 5 個核心自然史世代聯盟——資料早在知識庫的自然史頁，只是未接進合作分析",
+      "美國 CRC-SCA／READISCA（逾 1,000 名病人的最大美國自然史庫）：直接對應仲恩美國 Ph2 單臂設計最需要的外部對照——同類資料已被 Biohaven 登錄用作外部對照（NCT06529146）",
+      "台灣 台北榮總世代（876 例／514 家系、25 年）：母國在地對照與臨床網絡入口，冷啟動成本最低",
+      "歐洲 EUROSCA／RISCA（全球被引用最多的 SCA 進展基準＋發病前世代）、日本 SCA6 世代、中國 NfL 生物標記世代",
+      "矩陣兩個關鍵缺口（美國學術＝0、台灣學術＝0）已填上；每筆為學術聯盟、非療法開發者，本質尋求產學合作，非零和關係"
+    ],
+    "en": {
+      "title": "Partnering academic layer filled: 5 SCA natural-history consortia",
+      "changes": [
+        "The academic layer of the market-coverage map was almost empty (only Germany's ESMI); it now holds 5 core natural-history consortia — the data was already in the knowledge base's natural-history tab, just not wired into the partnering analysis",
+        "US CRC-SCA/READISCA (the largest US natural-history repository, 1,000+ patients): the direct external-control source the single-arm US Phase 2 most needs — the same class of data is already registered by Biohaven as an external control (NCT06529146)",
+        "Taiwan's Taipei VGH cohort (876 cases / 514 families over 25 years): the home-market local comparator and clinical-network entry with the lowest cold-start cost",
+        "Europe's EUROSCA/RISCA (the world's most-cited SCA progression benchmark plus a pre-symptomatic cohort), Japan's SCA6 cohort, and China's NfL biomarker cohort",
+        "The two critical empty cells (US-academic = 0, Taiwan-academic = 0) are filled; each is an academic consortium, not a therapy developer, inherently seeking academia-industry collaboration rather than a zero-sum relationship"
+      ]
+    }
+  },
+  {
     "version": "v2.2",
     "dateDisplay": "2026/07/31",
     "title": "合作機會分析層上線；公司層由 45 家擴充至 70 家",

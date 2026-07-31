@@ -2286,5 +2286,141 @@
       ]
     },
     "cat": "sca"
+  },
+  {
+    "id": "crc-sca",
+    "name": "CRC-SCA／READISCA 聯盟",
+    "nameEn": "CRC-SCA / READISCA consortium",
+    "short": "CRC-SCA",
+    "country": "美國 USA",
+    "ticker": "研究機構 Research consortium",
+    "mechanism": "National Ataxia Foundation 支持、Ashizawa 主持的 17 站美國 SCA 臨床研究合作組（CRC-SCA）；READISCA 為 NIH 資助的 SCA1/3 試驗準備延伸",
+    "pipeline": "世代研究｜累計逾 1,000 名 SCA1/2/3/6 病人的標準化自然史與生物標記資料；READISCA 提供 SCA1/3 的試驗準備基線",
+    "insight": "全美最大的 SCA 自然史與生物標記庫。對仲恩最直接的價值是**美國 Ph2 單臂設計的外部對照來源**——同一類資料已被 Biohaven 登錄用作外部對照（NCT06529146）。學術聯盟主動尋求業界合作，非零和關係。",
+    "threat": "partner",
+    "url": "https://www.ataxia.org/crc-sca/",
+    "match": [
+      "CRC-SCA",
+      "READISCA",
+      "Ashizawa"
+    ],
+    "updates": [],
+    "cat": "sca",
+    "en": {
+      "name": "CRC-SCA / READISCA consortium",
+      "country": "USA",
+      "ticker": "Research consortium",
+      "mechanism": "A 17-site US Clinical Research Consortium for SCA (CRC-SCA) supported by the National Ataxia Foundation and led by Ashizawa; READISCA is an NIH-funded SCA1/3 trial-readiness extension",
+      "pipeline": "Cohort research | Standardised natural-history and biomarker data on more than 1,000 SCA1/2/3/6 patients; READISCA provides SCA1/3 trial-readiness baselines",
+      "insight": "The largest SCA natural-history and biomarker repository in the US. Its most direct value to Steminent is as an external-control source for the single-arm US Phase 2 — the same class of data has already been registered by Biohaven as an external control (NCT06529146). The consortium actively seeks industry collaboration; this is not zero-sum."
+    }
+  },
+  {
+    "id": "vghtpe-cohort",
+    "name": "台北榮總 SCA 世代",
+    "nameEn": "Taipei VGH SCA cohort",
+    "short": "台北榮總",
+    "country": "台灣 Taiwan",
+    "ticker": "醫學中心 Medical centre",
+    "mechanism": "台北榮民總醫院——台灣全國 SCA 轉診中心；Lan／Soong Bing-Wen 神經科團隊",
+    "pipeline": "世代研究｜橫跨 25 年、876 例／514 家系的基因與病程資料，以 SCA3 為大宗；另有華人 vs 高加索進展速率比較（n=199）",
+    "insight": "仲恩母國最完整的在地 SCA 世代，也是 Arrowhead 收 SCA2 的站點。作為台灣本土公司，仲恩與此中心合作的冷啟動成本最低——是台灣附款許可在地對照與臨床網絡的天然入口。",
+    "threat": "partner",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41082794/",
+    "match": [
+      "台北榮總",
+      "Taipei Veterans",
+      "Soong"
+    ],
+    "updates": [],
+    "cat": "sca",
+    "en": {
+      "name": "Taipei VGH SCA cohort",
+      "country": "Taiwan",
+      "ticker": "Medical centre",
+      "mechanism": "Taipei Veterans General Hospital — Taiwan's national SCA referral centre; the Lan/Soong Bing-Wen neurology group",
+      "pipeline": "Cohort research | 25 years of genetic and progression data on 876 cases across 514 families, dominated by SCA3; plus a Han-vs-Caucasian progression comparison (n=199)",
+      "insight": "The most complete local SCA cohort in Steminent's home country, and the site where Arrowhead runs its SCA2 trial. As a domestic Taiwanese company, Steminent has the lowest cold-start cost to partner here — a natural entry to the local comparator and clinical network for the Taiwan conditional approval."
+    }
+  },
+  {
+    "id": "eurosca-risca",
+    "name": "EUROSCA／RISCA 世代網絡",
+    "nameEn": "EUROSCA / RISCA cohort network",
+    "short": "EUROSCA",
+    "country": "德國 Germany",
+    "ticker": "研究機構 Research consortium",
+    "mechanism": "波昂（DZNE/波昂大學）統籌的泛歐 SCA 自然史世代：EUROSCA（症狀期）＋RISCA（發病前）；Klockgether／Jacobi／Durr",
+    "pipeline": "世代研究｜EUROSCA 17 中心／10 國、基線 526 人，建立各亞型 SARA 年進展速率的歐洲基準；RISCA 14 中心／7 國、追蹤發病前帶因者",
+    "insight": "全球被引用最多的 SCA 自然史基準。與同樞紐的 ESMI 互補——ESMI 是 SCA3 臨床樞紐，EUROSCA/RISCA 提供泛亞型進展基準與發病前世代。引用它等於借用整個歐洲學界的可信度。",
+    "threat": "partner",
+    "url": "https://www.dzne.de/",
+    "match": [
+      "EUROSCA",
+      "RISCA",
+      "Klockgether"
+    ],
+    "updates": [],
+    "cat": "sca",
+    "en": {
+      "name": "EUROSCA / RISCA cohort network",
+      "country": "Germany",
+      "ticker": "Research consortium",
+      "mechanism": "Bonn-coordinated (DZNE/University of Bonn) pan-European SCA natural-history cohorts: EUROSCA (symptomatic) and RISCA (pre-symptomatic); Klockgether/Jacobi/Durr",
+      "pipeline": "Cohort research | EUROSCA spans 17 centres in 10 countries with 526 at baseline, establishing Europe's per-subtype annual SARA progression benchmark; RISCA spans 14 centres in 7 countries following pre-symptomatic carriers",
+      "insight": "The world's most-cited SCA natural-history benchmark. Complementary to the same-hub ESMI — ESMI is the SCA3 clinical hub, while EUROSCA/RISCA provide the pan-subtype progression baseline and the pre-symptomatic cohort. Citing it borrows the credibility of the entire European academic community."
+    }
+  },
+  {
+    "id": "japan-nh",
+    "name": "日本 SCA 自然史世代",
+    "nameEn": "Japanese SCA natural-history cohort",
+    "short": "日本世代",
+    "country": "日本 Japan",
+    "ticker": "研究機構 Academic study",
+    "mechanism": "Yasui 等主持的日本多中心 SCA 自然史研究（SCA6 病程資料）",
+    "pipeline": "世代研究｜日本多中心 SCA6 三年病程追蹤（n≈46）",
+    "insight": "日本在地世代，直接對應本社日本申請的 SCA3/6 與 REPROCELL 的商業化市場。樣本數不大，但在 PMDA 審查與日本定價脈絡下，「日本自己的資料」比外國世代更具說服力。與 REPROCELL 的 MAH 角色互補。",
+    "threat": "partner",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223818/",
+    "match": [
+      "Yasui"
+    ],
+    "updates": [],
+    "cat": "sca",
+    "en": {
+      "name": "Japanese SCA natural-history cohort",
+      "country": "Japan",
+      "ticker": "Academic study",
+      "mechanism": "A Japanese multicentre SCA natural-history study led by Yasui et al. (SCA6 progression data)",
+      "pipeline": "Cohort research | Japanese multicentre three-year SCA6 progression follow-up (n≈46)",
+      "insight": "A local Japanese cohort mapping onto Steminent's Japan filing (SCA3/6) and REPROCELL's commercial market. The sample is small, but in the PMDA-review and Japanese-pricing context 'Japan's own data' is more persuasive than a foreign cohort. Complementary to REPROCELL's MAH role."
+    }
+  },
+  {
+    "id": "china-nfl",
+    "name": "中國 SCA3 NfL 世代",
+    "nameEn": "China SCA3 NfL cohort",
+    "short": "中國 NfL",
+    "country": "中國 China",
+    "ticker": "學術研究 Academic study",
+    "mechanism": "Li 等（中國）以華人族群驗證血清神經絲輕鏈（NfL）作為 SCA3 血液生物標記",
+    "pipeline": "世代研究｜116 名 SCA3 ＋ 91 名對照，驗證血清 NfL 追蹤病程與療效",
+    "insight": "生物標記方法學參照，非市場對象。中國非本社目標市場，收錄理由是它補足學術層的『生物標記工具』面——若未來試驗想用血液 NfL 追療效，這是華人族群已驗證的參照。定位為觀察。",
+    "threat": "partner",
+    "url": "https://molecularneurodegeneration.biomedcentral.com/articles/10.1186/s13024-019-0338-0",
+    "match": [
+      "Li 2019 NfL"
+    ],
+    "updates": [],
+    "cat": "sca",
+    "en": {
+      "name": "China SCA3 NfL cohort",
+      "country": "China",
+      "ticker": "Academic study",
+      "mechanism": "Li et al. (China) validated serum neurofilament light (NfL) as a blood biomarker for SCA3 in a Han-Chinese population",
+      "pipeline": "Cohort research | 116 SCA3 patients + 91 controls, validating serum NfL for tracking progression and treatment effect",
+      "insight": "A biomarker-methodology reference, not a market target. China is not a Steminent target market; it is included to round out the biomarker-tools dimension of the academic layer — a Han-Chinese validated reference if a future trial uses blood NfL. Positioned as watch."
+    }
   }
 ]
