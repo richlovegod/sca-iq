@@ -3001,5 +3001,357 @@
         }
       ]
     }
+  },
+  {
+    "id": "cell-easy",
+    "market": "法國 France",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "法國唯一同時具備異體 MSC 製造能力與自有臨床程式的業者。A-MUSE Ph1/2 於 2026-01 與土魯斯大學醫院啟動，用的正是 CellReady 異體 MSC 平台——它不是「能做 MSC 的代工廠」，是「自己也在跑異體 MSC 試驗的代工廠」，對製程一致性與效價方法的理解不是紙上談兵。品質體系對齊 ICH Q2(R1)、歐洲藥典與 EMA／MHRA，且有查核通過紀錄。",
+    "whyNotRival": "受託方，自有臨床程式在全身性硬化症，與 SCA 無任何適應症或市場重疊。它與 Histocell 之間也不是二選一的競爭關係，而是仲恩歐洲佈局的兩種進場方式：Histocell 沿既有 REPROCELL 關係走、冷啟動成本最低；Cell-Easy 不依賴任何既有關係、可獨立評估，且規模與技術路線不同。",
+    "forms": [
+      "歐洲臨床試驗用藥的委託製造（Histocell 之外的獨立第二選項）",
+      "異體 MSC 製程一致性與效價方法的技術交流",
+      "以其 G-Rex 歐洲樞紐評估製程平台轉換的可行性",
+      "透過 CHU Toulouse 連結法國臨床網絡"
+    ],
+    "priorityWhy": "排第二序而非第一序，是因為歐洲產能的第一順位仍是 Histocell——同樣的事情，沿既有關係做比從零談判便宜得多。但單一供應商依賴是實質風險（Catalent 收掉 Gosselies 就是現成教訓），所以值得先做一次實質評估、不必急著簽約。",
+    "sources": [
+      {
+        "label": "Cell-Easy 官網（CellReady 平台與 A-MUSE 試驗）",
+        "url": "https://www.cell-easy.com/"
+      }
+    ],
+    "en": {
+      "fit": "The only French operator combining allogeneic MSC manufacturing with a clinical programme of its own. The A-MUSE Ph1/2 opened with Toulouse University Hospital in January 2026 using the CellReady allogeneic MSC platform — this is not a contract manufacturer that can handle MSCs but one running its own allogeneic MSC trial, so its grasp of process consistency and potency methodology is not theoretical. Its quality system aligns to ICH Q2(R1), the European Pharmacopoeia and EMA/MHRA, with a record of successful audits.",
+      "whyNotRival": "A contract manufacturer whose own clinical work is in systemic sclerosis, with no indication or market overlap with SCA. Nor does it compete with Histocell for the same slot: the two are different ways into Europe. Histocell follows an existing REPROCELL relationship at the lowest cold-start cost; Cell-Easy can be assessed independently of any existing relationship and differs in scale and technical approach.",
+      "forms": [
+        "Contract manufacture of European trial supply as an independent second option alongside Histocell",
+        "Technical exchange on allogeneic MSC process consistency and potency methodology",
+        "Assess process platform transfer through its European G-Rex hub",
+        "Connect to French clinical networks via CHU Toulouse"
+      ],
+      "priorityWhy": "Second rather than first priority because Histocell remains the first choice for European capacity — the same work costs far less along an existing relationship than through a cold negotiation. But single-supplier dependence is a real risk, as Catalent's Gosselies closure demonstrates, so a substantive assessment is worth doing without rushing to contract.",
+      "sources": [
+        {
+          "label": "Cell-Easy website covering the CellReady platform and A-MUSE trial",
+          "url": "https://www.cell-easy.com/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ctpl-australia",
+    "market": "澳洲 Australia",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 1,
+    "status": "untouched",
+    "fit": "整份名單裡唯一同時滿足三個條件的廠：**已通過 PMDA 查核並持有日本 MHLW 認證**、具備商業級產能（3 間高通量套房、年產能達 2,000 劑）、且位在亞太時區。仲恩的日本申請正在 PMDA 手上（受理起九個月、約 2027 年 3 月見分曉），核准後必須立刻有能供貨的 GMP 廠——而「被 PMDA 查過」這件事，是無法臨時補做的前置條件。支援自體與異體流程，產品範圍含再生醫療產品。",
+    "whyNotRival": "純受託製造，不持有任何產品權利，與 Stemchymal 無適應症競爭。它與日本 Cyto-Facto 也不是替代關係而是互補：Cyto-Facto 在日本境內、適合日本市場供貨；CTPL 在澳洲、可作為日本以外亞太市場的第二來源，同時分散單一國家的產能風險。",
+    "forms": [
+      "日本核准後的第二供應來源（分散單一廠風險）",
+      "亞太其他市場的商業供貨",
+      "以其 TGA／FDA／EMA／PMDA 四地查核經驗，協助檢視仲恩自有廠的查廠準備",
+      "澳洲臨床試驗用藥製造（若日後於澳洲設站）"
+    ],
+    "priorityWhy": "排第一序的理由是**時間耦合**：日本審查約 2027 年 3 月見分曉，而技轉與製程驗證的前置時間長達數月至一年。現在不評估，等核准下來才找第二來源就來不及了。且它與 Cyto-Facto 的技轉可以並行評估，不必等前者完成。",
+    "sources": [
+      {
+        "label": "Cell Therapies 廠區說明（13 間無塵室、TGA/FDA/EMA/PMDA 查核、MHLW 認證）",
+        "url": "https://celltherapies.com/facility/"
+      }
+    ],
+    "en": {
+      "fit": "The only site on this list meeting three conditions at once: it has passed PMDA inspection and holds Japanese MHLW accreditation, it has commercial-scale capacity (three high-throughput suites, up to 2,000 doses a year), and it sits in an Asia-Pacific time zone. Steminent's Japanese application is with the PMDA on a nine-month clock resolving around March 2027, and approval will require a GMP site able to supply immediately — while 'has been inspected by the PMDA' is a precondition that cannot be arranged retrospectively. It supports autologous and allogeneic workflows and its scope includes regenerative medicine products.",
+      "whyNotRival": "A pure contract manufacturer holding no product rights and competing on no indication with Stemchymal. Nor does it substitute for Cyto-Facto in Japan; the two are complementary. Cyto-Facto sits inside Japan and suits Japanese market supply, while CTPL in Australia can serve Asia-Pacific markets beyond Japan and spreads the risk of depending on capacity in a single country.",
+      "forms": [
+        "A second source of supply following Japanese approval, spreading single-site risk",
+        "Commercial supply for other Asia-Pacific markets",
+        "Use its experience of TGA, FDA, EMA and PMDA inspections to review Steminent's own site readiness",
+        "Manufacture of trial supply should Australian sites be added"
+      ],
+      "priorityWhy": "First priority because of timing coupling: the Japanese review resolves around March 2027, while technology transfer and process validation take months to a year of lead time. Waiting until approval arrives to find a second source is too late. Assessment can also run in parallel with the Cyto-Facto transfer rather than after it.",
+      "sources": [
+        {
+          "label": "Cell Therapies facility page: 13 cleanrooms, TGA/FDA/EMA/PMDA inspections, MHLW accreditation",
+          "url": "https://celltherapies.com/facility/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ccrm-nordic",
+    "market": "瑞典 Sweden",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 2,
+    "status": "untouched",
+    "fit": "它是加拿大 CCRM 的北歐分支——而 CCRM 已因 OmniaBio 與 Medipost 的關係列在優先序 1。**同一個組織網絡橫跨北美與北歐，代表建立一次關係可以同時打開兩個市場的門**，這在整份名單裡是唯一的槓桿結構。",
+    "whyNotRival": "公私合營的商業化中心，不開發自有療法。與加拿大 CCRM 屬同一網絡而非各自為政，所以不必分別經營兩套關係。",
+    "forms": [
+      "與加拿大 CCRM 的接觸一併談，把北歐納入同一個對話",
+      "北歐市場的製程開發與 GMP 製造（2027 Q2 之後）",
+      "透過 CCRM 網絡連結北歐臨床與法規生態"
+    ],
+    "priorityWhy": "設施要到 **2027 年第二季**才啟用，趕不上仲恩目前的時程，所以本身是中期選項。但正因為它與加拿大 CCRM 同源，現在該做的不是單獨接觸它，而是**在談 OmniaBio 時把北歐一併放上桌**——那是零額外成本的加分項。",
+    "sources": [
+      {
+        "label": "CCRM Nordic 官網",
+        "url": "https://ccrmnordic.se/"
+      }
+    ],
+    "en": {
+      "fit": "The Nordic arm of Canada's CCRM — which already sits at priority 1 through its OmniaBio relationship with Medipost. One organisational network spanning North America and the Nordics means a single relationship can open doors in two markets, the only leverage structure of its kind on this list.",
+      "whyNotRival": "A public-private commercialisation centre that develops no therapies of its own. It belongs to the same network as CCRM in Canada rather than operating separately, so two relationships need not be cultivated.",
+      "forms": [
+        "Fold the Nordics into the same conversation as the Canadian CCRM approach",
+        "Process development and GMP manufacturing for Nordic markets from Q2 2027",
+        "Connect to Nordic clinical and regulatory ecosystems through the CCRM network"
+      ],
+      "priorityWhy": "The facilities only open in Q2 2027, too late for Steminent's current timeline, making this a medium-term option in its own right. But precisely because it shares an origin with the Canadian CCRM, the move now is not to approach it separately but to put the Nordics on the table during the OmniaBio discussion — an addition that costs nothing extra.",
+      "sources": [
+        {
+          "label": "CCRM Nordic website",
+          "url": "https://ccrmnordic.se/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "atmp-sweden",
+    "market": "瑞典 Sweden",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "瑞典把分散在七所醫學大學、七所大學醫院的 ATMP 產能整合成單一國家級入口，外來者不必逐一敲門。Skåne 大學醫院的 ATMP Center 已於 2025 年初啟用、依 GMP 製造多能幹細胞來源產品；隆德大學另有 pre-GMP 設施。底子比表面看起來深——瑞典的 CGT GMP 基礎設施自 1990 年代末即運作，2014 年做出歐洲第一批進入臨床試驗的 CAR-T。",
+    "whyNotRival": "學術與醫院體系的協調機制，不開發商業療法，也不與 Stemchymal 爭市場。",
+    "forms": [
+      "北歐臨床與製造網絡的統一接觸窗口",
+      "學術端的臨床試驗站點連結",
+      "與 CCRM Nordic 一併評估（兩者在瑞典的角色互補）"
+    ],
+    "priorityWhy": "低優先。完整聯盟編組要到 2026 下半年才完成，且仲恩的歐洲策略本身還沒定形——在知道要在歐洲做什麼之前接觸統一窗口，得到的只會是泛泛的介紹。建議等 Histocell 或 Cell-Easy 那條線有實質進展、歐洲落點確定後再談。",
+    "sources": [
+      {
+        "label": "ATMP Sweden／Cell & Gene Therapy SWEDEN",
+        "url": "https://atmpsweden.se/"
+      },
+      {
+        "label": "Skåne 大學醫院 ATMP Center",
+        "url": "https://www.karolinskahospital.com/care-at-karolinska/centers/atmp-center/"
+      }
+    ],
+    "en": {
+      "fit": "Sweden has consolidated ATMP capacity spread across seven medical universities and seven university hospitals into a single national entry point, so an outsider need not knock on doors one at a time. The ATMP Center at Skåne University Hospital opened in early 2025 manufacturing pluripotent stem cell-derived products under GMP, and Lund University runs a pre-GMP facility. The foundations run deeper than they appear — Swedish CGT GMP infrastructure has operated since the late 1990s and produced the first CAR-T cells to enter a European clinical trial in 2014.",
+      "whyNotRival": "A coordinating body across academic and hospital systems; it develops no commercial therapies and competes for no market with Stemchymal.",
+      "forms": [
+        "A single point of contact for Nordic clinical and manufacturing networks",
+        "Academic clinical trial site connections",
+        "Assess together with CCRM Nordic, whose Swedish roles are complementary"
+      ],
+      "priorityWhy": "Low priority. Full consortium formation only completes in the second half of 2026, and Steminent's European strategy has yet to take shape — approaching a single gateway before knowing what you want to do in Europe yields only a general introduction. Better to talk once the Histocell or Cell-Easy track has produced something concrete and the European landing site is settled.",
+      "sources": [
+        {
+          "label": "ATMP Sweden / Cell & Gene Therapy SWEDEN",
+          "url": "https://atmpsweden.se/"
+        },
+        {
+          "label": "ATMP Center at Skåne University Hospital",
+          "url": "https://www.karolinskahospital.com/care-at-karolinska/centers/atmp-center/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "avrion",
+    "market": "瑞士 Switzerland",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "交集不在適應症而在**細胞層級的遞送主張**。Avrion 的核心論點是：只打神經元不夠，必須同時把治療基因送進神經元與星形膠質細胞才有協同效益，而這恰好呼應 MSC 旁分泌作用於整個神經膠質環境的機轉敘事。它已在囓齒類與非人靈長類模型驗證此設計。",
+    "whyNotRival": "適應症在 SOD1 突變型 ALS 與泛 ALS，與 SCA 無交集；模式為 AAV 基因療法而非細胞治療。它對仲恩的價值是**論證支援**：如果「必須顧到膠質細胞」在基因療法端被證實，仲恩主張 MSC 的廣效神經保護就多了一個獨立的旁證。",
+    "forms": [
+      "神經膠質細胞作為治療標的之機轉論證交流",
+      "中樞遞送的非人靈長類模型方法參照",
+      "透過 EPFL 連結瑞士神經科學研究網絡"
+    ],
+    "priorityWhy": "低優先。AVR-001 仍在 IND-enabling、尚未進入人體，其論點目前只有臨床前證據。建議列入追蹤而非現在接觸；真正的觀察點是它的首次人體遞送數據，那才會告訴我們「中樞遞送做不到」這個 SCA 領域的共同天花板有沒有鬆動。",
+    "sources": [
+      {
+        "label": "Avrion Therapeutics 科學頁",
+        "url": "https://www.avriontx.com/science/"
+      },
+      {
+        "label": "Avrion Therapeutics 公司簡介",
+        "url": "https://www.avriontx.com/about/"
+      }
+    ],
+    "en": {
+      "fit": "The intersection is not indication but a claim about delivery at the cellular level. Avrion's central argument is that targeting neurons alone is insufficient and that synergistic benefit requires delivering the therapeutic gene to neurons and astrocytes together — which echoes the rationale that MSC paracrine action works across the whole glial environment. The design has been validated in rodent and non-human primate models.",
+      "whyNotRival": "Its indications are SOD1-linked and pan-ALS with no SCA intersection, and its modality is AAV gene therapy rather than cell therapy. Its value to Steminent is argumentative support: if the need to address glial cells is borne out on the gene therapy side, Steminent's case for broad MSC neuroprotection gains an independent corroboration.",
+      "forms": [
+        "Exchange on the mechanistic case for glial cells as a therapeutic target",
+        "Reference methodology for non-human primate models of CNS delivery",
+        "Connect to Swiss neuroscience research networks via EPFL"
+      ],
+      "priorityWhy": "Low priority. AVR-001 remains IND-enabling and has not reached humans, so its thesis rests on preclinical evidence alone. Track rather than approach; the real observation point is its first-in-human delivery data, which is what will show whether the CNS delivery ceiling constraining the SCA field has begun to give.",
+      "sources": [
+        {
+          "label": "Avrion Therapeutics science page",
+          "url": "https://www.avriontx.com/science/"
+        },
+        {
+          "label": "Avrion Therapeutics — about the company",
+          "url": "https://www.avriontx.com/about/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "biosenic",
+    "market": "比利時 Belgium",
+    "layer": "therapeutic",
+    "stance": "rival",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "沒有可談的合作面——ALLOB 已於 2023-06 擱置，公司重心轉向來自 Medsenic 的口服三氧化二砷。**必須誠實說明：比利時的治療型層在實質上仍是空的**，這一筆填的是追蹤覆蓋，不是可行的合作對象。",
+    "whyNotRival": "它不再是對手，但也不是機會。真正的價值在教訓：ALLOB 是骨髓 MSC 體外分化的異體成骨細胞產品，脛骨骨折 Ph2b 未達療效終點、早期給藥未能顯著加速癒合。關鍵細節是**失敗發生在療效而非安全性**——ALLOB 注射安全性良好、無相關嚴重不良事件。這正是異體 MSC 的典型困境，也是仲恩必須正面回答的那一題：安全過得去，療效怎麼證。",
+    "forms": [
+      "不適用合作",
+      "作為異體 MSC「安全過關、療效未達」失敗模式的案例研究",
+      "比利時若要找治療型夥伴，須另行尋找——此處目前無標的"
+    ],
+    "priorityWhy": "低優先，以案例研究處理。但這一筆有一個具體用途：把它與 Mesoblast（首個 FDA 核准的 MSC）並列，可以看出同為異體 MSC，一個過關一個沒過，差別在終點設計與適應症選擇——這正是仲恩選題與終點策略要面對的核心。",
+    "sources": [
+      {
+        "label": "BioSenic 暫停 ALLOB 骨折細胞治療（Ph2b 失利）",
+        "url": "https://www.biospace.com/biosenic-puts-fracture-cell-therapy-program-on-hold-after-mid-stage-failure"
+      },
+      {
+        "label": "BioSenic 產品與科學",
+        "url": "https://www.biosenic.com/our-science"
+      }
+    ],
+    "en": {
+      "fit": "There is nothing to discuss as collaboration — ALLOB was shelved in June 2023 and the company's focus moved to oral arsenic trioxide from Medsenic. To be plain: Belgium's therapeutic layer remains effectively empty, and this entry fills tracking coverage rather than naming a viable partner.",
+      "whyNotRival": "It is no longer a rival, but neither is it an opportunity. Its value lies in the lesson. ALLOB was an allogeneic osteoblastic product differentiated ex vivo from bone marrow MSCs, and its Phase 2b in tibial fractures missed efficacy, with early administration failing to accelerate healing significantly. The telling detail is that the failure was on efficacy rather than safety — ALLOB injections had a good safety record with no related serious adverse events. That is the characteristic bind of allogeneic MSCs, and precisely the question Steminent must answer head-on: safety clears, so how is efficacy proven.",
+      "forms": [
+        "Collaboration not applicable",
+        "A case study in the allogeneic MSC failure mode of clearing safety but missing efficacy",
+        "Belgium needs a separate search for a therapeutic partner; there is no candidate here"
+      ],
+      "priorityWhy": "Low priority, handled as a case study. It does have one concrete use: set alongside Mesoblast, the first FDA-approved MSC, it shows two allogeneic MSCs where one cleared and one did not, and the difference lies in endpoint design and indication choice — exactly what Steminent's own indication and endpoint strategy must confront.",
+      "sources": [
+        {
+          "label": "BioSenic puts fracture cell therapy programme on hold after mid-stage failure",
+          "url": "https://www.biospace.com/biosenic-puts-fracture-cell-therapy-program-on-hold-after-mid-stage-failure"
+        },
+        {
+          "label": "BioSenic products and science",
+          "url": "https://www.biosenic.com/our-science"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cellprothera",
+    "market": "法國 France",
+    "layer": "therapeutic",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "適應症（心肌梗塞後心臟修復）與 SCA 無交集，價值在**路徑示範**：一家中型細胞治療公司如何在歐洲把製造整個外包給 CDMO（CELLforCURE by SEQENS），並據此推進到 Ph3。仲恩在歐洲面對的正是同一道題——自建產能不現實，那要靠誰、以什麼合約形態接手。",
+    "whyNotRival": "自體細胞治療、心血管適應症，與 Stemchymal 不爭病人也不爭產能邏輯。",
+    "forms": [
+      "歐洲製造外包的合約架構與技轉經驗參照",
+      "法國臨床與法規環境的接觸點"
+    ],
+    "priorityWhy": "低優先，屬方法論參考而非合作對象。但若仲恩決定走 Cell-Easy 或 CELLforCURE 這條線，它的技轉時程（2025 技轉、2026 起產出臨床批次）是可用的實際基準——知道別人花多久，就不會把自己的時程估得太樂觀。",
+    "sources": [
+      {
+        "label": "SEQENS 公告：CellProthera 選定 CELLforCURE 進行 Ph3 GMP 製造",
+        "url": "https://www.seqens.com/cellprothera-selects-cellforcure-by-seqens-for-phase-3-gmp-manufacturing/"
+      },
+      {
+        "label": "CellProthera：備戰 Ph3（2026-06）",
+        "url": "https://www.cellprothera.com/en/cellprothera-prepares-for-phase-3-push-as-regenerative-cardiology-moves-closer-to-clinical-reality/"
+      }
+    ],
+    "en": {
+      "fit": "Its indication in cardiac repair after myocardial infarction does not intersect SCA; the value is in demonstrating a path — how a mid-sized cell therapy company outsources European manufacturing wholesale to a CDMO, in this case CELLforCURE by SEQENS, and advances to Phase 3 on that basis. Steminent faces the same question in Europe: building capacity is unrealistic, so who takes it on and under what contractual form.",
+      "whyNotRival": "An autologous cell therapy in a cardiovascular indication, competing with Stemchymal neither for patients nor within the same capacity logic.",
+      "forms": [
+        "Reference for the contractual structure and technology transfer of European manufacturing outsourcing",
+        "A point of contact with the French clinical and regulatory environment"
+      ],
+      "priorityWhy": "Low priority as a methodological reference rather than a partner. But if Steminent pursues the Cell-Easy or CELLforCURE route, its transfer timeline — transfer in 2025, clinical batches from 2026 — is a usable real-world benchmark, and knowing how long it took someone else prevents an over-optimistic estimate.",
+      "sources": [
+        {
+          "label": "SEQENS announcement: CellProthera selects CELLforCURE for Phase 3 GMP manufacturing",
+          "url": "https://www.seqens.com/cellprothera-selects-cellforcure-by-seqens-for-phase-3-gmp-manufacturing/"
+        },
+        {
+          "label": "CellProthera prepares for a Phase 3 push (June 2026)",
+          "url": "https://www.cellprothera.com/en/cellprothera-prepares-for-phase-3-push-as-regenerative-cardiology-moves-closer-to-clinical-reality/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cellforcure",
+    "market": "法國 France",
+    "layer": "platform",
+    "stance": "partner",
+    "alsoMSA": false,
+    "priority": 3,
+    "status": "untouched",
+    "fit": "巴黎近郊 10,000 m² 廠區、其中 2,200 m² 為 GMP 分級製造空間，設有六條獨立產線、每條含八間無塵室，可同時製造多個程式並維持產品區隔與生物安全；年產能達數百批次，涵蓋 Ph1 到商業規模，自體與異體皆可。已有承接他家 Ph3 商業級製造的實績（CellProthera）。",
+    "whyNotRival": "純受託製造，不持有產品權利。",
+    "forms": [
+      "歐洲後期臨床與商業供貨的產能選項",
+      "與 Cell-Easy 並列評估（規模與定位不同）"
+    ],
+    "priorityWhy": "低優先，屬「後期才用得到」的選項。歐洲產能的順序應是：先 Histocell（最短路徑）→ Cell-Easy（獨立第二選項、且懂 MSC）→ 需要更大規模時才輪到這裡。現在納入名單是為了讓歐洲的產能階梯完整，不是要現在談。",
+    "sources": [
+      {
+        "label": "SEQENS 公告：承接 CellProthera 的 Ph3 GMP 製造",
+        "url": "https://www.seqens.com/cellprothera-selects-cellforcure-by-seqens-for-phase-3-gmp-manufacturing/"
+      },
+      {
+        "label": "CELLforCURE by SEQENS（端對端 ATMP CDMO）",
+        "url": "https://cellandgene.seqens.com/"
+      }
+    ],
+    "en": {
+      "fit": "A 10,000 m² site near Paris including 2,200 m² of GMP-classified manufacturing space, with six independent production lines of eight cleanrooms each, allowing several programmes to run at once while maintaining segregation and biosafety; annual capacity runs to several hundred batches spanning Phase 1 through commercial scale, for both autologous and allogeneic products. It has already taken on another company's Phase 3 commercial-grade production for CellProthera.",
+      "whyNotRival": "A pure contract manufacturer holding no product rights.",
+      "forms": [
+        "A capacity option for European late-phase and commercial supply",
+        "Assess alongside Cell-Easy, which differs in scale and positioning"
+      ],
+      "priorityWhy": "Low priority as an option that only becomes relevant later. The sequence for European capacity should run Histocell first as the shortest path, then Cell-Easy as an independent second option with MSC expertise, and only then this site when greater scale is needed. It is on the list to complete the European capacity ladder, not to be approached now.",
+      "sources": [
+        {
+          "label": "SEQENS announcement: taking on CellProthera's Phase 3 GMP manufacturing",
+          "url": "https://www.seqens.com/cellprothera-selects-cellforcure-by-seqens-for-phase-3-gmp-manufacturing/"
+        },
+        {
+          "label": "CELLforCURE by SEQENS — end-to-end ATMP CDMO",
+          "url": "https://cellandgene.seqens.com/"
+        }
+      ]
+    }
   }
 ]

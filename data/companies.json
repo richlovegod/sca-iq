@@ -2422,5 +2422,342 @@
       "pipeline": "Cohort research | 116 SCA3 patients + 91 controls, validating serum NfL for tracking progression and treatment effect",
       "insight": "A biomarker-methodology reference, not a market target. China is not a Steminent target market; it is included to round out the biomarker-tools dimension of the academic layer — a Han-Chinese validated reference if a future trial uses blood NfL. Positioned as watch."
     }
+  },
+  {
+    "id": "cell-easy",
+    "name": "Cell-Easy",
+    "nameEn": "Cell-Easy",
+    "short": "Cell-Easy",
+    "country": "法國 France",
+    "ticker": "未上市 Private",
+    "mechanism": "細胞治療 CDMO；CellReady® 異體間質幹細胞平台。可處理 15 種細胞型別（T 細胞、NK、Treg、MSC、iPS、永生化細胞株）",
+    "pipeline": "受託開發與製造＋自有平台｜土魯斯（4 bis avenue Hubert Curien）；A-MUSE Ph1/2 與土魯斯大學醫院（CHU Toulouse）合作，以 CellReady 異體 MSC 治療全身性硬化症，2026-01 啟動",
+    "insight": "法國唯一同時具備異體 MSC 製造能力與自有臨床程式的業者，且製造品質體系對齊 ICH Q2(R1)、歐洲藥典與 EMA／MHRA。對仲恩的意義是「歐洲第二選項」——Histocell 是沿 REPROCELL 關係往西的最短路徑，Cell-Easy 則是不依賴既有關係、可獨立評估的替代方案，且它自己就在跑異體 MSC 的臨床試驗，對製程與法規的理解不是紙上談兵。",
+    "threat": "partner",
+    "url": "https://www.cell-easy.com/",
+    "match": [
+      "Cell-Easy",
+      "CellReady",
+      "A-MUSE"
+    ],
+    "updates": [
+      {
+        "date": "2026/06",
+        "text": "獲 ScaleReady 的 G-Rex® Grant，將建立 G-Rex 製造的歐洲樞紐"
+      },
+      {
+        "date": "2026/04",
+        "text": "啟動 iPSC 衍生 β 細胞program，獲 Bpifrance 1,200 萬歐元支持"
+      },
+      {
+        "date": "2026/01",
+        "text": "與 CHU Toulouse 啟動 A-MUSE Ph1/2，評估 CellReady 異體 MSC 平台於全身性硬化症"
+      }
+    ],
+    "en": {
+      "country": "France",
+      "ticker": "Private",
+      "mechanism": "Cell therapy CDMO with its own CellReady allogeneic mesenchymal stem cell platform; handles 15 cell types including T cells, NK cells, Tregs, MSCs, iPSCs and immortalised lines",
+      "pipeline": "Contract development and manufacturing plus an in-house platform | Based in Toulouse; the A-MUSE Ph1/2 with Toulouse University Hospital (CHU Toulouse) evaluates the CellReady allogeneic MSC platform in systemic sclerosis, initiated January 2026",
+      "insight": "The only French operator combining allogeneic MSC manufacturing capability with a clinical programme of its own, on a quality system aligned to ICH Q2(R1), the European Pharmacopoeia and EMA/MHRA. Its significance to Steminent is as a European second option — Histocell is the shortest path, following an existing REPROCELL relationship westward, while Cell-Easy is an alternative assessable independently of any existing relationship, and one running its own allogeneic MSC trial, so its grasp of process and regulation is not theoretical.",
+      "updates": [
+        {
+          "date": "2026/06",
+          "text": "Awarded a G-Rex Grant by ScaleReady to establish a European hub for G-Rex-based manufacturing"
+        },
+        {
+          "date": "2026/04",
+          "text": "Launched an iPSC-derived beta cell programme backed by €12M from Bpifrance"
+        },
+        {
+          "date": "2026/01",
+          "text": "Initiated the A-MUSE Ph1/2 with CHU Toulouse evaluating the CellReady allogeneic MSC platform in systemic sclerosis"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "cellforcure",
+    "name": "CELLforCURE（SEQENS）",
+    "nameEn": "CELLforCURE by SEQENS",
+    "short": "CELLforCURE",
+    "country": "法國 France",
+    "ticker": "SEQENS 集團 Part of SEQENS",
+    "mechanism": "細胞與基因治療 CDMO；自體與異體皆可的端對端製造平台",
+    "pipeline": "受託製造服務｜巴黎近郊 10,000 m² 廠區，其中 2,200 m² 為 GMP 分級製造空間；六條獨立產線、每條八間無塵室，年產能達數百批次，涵蓋 Ph1 至商業規模；承接 CellProthera 的 Ph3 GMP 製造",
+    "insight": "法國規模最大的 CGT 受託製造廠之一，且已有承接他家 Ph3 商業級製造的實績。與 Cell-Easy 的差異在定位：Cell-Easy 兼具自有臨床程式、規模較小但懂 MSC；CELLforCURE 純受託但廠區規模與後期臨床經驗較完整。若仲恩歐洲走到後期臨床或商業供貨，這裡的產能層級才接得住。",
+    "threat": "partner",
+    "url": "https://cellandgene.seqens.com/",
+    "match": [
+      "CELLforCURE",
+      "SEQENS"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "承接 CellProthera 的 Ph3 GMP 製造，技轉後預計自 2026 起產出臨床批次"
+      }
+    ],
+    "en": {
+      "name": "CELLforCURE by SEQENS",
+      "short": "CELLforCURE",
+      "country": "France",
+      "ticker": "Part of the SEQENS group",
+      "mechanism": "Cell and gene therapy CDMO offering an end-to-end platform for both autologous and allogeneic products",
+      "pipeline": "Contract manufacturing | A 10,000 m² site near Paris including 2,200 m² of GMP-classified manufacturing space; six independent production lines of eight cleanrooms each, with annual capacity of several hundred batches spanning Phase 1 to commercial scale; manufactures CellProthera's Phase 3 material",
+      "insight": "One of France's largest CGT contract manufacturing sites, with a track record of taking on another company's Phase 3 commercial-grade production. It differs from Cell-Easy in positioning: Cell-Easy is smaller but pairs MSC expertise with a clinical programme of its own, while CELLforCURE is purely a contract manufacturer with more complete late-phase experience and greater site scale. If Steminent's European track reaches late-stage clinical or commercial supply, this is the capacity tier that can carry it.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "Taking on Phase 3 GMP manufacturing for CellProthera, with clinical batches expected from 2026 following technology transfer"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "cellprothera",
+    "name": "CellProthera",
+    "nameEn": "CellProthera",
+    "short": "CellProthera",
+    "country": "法國 France",
+    "ticker": "未上市 Private",
+    "mechanism": "自體再生細胞治療，適應症為缺血性疾病",
+    "pipeline": "ProtheraCytes®｜心肌梗塞後心臟修復；已選定 CELLforCURE by SEQENS 進行 Ph3 GMP 製造，技轉後自 2026 起產出臨床批次",
+    "insight": "法國本土的再生細胞治療開發者。適應症（缺血性心臟疾病）與 SCA 無交集，但它示範了一件對仲恩直接有用的事：**一家中型細胞治療公司如何在歐洲把製造外包給 CDMO 並推進到 Ph3**。仲恩在歐洲面對的正是同一道題——自建產能不現實，靠誰、以什麼合約形態接手，它已經走過一遍。",
+    "threat": "low",
+    "url": "https://www.cellprothera.com/en/",
+    "match": [
+      "CellProthera",
+      "ProtheraCytes"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "選定 CELLforCURE by SEQENS 進行 Ph3 GMP 製造"
+      }
+    ],
+    "en": {
+      "country": "France",
+      "ticker": "Private",
+      "mechanism": "Autologous regenerative cell therapy for ischaemic disease",
+      "pipeline": "ProtheraCytes | Cardiac repair after myocardial infarction; selected CELLforCURE by SEQENS for Phase 3 GMP manufacturing, with clinical batches expected from 2026 after technology transfer",
+      "insight": "A French regenerative cell therapy developer. Its indication in ischaemic heart disease does not intersect SCA, but it demonstrates something directly useful: how a mid-sized cell therapy company outsources European manufacturing to a CDMO and still reaches Phase 3. That is precisely Steminent's European problem — building capacity is unrealistic, so the question is who takes it on and under what contractual form, and this company has already walked that path.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "Selected CELLforCURE by SEQENS for Phase 3 GMP manufacturing"
+        }
+      ]
+    },
+    "cat": "cell"
+  },
+  {
+    "id": "avrion",
+    "name": "Avrion Therapeutics",
+    "nameEn": "Avrion Therapeutics AG",
+    "short": "Avrion",
+    "country": "瑞士 Switzerland",
+    "ticker": "未上市 Private",
+    "mechanism": "精準基因療法平台：以單一載體同時、選擇性地把治療基因送進腦內的神經元與星形膠質細胞",
+    "pipeline": "AVR-001｜SOD1 突變型 ALS，準備進入 IND-enabling，已於囓齒類與非人靈長類模型驗證；AVR-002｜針對神經免疫機轉，設計涵蓋家族性與偶發性 ALS 全體病人",
+    "insight": "2020 年成立、洛桑聯邦理工學院（EPFL）Brain Mind Institute 與 Bertarelli 基金會基因療法平台的衍生公司，總部巴塞爾。與仲恩的交集不在適應症而在**細胞層級的遞送**：它主張同時打神經元與星形膠質細胞才有協同效益，這個「不能只顧神經元」的論點，正好呼應 MSC 旁分泌作用於整個神經膠質環境的機轉敘事。若其非人靈長類遞送數據成立，對「中樞遞送做不到」這個 SCA 領域的共同天花板是重要參考。",
+    "threat": "low",
+    "url": "https://www.avriontx.com/about/",
+    "match": [
+      "Avrion",
+      "AVR-001",
+      "AVR-002"
+    ],
+    "updates": [
+      {
+        "date": "2026",
+        "text": "AVR-001 準備進入 IND-enabling 研究"
+      }
+    ],
+    "en": {
+      "name": "Avrion Therapeutics AG",
+      "country": "Switzerland",
+      "ticker": "Private",
+      "mechanism": "A precision gene therapy platform delivering therapeutic genes selectively and simultaneously to both neurons and astrocytes in the brain from a single vector",
+      "pipeline": "AVR-001 | SOD1-linked ALS, preparing to enter IND-enabling studies, validated in rodent and non-human primate models; AVR-002 | targets a neuroimmune mechanism and is designed for all ALS patients, whether familial or sporadic",
+      "insight": "Founded in 2020 and headquartered in Basel, a spin-off from EPFL's Brain Mind Institute and the Bertarelli Foundation Gene Therapy Platform. Its overlap with Steminent lies not in indication but in cell-level delivery: its thesis that synergistic benefit requires targeting neurons and astrocytes together echoes the argument that MSC paracrine action works across the whole glial environment rather than on neurons alone. If its non-human primate delivery data holds, it is an important reference point for the CNS delivery ceiling that constrains the whole SCA field.",
+      "updates": [
+        {
+          "date": "2026",
+          "text": "AVR-001 preparing to enter IND-enabling studies"
+        }
+      ]
+    },
+    "cat": "neuro"
+  },
+  {
+    "id": "ctpl-australia",
+    "name": "Cell Therapies Pty Ltd",
+    "nameEn": "Cell Therapies Pty Ltd (CTPL)",
+    "short": "CTPL",
+    "country": "澳洲 Australia",
+    "ticker": "未上市 Private",
+    "mechanism": "細胞與基因治療 CDMO；自體與異體流程皆可",
+    "pipeline": "受託製造服務｜墨爾本維多利亞綜合癌症中心，與 Peter MacCallum 癌症中心同址；13 間專建無塵室（10 間支援早中期臨床、3 間大規模高通量支援後期與商業化），商業套房年產能達 2,000 劑",
+    "insight": "**這一家的關鍵不是產能而是查廠紀錄**：已通過 TGA、FDA、EMA 與 PMDA 多次查核，並持有日本 MHLW 認證。仲恩的日本申請正在 PMDA 手上，而日本核准後需要能供貨的 GMP 廠——一座同時被 PMDA 查過、又位在亞太時區的商業級廠房，在整份名單裡是獨一無二的組合。產品範圍涵蓋 CAR-T、TCR、NK 與再生醫療產品。",
+    "threat": "partner",
+    "url": "https://celltherapies.com/",
+    "match": [
+      "Cell Therapies Pty",
+      "CTPL"
+    ],
+    "updates": [
+      {
+        "date": "2026/04",
+        "text": "與 AdAlta 簽署首份工作訂單，將 BZDS1901 製造移入澳洲；並與 Oribiotech、AdAlta 合作因應細胞治療製造挑戰"
+      }
+    ],
+    "en": {
+      "name": "Cell Therapies Pty Ltd (CTPL)",
+      "country": "Australia",
+      "ticker": "Private",
+      "mechanism": "Cell and gene therapy CDMO supporting both autologous and allogeneic workflows",
+      "pipeline": "Contract manufacturing | At the Victorian Comprehensive Cancer Centre in Melbourne, co-located with the Peter MacCallum Cancer Centre; 13 purpose-built cleanrooms (10 GMP suites for early- to mid-phase trials, 3 large-scale high-throughput suites for late-phase and commercial work), with commercial capacity up to 2,000 patient doses a year",
+      "insight": "What matters here is the inspection record rather than the capacity: the site has passed numerous inspections by the TGA, FDA, EMA and PMDA, and holds MHLW accreditation for Japan. Steminent's Japanese application sits with the PMDA, and approval will require a GMP site able to supply — a commercial-scale plant that has been inspected by the PMDA and sits in an Asia-Pacific time zone is a combination unique on this list. Its product scope covers CAR-T, TCR and NK therapies alongside regenerative medicine products.",
+      "updates": [
+        {
+          "date": "2026/04",
+          "text": "Signed a first work order with AdAlta to bring BZDS1901 manufacturing to Australia, and joined Oribiotech and AdAlta on cell therapy manufacturing challenges"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "ccrm-nordic",
+    "name": "CCRM Nordic",
+    "nameEn": "CCRM Nordic",
+    "short": "CCRM Nordic",
+    "country": "瑞典 Sweden",
+    "ticker": "非營利／公私合營 Non-profit",
+    "mechanism": "再生醫學商業化中心的北歐分支；製程開發與 GMP 製造",
+    "pipeline": "GMP 與製程開發設施｜規劃於 2027 年第二季啟用",
+    "insight": "**這是整份名單裡最有槓桿的一條線索**：它是加拿大 CCRM 的北歐分支，而 CCRM 已經因 OmniaBio 與 Medipost 的關係列在優先序 1。同一個組織網絡橫跨北美與北歐，代表與 CCRM 建立一次關係、可以同時打開兩個市場的門。缺點是設施要到 2027 Q2 才啟用，趕不上仲恩目前的時程，屬於中期選項。",
+    "threat": "partner",
+    "url": "https://ccrmnordic.se/",
+    "match": [
+      "CCRM Nordic"
+    ],
+    "updates": [
+      {
+        "date": "2027/Q2",
+        "text": "GMP 與製程開發設施規劃啟用（尚未營運）"
+      }
+    ],
+    "en": {
+      "country": "Sweden",
+      "ticker": "Non-profit / public-private",
+      "mechanism": "The Nordic arm of a regenerative medicine commercialisation centre, covering process development and GMP manufacturing",
+      "pipeline": "GMP and process development facilities | Scheduled to open in Q2 2027",
+      "insight": "The single highest-leverage lead on this list: it is the Nordic arm of Canada's CCRM, which already sits at priority 1 through its OmniaBio relationship with Medipost. One organisational network spanning North America and the Nordics means a single relationship with CCRM could open doors in two markets at once. The drawback is that the facilities only open in Q2 2027, too late for Steminent's current timeline, making this a medium-term option.",
+      "updates": [
+        {
+          "date": "2027/Q2",
+          "text": "GMP and process development facilities scheduled to open; not yet operational"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "atmp-sweden",
+    "name": "Cell & Gene Therapy SWEDEN／ATMP Center",
+    "nameEn": "Cell & Gene Therapy SWEDEN / ATMP Center",
+    "short": "ATMP Sweden",
+    "country": "瑞典 Sweden",
+    "ticker": "國家級聯盟 National consortium",
+    "mechanism": "瑞典先進治療醫療產品（ATMP）的國家協調機制；成員含七所醫學大學、七所大學醫院與七家生技／製藥／醫材業者",
+    "pipeline": "國家協調與 GMP 基礎設施｜Skåne 大學醫院 ATMP Center 於 2025 年初啟用，以多能幹細胞依 GMP 製造先進治療產品；隆德大學設有 pre-GMP 設施；規劃於 2026 下半年完成完整聯盟編組與財務安排",
+    "insight": "瑞典把分散的學術與醫院產能整合成單一入口，這對外來者的意義是**不必逐一敲門**。歷史上瑞典的 CGT GMP 基礎設施自 1990 年代末即運作，2014 年更做出歐洲第一批進入臨床試驗的 CAR-T，底子不淺。對仲恩而言，這是進入北歐臨床與製造網絡的統一窗口，適合在歐洲策略成形後再接觸。",
+    "threat": "partner",
+    "url": "https://atmpsweden.se/",
+    "match": [
+      "ATMP Sweden",
+      "Cell & Gene Therapy SWEDEN",
+      "ATMP Center"
+    ],
+    "updates": [
+      {
+        "date": "2026/H2",
+        "text": "規劃完成完整聯盟編組與財務、營運安排"
+      },
+      {
+        "date": "2025",
+        "text": "Skåne 大學醫院 ATMP Center 啟用，依 GMP 製造多能幹細胞來源的先進治療產品"
+      }
+    ],
+    "en": {
+      "name": "Cell & Gene Therapy SWEDEN / ATMP Center",
+      "country": "Sweden",
+      "ticker": "National consortium",
+      "mechanism": "Sweden's national coordination function for advanced therapy medicinal products, with members drawn from seven medical universities, seven university hospitals and seven biotech, pharmaceutical and medtech companies",
+      "pipeline": "National coordination and GMP infrastructure | The ATMP Center at Skåne University Hospital opened in early 2025, manufacturing advanced therapies from pluripotent stem cells under GMP; Lund University operates a pre-GMP facility; full consortium formation with financing and operations is planned for the second half of 2026",
+      "insight": "Sweden has consolidated scattered academic and hospital capacity into a single point of entry, which for an outsider means not having to knock on doors one at a time. Swedish CGT GMP infrastructure has been running since the late 1990s and produced the first CAR-T cells to enter a clinical trial anywhere in Europe in 2014, so the foundations are deep. For Steminent this is a unified gateway into Nordic clinical and manufacturing networks, best approached once the European strategy has taken shape.",
+      "updates": [
+        {
+          "date": "2026/H2",
+          "text": "Full consortium formation with financing and operations planned"
+        },
+        {
+          "date": "2025",
+          "text": "The ATMP Center at Skåne University Hospital opened, manufacturing pluripotent stem cell-derived advanced therapies under GMP"
+        }
+      ]
+    },
+    "cat": "platform"
+  },
+  {
+    "id": "biosenic",
+    "name": "BioSenic（原 Bone Therapeutics）",
+    "nameEn": "BioSenic (formerly Bone Therapeutics)",
+    "short": "BioSenic",
+    "country": "比利時 Belgium",
+    "ticker": "Euronext: BIOS",
+    "mechanism": "ALLOB：骨髓間質幹細胞體外培養分化而成的異體成骨細胞產品",
+    "pipeline": "⚠️ ALLOB 已擱置｜脛骨骨折 Ph2b 未達療效終點，早期給藥未能顯著加速癒合，2023-06 宣布暫停開發。公司重心已轉向來自 Medsenic 的口服三氧化二砷，備戰慢性移植物抗宿主病 Ph3",
+    "insight": "2022-10 由 Bone Therapeutics 與法國 Medsenic 反向合併而成，位於 Mont-Saint-Guibert 的 Louvain-la-Neuve 科學園區。**列在這裡是作為警訊而非機會**：這是又一個異體 MSC 衍生產品在 Ph2b 折戟、且公司隨即轉向非細胞資產的案例。值得注意的是失敗發生在療效而非安全性——ALLOB 注射的安全性紀錄良好、無相關嚴重不良事件。這正是異體 MSC 的典型困境：安全過得去，療效證不出來。",
+    "threat": "low",
+    "url": "https://www.biosenic.com/our-science",
+    "match": [
+      "BioSenic",
+      "Bone Therapeutics",
+      "ALLOB"
+    ],
+    "updates": [
+      {
+        "date": "2023/06",
+        "text": "ALLOB 脛骨骨折 Ph2b 療效未達標，宣布暫停開發，重心轉向口服三氧化二砷"
+      },
+      {
+        "date": "2022/10",
+        "text": "Bone Therapeutics 與 Medsenic 反向合併，更名 BioSenic"
+      }
+    ],
+    "en": {
+      "name": "BioSenic (formerly Bone Therapeutics)",
+      "country": "Belgium",
+      "ticker": "Euronext: BIOS",
+      "mechanism": "ALLOB, an allogeneic osteoblastic product derived from bone marrow mesenchymal stem cells cultured and differentiated ex vivo",
+      "pipeline": "ALLOB on hold | The Phase 2b in tibial fractures missed its efficacy endpoint, with early administration failing to accelerate healing significantly, and development was suspended in June 2023. The company has shifted its focus to oral arsenic trioxide acquired from Medsenic, preparing a Phase 3 in chronic graft-versus-host disease",
+      "insight": "Formed in October 2022 by a reverse merger of Bone Therapeutics with France's Medsenic, based at the Louvain-la-Neuve Science Park in Mont-Saint-Guibert. It is listed here as a warning rather than an opportunity: another allogeneic MSC-derived product that failed at Phase 2b, after which the company pivoted to a non-cell asset. Notably the failure was on efficacy rather than safety — ALLOB injections had a good safety record with no related serious adverse events. That is the characteristic bind of allogeneic MSCs: safety clears, efficacy does not.",
+      "updates": [
+        {
+          "date": "2023/06",
+          "text": "ALLOB missed efficacy in the tibial fracture Phase 2b; development suspended and focus moved to oral arsenic trioxide"
+        },
+        {
+          "date": "2022/10",
+          "text": "Bone Therapeutics and Medsenic merged in reverse, renaming the company BioSenic"
+        }
+      ]
+    },
+    "cat": "cell"
   }
 ]

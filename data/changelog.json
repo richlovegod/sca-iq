@@ -2,6 +2,22 @@
   {
     "date": "2026-07-31",
     "dateDisplay": "2026/07/31",
+    "tag": "系統上線",
+    "level": "win",
+    "body": "市場覆蓋矩陣補到零缺口：12 個目標市場的治療型與製造生態系兩層全數有對象。法國原本雙缺，補入 Cell-Easy（土魯斯，CellReady 異體 MSC 平台，2026-01 與 CHU Toulouse 啟動 A-MUSE Ph1/2）、CELLforCURE by SEQENS 與 CellProthera；澳洲補入 Cell Therapies Pty Ltd，該廠已通過 TGA／FDA／EMA／PMDA 查核並持有日本 MHLW 認證，因與本社日本審查時程耦合而列為優先序 1；瑞典補入 CCRM Nordic（與既有加拿大 OmniaBio 同一組織網絡）與 ATMP Sweden；瑞士補入 Avrion Therapeutics。比利時補入 BioSenic（原 Bone Therapeutics），但誠實標註：其 ALLOB 異體 MSC 於 Ph2b 療效未達而擱置、公司已轉向非細胞資產，該市場治療型層實質上仍是空的。公司層 75→83 家、合作分析 73→81 筆。",
+    "link": {
+      "label": "詳見 合作機會 ↗",
+      "tab": "pa"
+    },
+    "en": {
+      "tag": "Release",
+      "body": "The market coverage matrix now has no gaps: all 12 target markets carry counterparties in both the therapeutic and manufacturing-ecosystem layers. France, previously empty on both, gains Cell-Easy (Toulouse, whose CellReady allogeneic MSC platform entered the A-MUSE Ph1/2 with CHU Toulouse in January 2026), CELLforCURE by SEQENS and CellProthera. Australia gains Cell Therapies Pty Ltd, a site inspected by the TGA, FDA, EMA and PMDA that also holds Japanese MHLW accreditation, ranked priority 1 because its relevance is coupled to the Japanese review timeline. Sweden gains CCRM Nordic, part of the same organisational network as the existing Canadian OmniaBio line, along with ATMP Sweden. Switzerland gains Avrion Therapeutics. Belgium gains BioSenic, formerly Bone Therapeutics, with an honest caveat: its ALLOB allogeneic MSC missed efficacy at Phase 2b and was shelved while the company moved to non-cell assets, so that market's therapeutic layer remains effectively empty. The company layer grew from 75 to 83 and the partnering analysis from 73 to 81 entries.",
+      "linkLabel": "See Partnering ↗"
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "dateDisplay": "2026/07/31",
     "tag": "合作機會",
     "level": "win",
     "body": "合作機會頁補齊「學術層」：新增 5 個 SCA 自然史世代聯盟（美國 CRC-SCA／READISCA、台灣台北榮總、歐洲 EUROSCA／RISCA、日本 SCA6、中國 NfL），市場覆蓋地圖中美國與台灣的學術缺口已填上。",

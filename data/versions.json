@@ -1,5 +1,19 @@
 [
   {
+    "version": "v2.4",
+    "dateDisplay": "2026/07/31",
+    "title": "市場覆蓋矩陣零缺口——補齊法、瑞士、澳、比、瑞典五個市場",
+    "changes": [
+      "12 個目標市場的「治療型」與「製造生態系」兩層全數補齊，矩陣不再有缺口格",
+      "法國（原本雙缺）：Cell-Easy（土魯斯，CellReady 異體 MSC 平台，2026-01 與 CHU Toulouse 啟動 A-MUSE Ph1/2）、CELLforCURE by SEQENS（巴黎近郊 10,000 m² 廠）、CellProthera（外包製造推進至 Ph3 的路徑示範）",
+      "澳洲（原缺製造）：Cell Therapies Pty Ltd——已通過 TGA／FDA／EMA／PMDA 查核並持有日本 MHLW 認證，13 間無塵室、年產能 2,000 劑，列為優先序 1（與日本審查時程耦合）",
+      "瑞典（原缺製造）：CCRM Nordic（加拿大 CCRM 的北歐分支，與既有 OmniaBio 那條線同源）、Cell & Gene Therapy SWEDEN／ATMP Center",
+      "瑞士（原缺治療型）：Avrion Therapeutics（EPFL 衍生，AVR-001 同時靶向神經元與星形膠質細胞）",
+      "比利時（原缺治療型）：BioSenic／原 Bone Therapeutics——ALLOB 異體 MSC 於 Ph2b 療效未達而擱置；誠實標註比利時治療型層實質仍空，此筆為警訊而非機會",
+      "公司層 75 → 83 家；合作分析 73 → 81 筆"
+    ]
+  },
+  {
     "version": "v2.3",
     "dateDisplay": "2026/07/31",
     "title": "合作機會補齊「學術層」：5 個 SCA 自然史世代聯盟",
