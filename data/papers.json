@@ -1,5 +1,43 @@
 [
   {
+    "id": "pubmed:42538636",
+    "date": "2026-07-31",
+    "dateDisplay": "2026/07/31",
+    "title": "Establishing Sensory Neurons as Therapeutic Targets in Peripheral Neuropathy Driven by Polyglutamine Expanded Murine ATXN3",
+    "journal": "Annals of Neurology · Mato JP, Hayes JM, Emerson J 等",
+    "tag": "SCA3 周邊神經 · 治療標的",
+    "note": "→ SCA3 不只是小腦病變：ATXN3 敲入小鼠重現臨床可見的漸進性感覺運動缺損、周邊神經病理與神經傳導異常，而 ATXN3 敲除小鼠周邊功能正常，指向<b>突變 ataxin-3 的毒性功能獲得</b>而非功能喪失。研究者以 Avil-Cre 條件性敲入小鼠<b>僅在感覺神經元中沉默突變 ATXN3，即顯著改善周邊異常與剪接失調</b>。記錄價值：SCA3 的基因沉默療法（Vico VO659、已放棄的 Biogen/Ionis BIIB132）採鞘內給藥、標的集中在中樞；此研究指出背根神經節與周邊感覺神經元也是需要覆蓋的治療區室，對遞送途徑與療效終點是否納入周邊神經功能有設計意涵。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42538636/",
+    "urlLabel": "論文 ↗ PubMed 42538636",
+    "en": {
+      "tag": "SCA3 peripheral nerve · therapeutic target",
+      "journal": "Annals of Neurology · Mato JP, Hayes JM, Emerson J et al.",
+      "note": "→ SCA3 is not only a cerebellar disease: ATXN3 knock-in mice reproduced the progressive sensorimotor deficits, peripheral pathology and nerve-conduction abnormalities seen clinically, while ATXN3 knockout mice had normal peripheral function — pointing to a <b>toxic gain of function of mutant ataxin-3</b> rather than loss of function. Using an Avil-Cre conditional knock-in, <b>silencing mutant ATXN3 in sensory neurons alone significantly improved the peripheral abnormalities and splicing dysregulation</b>. Why it is recorded: gene-silencing programmes in SCA3 (Vico's VO659, the discontinued Biogen/Ionis BIIB132) dose intrathecally and are aimed at the central compartment; this work argues that dorsal root ganglia and peripheral sensory neurons are also compartments therapy must reach, with implications for route of delivery and for whether efficacy endpoints should include peripheral nerve function.",
+      "urlLabel": "Paper ↗ PubMed 42538636"
+    }
+  },
+  {
+    "id": "pubmed:42539086",
+    "date": "2026-07-22",
+    "dateDisplay": "2026/07/22",
+    "title": "Dissecting the relationship between haplotypes around ATXN2 CAG repeats and the number of CAA interruptions by long-read sequencing",
+    "journal": "medRxiv（預印本）· Lee BH, Chan J, Leung YY 等",
+    "tag": "SCA2／ATXN2 · 長讀定序",
+    "note": "→ 以 Oxford Nanopore 長讀定序同時判定 ATXN2 周邊單體型、CAG 重複數與 CAA 中斷數，並分析 41 名帶中間長度重複的神經疾病個案。三個 CAA 中斷在各族裔對照族群中盛行率僅約 1%，在帶中間長度重複的 ALS 個案中卻約 55%，且對應到由 SNV rs148019457 標記的特定單體型。⚠️ <b>medRxiv 預印本，尚未同儕審查</b>。記錄價值：ATXN2 是 Arrowhead／Sarepta ARO-ATXN2（SCA2 siRNA，含台北榮總站點）的標的；重複結構與中斷數影響基因型判讀，也牽動 SCA2（≥33 重複）與 ALS（27–33 重複）兩個適應症的族群界定與試驗納入條件。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42539086/",
+    "urlLabel": "預印本 ↗ PubMed 42539086",
+    "en": {
+      "tag": "SCA2 / ATXN2 · long-read sequencing",
+      "journal": "medRxiv (preprint) · Lee BH, Chan J, Leung YY et al.",
+      "note": "→ Oxford Nanopore long-read sequencing was used to resolve haplotypes around ATXN2, CAG repeat number and CAA interruptions simultaneously, across 41 neurologically affected individuals carrying intermediate repeats. Three CAA interruptions were rare in controls across ancestry groups (about 1%) but common in ALS cases with intermediate repeats (about 55%), and mapped to a distinct haplotype tagged by the SNV rs148019457. ⚠️ <b>This is a medRxiv preprint and has not been peer reviewed.</b> Why it is recorded: ATXN2 is the target of Arrowhead/Sarepta's ARO-ATXN2 (SCA2 siRNA, with a Taipei VGH site), and repeat structure and interruption count affect genotype interpretation as well as how the SCA2 (≥33 repeats) and ALS (27–33 repeats) populations are delimited for trial eligibility.",
+      "urlLabel": "Preprint ↗ PubMed 42539086"
+    }
+  },
+  {
     "id": "pubmed:42527844",
     "date": "2026-07-29",
     "dateDisplay": "2026/07/29",

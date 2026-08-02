@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-02",
+    "dateDisplay": "2026/08/02",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 2 則科學文獻：<b>Annals of Neurology</b> 以 ATXN3 敲入小鼠證明 SCA3 的周邊感覺神經病變源自突變 ataxin-3 的毒性功能獲得，且僅在感覺神經元中沉默突變基因即可改善——指出背根神經節是鞘內給藥的基因沉默療法需一併覆蓋的區室；另一則為 <b>medRxiv 預印本</b>，以長讀定序拆解 ATXN2 周邊單體型與 CAA 中斷數的關係（三個中斷在對照族群約 1%、在中間長度重複的 ALS 個案約 55%）。ClinicalTrials.gov 五組適應症查詢（SCA／Friedreich／SBMA／polyglutamine／episodic ataxia-CACNA1A）本日無清單外的新療法型試驗，既有試驗狀態亦與平台紀錄一致。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 2 papers. In <b>Annals of Neurology</b>, ATXN3 knock-in mice show that the peripheral sensory neuropathy of SCA3 arises from a toxic gain of function of mutant ataxin-3, and that silencing the mutant gene in sensory neurons alone is enough to improve it — arguing that dorsal root ganglia are a compartment intrathecally dosed gene-silencing therapies must also reach. The second is a <b>medRxiv preprint</b> using long-read sequencing to dissect haplotypes around ATXN2 against CAA interruption count (three interruptions being present in about 1% of controls but about 55% of ALS cases with intermediate repeats). The five ClinicalTrials.gov condition queries (SCA, Friedreich, SBMA, polyglutamine, episodic ataxia/CACNA1A) surfaced no therapeutic trials outside the tracked list today, and the statuses of tracked trials match what the platform already records.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-07-31",
     "dateDisplay": "2026/07/31",
     "tag": "系統上線",
