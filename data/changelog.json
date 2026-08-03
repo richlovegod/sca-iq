@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-03",
+    "dateDisplay": "2026/08/03",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 1 則科學文獻：<b>Neurological Sciences</b> 綜述長讀定序在神經疾病基因診斷的角色，明列<b>脊髓小腦萎縮症</b>為已展現效益的適應症（大型重複擴增正是短讀定序的盲區），並整理 DNA 品質、分析負荷、成本與可近性等待解限制——與 SCA 試驗的基因型納入與分層條件直接相關。ClinicalTrials.gov 五組適應症查詢（SCA／Friedreich／SBMA／polyglutamine／episodic ataxia-CACNA1A）本日無清單外的新療法型試驗；Friedreich 圈層近日更新的四筆中，Solid Biosciences <b>SGT-212</b>（NCT07180355）已在追蹤名單內，其餘三筆為觀察性或數位評估研究，不予收錄。競品新聞掃描（Biohaven、仲恩／REPROCELL 等）未見近 7 天內的新事實。今日為週一，已產出週報草稿檔（2026/07/28–08/03）；<b>Gmail 寄件草稿建立被權限機制擋下未完成</b>，草稿內容已另存為 .eml 供人工匯入。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added 1 paper. A review in <b>Neurological Sciences</b> sets out the role of long-read sequencing in the genetic diagnosis of neurological disease, listing <b>spinocerebellar ataxia</b> among the conditions where the benefit is already demonstrated (large repeat expansions being precisely the blind spot of short-read sequencing), and collects the outstanding limits around DNA quality, analytical burden, cost and access — all directly relevant to genotype-based eligibility and stratification in SCA trials. The five ClinicalTrials.gov condition queries (SCA, Friedreich, SBMA, polyglutamine, episodic ataxia/CACNA1A) surfaced no therapeutic trials outside the tracked list today; of the four recently updated records in the Friedreich ring, Solid Biosciences' <b>SGT-212</b> (NCT07180355) is already tracked and the other three are observational or digital-outcome studies and were not recorded. The competitor news sweep (Biohaven, Steminent/REPROCELL and others) surfaced no new facts within the past 7 days. Being a Monday, the weekly report draft covering 2026/07/28–08/03 was produced; <b>creating the Gmail draft was blocked by the permission layer and did not complete</b>, so the message was saved as an .eml file for manual import instead.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-02",
     "dateDisplay": "2026/08/02",
     "tag": "每日掃描",

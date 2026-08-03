@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42541630",
+    "date": "2026-08-01",
+    "dateDisplay": "2026/08/01",
+    "title": "Long-read sequencing for neurological disorders: opportunities, challenges, and future directions",
+    "journal": "Neurological Sciences · Geiger H, Furuta Y, Perera BLA 等",
+    "tag": "長讀定序 · 基因診斷綜述",
+    "note": "→ 綜述長讀定序（LRS）在神經疾病基因診斷的角色：短讀定序難以偵測的<b>大型重複擴增、複雜結構變異、粒線體變異</b>正是 LRS 的強項，文中明列<b>脊髓小腦萎縮症</b>與裘馨氏肌失養症、脆折 X 症候群並列為已展現效益的適應症；同時指出 DNA 品質要求、分析負荷、可近性、成本與倫理等待解限制。記錄價值：SCA 的基因型判讀（CAG 重複數、CAA 中斷、體細胞不穩定性）直接決定試驗納入條件與分層，此篇可作為診斷技術面的參考背景。⚠️ 為綜述文章、非原始資料。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42541630/",
+    "urlLabel": "論文 ↗ PubMed 42541630",
+    "en": {
+      "tag": "Long-read sequencing · diagnostic review",
+      "journal": "Neurological Sciences · Geiger H, Furuta Y, Perera BLA et al.",
+      "note": "→ A review of long-read sequencing (LRS) in the genetic diagnosis of neurological disease: the variant classes short-read sequencing struggles with — <b>large repeat expansions, complex structural variants and mitochondrial variants</b> — are precisely where LRS performs, and the paper lists <b>spinocerebellar ataxias</b> alongside Duchenne muscular dystrophy and fragile X syndrome as conditions where the benefit is already demonstrated. It also sets out the outstanding limits: DNA quality requirements, analytical burden, access, cost and ethical concerns. Why it is recorded: genotyping in SCA (CAG repeat length, CAA interruptions, somatic instability) directly governs trial eligibility and stratification, so this serves as background on the diagnostic technology. ⚠️ A review article, not primary data.",
+      "urlLabel": "Paper ↗ PubMed 42541630"
+    }
+  },
+  {
     "id": "pubmed:42538636",
     "date": "2026-07-31",
     "dateDisplay": "2026/07/31",
