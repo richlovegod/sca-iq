@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-05",
+    "dateDisplay": "2026/08/05",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "＊本次為 <b>08/04–08/05 兩日合併掃描</b>：08/04 排程未執行（該日無發布），已一併回補。新增 2 則科學文獻：<b>BMJ Case Reports</b> 報告一名以頸部肌張力不全表現、症狀出現<b>十年後</b>才確診的 CACNA1A 相關脊髓小腦萎縮症病例（此基因即 SCA6／發作性共濟失調第 2 型，也是 IntraBio 第三期 NCT07221292 的族群，診斷延遲直接影響該圈層的可收案人數）；<b>Stem Cell Research</b> 建立四株 SCA12 病人來源 iPSC 品系（PPP2R2B 非編碼區 ≥43 CAG，屬非 polyQ 亞型、不在 Stemchymal 適應症內）。ClinicalTrials.gov 五組適應症查詢（SCA／Friedreich／SBMA／polyglutamine／episodic ataxia-CACNA1A）兩日內僅兩筆更新，分別為經顱時間干涉刺激（神經調節，非療法型）與 SCA 自然史研究，依收錄準則不予收錄。競品新聞掃描（Biohaven、Vico、Arrowhead、安基、仲恩／REPROCELL）未見近 7 天內的新事實。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "*This is a <b>combined 04–05 August scan</b>: the scheduled run did not execute on 04 August (nothing was published that day) and has been backfilled here. Two papers added. <b>BMJ Case Reports</b> describes a patient who presented with cervical dystonia and was diagnosed with CACNA1A-related spinocerebellar ataxia only <b>ten years after symptom onset</b> — the same gene behind SCA6 and episodic ataxia type 2, and the population of IntraBio's Phase 3 trial NCT07221292, so the diagnostic delay bears directly on the enrollable population in that ring. <b>Stem Cell Research</b> reports four patient-derived iPSC lines for SCA12 (≥43 CAG in the non-coding region of PPP2R2B — a non-polyQ subtype, outside the Stemchymal indication). The five ClinicalTrials.gov condition queries (SCA, Friedreich, SBMA, polyglutamine, episodic ataxia/CACNA1A) returned only two updates across the two days — a transcranial temporal interference stimulation study (neuromodulation, not a therapeutic) and an SCA natural history study — neither of which meets the inclusion criteria. The competitor news sweep (Biohaven, Vico, Arrowhead, AnnJi, Steminent/REPROCELL) surfaced no new facts within the past 7 days.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-03",
     "dateDisplay": "2026/08/03",
     "tag": "每日掃描",

@@ -1,5 +1,43 @@
 [
   {
+    "id": "pubmed:42547258",
+    "date": "2026-08-03",
+    "dateDisplay": "2026/08/03",
+    "title": "Cervical dystonia as the presenting symptom of novel calcium voltage-gated channel subunit alpha1A mutation",
+    "journal": "BMJ Case Reports · Deng Y, Fletcher D, Colantonio L 等（西維吉尼亞大學醫學院，美國）",
+    "tag": "CACNA1A／SCA6 圈層 · 診斷延遲",
+    "note": "→ 一名中年女性最初以「頸部被拉扯感」就醫，診斷為<b>頸部肌張力不全</b>並接受肉毒桿菌素治療；病情逐步惡化為嚴重共濟失調、吞嚥困難與構音障礙，需行動與進食協助，<b>症狀出現十年後</b>才經基因檢測確診為 CACNA1A 相關脊髓小腦萎縮症。作者提醒：肌張力不全可掩蓋潛在的基因性共濟失調，原因不明的肌張力不全應納入此鑑別診斷。⚠️ <b>單一病例報告，非系列或世代研究，不可外推盛行率</b>。記錄價值：CACNA1A 是 SCA6／發作性共濟失調第 2 型的致病基因，也是 IntraBio N-acetyl-L-leucine 第三期試驗（NCT07221292）鎖定的族群；十年的診斷延遲直接影響此圈層試驗的可收案人數與收案時的疾病嚴重度分布。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42547258/",
+    "urlLabel": "論文 ↗ PubMed 42547258",
+    "en": {
+      "tag": "CACNA1A / SCA6 ring · diagnostic delay",
+      "journal": "BMJ Case Reports · Deng Y, Fletcher D, Colantonio L et al. (WVU School of Medicine, USA)",
+      "note": "→ A middle-aged woman first presented with a pulling sensation in the neck, was diagnosed with <b>cervical dystonia</b> and treated with botulinum toxin. Her condition progressively worsened to severe ataxia, dysphagia and dysarthria requiring mobility and feeding assistance, and genetic testing established a diagnosis of CACNA1A-related spinocerebellar ataxia only <b>ten years after symptom onset</b>. The authors note that dystonia can mask an underlying genetic ataxia, and that unexplained dystonia should prompt consideration of this diagnosis. ⚠️ <b>A single case report — not a series or cohort; prevalence cannot be inferred from it.</b> Why it is recorded: CACNA1A is the gene behind SCA6 and episodic ataxia type 2 and defines the population targeted by IntraBio's Phase 3 trial of N-acetyl-L-leucine (NCT07221292); a ten-year diagnostic delay bears directly on the enrollable population and on the disease-severity distribution at entry for trials in this ring.",
+      "urlLabel": "Paper ↗ PubMed 42547258"
+    }
+  },
+  {
+    "id": "pubmed:42551077",
+    "date": "2026-07-29",
+    "dateDisplay": "2026/07/29",
+    "title": "Establishment of four induced pluripotent stem cell lines (IGIBi028-A, IGIBi029-A, IGIBi030-A, and IGIBi031-A) from peripheral blood derived cells of Spinocerebellar ataxia Type 12 patients",
+    "journal": "Stem Cell Research · Ahmad I, Reza S, Singh N 等（CSIR-IGIB／AIIMS，印度）",
+    "tag": "SCA12 · iPSC 疾病模型資源",
+    "note": "→ 由 SCA12 病人周邊血細胞建立四株誘導性多能幹細胞（iPSC）品系，帶有 <b>PPP2R2B 基因上游非編碼區 ≥43 個 CAG 三核苷酸重複擴增</b>；四株均表現未分化多能性標記、具三胚層分化能力並維持基因穩定性。⚠️ 為<b>細胞株資源論文</b>，不含療效或機轉結論。記錄價值：SCA12 的 CAG 擴增位在<b>非編碼區</b>、不轉譯成多聚麩醯胺酸，機轉與 SCA1/2/3/6/7 等 polyQ 亞型不同——本社 Stemchymal 的適應症為 polyQ SCA，SCA12 不在其中。此類病人來源 iPSC 是亞型專屬藥物篩選與機轉研究的前端工具，也是觀察 SCA 領域研究能量往非 polyQ 亞型擴散的指標。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42551077/",
+    "urlLabel": "論文 ↗ PubMed 42551077",
+    "en": {
+      "tag": "SCA12 · iPSC disease-model resource",
+      "journal": "Stem Cell Research · Ahmad I, Reza S, Singh N et al. (CSIR-IGIB / AIIMS, India)",
+      "note": "→ Four induced pluripotent stem cell (iPSC) lines were derived from peripheral blood cells of SCA12 patients carrying an <b>expansion of ≥43 CAG trinucleotide repeats in the upstream non-coding region of PPP2R2B</b>. All four expressed undifferentiated pluripotency markers, differentiated into all three germ layers and were genetically stable. ⚠️ This is a <b>cell-line resource paper</b> and carries no efficacy or mechanistic conclusions. Why it is recorded: the SCA12 expansion sits in a <b>non-coding region</b> and is not translated into a polyglutamine tract, so its mechanism differs from the polyQ subtypes SCA1/2/3/6/7 — Steminent's Stemchymal is indicated for polyglutamine SCA, which does not include SCA12. Patient-derived iPSC lines of this kind are upstream tools for subtype-specific drug screening and mechanistic work, and also mark research effort spreading into non-polyQ subtypes of SCA.",
+      "urlLabel": "Paper ↗ PubMed 42551077"
+    }
+  },
+  {
     "id": "pubmed:42541630",
     "date": "2026-08-01",
     "dateDisplay": "2026/08/01",
