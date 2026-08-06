@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42549268",
+    "date": "2026-08-04",
+    "dateDisplay": "2026/08/04",
+    "title": "Enhancing the detection of HTT1a with neoepitope antibodies in mouse models of Huntington's disease",
+    "journal": "Brain Communications 8(4):fcag285 · Osborne GF, Smith EJ, Sathasivam K 等，通訊作者 Landles C（倫敦大學學院，英國）",
+    "tag": "polyQ 聚集偵測試劑（亨丁頓鄰域）",
+    "note": "→ 開發兩株新的重組新表位抗體 <b>1B12 與 11G2</b>，用於偵測 HTT1a——CAG 重複擴增時 HTT 前驅 mRNA 異常剪接產生的高致病性、易聚集蛋白片段。作者以一系列 knock-in（HdhQ20／Q50／Q80／Q111、CAG140、zQ175）與轉基因（YAC128、N171-82Q）小鼠，將兩株新抗體與現行標準的 MW8 抗體比較，並在 HTRF 與 MSD 兩種生物檢定平台上評估；結論建議 HTRF 用 1B12、MSD 用 11G2，以取代靈敏度受限的 MW8。⚠️ <b>純小鼠模型的試劑與檢定方法學論文，不含任何人體資料或療效結論</b>。記錄價值：CAG 重複擴增造成的異常剪接是<b>所有 polyQ 疾病共通的機轉假說</b>（含 SCA1/2/3/6/7），而聚集體定量的靈敏度直接決定臨床前藥效判讀的解析度——Vico VO659 這類直接鎖定 CAG 重複的療法，其臨床前評估即依賴此類檢定。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42549268/",
+    "urlLabel": "論文 ↗ PubMed 42549268",
+    "en": {
+      "tag": "polyQ aggregate-detection reagents (Huntington's ring)",
+      "journal": "Brain Communications 8(4):fcag285 · Osborne GF, Smith EJ, Sathasivam K et al., corresponding author Landles C (University College London, UK)",
+      "note": "→ Two novel recombinant neoepitope antibodies, <b>1B12 and 11G2</b>, were developed to detect HTT1a — the highly pathogenic, aggregation-prone protein produced by aberrant splicing of HTT pre-mRNA that increases as the CAG repeat expands. The authors benchmarked them against the current standard MW8 antibody across an allelic series of knock-in mice (HdhQ20/Q50/Q80/Q111, CAG140, zQ175) and transgenic YAC128 and N171-82Q models, and evaluated them on the HTRF and MSD bioassay platforms; they recommend 1B12 for HTRF and 11G2 for MSD, replacing the sensitivity-limited MW8. ⚠️ <b>A reagent and assay-methodology paper in mouse models only — it contains no human data and no efficacy conclusions.</b> Why it is recorded: aberrant splicing driven by CAG repeat expansion is a <b>mechanistic hypothesis shared across the polyglutamine diseases</b>, including SCA1/2/3/6/7, and the sensitivity of aggregate quantification sets the resolution at which preclinical pharmacodynamics can be read — assays of this kind underpin the preclinical evaluation of CAG-repeat-directed therapies such as Vico's VO659.",
+      "urlLabel": "Paper ↗ PubMed 42549268"
+    }
+  },
+  {
     "id": "pubmed:42547258",
     "date": "2026-08-03",
     "dateDisplay": "2026/08/03",
