@@ -195,6 +195,40 @@
     }
   },
   {
+    "nct": "NCT05517603",
+    "drug": "AJ201（rosolutamide）",
+    "mechanism": "口服小分子<br>降解突變雄性素受體<br>活化 Nrf1/Nrf2",
+    "phase": "Ph1/2a",
+    "status": "已完成（<b>首次用於病人</b>之隨機雙盲安慰劑對照試驗，n=25、2023/02/28–2024/04/08，主要指標＝不良事件／嚴重不良事件／治療相關不良事件發生率與比例；站點全在美國：加州大學爾灣分校、史丹佛、梅約（2 站）、NIH、聖路易華盛頓大學）。<b>登錄自 2024/08/15 起未再更新</b>",
+    "sponsor": "安基生技 AnnJi（台灣）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT05517603",
+    "en": {
+      "drug": "AJ201 (rosolutamide)",
+      "mechanism": "Oral small molecule<br>degrades mutant androgen receptor<br>activates Nrf1/Nrf2",
+      "phase": "Ph1/2a",
+      "status": "Completed (<b>first-in-patient</b> randomised, double-blind, placebo-controlled study; n=25, 2023/02/28–2024/04/08, primary endpoint = incidence and proportion of participants with AEs, SAEs and TEAEs; all sites in the US: UC Irvine, Stanford, Mayo Clinic (2 sites), NIH, Washington University in St. Louis). <b>No registry update since 2024/08/15</b>",
+      "sponsor": "AnnJi Pharmaceutical (Taiwan)"
+    }
+  },
+  {
+    "nct": "NCT07549919",
+    "drug": "AJ201（rosolutamide）",
+    "mechanism": "口服小分子<br>降解突變雄性素受體<br>活化 Nrf1/Nrf2",
+    "phase": "Ph1",
+    "status": "健康受試者之<b>食物效應與藥物動力學</b>試驗（隨機單劑量開放標籤雙向交叉，n=26，收<b>日本裔與白人健康男性</b>，主要指標為 AJ201 之血漿與尿液藥物動力學；站點在美國）；2026/04/09 起始、登錄之預估完成日 2026/04/27。<b>登錄狀態仍為收案中，惟預估完成日已過且自 2026/04/24 起未再更新</b>。⚠️ 此案<b>條件欄登記為「健康男性受試者」而非 SBMA</b>，以疾病為條件的例行掃描查不到，須以藥名點名查核。日本裔對白人的族群比較設計，是支持日本查驗登記常見的族群差異藥物動力學套件形式——<b>安基未公開說明用途，此為依試驗設計之推論，非公司陳述</b>",
+    "sponsor": "安基生技 AnnJi（台灣）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07549919",
+    "en": {
+      "drug": "AJ201 (rosolutamide)",
+      "mechanism": "Oral small molecule<br>degrades mutant androgen receptor<br>activates Nrf1/Nrf2",
+      "phase": "Ph1",
+      "status": "A <b>food-effect and pharmacokinetics</b> study in healthy volunteers (randomised, single-dose, open-label, two-way crossover; n=26 in <b>Japanese and White healthy male participants</b>, primary endpoints are plasma and urine pharmacokinetics of AJ201; site in the US); started 2026/04/09 with a registered estimated completion of 2026/04/27. <b>The registry still reads RECRUITING even though the estimated completion date has passed and there has been no update since 2026/04/24</b>. ⚠️ The condition field registers this study under <b>\"healthy male adults\" rather than SBMA</b>, so routine condition-based scanning cannot find it and it has to be picked up by an asset-name roll-call. The Japanese-versus-White comparison is the usual shape of an ethnic-difference pharmacokinetic package supporting a Japanese filing — <b>AnnJi has not stated the purpose publicly; this is an inference from the study design, not a company statement</b>",
+      "sponsor": "AnnJi Pharmaceutical (Taiwan)"
+    }
+  },
+  {
     "nct": "NCT07040137",
     "drug": "Rovatirelin（KPS-0373）",
     "mechanism": "口服小分子<br>TRH（甲狀腺促素釋素）類似物<br>促進乙醯膽鹼與單胺釋放",
