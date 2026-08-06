@@ -408,13 +408,13 @@ function render(){
   var al=(c.match&&c.match.length)?c.match:[L(c,'name')];
 
   sec('secTrials',(DATA.trials||[]).filter(function(t){return has((t.sponsor||'')+' '+(t.drug||''),al);}), function(t){
-    return '<div class="corow"><b>'+esc(L(t,'drug'))+'</b> · '+esc(L(t,'phase'))+' · '+esc(L(t,'status'))+
+    return '<div class="corow"><b>'+esc(L(t,'drug'))+'</b> · '+esc(L(t,'phase'))+' · '+md(L(t,'status'))+
       ' <span style="color:#6a7c92">'+esc(t.nct)+'</span> <a class="src" href="'+esc(t.url)+'" target="_blank">'+T('lnkTrial')+'</a></div>';});
 
   sec('secResults',(DATA.results||[]).filter(function(r){return has((r.competitor||'')+' '+(r.drug||''),al);}), function(r){
     return '<div class="corow"><b>'+esc(L(r,'drug'))+'</b> <span style="color:#6a7c92">'+esc(L(r,'dateDisplay'))+' · '+esc(L(r,'sourceType'))+'</span>'+
-      '<br><span style="line-height:1.7">'+esc(L(r,'readout'))+'</span>'+
-      (L(r,'implication')?('<br><span style="color:#8b9bb0;font-size:12px">'+esc(L(r,'implication'))+'</span>'):'')+
+      '<br><span style="line-height:1.7">'+md(L(r,'readout'))+'</span>'+
+      (L(r,'implication')?('<br><span style="color:#8b9bb0;font-size:12px">'+md(L(r,'implication'))+'</span>'):'')+
       (srcs(r)?('<br>'+srcs(r)):'')+'</div>';});
 
   sec('secPatents',(DATA.patents||[]).filter(function(p){return has((p.competitor||'')+' '+(p.assignee||'')+' '+(p.asset||''),al);}), function(p){
