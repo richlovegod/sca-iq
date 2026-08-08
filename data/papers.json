@@ -1,5 +1,62 @@
 [
   {
+    "id": "pubmed:42568078",
+    "date": "2026-08-07",
+    "dateDisplay": "2026/08/07",
+    "title": "Expanded ATXN3 CAG Repeat is Stable in Human Purkinje Cells",
+    "journal": "Movement Disorders · Chetia H, Kus L, Sipos E, Heintz N, Mätlik K（洛克斐勒大學分子生物學實驗室，美國；通訊作者現於塔林理工大學，愛沙尼亞）· doi:10.1002/mds.70465",
+    "tag": "SCA3 體細胞重複不穩定性",
+    "note": "→ 作者以人類死後腦組織的細胞類型特異性分析，檢驗 SCA3 病人<b>普金氏細胞（Purkinje cell）內突變 ATXN3 的 CAG 重複是否會隨年齡持續擴增</b>。結論是<b>擴增幅度極小</b>，與小腦顆粒細胞相當，且比紋狀體神經元穩定；作者因此認為<b>體細胞重複擴增不足以解釋 SCA3 普金氏細胞的選擇性退化</b>。⚠️ <b>本則為死後人腦組織的分子定量，摘要未載明樣本數，且未做療效或介入評估。</b> 記錄價值：亨丁頓舞蹈症近年最熱的一條藥理路線是<b>抑制體細胞重複擴增</b>（如鎖定 MSH3 的錯配修復調控），並被視為可橫向移植到其他 polyQ 疾病。若此結果在更大樣本重現，代表<b>該路線在 SCA3 的理論基礎較弱</b>，相對之下「直接降低突變蛋白」的路線（Vico VO659 這類 CAG 標的 ASO、Biogen 已放棄的 BIIB132）在 SCA3 的機轉正當性反而更穩固。單篇論文不足以定論，列為觀察指標。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42568078/",
+    "urlLabel": "論文 ↗ PubMed 42568078",
+    "en": {
+      "tag": "SCA3 somatic repeat instability",
+      "journal": "Movement Disorders · Chetia H, Kus L, Sipos E, Heintz N, Mätlik K (Laboratory of Molecular Biology, The Rockefeller University, USA; corresponding author now at Tallinn University of Technology, Estonia) · doi:10.1002/mds.70465",
+      "note": "→ Using cell-type-specific analysis of human post-mortem brain, the authors asked whether the mutant ATXN3 CAG repeat <b>keeps expanding inside the Purkinje cells</b> of people with SCA3. They report that <b>the expansion is minimal</b> — comparable to cerebellar granule neurons and more stable than in striatal neurons — and conclude that <b>somatic repeat expansion does not account for the selective degeneration of Purkinje cells in SCA3</b>. ⚠️ <b>This is molecular quantification in post-mortem human tissue; the abstract does not state the sample size, and no intervention or efficacy was assessed.</b> Why it is recorded: one of the hottest pharmacological routes in Huntington's disease is <b>suppressing somatic repeat expansion</b> (for example modulating mismatch repair via MSH3), and it is widely assumed to transfer to the other polyglutamine diseases. If this result replicates in larger samples, it implies <b>the rationale for that route is weaker in SCA3</b>, and conversely that lowering the mutant protein directly — CAG-directed ASOs such as Vico's VO659, or Biogen's discontinued BIIB132 — rests on firmer mechanistic ground in SCA3. A single paper is not decisive; logged as an indicator to watch.",
+      "urlLabel": "Paper ↗ PubMed 42568078"
+    }
+  },
+  {
+    "id": "pubmed:42557413",
+    "date": "2026-08-05",
+    "dateDisplay": "2026/08/05",
+    "title": "BRD4 recruitment into HP1 condensates desilences transcription without erasure of repressive chromatin",
+    "journal": "Nature Cell Biology · Brandon CJ, Robinson-Thiewes S, Kaulage M 等，通訊作者 Ansari AZ（聖猶達兒童研究醫院化學生物學與治療學系，美國）· doi:10.1038/s41556-026-02044-1",
+    "tag": "Friedreich's 共濟失調 · 基因去沉默",
+    "note": "→ 團隊設計出合成基因調控分子 <b>SynGR1</b>：一端結合 frataxin（FXN）基因內的重複 DNA 序列，另一端招募促轉錄蛋白 <b>BRD4</b>；BRD4 在抑制性的 HP1 凝聚體中形成「墊腳石」，讓 RNA 聚合酶 II 得以穿越，<b>在抑制性甲基化標記仍存在的情況下重新啟動 FXN 表現</b>。⚠️ <b>細胞層級研究，未含動物或人體資料</b>（聖猶達 08/05 新聞稿明確載明）。記錄價值有兩層：(1) 這是<b>共濟失調圈層出現的新模態類別</b>——合成轉錄調控分子，值得長期追蹤；(2) 但要標明機轉界線：Friedreich's 是 GAA 重複位於非編碼區、造成 FXN <b>表現不足（功能喪失）</b>，而 SCA1/2/3/6/7 是 CAG 重複轉譯出<b>毒性 polyQ 蛋白（功能獲得）</b>——<b>「把基因叫醒」的策略無法直接移植到 polyQ 型 SCA</b>，兩者要解決的問題方向相反。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42557413/",
+    "urlLabel": "論文 ↗ PubMed 42557413",
+    "en": {
+      "tag": "Friedreich's ataxia · gene desilencing",
+      "journal": "Nature Cell Biology · Brandon CJ, Robinson-Thiewes S, Kaulage M et al., corresponding author Ansari AZ (Department of Chemical Biology and Therapeutics, St. Jude Children's Research Hospital, USA) · doi:10.1038/s41556-026-02044-1",
+      "note": "→ The team engineered a synthetic gene regulator, <b>SynGR1</b>: one end binds the repetitive DNA inside the frataxin (FXN) gene, the other recruits the transcription-activating protein <b>BRD4</b>, which then forms \"stepping stones\" inside the repressive HP1 condensates so RNA polymerase II can pass through — <b>restoring FXN expression while the repressive methylation marks remain in place</b>. ⚠️ <b>Cell-based work only; no animal or human data</b> (stated explicitly in St. Jude's 05 August release). It is recorded for two reasons: (1) it marks <b>a new modality class appearing in the ataxia ring</b> — synthetic transcriptional regulators — worth tracking over the long run; and (2) the mechanistic boundary must be stated: Friedreich's ataxia is a GAA repeat in a non-coding region causing <b>insufficient FXN (loss of function)</b>, whereas SCA1/2/3/6/7 are CAG repeats translated into a <b>toxic polyglutamine protein (gain of function)</b> — so <b>a strategy that wakes a silenced gene back up does not transfer directly to polyglutamine SCA</b>; the two problems point in opposite directions.",
+      "urlLabel": "Paper ↗ PubMed 42557413"
+    }
+  },
+  {
+    "id": "pubmed:42561606",
+    "date": "2026-07-21",
+    "dateDisplay": "2026/07/21",
+    "title": "When rhythm guides speech production: Insights from Parkinson's disease and spinocerebellar ataxia",
+    "journal": "Cortex 204:1-21 · Fumel J, Mairano P, Ott L 等（里爾大學 CNRS UMR 9193 SCALab，法國）· doi:10.1016/j.cortex.2026.06.027",
+    "tag": "SCA 構音評估 · 非藥物",
+    "note": "→ 比較健康對照、帕金森氏症與脊髓小腦萎縮症三組受試者在<b>規律節律引子（rhythmic priming）</b>下的語音表現。結果：規律節律<b>在三組都縮短了語音起始時間</b>，但帕金森組的獲益較小；作者推論節律引子影響的是<b>整體時序控制</b>，而非精細的構音層次。⚠️ <b>非藥物介入的認知／語言學研究，不是療法試驗，亦無疾病修飾意涵。</b> 記錄價值：構音障礙（dysarthria）是 SCA 主要失能來源之一，也是 SARA 量表的計分項目；此類研究指出<b>語音起始時間可能是比整體構音評分更敏感的量化指標</b>，對日後試驗的次要終點與數位語音生物標記設計有參考價值——本社與競品的主要終點目前皆為 SARA。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42561606/",
+    "urlLabel": "論文 ↗ PubMed 42561606",
+    "en": {
+      "tag": "SCA speech assessment · non-pharmacological",
+      "journal": "Cortex 204:1-21 · Fumel J, Mairano P, Ott L et al. (Univ. Lille, CNRS UMR 9193 SCALab, France) · doi:10.1016/j.cortex.2026.06.027",
+      "note": "→ The study compared healthy controls, people with Parkinson's disease and people with spinocerebellar ataxia on speech production under <b>regular rhythmic priming</b>. Regular rhythms <b>shortened speech initiation time in all three groups</b>, with a smaller benefit in the Parkinson's group; the authors infer that rhythmic priming acts on <b>global timing control</b> rather than on fine-grained articulation. ⚠️ <b>A cognitive and linguistic study of a non-pharmacological manipulation — not a therapeutic trial, and carrying no disease-modifying implication.</b> Why it is recorded: dysarthria is a major source of disability in SCA and a scored item on the SARA scale, and work of this kind suggests <b>speech initiation time may be a more sensitive quantitative measure than a global articulation score</b> — relevant to the design of secondary endpoints and digital speech biomarkers, given that SARA is the primary endpoint for Steminent and its competitors alike.",
+      "urlLabel": "Paper ↗ PubMed 42561606"
+    }
+  },
+  {
     "id": "pubmed:42549268",
     "date": "2026-08-04",
     "dateDisplay": "2026/08/04",

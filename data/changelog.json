@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-08",
+    "dateDisplay": "2026/08/08",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "＊本次為 <b>08/07–08/08 兩日合併掃描</b>：08/07 排程未執行（該日無發布），已一併回補。新增 3 則科學文獻。<b>Movement Disorders</b>（洛克斐勒大學）以人類死後腦組織檢驗 SCA3 病人<b>普金氏細胞內的突變 ATXN3 CAG 重複是否隨年齡持續擴增</b>，結果為擴增幅度極小、與小腦顆粒細胞相當且比紋狀體神經元穩定，作者認為體細胞重複擴增不足以解釋普金氏細胞的選擇性退化——若在更大樣本重現，代表亨丁頓舞蹈症近年最熱的「抑制體細胞擴增」路線（如鎖定 MSH3）在 SCA3 的理論基礎較弱，相對之下 Vico VO659 這類直接降低突變蛋白的路線機轉正當性更穩固。<b>Nature Cell Biology</b>（聖猶達兒童研究醫院）發表合成基因調控分子 <b>SynGR1</b>，結合 frataxin 基因內重複序列並招募 BRD4，讓 RNA 聚合酶 II 穿越抑制性 HP1 凝聚體、在甲基化標記仍存在下重啟 FXN 表現（<b>細胞層級、無動物或人體資料</b>）；此為共濟失調圈層出現的新模態類別，但須標明機轉界線——Friedreich's 是功能喪失、polyQ 型 SCA 是功能獲得，「叫醒基因」的策略無法直接移植。<b>Cortex</b>（法國里爾大學）比較健康對照、帕金森氏症與 SCA 三組的節律引子效應，規律節律在三組皆縮短語音起始時間，提示語音起始時間可能是比整體構音評分更敏感的量化指標，對次要終點與數位語音生物標記設計有參考價值。ClinicalTrials.gov 五組適應症查詢兩日內無新療法型試驗：SCA 圈層 08/07 的兩筆更新分別為 NEI 的 SCA7 自然史研究與小腦深部腦刺激試驗（NCT07752095，神經調節），依收錄準則皆不予收錄。<b>另記一筆查核以免日後重複誤判</b>：SBMA 查詢回傳的 NCT07190300「TulmiSTAR-02」（Ph1/2、收案中）逐筆核對後確認為 <b>Novartis 的 tulmimetostat 併用 darolutamide 治療轉移性荷爾蒙敏感性前列腺癌</b>，非 SBMA，屬手冊已載明的雄性素受體同義詞擴展汙染。競品新聞掃描（Biohaven、Vico、Arrowhead、安基、仲恩／REPROCELL、IntraBio、Solid Biosciences）未見近 7 天內的新事實；搜尋結果中出現的新潟大學 L-arginine SCA6 試驗（48 週 SARA 差異未達統計顯著，p=0.0582）為 2024/12 舊聞，不予收錄。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "*This is a <b>combined 07–08 August scan</b>: the scheduled run did not execute on 07 August (nothing was published that day) and has been backfilled here. Three papers added. <b>Movement Disorders</b> (The Rockefeller University) used human post-mortem brain to test whether the mutant ATXN3 CAG repeat <b>keeps expanding inside the Purkinje cells</b> of people with SCA3; the expansion proved minimal — comparable to cerebellar granule neurons and more stable than striatal neurons — leading the authors to conclude that somatic repeat expansion does not account for the selective loss of Purkinje cells. If it replicates in larger samples, it implies the rationale is weak in SCA3 for the route currently hottest in Huntington's disease, suppressing somatic expansion via targets such as MSH3, and correspondingly firmer for lowering the mutant protein directly, as Vico's VO659 does. <b>Nature Cell Biology</b> (St. Jude Children's Research Hospital) reports the synthetic gene regulator <b>SynGR1</b>, which binds the repeat DNA inside the frataxin gene and recruits BRD4 so RNA polymerase II can traverse the repressive HP1 condensates, restoring FXN expression while the methylation marks remain (<b>cell-based only; no animal or human data</b>). It marks a new modality class in the ataxia ring, but the mechanistic boundary must be stated: Friedreich's ataxia is a loss of function while polyglutamine SCA is a gain of function, so waking a silenced gene does not transfer across. <b>Cortex</b> (Univ. Lille) compared rhythmic priming across healthy controls, Parkinson's disease and SCA; regular rhythms shortened speech initiation time in all three groups, suggesting speech initiation time may be a more sensitive measure than a global articulation score — relevant to secondary endpoints and digital speech biomarkers. The five ClinicalTrials.gov condition queries returned no new therapeutic trials across the two days: the two SCA-ring updates on 07 August were an NEI natural history study in SCA7 and a cerebellar deep brain stimulation trial (NCT07752095, neuromodulation), neither of which meets the inclusion criteria. <b>One verification is logged to prevent the same misreading later</b>: NCT07190300, \"TulmiSTAR-02\" (Ph1/2, recruiting), returned by the SBMA query, was checked record by record and is <b>Novartis's tulmimetostat combined with darolutamide in metastatic hormone-sensitive prostate cancer</b>, not SBMA — the androgen-receptor synonym-expansion contamination already documented in the operating manual. The competitor news sweep (Biohaven, Vico, Arrowhead, AnnJi, Steminent/REPROCELL, IntraBio, Solid Biosciences) surfaced no new facts within the past 7 days; the Niigata University L-arginine trial in SCA6 that appeared in search results (48-week SARA difference not statistically significant, p=0.0582) dates from 2024/12 and was not recorded.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-06",
     "dateDisplay": "2026/08/06",
     "tag": "每日掃描",
