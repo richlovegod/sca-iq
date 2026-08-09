@@ -275,5 +275,37 @@
       "status": "A PK / safety study in children and adolescents with Friedreich's ataxia (n=18, 2024/12–2025/04). The registry status reads TERMINATED, but the <b>stated reason is administrative</b> — after review of cohort 1 data participants were enrolled directly into the open-label study to avoid a gap in dosing, <b>not a safety or efficacy problem</b>",
       "sponsor": "Larimar Therapeutics"
     }
+  },
+  {
+    "nct": "NCT06447025",
+    "drug": "Nomlabofusp（CTI-1601）",
+    "mechanism": "蛋白質補充療法<br>皮下注射 frataxin",
+    "phase": "Ph2（開放標籤延伸）",
+    "status": "<b>收案中</b>（n=85，主要完成日 2027/01）。這就是上面 NCT06681766 兒少試驗受試者「直接轉入」的那項<b>開放標籤延伸研究</b>，長期安全性／療效／藥效動力學為評估重點。登錄最後更新 2026-05-13",
+    "sponsor": "Larimar Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06447025",
+    "en": {
+      "mechanism": "Protein replacement<br>subcutaneous frataxin",
+      "phase": "Ph2 (open-label extension)",
+      "status": "<b>Recruiting</b> (n=85, primary completion 2027/01). This is the <b>open-label extension</b> that participants in the paediatric study NCT06681766 above were rolled directly into; it assesses long-term safety, efficacy, pharmacodynamics and pharmacokinetics. Registry last updated 2026-05-13",
+      "sponsor": "Larimar Therapeutics"
+    }
+  },
+  {
+    "nct": "NCT06529146",
+    "drug": "Troriluzole（BHV-4157）",
+    "mechanism": "麩胺酸調節<br>riluzole 前驅藥",
+    "phase": "觀察性（真實世界對照）",
+    "status": "<b>已停止收案</b>（n=909，主要完成日 2024-09-06）。這是把接受 troriluzole 治療的 SCA 病人與<b>配對的自然史世代外部對照</b>比較的真實世界研究，即 Biohaven NDA 主張「延緩病程 50–70%」的證據來源；該 NDA 已於 2025-11 收到 FDA 完整回覆函（CRL）。⚠️ 觀察性設計、非隨機對照，療效推論受外部對照的可比性限制",
+    "sponsor": "Biohaven Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06529146",
+    "en": {
+      "mechanism": "Glutamate modulation<br>riluzole prodrug",
+      "phase": "Observational (real-world comparison)",
+      "status": "<b>Active, not recruiting</b> (n=909, primary completion 2024-09-06). A real-world study comparing troriluzole-treated SCA patients against a <b>matched external control drawn from natural-history cohort data</b> — the evidence source behind Biohaven's NDA claim of 50–70% slowing of progression; that NDA received an FDA Complete Response Letter in November 2025. ⚠️ Observational, non-randomised: efficacy inference is limited by how comparable the external control really is",
+      "sponsor": "Biohaven Therapeutics"
+    }
   }
 ]

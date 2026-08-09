@@ -1,5 +1,81 @@
 [
   {
+    "id": "pubmed:42555887",
+    "date": "2026-08-05",
+    "dateDisplay": "2026/08/05",
+    "title": "Nongenetic Factors Associated With Onset and Severity of Hereditary Ataxia",
+    "journal": "Neurology · Casey HL, Springall De Pablo M, Boyle TA, Hogan MB, Lauderdale DS, Gomez CM（芝加哥大學神經科與公共衛生學系，美國；共同作者含南佛羅里達大學、SCA6 Network、<b>Solaxa, Inc.</b>、SCA27b Ataxia Foundation）· doi:10.1212/WNL.0000000000218378",
+    "tag": "SCA6／SCA27B 病程修飾因子",
+    "note": "→ 問卷世代研究，<b>SCA6 282 人、SCA27B 127 人</b>，以迴歸模型找發病年齡與嚴重度的相關因子。結果分成兩半：<b>SCA6 由基因主導</b>——女性、非白人族裔、CAG 重複越長者發病越早；<b>SCA27B 則與環境暴露的關聯較強</b>——農藥接觸與病毒感染和發病時點／嚴重度相關。⚠️ <b>自陳問卷、橫斷面、相關性研究，不能推論因果</b>，且 SCA27B（FGF14 GAA 重複）近年才被辨識、族群樣本仍小。記錄價值：(1) 若非基因因子真的能解釋 SCA27B 相當比例的發病時點變異，<b>該亞型的試驗設計必須把這些暴露納入分層或校正</b>，否則會被當成雜訊吃掉檢定力；(2) 作者群列有 <b>Solaxa</b>（正在開發 SCA27B 適應症的競品）的隸屬，顯示該公司已在<b>建立自己的疾病自然史／病人分群基礎</b>——這是進臨床前的常見鋪路動作，值得追蹤。",
+    "company": "solaxa",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42555887/",
+    "urlLabel": "論文 ↗ PubMed 42555887",
+    "en": {
+      "tag": "SCA6 / SCA27B disease modifiers",
+      "journal": "Neurology · Casey HL, Springall De Pablo M, Boyle TA, Hogan MB, Lauderdale DS, Gomez CM (Department of Neurology and Department of Public Health Sciences, University of Chicago, USA; co-authors from University of South Florida, SCA6 Network, <b>Solaxa, Inc.</b> and the SCA27b Ataxia Foundation) · doi:10.1212/WNL.0000000000218378",
+      "note": "→ A survey-based cohort study of <b>282 people with SCA6 and 127 with SCA27B</b>, using regression models to identify factors correlated with age at onset and severity. The findings split in two: <b>SCA6 onset is driven mainly by genetics</b> — female sex, non-White race and longer CAG repeats were associated with earlier onset — whereas <b>SCA27B shows stronger associations with environmental exposures</b>, with pesticide contact and viral infection linked to timing and severity. ⚠️ <b>Self-reported, cross-sectional and correlational — it cannot establish causation</b>, and SCA27B (an FGF14 GAA repeat disorder) was only recently recognised, so cohorts remain small. Why it is recorded: (1) if non-genetic factors really do explain a meaningful share of the variation in SCA27B onset, <b>trials in this subtype will need to stratify or adjust for those exposures</b> or lose power to the added noise; (2) the author list includes an affiliation with <b>Solaxa</b>, a competitor developing for SCA27B, indicating the company is <b>building its own natural-history and patient-stratification base</b> — a common groundwork step ahead of the clinic, and worth tracking.",
+      "urlLabel": "Paper ↗ PubMed 42555887"
+    }
+  },
+  {
+    "id": "pubmed:42569794",
+    "date": "2026-08-08",
+    "dateDisplay": "2026/08/08",
+    "title": "Expanded ATXN10 Alleles in Neurodegenerative Disorders: A Case Series and Review of the Literature",
+    "journal": "Movement Disorders Clinical Practice · Cornejo-Olivas M, Raney A, Abad A 等，通訊作者 Schüle B（祕魯 Universidad Científica del Sur 與 Instituto Nacional de Ciencias Neurológicas；共同作者含史丹佛大學病理學系與 Pacific Biosciences，美國）· doi:10.1002/mdc3.70765",
+    "tag": "SCA10 診斷 · 重複擴增判讀",
+    "note": "→ 三名依 RP-PCR 篩檢結果「疑似 SCA10」的病人，改用長讀定序後<b>三人實際上都是別的神經退化疾病</b>。作者主張 <b>ATXN10 的 100–150 中間長度等位基因未必致病</b>，並在文獻回顧中找到更多「ATXN10 擴增與其他遺傳性共濟失調並存」的案例，結論是<b>只靠 RP-PCR 不足以定診，需要更完整的基因檢測</b>。⚠️ <b>僅三例個案序列＋文獻回顧，樣本極小，不足以改寫診斷閾值。</b> 記錄價值：SCA 亞型的<b>收案分型準確度</b>直接決定試驗品質——若中間長度等位基因被誤判成致病，收進來的受試者其實根本不是該亞型，會同時稀釋療效訊號並污染自然史對照組。這對<b>採用外部自然史對照的設計特別致命</b>（見試驗雷達 NCT06529146）。對本社而言，這是收案基因判讀 SOP 的一則提醒，不是競品動態。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42569794/",
+    "urlLabel": "論文 ↗ PubMed 42569794",
+    "en": {
+      "tag": "SCA10 diagnosis · interpreting repeat expansions",
+      "journal": "Movement Disorders Clinical Practice · Cornejo-Olivas M, Raney A, Abad A et al., corresponding author Schüle B (Universidad Científica del Sur and Instituto Nacional de Ciencias Neurológicas, Lima, Peru; co-authors from Stanford University School of Medicine and Pacific Biosciences, USA) · doi:10.1002/mdc3.70765",
+      "note": "→ Three patients flagged as suspected SCA10 on RP-PCR screening were re-analysed with long-read sequencing, and <b>all three turned out to have different neurodegenerative conditions</b>. The authors argue that <b>intermediate ATXN10 alleles in the 100–150 range may not be pathogenic</b>, and their literature review surfaced further cases where an expanded ATXN10 allele coexisted with a different genetic ataxia — concluding that <b>RP-PCR alone is not sufficient for diagnosis</b>. ⚠️ <b>Three cases plus a review: far too small to redraw any diagnostic threshold.</b> Why it is recorded: <b>accuracy of subtype assignment at enrolment</b> directly determines trial quality — if intermediate alleles are misread as pathogenic, enrolled participants may not have the subtype under study at all, simultaneously diluting the efficacy signal and contaminating the natural-history control. That is <b>especially damaging for designs that rely on an external natural-history control</b> (see NCT06529146 in the trial radar). For us this is a reminder about genetic-screening SOP at enrolment, not a competitor development.",
+      "urlLabel": "Paper ↗ PubMed 42569794"
+    }
+  },
+  {
+    "id": "pubmed:42567515",
+    "date": "2026-08-07",
+    "dateDisplay": "2026/08/07",
+    "title": "Domain-dependent uncoupling of the co-chaperone and E3 ubiquitin ligase CHIP underlies heterogeneity in spinocerebellar ataxia 48",
+    "journal": "Journal of Biological Chemistry · Altinok S, Paulakonis E, Almeida MF 等，通訊作者 Schisler JC（北卡羅來納大學教堂山分校 McAllister 心臟研究所與藥理學系，美國；共同作者含邁阿密大學、鄭州大學、約翰霍普金斯、杜克大學）· doi:10.1016/j.jbc.2026.113399",
+    "tag": "SCA48 · CHIP／STUB1 機轉",
+    "note": "→ SCA48 由 <b>STUB1</b> 基因的異型合子突變造成，其產物 CHIP 身兼<b>共伴護蛋白</b>與 <b>E3 泛素連接酶</b>兩種功能。本研究逐一比較落在不同蛋白domain 的變異，發現它們的生化後果並不一致——有些保有連接酶活性但結合能力下降，有些則完全喪失功能；作者認為這種<b>「依 domain 而異的雙功能解偶聯」</b>正是 SCA48 病人臨床表現差異極大的來源。⚠️ <b>生化與細胞層級研究，無動物或人體療效資料。</b> 記錄價值：SCA48 是罕見的體染色體顯性亞型，目前<b>沒有任何公司在推進其臨床開發</b>，因此這則不構成競品動態；收錄的理由是它示範了一個對整個 polyQ／共濟失調領域都成立的觀念——<b>同一基因的不同變異可能需要方向相反的介入</b>，這會直接影響未來任何針對 STUB1 的療法要如何分群收案。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42567515/",
+    "urlLabel": "論文 ↗ PubMed 42567515",
+    "en": {
+      "tag": "SCA48 · CHIP / STUB1 mechanism",
+      "journal": "Journal of Biological Chemistry · Altinok S, Paulakonis E, Almeida MF et al., corresponding author Schisler JC (McAllister Heart Institute and Department of Pharmacology, University of North Carolina at Chapel Hill, USA; co-authors from Miami University, Zhengzhou University, Johns Hopkins and Duke) · doi:10.1016/j.jbc.2026.113399",
+      "note": "→ SCA48 is caused by heterozygous mutations in <b>STUB1</b>, whose product CHIP acts both as a <b>co-chaperone</b> and as an <b>E3 ubiquitin ligase</b>. Comparing variants across different protein domains, the authors found the biochemical consequences differ: some variants retained ligase activity but bound poorly, others abolished function outright. They attribute the wide clinical heterogeneity of SCA48 to this <b>domain-dependent uncoupling of CHIP's two functions</b>. ⚠️ <b>Biochemical and cell-level work; no animal or human efficacy data.</b> Why it is recorded: SCA48 is a rare dominant subtype with <b>no company currently pursuing clinical development</b>, so this is not a competitor movement. It earns a place because it illustrates a principle that generalises across the polyglutamine and ataxia field — <b>different variants in the same gene may require interventions pointing in opposite directions</b>, which bears directly on how any future STUB1-directed therapy would have to stratify enrolment.",
+      "urlLabel": "Paper ↗ PubMed 42567515"
+    }
+  },
+  {
+    "id": "pubmed:42569714",
+    "date": "2026-08-08",
+    "dateDisplay": "2026/08/08",
+    "title": "Downbeat Nystagmus and Saccadic Oscillations in Spinocerebellar Ataxia Type 27B: A 14-Month Follow-Up Case Report",
+    "journal": "Case Reports in Neurology · Skacik P, Koprusakova MT, Sivak S, Grofik M, Kurca E（斯洛伐克 Martin 大學醫院 Jessenius 醫學院神經科）· doi:10.1159/000552966",
+    "tag": "SCA27B · 眼動終點",
+    "note": "→ 單一 SCA27B 病人追蹤 14 個月的眼動變化。作者指出<b>下跳性眼震（downbeat nystagmus）早期可能只在誘發姿勢下出現</b>，之後才變成自發性；病人接受 <b>4-aminopyridine</b> 後臨床上有改善，<b>但客觀眼動量測幾乎沒變</b>。⚠️ <b>單一病例報告，證據等級最低，不能推論療效。</b> 記錄價值在那個落差本身：SCA27B 圈層（Solaxa 的目標適應症、IntraBio 的 EA2／SCA6 圈層也相鄰）若要用眼動當客觀終點，這則觀察提示<b>眼動量測與病人主觀感受可能不同步</b>——終點選擇上是個要留意的訊號，不是結論。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42569714/",
+    "urlLabel": "論文 ↗ PubMed 42569714",
+    "en": {
+      "tag": "SCA27B · oculomotor endpoints",
+      "journal": "Case Reports in Neurology · Skacik P, Koprusakova MT, Sivak S, Grofik M, Kurca E (Neurology Department, Jessenius Faculty of Medicine, University Hospital Martin, Slovakia) · doi:10.1159/000552966",
+      "note": "→ Fourteen months of oculomotor follow-up in a single SCA27B patient. The authors note that <b>downbeat nystagmus may at first be detectable only under provocative conditions</b> before becoming spontaneous, and that although the patient improved clinically on <b>4-aminopyridine</b>, <b>objective eye-movement measurements barely changed</b>. ⚠️ <b>A single case report — the lowest tier of evidence, and no efficacy can be inferred.</b> The value lies in that mismatch: for the SCA27B ring (Solaxa's target indication, adjacent to IntraBio's EA2 / SCA6 ring), it flags that <b>objective oculomotor measures and patient-perceived benefit may not move together</b> — a signal to weigh in endpoint selection, not a conclusion.",
+      "urlLabel": "Paper ↗ PubMed 42569714"
+    }
+  },
+  {
     "id": "pubmed:42568078",
     "date": "2026-08-07",
     "dateDisplay": "2026/08/07",
