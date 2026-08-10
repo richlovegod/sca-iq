@@ -1,5 +1,43 @@
 [
   {
+    "id": "pubmed:42550340",
+    "date": "2026-08-04",
+    "dateDisplay": "2026/08/04",
+    "title": "Correction to: Preclinical Evidence Supporting Early Initiation of Citalopram Treatment in Machado-Joseph Disease",
+    "journal": "Molecular Neurobiology · Esteves S 等（葡萄牙 Coimbra 大學 CNC 團隊）· doi:10.1007/s12035-026-06080-8",
+    "tag": "SCA3 藥物再定位 · 更正啟事",
+    "note": "→ ⚠️ <b>這是一則對既有論文的更正啟事（Correction to:），不是新研究數據</b>，本身不含新結果。原研究主張在 Machado-Joseph 病（SCA3）的臨床前模型中<b>越早開始 citalopram（SSRI）治療、效果越好</b>。記錄價值在於路線本身：citalopram 是<b>已上市的老藥再定位</b>，開發成本與安全性門檻遠低於新分子，是 SCA3 領域一條長期存在、成本結構完全不同的競爭路線；且「早期介入才有效」的主張若成立，對<b>所有 SCA3 疾病修飾療法（含細胞治療）的收案時機設計</b>都是同一個訊號——受試者納入時的疾病階段可能比藥物本身更決定讀出結果。更正內容細節請以原文為準。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42550340/",
+    "urlLabel": "更正啟事 ↗ PubMed 42550340",
+    "en": {
+      "tag": "SCA3 drug repurposing · correction notice",
+      "journal": "Molecular Neurobiology · Esteves S et al. (CNC, University of Coimbra, Portugal) · doi:10.1007/s12035-026-06080-8",
+      "note": "→ ⚠️ <b>This is a correction notice to an existing paper, not new research data</b>, and contains no new results itself. The original study argued that in preclinical models of Machado-Joseph disease (SCA3), <b>the earlier citalopram (an SSRI) is started, the better the effect</b>. What is worth recording is the route itself: citalopram is a <b>repurposed, already-marketed old drug</b>, with development costs and safety hurdles far below those of a new molecule — a long-standing SCA3 competitive path with a completely different cost structure. And if the claim that only early intervention works holds up, it is the same signal for <b>enrolment timing in every SCA3 disease-modifying therapy, cell therapy included</b>: the disease stage at which participants are enrolled may determine the readout more than the drug does. Refer to the original article for the details of the correction.",
+      "urlLabel": "Correction ↗ PubMed 42550340"
+    }
+  },
+  {
+    "id": "pubmed:42557956",
+    "date": "2026-08-05",
+    "dateDisplay": "2026/08/05",
+    "title": "Anti-Neuronal Antibodies in Patients with Sjögren's Syndrome and Acute Cerebellar Ataxia: Two Case Reports",
+    "journal": "Acta Neurologica Taiwanica · Şanlı E 等 · doi:10.4103/ant.ANT-D-25-00027",
+    "tag": "鑑別診斷 · 免疫性小腦共濟失調",
+    "note": "→ 兩例合併 Sjögren 症候群的<b>急性小腦共濟失調</b>個案，檢出抗神經元抗體。⚠️ <b>僅兩例個案報告，與遺傳性 SCA 無直接關係，也不是任何競品動態。</b> 記錄理由是收案端的實務風險：<b>免疫性／自體免疫小腦共濟失調在臨床表現上可與遺傳性 SCA 高度相似</b>，卻是可治療、且病程走向完全不同的另一類疾病。任何以 SARA 變化為主要指標的試驗，若把這類病人混進來，其自發起伏或對免疫治療的反應都會直接扭曲療效訊號——對<b>樣本數小的細胞治療試驗（本社美國 Ph2 收案 20 人）殺傷力尤其大</b>。屬篩選排除標準的參考情報。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42557956/",
+    "urlLabel": "論文 ↗ PubMed 42557956",
+    "en": {
+      "tag": "Differential diagnosis · immune-mediated cerebellar ataxia",
+      "journal": "Acta Neurologica Taiwanica · Şanlı E et al. · doi:10.4103/ant.ANT-D-25-00027",
+      "note": "→ Two cases of <b>acute cerebellar ataxia</b> in patients with Sjögren's syndrome, in whom anti-neuronal antibodies were detected. ⚠️ <b>Two case reports only, with no direct bearing on hereditary SCA and no competitor implications.</b> It is recorded for a practical enrolment risk: <b>immune-mediated and autoimmune cerebellar ataxias can look clinically very much like hereditary SCA</b>, yet they are a treatable and quite differently behaved class of disease. In any trial using change in SARA as its primary endpoint, admitting such patients means their spontaneous fluctuation — or their response to immunotherapy — feeds straight into the efficacy signal, which is <b>especially damaging in small cell-therapy trials such as our 20-patient US Ph2</b>. Reference material for screening and exclusion criteria.",
+      "urlLabel": "Paper ↗ PubMed 42557956"
+    }
+  },
+  {
     "id": "pubmed:42555887",
     "date": "2026-08-05",
     "dateDisplay": "2026/08/05",

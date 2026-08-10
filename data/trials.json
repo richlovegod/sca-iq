@@ -261,6 +261,38 @@
     }
   },
   {
+    "nct": "NCT07215416",
+    "drug": "Atipeksen（ATM 剪接調控 ASO）",
+    "mechanism": "反義寡核苷酸（PS-2'MOE 剪接切換型）<br>針對 ATM 基因 c.7865C>T 突變、恢復正常剪接",
+    "phase": "Ph1/2",
+    "status": "主動掃描補收（<b>此前未在本平台登錄</b>）。<b>收案中</b>，適應症為<b>共濟失調微血管擴張症（Ataxia-Telangiectasia, A-T）</b>，n=10，2026/08 起於美國波士頓兒童醫院單一站點執行，主要完成日估 2032/12。主持人為 <b>Timothy Yu</b>（客製化 n-of-1 ASO 療法先驅）。登錄最後更新 2026-05-28",
+    "sponsor": "Timothy Yu／Boston Children's Hospital",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07215416",
+    "en": {
+      "mechanism": "Antisense oligonucleotide (PS-2'MOE splice-switching)<br>targets the ATM c.7865C>T mutation to restore normal splicing",
+      "phase": "Ph1/2",
+      "status": "Added by the proactive sweep (<b>not previously registered on this platform</b>). <b>Recruiting</b> in <b>ataxia-telangiectasia (A-T)</b>, n=10, running from 2026/08 at a single US site, Boston Children's Hospital, with primary completion estimated 2032/12. The investigator is <b>Timothy Yu</b>, a pioneer of bespoke n-of-1 ASO therapy. Registry last updated 2026-05-28",
+      "sponsor": "Timothy Yu / Boston Children's Hospital"
+    }
+  },
+  {
+    "nct": "NCT05302271",
+    "drug": "AAVrh.10hFXN",
+    "mechanism": "AAV 基因療法<br>rh.10 血清型載體攜帶人類 FXN cDNA（併用 prednisone）",
+    "phase": "Ph1a/1b",
+    "status": "主動掃描補收（<b>此前未在本平台登錄</b>）。<b>收案中</b>，針對 <b>Friedreich's Ataxia 的心肌病變</b>（非神經症狀），n=25，2022/02 啟動、主要完成日估 2028/12，站點為美國 Weill Cornell Medicine。登錄最後更新 2026-03-31",
+    "sponsor": "Weill Cornell Medicine",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT05302271",
+    "en": {
+      "mechanism": "AAV gene therapy<br>serotype rh.10 vector carrying human FXN cDNA, with prednisone",
+      "phase": "Ph1a/1b",
+      "status": "Added by the proactive sweep (<b>not previously registered on this platform</b>). <b>Recruiting</b> for the <b>cardiomyopathy of Friedreich's ataxia</b> rather than its neurological features, n=25, started 2022/02 with primary completion estimated 2028/12, at Weill Cornell Medicine in the US. Registry last updated 2026-03-31",
+      "sponsor": "Weill Cornell Medicine"
+    }
+  },
+  {
     "nct": "NCT06681766",
     "drug": "Nomlabofusp（CTI-1601）",
     "mechanism": "蛋白替代<br>皮下注射補充 frataxin",

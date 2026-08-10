@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-10",
+    "dateDisplay": "2026/08/10",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 2 則科學文獻與 2 筆過去漏收的既有療法試驗。試驗雷達補上 <b>NCT07215416</b>——波士頓兒童醫院 <b>Timothy Yu</b>（客製化 n-of-1 ASO 療法先驅）主持的 <b>atipeksen</b> Ph1/2，以剪接切換型 ASO 針對 ATM 基因 c.7865C>T 突變治療共濟失調微血管擴張症（A-T），n=10、2026/08 起收案；以及 <b>NCT05302271</b>——Weill Cornell 的 <b>AAVrh.10hFXN</b> Ph1a/1b 基因療法，值得注意的是其標的為 Friedreich's Ataxia 的<b>心肌病變而非神經症狀</b>，n=25、2022 啟動、收案中。兩筆都是共濟失調圈層的療法型試驗，此前不在平台上。文獻方面，<b>Molecular Neurobiology</b> 刊出 Coimbra 團隊「早期啟動 citalopram 治療 Machado-Joseph 病」臨床前研究的<b>更正啟事</b>（本身不含新數據，但該路線是 SCA3 的老藥再定位選項，且「早期介入才有效」的主張對所有 SCA3 疾病修飾療法的收案時機都是同一個訊號）；<b>Acta Neurologica Taiwanica</b> 兩例 Sjögren 症候群合併急性小腦共濟失調並檢出抗神經元抗體的個案報告，與遺傳性 SCA 無直接關係，收錄理由是<b>免疫性小腦共濟失調在臨床上可與遺傳性 SCA 高度相似</b>，屬篩選排除標準的參考。ClinicalTrials.gov 五組適應症查詢（本日全數正常回應，昨日 500 錯誤的 episodic ataxia／CACNA1A 組已重試成功）近 7 天內無新療法型試驗——SCA 圈層當日更新為 Baltuch 的小腦 DBS（NCT07752095）與福建醫大的經顱時間干擾刺激（NCT07743866），皆屬神經調節、依 §1b 不予收錄。競品新聞掃描（仲恩／REPROCELL、Biohaven）未見近 7 天內的新事實：Biohaven 的 CRL（2025-11）與本社日本承認申請、美國 Ph2 進度均為平台既已記錄的事實。",
+    "link": {
+      "label": "詳見 臨床試驗雷達 ↗",
+      "tab": "si",
+      "anchor": "trialradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Two papers and two previously missed therapeutic trials added. The trial radar gains <b>NCT07215416</b> — the <b>atipeksen</b> Ph1/2 run by <b>Timothy Yu</b> at Boston Children's Hospital, a pioneer of bespoke n-of-1 ASO therapy, using a splice-switching ASO against the ATM c.7865C>T mutation in ataxia-telangiectasia (A-T), n=10 and recruiting from 2026/08 — and <b>NCT05302271</b>, Weill Cornell's <b>AAVrh.10hFXN</b> Ph1a/1b gene therapy, notable for targeting the <b>cardiomyopathy of Friedreich's ataxia rather than its neurological features</b>, n=25, started 2022 and recruiting. Both are therapeutic trials in the ataxia ring that were not previously on the platform. On the literature side, <b>Molecular Neurobiology</b> published a <b>correction notice</b> to the Coimbra group's preclinical study on early initiation of citalopram in Machado-Joseph disease (it carries no new data itself, but the route is a repurposing option in SCA3, and the claim that only early intervention works is the same signal for enrolment timing across every SCA3 disease-modifying therapy); <b>Acta Neurologica Taiwanica</b> reported two cases of Sjögren's syndrome with acute cerebellar ataxia and anti-neuronal antibodies, which bears no direct relation to hereditary SCA and is recorded because <b>immune-mediated cerebellar ataxia can closely mimic hereditary SCA clinically</b> — reference material for screening and exclusion criteria. The five ClinicalTrials.gov condition queries all responded normally today (the episodic ataxia / CACNA1A query that returned HTTP 500 yesterday was retried successfully) and surfaced no new therapeutic trials within the past 7 days: the SCA-ring updates were Baltuch's cerebellar DBS study (NCT07752095) and a transcranial temporal interference stimulation study from Fujian Medical University (NCT07743866), both neuromodulation and ineligible under §1b. The competitor news sweep (Steminent/REPROCELL, Biohaven) found no new facts within the past 7 days — Biohaven's Complete Response Letter (2025-11) and our own Japanese filing and US Ph2 progress are all facts the platform already records.",
+      "linkLabel": "See Trial Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-09",
     "dateDisplay": "2026/08/09",
     "tag": "每日掃描",
