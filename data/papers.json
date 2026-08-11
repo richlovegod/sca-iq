@@ -1,21 +1,40 @@
 [
   {
-    "id": "pubmed:42550340",
-    "date": "2026-08-04",
-    "dateDisplay": "2026/08/04",
-    "title": "Correction to: Preclinical Evidence Supporting Early Initiation of Citalopram Treatment in Machado-Joseph Disease",
-    "journal": "Molecular Neurobiology · Esteves S 等（葡萄牙 Coimbra 大學 CNC 團隊）· doi:10.1007/s12035-026-06080-8",
-    "tag": "SCA3 藥物再定位 · 更正啟事",
-    "note": "→ ⚠️ <b>這是一則對既有論文的更正啟事（Correction to:），不是新研究數據</b>，本身不含新結果。原研究主張在 Machado-Joseph 病（SCA3）的臨床前模型中<b>越早開始 citalopram（SSRI）治療、效果越好</b>。記錄價值在於路線本身：citalopram 是<b>已上市的老藥再定位</b>，開發成本與安全性門檻遠低於新分子，是 SCA3 領域一條長期存在、成本結構完全不同的競爭路線；且「早期介入才有效」的主張若成立，對<b>所有 SCA3 疾病修飾療法（含細胞治療）的收案時機設計</b>都是同一個訊號——受試者納入時的疾病階段可能比藥物本身更決定讀出結果。更正內容細節請以原文為準。",
+    "id": "pubmed:42573842",
+    "date": "2026-08-10",
+    "dateDisplay": "2026/08/10",
+    "title": "Multicenter Validation of Cerebellar Motor Learning Biomarker for Spinocerebellar Degenerations",
+    "journal": "The Cerebellum · Honda T, Bando K, Ishikawa K, Shirai S, Yabe I, Ishihara T, Onodera O, Higashiyama Y, Tanaka F, Kishimoto Y, Katsuno M, Shimizu T, Hanajima R, Takahashi Y, Mizusawa H（日本七家醫院多中心；作者橫跨東京科學大學、北海道大學、新潟大學、橫濱市立大學、名古屋大學、鳥取大學與國立精神・神經醫療研究中心）· doi:10.1007/s12311-026-02064-5",
+    "tag": "客觀療效終點 · 小腦運動學習指標",
+    "note": "→ 日本七家醫院、<b>74 名小腦退化病人</b>的多中心驗證研究。作法是用標準化觸控螢幕跑<b>稜鏡適應測驗（Prism Adaptation Test）</b>取得「適應性指數（Adaptability Index）」，以線性混合效果模型檢驗跨院一致性，並用 Levene 檢定比較 <b>SCA6 與 SCA31</b> 兩種基因型間的變異數是否一致。結果：適應性指數與 <b>SARA 呈負相關，r = −0.364、p &lt; 0.01</b>。記錄價值在於這是<b>少見的、以客觀操作表現而非評分者判斷為基礎的終點候選</b>——SARA 幾乎是所有 SCA 試驗（含本社試驗）的主要指標，卻仰賴訓練過的評分者、跨中心一致性一向是小樣本試驗的痛點。⚠️ <b>要注意相關性只有中等</b>（r = −0.364 約僅解釋一成多的變異），這代表它量到的東西與 SARA 有相當部分並不重疊——可能是補充性資訊，也可能只是量到別的東西，<b>本研究並未證明它對疾病進展較敏感</b>，那需要縱貫追蹤資料。另可留意作者群即<b>日本共濟失調臨床研究網絡的核心成員</b>（含國立精神・神經醫療研究中心水澤英洋），是日本端試驗基礎建設的訊號。",
     "company": "",
     "highlight": false,
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42550340/",
-    "urlLabel": "更正啟事 ↗ PubMed 42550340",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42573842/",
+    "urlLabel": "論文 ↗ PubMed 42573842",
     "en": {
-      "tag": "SCA3 drug repurposing · correction notice",
-      "journal": "Molecular Neurobiology · Esteves S et al. (CNC, University of Coimbra, Portugal) · doi:10.1007/s12035-026-06080-8",
-      "note": "→ ⚠️ <b>This is a correction notice to an existing paper, not new research data</b>, and contains no new results itself. The original study argued that in preclinical models of Machado-Joseph disease (SCA3), <b>the earlier citalopram (an SSRI) is started, the better the effect</b>. What is worth recording is the route itself: citalopram is a <b>repurposed, already-marketed old drug</b>, with development costs and safety hurdles far below those of a new molecule — a long-standing SCA3 competitive path with a completely different cost structure. And if the claim that only early intervention works holds up, it is the same signal for <b>enrolment timing in every SCA3 disease-modifying therapy, cell therapy included</b>: the disease stage at which participants are enrolled may determine the readout more than the drug does. Refer to the original article for the details of the correction.",
-      "urlLabel": "Correction ↗ PubMed 42550340"
+      "tag": "Objective endpoints · cerebellar motor-learning measure",
+      "journal": "The Cerebellum · Honda T, Bando K, Ishikawa K, Shirai S, Yabe I, Ishihara T, Onodera O, Higashiyama Y, Tanaka F, Kishimoto Y, Katsuno M, Shimizu T, Hanajima R, Takahashi Y, Mizusawa H (multicentre across seven Japanese hospitals; authors span Institute of Science Tokyo, Hokkaido University, Niigata University, Yokohama City University, Nagoya University, Tottori University and the National Center of Neurology and Psychiatry) · doi:10.1007/s12311-026-02064-5",
+      "note": "→ A multicentre validation study in <b>74 patients with cerebellar degeneration</b> across seven Japanese hospitals. A standardised touchscreen <b>Prism Adaptation Test</b> yields an Adaptability Index; inter-hospital robustness was tested with linear mixed-effects modelling, and Levene's test compared the variance of the index between two genotypes, <b>SCA6 and SCA31</b>. The Adaptability Index correlated negatively with SARA (<b>r = −0.364, p &lt; 0.01</b>). Why it is recorded: this is an uncommon example of an endpoint candidate <b>grounded in objective task performance rather than rater judgement</b>. SARA is the primary endpoint of virtually every SCA trial, including our own, yet it depends on trained raters, and cross-site consistency is a chronic weak point in small trials. ⚠️ <b>Note that the correlation is only moderate</b> — r = −0.364 accounts for barely more than a tenth of the variance — meaning much of what this index measures does not overlap with SARA. That may make it complementary information, or it may simply mean it measures something else; <b>the study does not show it is more sensitive to disease progression</b>, which would require longitudinal data. Also worth noting: the author list is the <b>core of Japan's ataxia clinical research network</b> (including Hidehiro Mizusawa of the National Center of Neurology and Psychiatry), a signal about trial infrastructure on the Japanese side.",
+      "urlLabel": "Paper ↗ PubMed 42573842"
+    }
+  },
+  {
+    "id": "pubmed:42571931",
+    "date": "2026-08-09",
+    "dateDisplay": "2026/08/09",
+    "title": "Nonmotor and Extracerebellar Features in Spinocerebellar Ataxia Type 6",
+    "journal": "Movement Disorders Clinical Practice · Massuyama BK, Machado FM, Barsottini OGP, Pedroso JL（巴西聖保羅聯邦大學神經科共濟失調中心）· doi:10.1002/mdc3.70768",
+    "tag": "SCA6 · 非運動症狀負擔",
+    "note": "→ <b>18 名基因確診 SCA6</b> 病人的橫斷面評估，並以 Spearman 檢定看 CAG 重複長度與各量表的關聯。SCA6 傳統上被視為「純小腦型」，但本研究發現<b>小腦以外的表現相當普遍</b>：感覺症狀 72.2%、疲倦 64.7%、腱反射亢進 38.9%、不寧腿症候群 28.6%、排尿功能障礙 27.8%。⚠️ <b>n=18、單中心、橫斷面，這些盛行率數字不能外推到整體 SCA6 族群。</b> 記錄理由：<b>SCA6 正是本社日本查驗登記申請的兩個適應症之一（SCA3／SCA6）</b>。若病人的實際疾病負擔有相當比例落在 SARA 量不到的地方（疲倦、感覺、自律神經），那麼<b>純以 SARA 變化為主要指標的試驗，其療效訊號與病人自覺的獲益之間就可能出現落差</b>——這與 08/08 收錄的 SCA27B 眼動個案報告指向同一個方向。次要指標與病人自陳結果的選擇上值得留意。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42571931/",
+    "urlLabel": "論文 ↗ PubMed 42571931",
+    "en": {
+      "tag": "SCA6 · non-motor disease burden",
+      "journal": "Movement Disorders Clinical Practice · Massuyama BK, Machado FM, Barsottini OGP, Pedroso JL (Division of General Neurology and Ataxia Unit, Federal University of São Paulo, Brazil) · doi:10.1002/mdc3.70768",
+      "note": "→ A cross-sectional assessment of <b>18 genetically confirmed SCA6 patients</b>, with Spearman correlations between CAG repeat length and the clinical scales. SCA6 has traditionally been regarded as a purely cerebellar disorder, yet <b>extracerebellar features proved common</b>: sensory symptoms in 72.2%, fatigue in 64.7%, hyperreflexia in 38.9%, restless legs syndrome in 28.6% and urinary dysfunction in 27.8%. ⚠️ <b>n=18, single centre, cross-sectional — these prevalence figures cannot be extrapolated to the wider SCA6 population.</b> Why it is recorded: <b>SCA6 is one of the two indications in our own Japanese marketing application (SCA3 and SCA6)</b>. If a substantial share of a patient's real disease burden sits where SARA cannot see it — fatigue, sensory symptoms, autonomic dysfunction — then <b>a trial resting on change in SARA alone may show an efficacy signal that diverges from what patients themselves experience as benefit</b>. That points the same way as the SCA27B oculomotor case report recorded on 08 August, and is worth weighing in the choice of secondary and patient-reported outcomes.",
+      "urlLabel": "Paper ↗ PubMed 42571931"
     }
   },
   {
