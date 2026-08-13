@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-13",
+    "dateDisplay": "2026/08/13",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 1 則科學文獻。<b>The Cerebellum</b>（巴西聖保羅聯邦大學 UNIFESP＋坎皮納斯大學）比較 <b>9 名基因確診 SCA6</b> 病人與 8 名配對對照的標準化神經心理衡鑑，發現病人在<b>視覺建構／視動整合</b>作業表現較差、<b>語文情節記憶</b>較弱、<b>焦慮程度升高</b>。作者自陳為探索性研究，並明列<b>樣本數過小、未做多重比較校正</b>——<b>n=9 對 8 的未校正差異需更大樣本重現，不宜當定論</b>。值得記錄的是它與昨日收錄、同一組巴西作者的 SCA6 非運動症狀研究（PubMed 42571931）互為表裡：前者看感覺／疲倦／自律神經，本篇看認知與情緒，兩者指向同一件事——<b>SCA6 的疾病負擔有一部分落在 SARA 量不到的地方</b>，而 SCA6 正是本社日本申請的兩個適應症之一。ClinicalTrials.gov 五組適應症查詢近 7 天內<b>無新療法型試驗</b>：SCA 圈層當日更新為 NEI 的 SCA7 自然史（NCT02741440）與 NIH 資助的多亞型自然史（NCT01060371），皆屬觀察性、依 §1b 不予收錄；Friedreich's、polyQ、CACNA1A 三組近 7 天無更新；SBMA 組一如既往由前列腺癌試驗佔據，逐筆確認後排除。競品新聞掃描（Biohaven／VYGLXIA、仲恩 Stemchymal、Vico VO659、Arrowhead ARO-ATXN2）未見近 7 天內的新事實。<b>姊妹站 MSA-IQ</b> 當日 CT.gov 與 PubMed 皆無新收錄——兩則新文獻（α-synuclein／DJ-1 複合體結構、嗓音障礙與認知衰退）經逐筆核對，MSA 僅屬順帶提及、非研究適應症，依規則排除。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "One paper added. <b>The Cerebellum</b> (Federal University of São Paulo (UNIFESP) with the University of Campinas) compared standardised neuropsychological assessment in <b>9 genetically confirmed SCA6 patients</b> against 8 matched controls, finding worse performance on <b>visuoconstructive and visuomotor integration</b> tasks, <b>poorer verbal episodic memory</b> and <b>elevated anxiety</b>. The authors describe the study as exploratory and explicitly list its limitations as <b>a very small sample with no correction for multiple comparisons</b> — <b>uncorrected differences at n=9 versus 8 need replication in a larger sample and should not be cited as settled</b>. What makes it worth recording is how it complements the SCA6 non-motor study from the same Brazilian group added yesterday (PubMed 42571931): that paper looked at sensory symptoms, fatigue and autonomic function, this one at cognition and affect, and both point the same way — <b>part of the disease burden in SCA6 sits where SARA cannot see it</b>, and SCA6 is one of the two indications in our Japanese application. The five ClinicalTrials.gov condition queries returned <b>no new therapeutic trials</b> within the past 7 days: the SCA-ring updates were the NEI SCA7 natural history study (NCT02741440) and an NIH-funded multi-subtype natural history study (NCT01060371), both observational and ineligible under §1b; the Friedreich's, polyglutamine and CACNA1A queries showed no updates in the window; and the SBMA query was again dominated by prostate cancer trials, excluded after checking each record. The competitor news sweep (Biohaven/VYGLXIA, Steminent Stemchymal, Vico VO659, Arrowhead ARO-ATXN2) found no new facts within the past 7 days. <b>Sister site MSA-IQ</b> had no new entries from either ClinicalTrials.gov or PubMed: the two new papers (the structure of the α-synuclein/DJ-1 complex, and voice disorders as a marker of cognitive decline) were checked individually and mention MSA only in passing rather than studying it, so both were excluded under the standing rule.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-12",
     "dateDisplay": "2026/08/12",
     "tag": "每日掃描",

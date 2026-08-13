@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42584734",
+    "date": "2026-08-12",
+    "dateDisplay": "2026/08/12",
+    "title": "Cerebellar Cognitive Affective Syndrome in Spinocerebellar Ataxia Type 6",
+    "journal": "The Cerebellum 25(5):124 · Machado FM, Massuyama BK, Gomes JS, França MC, Barsottini OGP, Pedroso JL（巴西聖保羅聯邦大學 UNIFESP 共濟失調中心＋精神科；坎皮納斯大學 UNICAMP 神經科）· doi:10.1007/s12311-026-02056-5",
+    "tag": "SCA6 · 認知情緒表現",
+    "note": "→ <b>9 名基因確診 SCA6</b> 病人與 <b>8 名配對對照</b>的標準化神經心理衡鑑。結果：病人在<b>視覺建構與視動整合作業</b>表現較差、<b>語文情節記憶</b>較弱，並有<b>焦慮程度升高</b>。作者自陳這是<b>探索性研究</b>，並明列限制為<b>樣本數過小、且未做多重比較校正</b>。⚠️ <b>n=9 對 8，未校正多重比較——這些差異需要更大樣本重現才能當成 SCA6 的族群特徵，不宜當定論引用。</b> 記錄理由：<b>SCA6 是本社日本查驗登記申請的兩個適應症之一（SCA3／SCA6）</b>，而本篇與 08/09 收錄的同組人馬 SCA6 非運動症狀研究（PubMed 42571931）指向同一件事——SCA6 的疾病負擔有一部分落在 SARA 量不到的地方。差別在於前一篇看的是感覺、疲倦、自律神經，本篇看的是<b>認知與情緒</b>。兩篇合起來的意義在於<b>次要指標與病人自陳結果的設計</b>：若試驗只用 SARA，這些面向的變化不會被記錄到，無論往好或往壞的方向。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42584734/",
+    "urlLabel": "論文 ↗ PubMed 42584734",
+    "en": {
+      "tag": "SCA6 · cognitive and affective features",
+      "journal": "The Cerebellum 25(5):124 · Machado FM, Massuyama BK, Gomes JS, França MC, Barsottini OGP, Pedroso JL (Ataxia Unit and Department of Psychiatry, Federal University of São Paulo (UNIFESP); Department of Neurology, University of Campinas (UNICAMP), Brazil) · doi:10.1007/s12311-026-02056-5",
+      "note": "→ Standardised neuropsychological assessment of <b>9 genetically confirmed SCA6 patients</b> against <b>8 matched controls</b>. Patients performed worse on <b>visuoconstructive and visuomotor integration tasks</b>, showed <b>poorer verbal episodic memory</b>, and had <b>elevated anxiety</b>. The authors describe the work as <b>exploratory</b> and explicitly list its limitations as <b>a very small sample and no correction for multiple comparisons</b>. ⚠️ <b>With n=9 versus 8 and uncorrected comparisons, these differences need replication in a larger sample before being treated as characteristic of SCA6 — they should not be cited as settled.</b> Why it is recorded: <b>SCA6 is one of the two indications in our own Japanese marketing application (SCA3 and SCA6)</b>, and this paper points the same way as the SCA6 non-motor study from the same group recorded on 09 August (PubMed 42571931) — part of the disease burden in SCA6 sits where SARA cannot see it. The earlier paper looked at sensory symptoms, fatigue and autonomic function; this one looks at <b>cognition and affect</b>. Taken together the implication is for <b>the design of secondary and patient-reported outcomes</b>: a trial resting on SARA alone will not register change in these domains, in either direction.",
+      "urlLabel": "Paper ↗ PubMed 42584734"
+    }
+  },
+  {
     "id": "pubmed:42573842",
     "date": "2026-08-10",
     "dateDisplay": "2026/08/10",
