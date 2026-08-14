@@ -32,6 +32,102 @@
     }
   },
   {
+    "nct": "NCT02960893",
+    "drug": "Troriluzole (BHV-4157)",
+    "mechanism": "麩胺酸調節（riluzole 前驅藥）",
+    "phase": "Ph2/3",
+    "status": "已完成 · 主要終點未達；為 troriluzole 的首個 SCA 樞紐試驗，後續由 NCT03701399 延伸（登錄自 2025-10-08 起未再更新）",
+    "sponsor": "Biohaven Pharmaceuticals",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT02960893",
+    "en": {
+      "mechanism": "Glutamate modulation (riluzole prodrug)",
+      "phase": "Ph2/3",
+      "status": "Completed · primary endpoint not met; the first pivotal SCA trial of troriluzole, continued into NCT03701399 (registry not updated since 2025-10-08)",
+      "sponsor": "Biohaven Pharmaceuticals"
+    }
+  },
+  {
+    "nct": "NCT06034886",
+    "drug": "Troriluzole (BHV-4157)",
+    "mechanism": "麩胺酸調節（riluzole 前驅藥）",
+    "phase": "擴大取得（EAP）",
+    "status": "開放中（Available）· 非試驗，為 SCA 病人於核准前取得藥物的管道（登錄自 2026-01-09 起未再更新）",
+    "sponsor": "Biohaven Pharmaceuticals",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06034886",
+    "en": {
+      "mechanism": "Glutamate modulation (riluzole prodrug)",
+      "phase": "Expanded access",
+      "status": "Available · not a trial, but a route for SCA patients to obtain the drug pre-approval (registry not updated since 2026-01-09)",
+      "sponsor": "Biohaven Pharmaceuticals"
+    }
+  },
+  {
+    "nct": "NCT03408080",
+    "drug": "BHV-4157 (troriluzole)",
+    "mechanism": "麩胺酸調節（riluzole 前驅藥）",
+    "phase": "開放標籤試驗性研究",
+    "status": "進行中未收案 · 學術主導（UCLA），族群含 SCA 與 MSA-C（登錄自 2024-05-09 起未再更新）",
+    "sponsor": "UCLA（藥物：Biohaven）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT03408080",
+    "en": {
+      "mechanism": "Glutamate modulation (riluzole prodrug)",
+      "phase": "Open-label pilot",
+      "status": "Active, not recruiting · investigator-initiated (UCLA), population includes SCA and MSA-C (registry not updated since 2024-05-09)",
+      "sponsor": "UCLA (drug: Biohaven)"
+    }
+  },
+  {
+    "nct": "NCT05160558",
+    "drug": "BIIB132 (ION260)",
+    "mechanism": "ATXN3 反義寡核苷酸（ASO）",
+    "phase": "Ph1",
+    "status": "已終止（2023）· Biogen／Ionis 於 2023 放棄 SCA3 開發（登錄自 2023-08-04 起未再更新）",
+    "sponsor": "Biogen（與 Ionis 合作）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT05160558",
+    "en": {
+      "mechanism": "ATXN3 antisense oligonucleotide (ASO)",
+      "phase": "Ph1",
+      "status": "Terminated (2023) · Biogen/Ionis discontinued the SCA3 programme in 2023 (registry not updated since 2023-08-04)",
+      "sponsor": "Biogen (with Ionis)"
+    }
+  },
+  {
+    "nct": "NCT05490563",
+    "drug": "SLS-005（海藻糖注射劑）",
+    "mechanism": "自噬誘導／蛋白聚集抑制",
+    "phase": "Ph2/3",
+    "status": "已終止 · STRIDES 試驗，適應症為 SCA3（登錄自 2024-04-24 起未再更新）",
+    "sponsor": "Seelos Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT05490563",
+    "en": {
+      "mechanism": "Autophagy induction / anti-aggregation",
+      "phase": "Ph2/3",
+      "status": "Terminated · the STRIDES trial, in SCA3 (registry not updated since 2024-04-24)",
+      "sponsor": "Seelos Therapeutics"
+    }
+  },
+  {
+    "nct": "NCT04120493",
+    "drug": "AMT-130",
+    "mechanism": "AAV5-miHTT 基因療法（一次性顱內注射）",
+    "phase": "Ph1/2",
+    "status": "進行中未收案 · 適應症為亨丁頓舞蹈症（polyQ 鄰近圈層），另有歐洲平行試驗 NCT05243017（登錄自 2025-10-21 起未再更新）",
+    "sponsor": "uniQure Biopharma",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT04120493",
+    "en": {
+      "mechanism": "AAV5-miHTT gene therapy (one-time intracranial administration)",
+      "phase": "Ph1/2",
+      "status": "Active, not recruiting · in Huntington's disease, the adjacent polyQ ring; a parallel European trial runs as NCT05243017 (registry not updated since 2025-10-21)",
+      "sponsor": "uniQure Biopharma"
+    }
+  },
+  {
     "nct": "NCT05822908",
     "drug": "VO659",
     "mechanism": "ASO",
