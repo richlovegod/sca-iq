@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42587819",
+    "date": "2026-08-04",
+    "dateDisplay": "2026/08/04",
+    "title": "Autophagy at the Crossroads of Protein and RNA Toxicity in Repeat Expansion Cerebellar Ataxias",
+    "journal": "Cells 15(15):1411 · Tortoriello S, Rossi S, Della Valle I, D'Ambrosi N, Cozzolino M（義大利國家研究委員會 CNR 轉譯藥理學研究所，羅馬；羅馬第二大學 Tor Vergata 生物系）· doi:10.3390/cells15151411",
+    "tag": "共通機轉 · 自噬作用",
+    "note": "→ 綜述，主張<b>自噬（autophagy）功能受損是重複序列擴增型小腦共濟失調的匯流點機轉</b>。作者的論證結構是把這群病分成兩條原本被分開討論的致病路線——<b>多聚麩醯胺酸（polyQ）型的「蛋白質毒性」</b>（SCA1／2／3／6／7 等，突變蛋白錯誤摺疊聚集）與<b>非編碼區擴增型的「RNA 毒性」</b>（如 SCA31／SCA36 等，異常 RNA 形成核內聚集並綁架 RNA 結合蛋白）——再指出兩條路線<b>在下游都收斂到細胞清除機制的失能</b>。⚠️ <b>本篇是綜述、不含新實驗數據，「匯流」是作者對既有文獻的整合詮釋而非新證據；文中未提出任何臨床階段的自噬調節劑。</b> 記錄理由與本社直接相關：目前 SCA 的臨床競品幾乎清一色是<b>基因專一</b>的核酸藥（Vico VO659 打 ATXN3／ATXN1、Arrowhead／Sarepta ARO-ATXN2 打 ATXN2），這種設計的結構性代價是<b>一個亞型要一支藥</b>、各自要有自己的臨床試驗與法規路徑。若下游確實存在跨亞型共通的病理節點，那就是<b>非基因專一療法（含細胞治療）在學理上能同時涵蓋多個 polyQ 亞型的理由</b>——本社的日本申請正是以 SCA3／SCA6 兩個亞型合併申請。<b>但這只是機轉層次的說法，不能當成療效證據</b>：本篇並未檢驗任何細胞或藥物介入能否修復自噬，遑論改變病程。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42587819/",
+    "urlLabel": "論文 ↗ PubMed 42587819",
+    "en": {
+      "tag": "Convergent mechanism · autophagy",
+      "journal": "Cells 15(15):1411 · Tortoriello S, Rossi S, Della Valle I, D'Ambrosi N, Cozzolino M (Institute of Translational Pharmacology, National Research Council (CNR), Rome; Department of Biology, University of Rome Tor Vergata, Italy) · doi:10.3390/cells15151411",
+      "note": "→ A review arguing that <b>impaired autophagy is a convergent pathogenic mechanism across the repeat expansion cerebellar ataxias</b>. The argument takes two disease routes usually discussed separately — <b>protein-mediated toxicity in the polyglutamine (polyQ) ataxias</b> (SCA1/2/3/6/7, where the mutant protein misfolds and aggregates) and <b>RNA-mediated toxicity in the non-coding expansions</b> (such as SCA31 and SCA36, where abnormal RNA forms nuclear foci and sequesters RNA-binding proteins) — and argues that <b>both converge downstream on failure of cellular clearance</b>. ⚠️ <b>This is a review with no new experimental data; the convergence is the authors' synthesis of existing literature rather than new evidence, and no clinical-stage autophagy modulator is proposed.</b> Why it is recorded, and its direct bearing on our own programme: the clinical competition in SCA is almost entirely <b>gene-specific</b> nucleic-acid medicine (Vico's VO659 against ATXN3/ATXN1, Arrowhead/Sarepta's ARO-ATXN2 against ATXN2), and the structural cost of that design is <b>one asset per subtype</b>, each carrying its own trial and regulatory path. If a shared downstream node genuinely exists, it is <b>the mechanistic rationale for why a non-gene-specific therapy — cell therapy included — could span several polyQ subtypes at once</b>; our own Japanese application covers two subtypes, SCA3 and SCA6, together. <b>This remains an argument at the level of mechanism and is not evidence of efficacy</b>: the paper tests no cellular or pharmacological intervention for its ability to restore autophagy, let alone to alter the course of disease.",
+      "urlLabel": "Paper ↗ PubMed 42587819"
+    }
+  },
+  {
     "id": "pubmed:42584734",
     "date": "2026-08-12",
     "dateDisplay": "2026/08/12",
