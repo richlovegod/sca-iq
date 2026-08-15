@@ -435,5 +435,22 @@
       "status": "<b>Active, not recruiting</b> (n=909, primary completion 2024-09-06). A real-world study comparing troriluzole-treated SCA patients against a <b>matched external control drawn from natural-history cohort data</b> — the evidence source behind Biohaven's NDA claim of 50–70% slowing of progression; that NDA received an FDA Complete Response Letter in November 2025. ⚠️ Observational, non-randomised: efficacy inference is limited by how comparable the external control really is",
       "sponsor": "Biohaven Therapeutics"
     }
+  },
+  {
+    "nct": "NCT06862596",
+    "drug": "Mexiletine hydrochloride（美西律）",
+    "mechanism": "小分子鈉離子通道阻斷劑<br>老藥新用（症狀改善／運動功能）",
+    "phase": "Ph2/3",
+    "status": "主動掃描補收（<b>此前未在本平台登錄</b>）。<b>登錄狀態為收案中</b>——Med-SBMA 試驗，多中心隨機雙盲安慰劑對照，每次 300 mg 每日三次口服共 12 週、n=68，日本五家站點（東京、千葉、札幌、下野、吹田）；2025/02/28 起始、主要完成日估 2027/12/31。<b>主要指標＝第 4 週 ALSFRS-R 總分自基線變化</b>。主持人為<b>名古屋大學勝野雅央</b>（SBMA 領域的日本核心研究者，亦為 08/10 收錄之小腦運動學習指標多中心驗證論文共同作者）。⚠️ <b>登錄自 2025-04-16 起未再更新</b>，「收案中」為主辦方自行維護之陳舊登錄，非查證過的現況。⚠️ 適應症為<b>甘迺迪症／SBMA（polyQ 鄰近圈層）</b>、非 SCA，且屬<b>症狀改善型老藥再定位</b>，不改變病程",
+    "sponsor": "勝野雅央／名古屋大學（日本）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06862596",
+    "en": {
+      "drug": "Mexiletine hydrochloride",
+      "mechanism": "Small-molecule sodium-channel blocker<br>drug repurposing (symptomatic / motor function)",
+      "phase": "Ph2/3",
+      "status": "Added by the proactive sweep (<b>not previously registered on this platform</b>). <b>The registry reads RECRUITING</b> — the Med-SBMA trial, multicentre, randomised, double-blind and placebo-controlled, dosed at 300 mg orally three times daily for 12 weeks, n=68 across five Japanese sites (Tokyo, Chiba, Sapporo, Shimotsuke and Suita); started 2025/02/28 with primary completion estimated 2027/12/31. <b>Primary endpoint = change from baseline in total ALSFRS-R at week 4</b>. The investigator is <b>Masahisa Katsuno of Nagoya University</b>, a central Japanese figure in SBMA and a co-author of the multicentre cerebellar motor-learning endpoint paper recorded on 10 August. ⚠️ <b>No registry update since 2025-04-16</b>, so \"recruiting\" is a stale sponsor-maintained entry rather than a verified current state. ⚠️ The indication is <b>Kennedy's disease / SBMA, the adjacent polyQ ring</b> rather than SCA, and this is a <b>symptomatic repurposing</b> that does not target disease course",
+      "sponsor": "Masahisa Katsuno / Nagoya University (Japan)"
+    }
   }
 ]

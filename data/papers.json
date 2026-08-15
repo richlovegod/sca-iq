@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42595563",
+    "date": "2026-08-14",
+    "dateDisplay": "2026/08/14",
+    "title": "Alternative splicing dysregulation in CAG repeat expansion diseases",
+    "journal": "Trends in Neurosciences（線上先行）· Aliyeva A, Cleary JD, Shorrock HK, Berglund JA（紐約州立大學奧本尼分校 RNA 研究所暨生物科學系）· doi:10.1016/j.tins.2026.07.006",
+    "tag": "共通機轉 · RNA 剪接失調",
+    "note": "→ 綜述，整合小鼠模型與病人檢體資料，指出<b>相似的替代性剪接（alternative splicing）改變普遍存在於 CAG 重複序列擴增疾病</b>，橫跨亨丁頓舞蹈症與<b>多個 SCA 亞型</b>，並盤點受影響的基因與路徑。⚠️ <b>本篇是綜述、不含新實驗數據</b>；文中亦未提出任何進入臨床階段的剪接調控藥物用於 SCA。記錄理由：這是<b>十天內第二篇主張「polyQ 各亞型在下游收斂到同一個細胞層次故障」的綜述</b>（前一篇為 08/04 收錄的自噬作用綜述 PubMed 42587819，主張匯流點在細胞清除機制）。兩篇指的節點並不相同——一個在 RNA 加工、一個在蛋白清除——<b>這本身就值得注意：目前並沒有共識說哪一個才是真正的共通節點，兩者都還停在「以既有文獻重新詮釋」的階段。</b> 對本社的意義僅止於學理層次：SCA 現行臨床競品幾乎都是<b>基因專一</b>的核酸藥（Vico VO659 打 ATXN3／ATXN1、Arrowhead／Sarepta ARO-ATXN2 打 ATXN2），一個亞型一支藥；跨亞型共通機轉的文獻累積，是<b>非基因專一療法（含細胞治療）主張可涵蓋多亞型的學理背景</b>，本社日本申請即為 SCA3／SCA6 合併。<b>但機轉層次的匯流論述不等於療效證據</b>，本篇未檢驗任何介入措施。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595563/",
+    "urlLabel": "論文 ↗ PubMed 42595563",
+    "en": {
+      "tag": "Convergent mechanism · RNA splicing dysregulation",
+      "journal": "Trends in Neurosciences (online ahead of print) · Aliyeva A, Cleary JD, Shorrock HK, Berglund JA (RNA Institute and Department of Biological Sciences, University at Albany, State University of New York) · doi:10.1016/j.tins.2026.07.006",
+      "note": "→ A review synthesising mouse-model and patient data to argue that <b>similar alternative splicing changes are prevalent across the CAG repeat expansion diseases</b>, spanning Huntington's disease and <b>multiple SCA subtypes</b>, and cataloguing the genes and pathways affected. ⚠️ <b>This is a review containing no new experimental data</b>, and it proposes no clinical-stage splicing-directed therapy for SCA. Why it is recorded: this is the <b>second review in ten days to argue that the polyQ subtypes converge downstream on a single cellular failure</b> — the first, recorded on 04 August (PubMed 42587819), placed that convergence in autophagy and cellular clearance. The two nominate different nodes, one in RNA processing and one in protein clearance, and <b>that disagreement is itself the point: there is no consensus on which, if either, is the genuine common node, and both arguments remain reinterpretations of existing literature.</b> The bearing on our own programme is confined to mechanism: the clinical competition in SCA is almost entirely <b>gene-specific</b> nucleic-acid medicine (Vico's VO659 against ATXN3/ATXN1, Arrowhead/Sarepta's ARO-ATXN2 against ATXN2), one asset per subtype, so an accumulating literature on shared mechanism is <b>the background rationale for a non-gene-specific therapy — cell therapy included — claiming to span subtypes</b>; our own Japanese application covers SCA3 and SCA6 together. <b>A convergence argument at the level of mechanism is not evidence of efficacy</b>, and this paper tests no intervention.",
+      "urlLabel": "Paper ↗ PubMed 42595563"
+    }
+  },
+  {
     "id": "pubmed:42587819",
     "date": "2026-08-04",
     "dateDisplay": "2026/08/04",
