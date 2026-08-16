@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-16",
+    "dateDisplay": "2026/08/16",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 1 則科學文獻。中國中南大學湘雅醫院（長沙）團隊發表於 <b>Parkinsonism &amp; Related Disorders</b>：<b>129 名 SCA3 受試者對 78 名對照</b>的縱貫性影像研究，測量 <b>DTI-ALPS 指數</b>（沿血管周隙的擴散張量影像分析，一種以 MRI 間接評估腦內組織液／血管周隙引流環境的指標）。結果為<b>指數下降主要出現在症狀期病人</b>，並與<b>病情較重、腦幹萎縮、後續進展較快</b>相關。<b>此為相關性研究、非介入試驗</b>：未檢驗任何療法，亦無證據說明引流受損是病因或病程的結果。收錄理由：SCA3 為本社日本查驗登記申請的兩個適應症之一，且本篇補上了近月文獻反覆指向之主題的另一半——<b>試驗終點的可測量性</b>。08/12 的 SCA6 認知情緒研究與 08/09 的 SCA6 非運動症狀研究講的是 SARA 量不到的<b>臨床</b>面向；本篇提供的是<b>可在單一時點取得、且與後續進展速度相關的客觀影像指標</b>，原理上正是細胞治療這類進展緩慢、需長期追蹤的療法最缺的工具。<b>惟距離能當試驗終點仍遠</b>：單一中心中國世代、未經他組重現，DTI-ALPS 方法學於神經影像領域仍具爭議（受掃描參數與頭位影響），且目前無任何 SCA 試驗以其為次要指標。ClinicalTrials.gov 五組適應症查詢近 7 天內<b>無新療法型試驗</b>：SCA 圈層窗內更新為 NEI 的 SCA7 自然史（NCT02741440）與多亞型自然史（NCT01060371），屬觀察性、依 §1b 不予收錄；Baltuch 團隊小腦 DBS（NCT07752095）與福建醫大附一經顱時間干涉刺激（NCT07743866）屬神經調節，同不予收錄；Friedreich's 組窗內更新之 PTC <b>NCT07681713</b>（PROVE-FA）已於 08/14 收錄；polyQ 與 CACNA1A 兩組近 7 天無更新；SBMA 組窗內僅 NINDS 生物標記觀察研究（NCT04944940）與 NICHD 雄性素受體研究（NCT04708431）更新，其餘為前列腺癌試驗，逐筆確認適應症後排除。競品新聞掃描（仲恩 Stemchymal／REPROCELL 日本查驗登記、Biohaven troriluzole／VYGLXIA、Vico VO659、Arrowhead／Sarepta ARO-ATXN2）<b>未見近 7 天內的新事實</b>，檢索命中者均為既有已記錄事件之轉載。<b>姊妹站 MSA-IQ</b> 當日新增 1 篇皮膚 α-突觸核蛋白種子活性文獻。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "One paper added. From Xiangya Hospital, Central South University (Changsha, China), in <b>Parkinsonism &amp; Related Disorders</b>: a longitudinal imaging study of <b>129 SCA3 participants against 78 controls</b> measuring the <b>DTI-ALPS index</b> (diffusion tensor image analysis along the perivascular space, an MRI-derived proxy for the neurofluid and perivascular drainage environment). The index was <b>reduced predominantly in symptomatic patients</b> and was associated with <b>greater severity, brainstem atrophy and faster subsequent progression</b>. <b>This is correlational rather than interventional work</b>: no therapy is tested, and nothing establishes whether impaired drainage is a cause or a consequence of the disease course. Why it is recorded: SCA3 is one of the two indications in our own Japanese marketing application, and the paper supplies the other half of a theme the recent literature keeps returning to — <b>what a trial can actually measure</b>. The SCA6 cognitive study of 12 August and the SCA6 non-motor study of 09 August concerned <b>clinical</b> domains SARA cannot see; this one offers an <b>objective imaging measure, obtainable at a single timepoint, that tracks with the rate of subsequent progression</b> — in principle the tool most lacking for a slowly-acting therapy requiring long follow-up, cell therapy included. <b>It remains far from serving as a trial endpoint</b>: a single-centre Chinese cohort without independent replication, DTI-ALPS methodology still contested within neuroimaging (sensitive to acquisition parameters and head positioning), and no SCA trial currently using it even as a secondary measure. The five ClinicalTrials.gov condition queries returned <b>no new therapeutic trials</b> in the past 7 days: within the SCA ring the updates in the window were the NEI SCA7 natural history study (NCT02741440) and the multi-subtype natural history study (NCT01060371), both observational and ineligible under §1b, alongside the Baltuch cerebellar DBS study (NCT07752095) and the transcranial temporal interference stimulation study from Fujian Medical University (NCT07743866), both neuromodulation and likewise excluded; the Friedreich's query surfaced PTC's <b>NCT07681713</b> (PROVE-FA), recorded on 14 August; the polyglutamine and CACNA1A queries showed no updates in the window; and the SBMA query returned only an NINDS observational biomarker study (NCT04944940) and an NICHD androgen receptor study (NCT04708431) alongside the usual prostate cancer trials, excluded after checking the indication on each. The competitor news sweep (Steminent Stemchymal and the REPROCELL Japanese marketing application, Biohaven troriluzole/VYGLXIA, Vico VO659, Arrowhead/Sarepta ARO-ATXN2) found <b>no new facts within the past 7 days</b> — every hit was a restatement of an event already on record. <b>Sister site MSA-IQ</b> gained one paper today, on α-synuclein seeding activity in skin.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-15",
     "dateDisplay": "2026/08/15",
     "tag": "每日掃描",

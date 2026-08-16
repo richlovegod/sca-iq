@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42594559",
+    "date": "2026-08-11",
+    "dateDisplay": "2026/08/11",
+    "title": "Longitudinal changes in DTI-ALPS index are associated with clinical progression and brainstem atrophy in spinocerebellar ataxia type 3",
+    "journal": "Parkinsonism & Related Disorders 151:108937 · Long Z, Chen Z, Peng H, Hu J, Wan N, Peng R, Peng L, Wan L, Wang C, Qiu R, Jiang H（中國中南大學湘雅醫院神經科／放射科／病理科，長沙；湖南省神經退化性疾病重點實驗室）· doi:10.1016/j.parkreldis.2026.108937",
+    "tag": "SCA3 · 影像生物標記",
+    "note": "→ <b>129 名 SCA3 受試者對 78 名對照</b>的縱貫性影像研究，測的是 <b>DTI-ALPS 指數</b>（沿血管周隙的擴散張量影像分析，一種以 MRI 間接評估腦內組織液／血管周隙引流環境的指標）。結果：<b>指數下降主要出現在已發病的症狀期病人</b>，並與<b>病情較重、腦幹萎縮、以及後續病程進展較快</b>相關。⚠️ <b>這是相關性研究，不是介入試驗</b>——文中未檢驗任何療法，也沒有證據說明引流功能受損是病因還是病程的結果。作者本人於摘要中即載明「其臨床意義仍不明確」為研究動機。記錄理由：<b>SCA3 是本社日本查驗登記申請的兩個適應症之一</b>，而近月文獻反覆指向同一個主題——<b>試驗終點的可測量性</b>。本平台 08/12 收錄的 SCA6 認知情緒研究、08/09 的 SCA6 非運動症狀研究，講的是 SARA 量不到的<b>臨床</b>面向；本篇補的是另一半：一個<b>能在單一時點測、且與後續進展速度相關的客觀影像指標</b>，在原理上正是細胞治療這類進展緩慢、需要長期追蹤的療法最缺的東西。<b>但距離能當試驗終點還很遠</b>：本篇為單一中心的中國世代、未經他組重現，DTI-ALPS 方法學本身在神經影像領域仍有爭議（受掃描參數與頭位影響），且尚無任何 SCA 試驗以其為次要指標。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42594559/",
+    "urlLabel": "論文 ↗ PubMed 42594559",
+    "en": {
+      "tag": "SCA3 · imaging biomarker",
+      "journal": "Parkinsonism & Related Disorders 151:108937 · Long Z, Chen Z, Peng H, Hu J, Wan N, Peng R, Peng L, Wan L, Wang C, Qiu R, Jiang H (Departments of Neurology, Radiology and Pathology, Xiangya Hospital, Central South University, Changsha, China; Key Laboratory of Hunan Province in Neurodegenerative Disorders) · doi:10.1016/j.parkreldis.2026.108937",
+      "note": "→ A longitudinal imaging study of <b>129 SCA3 participants against 78 controls</b>, measuring the <b>DTI-ALPS index</b> (diffusion tensor image analysis along the perivascular space, an MRI-derived proxy for the neurofluid and perivascular drainage environment). The index was <b>reduced predominantly in symptomatic patients</b> and was associated with <b>greater severity, brainstem atrophy, and faster subsequent progression</b>. ⚠️ <b>This is a correlational study, not an interventional one</b> — no therapy is tested, and nothing here establishes whether impaired drainage is a cause or a consequence of the disease course. The authors themselves frame the work by noting that the clinical relevance of this environment in SCA3 remains unclear. Why it is recorded: <b>SCA3 is one of the two indications in our own Japanese marketing application</b>, and recent literature keeps returning to a single theme — <b>what a trial can actually measure</b>. The SCA6 cognitive study recorded on 12 August and the SCA6 non-motor study on 09 August concerned <b>clinical</b> domains SARA cannot see; this paper supplies the other half: an <b>objective imaging measure, obtainable at a single timepoint, that tracks with the rate of subsequent progression</b> — in principle exactly what a slowly-acting therapy requiring long follow-up, cell therapy included, most lacks. <b>It is a long way from serving as a trial endpoint</b>: this is a single-centre Chinese cohort with no independent replication, DTI-ALPS methodology remains contested within neuroimaging (it is sensitive to acquisition parameters and head positioning), and no SCA trial currently uses it even as a secondary measure.",
+      "urlLabel": "Paper ↗ PubMed 42594559"
+    }
+  },
+  {
     "id": "pubmed:42595563",
     "date": "2026-08-14",
     "dateDisplay": "2026/08/14",
