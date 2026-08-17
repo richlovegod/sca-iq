@@ -275,6 +275,38 @@
     }
   },
   {
+    "nct": "NCT06874010",
+    "drug": "DT-216P2（GeneTAC™）",
+    "mechanism": "小分子 GeneTAC™（結合 FXN 基因 GAA 重複序列、解除轉錄沉默以提升 frataxin 表現）<br>皮下與靜脈兩種給藥途徑",
+    "phase": "Ph1/2",
+    "status": "收案中（RESTORE-FA 多次遞增劑量試驗；<b>開放標籤、不設盲</b>，n=20、2025/06 起始、估 2026/12 主要完成。主要指標＝治療相關不良事件發生率。站點全在澳洲：Scientia Clinical Research、Doherty Clinical Trials、Nucleus Network）。⚠️ <b>CT.gov 登錄自 2025-05-18 起未再更新</b>——公司 2026/05 已對外公布四週靜脈給藥數據，登錄狀態明顯落後於實際進度，勿逕以登錄內容當現況。",
+    "sponsor": "Design Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06874010",
+    "en": {
+      "mechanism": "GeneTAC™ small molecule (binds the GAA repeat in FXN and relieves transcriptional silencing to raise frataxin)<br>subcutaneous and intravenous routes",
+      "phase": "Ph1/2",
+      "status": "Recruiting (RESTORE-FA multiple-ascending-dose study; <b>open-label, no masking</b>, n=20, started 2025/06, estimated primary completion 2026/12. Primary endpoint = frequency of treatment-emergent adverse events. All sites in Australia: Scientia Clinical Research, Doherty Clinical Trials, Nucleus Network). ⚠️ <b>The registry entry has not been updated since 2025-05-18</b> — the company released four-week IV data in 2026/05, so the registration lags actual progress and should not be read as a statement of current status.",
+      "sponsor": "Design Therapeutics"
+    }
+  },
+  {
+    "nct": "NCT06772870",
+    "drug": "DT-216P2（GeneTAC™）",
+    "mechanism": "小分子 GeneTAC™（同上）<br>健康受試者單次遞增劑量、皮下對靜脈交叉比較",
+    "phase": "Ph1",
+    "status": "尚未收案（<b>雙盲、隨機、安慰劑對照、單次遞增劑量交叉設計</b>，健康受試者 n=36，估 2025/02 起始、2025/09 主要完成。主要指標＝治療相關不良事件發生率。站點：澳洲 Nucleus Network）。⚠️ <b>登錄自 2025-02-21 起未再更新</b>，估計完成日已過而狀態仍停在「尚未收案」，實際是否執行無法從登錄判斷。",
+    "sponsor": "Design Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06772870",
+    "en": {
+      "mechanism": "GeneTAC™ small molecule (as above)<br>single ascending dose in healthy participants, subcutaneous vs intravenous crossover",
+      "phase": "Ph1",
+      "status": "Not yet recruiting (<b>double-masked, randomised, placebo-controlled, single-ascending-dose crossover</b>, n=36 healthy participants, estimated start 2025/02 and primary completion 2025/09. Primary endpoint = frequency of treatment-emergent adverse events. Site: Nucleus Network, Australia). ⚠️ <b>Not updated since 2025-02-21</b>; the estimated completion date has passed while the status still reads 'not yet recruiting', so whether it ran cannot be determined from the registry.",
+      "sponsor": "Design Therapeutics"
+    }
+  },
+  {
     "nct": "NCT06411912",
     "drug": "NIDO-361",
     "mechanism": "口服小分子選擇性雄性素受體調節劑（SARM）<br>結合 AR 的 BF3 位點",

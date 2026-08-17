@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42603514",
+    "date": "2026-08-15",
+    "dateDisplay": "2026/08/15",
+    "title": "Longitudinal progression, metrics, age-dependence, and modifiers of ataxia severity in SCA27B",
+    "journal": "EBioMedicine 131:106437 · Traschütz A, Hilgers RD, Erdlenbruch F, Depienne C, Wirth T, Delvallée C, Nümann A, Ashton C, Pellerin D, Indelicato E, Heindl F, Renaud M, Borsche M, Grobe-Einsler M, Faber J, Klockgether T, Schöls L, Brais B, Anheim M, Timmann D, Synofzik M（德國圖賓根大學、亞琛工大、埃森大學醫院；法國史特拉斯堡大學醫院；奧地利、加拿大 McGill、澳洲等多國多中心）· doi:10.1016/j.ebiom.2026.106437",
+    "tag": "SCA27B · 自然史／終點可測量性",
+    "note": "→ <b>SCA27B（FGF14 基因 GAA 重複擴增所致的晚發顯性共濟失調）第一份多中心縱貫進展數據</b>：<b>219 名病人、661 次評估</b>（年齡 68±10 歲、基線 SARA 9±6 分）。核心數字：<b>整體年進展僅 0.54 SARA 分/年（95% CI 0.37–0.71）</b>；嚴重度幾乎全由<b>步態、站姿與下肢</b>撐起，其餘面向多數病人幾無受損。兩個修飾因子：<b>較短那條等位基因也帶 (GAA)>180 者進展明顯較快（+1.6 分/年，95% CI 0.9–2.2）</b>；14 名（6%）合併老化相關共病者亦較快。作者並指出<b>與對照組的鑑別力隨年齡下降</b>，因為老化本身就帶來運動表現變異。⚠️ <b>這是觀察性世代研究、未檢驗任何療法。</b> 記錄理由：SCA27B 是<b>目前唯一有廠商宣布要做三期的 SCA 亞型</b>（Solaxa SLX-100），而這份數據對該試驗是雙面刃——<b>0.54 分/年比 EUROSCA 最慢的 SCA6（0.80）還慢</b>，意味著要在合理年限內看出「壓平斜率」極為困難，除非用 (GAA)>180 這類修飾因子做<b>族群富集</b>；本篇正好提供了富集的依據。對本社的意義同樣落在方法學而非適應症：這是近兩週第三篇指向<b>「SARA 在慢進展亞型上量不動」</b>的文獻（08/11 SCA3 影像指標、08/12 SCA6 認知情緒），而本社日本申請的 SCA6 正屬慢進展組——<b>競品在鄰近亞型踩到的終點問題，本社在自己的亞型會遇到同一個</b>。<b>但本篇是他人世代、非本社或競品資料</b>，不能直接外推到 SCA3／SCA6 的實際試驗設計。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42603514/",
+    "urlLabel": "論文 ↗ PubMed 42603514",
+    "en": {
+      "tag": "SCA27B · natural history / endpoint measurability",
+      "journal": "EBioMedicine 131:106437 · Traschütz A, Hilgers RD, Erdlenbruch F, Depienne C, Wirth T, Delvallée C, Nümann A, Ashton C, Pellerin D, Indelicato E, Heindl F, Renaud M, Borsche M, Grobe-Einsler M, Faber J, Klockgether T, Schöls L, Brais B, Anheim M, Timmann D, Synofzik M (University of Tübingen, RWTH Aachen, University Hospital Essen, Germany; Strasbourg University Hospitals, France; plus centres in Austria, McGill University Canada and Australia) · doi:10.1016/j.ebiom.2026.106437",
+      "note": "→ The <b>first multicentre longitudinal progression dataset for SCA27B</b>, the late-onset dominant ataxia caused by GAA repeat expansions in FGF14: <b>219 patients, 661 assessments</b> (age 68±10, baseline SARA 9±6). The headline figure is an <b>overall progression of just 0.54 SARA points/year (95% CI 0.37–0.71)</b>, with severity attributable almost entirely to <b>gait, stance and lower-limb impairment</b> and little involvement of the other domains in most patients. Two modifiers emerged: carrying <b>(GAA)>180 on the shorter allele as well was associated with markedly faster progression (+1.6 points/year, 95% CI 0.9–2.2)</b>, as were ageing-related comorbidities in 14 patients (6%). The authors also note that <b>discrimination from controls declines with age</b>, because ageing itself introduces motor variability. ⚠️ <b>This is an observational cohort study; no therapy is tested.</b> Why it is recorded: SCA27B is <b>the only SCA subtype for which a sponsor has announced a Phase 3</b> (Solaxa's SLX-100), and this dataset cuts both ways for that trial — <b>0.54 points/year is slower than SCA6 (0.80), the slowest subtype in EUROSCA</b>, so demonstrating a flattened slope within a feasible study duration will be very hard unless the population is <b>enriched</b> using a modifier such as (GAA)>180, for which this paper supplies the rationale. The bearing on our own programme is again methodological rather than indication-specific: this is the third paper in a fortnight pointing at <b>the limits of SARA in slowly-progressing subtypes</b> (SCA3 imaging on 11 August, SCA6 cognition on 12 August), and SCA6 — one of the two indications in our Japanese application — sits in that slow group. <b>The endpoint problem competitors are hitting in an adjacent subtype is the same one we face in our own.</b> <b>This remains someone else's cohort</b>, not ours and not a competitor's, and does not transfer directly to SCA3/SCA6 trial design.",
+      "urlLabel": "Paper ↗ PubMed 42603514"
+    }
+  },
+  {
     "id": "pubmed:42594559",
     "date": "2026-08-11",
     "dateDisplay": "2026/08/11",
