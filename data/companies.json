@@ -2760,5 +2760,32 @@
       ]
     },
     "cat": "cell"
+  },
+  {
+    "id": "quince",
+    "name": "Quince Therapeutics",
+    "nameEn": "Quince Therapeutics, Inc.",
+    "short": "Quince",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: QNCX",
+    "mechanism": "自體紅血球包覆藥物遞送平台（AIDE）：將地塞米松磷酸鈉包入病人自身紅血球，作為緩釋載體長時間低劑量釋放類固醇",
+    "pipeline": "eDSP（EryDex）｜共濟失調微血管擴張症（A-T）：Ph3 NEAT（NCT06193200）已完成，2026/08 發表全文，主要終點未達顯著（p=0.085）",
+    "insight": "2026/08/18 主動掃描發現的清單外玩家——其三期資產此前完全未被本平台收錄。<b>與本社無適應症或市場重疊</b>（A-T 為 ATM 缺陷所致之隱性共濟失調，非 polyQ 疾病），不構成直接競爭威脅。追蹤價值在兩點：一是 A-T 屬本平台既已追蹤的鄰近共濟失調圈層；二是 NEAT 以 RmICARS 為主要終點在六個月窗口內未達顯著（差值 −1.30、CI 上緣僅略越零界），與 SARA 同屬臨床醫師評分量表，可作為<b>終點敏感度與追蹤期設計</b>的外部參照。惟 A-T 為兒童期快速進展疾病，量表行為不能直接外推至成人晚發 SCA。",
+    "threat": "low",
+    "url": "https://www.quincetx.com/",
+    "match": [
+      "Quince Therapeutics",
+      "Quince Therapeutics S.p.A.",
+      "eDSP",
+      "EryDex"
+    ],
+    "updates": [],
+    "en": {
+      "country": "USA",
+      "mechanism": "An autologous red-blood-cell drug-delivery platform (AIDE): dexamethasone sodium phosphate is encapsulated in the patient's own erythrocytes, which act as a slow-release carrier giving prolonged low-dose steroid exposure",
+      "pipeline": "eDSP (EryDex) | ataxia-telangiectasia (A-T): the Phase 3 NEAT trial (NCT06193200) has completed and was published in full in 2026/08, with the primary endpoint missed (p=0.085)",
+      "insight": "An off-list player picked up by the 2026/08/18 sweep — its Phase 3 asset had never been captured on this platform at all. <b>There is no overlap with our own indication or market</b> (A-T is a recessive ataxia caused by ATM deficiency, not a polyQ disease), so it poses no direct competitive threat. It is worth tracking for two reasons: A-T sits in the adjacent ataxia ring the platform already covers, and NEAT's failure to reach significance on an RmICARS primary endpoint within a six-month window (difference −1.30, upper confidence bound only just crossing zero) offers an external reference point on <b>endpoint sensitivity and follow-up duration</b>, RmICARS being a clinician-rated scale like SARA. A-T is nonetheless a rapidly progressing childhood disease, and its scale behaviour does not extrapolate directly to adult late-onset SCA."
+    },
+    "cat": "sca"
   }
 ]

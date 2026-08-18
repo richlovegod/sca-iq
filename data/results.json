@@ -1,5 +1,51 @@
 [
   {
+    "id": "quince-edsp-neat-ph3-2026-08",
+    "date": "2026-08-14",
+    "dateDisplay": "2026/08",
+    "competitor": "Quince Therapeutics",
+    "drug": "eDSP（EryDex）",
+    "trial": "NCT06193200 NEAT Ph3（隨機雙盲安慰劑對照，n=105，6 個月／六劑，9 國 20 站點）",
+    "sourceType": "論文",
+    "level": "info",
+    "readout": "<b>主要終點未達標</b>：6–9 歲 ITT 族群第 6 個月 RmICARS 自基線變化之<b>最小平方均數差 −1.30（95% CI −2.77 至 0.18；p=0.085）</b>。該年齡層完成率兩組皆 95%（eDSP 38/40、安慰劑 41/43）。安全性良好：兩組不良事件發生率約 92–93%，<b>未見治療相關之嚴重不良事件</b>。公司 2026/01/29 已先行發布 topline，<b>本次為同儕審查全文</b>（The Lancet Child &amp; Adolescent Health，2026/08/14）。",
+    "implication": "→ <b>非直接競品</b>：A-T 為 ATM 缺陷所致之隱性共濟失調，與本社 SCA3／SCA6 無適應症或市場重疊。價值在方法學——<b>RmICARS 與本社主要終點 SARA 同屬臨床醫師評分量表家族</b>，而 p=0.085、信賴區間上緣僅略越零界的型態，是<b>追蹤期與樣本數不足以壓過量表變異</b>的典型樣貌；此為近期第四筆指向「共濟失調量表在六至十二個月窗口內偵測力不足」的證據。<b>惟不可直接外推</b>：NEAT 僅六個月六劑，且 A-T 為兒童期快速進展疾病，量表行為與成人晚發 SCA 不同。",
+    "links": [
+      {
+        "label": "論文 The Lancet Child & Adolescent Health",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42600624/"
+      },
+      {
+        "label": "試驗登錄 NCT06193200",
+        "url": "https://clinicaltrials.gov/study/NCT06193200"
+      },
+      {
+        "label": "公司 topline 新聞稿 2026/01",
+        "url": "https://www.businesswire.com/news/home/20260129349326/en/Quince-Therapeutics-Announces-Topline-Results-from-Pivotal-Phase-3-NEAT-Clinical-Trial-of-eDSP-in-Ataxia-Telangiectasia"
+      }
+    ],
+    "en": {
+      "trial": "NCT06193200 NEAT Ph3 (randomised, double-blind, placebo-controlled; n=105; six months and six doses; 20 sites in nine countries)",
+      "sourceType": "Paper",
+      "readout": "<b>The primary endpoint was not met</b>: the least-squares mean difference in change from baseline in RmICARS at month 6 in the ITT population aged 6–9 was <b>−1.30 (95% CI −2.77 to 0.18; p=0.085)</b>. Completion in that age band was 95% in both arms (38 of 40 on eDSP, 41 of 43 on placebo). Safety was favourable: adverse events occurred in roughly 92–93% of both arms with <b>no serious treatment-related events</b>. The company had released topline results on 2026/01/29; <b>this is the peer-reviewed full paper</b> (The Lancet Child &amp; Adolescent Health, 2026/08/14).",
+      "implication": "→ <b>Not a direct competitor</b>: A-T is a recessive ataxia caused by ATM deficiency and overlaps with our SCA3/SCA6 programme in neither indication nor market. The value is methodological — <b>RmICARS belongs to the same family of clinician-rated scales as SARA, our own primary endpoint</b>, and a result of p=0.085 with the upper confidence bound only just crossing zero is the classic signature of <b>follow-up and sample size insufficient to overcome scale variance</b>. This is the fourth recent data point indicating that ataxia rating scales lack power to detect a signal within a six- to twelve-month window. <b>It does not transfer directly</b>, however: NEAT ran for only six months and six doses, and A-T is a rapidly progressing childhood disease whose scale behaviour differs from adult late-onset SCA.",
+      "links": [
+        {
+          "label": "Paper, The Lancet Child & Adolescent Health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42600624/"
+        },
+        {
+          "label": "Registry NCT06193200",
+          "url": "https://clinicaltrials.gov/study/NCT06193200"
+        },
+        {
+          "label": "Company topline release, 2026/01",
+          "url": "https://www.businesswire.com/news/home/20260129349326/en/Quince-Therapeutics-Announces-Topline-Results-from-Pivotal-Phase-3-NEAT-Clinical-Trial-of-eDSP-in-Ataxia-Telangiectasia"
+        }
+      ]
+    }
+  },
+  {
     "id": "nido-361-ph2-2026-03",
     "date": "2026-03-03",
     "dateDisplay": "2026/03",

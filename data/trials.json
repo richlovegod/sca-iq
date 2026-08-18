@@ -1,5 +1,21 @@
 [
   {
+    "nct": "NCT06193200",
+    "drug": "eDSP（EryDex）",
+    "mechanism": "包覆於<b>自體紅血球</b>內的地塞米松磷酸鈉<br>紅血球作為緩釋載體，使類固醇長時間低劑量釋放<br>設計目的為保留療效並避開長期全身性類固醇毒性",
+    "phase": "Ph3",
+    "status": "<b>已完成（2025/12/17）、主要終點未達標</b>。隨機雙盲安慰劑對照，n=105（eDSP 51／安慰劑 54），收案條件為年滿 6 歲、體重 ≥15 kg 之基因確診 A-T 病人，每 21–30 天靜脈給藥一次共六劑；2024/06/24 起執行於美國、英國、德國、義大利、西班牙、丹麥、挪威、波蘭、瑞士等 9 國 20 站點。主要指標為 <b>6–9 歲族群第 6 個月 RmICARS 自基線變化</b>，結果<b>最小平方均數差 −1.30（95% CI −2.77 至 0.18；p=0.085），未達統計顯著</b>；安全性良好（兩組不良事件率約 92–93%，無治療相關嚴重不良事件）。完整論文 2026/08/14 發表於 The Lancet Child &amp; Adolescent Health。登錄最後更新 2026-04-30",
+    "sponsor": "Quince Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06193200",
+    "en": {
+      "mechanism": "Dexamethasone sodium phosphate encapsulated in <b>autologous red blood cells</b><br>the erythrocyte acts as a slow-release carrier, giving prolonged low-dose steroid exposure<br>designed to retain efficacy while avoiding the toxicity of chronic systemic steroids",
+      "phase": "Ph3",
+      "status": "<b>Completed 2025/12/17; primary endpoint not met.</b> Randomised, double-blind, placebo-controlled, n=105 (51 eDSP, 54 placebo), enrolling genetically confirmed A-T patients aged 6 years or older weighing at least 15 kg, dosed intravenously every 21–30 days for six doses. It ran from 2024/06/24 across 20 sites in nine countries: the USA, UK, Germany, Italy, Spain, Denmark, Norway, Poland and Switzerland. The primary endpoint was <b>change from baseline in RmICARS at month 6 in participants aged 6–9</b>, which returned a <b>least-squares mean difference of −1.30 (95% CI −2.77 to 0.18; p=0.085) — not statistically significant</b>. Safety was favourable (adverse events in roughly 92–93% of both arms, no serious treatment-related events). The full paper appeared in The Lancet Child &amp; Adolescent Health on 2026/08/14. Registry last updated 2026-04-30",
+      "sponsor": "Quince Therapeutics"
+    }
+  },
+  {
     "nct": "NCT06397274",
     "drug": "Stemchymal®",
     "mechanism": "異體脂肪 MSC",

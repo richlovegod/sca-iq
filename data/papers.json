@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42600624",
+    "date": "2026-08-14",
+    "dateDisplay": "2026/08/14",
+    "title": "Neurological effects of encapsulated dexamethasone sodium phosphate in children aged 6-9 years with ataxia telangiectasia (NEAT): a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial",
+    "journal": "The Lancet Child &amp; Adolescent Health · Russo S 等（第一作者單位：UTHealth Houston McGovern 醫學院小兒神經科，美國德州休士頓；試驗涵蓋 9 國 20 站點）· 經費來源 Quince Therapeutics · doi:10.1016/S2352-4642(26)00125-2",
+    "tag": "共濟失調微血管擴張症 · Ph3 未達主要終點",
+    "note": "→ <b>Quince Therapeutics 的 eDSP（包覆於自體紅血球內的地塞米松磷酸鈉，原名 EryDex）三期 NEAT 試驗（NCT06193200）正式論文發表</b>，此前僅有 2026/01/29 的公司 topline 新聞稿。設計為<b>隨機、雙盲、安慰劑對照</b>，收案條件為<b>年滿 6 歲、體重 ≥15 kg、具基因確診的共濟失調微血管擴張症（A-T）</b>，<b>共 105 人隨機分派（eDSP 51 人、安慰劑 54 人）</b>，每 21–30 天靜脈給藥一次、共六劑，2024/06 至 2025/12 執行於 9 國 20 站點。<b>主要終點為 6–9 歲族群自基線至第 6 個月的 RmICARS（重新計分之修訂版國際合作共濟失調評分量表）變化</b>——該年齡層 ITT 中 eDSP 組 38/40（95%）、安慰劑組 41/43（95%）完成試驗。<b>結果未達統計顯著：最小平方均數差 −1.30（95% CI −2.77 至 0.18；p=0.085）</b>。安全性方面兩組不良事件發生率相近（約 92–93%），未見與治療相關的嚴重不良事件，作者結論為安全性良好但未顯示具臨床意義的神經學改善。⚠️ <b>A-T 與本社 SCA3／SCA6 為不同疾病</b>（A-T 為 ATM 基因缺陷所致的隱性遺傳性共濟失調合併免疫缺失與癌症易感性），Quince 與本社<b>無市場或適應症重疊</b>，此筆不構成直接競爭威脅。記錄理由有二：其一，A-T 屬本平台既已追蹤的<b>鄰近共濟失調圈層</b>（波士頓兒童醫院 Timothy Yu 的 atipeksen 客製化 ASO 試驗 NCT07215416 已在列），本平台此前完全未收錄 Quince 這家公司與其三期資產，屬清單外漏收；其二，<b>方法學意涵</b>——這是近期第四筆指向「共濟失調臨床量表在六個月至一年的窗口內難以偵測療效訊號」的證據，且 <b>RmICARS 與本社主要終點 SARA 同屬臨床評分量表家族</b>，p=0.085、CI 上緣僅越過零界一點點的結果型態，正是<b>樣本數與追蹤期不足以撐起量表變異</b>的典型樣貌。<b>但須注意本篇與本社情境的關鍵差異</b>：NEAT 僅六個月、六劑，療程遠短於本社試驗，且 A-T 為兒童期快速進展疾病，其進展速率與量表行為均不能直接外推至成人晚發的 SCA3／SCA6。",
+    "company": "quince",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42600624/",
+    "urlLabel": "論文 ↗ PubMed 42600624",
+    "en": {
+      "tag": "Ataxia-telangiectasia · Ph3 missed primary endpoint",
+      "journal": "The Lancet Child &amp; Adolescent Health · Russo S et al. (lead affiliation: Division of Child and Adolescent Neurology, UTHealth Houston McGovern Medical School, Texas, USA; trial run across 20 sites in nine countries) · funded by Quince Therapeutics · doi:10.1016/S2352-4642(26)00125-2",
+      "note": "→ <b>The full paper for NEAT (NCT06193200), the Phase 3 trial of Quince Therapeutics' eDSP — dexamethasone sodium phosphate encapsulated in autologous erythrocytes, formerly EryDex</b> — until now available only as the company's topline release of 2026/01/29. The design was <b>randomised, double-blind and placebo-controlled</b>, enrolling <b>children aged 6 years or older weighing at least 15 kg with a genetic diagnosis of ataxia-telangiectasia (A-T)</b>. <b>105 participants were randomised (51 eDSP, 54 placebo)</b> and dosed intravenously every 21–30 days for six doses, between June 2024 and December 2025 across 20 sites in nine countries. <b>The primary endpoint was the change from baseline to month 6 in RmICARS (Rescored Modified International Cooperative Ataxia Rating Scale) among participants aged 6–9</b>; in that age band 38 of 40 (95%) on eDSP and 41 of 43 (95%) on placebo completed the study. <b>It was not met: least-squares mean difference −1.30 (95% CI −2.77 to 0.18; p=0.085)</b>. Adverse events occurred at a similar rate in both arms (roughly 92–93%) with no serious treatment-related events, and the authors conclude that the safety profile was favourable but no clinically meaningful neurological benefit was shown. ⚠️ <b>A-T is a different disease from our own SCA3/SCA6</b> — a recessive ataxia caused by ATM deficiency, accompanied by immunodeficiency and cancer predisposition — and Quince <b>overlaps with us in neither market nor indication</b>, so this is not a direct competitive threat. It is recorded for two reasons. First, A-T sits in the <b>adjacent ataxia ring the platform already tracks</b> (Timothy Yu's bespoke ASO trial at Boston Children's Hospital, NCT07215416, is already listed), yet Quince and its Phase 3 asset had never been captured at all — an off-list omission. Second, the <b>methodological reading</b>: this is the fourth recent data point suggesting that clinical ataxia rating scales struggle to detect a treatment signal within a six- to twelve-month window, and <b>RmICARS belongs to the same family of clinician-rated scales as SARA, our own primary endpoint</b>. A result of p=0.085 with the upper confidence bound only just crossing zero is the classic shape of <b>a sample size and follow-up period too short to overcome scale variance</b>. <b>Two differences from our own setting matter</b>, however: NEAT ran for only six months and six doses, far shorter than our trials, and A-T is a rapidly progressing childhood disease whose progression rate and scale behaviour cannot be extrapolated to adult late-onset SCA3/SCA6.",
+      "urlLabel": "Paper ↗ PubMed 42600624"
+    }
+  },
+  {
     "id": "pubmed:42603514",
     "date": "2026-08-15",
     "dateDisplay": "2026/08/15",

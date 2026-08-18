@@ -969,5 +969,54 @@
         }
       ]
     }
+  },
+  {
+    "id": "quince",
+    "ring": "ataxia",
+    "threat": "low",
+    "company": "Quince Therapeutics（美國）",
+    "asset": "eDSP（EryDex）",
+    "mechanism": "地塞米松磷酸鈉<b>包覆於自體紅血球</b><br>紅血球作為緩釋載體，長時間低劑量釋放類固醇<br>目的為保留療效並避開慢性全身性類固醇毒性",
+    "indication": "共濟失調微血管擴張症（A-T）",
+    "phase": "Ph3 已完成、未達主要終點",
+    "status": "<b>2026/08/14 於 The Lancet Child &amp; Adolescent Health 發表 NEAT 三期全文（NCT06193200）</b>：n=105、9 國 20 站點、每 21–30 天靜脈給藥共六劑，<b>主要終點（6–9 歲族群第 6 個月 RmICARS 變化）未達顯著——最小平方均數差 −1.30（95% CI −2.77 至 0.18；p=0.085）</b>；安全性良好、無治療相關嚴重不良事件。公司 2026/01/29 已先發布 topline。<b style=\"color:#ffce7a\">與本社無適應症或市場重疊</b>（A-T 為 ATM 缺陷之隱性共濟失調），列入係因屬本平台既已追蹤的鄰近共濟失調圈層；<b>其意義在終點方法學</b>——RmICARS 與 SARA 同屬臨床醫師評分量表，此結果為近期第四筆指向「共濟失調量表在六至十二個月窗口偵測力不足」的證據。",
+    "threatLabel": "低(A-T)",
+    "links": [
+      {
+        "label": "論文 ↗ PubMed 42600624",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42600624/"
+      },
+      {
+        "label": "試驗 ↗ NCT06193200",
+        "url": "https://clinicaltrials.gov/study/NCT06193200"
+      },
+      {
+        "label": "Quince 官網 ↗",
+        "url": "https://www.quincetx.com/"
+      }
+    ],
+    "en": {
+      "company": "Quince Therapeutics (USA)",
+      "asset": "eDSP (EryDex)",
+      "mechanism": "Dexamethasone sodium phosphate <b>encapsulated in autologous red blood cells</b><br>the erythrocyte acts as a slow-release carrier giving prolonged low-dose steroid exposure<br>intended to retain efficacy while avoiding chronic systemic steroid toxicity",
+      "indication": "Ataxia-telangiectasia (A-T)",
+      "phase": "Ph3 completed, primary endpoint missed",
+      "status": "<b>The full NEAT Phase 3 paper (NCT06193200) appeared in The Lancet Child &amp; Adolescent Health on 2026/08/14</b>: n=105 across 20 sites in nine countries, dosed intravenously every 21–30 days for six doses. <b>The primary endpoint — change in RmICARS at month 6 among participants aged 6–9 — was not met, at a least-squares mean difference of −1.30 (95% CI −2.77 to 0.18; p=0.085)</b>, with a favourable safety profile and no serious treatment-related events. The company had released topline results on 2026/01/29. <b style=\"color:#ffce7a\">There is no overlap with our own indication or market</b> (A-T is a recessive ataxia caused by ATM deficiency); it is listed because it falls in the adjacent ataxia ring the platform already tracks. <b>Its significance is in endpoint methodology</b>: RmICARS is, like SARA, a clinician-rated scale, and this result is the fourth recent indication that ataxia scales lack power to detect a signal within a six- to twelve-month window.",
+      "threatLabel": "Low (A-T)",
+      "links": [
+        {
+          "label": "Paper ↗ PubMed 42600624",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42600624/"
+        },
+        {
+          "label": "Trial ↗ NCT06193200",
+          "url": "https://clinicaltrials.gov/study/NCT06193200"
+        },
+        {
+          "label": "Quince website ↗",
+          "url": "https://www.quincetx.com/"
+        }
+      ]
+    }
   }
 ]
