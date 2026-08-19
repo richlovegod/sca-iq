@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-19",
+    "dateDisplay": "2026/08/19",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 <b>3 則科學文獻</b>，均為機轉與臨床前層次、無新競品或新試驗。其中兩篇指向同一個實務問題：<b>斑馬魚 ataxin-1 家族基因剔除模型</b>（Human Molecular Genetics，貝勒醫學院）顯示完全缺失 atxn1a／atxn1b／atxn1l 會造成存活率下降、運動缺損與神經發育／免疫相關轉錄改變；同期新收錄的<b>明尼蘇達大學綜述</b>（Neural Regeneration Research）則整理 ATXN1「功能增益 vs 功能缺失」的雙面性，指出缺乏 ATXN1 的小鼠認知嚴重受損。兩篇合起來替 <b>SCA1 核酸療法的治療窗問題</b>（降低 ATXN1 要壓多深、壓在哪些組織）補上證據，屬本社細胞治療路線之外的競品風險背景。第三篇為 <b>Human Gene Therapy 的 Friedreich's 共濟失調基因療法臨床前研究</b>（里昂 Puccio 團隊），以帶內源調控元件的 mini-frataxin 構築（miniFXN7）＋AAV-PHP.eB 全身給藥，在 Pvalb-cKO 小鼠達成運動協調與本體感覺改善——點出 FA 基因療法賽道共通的「FXN 表現量必須控制在生理區間」風險，<b>與已在臨床的 Lexeo LX2006、Solid SGT-212 並非同一構築</b>。<b>當日掃描結果</b>：ClinicalTrials.gov 五組適應症查詢（SCA／Friedreich／SBMA／polyglutamine／episodic ataxia-CACNA1A）近 7 天內無平台未收錄之療法型新試驗（新出現者僅小腦深部腦刺激 NCT07752095 與經顱時間干涉刺激 NCT07743866，依收錄準則排除神經調節研究）；競品新聞與法規面近 7 天無新事實。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added <b>3 scientific papers</b>, all at the mechanistic or preclinical level; no new competitors and no new trials. Two of them converge on the same practical question: <b>zebrafish knockouts of the ataxin-1 family genes</b> (Human Molecular Genetics, Baylor College of Medicine) show that complete loss of atxn1a/atxn1b/atxn1l reduces survival and causes locomotor deficits plus neurodevelopmental and immune-related transcriptional changes, while a <b>University of Minnesota review</b> indexed the same week (Neural Regeneration Research) sets out the gain-of-function versus loss-of-function duality of ATXN1 and notes that mice lacking ATXN1 are severely cognitively impaired. Together they supply evidence on the <b>therapeutic-window question for SCA1 nucleic-acid therapies</b> — how deeply, and in which tissues, ATXN1 can be lowered — which is background on competitor risk rather than anything bearing on our own cell-therapy route. The third is a <b>Friedreich ataxia gene-therapy preclinical study in Human Gene Therapy</b> (Puccio group, Lyon) using a mini-frataxin construct with an endogenous regulatory element (miniFXN7) delivered systemically by AAV-PHP.eB, achieving improved motor coordination and proprioception in Pvalb-cKO mice — highlighting the dose-control risk shared across the FA gene-therapy lane, though the construct is <b>not the same</b> as the clinical-stage Lexeo LX2006 or Solid SGT-212. <b>Scan coverage today</b>: the five ClinicalTrials.gov condition queries (SCA / Friedreich / SBMA / polyglutamine / episodic ataxia-CACNA1A) returned no therapeutic trials from the last 7 days that the platform had not already recorded — the only new entries were cerebellar deep brain stimulation (NCT07752095) and transcranial temporal interference stimulation (NCT07743866), both excluded as neuromodulation under the inclusion criteria. No new verifiable competitor news or regulatory events in the last 7 days.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-18",
     "dateDisplay": "2026/08/18",
     "tag": "每日掃描",

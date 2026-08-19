@@ -1,5 +1,62 @@
 [
   {
+    "id": "pubmed:42611733",
+    "date": "2026-08-10",
+    "dateDisplay": "2026/08/10",
+    "title": "Zebrafish knockout models of atxn1a, atxn1b, and atxn1l reveal distinct and shared phenotypic and transcriptomic alterations",
+    "journal": "Human Molecular Genetics（線上先行）· Karim A, Keerthisinghe P, Sarasamma S 等，通訊作者 Orengo JP（貝勒醫學院神經科，美國德州休士頓）· doi:10.1093/hmg/ddag078",
+    "tag": "SCA1 · ATXN1 正常功能 · 動物模型",
+    "note": "→ 首度以 CRISPR/Cas9 建立<b>三個 ataxin-1 家族基因（atxn1a、atxn1b、atxn1l）的斑馬魚基因剔除模型</b>並做行為與轉錄體分析。三種剔除魚都出現<b>早期存活率下降與幼魚輕微生長遲滯</b>；行為上 atxn1a 剔除魚有<b>可重現的光照依賴性運動缺損</b>，atxn1b 與 atxn1l 剔除魚則為<b>泛化的活動量下降</b>；成魚階段以 atxn1a 剔除的表現型最早出現、程度也最重。受精後 5 天的 RNA-seq 顯示轉錄改變集中在<b>神經分化、微膠細胞／免疫細胞遷移與免疫訊息傳遞</b>，共表現網絡分析另找到一個與 atxn1a 剔除高度相關的<b>光轉導模組</b>。⚠️ <b>這是「失去 ATXN1 正常功能」的模型，不是 polyQ 擴增的致病模型</b>，也未測試任何療法。記錄理由：SCA1 的核酸類競品本質上都是<b>把 ATXN1 的表現量往下壓</b>（Vico VO659 以 CAG 重複序列為標的、涵蓋 ATXN1 與 ATXN3），因此「壓多少會傷到正常功能」是這條路線固有的<b>治療窗問題</b>；本篇指出完全缺失 ataxin-1 家族基因即造成存活、運動與神經發育缺陷，為該問題補上動物層級證據。對本社細胞治療路線<b>無直接影響</b>（不改變標的基因表現量），列為評估核酸競品風險的背景資料。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42611733/",
+    "urlLabel": "論文 ↗ PubMed 42611733",
+    "en": {
+      "tag": "SCA1 · normal ATXN1 function · animal model",
+      "journal": "Human Molecular Genetics (online ahead of print) · Karim A, Keerthisinghe P, Sarasamma S et al., corresponding author Orengo JP (Department of Neurology, Baylor College of Medicine, Houston, Texas, USA) · doi:10.1093/hmg/ddag078",
+      "note": "→ The first CRISPR/Cas9 <b>zebrafish knockouts of all three ataxin-1 family genes (atxn1a, atxn1b, atxn1l)</b>, characterised behaviourally and transcriptomically. All three knockouts showed <b>reduced early survival and mild larval growth deficits</b>; behaviourally, atxn1a mutants displayed a <b>reproducible light-dependent locomotor deficit</b> while atxn1b and atxn1l mutants showed <b>generalised hypoactivity</b>. In adults the atxn1a knockout produced the earliest and most pronounced phenotype. RNA-seq at 5 days post-fertilisation found transcriptional changes concentrated in <b>neural differentiation, microglial/immune cell migration and immune signalling</b>, and co-expression network analysis identified a <b>phototransduction-enriched module</b> strongly correlated with atxn1a knockout status. ⚠️ <b>This models loss of normal ATXN1 function, not polyQ-expansion pathogenesis</b>, and no therapy was tested. Why it is recorded: the nucleic-acid competition in SCA1 works by <b>lowering ATXN1 expression</b> (Vico's VO659 targets the CAG repeat itself, covering ATXN1 and ATXN3), so how far expression can be suppressed before normal function suffers is an intrinsic <b>therapeutic-window question</b> for that route; this paper supplies animal-level evidence that complete loss of the ataxin-1 family impairs survival, locomotion and neurodevelopment. It has <b>no direct bearing on our own cell-therapy route</b>, which does not alter target-gene expression, and is filed as background for assessing risk in the nucleic-acid competition.",
+      "urlLabel": "Paper ↗ PubMed 42611733"
+    }
+  },
+  {
+    "id": "pubmed:42572232",
+    "date": "2026-08-09",
+    "dateDisplay": "2026/08/09",
+    "title": "Physiologically Regulated Frataxin Gene Replacement Restores Neurological Function in a Mouse Model of Friedreich Ataxia",
+    "journal": "Human Gene Therapy（線上先行）· Pilotto F, Dall'Agnol L, Reutenauer L 等，通訊作者 Puccio H（里昂第一大學 Institut NeuroMyoGène／CNRS UMR 5261／Inserm U1315，法國里昂）· doi:10.1177/10430342261474315",
+    "tag": "Friedreich's 共濟失調 · 基因療法 · 臨床前",
+    "note": "→ Friedreich's 共濟失調（FA）基因療法有個已知的兩難：<b>frataxin（FXN）補太少無效、補太多會造成粒線體功能失常</b>。本篇的作法是設計一個帶<b>內源調控元件的人類 mini-frataxin 構築（miniFXN7）</b>，讓表現量自行維持在生理範圍，並以 <b>AAV-PHP.eB 載體全身性給藥</b>於 Pvalb-cKO 小鼠模型。結果：神經元廣泛轉導、FXN 表現回到接近生理範圍；治療組<b>運動協調與本體感覺持續改善，含 H 反射正常化</b>；細胞層次琥珀酸去氫酶（一個含鐵硫簇的粒線體酵素）活性恢復、粒線體形態部分正常化，小腦神經元完整性獲保留且星狀膠細胞增生減少。⚠️ <b>這是小鼠臨床前研究，未進入人體</b>，且與目前已在臨床的 FA 基因療法（Lexeo LX2006／NCT07721025、Solid Biosciences SGT-212／NCT07180355）<b>並非同一構築</b>，不代表那兩支的數據。記錄理由：FA 基因療法是本平台追蹤的<b>鄰近共濟失調圈層</b>中最擁擠的一條賽道，而本篇點名的「表現量必須被控制在生理區間」是該賽道<b>共通的技術風險</b>——屬背景情報，不是新競品。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42572232/",
+    "urlLabel": "論文 ↗ PubMed 42572232",
+    "en": {
+      "tag": "Friedreich ataxia · gene therapy · preclinical",
+      "journal": "Human Gene Therapy (online ahead of print) · Pilotto F, Dall'Agnol L, Reutenauer L et al., corresponding author Puccio H (Université Lyon 1, Institut NeuroMyoGène / CNRS UMR 5261 / Inserm U1315, Lyon, France) · doi:10.1177/10430342261474315",
+      "note": "→ Gene therapy for Friedreich ataxia (FA) faces a known dilemma: <b>too little frataxin (FXN) is ineffective, too much causes mitochondrial dysfunction</b>. This study tested a <b>human mini-frataxin construct (miniFXN7) carrying an endogenous regulatory element</b> so that expression self-limits to a physiological range, delivered systemically by an <b>AAV-PHP.eB vector</b> in the Pvalb-cKO mouse model. Results: widespread neuronal transduction with FXN restored toward a near-physiological range; treated mice showed <b>sustained improvement in motor coordination and proprioception, including normalisation of H-reflex responses</b>; at the cellular level succinate dehydrogenase (an Fe-S cluster mitochondrial enzyme) activity recovered, mitochondrial morphology partially normalised, cerebellar neuronal integrity was preserved and astrogliosis was reduced. ⚠️ <b>This is a mouse preclinical study with no human data</b>, and the construct is <b>not the same</b> as the FA gene therapies already in the clinic (Lexeo LX2006 / NCT07721025, Solid Biosciences SGT-212 / NCT07180355) — it does not speak to their results. Why it is recorded: FA gene therapy is the most crowded lane in the <b>adjacent-ataxia ring</b> this platform tracks, and the dose-control problem this paper addresses is a <b>technical risk shared across that lane</b>. Background intelligence, not a new competitor.",
+      "urlLabel": "Paper ↗ PubMed 42572232"
+    }
+  },
+  {
+    "id": "pubmed:42608759",
+    "date": "2026-08-01",
+    "dateDisplay": "2026/08/01",
+    "title": "Relationship of polyglutamine expansion and loss of ataxin-1 function in neurological diseases",
+    "journal": "Neural Regeneration Research · Talukdar G, Cvetanovic M（明尼蘇達大學神經科學系暨轉譯神經科學研究所，美國明尼阿波利斯）· doi:10.4103/NRR.NRR-D-25-01950 · 2026/08 中旬新收錄於 PubMed",
+    "tag": "SCA1 · 功能增益 vs 功能缺失 · 綜述",
+    "note": "→ 綜述，主題是<b>ATXN1 的 CAG 擴增（功能增益）與 ATXN1 表現流失（功能缺失）如何各自造成腦部功能失常</b>。要點：SCA1 小鼠模型顯示 CAG 擴增在小腦主要造成<b>致病性的 ATXN1 功能增益</b>；反之<b>缺乏 ATXN1 的小鼠在認知測驗嚴重受損、並有皮質功能異常</b>。文中並整理 ATXN1 與智力、阿茲海默症、肌萎縮側索硬化症、思覺失調症、多發性硬化症的關聯（有些是與 CAG 擴增相關、有些則與 ATXN1 表現流失相關），以及 ATXN1 在<b>膠細胞</b>中的角色。⚠️ <b>綜述、不含新實驗數據。</b> 記錄理由：與同期收錄的斑馬魚剔除研究（PubMed 42611733）指向同一個實務問題——<b>降低 ATXN1 是 SCA1 核酸療法的共同機制，但 ATXN1 在小腦以外（尤其皮質與膠細胞）另有正常功能</b>，所以壓抑幅度與組織分布是這條路線的核心設計取捨。本篇與本社無直接競爭關係。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42608759/",
+    "urlLabel": "論文 ↗ PubMed 42608759",
+    "en": {
+      "tag": "SCA1 · gain- vs loss-of-function · review",
+      "journal": "Neural Regeneration Research · Talukdar G, Cvetanovic M (Department of Neuroscience and Institute for Translational Neuroscience, University of Minnesota, Minneapolis, USA) · doi:10.4103/NRR.NRR-D-25-01950 · newly indexed in PubMed mid-August 2026",
+      "note": "→ A review of how <b>CAG expansion in ATXN1 (gain of function) and loss of ATXN1 expression (loss of function) each contribute to brain dysfunction</b>. Key points: SCA1 mouse models indicate CAG expansion predominantly causes a <b>pathogenic ATXN1 gain of function in the cerebellum</b>; conversely, <b>mice lacking ATXN1 are severely impaired on cognitive tests and show cortical abnormalities</b>. The authors also survey associations between ATXN1 and intelligence, Alzheimer's disease, amyotrophic lateral sclerosis, schizophrenia and multiple sclerosis — some tied to CAG expansion, others to loss of ATXN1 expression — and the emerging role of ATXN1 in glial cells. ⚠️ <b>A review with no new experimental data.</b> Why it is recorded: together with the zebrafish knockout study indexed the same week (PubMed 42611733) it points at one practical question — <b>lowering ATXN1 is the shared mechanism of SCA1 nucleic-acid therapies, yet ATXN1 has normal functions outside the cerebellum, particularly in cortex and glia</b> — making depth and tissue distribution of knockdown a central design trade-off for that route. No direct competitive bearing on our own programme.",
+      "urlLabel": "Paper ↗ PubMed 42608759"
+    }
+  },
+  {
     "id": "pubmed:42600624",
     "date": "2026-08-14",
     "dateDisplay": "2026/08/14",
