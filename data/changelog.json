@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-20",
+    "dateDisplay": "2026/08/20",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "新增 <b>2 則科學文獻</b>，兩篇都是<b>日本的臨床流行病學／基因診斷</b>資料，不是療法進展。① <b>橫濱市大＋北海道大學的 SCAR32 病例系列</b>（Journal of Human Genetics）：從 411 名重複序列擴增檢測陰性的共濟失調病人中找出 4 名 PRDX3 雙股致病變異患者，發病 9–30 歲、以單純小腦症候群為主，MRI 全數可見小腦萎縮與齒狀核 T2 高訊號；p.Arg207* 在東亞頻率偏高、佔該未確診世代 0.97%。② <b>北海道大學的北海道顯性 SCA 亞型變遷</b>（Journal of the Neurological Sciences，Letter）：以日本難病公費給付資料觀察到<b>多系統受侵型占比持續下降、無法歸類的「未確定」病例持續增加</b>——該篇無公開摘要，故本平台只記錄標題明示的方向、<b>不引用任何未經查證的數字</b>。兩篇的共同實務意涵在收案端而非療法端：日本是本社 Stemchymal® 持有孤兒再生醫療產品資格的市場，而「重複序列陰性者仍有約 1% 可歸因於單一隱性基因」與「未確定病例增加」都指向 <b>polyQ 適應症療法在基因確診環節的篩檢負擔與篩落率</b>。<b>另更新 1 筆試驗登錄</b>：Vico <b>VO659（NCT05822908）</b>登錄於 2026-08-19 更新、狀態查核日 2026-08，經逐站點核對，14 個站點<b>仍全在歐洲與以色列</b>（荷蘭 2 站已停收），<b>仍無美國站點</b>，收案目標 68 人、主要完成日 2028-04。<b>當日掃描結果</b>：ClinicalTrials.gov 五組適應症查詢（SCA／Friedreich／SBMA／polyglutamine／episodic ataxia-CACNA1A）近 7 天內無平台未收錄之療法型新試驗；競品新聞與法規面近 7 天亦無新事實（Biohaven troriluzole 仍停在 2025-11-04 的 CRL，無新進展）。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "Added <b>2 scientific papers</b>, both <b>Japanese clinical-epidemiology / genetic-diagnosis</b> data rather than therapeutic progress. (1) A <b>SCAR32 case series from Yokohama City University with Hokkaido University</b> (Journal of Human Genetics): four patients with biallelic PRDX3 variants identified among 411 ataxia patients negative for repeat expansions, onset at 9–30 years with a predominantly pure cerebellar phenotype, and cerebellar atrophy plus dentate T2 hyperintensity on MRI in all four; p.Arg207* is relatively frequent in East Asians and accounted for 0.97% of that undiagnosed cohort. (2) <b>Shifting subtype composition of autosomal dominant SCA in Hokkaido</b> (Journal of the Neurological Sciences, Letter): using Japan's intractable-disease insurance data, the authors report a <b>continuing decline in multisystemic subtypes and a continuing rise in unassignable 'unidentified' cases</b> — the Letter has no public abstract, so this platform records only the direction its title asserts and <b>cites no unverified figures</b>. The shared practical implication is on the enrolment side, not the therapy side: Japan is a market where our own Stemchymal® holds orphan regenerative medicine product designation, and both '~1% of repeat-negative patients attributable to a single recessive gene' and 'rising unidentified cases' point to the <b>screening burden and screen-failure rate at the genetic-confirmation step for polyQ-indicated therapies</b>. <b>One trial record also updated</b>: Vico's <b>VO659 (NCT05822908)</b> was refreshed in the registry on 2026-08-19 with a status-verified date of 2026-08; site-by-site review confirms all 14 sites <b>remain in Europe and Israel</b> (the 2 Dutch sites are active-not-recruiting) with <b>still no US sites</b>, target enrolment 68 and primary completion April 2028. <b>Scan coverage today</b>: the five ClinicalTrials.gov condition queries (SCA / Friedreich / SBMA / polyglutamine / episodic ataxia-CACNA1A) returned no therapeutic trials from the last 7 days not already on the platform; no new verifiable competitor news or regulatory events either (Biohaven's troriluzole remains at the 2025-11-04 CRL with no further development).",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-19",
     "dateDisplay": "2026/08/19",
     "tag": "每日掃描",

@@ -148,14 +148,14 @@
     "drug": "VO659",
     "mechanism": "ASO",
     "phase": "Ph1/2a",
-    "status": "收案中（歐洲）",
+    "status": "收案中｜<b>登錄於 2026-08-19 更新</b>：14 個站點仍全在<b>歐洲與以色列</b>（丹麥、法國、德國、英國、以色列收案中；荷蘭 2 站已停收），<b>無美國站點</b>；預計收案 68 人、主要完成日 2028-04",
     "sponsor": "Vico Therapeutics",
     "us": false,
     "url": "https://clinicaltrials.gov/study/NCT05822908",
     "en": {
       "mechanism": "ASO",
       "phase": "Ph1/2a",
-      "status": "Enrolling (Europe)",
+      "status": "Recruiting | <b>registry updated 2026-08-19</b>: all 14 sites remain in <b>Europe and Israel</b> (recruiting in Denmark, France, Germany, the UK and Israel; the 2 Dutch sites are active-not-recruiting), <b>no US sites</b>; target enrolment 68, primary completion April 2028",
       "sponsor": "Vico Therapeutics"
     }
   },

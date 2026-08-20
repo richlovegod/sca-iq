@@ -1,5 +1,43 @@
 [
   {
+    "id": "pubmed:42608543",
+    "date": "2026-08-18",
+    "dateDisplay": "2026/08/18",
+    "title": "Clinical features of four unrelated Japanese patients with autosomal recessive spinocerebellar ataxia type 32",
+    "journal": "Journal of Human Genetics（線上先行）· Fukuda H、Doi H 等（並列第一作者），通訊作者 Doi H 與 Tanaka F（橫濱市立大學神經內科／人類遺傳學，日本橫濱），合作單位含北海道大學神經內科 · doi:10.1038/s10038-026-01504-8",
+    "tag": "SCAR32 · PRDX3 · 隱性遺傳 · 日本病例系列",
+    "note": "→ 針對<b>隱性遺傳型脊髓小腦萎縮症第 32 型（SCAR32）</b>的日本病例系列。SCAR32 的致病基因 <b>PRDX3</b> 編碼一個位於粒線體的抗氧化酵素，需雙股等位基因致病變異才發病。作者從 <b>411 名重複序列擴增檢測陰性的共濟失調病人</b>中找出 <b>4 名彼此無血緣的 SCAR32 患者</b>：發病年齡 <b>9–30 歲</b>，表現以<b>單純小腦症候群</b>為主（1 例合併自體免疫疾病）。影像上 4 例全部有<b>小腦萎縮與齒狀核 T2 高訊號</b>，其中 3 例另有<b>小腦皮質 T2 高訊號</b>，作者認為後者可能是 SCAR32 的代表性特徵。基因型為 1 例同型合子、3 例複合異型合子的 PRDX3 無義變異：<b>p.Arg207*</b> 見於全部 4 例、<b>p.Arg170*</b> 見於 2 例，另有 1 例帶新發現的 <b>p.Gln50*</b>。由於 p.Arg207* 在<b>東亞族群的等位基因頻率相對偏高</b>，且在此未確診世代中佔 <b>0.97%</b>，作者主張 SCAR32 是日本早發型隱性小腦共濟失調的重要成因之一。⚠️ <b>這是 4 例的描述性病例系列，未測試任何療法</b>，SCAR32 也<b>不是 polyQ 型 SCA</b>（本社 Stemchymal® 的適應症為 polyQ 型），與競品標的（ATXN1／2／3）亦不重疊。記錄理由：本篇量化了「重複序列陰性的共濟失調病人裡還藏著什麼」——在 411 人的未確診世代中約 1% 可歸因於單一隱性基因，這對<b>臨床試驗的收案篩檢與基因確診流程</b>是實用資訊；同時 p.Arg207* 的東亞高頻率提示<b>台灣、日本收案時的鑑別診斷負擔</b>。屬背景情報，非競品動態。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42608543/",
+    "urlLabel": "論文 ↗ PubMed 42608543",
+    "en": {
+      "tag": "SCAR32 · PRDX3 · recessive inheritance · Japanese case series",
+      "journal": "Journal of Human Genetics (online ahead of print) · Fukuda H, Doi H et al. (co-first authors), corresponding authors Doi H and Tanaka F (Department of Neurology and Stroke Medicine / Department of Human Genetics, Yokohama City University, Yokohama, Japan), with Hokkaido University Department of Neurology among the collaborating centres · doi:10.1038/s10038-026-01504-8",
+      "note": "→ A Japanese case series on <b>autosomal recessive spinocerebellar ataxia type 32 (SCAR32)</b>. The causative gene <b>PRDX3</b> encodes a mitochondrially localised antioxidant enzyme, and biallelic pathogenic variants are required for disease. From <b>411 ataxia patients who tested negative for repeat-expansion disorders</b>, the authors identified <b>four unrelated SCAR32 patients</b>: age at onset <b>9–30 years</b>, with a <b>predominantly pure cerebellar phenotype</b> (one patient had autoimmune comorbidities). All four showed <b>cerebellar atrophy and T2 hyperintensity in the dentate nuclei</b> on MRI, and three also had <b>cerebellar cortical T2 hyperintensity</b>, which the authors propose as a potentially representative feature of SCAR32. Genotypes comprised one homozygote and three compound heterozygotes for PRDX3 nonsense variants: <b>p.Arg207*</b> in all four, <b>p.Arg170*</b> in two, and a novel <b>p.Gln50*</b> in one. Given the <b>relatively high allele frequency of p.Arg207* in East Asians</b> and its <b>0.97% prevalence</b> in this undiagnosed cohort, the authors argue SCAR32 is an important cause of early-onset recessive cerebellar ataxia in Japan. ⚠️ <b>This is a descriptive four-patient series with no therapy tested</b>, and SCAR32 is <b>not a polyQ SCA</b> (the indication for our own Stemchymal®), nor does it overlap the competitor targets (ATXN1/2/3). Why it is recorded: the paper quantifies what remains hidden among repeat-negative ataxia patients — roughly 1% of a 411-patient undiagnosed cohort attributable to a single recessive gene — which is practical information for <b>trial screening and genetic-confirmation workflows</b>; the East Asian frequency of p.Arg207* also flags the <b>differential-diagnosis burden when enrolling in Taiwan and Japan</b>. Background intelligence, not a competitor development.",
+      "urlLabel": "Paper ↗ PubMed 42608543"
+    }
+  },
+  {
+    "id": "pubmed:42612385",
+    "date": "2026-08-14",
+    "dateDisplay": "2026/08/14",
+    "title": "Continuing decline of multisystemic subtypes and increasing unidentified cases in autosomal dominant spinocerebellar ataxia under health insurance coverage in Hokkaido",
+    "journal": "Journal of the Neurological Sciences（線上先行，通訊形式 Letter）· Mizushima K、Shirai S 等，通訊作者 Yabe I（北海道大學神經內科／臨床遺傳部門，日本札幌）· doi:10.1016/j.jns.2026.126146",
+    "tag": "SCA 流行病學 · 日本北海道 · 亞型分布",
+    "note": "→ 北海道大學以<b>日本公費醫療（難病）給付資料</b>為基礎，追蹤北海道地區<b>顯性遺傳型 SCA 的亞型組成隨時間的變化</b>。依標題所述的兩項發現：<b>多系統受侵型亞型（multisystemic subtypes）的占比持續下降</b>，而<b>無法歸類到已知亞型的「未確定」病例則持續增加</b>。⚠️ <b>本篇為 Letter 形式、PubMed 上無公開摘要</b>，因此本平台<b>不列出任何病人數、百分比或年份區間</b>——上述僅為標題明示的方向性結論，具體數字須查原文，切勿引用未經查證的數值。記錄理由：日本是本社 Stemchymal® 取得<b>孤兒再生醫療產品資格</b>、且臨床開發正在進行的關鍵市場，因此「日本 SCA 病人母體的亞型組成如何變化」直接關係到<b>可及病人數的估算與收案可行性</b>。特別值得注意的是「未確定病例增加」這個方向：若愈來愈多病人無法被歸類到已知的 polyQ 亞型，對<b>以 polyQ 型 SCA 為適應症</b>的療法（含本社與 Vico、Arrowhead 等核酸競品）而言，意味著<b>基因確診環節的篩檢成本與篩落率可能上升</b>。屬市場與收案面的背景情報，非療法或競品動態。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42612385/",
+    "urlLabel": "論文 ↗ PubMed 42612385",
+    "en": {
+      "tag": "SCA epidemiology · Hokkaido, Japan · subtype distribution",
+      "journal": "Journal of the Neurological Sciences (online ahead of print, published as a Letter) · Mizushima K, Shirai S et al., corresponding author Yabe I (Department of Neurology / Division of Clinical Genetics, Hokkaido University, Sapporo, Japan) · doi:10.1016/j.jns.2026.126146",
+      "note": "→ Hokkaido University tracked <b>how the subtype composition of autosomal dominant SCA in Hokkaido has shifted over time</b>, using <b>Japan's public intractable-disease insurance coverage data</b>. Per the two findings stated in the title: the share of <b>multisystemic subtypes continues to decline</b>, while <b>cases that cannot be assigned to a known subtype continue to increase</b>. ⚠️ <b>This is a Letter with no public abstract on PubMed</b>, so this platform <b>quotes no patient counts, percentages or year ranges</b> — the above is only the directional conclusion the title asserts, and the actual figures must be read in the original. Do not cite unverified numbers. Why it is recorded: Japan is a key market where our own Stemchymal® holds <b>orphan regenerative medicine product designation</b> and clinical development is ongoing, so how the subtype mix of the Japanese SCA patient pool is changing bears directly on <b>addressable patient-number estimates and enrolment feasibility</b>. The 'rising unidentified cases' direction is especially worth noting: if a growing share of patients cannot be assigned to a known polyQ subtype, therapies indicated for <b>polyQ SCA</b> — ours as well as the nucleic-acid competitors Vico and Arrowhead — may face <b>higher screening cost and screen-failure rates at the genetic-confirmation step</b>. Market- and enrolment-side background intelligence, not a therapy or competitor development.",
+      "urlLabel": "Paper ↗ PubMed 42612385"
+    }
+  },
+  {
     "id": "pubmed:42611733",
     "date": "2026-08-10",
     "dateDisplay": "2026/08/10",
