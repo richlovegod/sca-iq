@@ -249,7 +249,7 @@
     "mechanism": "小分子<br>口服、胺基酸衍生物",
     "indication": "CACNA1A 相關疾病<br><b>含 SCA6</b>、EA2、FHM1",
     "phase": "Ph3",
-    "status": "IB1001-304 樞紐試驗：<b>2026/05 獲美/英/歐盟/瑞士監管放行</b>，12 個跨國站點啟動中；12 週隨機雙盲安慰劑對照交叉，n≈60、4 歲以上，<b>主要指標 SARA</b>，估 2026/09 起始。同成分已以 Aqneursa 於 NPC 上市。<b style=\"color:#ffce7a\">與本社日本申請的 SCA6 適應症正面重疊</b>。",
+    "status": "IB1001-304 樞紐試驗：<b>2026/08/17 實際起始、已轉為收案中</b>（登錄 2026/08/20 更新，較原估 2026/09 提前），10 站中 7 站收案中（美 1、歐 6）；公司 2026/08/19 新聞稿稱預期<b>超額收案並於 2026/10 完成收案</b>。12 週隨機雙盲安慰劑對照交叉，n≈60、4 歲以上，<b>主要指標 SARA</b>。同成分已以 Aqneursa 於 NPC 上市。<b style=\"color:#ffce7a\">與本社日本申請的 SCA6 適應症正面重疊</b>。",
     "threatLabel": "中(SCA6)",
     "links": [
       {
@@ -259,13 +259,17 @@
       {
         "label": "監管放行 ↗ 2026/05",
         "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
+      },
+      {
+        "label": "收案中新聞稿 ↗ 2026/08/19",
+        "url": "https://www.biospace.com/press-releases/intrabios-pivotal-phase-iii-trial-in-cacna1a-related-disorders-is-enrolling-and-is-expected-to-be-over-enrolled-and-complete-recruitment-in-october"
       }
     ],
     "en": {
       "mechanism": "Small molecule<br>oral amino-acid derivative",
       "indication": "CACNA1A-related disorders<br><b>incl. SCA6</b>, EA2, FHM1",
       "phase": "Ph3",
-      "status": "IB1001-304 pivotal trial: <b>regulatory authorisation to proceed in the US, UK, EU and Switzerland (2026/05)</b>, 12 multinational sites activating; 12-week randomised, double-blind, placebo-controlled crossover, n≈60, age 4+, <b>primary endpoint SARA</b>, estimated start 2026/09. The same molecule is already marketed as Aqneursa in NPC. <b style=\"color:#ffce7a\">Directly overlaps the SCA6 indication in our Japan filing.</b>",
+      "status": "IB1001-304 pivotal trial: <b>actual start 2026/08/17 and now recruiting</b> (registry updated 2026/08/20, ahead of the earlier 2026/09 estimate), with 7 of 10 sites recruiting (1 US, 6 European); a company press release dated 2026/08/19 states it expects to <b>over-enrol and complete recruitment in October 2026</b>. 12-week randomised, double-blind, placebo-controlled crossover, n≈60, age 4+, <b>primary endpoint SARA</b>. The same molecule is already marketed as Aqneursa in NPC. <b style=\"color:#ffce7a\">Directly overlaps the SCA6 indication in our Japan filing.</b>",
       "threatLabel": "Mid (SCA6)",
       "links": [
         {
@@ -275,6 +279,10 @@
         {
           "label": "Regulatory clearance ↗ 2026/05",
           "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
+        },
+        {
+          "label": "Enrolment press release ↗ 2026/08/19",
+          "url": "https://www.biospace.com/press-releases/intrabios-pivotal-phase-iii-trial-in-cacna1a-related-disorders-is-enrolling-and-is-expected-to-be-over-enrolled-and-complete-recruitment-in-october"
         }
       ]
     },

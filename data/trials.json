@@ -230,14 +230,14 @@
     "drug": "Levacetylleucine (N-acetyl-L-leucine, IB1001)",
     "mechanism": "小分子（口服）",
     "phase": "Ph3",
-    "status": "尚未收案；2026/05 獲美英歐瑞監管放行、12 站點啟動中，估 2026/09 開始、n=60，主要指標 SARA",
+    "status": "<b>已轉為收案中</b>（登錄 2026/08/20 更新）：實際起始日 <b>2026/08/17</b>，比先前登錄的估計值 2026/09 提前；10 個站點中 <b>7 站收案中</b>（美國 UT Health 休士頓、奧地利 Innsbruck、德國 Cologne、義大利 Milan 與羅馬 Bambino Gesù、瑞士 Bern、英國 Oxford），另 3 站尚未收案（Johns Hopkins、MGH、雅典）。n=60、4 歲以上、主要指標 SARA。公司 2026/08/19 新聞稿稱預期<b>超額收案並於 2026/10 完成收案</b>。⚠️ 完成日兩來源不一致：登錄主要完成日為 <b>2028/08/01</b>，新聞稿則稱試驗設計為收案結束後 6 個月完成（約 2027/04）——本站並列兩者、不擇一採信。",
     "sponsor": "IntraBio",
     "us": false,
     "url": "https://clinicaltrials.gov/study/NCT07221292",
     "en": {
       "mechanism": "Small molecule (oral)",
       "phase": "Ph3",
-      "status": "Not yet recruiting; regulatory clearance in US/UK/EU/Switzerland in 2026/05, 12 sites activating, estimated start 2026/09, n=60, primary endpoint SARA",
+      "status": "<b>Now recruiting</b> (registry updated 2026/08/20): actual start date <b>2026/08/17</b>, ahead of the previously registered estimate of 2026/09; <b>7 of 10 sites are recruiting</b> (UT Health Houston USA, Innsbruck Austria, Cologne Germany, Milan and Bambino Gesù Rome Italy, Bern Switzerland, Oxford UK), with 3 not yet recruiting (Johns Hopkins, MGH, Athens). n=60, age 4+, primary endpoint SARA. A company press release dated 2026/08/19 states it expects to <b>over-enrol and complete recruitment in October 2026</b>. ⚠️ The two sources disagree on completion: the registered primary completion date is <b>2028/08/01</b>, while the press release describes a trial designed to take 6 months after enrolment closes (around 2027/04) — this site reports both rather than choosing between them.",
       "sponsor": "IntraBio"
     }
   },

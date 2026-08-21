@@ -1,5 +1,40 @@
 [
   {
+    "id": "intrabio-cacna1a-enrolling-2026-08",
+    "date": "2026-08-19",
+    "dateDisplay": "2026/08",
+    "level": "hot",
+    "tag": "競品進度",
+    "body": "<b>IntraBio 的 CACNA1A 樞紐三期（IB1001-304／NCT07221292）已開始收案</b>，且進度快於原訂計畫。ClinicalTrials.gov 於 <b>2026/08/20</b> 更新登錄，狀態自「尚未收案」轉為<b>收案中</b>，實際起始日為 <b>2026/08/17</b>——比先前登錄的估計起始日 2026/09 提前；10 個站點中已有 <b>7 站收案中</b>（美國 UT Health 休士頓 1 站，歐洲 6 站：Innsbruck、Cologne、Milan、羅馬 Bambino Gesù、Bern、Oxford），Johns Hopkins、麻省總醫院與雅典 3 站尚未啟動。公司在 <b>2026/08/19</b> 的新聞稿中表示，預期本試驗將<b>超額收案並於 2026 年 10 月完成收案</b>。試驗設計為 12 週隨機、雙盲、安慰劑對照交叉，n≈60、4 歲以上，<b>主要指標為 SARA</b>，納入條件為基因確診的 CACNA1A 相關疾病，登錄的合格標準<b>明列 SCA6</b>（另含 EA2、FHM1）。",
+    "note": "→ <b>與本社在日本申請的 SCA6 適應症正面重疊</b>，且此為全球第一個專為 CACNA1A 相關疾病進行的樞紐試驗，該領域目前無任何已核准療法。同成分（levacetylleucine）已以 Aqneursa 於尼曼匹克症 C 型上市，代表其安全性資料庫與供應鏈皆屬既有。⚠️ <b>完成時程兩來源不一致，本站並列不擇一</b>：CT.gov 登錄的主要完成日為 <b>2028/08/01</b>，而公司新聞稿描述的是收案結束後 6 個月完成（推得約 <b>2027/04</b>）。⚠️ 目前<b>尚無任何療效數據讀出</b>，「超額收案」為公司自述、非第三方查核。",
+    "links": [
+      {
+        "label": "試驗登錄 ↗ NCT07221292",
+        "url": "https://clinicaltrials.gov/study/NCT07221292"
+      },
+      {
+        "label": "公司新聞稿 ↗ 2026/08/19",
+        "url": "https://www.biospace.com/press-releases/intrabios-pivotal-phase-iii-trial-in-cacna1a-related-disorders-is-enrolling-and-is-expected-to-be-over-enrolled-and-complete-recruitment-in-october"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2026/08",
+      "tag": "Competitor progress",
+      "body": "<b>IntraBio's pivotal Phase III in CACNA1A-related disorders (IB1001-304 / NCT07221292) has begun enrolling</b>, and is running ahead of its earlier plan. ClinicalTrials.gov updated the registration on <b>2026/08/20</b>, moving the status from not-yet-recruiting to <b>recruiting</b>, with an actual start date of <b>2026/08/17</b> — earlier than the previously registered estimate of 2026/09. <b>Seven of the 10 sites are recruiting</b> (one in the US, UT Health Houston, and six in Europe: Innsbruck, Cologne, Milan, Bambino Gesù in Rome, Bern and Oxford), while Johns Hopkins, Massachusetts General Hospital and Athens have not yet opened. In a press release dated <b>2026/08/19</b> the company stated it expects the study to <b>over-enrol and complete recruitment in October 2026</b>. The design is a 12-week randomised, double-blind, placebo-controlled crossover trial, n≈60, age 4 and over, with <b>SARA as the primary endpoint</b>; eligibility requires a genetically confirmed CACNA1A-related disorder and the registered criteria <b>explicitly list SCA6</b> alongside EA2 and FHM1.",
+      "note": "→ <b>This directly overlaps the SCA6 indication in our own Japan filing</b>, and it is the first pivotal trial conducted specifically for CACNA1A-related disorders, an area with no approved therapy anywhere. The same molecule (levacetylleucine) is already marketed as Aqneursa for Niemann-Pick disease type C, so its safety database and supply chain are established. ⚠️ <b>The two sources disagree on the completion timeline and this site reports both rather than choosing</b>: the registered primary completion date is <b>2028/08/01</b>, whereas the press release describes completion six months after enrolment closes (implying roughly <b>2027/04</b>). ⚠️ <b>No efficacy data have been read out</b>, and 'over-enrolment' is a company statement rather than an independently verified fact.",
+      "links": [
+        {
+          "label": "Registry ↗ NCT07221292",
+          "url": "https://clinicaltrials.gov/study/NCT07221292"
+        },
+        {
+          "label": "Press release ↗ 2026/08/19",
+          "url": "https://www.biospace.com/press-releases/intrabios-pivotal-phase-iii-trial-in-cacna1a-related-disorders-is-enrolling-and-is-expected-to-be-over-enrolled-and-complete-recruitment-in-october"
+        }
+      ]
+    }
+  },
+  {
     "id": "kissei-rovatirelin-ph3-2026-07",
     "date": "2026-07-30",
     "dateDisplay": "2026/07",
@@ -65,41 +100,6 @@
         {
           "label": "Trial ↗ NCT07180355",
           "url": "https://clinicaltrials.gov/study/NCT07180355"
-        }
-      ]
-    }
-  },
-  {
-    "id": "intrabio-cacna1a-ph3-2026-05",
-    "date": "2026-05-20",
-    "dateDisplay": "2026/05",
-    "level": "hot",
-    "tag": "新競品",
-    "body": "新發現競品：<b>IntraBio levacetylleucine（N-acetyl-L-leucine）</b>之 CACNA1A 相關疾病 Ph3 樞紐試驗 <b>IB1001-304</b>（NCT07221292）已於 2026/05 獲美/英/歐盟/瑞士監管放行，12 個跨國站點啟動中，估 2026/09 開始收案、n≈60，<b>主要指標為 SARA</b>。",
-    "note": "→ 適應症明列 <b>SCA6</b>，與本社日本承認申請（SCA3/6）之 SCA6 部分正面重疊；惟其為口服症狀改善型小分子（同成分 Aqneursa 已於 NPC 上市），與細胞治療的疾病修飾定位不同。",
-    "links": [
-      {
-        "label": "監管放行 ↗ 2026/05",
-        "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
-      },
-      {
-        "label": "試驗 ↗ NCT07221292",
-        "url": "https://clinicaltrials.gov/study/NCT07221292"
-      }
-    ],
-    "en": {
-      "dateDisplay": "2026/05",
-      "tag": "New competitor",
-      "body": "Newly identified competitor: <b>IntraBio's levacetylleucine (N-acetyl-L-leucine)</b> pivotal Ph3 trial in CACNA1A-related disorders, <b>IB1001-304</b> (NCT07221292), received regulatory authorisation to proceed in the US, UK, EU and Switzerland in 2026/05; 12 multinational sites are activating, enrolment estimated to start 2026/09 with n≈60 and <b>SARA as the primary endpoint</b>.",
-      "note": "→ The listed indications explicitly include <b>SCA6</b>, overlapping the SCA6 half of our Japanese marketing application (SCA3/6). It is, however, an oral symptomatic small molecule (the same molecule is already marketed as Aqneursa in NPC), positioned differently from disease-modifying cell therapy.",
-      "links": [
-        {
-          "label": "Regulatory clearance ↗ 2026/05",
-          "url": "https://www.businesswire.com/news/home/20260520395239/en/IntraBio-Receives-Regulatory-Authorization-to-Begin-Pivotal-Phase-III-Trial-of-Levacetylleucine-in-CACNA1A-Related-Disorders-Across-Participating-Regions"
-        },
-        {
-          "label": "Trial ↗ NCT07221292",
-          "url": "https://clinicaltrials.gov/study/NCT07221292"
         }
       ]
     }

@@ -1,5 +1,24 @@
 [
   {
+    "id": "pubmed:42621215",
+    "date": "2026-08-05",
+    "dateDisplay": "2026/08/05",
+    "title": "Therapeutic potential of the Nrf2 activator omaveloxolone in spinocerebellar ataxia type 3 in cellular and Drosophila models",
+    "journal": "Frontiers in Pharmacology 第 17 卷 · Pan SH、Lin WH、Leng FH、Cheng WL、Chang JC、Liu CS（彰化基督教醫院 ATP 研究所——血管暨基因體中心／再生醫學與組織修復中心，台灣彰化）、Lin WY（中國醫藥大學中醫學院中西醫結合研究所，台灣台中）· doi:10.3389/fphar.2026.1872142",
+    "tag": "SCA3 · Nrf2 活化劑 · 藥物再定位 · 臨床前 · 台灣團隊",
+    "note": "→ <b>台灣彰化基督教醫院團隊</b>把已於<b>弗里德賴希共濟失調（Friedreich's ataxia）獲准上市的 omaveloxolone（RTA-408）</b>，測試到 <b>SCA3（馬查多－約瑟夫病）</b>的細胞與果蠅模型上，屬<b>藥物再定位（drug repurposing）</b>的臨床前探索。作者的立論起點是：SCA3 的致病機轉除了突變型 ataxin-3 蓄積外，還包含<b>氧化壓力、粒線體功能失調與蛋白質品管失能</b>，而 omaveloxolone 正是<b>核因子 Nrf2 的活化劑</b>，理論上可同時作用於這幾條路徑；SCA3 目前<b>無任何疾病修飾療法</b>。結果：在細胞模型中，<b>0.3 與 0.5 μM</b> 的 RTA-408 較能一致地<b>改善細胞存活率、降低細胞凋亡</b>，並伴隨 <b>Nrf2 訊息傳遞增強、p62 表現上升與粒線體形態改善</b>；在果蠅模型中則<b>部分改善存活、運動表現、眼睛大小與色素沉著</b>。⚠️ <b>限制務必與結論一起讀</b>：這是<b>純臨床前研究，僅有細胞與果蠅兩層模型，沒有哺乳類動物資料、更沒有人體資料</b>；果蠅的效果作者自述為「<b>部分</b>改善」而非完全回復；有效濃度落在窄區間（0.3–0.5 μM），文中並未建立與人體可達血中濃度的對應關係。<b>本篇不代表 omaveloxolone 已進入 SCA3 的臨床開發</b>，公開來源亦未見任何 SCA3 適應症的註冊試驗。記錄理由有二：其一，omaveloxolone 是<b>鄰近圈層（Friedreich's）唯一已核准的口服小分子</b>，若其適應症沿 polyQ 方向外擴，將成為與本社 Stemchymal® 同適應症的潛在競品，屬值得追蹤的<b>早期訊號</b>；其二，本篇出自<b>台灣本土的醫學中心團隊</b>，與本社同屬台灣 SCA 研究生態圈。⚠️ 收錄時序說明：本篇出版日為 2026/08/05、落在 7 天窗外，係於 2026/08/18–20 的 PubMed 索引窗內首次出現而被掃到，且為本站尚未收錄的實質內容，故予收錄，判斷依據在此記錄備查。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42621215/",
+    "urlLabel": "論文 ↗ PubMed 42621215",
+    "en": {
+      "tag": "SCA3 · Nrf2 activator · drug repurposing · preclinical · Taiwanese group",
+      "journal": "Frontiers in Pharmacology, vol. 17 · Pan SH, Lin WH, Leng FH, Cheng WL, Chang JC, Liu CS (Vascular and Genomic Center / Center of Regenerative Medicine and Tissue Repair, Institute of ATP, Changhua Christian Hospital, Changhua, Taiwan) and Lin WY (Graduate Institute of Integrated Medicine, College of Chinese Medicine, China Medical University, Taichung, Taiwan) · doi:10.3389/fphar.2026.1872142",
+      "note": "→ A group at <b>Changhua Christian Hospital in Taiwan</b> tested <b>omaveloxolone (RTA-408), already approved for Friedreich's ataxia</b>, in cellular and Drosophila models of <b>SCA3 (Machado-Joseph disease)</b> — a preclinical <b>drug-repurposing</b> exploration. The rationale is that SCA3 pathogenesis involves not only mutant ataxin-3 accumulation but also <b>oxidative stress, mitochondrial dysfunction and impaired protein quality control</b>, and omaveloxolone is an <b>activator of nuclear factor erythroid 2-related factor 2 (Nrf2)</b> that could in principle act on several of these at once; SCA3 currently has <b>no disease-modifying therapy</b>. Results: in the cellular models, RTA-408 at <b>0.3 and 0.5 μM</b> more consistently <b>improved cell viability and reduced apoptosis</b>, accompanied by <b>enhanced Nrf2 signalling, p62 upregulation and improved mitochondrial morphology</b>; in the fly models it <b>partially improved survival, locomotor performance, eye size and pigmentation</b>. ⚠️ <b>The limitations belong with the conclusions</b>: this is <b>purely preclinical, spanning only cellular and Drosophila models, with no mammalian and certainly no human data</b>; the authors themselves describe the fly effect as a <b>partial</b> improvement rather than full rescue; and the effective concentrations sit in a narrow band (0.3–0.5 μM) with no relationship established to plasma concentrations achievable in humans. <b>The paper does not indicate that omaveloxolone has entered clinical development in SCA3</b>, and no registered trial in that indication appears in public sources. It is recorded for two reasons: first, omaveloxolone is <b>the only approved oral small molecule in the adjacent Friedreich's ring</b>, so any expansion of its indication toward polyQ disorders would make it a potential competitor sharing our own Stemchymal® indication — an <b>early signal</b> worth tracking; second, the work comes from <b>a Taiwanese medical centre</b>, part of the same domestic SCA research ecosystem as our own. ⚠️ A note on timing: published 2026/08/05, outside the 7-day window, it was picked up when it first appeared in the PubMed indexing window of 2026/08/18–20 and is substantive content this platform had not recorded, so it is included and the basis for that judgement noted here.",
+      "urlLabel": "Paper ↗ PubMed 42621215"
+    }
+  },
+  {
     "id": "pubmed:42608543",
     "date": "2026-08-18",
     "dateDisplay": "2026/08/18",
