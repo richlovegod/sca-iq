@@ -1,5 +1,41 @@
 [
   {
+    "id": "pubmed:42631841",
+    "date": "2026-08-22",
+    "dateDisplay": "2026/08/22",
+    "title": "Long-term clinical course and extracerebellar manifestations of hereditary spinocerebellar degeneration",
+    "journal": "Acta Neurol Belg · Takeuchi Y 等（日本大分大學神經內科）",
+    "tag": "自然史 · 小腦外症狀",
+    "note": "→ 日本單中心 42 名遺傳性脊髓小腦退化症病人追蹤約 9 年，ICARS 年惡化 2.6±5.9 分；初診時半數已有小腦外症狀（錐體路 31.0%、感覺 21.4%、自律神經 16.7%），病程進展伴隨症狀增加與更快進入輪椅依賴。⚠️ n 小、單中心、且用 ICARS 而非試驗常用的 SARA，數字不可與 EUROSCA／CRC-SCA 的 SARA 年進展率互換使用。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42631841/",
+    "urlLabel": "論文 ↗ PubMed 42631841",
+    "en": {
+      "tag": "Natural history · extracerebellar features",
+      "journal": "Acta Neurol Belg · Takeuchi Y et al. (Department of Neurology, Oita University, Japan)",
+      "note": "→ A Japanese single-centre cohort of 42 patients with hereditary spinocerebellar degeneration followed for roughly 9 years showed annual ICARS deterioration of 2.6±5.9 points; half already had extracerebellar signs at baseline (pyramidal 31.0%, sensory 21.4%, autonomic 16.7%), and progression tracked with more such signs and faster wheelchair dependence. ⚠️ Small, single-centre, and scored with ICARS rather than the SARA used in trials, so these figures are not interchangeable with EUROSCA/CRC-SCA annual SARA progression rates.",
+      "urlLabel": "Paper ↗ PubMed 42631841"
+    }
+  },
+  {
+    "id": "pubmed:42616279",
+    "date": "2026-08-19",
+    "dateDisplay": "2026/08/19",
+    "title": "The Real Life of Ataxia Patients Without a Vertical Family History: a Twenty-year Experience in South Brazil",
+    "journal": "Cerebellum · Aschoff CAM 等（巴西南大河聯邦大學／Porto Alegre 臨床醫院）",
+    "tag": "診斷率 · 無家族史共濟失調",
+    "note": "→ 2002–2020 年 174 名無垂直家族史的共濟失調病人回顧：120 名完成後續評估中僅 45 名取得確定診斷、12 名檢驗陰性、63 名因故未完成；基因檢測產率依方法差異大（基因套組 71.4%、外顯子體 52.9%、全基因體 14%），作者指出公費醫療體系的可近性是完診的主要瓶頸。→ 對本社的意義在於<b>試驗招募端</b>：散發型共濟失調族群有相當比例未取得分子診斷，會直接限制以基因型為納入條件的試驗（含 polyQ SCA）可觸及的病人數。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42616279/",
+    "urlLabel": "論文 ↗ PubMed 42616279",
+    "en": {
+      "tag": "Diagnostic yield · ataxia without family history",
+      "journal": "Cerebellum · Aschoff CAM et al. (Universidade Federal do Rio Grande do Sul / Hospital de Clínicas de Porto Alegre, Brazil)",
+      "note": "→ A retrospective review of 174 patients with ataxia and no vertical family history seen between 2002 and 2020: of 120 who continued through evaluation, only 45 reached a definitive diagnosis, 12 tested negative and 63 did not complete work-up; molecular yield varied sharply by method (gene panel 71.4%, exome 52.9%, genome 14%), and the authors point to access barriers in the public health system as the main obstacle to completing diagnosis. → The relevance for us is on the <b>recruitment side</b>: a substantial share of sporadic ataxia patients never obtain a molecular diagnosis, which directly limits the reachable population for any trial that requires a genotype for entry, polyQ SCA trials included.",
+      "urlLabel": "Paper ↗ PubMed 42616279"
+    }
+  },
+  {
     "id": "pubmed:42621215",
     "date": "2026-08-05",
     "dateDisplay": "2026/08/05",

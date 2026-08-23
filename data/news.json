@@ -1,5 +1,40 @@
 [
   {
+    "id": "larimar-nomlabofusp-ph3-2026-08",
+    "date": "2026-08-21",
+    "dateDisplay": "2026/08",
+    "level": "info",
+    "tag": "鄰近圈層進度",
+    "body": "<b>Larimar 的 nomlabofusp 全球確認性三期已開始收案</b>（NCT07778836）。登錄於 <b>2026/08/21</b> 首次上線，<b>實際起始日 2026/08/05</b>，狀態為<b>收案中</b>；隨機、雙盲、安慰劑對照、多中心，預計收案 <b>150 人</b>，納入成人與兒童之基因確診（GAA 同型合子）Friedreich's ataxia、mFARS 總分 ≥20 且 &lt;60。<b>雙主要終點皆在第 72 週</b>：mFARS 的 Upright Stability Score（subscale E）與 mFARS 總分之基線變化，<b>主要完成日預估 2029/07</b>。目前僅登錄 <b>3 站、全在美國</b>（Northwestern、Clinilabs、UT Southwestern）。",
+    "note": "→ 這是<b>鄰近共濟失調圈層</b>（Friedreich's）而非 SCA 的直接競品，但結構上值得記一筆：該藥的<b>加速核准滾動式 BLA（2026/06 送出第一模組）走的是 frataxin 濃度替代終點</b>，本三期則是<b>臨床療效的確認性試驗</b>，兩者並行。⚠️ <b>本試驗尚無任何療效數據</b>；公司先前公開的商業化目標時點（2027 年年中上市）屬公司自述，非監管承諾。",
+    "links": [
+      {
+        "label": "試驗登錄 ↗ NCT07778836",
+        "url": "https://clinicaltrials.gov/study/NCT07778836"
+      },
+      {
+        "label": "滾動式 BLA 首模組 ↗ 2026/06",
+        "url": "https://www.globenewswire.com/news-release/2026/06/29/3318791/0/en/Larimar-Therapeutics-Reports-Positive-Open-Label-Data-and-Submission-of-First-Module-of-Rolling-BLA-for-Accelerated-Approval-of-Nomlabofusp-for-Friedreich-s-Ataxia.html"
+      }
+    ],
+    "en": {
+      "dateDisplay": "2026/08",
+      "tag": "Adjacent-ring progress",
+      "body": "<b>Larimar's global confirmatory Phase 3 of nomlabofusp has begun enrolling</b> (NCT07778836). The registration was first posted on <b>2026/08/21</b> with an <b>actual start date of 2026/08/05</b> and a status of <b>recruiting</b>; it is randomised, double-blind, placebo-controlled and multicentre, targeting <b>150 subjects</b>, enrolling adults and children with genetically confirmed (homozygous GAA) Friedreich's ataxia and a total mFARS score ≥20 and &lt;60. <b>Both primary endpoints fall at Week 72</b>: change from baseline in the mFARS Upright Stability Score (subscale E) and in total mFARS, with <b>estimated primary completion in July 2029</b>. Only <b>3 sites, all in the United States</b>, are registered so far (Northwestern, Clinilabs and UT Southwestern).",
+      "note": "→ This sits in the <b>adjacent ataxia ring</b> (Friedreich's) rather than being a direct SCA competitor, but the structure is worth recording: the drug's <b>rolling BLA for accelerated approval (first module submitted 2026/06) rests on a frataxin-concentration surrogate endpoint</b>, while this Phase 3 is the <b>confirmatory trial of clinical benefit</b>, the two running in parallel. ⚠️ <b>No efficacy data from this trial exist yet</b>, and the commercial timing the company has stated publicly (a mid-2027 launch) is its own guidance, not a regulatory commitment.",
+      "links": [
+        {
+          "label": "Registration ↗ NCT07778836",
+          "url": "https://clinicaltrials.gov/study/NCT07778836"
+        },
+        {
+          "label": "First rolling-BLA module ↗ 2026/06",
+          "url": "https://www.globenewswire.com/news-release/2026/06/29/3318791/0/en/Larimar-Therapeutics-Reports-Positive-Open-Label-Data-and-Submission-of-First-Module-of-Rolling-BLA-for-Accelerated-Approval-of-Nomlabofusp-for-Friedreich-s-Ataxia.html"
+        }
+      ]
+    }
+  },
+  {
     "id": "intrabio-cacna1a-enrolling-2026-08",
     "date": "2026-08-19",
     "dateDisplay": "2026/08",
@@ -162,49 +197,6 @@
         {
           "label": "Source ↗ GeneOnline",
           "url": "https://geneonline.news/steminent-is-expanding-globally-in-cerebellar-atrophy-treatment-with-phase-ii-us-trials-007/"
-        }
-      ]
-    }
-  },
-  {
-    "id": "vico-vo659-dosing-2026-02",
-    "date": "2026-02-24",
-    "dateDisplay": "2026/02",
-    "level": "hot",
-    "tag": "關注",
-    "body": "Vico 的 ASO <b>VO659</b>（SCA1/SCA3/HD）2026/02/24 進入半年一次給藥 Ph1/2。",
-    "note": "→ 與本社在 SCA3 重疊，但 <b style=\"color:#ffce7a\">SCA 尚無明確療效（SCA3 生物標記混合/微弱、SCA1 無；明確正面在 HD）</b>；曾見 radiculitis（神經根發炎，多數恢復中）。仍 Ph1/2a、遠期。",
-    "links": [
-      {
-        "label": "給藥公告 ↗ 2026/02",
-        "url": "https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1"
-      },
-      {
-        "label": "SCA數據/安全 ↗ HDBuzz",
-        "url": "https://en.hdbuzz.net/398/"
-      },
-      {
-        "label": "試驗 ↗ NCT",
-        "url": "https://clinicaltrials.gov/study/NCT05822908"
-      }
-    ],
-    "en": {
-      "dateDisplay": "2026/02",
-      "tag": "Watch",
-      "body": "Vico’s ASO <b>VO659</b> (SCA1/SCA3/HD) moved to a twice-yearly dosing Ph1/2 on 2026/02/24.",
-      "note": "→ Overlaps with us in SCA3, but <b style=\"color:#ffce7a\">there is still no clear efficacy in SCA (SCA3 biomarkers mixed/weak, none in SCA1; the clear positive is in HD)</b>; radiculitis (nerve-root inflammation, mostly resolving) has been observed. Still Ph1/2a and years away.",
-      "links": [
-        {
-          "label": "Dosing release ↗ 2026/02",
-          "url": "https://www.biospace.com/press-releases/vico-therapeutics-announces-patient-dosing-in-twice-annual-regimen-of-vo659-in-phase-1-2-trial-in-huntingtons-disease-spinocerebellar-ataxia-type-3-and-type-1"
-        },
-        {
-          "label": "SCA data/safety ↗ HDBuzz",
-          "url": "https://en.hdbuzz.net/398/"
-        },
-        {
-          "label": "Trial ↗ NCT",
-          "url": "https://clinicaltrials.gov/study/NCT05822908"
         }
       ]
     }

@@ -1,5 +1,22 @@
 [
   {
+    "nct": "NCT07778836",
+    "drug": "Nomlabofusp（皮下注射）",
+    "mechanism": "<b>蛋白替代療法</b>：外源性 frataxin 融合蛋白經皮下給藥，補足 FXN 基因擴增所導致的 frataxin 缺乏<br>設計目的為直接回補致病蛋白，而非下游抗氧化",
+    "phase": "Ph3",
+    "status": "<b>收案中（2026/08/21 新登錄上線，實際起始日 2026/08/05）</b>。這是 Larimar 的<b>全球確認性三期</b>，隨機、雙盲、安慰劑對照、多中心，預計收案 <b>150 人</b>，納入<b>成人與兒童</b>之基因確診（GAA 同型合子）Friedreich's ataxia 病人，合格條件含 mFARS 總分 ≥20 且 <60。<b>雙主要終點皆在第 72 週</b>：mFARS 之 <b>Upright Stability Score（USS，subscale E）</b>自基線變化，以及 <b>mFARS 總分</b>自基線變化。<b>主要完成日預估 2029/07</b>。目前登錄站點僅 <b>3 站、全在美國</b>（Northwestern、Clinilabs、UT Southwestern），依公司說法為全球試驗、站點應會續增。⚠️ 本試驗與該公司<b>已在進行中的加速核准滾動式 BLA 並行</b>——BLA 走的是 frataxin 濃度替代終點，本三期則是核准後仍須完成的<b>臨床療效確認</b>；<b>目前尚無任何本試驗的療效數據</b>。",
+    "sponsor": "Larimar Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT07778836",
+    "en": {
+      "drug": "Nomlabofusp (subcutaneous)",
+      "mechanism": "<b>Protein replacement</b>: an exogenous frataxin fusion protein given subcutaneously to restore the frataxin deficiency caused by GAA repeat expansion in FXN<br>designed to replace the causative protein directly rather than act downstream as an antioxidant",
+      "phase": "Ph3",
+      "status": "<b>Recruiting (registration first posted 2026/08/21; actual start date 2026/08/05)</b>. This is Larimar's <b>global confirmatory Phase 3</b> — randomised, double-blind, placebo-controlled and multicentre — with a target enrolment of <b>150 subjects</b>, enrolling <b>adults and children</b> with genetically confirmed (homozygous GAA) Friedreich's ataxia, with eligibility requiring a total mFARS score ≥20 and &lt;60. <b>Both primary endpoints are measured at Week 72</b>: change from baseline in the <b>Upright Stability Score (USS, mFARS subscale E)</b> and change from baseline in <b>total mFARS</b>. <b>Estimated primary completion is July 2029</b>. Only <b>3 sites, all in the United States</b>, are registered so far (Northwestern, Clinilabs and UT Southwestern); the company describes the study as global, so further sites would be expected. ⚠️ The trial <b>runs in parallel with the company's ongoing rolling BLA for accelerated approval</b> — the BLA rests on a frataxin-concentration surrogate endpoint, whereas this Phase 3 is the <b>clinical confirmation</b> that would still be required post-approval; <b>no efficacy data from this trial exist yet</b>.",
+      "sponsor": "Larimar Therapeutics"
+    }
+  },
+  {
     "nct": "NCT06193200",
     "drug": "eDSP（EryDex）",
     "mechanism": "包覆於<b>自體紅血球</b>內的地塞米松磷酸鈉<br>紅血球作為緩釋載體，使類固醇長時間低劑量釋放<br>設計目的為保留療效並避開長期全身性類固醇毒性",

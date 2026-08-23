@@ -727,8 +727,8 @@
     "asset": "Nomlabofusp（CTI-1601）",
     "mechanism": "蛋白替代<br>補充 frataxin",
     "indication": "Friedreich's Ataxia",
-    "phase": "滾動式 BLA 進行中",
-    "status": "2026/02 取得 FDA <b>突破性療法認定</b>；<b>2026/06/29 遞交加速核准滾動式 BLA 第一模組</b>，其餘模組預計 2026 下半年送出。支持資料為長期開放標籤研究：皮膚 FXN 升至無症狀帶因者水準，mFARS、FARS-ADL、9-HPT、疲勞量表四項一年後方向一致改善。<b>共濟失調領域少見走到 BLA 的案例</b>。",
+    "phase": "滾動式 BLA 進行中 ＋ 確認性 Ph3 收案中",
+    "status": "2026/02 取得 FDA <b>突破性療法認定</b>；<b>2026/06/29 遞交加速核准滾動式 BLA 第一模組</b>，其餘模組預計 2026 下半年送出。支持資料為長期開放標籤研究：皮膚 FXN 升至無症狀帶因者水準，mFARS、FARS-ADL、9-HPT、疲勞量表四項一年後方向一致改善。<b>共濟失調領域少見走到 BLA 的案例</b>。<b>2026/08/21 新增：全球確認性三期 NCT07778836 已開始收案</b>（實際起始日 2026/08/05、n=150、成人與兒童、雙主要終點為第 72 週 mFARS 的 Upright Stability Score 與 mFARS 總分、主要完成日預估 2029/07，目前登錄 3 站全在美國）——形成<b>替代終點走加速核准、臨床療效另以三期確認</b>的並行路徑。⚠️ 該三期<b>尚無任何療效數據</b>。",
     "threatLabel": "低(FA)",
     "links": [
       {
@@ -744,8 +744,8 @@
       "asset": "Nomlabofusp (CTI-1601)",
       "mechanism": "Protein replacement<br>frataxin supplementation",
       "indication": "Friedreich's ataxia",
-      "phase": "Rolling BLA under way",
-      "status": "Received FDA <b>Breakthrough Therapy designation</b> in 2026/02 and <b>submitted the first module of a rolling BLA for accelerated approval on 2026/06/29</b>, with remaining modules expected in 2H 2026. Supporting data come from a long-term open-label study: skin FXN rose to levels expected in asymptomatic carriers, with consistent directional improvement at one year across mFARS, FARS-ADL, 9-HPT and the fatigue scale. <b>One of the few ataxia programmes to reach BLA stage.</b>",
+      "phase": "Rolling BLA under way + confirmatory Ph3 recruiting",
+      "status": "Received FDA <b>Breakthrough Therapy designation</b> in 2026/02 and <b>submitted the first module of a rolling BLA for accelerated approval on 2026/06/29</b>, with remaining modules expected in 2H 2026. Supporting data come from a long-term open-label study: skin FXN rose to levels expected in asymptomatic carriers, with consistent directional improvement at one year across mFARS, FARS-ADL, 9-HPT and the fatigue scale. <b>One of the few ataxia programmes to reach BLA stage.</b> <b>Added 2026/08/21: the global confirmatory Phase 3, NCT07778836, has begun enrolling</b> (actual start 2026/08/05; n=150; adults and children; dual primary endpoints of mFARS Upright Stability Score and total mFARS at Week 72; estimated primary completion July 2029; 3 registered sites, all in the US) — creating a parallel path in which <b>accelerated approval rests on the surrogate endpoint while clinical benefit is confirmed separately in Phase 3</b>. ⚠️ <b>No efficacy data from that Phase 3 exist yet.</b>",
       "threatLabel": "Low (FA)",
       "links": [
         {
