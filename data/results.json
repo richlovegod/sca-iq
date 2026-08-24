@@ -1,5 +1,33 @@
 [
   {
+    "id": "intrabio-ib1001-303-at-2026-05",
+    "date": "2026-05-19",
+    "dateDisplay": "2026/05",
+    "competitor": "IntraBio",
+    "drug": "Levacetylleucine（IB1001／AQNEURSA®）",
+    "trial": "NCT06673056（IB1001-303）· Ph3 樞紐",
+    "sourceType": "新聞稿",
+    "level": "hot",
+    "readout": "<b>公司宣稱樞紐三期達主要指標與全部關鍵次要指標，皆具「高度統計顯著」</b>，並據以獲 FDA 受理 sNDA 併給予<b>優先審查</b>，<b>PDUFA 行動日 2026/09/19</b>；2026/06 另向 EMA 遞交變更申請。試驗為 4 歲以上基因確診 A-T、n=60、12 週隨機雙盲安慰劑對照交叉，<b>主要指標即 SARA</b>，次要指標含 SCAFI、ICARS。⚠️ <b>公司迄今未公開任何數值、p 值或效果量</b>，「高度統計顯著」屬公司自述、無同儕審閱資料佐證；核准與否仍待 FDA 決定。",
+    "implication": "→ 這是<b>共濟失調圈層第一個以 SARA 為註冊主要指標、走到 PDUFA 的案子</b>——若 9/19 獲准，將替「SARA 可作為註冊終點」建立監管先例，對本社以 SARA 為主要指標的 SCA 開發路徑是有利的外部背書；但同一家公司的 IB1001-304 明列 SCA6、與本社日本申請適應症正面重疊，同一分子若在 A-T 先取得核准，其在共濟失調領域的醫師熟悉度與給付路徑將領先。",
+    "links": [
+      { "label": "FDA 受理 sNDA 併優先審查（2026/05/19 新聞稿）↗", "url": "https://www.biospace.com/press-releases/fda-accepts-snda-and-grants-priority-review-to-aqneursa-for-ataxia-telangiectasia" },
+      { "label": "IB1001-303 試驗登錄 ↗", "url": "https://clinicaltrials.gov/study/NCT06673056" },
+      { "label": "EMA 變更申請（2026/06 新聞稿）↗", "url": "https://www.businesswire.com/news/home/20260605049248/en/IntraBio-Announces-Submission-of-Variation-Application-to-the-European-Medicines-Agency-for-AQNEURSA-for-Ataxia-Telangiectasia" }
+    ],
+    "en": {
+      "trial": "NCT06673056 (IB1001-303) · pivotal Ph3",
+      "sourceType": "Press release",
+      "readout": "<b>The company states that the pivotal Phase 3 met its primary endpoint and all key secondary endpoints, all with 'high statistical significance'</b>, and on that basis the FDA accepted an sNDA and granted <b>Priority Review</b>, with a <b>PDUFA action date of 2026/09/19</b>; a variation application was submitted to the EMA in 2026/06. The trial enrolled genetically confirmed A-T patients aged 4 and over, n=60, in a 12-week randomised, double-blind, placebo-controlled crossover design in which <b>SARA was the primary endpoint</b>, with SCAFI and ICARS among the secondaries. ⚠️ <b>The company has released no numbers, p-values or effect sizes to date</b>; 'high statistical significance' is its own characterisation, unsupported by peer-reviewed data, and approval remains for the FDA to decide.",
+      "implication": "→ This is <b>the first programme in the ataxia ring to reach a PDUFA date with SARA as its registrational primary endpoint</b>. Approval on 19 September would establish a regulatory precedent that SARA can serve as a registrational endpoint — external validation that favours our own SARA-based SCA development path. At the same time, the same company's IB1001-304 explicitly lists SCA6 and overlaps the indication in our Japan filing directly, and if the same molecule is approved first in A-T it will enter the ataxia field ahead of us in physician familiarity and reimbursement pathway.",
+      "links": [
+        { "label": "FDA accepts sNDA with Priority Review (press release, 2026/05/19) ↗", "url": "https://www.biospace.com/press-releases/fda-accepts-snda-and-grants-priority-review-to-aqneursa-for-ataxia-telangiectasia" },
+        { "label": "IB1001-303 registration ↗", "url": "https://clinicaltrials.gov/study/NCT06673056" },
+        { "label": "EMA variation application (press release, 2026/06) ↗", "url": "https://www.businesswire.com/news/home/20260605049248/en/IntraBio-Announces-Submission-of-Variation-Application-to-the-European-Medicines-Agency-for-AQNEURSA-for-Ataxia-Telangiectasia" }
+      ]
+    }
+  },
+  {
     "id": "quince-edsp-neat-ph3-2026-08",
     "date": "2026-08-14",
     "dateDisplay": "2026/08",

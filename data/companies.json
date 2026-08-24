@@ -84,8 +84,8 @@
     "country": "英國／美國 UK/USA",
     "ticker": "未上市 Private",
     "mechanism": "小分子 Levacetylleucine（N-acetyl-L-leucine，口服）",
-    "pipeline": "IB1001｜CACNA1A 相關疾病（含 SCA6、EA2、FHM1）：Ph3 IB1001-304，2026/05 監管放行、估 2026/09 起始｜同成分 Aqneursa 已於 Niemann-Pick C 上市",
-    "insight": "以已上市成分（Aqneursa／levacetylleucine）延伸至 CACNA1A 相關共濟失調，樞紐試驗主要指標為 SARA、n≈60、12 週交叉設計——開發成本與時程風險低於全新分子。<b>SCA6 與本社日本申請適應症重疊</b>，惟屬症狀改善型小分子、非疾病修飾細胞療法，定位可區隔。",
+    "pipeline": "IB1001｜<b>A-T（毛細血管擴張性共濟失調）：Ph3 IB1001-303 已收案完畢，公司稱達標；sNDA 獲優先審查、PDUFA 2026/09/19</b>｜CACNA1A 相關疾病（含 SCA6、EA2、FHM1）：Ph3 IB1001-304，2026/08/17 起始、收案中｜同成分 Aqneursa 已於 Niemann-Pick C 上市",
+    "insight": "以已上市成分（Aqneursa／levacetylleucine）向多個共濟失調適應症平行延伸，兩個樞紐試驗<b>主要指標都是 SARA</b>、n≈60、12 週交叉設計——開發成本與時程風險低於全新分子。<b>最關鍵的是 A-T 案的 PDUFA 行動日 2026/09/19</b>：那將是共濟失調領域第一個以 SARA 為註冊主要指標走完 FDA 審查的案子，獲准即為「SARA 可作註冊終點」建立監管先例，<b>對本社同樣以 SARA 為主要指標的開發路徑屬有利背書</b>；但反面是，同一分子若在 A-T 先行核准，其在共濟失調醫師社群的熟悉度、安全性資料庫與給付路徑都會領先本社，而 <b>IB1001-304 明列 SCA6、與本社日本申請適應症正面重疊</b>。惟其屬症狀改善型口服小分子、非疾病修飾細胞療法，定位仍可區隔。",
     "threat": "mid",
     "url": "https://intrabio.com/clinical-trials/",
     "match": [
@@ -103,14 +103,26 @@
       {
         "date": "2026/06",
         "text": "NCT07221292 登錄更新，12 站點、估 2026/09 開始收案"
+      },
+      {
+        "date": "2026/05",
+        "text": "A-T 樞紐三期 IB1001-303 達標（公司自述，未公開數值）；FDA 受理 sNDA 併優先審查，PDUFA 2026/09/19"
+      },
+      {
+        "date": "2026/06",
+        "text": "A-T 適應症向 EMA 遞交變更申請"
+      },
+      {
+        "date": "2026/08",
+        "text": "IB1001-304（CACNA1A／含 SCA6）實際起始 2026/08/17、轉為收案中"
       }
     ],
     "en": {
       "country": "UK / USA",
       "ticker": "Private",
       "mechanism": "Small molecule levacetylleucine (N-acetyl-L-leucine, oral)",
-      "pipeline": "IB1001 | CACNA1A-related disorders (incl. SCA6, EA2, FHM1): Ph3 IB1001-304, cleared 2026/05, estimated start 2026/09 | the same molecule is marketed as Aqneursa in Niemann-Pick C",
-      "insight": "Extends an already-marketed molecule (Aqneursa / levacetylleucine) into CACNA1A-related ataxia; the pivotal trial uses SARA as primary endpoint, n≈60, 12-week crossover — lower cost and timeline risk than a novel molecule. <b>SCA6 overlaps the indication in our Japan filing</b>, though it is a symptomatic small molecule rather than a disease-modifying cell therapy, so positioning can be differentiated.",
+      "pipeline": "IB1001 | <b>A-T (ataxia-telangiectasia): Ph3 IB1001-303 fully enrolled and reported by the company as successful; sNDA under Priority Review, PDUFA 2026/09/19</b> | CACNA1A-related disorders (incl. SCA6, EA2, FHM1): Ph3 IB1001-304, started 2026/08/17 and recruiting | the same molecule is marketed as Aqneursa in Niemann-Pick C",
+      "insight": "Extends an already-marketed molecule (Aqneursa / levacetylleucine) into several ataxia indications in parallel, with <b>SARA as the primary endpoint in both pivotal trials</b>, n≈60 and a 12-week crossover design — lower cost and timeline risk than a novel molecule. <b>The decisive item is the A-T PDUFA action date of 2026/09/19</b>: it would be the first filing in the ataxia field to complete FDA review with SARA as its registrational primary endpoint, and approval would establish the precedent that SARA can serve as a registrational endpoint — <b>favourable external validation for our own SARA-based development path</b>. The other side is that an A-T approval first would put the same molecule ahead of us in physician familiarity, safety database and reimbursement pathway across the ataxia community, and <b>IB1001-304 explicitly lists SCA6, overlapping the indication in our Japan filing directly</b>. It nonetheless remains a symptomatic oral small molecule rather than a disease-modifying cell therapy, so positioning can still be differentiated.",
       "updates": [
         {
           "date": "2026/05",
@@ -119,6 +131,18 @@
         {
           "date": "2026/06",
           "text": "NCT07221292 registry update: 12 sites, estimated enrolment start 2026/09"
+        },
+        {
+          "date": "2026/05",
+          "text": "A-T pivotal Ph3 IB1001-303 reported successful (company statement, no figures released); FDA accepts sNDA with Priority Review, PDUFA 2026/09/19"
+        },
+        {
+          "date": "2026/06",
+          "text": "Variation application for the A-T indication submitted to the EMA"
+        },
+        {
+          "date": "2026/08",
+          "text": "IB1001-304 (CACNA1A, incl. SCA6) actual start 2026/08/17, now recruiting"
         }
       ]
     },

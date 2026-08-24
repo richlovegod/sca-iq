@@ -1,5 +1,21 @@
 [
   {
+    "id": "icar-2026",
+    "name": "ICAR 2026 — International Congress for Ataxia Research (國際共濟失調研究大會)",
+    "date": "2026-11-10",
+    "dateDisplay": "2026/11/10–13",
+    "location": "美國亞特蘭大 Renaissance Atlanta Waverly",
+    "relevance": "<b>共濟失調領域最重要的專門研究大會</b>，由 NAF、FARA、Ataxia Global Initiative 與 Ataxia UK 四方共同主辦；基礎機轉、自然史世代、臨床評估量表與競品臨床數據集中發表於此。<b>對本社而言是 SCA 領域能見度與 KOL 接觸密度最高的單一場合</b>；註冊與摘要投稿自 2026/03/04 開放。",
+    "highlight": true,
+    "url": "https://ataxiacongress.org/",
+    "competitors": [],
+    "en": {
+      "name": "ICAR 2026 — International Congress for Ataxia Research",
+      "location": "Renaissance Atlanta Waverly, Atlanta, USA",
+      "relevance": "<b>The most important dedicated research congress in the ataxia field</b>, hosted jointly by NAF, FARA, the Ataxia Global Initiative and Ataxia UK; basic mechanism, natural history cohorts, clinical rating scales and competitor clinical data are all concentrated here. <b>For Steminent it is the single venue with the highest density of SCA visibility and KOL contact</b>. Registration and abstract submission opened 2026/03/04."
+    }
+  },
+  {
     "id": "bioasia-2026",
     "name": "BioAsia Taiwan — Cell Therapy Leadership Forum",
     "date": "2026-07-17",

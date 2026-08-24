@@ -1,5 +1,56 @@
 [
   {
+    "nct": "NCT06673056",
+    "drug": "Levacetylleucine（IB1001／AQNEURSA®，口服）",
+    "mechanism": "<b>已上市小分子的適應症延伸</b>：N-acetyl-L-leucine 為修飾胺基酸酯，口服顆粒劑（依體重 2–4 g/日）<br>同成分已以 AQNEURSA® 於 Niemann-Pick C 型上市，本案為向共濟失調適應症延伸",
+    "phase": "Ph3（樞紐；隨機、雙盲、安慰劑對照、交叉、四重盲）",
+    "status": "<b>已收案完畢（登錄狀態 Active, not recruiting）</b>。IB1001-303，實際起始 <b>2025/03/18</b>，登錄預計收案 <b>60 人</b>、4 歲以上基因確診之<b>毛細血管擴張性共濟失調（A-T）</b>病人，合格條件含 <b>SARA 7–34 分</b>；<b>主要指標為 SARA</b>（Period I 第 12 週 vs Period II 第 24 週），次要指標含 <b>SCAFI、ICARS、CGI、EQ-5D、NeuroQOL-UEF</b>；登錄 <b>11 站</b>（美國 UCLA／麻省總醫院／UT Health 休士頓，德國 Cologne／Giessen，斯洛伐克 Bratislava／Košice，西班牙馬德里 La Paz，瑞士 Bern，英國 Cambridge／Nottingham）。<b style=\"color:#ffce7a\">公司宣稱本試驗已達主要指標與全部關鍵次要指標</b>，並據以於 <b>2026/05/19</b> 獲 FDA 受理 sNDA＋優先審查、<b>PDUFA 行動日 2026/09/19</b>，另於 <b>2026/06</b> 向 EMA 遞交變更申請。⚠️ <b>登錄自 2025-07-03 起未再更新</b>，其登錄之主要完成日 2027/12/31 顯已與公司申請進度脫節，不可當成現況；⚠️ <b>公司僅稱「高度統計顯著」，未公開任何數值、p 值或效果量</b>，本站不代為推估。另公司新聞稿稱收案於 2025/05 啟動、<b>不到兩個月超額收案達 167%</b>、站點為 10 站，與登錄之起始日與站數略有出入，兩者並列不擇一。",
+    "sponsor": "IntraBio",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06673056",
+    "en": {
+      "drug": "Levacetylleucine (IB1001 / AQNEURSA®, oral)",
+      "mechanism": "<b>Label extension of an already-marketed small molecule</b>: N-acetyl-L-leucine, a modified amino-acid ester given as oral granules (2–4 g/day by weight tier)<br>the same molecule is marketed as AQNEURSA® for Niemann-Pick disease type C; this programme extends it into an ataxia indication",
+      "phase": "Ph3 (pivotal; randomised, double-blind, placebo-controlled, crossover, quadruple-masked)",
+      "status": "<b>Enrolment complete (registry status: active, not recruiting)</b>. IB1001-303 started <b>2025/03/18</b>, with a registered target of <b>60 patients</b> aged 4 and over with genetically confirmed <b>ataxia-telangiectasia (A-T)</b>, eligibility requiring a <b>SARA score of 7–34</b>; the <b>primary endpoint is SARA</b> (end of Period I, week 12, versus end of Period II, week 24), with SCAFI, ICARS, CGI, EQ-5D and NeuroQOL-UEF among the secondary endpoints; <b>11 sites</b> are registered (UCLA, Massachusetts General and UT Health Houston in the US; Cologne and Giessen in Germany; Bratislava and Košice in Slovakia; La Paz in Madrid; Bern in Switzerland; Cambridge and Nottingham in the UK). <b style=\"color:#ffce7a\">The company states the trial met its primary endpoint and all key secondary endpoints</b>, and on that basis the FDA accepted an sNDA with Priority Review on <b>2026/05/19</b>, setting a <b>PDUFA action date of 2026/09/19</b>; a variation application was submitted to the EMA in <b>2026/06</b>. ⚠️ <b>The registration has not been updated since 2025-07-03</b>, and its registered primary completion date of 2027/12/31 is plainly out of step with the company's filing progress, so it should not be read as current. ⚠️ <b>The company has claimed only 'high statistical significance' and has released no numbers, p-values or effect sizes</b>, which this site does not attempt to infer. The company's press release also describes enrolment as opening in 2025/05 and <b>over-enrolling to 167% in under two months</b> across 10 sites, which differs slightly from the registered start date and site count; both are reported here rather than choosing between them.",
+      "sponsor": "IntraBio"
+    }
+  },
+  {
+    "nct": "NCT05243017",
+    "drug": "AMT-130（歐洲試驗）",
+    "mechanism": "<b>AAV5 基因療法</b>：rAAV5-miHTT 經雙側紋狀體一次性給藥，以微小 RNA 降低總 huntingtin 表現<br>polyQ 疾病中唯一已進入後期的一次性 CNS 基因療法路線",
+    "phase": "Ph1b/2",
+    "status": "<b>收案結束、追蹤中（Active, not recruiting）</b>。此為 uniQure AMT-130 的<b>歐洲平行試驗</b>，與已收錄之美國試驗 NCT04120493 為同一資產的兩地登錄。隨機、雙盲、劑量探索，<b>實收 14 人</b>、早期顯性亨丁頓舞蹈症成人，起始 2021/10/07，站點在波蘭等歐洲國家；主要指標為安全性與耐受性，次要指標含 <b>CSF 突變型 huntingtin、神經絲輕鏈（NfL）、UHDRS、腦部 MRI 體積</b>。⚠️ <b>登錄自 2025-03-10 起未再更新</b>，狀態陳述以該日為準；本站收錄理由為 polyQ 圈層一次性基因療法的長期安全性與生物標記走勢，與本社細胞療法屬不同給藥典範。",
+    "sponsor": "uniQure Biopharma",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT05243017",
+    "en": {
+      "drug": "AMT-130 (European study)",
+      "mechanism": "<b>AAV5 gene therapy</b>: rAAV5-miHTT delivered once bilaterally into the striatum, lowering total huntingtin expression via a micro-RNA<br>the only one-time CNS gene therapy route to have reached late stage in a polyQ disease",
+      "phase": "Ph1b/2",
+      "status": "<b>Enrolment closed, in follow-up (active, not recruiting)</b>. This is the <b>European companion study</b> to uniQure's AMT-130 programme, registered separately from the US trial NCT04120493 already covered here. It is randomised, double-blind and dose-ranging, with an <b>actual enrolment of 14</b> adults with early manifest Huntington's disease, started 2021/10/07, at sites in Poland and elsewhere in Europe; the primary endpoints are safety and tolerability, with <b>CSF mutant huntingtin, neurofilament light chain (NfL), UHDRS and brain MRI volumetrics</b> among the secondary measures. ⚠️ <b>The registration has not been updated since 2025-03-10</b>, so the status statement should be read as of that date. It is recorded here for the long-term safety and biomarker trajectory of a one-time gene therapy in the polyQ ring, a delivery paradigm quite distinct from our own cell therapy.",
+      "sponsor": "uniQure Biopharma"
+    }
+  },
+  {
+    "nct": "NCT05445323",
+    "drug": "LX2006（Ph1a/1b）",
+    "mechanism": "<b>AAVrh.10 基因療法</b>：靜脈輸注遞送 FXN 基因，針對 Friedreich's ataxia 之<b>心肌病變</b>而非神經症狀<br>與同適應症的神經標的療法互補、非直接競爭",
+    "phase": "Ph1/2（劑量探索，開放標籤）",
+    "status": "<b>收案結束、追蹤中（Active, not recruiting）</b>。此為 Lexeo 的<b>首次人體劑量探索試驗</b>，是已收錄之 Ph2 試驗 NCT07721025 的前身資料來源。<b>實收 8 人</b>、低／中／高三劑量組，起始 2022/08/24，站點含加州大學共濟失調中心、南佛羅里達大學、Mayo Clinic；主要指標為不良事件與嚴重不良事件，次要指標含 <b>左心室質量指數（LVMi）、左心室射出分率（LVEF）、心臟 MRI 纖維化、心肺運動耐量</b>。⚠️ <b>登錄自 2025-12-23 起未再更新</b>；n=8 且無對照組，任何療效訊號皆屬探索性。",
+    "sponsor": "Lexeo Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT05445323",
+    "en": {
+      "drug": "LX2006 (Ph1a/1b)",
+      "mechanism": "<b>AAVrh.10 gene therapy</b>: an intravenous infusion delivering the FXN gene, aimed at the <b>cardiomyopathy</b> of Friedreich's ataxia rather than its neurological features<br>complementary to, rather than directly competing with, neurologically targeted therapies in the same indication",
+      "phase": "Ph1/2 (open-label dose-ranging)",
+      "status": "<b>Enrolment closed, in follow-up (active, not recruiting)</b>. This is Lexeo's <b>first-in-human dose-ranging study</b> and the source of the data underpinning the Phase 2 trial NCT07721025 already covered here. <b>Actual enrolment was 8</b> across low, mid and high dose cohorts, started 2022/08/24, at sites including the University of California ataxia centre, the University of South Florida and the Mayo Clinic; the primary endpoints are adverse events and serious adverse events, with <b>left ventricular mass index (LVMi), left ventricular ejection fraction (LVEF), cardiac MRI fibrosis and cardiopulmonary exercise tolerance</b> among the secondary measures. ⚠️ <b>The registration has not been updated since 2025-12-23</b>; with n=8 and no control arm, any efficacy signal is exploratory.",
+      "sponsor": "Lexeo Therapeutics"
+    }
+  },
+  {
     "nct": "NCT07778836",
     "drug": "Nomlabofusp（皮下注射）",
     "mechanism": "<b>蛋白替代療法</b>：外源性 frataxin 融合蛋白經皮下給藥，補足 FXN 基因擴增所導致的 frataxin 缺乏<br>設計目的為直接回補致病蛋白，而非下游抗氧化",
