@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-25",
+    "dateDisplay": "2026/08/25",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "<b>新增 2 則科學文獻</b>：① <b>默沙東（Merck & Co.）的 ATXN2 剪接調控 ASO</b>（Neurobiol Dis，2026/08/24）——找出 ATXN2 內含子 8 的替代 5' 剪接位，以 ASO 促進該剪接造成框移、藉此降低 Ataxin-2 蛋白，於人類細胞模型減少 TDP-43 聚集與壓力顆粒、於 rNLS8 小鼠改善 TDP-43 病理。<b>ATXN2 正是 SCA2 致病基因、也是 Arrowhead ARO-ATXN2（siRNA、Ph1 NCT06672445）的標的</b>，顯示大藥廠亦投入 Ataxin-2 降解、但採剪接調控 ASO 而非 RNAi。⚠️ <b>本案適應症是 ALS 不是 SCA2，且停在臨床前</b>，默沙東未公開任何 SCA2／共濟失調開發計畫，未據此新增競品。② <b>332 顆大腦的小腦退化屍檢比較</b>（Cerebellum，2026/08/25，UT Southwestern／哥倫比亞大學）——原發性顫抖症 178、<b>SCA 56</b>、Friedreich's ataxia 13、對照 85；浦金氏細胞線性密度與空籃比例在所有組別（含對照）皆顯著負相關但強度各異，籃狀細胞叢評級僅在部分疾病相關。⚠️ 摘要未細分 SCA 亞型、亦未區分 polyQ 與非 polyQ，且屬死後神經病理、非臨床療效終點。<b>本次掃描的其餘結果</b>：CT.gov 五組適應症查詢窗內<b>均無平台未收錄的新療法試驗</b>——SCA 組最新命中為 NCT07778836（08/21）、NCT07221292（08/20），皆已收錄；Friedreich、polyglutamine、episodic ataxia／CACNA1A 三組無新案；SBMA 組一如既往由前列腺癌與 SMA 的字面命中主導，依準則排除。PubMed 近 4–5 天另有 3 筆命中，逐筆檢視後不予收錄（SCYL1 嬰兒肝衰竭病例報告、亨丁頓舞蹈症初級纖毛機轉綜述、GDAP2 相關 SCA 單一病例報告），均非 polyQ／SCA 療法進展。Biohaven troriluzole 仍停在 2025-11-04 的 CRL；Steminent、Vico、Arrowhead、IntraBio、PTC 等在窗內未見新公開新聞稿。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "<b>Two papers added.</b> (i) <b>A splice-modulating ASO against ATXN2 from Merck & Co.</b> (Neurobiol Dis, 2026/08/24) — the team identified an alternative 5' splice site in intron 8 of ATXN2 and used ASOs to promote that splicing, producing a frameshift that lowers Ataxin-2 protein; this reduced TDP-43 aggregation and stress granule formation in human cell models and ameliorated TDP-43 pathology in rNLS8 mice. <b>ATXN2 is the causative gene in SCA2 and the target of Arrowhead's ARO-ATXN2 (siRNA, Phase 1, NCT06672445)</b>, so large pharma is working on Ataxin-2 lowering too, though via splice modulation rather than RNAi. ⚠️ <b>The indication here is ALS, not SCA2, and the work is preclinical</b>; Merck has disclosed no SCA2 or ataxia programme, so no competitor entry was added on this basis. (ii) <b>A comparative postmortem study of 332 brains in cerebellar degeneration</b> (Cerebellum, 2026/08/25, UT Southwestern / Columbia) — 178 essential tremor, <b>56 SCA</b>, 13 Friedreich's ataxia and 85 controls; Purkinje cell linear density correlated negatively with the percentage of empty baskets in every group including controls, though to differing degrees, while basket plexus rating was associated with the other metrics only in some diseases. ⚠️ The abstract gives no SCA subtype breakdown and does not separate polyQ from non-polyQ forms, and this is postmortem neuropathology rather than a clinical efficacy endpoint. <b>Remaining coverage of this scan</b>: none of the five ClinicalTrials.gov condition queries returned <b>a therapeutic trial in the window that the platform did not already hold</b> — the leading SCA hits NCT07778836 (08/21) and NCT07221292 (08/20) are both already covered; the Friedreich, polyglutamine and episodic ataxia/CACNA1A sets returned nothing new; and the SBMA set was once again dominated by prostate cancer and SMA studies matching on the word 'atrophy', excluded under the criteria. PubMed returned three further hits over the last 4–5 days, all reviewed and excluded (a SCYL1 infantile liver failure case report, a review of primary cilium dysfunction in Huntington's disease, and a single case report of GDAP2-related SCA), none of them an advance in polyQ or SCA therapy. Biohaven's troriluzole remains where it was at the 2025-11-04 CRL, and no new public press releases were found for Steminent, Vico, Arrowhead, IntraBio or PTC within the window.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-24",
     "dateDisplay": "2026/08/24",
     "tag": "每週點名查核 · 重大補收",

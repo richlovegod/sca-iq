@@ -1,5 +1,41 @@
 [
   {
+    "id": "pubmed:42640356",
+    "date": "2026-08-25",
+    "dateDisplay": "2026/08/25",
+    "title": "Purkinje Cell Loss and Changes in Basket Cell Morphology in Essential Tremor and Other Cerebellar Degenerative Diseases: A Postmortem Study of 332 Brains",
+    "journal": "Cerebellum · Wainman E 等（美國德州大學西南醫學中心神經科／哥倫比亞大學病理與細胞生物學系，通訊作者 Louis ED）",
+    "tag": "神經病理 · 浦金氏細胞指標",
+    "note": "→ 迄今規模最大的小腦退化屍檢比較研究之一，<b>332 顆大腦</b>：原發性顫抖症 178、<b>各型脊髓小腦失調症 56</b>、Friedreich's ataxia 13、對照 85。量三個指標——浦金氏細胞線性密度、<b>空籃（empty baskets）比例</b>、籃狀細胞叢評級（軸突增生程度）。結果：<b>所有組別</b>（含對照腦）中浦金氏細胞密度與空籃比例都呈顯著負相關，但相關強度各病不同；籃狀細胞叢評級則只在部分疾病中與另兩者相關。作者結論是這三個指標跨小腦退化疾病彼此相關、但關係並不一致。⚠️ 摘要<b>未提供 SCA 各亞型的細分數據</b>，也未區分 polyQ 與非 polyQ；這是死後神經病理，<b>不是臨床療效終點</b>，不可直接當成療效替代指標解讀。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42640356/",
+    "urlLabel": "論文 ↗ PubMed 42640356",
+    "en": {
+      "tag": "Neuropathology · Purkinje cell metrics",
+      "journal": "Cerebellum · Wainman E et al. (Department of Neurology, UT Southwestern Medical Center / Department of Pathology and Cell Biology, Columbia University; corresponding author Louis ED)",
+      "note": "→ One of the largest comparative postmortem series in cerebellar degeneration to date, covering <b>332 brains</b>: 178 essential tremor, <b>56 spinocerebellar ataxias of various types</b>, 13 Friedreich's ataxia and 85 controls. Three metrics were scored — Purkinje cell linear density, <b>percentage of empty baskets</b>, and basket plexus rating (a measure of basket cell axonal hypertrophy). Purkinje cell density correlated significantly and negatively with the percentage of empty baskets in <b>every group</b>, control brains included, though to differing degrees; basket plexus rating was associated with the other two only in some of the diseases. The authors conclude the three metrics are related across cerebellar degenerative conditions but that their relationships with one another are variable. ⚠️ The abstract <b>gives no breakdown by SCA subtype</b> and does not separate polyQ from non-polyQ forms; this is postmortem neuropathology, <b>not a clinical efficacy endpoint</b>, and should not be read as a surrogate measure of treatment effect.",
+      "urlLabel": "Paper ↗ PubMed 42640356"
+    }
+  },
+  {
+    "id": "pubmed:42637106",
+    "date": "2026-08-24",
+    "dateDisplay": "2026/08/24",
+    "title": "Splicing modulation of ATXN2 as a therapeutic strategy to regulate Ataxin-2 protein levels in ALS",
+    "journal": "Neurobiol Dis · Heinsinger N 等（默沙東 Merck & Co. 神經科學／探索基因體學／化學／定量生物學部門，通訊作者 Tian Y）",
+    "tag": "ATXN2 降解 · 剪接調控 ASO（臨床前）",
+    "note": "→ <b>默沙東（Merck）團隊</b>提出降低 Ataxin-2 蛋白的新路線：以生物資訊找出 <b>ATXN2 內含子 8 的替代 5' 剪接位</b>，該剪接會在 Exon 8 之後多出 47 個鹼基、造成框移而降低 mRNA 與蛋白量；再以 ASO micro-walk 篩出能<b>促進</b>此替代剪接的反義寡核苷酸，於人類細胞模型中確認可降低 Ataxin-2、並減少 TDP-43 聚集與壓力顆粒形成，於 rNLS8 小鼠中改善 TDP-43 病理。→ 與本領域的關聯：<b>ATXN2 正是 SCA2 的致病基因，也是 Arrowhead ARO-ATXN2（siRNA、SCA2、Ph1 NCT06672445）的標的</b>，本研究顯示大藥廠亦在投入 ATXN2 降解，但用的是<b>剪接調控型 ASO</b>而非 RNAi，屬另一種模態。⚠️ 必須清楚區分：<b>本案適應症是 ALS（肌萎縮性側索硬化症）、不是 SCA2</b>，且<b>停在臨床前</b>（細胞模型＋小鼠），默沙東迄今未公開任何 SCA2 或共濟失調的開發計畫，不可據此推論其將進入 SCA 領域。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42637106/",
+    "urlLabel": "論文 ↗ PubMed 42637106",
+    "en": {
+      "tag": "ATXN2 lowering · splice-modulating ASO (preclinical)",
+      "journal": "Neurobiol Dis · Heinsinger N et al. (Neuroscience, Discovery Genomics, Chemistry and Quantitative Biology, Merck & Co., Inc.; corresponding author Tian Y)",
+      "note": "→ A <b>Merck & Co. team</b> proposes a new route to lowering Ataxin-2 protein: bioinformatic analysis identified an <b>alternative 5' splice site in intron 8 of ATXN2</b>, which adds 47 base pairs after Exon 8 and produces a frameshift that reduces mRNA and, in turn, protein levels. An ASO micro-walk then identified antisense oligonucleotides that <b>promote</b> this alternative splicing; these lowered Ataxin-2 in human cell assays and reduced TDP-43 aggregation and stress granule formation, while ASO delivery ameliorated TDP-43 pathology in rNLS8 mice. → Relevance to this field: <b>ATXN2 is the causative gene in SCA2 and the target of Arrowhead's ARO-ATXN2 (siRNA, SCA2, Phase 1, NCT06672445)</b>, so this shows large-pharma interest in Ataxin-2 lowering as well — but via a <b>splice-modulating ASO</b> rather than RNAi, a different modality. ⚠️ Two limits must be kept clear: the <b>indication here is ALS, not SCA2</b>, and the work is <b>entirely preclinical</b> (cell models plus mice). Merck has disclosed no SCA2 or ataxia programme, and nothing here supports inferring that it will enter the SCA field.",
+      "urlLabel": "Paper ↗ PubMed 42637106"
+    }
+  },
+  {
     "id": "pubmed:42631841",
     "date": "2026-08-22",
     "dateDisplay": "2026/08/22",
