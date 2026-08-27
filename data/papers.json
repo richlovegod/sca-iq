@@ -1,5 +1,23 @@
 [
   {
+    "id": "pubmed:42653351",
+    "date": "2026-08-17",
+    "dateDisplay": "2026/08/17",
+    "title": "Recent Advances in Therapy for the Neurodegenerative Disorder Ataxia-Telangiectasia",
+    "journal": "Int J Mol Sci 第 27 卷第 16 期 7347 · Nayler S、Foster S、Lavin M、Coman D（澳洲；Lavin MF 為 1995 年 ATM 基因鑑定的原始發現者之一）· doi:10.3390/ijms27167347",
+    "tag": "綜述 · 共濟失調微血管擴張症（A-T）療法盤點",
+    "note": "→ <b>本篇是綜述（review），不含新的原始數據</b>。作者盤點 <b>共濟失調微血管擴張症（ataxia-telangiectasia, A-T）</b>——由 <b>ATM 基因</b>突變引起、目前<b>無治癒性療法</b>的體染色體隱性神經退化疾病，病理機轉涵蓋 DNA 損傷反應缺陷、氧化壓力、粒線體功能失常與免疫缺乏——的各條治療路線：粒線體支持與抗發炎策略、<b>基因治療</b>、<b>針對特定突變的反義寡核苷酸（ASO）</b>，以及處理多系統症狀的小分子藥物。作者特別指出<b>基因治療的主流載體 AAV 受限於 ATM 基因本身過大</b>（ATM cDNA 約 9.2 kb，超過 AAV 約 4.7 kb 的包裝上限），這是該路線的關鍵瓶頸。→ 與本平台的關聯：A-T 屬<b>鄰近共濟失調圈層（ring: ataxia）</b>，平台已追蹤三條相關資產——<b>IntraBio levacetylleucine（AQNEURSA）</b>的 A-T sNDA 已獲優先審查、<b>PDUFA 目標日 2026-09-19</b>；<b>Quince Therapeutics EryDex</b>（NCT06193200 Ph3 已完成、NCT06664853 開放標籤延伸已終止）；以及 <b>Timothy Yu 的突變特異性 ASO（NCT07215416，Ph1/2 收案中）</b>——本文正好提供這幾條路線的機轉背景與各自限制。⚠️ <b>限制</b>：屬敘事性綜述、非系統性回顧或統合分析，<b>未提供任何新的療效數字或試驗讀出</b>；文中所述多數療法仍在臨床前或早期臨床階段。<b>A-T 不是 polyQ 疾病</b>，其機轉與仲恩 Stemchymal 所針對的 polyQ SCA 無直接關係，不可據此外推。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42653351/",
+    "urlLabel": "論文 ↗ PubMed 42653351",
+    "en": {
+      "tag": "Review · therapeutic landscape in ataxia-telangiectasia (A-T)",
+      "journal": "Int J Mol Sci, vol. 27 no. 16, 7347 · Nayler S, Foster S, Lavin M, Coman D (Australia; Lavin MF was among those who originally identified the ATM gene in 1995) · doi:10.3390/ijms27167347",
+      "note": "→ <b>This is a review and contains no new primary data.</b> The authors survey the therapeutic routes being pursued in <b>ataxia-telangiectasia (A-T)</b> — an autosomal recessive neurodegenerative disorder caused by mutations in the <b>ATM gene</b>, with <b>no curative treatment at present</b>, whose pathogenesis spans a defective DNA damage response, oxidative stress, mitochondrial dysfunction and immune deficiency. Routes covered include mitochondrial support and anti-inflammatory strategies, <b>gene therapy</b>, <b>antisense oligonucleotides directed at specific mutations</b>, and small molecules addressing the disease's multi-system effects. The authors single out the fact that <b>the leading gene therapy vector, AAV, is hampered by the sheer size of the ATM gene</b> (the ATM cDNA runs to roughly 9.2 kb, well beyond AAV's packaging limit of about 4.7 kb) — the key bottleneck for that route. → Relevance to this platform: A-T sits in the <b>adjacent ataxia ring</b>, and three related assets are already tracked here — <b>IntraBio's levacetylleucine (AQNEURSA)</b>, whose A-T sNDA holds Priority Review with a <b>PDUFA target date of 2026-09-19</b>; <b>Quince Therapeutics' EryDex</b> (Phase 3 NCT06193200 completed, open-label extension NCT06664853 terminated); and <b>Timothy Yu's mutation-targeted ASO (NCT07215416, Phase 1/2, recruiting)</b> — for which this paper supplies the mechanistic background and the limits of each approach. ⚠️ <b>Limitations</b>: this is a narrative review rather than a systematic review or meta-analysis, and it <b>reports no new efficacy figures or trial readouts</b>; most of the therapies discussed remain preclinical or in early clinical development. <b>A-T is not a polyQ disease</b>, and its mechanism bears no direct relation to the polyQ SCAs that Steminent's Stemchymal targets, so nothing here extrapolates to them.",
+      "urlLabel": "Paper ↗ PubMed 42653351"
+    }
+  },
+  {
     "id": "pubmed:42640356",
     "date": "2026-08-25",
     "dateDisplay": "2026/08/25",

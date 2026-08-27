@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-27",
+    "dateDisplay": "2026/08/27",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "<b>本次為補掃</b>：上次成功發布為 2026-08-25，<b>08-26 當日排程未執行</b>，故本次一併回補 08-26～08-27 兩天的窗期（PubMed 以 reldate=4 拉長、CT.gov 以 LastUpdatePostDate 範圍檢視）。<b>新增 1 則科學文獻</b>：<b>共濟失調微血管擴張症（A-T）療法進展綜述</b>（Int J Mol Sci，2026/08/17，澳洲 Nayler／Lavin／Coman 等；Lavin MF 為 ATM 基因原始發現者之一）——盤點 A-T 目前各條治療路線：粒線體支持與抗發炎、基因治療、突變特異性 ASO、多系統症狀的小分子；並指出<b>基因治療的關鍵瓶頸在於 ATM 基因過大（cDNA 約 9.2 kb），超出 AAV 約 4.7 kb 的包裝上限</b>。收錄理由是 A-T 屬平台的鄰近共濟失調圈層，且平台已追蹤三條相關資產（IntraBio levacetylleucine A-T sNDA、PDUFA 2026-09-19；Quince EryDex；Timothy Yu 的 ASO NCT07215416）。⚠️ <b>屬綜述、無新療效數字</b>，且 <b>A-T 不是 polyQ 疾病</b>，與仲恩 Stemchymal 所針對的 polyQ SCA 無直接機轉關聯。<b>本次掃描的其餘結果</b>：CT.gov 五組適應症查詢在窗內<b>無平台未收錄的新療法試驗</b>——SCA 組窗內唯一異動為 NCT02741440（美國國家眼科研究所 NEI 的 SCA7 自然史研究，08/27 更新），屬觀察性自然史研究，依 §1b 準則排除；Friedreich、polyglutamine、episodic ataxia／CACNA1A 三組窗內無新案（最新命中 NCT07778836 08/21、NCT07221292 08/20，皆已收錄）；SBMA 組窗內唯一異動 NCT04090528 為前列腺癌試驗，依準則排除。另以註冊日排序做 §1b 廣掃，前 25 筆的療法型試驗<b>全數已在 trials.json</b>。PubMed 窗內僅此 1 筆命中。公司新聞面：Biohaven troriluzole 仍停在 2025-11-04 的 CRL；REPROCELL 的日本查驗登記（2026-06）、IntraBio 的 PDUFA 日期均為平台既有紀錄，窗內未見新事實；Steminent、Vico、Arrowhead、安基、PTC、Larimar 等窗內無新公開新聞稿。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "<b>This scan is a catch-up.</b> The last successful publication was 2026-08-25 and <b>the scheduled run did not execute on 08-26</b>, so this pass covers the 08-26 to 08-27 window in one go (PubMed widened via reldate=4, ClinicalTrials.gov reviewed across the LastUpdatePostDate range). <b>One paper added</b>: a <b>review of recent therapeutic advances in ataxia-telangiectasia (A-T)</b> (Int J Mol Sci, 2026/08/17, Nayler / Lavin / Coman et al., Australia; Lavin MF was among those who originally identified the ATM gene). It surveys the routes currently pursued in A-T — mitochondrial support and anti-inflammatory strategies, gene therapy, mutation-targeted ASOs, and small molecules for the multi-system features — and identifies the <b>central bottleneck for gene therapy as the size of the ATM gene itself (cDNA around 9.2 kb), which exceeds AAV's packaging limit of roughly 4.7 kb</b>. It was included because A-T sits in the platform's adjacent ataxia ring and three related assets are already tracked here (IntraBio's levacetylleucine A-T sNDA with a PDUFA date of 2026-09-19; Quince's EryDex; and Timothy Yu's ASO, NCT07215416). ⚠️ It is <b>a review carrying no new efficacy figures</b>, and <b>A-T is not a polyQ disease</b> — there is no direct mechanistic link to the polyQ SCAs that Steminent's Stemchymal targets. <b>Remaining coverage of this scan</b>: none of the five ClinicalTrials.gov condition queries returned <b>a therapeutic trial in the window not already held by the platform</b>. The only change in the SCA set was NCT02741440, the National Eye Institute's SCA7 natural history study (updated 08/27), an observational natural history study excluded under the section 1b criteria; the Friedreich, polyglutamine and episodic ataxia/CACNA1A sets returned nothing new in the window (their leading hits, NCT07778836 of 08/21 and NCT07221292 of 08/20, are both already covered); and the sole change in the SBMA set, NCT04090528, is a prostate cancer trial and was excluded. A separate section 1b sweep sorted by registration date found that <b>every therapeutic trial among the newest 25 is already in trials.json</b>. PubMed returned this single hit for the window. On the corporate news side, Biohaven's troriluzole remains where it was at the 2025-11-04 Complete Response Letter; REPROCELL's Japanese marketing application (2026-06) and IntraBio's PDUFA date are both existing platform records with no new facts in the window; and no new public press releases were found for Steminent, Vico, Arrowhead, AnnJi, PTC or Larimar.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-25",
     "dateDisplay": "2026/08/25",
     "tag": "每日掃描",
