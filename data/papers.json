@@ -1,5 +1,23 @@
 [
   {
+    "id": "pubmed:42656169",
+    "date": "2026-08-27",
+    "dateDisplay": "2026/08/27",
+    "title": "Biallelic VPS41 Variants in Autosomal Recessive Spinocerebellar Ataxia 29 Resolved by Long-Read Sequencing and RNA Analysis",
+    "journal": "Mol Genet Genomic Med 第 14 卷第 9 期 e70285 · Nakamura N 等（日本；愛知縣心身障害者中央病院小兒科、名古屋大學環境醫學研究所遺傳學部門／醫學系人類遺傳學、新潟大學等 11 個單位聯合，通訊作者 Ogi T）· doi:10.1002/mgg3.70285",
+    "tag": "診斷技術 · 長讀定序解出隱性 SCA（SCAR29／VPS41）",
+    "note": "→ <b>單一病例報告</b>：一名 24 歲患者，短讀定序無法定案，改用<b>長讀定序（long-read sequencing）加 RNA 分析</b>後才確認為 <b>VPS41 雙等位基因（biallelic）變異</b>所致的<b>體染色體隱性脊髓小腦失調症第 29 型（SCAR29）</b>。機轉是<b>兩個等位基因各自造成互補的剪接缺陷（complementary splicing defects）</b>，合併使 VPS41 表現量下降；作者並據此擴充了該症已知的表現型範圍。→ 與本平台的關聯：<b>這是診斷方法學的訊號，不是療法</b>。SCAR29 屬<b>體染色體隱性</b>、致病機轉為 VPS41 功能喪失，<b>與仲恩 Stemchymal 所針對的 polyQ 型顯性 SCA 完全不同類</b>，兩者不可互相外推。其參考價值在於：<b>常規短讀定序會漏掉的剪接層次變異，需要長讀定序＋RNA 分析才能解出</b>——這對任何以基因型分層收案的 SCA 試驗（含本社與競品）都是收案篩選端的方法學提醒。⚠️ <b>限制</b>：<b>n＝1 的病例報告</b>，無族群層級的盛行率或檢出率數據，<b>不含任何療效或介入內容</b>；日本單一國家的案例，是否適用於其他族群未知。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42656169/",
+    "urlLabel": "論文 ↗ PubMed 42656169",
+    "en": {
+      "tag": "Diagnostics · long-read sequencing resolves a recessive SCA (SCAR29 / VPS41)",
+      "journal": "Mol Genet Genomic Med, vol. 14 no. 9, e70285 · Nakamura N et al. (Japan; a collaboration across 11 institutions including the Department of Pediatrics at Aichi Developmental Disability Center Central Hospital, the Department of Genetics at Nagoya University's Research Institute of Environmental Medicine and its Graduate School of Medicine, and Niigata University; corresponding author Ogi T) · doi:10.1002/mgg3.70285",
+      "note": "→ <b>A single case report.</b> A 24-year-old patient went undiagnosed on short-read sequencing; only <b>long-read sequencing combined with RNA analysis</b> established the cause as <b>biallelic VPS41 variants</b> giving rise to <b>autosomal recessive spinocerebellar ataxia type 29 (SCAR29)</b>. The mechanism is <b>complementary splicing defects</b> carried by the two alleles, which together reduce VPS41 expression; on the strength of this case the authors also widen the phenotypic spectrum recorded for the condition. → Relevance to this platform: <b>this is a signal about diagnostic method, not about therapy.</b> SCAR29 is <b>autosomal recessive</b> and driven by loss of VPS41 function, which puts it in <b>an entirely different class from the dominant polyQ SCAs that Steminent's Stemchymal targets</b> — nothing extrapolates between the two. What is worth noting is that <b>splice-level variants that routine short-read sequencing misses require long-read sequencing plus RNA analysis to resolve</b> — a methodological reminder at the screening end for any SCA trial that stratifies enrolment by genotype, Steminent's and its competitors' alike. ⚠️ <b>Limitations</b>: an <b>n = 1 case report</b>, with no population-level prevalence or diagnostic-yield figures and <b>no therapeutic or interventional content whatsoever</b>; it rests on a single case from Japan, and whether the finding generalises to other populations is unknown.",
+      "urlLabel": "Paper ↗ PubMed 42656169"
+    }
+  },
+  {
     "id": "pubmed:42653351",
     "date": "2026-08-17",
     "dateDisplay": "2026/08/17",
