@@ -1,5 +1,23 @@
 [
   {
+    "id": "pubmed:42666931",
+    "date": "2026-08-27",
+    "dateDisplay": "2026/08/27",
+    "title": "ATXN2 Spectrum Disorders: Genetic Complexity Beyond Dominant Inheritance",
+    "journal": "Neurol Genet 第 12 卷第 5 期 e200428 · Laffita-Mesa JM、Paucar M、Svenningsson P（瑞典卡羅林斯卡學院臨床神經科學系、神經生物學／照護科學與社會系）· doi:10.1212/NXG.0000000000200428",
+    "tag": "SCA2 遺傳學 · ATXN2 不只是顯性功能獲得",
+    "note": "→ <b>本篇是評論／分析文章（commentary），不含新的原始數據</b>，是針對 <b>Saucier 等人</b>近期報告的一個<b>阿卡迪亞（Acadian）家系呈現隱性遺傳型 ATXN2 相關疾病</b>所寫的延伸論述。作者指出 <b>ATXN2</b> 的遺傳複雜度已超出既有框架：該基因最初被歸為<b>體染色體顯性的第 2 型脊髓小腦失調症（SCA2）</b>致病基因，其 <b>CAG 重複擴增</b>後來又被確立為<b>肌萎縮性側索硬化症（ALS）的主要風險因子</b>；而這個隱性家系「<b>挑戰了長期以來『ATXN2 疾病主要由顯性、功能獲得（gain-of-function）機轉驅動』的假設</b>」。作者分析 ATXN2 的<b>遺傳模式可能因三項因素而改變</b>——<b>重複序列插斷（repeat interruptions）</b>、<b>體細胞鑲嵌（somatic mosaicism）</b>、<b>基因劑量（gene dosage）</b>——並主張<b>在特定情境下「功能喪失（loss-of-function）」機轉也參與致病</b>，因此在疾病分類、遺傳諮詢與治療策略上都<b>需要基因型分層（genetic stratification）</b>。→ 與本平台的關聯：<b>ATXN2 正是 Arrowhead ARO-ATXN2 的標的</b>（SCA2 的 siRNA 降解療法，Ph1 NCT06672445，含台北榮總站點，登錄狀態為 Active, not recruiting）。<b>若 ATXN2 在部分病人身上是以功能喪失致病，則「把 ATXN2 表現量降下來」的策略在那些族群未必成立</b>——這正是本文「需要基因型分層」主張對降解類療法（siRNA／ASO）的直接意涵。⚠️ <b>限制</b>：本文為<b>評論性論述、非原始研究</b>，其立論基礎是<b>單一家系</b>的報告，<b>沒有任何族群層級的頻率數據，也沒有任何療效或試驗資料</b>；文中所述「功能喪失參與致病」是<b>作者提出的假說而非已證實的結論</b>，不可當成既成事實。另注意 <b>Biogen／Ionis 的 BIIB105（ION541）是 ATXN2／ALS 案、不是 SCA 案</b>，兩者不可混用。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42666931/",
+    "urlLabel": "論文 ↗ PubMed 42666931",
+    "en": {
+      "tag": "SCA2 genetics · ATXN2 is not only dominant gain-of-function",
+      "journal": "Neurol Genet, vol. 12 no. 5, e200428 · Laffita-Mesa JM, Paucar M, Svenningsson P (Karolinska Institutet, Sweden; Department of Clinical Neuroscience and Department of Neurobiology, Care Sciences and Society) · doi:10.1212/NXG.0000000000200428",
+      "note": "→ <b>This is a commentary and carries no new primary data.</b> It is written around a recent report by <b>Saucier et al.</b> of an <b>Acadian family showing a recessive inheritance pattern of ATXN2-related disease</b>. The authors argue that the genetic complexity of <b>ATXN2</b> has outgrown the existing framework: the gene was first tied to <b>autosomal dominant spinocerebellar ataxia type 2 (SCA2)</b>, and its <b>CAG expansions</b> were later established as <b>a major risk factor for amyotrophic lateral sclerosis (ALS)</b> — and now this recessive family <b>challenges the long-held assumption that ATXN2 disease is driven predominantly by a dominant, gain-of-function mechanism</b>. They analyse how the <b>mode of inheritance may shift</b> according to three factors — <b>repeat interruptions</b>, <b>somatic mosaicism</b> and <b>gene dosage</b> — and propose that <b>loss-of-function mechanisms contribute to pathogenesis in certain contexts</b>, which in turn calls for <b>genetic stratification</b> in disease classification, genetic counselling and therapeutic strategy. → Relevance to this platform: <b>ATXN2 is precisely the target of Arrowhead's ARO-ATXN2</b> (siRNA knockdown for SCA2, Phase 1 NCT06672445, sites including Taipei Veterans General Hospital, registered as Active, not recruiting). <b>If ATXN2 acts through loss of function in some patients, then a strategy of lowering ATXN2 expression does not necessarily hold for those groups</b> — which is the direct implication of the paper's call for genetic stratification for knockdown modalities (siRNA and ASO alike). ⚠️ <b>Limitations</b>: this is <b>commentary rather than primary research</b>, resting on the report of <b>a single family</b>, with <b>no population-level frequency data and no efficacy or trial data of any kind</b>; the claim that loss of function contributes to pathogenesis is <b>a hypothesis the authors advance, not an established conclusion</b>, and should not be treated as settled. Note also that <b>Biogen/Ionis' BIIB105 (ION541) is an ATXN2/ALS programme, not an SCA one</b> — the two must not be conflated.",
+      "urlLabel": "Paper ↗ PubMed 42666931"
+    }
+  },
+  {
     "id": "pubmed:42656169",
     "date": "2026-08-27",
     "dateDisplay": "2026/08/27",

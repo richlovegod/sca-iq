@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-29",
+    "dateDisplay": "2026/08/29",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "<b>新增 1 則科學文獻</b>：<b>ATXN2 的遺傳複雜度超出顯性框架</b>（<i>Neurol Genet</i> 12(5):e200428，瑞典卡羅林斯卡學院 Laffita-Mesa JM、Paucar M、Svenningsson P，doi:10.1212/NXG.0000000000200428）。本篇為<b>評論／分析文章、非原始研究</b>，係針對 Saucier 等人報告的一個<b>阿卡迪亞家系呈現隱性遺傳型 ATXN2 相關疾病</b>所寫。作者指出 ATXN2 最初被歸為<b>顯性 SCA2</b> 致病基因、其 CAG 擴增後又成為 <b>ALS 的主要風險因子</b>，而該隱性家系<b>挑戰了「ATXN2 疾病主由顯性功能獲得驅動」的長期假設</b>；並主張遺傳模式可能因<b>重複序列插斷、體細胞鑲嵌、基因劑量</b>三項因素而改變，<b>功能喪失機轉在特定情境下亦參與致病</b>，因此疾病分類、遺傳諮詢與治療策略都<b>需要基因型分層</b>。收錄理由：<b>ATXN2 正是 Arrowhead ARO-ATXN2 的標的</b>（SCA2 siRNA，Ph1 NCT06672445，含台北榮總站點）——若部分病人是以功能喪失致病，「降低 ATXN2 表現量」的策略在那些族群未必成立。⚠️ 立論基礎為<b>單一家系</b>，<b>無族群層級頻率數據、無任何療效或試驗資料</b>，功能喪失致病屬<b>作者假說而非已證實結論</b>；另註明 <b>Biogen／Ionis BIIB105（ION541）為 ATXN2／ALS 案、非 SCA 案</b>，不可混用。<b>本次掃描的其餘結果</b>：CT.gov 五組適應症查詢<b>無平台未收錄的新療法試驗</b>——SCA 組窗內異動的 NCT02741440（美國 NEI 的 SCA7 自然史）與 NCT00018889（NINDS 動作障礙表現型／基因型相關性研究）皆屬<b>觀察性研究</b>，依 §1b 準則排除；Friedreich、polyglutamine、SBMA、episodic ataxia／CACNA1A 四組窗內均無新案（最新命中 NCT07778836、NCT07180355、NCT07221292 皆已收錄，SBMA 組命中仍以前列腺癌試驗為主、已逐筆排除）。PubMed 窗內 2 筆命中，除本次收錄者外 PMID 42653351 已收錄。公司新聞面：<b>Biohaven troriluzole</b> 仍停在 2025-11-04 的 CRL；<b>Steminent／REPROCELL</b> 仍為 2026-06-24 日本上市許可申請審查中、美國 Ph2 首例收案預計 2026-09 前完成；Vico、Arrowhead／Sarepta、安基、PTC、Larimar、IntraBio、Lexeo、Solid 窗內均無新的公開里程碑。",
+    "link": {
+      "label": "詳見 文獻雷達 ↗",
+      "tab": "si",
+      "anchor": "litradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "<b>Added 1 scientific paper</b>: <b>the genetic complexity of ATXN2 reaches beyond a dominant framework</b> (<i>Neurol Genet</i> 12(5):e200428; Laffita-Mesa JM, Paucar M, Svenningsson P, Karolinska Institutet, Sweden; doi:10.1212/NXG.0000000000200428). The piece is <b>a commentary, not primary research</b>, written around Saucier et al.'s report of an <b>Acadian family showing a recessive inheritance pattern of ATXN2-related disease</b>. The authors note that ATXN2 was first tied to <b>dominant SCA2</b> and that its CAG expansions later emerged as <b>a major risk factor for ALS</b>, and that this recessive family <b>challenges the long-held assumption that ATXN2 disease is driven predominantly by dominant gain-of-function</b>. They argue the mode of inheritance may shift with <b>repeat interruptions, somatic mosaicism and gene dosage</b>, that <b>loss-of-function mechanisms contribute to pathogenesis in certain contexts</b>, and that disease classification, genetic counselling and therapeutic strategy therefore all require <b>genetic stratification</b>. Why it is here: <b>ATXN2 is exactly the target of Arrowhead's ARO-ATXN2</b> (siRNA for SCA2, Phase 1 NCT06672445, with a site at Taipei Veterans General Hospital) — if some patients are driven by loss of function, lowering ATXN2 expression does not necessarily hold for them. ⚠️ The argument rests on <b>a single family</b>, with <b>no population-level frequency data and no efficacy or trial data</b>, and loss-of-function pathogenesis is <b>the authors' hypothesis rather than an established conclusion</b>; note too that <b>Biogen/Ionis' BIIB105 (ION541) is an ATXN2/ALS programme, not an SCA one</b>. <b>Everything else this scan turned up</b>: the five ClinicalTrials.gov condition queries surfaced <b>no therapeutic trials the platform does not already hold</b> — the two SCA-query records that moved in the window, NCT02741440 (NEI's SCA7 natural history) and NCT00018889 (NINDS phenotype/genotype correlations in movement disorders), are <b>observational studies</b> and were excluded under the §1b criteria; the Friedreich, polyglutamine, SBMA and episodic ataxia/CACNA1A queries returned nothing new in the window (the most recent hits, NCT07778836, NCT07180355 and NCT07221292, are all already recorded, and the SBMA query again returned mostly prostate-cancer trials, excluded one by one). PubMed returned 2 hits in the window; apart from the one added here, PMID 42653351 was already recorded. On company news: <b>Biohaven's troriluzole</b> remains where it stood at the CRL of 2025-11-04; <b>Steminent/REPROCELL</b> remain under review on the Japanese marketing application filed 2026-06-24, with first-patient enrolment in the US Phase 2 expected by 2026-09; and Vico, Arrowhead/Sarepta, AnnJi, PTC, Larimar, IntraBio, Lexeo and Solid posted no new public milestones in the window.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-28",
     "dateDisplay": "2026/08/28",
     "tag": "每日掃描",
