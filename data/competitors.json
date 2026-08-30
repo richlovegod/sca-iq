@@ -865,6 +865,47 @@
     }
   },
   {
+    "id": "biogen-omav",
+    "ring": "ataxia",
+    "threat": "low",
+    "company": "Biogen（美國，原 Reata）",
+    "asset": "Omaveloxolone（SKYCLARYS®／BIIB141）",
+    "mechanism": "口服小分子<br>Nrf2 活化劑（抑制 Keap1）<br>對抗粒線體功能失調與氧化壓力",
+    "indication": "Friedreich's Ataxia",
+    "phase": "已核准（≥16 歲）＋兒童 Ph3",
+    "status": "<b style=\"color:#8ee6a8\">共濟失調領域目前唯一獲准上市的藥物</b>：<b>2023/02 獲 FDA 核准</b>、<b>2024/02/12 獲歐盟執委會核准</b>，適應症為 <b>16 歲以上</b>之 Friedreich's Ataxia。原由 <b>Reata Pharmaceuticals</b> 開發，後由 Biogen 收購。<b style=\"color:#ffce7a\">現正以 Ph3「NCT06953583」向 2–15 歲兒童族群延伸標籤</b>：2025/06/09 起始、n≈255、33 站橫跨美歐亞澳共 16 國，Part 1 隨機期約 1 年＋Part 2 開放標籤約 2 年，主要完成日 2027/11/16。<b>為什麼收錄</b>：這是<b>「共濟失調適應症走完 FDA／EMA 全程並取得核准」的唯一先例</b>，其審查路徑、終點（mFARS）與標籤條件，是本領域<b>法規可行性的實證基準線</b>——與 Biohaven troriluzole（2025/11 CRL）、PTC vatiquinone（2025/08 CRL）兩個受挫案例形成直接對照。⚠️ 適應症為 FA、<b>非 SCA，不與本社直接競爭</b>；兒童 Ph3 <b>尚無任何療效或安全性結果公開讀出</b>。",
+    "threatLabel": "低(FA·已核准)",
+    "links": [
+      {
+        "label": "歐盟核准新聞稿 ↗ 2024/02",
+        "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-received-european-commission-approval-skyclarysr"
+      },
+      {
+        "label": "兒童 Ph3 ↗ NCT06953583",
+        "url": "https://clinicaltrials.gov/study/NCT06953583"
+      }
+    ],
+    "en": {
+      "company": "Biogen (USA, formerly Reata)",
+      "asset": "Omaveloxolone (SKYCLARYS® / BIIB141)",
+      "mechanism": "Oral small molecule<br>Nrf2 activator (Keap1 inhibition)<br>counters mitochondrial dysfunction and oxidative stress",
+      "indication": "Friedreich's ataxia",
+      "phase": "Approved (≥16 y) + paediatric Ph3",
+      "status": "<b style=\"color:#8ee6a8\">The only marketed, approved drug anywhere in the ataxia field.</b> It was <b>approved by the FDA in 2023/02</b> and <b>by the European Commission on 2024/02/12</b> for Friedreich's ataxia in patients <b>aged 16 and over</b>. It was originally developed by <b>Reata Pharmaceuticals</b> and later acquired by Biogen. <b style=\"color:#ffce7a\">A Phase 3, NCT06953583, is now extending the label to children aged 2–15</b>: started 2025/06/09, n≈255, 33 sites across 16 countries in the Americas, Europe, Asia and Australia, with a roughly one-year randomised Part 1 and a roughly two-year open-label Part 2, primary completion 2027/11/16. <b>Why it is tracked here</b>: it is <b>the single precedent of an ataxia indication completing the full FDA/EMA route to approval</b>, so its review path, endpoint (mFARS) and label conditions form <b>the empirical baseline for regulatory feasibility in this field</b> — a direct counterpoint to the two setbacks, Biohaven's troriluzole (CRL 2025/11) and PTC's vatiquinone (CRL 2025/08). ⚠️ The indication is FA, <b>not SCA, so it is not a direct competitor to Steminent</b>; the paediatric Phase 3 <b>has no publicly reported efficacy or safety results</b>.",
+      "threatLabel": "Low (FA, approved)",
+      "links": [
+        {
+          "label": "EU approval press release ↗ 2024/02",
+          "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-received-european-commission-approval-skyclarysr"
+        },
+        {
+          "label": "Paediatric Ph3 ↗ NCT06953583",
+          "url": "https://clinicaltrials.gov/study/NCT06953583"
+        }
+      ]
+    }
+  },
+  {
     "id": "ptc",
     "ring": "ataxia",
     "threat": "low",

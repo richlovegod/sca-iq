@@ -1,5 +1,22 @@
 [
   {
+    "nct": "NCT06953583",
+    "drug": "Omaveloxolone（BIIB141／SKYCLARYS®，口服）",
+    "mechanism": "<b>已核准藥物的兒童族群延伸</b>：Nrf2 活化劑（小分子），透過抑制 Keap1 提升 Nrf2 訊號、對抗粒線體功能失調與氧化壓力<br>原由 Reata Pharmaceuticals 開發，後由 Biogen 收購",
+    "phase": "Ph3（隨機、雙盲、平行組、四重盲；Part 1 約 1 年隨機期＋Part 2 約 2 年開放標籤延伸）",
+    "status": "<b>收案中</b>。實際起始 <b>2025/06/09</b>，登錄預計收案 <b>255 人</b>、<b>2 至 15 歲</b>之 <b>Friedreich's Ataxia（FA）</b>病童與青少年，登錄 <b>33 站</b>，橫跨美國、澳洲、奧地利、巴西、加拿大、丹麥、法國、德國、印度、愛爾蘭、義大利、荷蘭、沙烏地阿拉伯、西班牙、土耳其、英國；主要完成日 <b>2027/11/16</b>；登錄最後更新 <b>2026-06-16</b>。<b>背景</b>：omaveloxolone 已於 <b>2023/02 獲 FDA 核准</b>、<b>2024/02/12 獲歐盟執委會核准</b>，適應症為<b>16 歲以上</b>之 FA，是<b>第一個、也是目前唯一一個獲准的 Friedreich's Ataxia 藥物</b>；本試驗即為向 <b>16 歲以下</b>族群延伸標籤。⚠️ <b>目前無任何本試驗的療效或安全性結果公開讀出</b>，不得就結果做任何推論。",
+    "sponsor": "Biogen",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06953583",
+    "en": {
+      "drug": "Omaveloxolone (BIIB141 / SKYCLARYS®, oral)",
+      "mechanism": "<b>Paediatric extension of an already-approved drug</b>: an Nrf2 activator (small molecule) that raises Nrf2 signalling by inhibiting Keap1, countering mitochondrial dysfunction and oxidative stress<br>originally developed by Reata Pharmaceuticals and later acquired by Biogen",
+      "phase": "Ph3 (randomised, double-blind, parallel-group, quadruple-masked; Part 1 roughly a one-year randomised period, Part 2 roughly a two-year open-label extension)",
+      "status": "<b>Recruiting.</b> Actual start <b>2025/06/09</b>, with a registered target of <b>255 participants</b> aged <b>2 to 15</b> with <b>Friedreich's ataxia (FA)</b>, across <b>33 registered sites</b> in the United States, Australia, Austria, Brazil, Canada, Denmark, France, Germany, India, Ireland, Italy, the Netherlands, Saudi Arabia, Spain, Turkey and the United Kingdom; primary completion date <b>2027/11/16</b>; registry last updated <b>2026-06-16</b>. <b>Background</b>: omaveloxolone was <b>approved by the FDA in 2023/02</b> and <b>by the European Commission on 2024/02/12</b> for FA in patients <b>aged 16 and over</b>, making it <b>the first and so far only approved therapy for Friedreich's ataxia</b>; this trial extends the label to those <b>under 16</b>. ⚠️ <b>No efficacy or safety results from this trial have been read out publicly</b>, and no inference about outcomes should be drawn.",
+      "sponsor": "Biogen"
+    }
+  },
+  {
     "nct": "NCT06673056",
     "drug": "Levacetylleucine（IB1001／AQNEURSA®，口服）",
     "mechanism": "<b>已上市小分子的適應症延伸</b>：N-acetyl-L-leucine 為修飾胺基酸酯，口服顆粒劑（依體重 2–4 g/日）<br>同成分已以 AQNEURSA® 於 Niemann-Pick C 型上市，本案為向共濟失調適應症延伸",

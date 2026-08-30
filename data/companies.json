@@ -235,7 +235,7 @@
     "threat": "low",
     "url": "https://www.biogen.com/",
     "match": [
-      "Biogen",
+      "Biogen / Ionis",
       "Ionis",
       "BIIB132",
       "ION260"
@@ -681,6 +681,61 @@
       "pipeline": "Leriglitazone | Friedreich's ataxia (also X-ALD, Rett): Ph2 proof-of-concept in FA",
       "insight": "Leriglitazone holds US and EU orphan designations in FA with a Ph2 proof-of-concept, but the company's clinical focus has moved to X-ALD and Rett syndrome, with no pivotal trial in FA.",
       "ticker": "Private"
+    },
+    "cat": "sca"
+  },
+  {
+    "id": "biogen-omav",
+    "name": "Biogen（omaveloxolone）",
+    "nameEn": "Biogen (omaveloxolone)",
+    "short": "Biogen/Omav",
+    "country": "美國 USA",
+    "ticker": "NASDAQ: BIIB",
+    "mechanism": "口服小分子 Nrf2 活化劑（抑制 Keap1），對抗粒線體功能失調與氧化壓力",
+    "pipeline": "Omaveloxolone（SKYCLARYS®／BIIB141）｜Friedreich's Ataxia：2023/02 FDA 核准、2024/02 歐盟核准（≥16 歲）；兒童 Ph3 NCT06953583 收案中（2–15 歲）",
+    "insight": "共濟失調領域<b>唯一走完 FDA／EMA 全程並取得核准</b>的藥物，原由 Reata 開發後由 Biogen 收購。其審查路徑與 mFARS 終點是本領域法規可行性的實證基準線，與 Biohaven troriluzole、PTC vatiquinone 兩個 CRL 案例形成對照。適應症為 FA、非 SCA，不與 Stemchymal 直接競爭。注意本公司頁與「Biogen／Ionis」（BIIB132 ATXN3 ASO，2023 已放棄）為兩個不同的 Biogen 專案，勿混用。",
+    "threat": "low",
+    "url": "https://www.biogen.com/",
+    "match": [
+      "Omaveloxolone",
+      "omaveloxolone",
+      "SKYCLARYS",
+      "BIIB141",
+      "Reata"
+    ],
+    "updates": [
+      {
+        "date": "2023/02",
+        "text": "FDA 核准 SKYCLARYS（omaveloxolone）用於 ≥16 歲 Friedreich's Ataxia"
+      },
+      {
+        "date": "2024/02",
+        "text": "歐盟執委會核准（≥16 歲）"
+      },
+      {
+        "date": "2025/06",
+        "text": "兒童 Ph3 NCT06953583（2–15 歲，n≈255、33 站）啟動收案"
+      }
+    ],
+    "en": {
+      "country": "USA",
+      "mechanism": "Oral small-molecule Nrf2 activator (Keap1 inhibition), countering mitochondrial dysfunction and oxidative stress",
+      "pipeline": "Omaveloxolone (SKYCLARYS® / BIIB141) | Friedreich's ataxia: FDA approval 2023/02, EU approval 2024/02 (ages 16+); paediatric Ph3 NCT06953583 recruiting (ages 2–15)",
+      "insight": "The <b>only drug in the ataxia field to complete the full FDA/EMA route to approval</b>, originally developed by Reata and later acquired by Biogen. Its review path and mFARS endpoint form the empirical baseline for regulatory feasibility in this field, in contrast to the CRLs issued to Biohaven's troriluzole and PTC's vatiquinone. The indication is FA rather than SCA, so it does not compete directly with Stemchymal. Note that this company page and 'Biogen / Ionis' (BIIB132, an ATXN3 ASO abandoned in 2023) are two separate Biogen programmes and should not be conflated.",
+      "updates": [
+        {
+          "date": "2023/02",
+          "text": "FDA approved SKYCLARYS (omaveloxolone) for Friedreich's ataxia in patients aged 16 and over"
+        },
+        {
+          "date": "2024/02",
+          "text": "European Commission approval (ages 16 and over)"
+        },
+        {
+          "date": "2025/06",
+          "text": "Paediatric Ph3 NCT06953583 (ages 2–15, n≈255 across 33 sites) opened to enrolment"
+        }
+      ]
     },
     "cat": "sca"
   },

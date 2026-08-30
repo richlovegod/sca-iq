@@ -1,5 +1,23 @@
 [
   {
+    "id": "pubmed:42667517",
+    "date": "2026-08-29",
+    "dateDisplay": "2026/08/29",
+    "title": "Blood Glucose Homeostasis is Preserved in Patients with Mild-to-moderate Spinocerebellar Ataxia Type 2",
+    "journal": "Cerebellum · Aguilera-Rodríguez R、Almaguer-Gotay D、Álvarez-Sosa A 等，通訊作者 Almaguer-Mederos LE（古巴 Holguín 遺傳性共濟失調研究與復健中心 CIRAH，合作單位含 Holguín 綜合大學醫院核醫科、Holguín 醫學科學大學、Holguín 臨床外科大學醫院檢驗醫學科，及英國倫敦大學學院 UCL Queen Square 神經學研究所神經肌肉疾病系）· doi:10.1007/s12311-026-02076-1",
+    "tag": "SCA2 代謝生物標記 · 陰性結果",
+    "note": "→ <b>這是一篇「陰性結果」的原始研究</b>，收案<b>古巴 Holguín 世代 SCA2 病人 79 例、對照 83 例</b>，其中<b>病人 20 例與對照 19 例</b>另接受<b>口服葡萄糖耐受試驗（OGTT）</b>。研究動機在於 SCA2 已知同時呈現<b>小腦葡萄糖代謝低下（cerebellar glucose hypometabolism）、全身代謝亢進（systemic hypermetabolism）與體重下降</b>三個看似矛盾的現象，作者要問血糖恆定本身是否被破壞。<b>結論是沒有</b>：作者明言「<b>輕至中度共濟失調的 SCA2 病人並無重大的血糖恆定異常</b>」；血糖相關指標與<b>身體組成</b>僅呈<b>弱至中度相關</b>，對<b>疾病嚴重度僅有名目上（nominal）的效應</b>。→ 與本平台的關聯：<b>ATXN2 是 Arrowhead ARO-ATXN2 的標的</b>（SCA2 siRNA，Ph1 NCT06672445，含台北榮總站點），而 <b>ATXN2 在代謝調控上的角色一直被討論</b>；本篇縮小了「血糖指標可作為 SCA2 疾病進展或藥效生物標記」的可能空間，對<b>試驗次要終點與生物標記選擇</b>是一個負面但有用的界定。⚠️ <b>限制</b>：<b>單一族群（古巴 Holguín 世代）、橫斷面設計、樣本量中等且 OGTT 子群僅約 20 人</b>，僅涵蓋<b>輕至中度</b>病人，<b>不能外推到晚期病人或其他族群</b>；本文<b>不含任何治療、試驗或療效資料</b>，也未證實 ATXN2 與血糖之間有無因果關係。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42667517/",
+    "urlLabel": "論文 ↗ PubMed 42667517",
+    "en": {
+      "tag": "SCA2 metabolic biomarker · negative result",
+      "journal": "Cerebellum · Aguilera-Rodríguez R, Almaguer-Gotay D, Álvarez-Sosa A et al., corresponding author Almaguer-Mederos LE (Center for the Investigation and Rehabilitation of Hereditary Ataxias, CIRAH, Holguín, Cuba, with the Department of Nuclear Medicine at Holguín General University Hospital, Holguín Medical Sciences University, the Department of Laboratory Medicine at Holguín Clinical Surgical University Hospital, and the Department of Neuromuscular Diseases, UCL Queen Square Institute of Neurology, London, UK) · doi:10.1007/s12311-026-02076-1",
+      "note": "→ <b>A primary study reporting a negative result.</b> It enrolled <b>79 SCA2 patients and 83 controls</b> from the Cuban Holguín cohort, of whom <b>20 patients and 19 controls</b> additionally underwent an <b>oral glucose tolerance test (OGTT)</b>. The motivation is that SCA2 is known to combine three apparently contradictory features — <b>cerebellar glucose hypometabolism, systemic hypermetabolism and weight loss</b> — and the authors asked whether blood glucose homeostasis itself is disturbed. <b>It is not</b>: they state plainly that <b>patients with mild-to-moderate SCA2 ataxia have no major alteration in blood glucose homeostasis</b>; glucose markers correlated only <b>weakly to moderately with body composition</b> and had only <b>nominal effects on disease severity</b>. → Relevance to this platform: <b>ATXN2 is the target of Arrowhead's ARO-ATXN2</b> (siRNA for SCA2, Phase 1 NCT06672445, with a site at Taipei Veterans General Hospital), and <b>ATXN2's role in metabolic regulation has long been discussed</b>. This paper narrows the space in which glucose measures could serve as a progression or pharmacodynamic biomarker in SCA2 — a negative but useful constraint on <b>secondary endpoint and biomarker selection</b>. ⚠️ <b>Limitations</b>: <b>a single population (the Cuban Holguín cohort), a cross-sectional design, moderate sample size and an OGTT subgroup of only about 20</b>, covering <b>mild-to-moderate</b> patients only, so it <b>cannot be extrapolated to late-stage patients or to other populations</b>; the paper contains <b>no treatment, trial or efficacy data</b> and does not establish whether any causal link between ATXN2 and glucose regulation exists.",
+      "urlLabel": "Paper ↗ PubMed 42667517"
+    }
+  },
+  {
     "id": "pubmed:42666931",
     "date": "2026-08-27",
     "dateDisplay": "2026/08/27",
