@@ -1,5 +1,22 @@
 [
   {
+    "nct": "NCT05515536",
+    "drug": "Vatiquinone（PTC743，口服）",
+    "mechanism": "<b>15-脂氧合酶（15-LO）抑制劑</b>（小分子），抑制脂質過氧化與鐵依賴性細胞死亡（ferroptosis）路徑、對抗氧化壓力造成的神經損傷",
+    "phase": "Ph3（<b>長期開放標籤延伸試驗</b>；單一組別、<b>不設盲、無安慰劑對照</b>）",
+    "status": "<b>收案已結束、試驗進行中（active, not recruiting）</b>。<b>實際起始 2022/12/08</b>，<b>實際收案 130 人</b>；納入條件為<b>已完成前一個 vatiquinone 試驗並直接轉入（roll-over）的 Friedreich's Ataxia（FA）病人</b>，登錄 14 個站點，橫跨美國（UCLA、佛羅里達大學、南佛羅里達大學、愛荷華大學、費城兒童醫院）、澳洲、巴西、加拿大、法國、德國、義大利、紐西蘭、西班牙；主要完成日與整體完成日均為 <b>2027/12/31</b>。<b>主要目的為長期安全性</b>。⚠️ <b>登錄自 2025-10-30 起未再更新</b>，狀態欄為主辦方自行維護，不等同現況。⚠️ <b>本試驗無安慰劑對照、不設盲，設計上不足以證明療效</b>；<b>目前無任何本試驗的結果公開讀出</b>，不得就療效做任何推論。<b>補收說明</b>：本筆為 2026-08-31 依手冊 §1b-2「已知資產點名查核」以藥名查詢補收，先前的疾病條件查詢因排序與更新日之故未撈到。",
+    "sponsor": "PTC Therapeutics",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT05515536",
+    "en": {
+      "drug": "Vatiquinone (PTC743, oral)",
+      "mechanism": "<b>A 15-lipoxygenase (15-LO) inhibitor</b> (small molecule) that suppresses lipid peroxidation and the iron-dependent cell-death (ferroptosis) pathway, countering oxidative-stress-driven neuronal injury",
+      "phase": "Ph3 (<b>long-term open-label extension</b>; single group, <b>unmasked, no placebo control</b>)",
+      "status": "<b>Active, not recruiting.</b> <b>Actual start 2022/12/08</b>, with <b>130 participants actually enrolled</b>; eligibility required <b>Friedreich's ataxia (FA) patients who completed and rolled over directly from a previous vatiquinone study</b>, across 14 registered sites in the United States (UCLA, University of Florida, University of South Florida, University of Iowa, Children's Hospital of Philadelphia), Australia, Brazil, Canada, France, Germany, Italy, New Zealand and Spain; both primary completion and overall completion dates are <b>2027/12/31</b>. <b>The primary objective is long-term safety.</b> ⚠️ <b>The registry entry has not been updated since 2025-10-30</b>, and the status field is sponsor-maintained, so it does not necessarily describe the present state. ⚠️ <b>This trial has no placebo control and is unmasked, so by design it cannot establish efficacy</b>; <b>no results from it have been read out publicly</b>, and no inference about efficacy should be drawn. <b>Note on capture</b>: this record was added on 2026-08-31 through the drug-name roll call in §1b-2 of the operating manual; the disease-condition queries had missed it because of its sort position and last-update date.",
+      "sponsor": "PTC Therapeutics"
+    }
+  },
+  {
     "nct": "NCT06953583",
     "drug": "Omaveloxolone（BIIB141／SKYCLARYS®，口服）",
     "mechanism": "<b>已核准藥物的兒童族群延伸</b>：Nrf2 活化劑（小分子），透過抑制 Keap1 提升 Nrf2 訊號、對抗粒線體功能失調與氧化壓力<br>原由 Reata Pharmaceuticals 開發，後由 Biogen 收購",

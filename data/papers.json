@@ -1,5 +1,41 @@
 [
   {
+    "id": "pubmed:42667167",
+    "date": "2026-08-29",
+    "dateDisplay": "2026/08/29",
+    "title": "Optimized Cas9-Enriched Nanopore Sequencing and Analysis Workflow for Clinical Diagnosis of Repeat Expansion Disorders",
+    "journal": "Advanced Science (Weinh) · Lee S、Jung C、Kim M 等（三人並列第一作者），通訊作者 Moon J（韓國首爾大學醫院基因體醫學部與神經科；合作單位含首爾大學醫學院生物醫學科學系、首爾大學兒童醫院小兒科、漢陽大學化學系、首爾大學癌症研究所暨基因體醫學研究所、首爾大學分子生物學與遺傳學研究所）· doi:10.1002/advs.77475 · PMC13525614",
+    "tag": "重複序列擴增診斷 · 定序方法學",
+    "note": "→ <b>這是一篇診斷方法學研究，不是治療研究</b>。作者把「<b>免擴增的奈米孔 Cas9 標的定序（nanopore Cas9-targeted sequencing, nCATS）</b>」平台改良成<b>單一次檢測即可均勻覆蓋目前已定義的 56 個短串聯重複（STR）基因座</b>（檢體為病人血球來源基因組 DNA），並另外開發專屬分析演算法 <b>STRiker</b>，能辨識<b>重複序列的內部 motif 組成與從頭（de novo）重複結構</b>。<b>關鍵數字</b>：在 <b>37 位「已做過廣泛基因檢測卻仍未確診」的小腦共濟失調病人</b>中，找出 <b>12 人（32.4%）</b>的致病性重複擴增，分別位於 <b>FGF14（n=4）、ATXN8OS、NOP56、RFC1（各 n=2）、PRNP 與 NOTCH2NLC（各 n=1）</b>；家族連鎖篩檢另在 5 個家庭中找到 6 位帶有重複擴增的親屬。作者並指出 <b>CpG 甲基化可減弱重複擴增的致病效應</b>。→ 與本平台的關聯：<b>SCA 領域的臨床試驗都以「基因確診」為納入條件</b>，而傳統 PCR 與短讀長 NGS 對大片段、複雜結構的擴增常常失手；本文顯示<b>單一檢測就能為三分之一的「未確診共濟失調」病人找到答案</b>，對<b>試驗收案池的擴大與基因型分層</b>有直接意義，也再次凸顯 <b>FGF14（SCA27B）</b>在遲發性共濟失調中的比重（本文 12 例中占 4 例）。⚠️ <b>限制</b>：<b>樣本數小（n=37）、單中心（韓國首爾大學醫院）、族群單一</b>，且收案本身已<b>富集為「難確診」個案</b>，<b>32.4% 的檢出率不能外推成一般共濟失調族群的檢出率</b>；本文<b>不含任何治療、療效或試驗資料</b>，也<b>未做與現行檢測方法的正式前瞻性對照比較</b>。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42667167/",
+    "urlLabel": "論文 ↗ PubMed 42667167",
+    "en": {
+      "tag": "Repeat-expansion diagnostics · sequencing methodology",
+      "journal": "Advanced Science (Weinh) · Lee S, Jung C, Kim M et al. (three co-first authors), corresponding author Moon J (Department of Genomic Medicine and Department of Neurology, Seoul National University Hospital, South Korea; with the Department of Biomedical Sciences, Seoul National University College of Medicine, the Department of Pediatrics at Seoul National University Children's Hospital, the Department of Chemistry at Hanyang University, the Cancer Research Institute and Genomic Medicine Institute, and the Institute of Molecular Biology and Genetics, Seoul National University) · doi:10.1002/advs.77475 · PMC13525614",
+      "note": "→ <b>This is a diagnostic methodology paper, not a treatment study.</b> The authors adapted an <b>amplification-free nanopore Cas9-targeted sequencing (nCATS)</b> platform to achieve <b>uniform coverage of all 56 currently defined short tandem repeat (STR) loci in a single test</b> using genomic DNA from patient blood cells, and built a dedicated analysis algorithm, <b>STRiker</b>, able to resolve <b>internal motif context and de novo repeat structures</b>. <b>Key numbers</b>: among <b>37 patients with cerebellar ataxia who remained genetically undiagnosed despite extensive prior testing</b>, they identified pathogenic repeat expansions in <b>12 (32.4%)</b> — in <b>FGF14 (n=4), ATXN8OS, NOP56 and RFC1 (n=2 each), and PRNP and NOTCH2NLC (n=1 each)</b>; family-based cascade screening found six further relatives with expansions across five families. They also report that <b>CpG methylation can mitigate the pathogenic effect of repeat expansions</b>. → Relevance to this platform: <b>SCA trials all require a genetic diagnosis for enrolment</b>, yet conventional PCR and short-read NGS frequently miss large or structurally complex expansions. A single test that resolves a third of previously undiagnosed ataxia cases bears directly on <b>widening the recruitable pool and on genotype stratification</b>, and it again underlines how much of late-onset ataxia is <b>FGF14 (SCA27B)</b> — 4 of the 12 cases here. ⚠️ <b>Limitations</b>: <b>a small sample (n=37), a single centre (Seoul National University Hospital) and a single population</b>, with a cohort already <b>enriched for hard-to-diagnose cases</b>, so the <b>32.4% yield cannot be extrapolated to unselected ataxia populations</b>; the paper contains <b>no treatment, efficacy or trial data</b> and includes <b>no formal prospective head-to-head comparison against current diagnostic methods</b>.",
+      "urlLabel": "Paper ↗ PubMed 42667167"
+    }
+  },
+  {
+    "id": "pubmed:42665710",
+    "date": "2026-08-29",
+    "dateDisplay": "2026/08/29",
+    "title": "Glymphatic dysfunction in cerebellar neurodegeneration: mechanistic insights and emerging clinical implications",
+    "journal": "Neurological Sciences 47(9):743 · Rodriguez PF、Rivas LMF、Canino GR（美國佛州 Glyax Medical LLC，合著者任職克里夫蘭診所佛州分院神經科）· doi:10.1007/s10072-026-09351-3",
+    "tag": "類淋巴系統 · SCA3 機轉綜論",
+    "note": "→ <b>這是一篇綜論（review），不是原始研究、也沒有新的病人資料</b>。主題是<b>類淋巴系統（glymphatic system）</b>——一條依賴神經膠細胞的血管周圍清除路徑，透過腦脊髓液與組織間液交換維持中樞神經恆定——在<b>小腦神經退化</b>中的角色。作者聚焦四個疾病：<b>SCA3（第 3 型脊髓小腦萎縮症）、多系統萎縮症（MSA）、進行性核上性麻痺（PSP）與原發性顫抖症</b>。所評估的機轉路徑包括<b>星狀膠細胞血管周足與 Bergmann 膠細胞軟膜足上的 aquaporin-4（AQP4）極性錯置</b>、<b>神經發炎</b>、<b>血管變化</b>，以及<b>睡眠相依的體液動力學</b>；並回顧了以擴散張量影像等進階神經影像評估類淋巴功能的方法。→ 與本平台的關聯：<b>SCA3 是本社 Stemchymal® 與 Vico VO659 共同鎖定的亞型</b>，而類淋巴功能同時牽涉<b>鞘內給藥後的藥物分佈與清除</b>——這對<b>ASO／siRNA 等需鞘內注射的競品（VO659、ARO-ATXN2）</b>在機轉層面是值得留意的變項。本文亦是少數同時橫跨 <b>SCA3 與 MSA</b> 的機轉整理，與姊妹站 MSA-IQ 的主題重疊。⚠️ <b>限制</b>：<b>綜論性質，屬於「新興證據」與假說整理，非因果證明</b>；作者明言相關證據仍在浮現階段。<b>兩位作者任職於一家私人公司（Glyax Medical LLC）</b>，讀者宜自行留意；<b>本文不含任何治療、試驗或療效資料</b>，不得據以推論任何藥物效果。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42665710/",
+    "urlLabel": "論文 ↗ PubMed 42665710",
+    "en": {
+      "tag": "Glymphatic system · SCA3 mechanism review",
+      "journal": "Neurological Sciences 47(9):743 · Rodriguez PF, Rivas LMF, Canino GR (Glyax Medical LLC, Miami, Florida, USA; one co-author is at the Department of Neurology, Cleveland Clinic Florida) · doi:10.1007/s10072-026-09351-3",
+      "note": "→ <b>This is a review, not a primary study, and it reports no new patient data.</b> Its subject is the <b>glymphatic system</b> — a glia-dependent perivascular clearance pathway that maintains CNS homeostasis through cerebrospinal-fluid and interstitial-fluid exchange — and its role in <b>cerebellar neurodegeneration</b>. The authors focus on four conditions: <b>spinocerebellar ataxia type 3 (SCA3), multiple system atrophy (MSA), progressive supranuclear palsy (PSP) and essential tremor</b>. The mechanistic pathways evaluated include <b>aquaporin-4 (AQP4) mispolarisation across astrocytic perivascular and Bergmann glial pial endfeet</b>, <b>neuroinflammation</b>, <b>vascular alterations</b> and <b>sleep-dependent fluid dynamics</b>, alongside advanced neuroimaging approaches such as diffusion tensor imaging for assessing glymphatic function. → Relevance to this platform: <b>SCA3 is the subtype targeted by both Steminent's Stemchymal® and Vico's VO659</b>, and glymphatic function bears on <b>drug distribution and clearance after intrathecal dosing</b> — a mechanistically relevant variable for <b>intrathecally delivered competitors such as VO659 and ARO-ATXN2</b>. It is also one of the few mechanistic syntheses spanning <b>both SCA3 and MSA</b>, overlapping with the sister site MSA-IQ. ⚠️ <b>Limitations</b>: <b>as a review it organises emerging evidence and hypotheses rather than establishing causation</b>, and the authors state plainly that the evidence is still emerging. <b>Two of the authors are affiliated with a private company (Glyax Medical LLC)</b>, which readers should weigh for themselves; the paper contains <b>no treatment, trial or efficacy data</b> and supports no inference about any drug's effect.",
+      "urlLabel": "Paper ↗ PubMed 42665710"
+    }
+  },
+  {
     "id": "pubmed:42667517",
     "date": "2026-08-29",
     "dateDisplay": "2026/08/29",

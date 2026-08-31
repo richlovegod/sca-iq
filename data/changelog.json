@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-31",
+    "dateDisplay": "2026/08/31",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "<b>新增 2 則科學文獻＋1 筆補收試驗</b>。<b>①文獻</b>：<b>奈米孔 Cas9 標的定序（nCATS）＋STRiker 分析流程</b>，單一次檢測涵蓋 56 個短串聯重複基因座，於 <b>37 位「已做過廣泛基因檢測仍未確診」的小腦共濟失調病人中找出 12 人（32.4%）</b>的致病性重複擴增，其中 <b>FGF14（SCA27B）占 4 例</b>（<i>Advanced Science</i>，韓國首爾大學醫院）。<b>②文獻</b>：<b>類淋巴系統（glymphatic）功能失調在小腦神經退化中的角色</b>綜論，聚焦 <b>SCA3、MSA、PSP 與原發性顫抖症</b>，機轉涵蓋 AQP4 極性錯置、神經發炎與睡眠相依體液動力學（<i>Neurological Sciences</i>）。<b>③試驗</b>：依手冊 §1b-2「已知資產點名查核」以藥名查詢補收 <b>PTC Therapeutics 的 vatiquinone 長期開放標籤延伸試驗 NCT05515536</b>（Ph3、實際收案 130 人、由前一個 vatiquinone 試驗直接轉入的 Friedreich's Ataxia 病人、14 站、完成日 2027/12/31）——先前的疾病條件查詢因排序與更新日之故未撈到；<b>該試驗無安慰劑對照、不設盲，且登錄自 2025-10-30 起未再更新</b>。<b>本日另完成</b>：ClinicalTrials.gov 五組適應症查詢（SCA／Friedreich's／SBMA／polyglutamine／episodic ataxia-CACNA1A）與 20 個資產的藥名點名查核，除上述一筆外未見其他未收錄的療法型試驗；競品新聞掃描（仲恩、Biohaven、Vico、Arrowhead）近 7 天內無新發布。",
+    "link": { "label": "詳見 文獻雷達 ↗", "tab": "si", "anchor": "litradar" },
+    "en": {
+      "tag": "Daily scan",
+      "body": "<b>Added 2 papers and 1 back-filled trial.</b> <b>①Paper</b>: <b>nanopore Cas9-targeted sequencing (nCATS) with the STRiker analysis workflow</b>, covering 56 short tandem repeat loci in a single test, identified pathogenic repeat expansions in <b>12 of 37 (32.4%) cerebellar ataxia patients who had remained undiagnosed despite extensive prior genetic testing</b>, with <b>FGF14 (SCA27B) accounting for 4 cases</b> (<i>Advanced Science</i>, Seoul National University Hospital, South Korea). <b>②Paper</b>: a review of <b>glymphatic dysfunction in cerebellar neurodegeneration</b>, focused on <b>SCA3, MSA, PSP and essential tremor</b>, covering AQP4 mispolarisation, neuroinflammation and sleep-dependent fluid dynamics (<i>Neurological Sciences</i>). <b>③Trial</b>: the drug-name roll call in §1b-2 of the operating manual back-filled <b>PTC Therapeutics' long-term open-label vatiquinone extension NCT05515536</b> (Ph3, 130 actually enrolled, Friedreich's ataxia patients rolling over directly from a previous vatiquinone study, 14 sites, completion date 2027/12/31) — the disease-condition queries had missed it because of its sort position and last-update date; <b>the trial has no placebo control, is unmasked, and its registry entry has not been updated since 2025-10-30</b>. <b>Also completed today</b>: all five ClinicalTrials.gov indication queries (SCA / Friedreich's / SBMA / polyglutamine / episodic ataxia–CACNA1A) and the drug-name roll call across 20 assets, which surfaced no other uncaptured therapeutic trials; the competitor news sweep (Steminent, Biohaven, Vico, Arrowhead) found no releases in the past 7 days.",
+      "linkLabel": "See Literature Radar ↗"
+    }
+  },
+  {
     "date": "2026-08-30",
     "dateDisplay": "2026/08/30",
     "tag": "每日掃描",
