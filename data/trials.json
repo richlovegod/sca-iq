@@ -348,7 +348,7 @@
     "drug": "LX2006 (AAVrh.10hFXN)",
     "mechanism": "AAV 基因療法（遞送 FXN／frataxin 基因）",
     "phase": "Ph2",
-    "status": "收案中（SUNRISE-FA 2 註冊型；2026/06/25 啟動、n=26，主要指標＝心臟 MRI 左心室質量指數自基線變化）",
+    "status": "收案中（SUNRISE-FA 2 註冊型；2026/06/25 啟動、n=26，主要指標＝心臟 MRI 左心室質量指數自基線變化）。<b>2026/09/02 登錄更新：首個臨床站點上線——南佛羅里達大學（Tampa, FL）</b>，目前登錄僅此 1 站。主要完成日預估 2032/06。",
     "sponsor": "Lexeo Therapeutics",
     "us": false,
     "url": "https://clinicaltrials.gov/study/NCT07721025",
@@ -356,7 +356,7 @@
       "drug": "LX2006 (AAVrh.10hFXN)",
       "mechanism": "AAV gene therapy (delivers the FXN/frataxin gene)",
       "phase": "Ph2",
-      "status": "Recruiting (SUNRISE-FA 2 registrational; started 2026/06/25, n=26, primary endpoint = change from baseline in LV mass index by cardiac MRI)",
+      "status": "Recruiting (SUNRISE-FA 2 registrational; started 2026/06/25, n=26, primary endpoint = change from baseline in LV mass index by cardiac MRI). <b>Registry update 2026/09/02: the first clinical site is now listed — the University of South Florida (Tampa, FL)</b>, and it remains the only site on the record. Estimated primary completion 2032/06.",
       "sponsor": "Lexeo Therapeutics"
     }
   },
