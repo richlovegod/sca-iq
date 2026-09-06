@@ -332,14 +332,14 @@
     "drug": "Levacetylleucine (N-acetyl-L-leucine, IB1001)",
     "mechanism": "小分子（口服）",
     "phase": "Ph3",
-    "status": "<b>已轉為收案中</b>（登錄 2026/08/20 更新）：實際起始日 <b>2026/08/17</b>，比先前登錄的估計值 2026/09 提前；10 個站點中 <b>7 站收案中</b>（美國 UT Health 休士頓、奧地利 Innsbruck、德國 Cologne、義大利 Milan 與羅馬 Bambino Gesù、瑞士 Bern、英國 Oxford），另 3 站尚未收案（Johns Hopkins、MGH、雅典）。n=60、4 歲以上、主要指標 SARA。公司 2026/08/19 新聞稿稱預期<b>超額收案並於 2026/10 完成收案</b>。⚠️ 完成日兩來源不一致：登錄主要完成日為 <b>2028/08/01</b>，新聞稿則稱試驗設計為收案結束後 6 個月完成（約 2027/04）——本站並列兩者、不擇一採信。",
+    "status": "<b>已轉為收案中</b>（登錄 2026/08/20 更新）：實際起始日 <b>2026/08/17</b>，比先前登錄的估計值 2026/09 提前；10 個站點中 <b>7 站收案中</b>（美國 UT Health 休士頓、奧地利 Innsbruck、德國 Cologne、義大利 Milan 與羅馬 Bambino Gesù、瑞士 Bern、英國 Oxford），另 3 站尚未收案（Johns Hopkins、MGH、雅典）。n=60、4 歲以上、主要指標 SARA。公司 2026/08/19 新聞稿稱預期<b>超額收案並於 2026/10 完成收案</b>。<b>【2026/09/04 更新】先前登錄與新聞稿之間的完成日矛盾已由主辦方自行修正</b>：登錄於 2026/09/04 更新（送出日 2026/09/03），<b>主要完成日自 2028/08/01 大幅前移至 2027/05/01</b>，與新聞稿所述「收案結束後約 6 個月完成」的設計一致——<b>本站先前並列兩個日期的處理，現以登錄修正後的 2027/05/01 為準</b>。站點狀態未變（10 站中 7 站收案中，Johns Hopkins、MGH、雅典仍未收案），收案數仍登錄為預估 60 人。",
     "sponsor": "IntraBio",
     "us": false,
     "url": "https://clinicaltrials.gov/study/NCT07221292",
     "en": {
       "mechanism": "Small molecule (oral)",
       "phase": "Ph3",
-      "status": "<b>Now recruiting</b> (registry updated 2026/08/20): actual start date <b>2026/08/17</b>, ahead of the previously registered estimate of 2026/09; <b>7 of 10 sites are recruiting</b> (UT Health Houston USA, Innsbruck Austria, Cologne Germany, Milan and Bambino Gesù Rome Italy, Bern Switzerland, Oxford UK), with 3 not yet recruiting (Johns Hopkins, MGH, Athens). n=60, age 4+, primary endpoint SARA. A company press release dated 2026/08/19 states it expects to <b>over-enrol and complete recruitment in October 2026</b>. ⚠️ The two sources disagree on completion: the registered primary completion date is <b>2028/08/01</b>, while the press release describes a trial designed to take 6 months after enrolment closes (around 2027/04) — this site reports both rather than choosing between them.",
+      "status": "<b>Now recruiting</b> (registry updated 2026/08/20): actual start date <b>2026/08/17</b>, ahead of the previously registered estimate of 2026/09; <b>7 of 10 sites are recruiting</b> (UT Health Houston USA, Innsbruck Austria, Cologne Germany, Milan and Bambino Gesù Rome Italy, Bern Switzerland, Oxford UK), with 3 not yet recruiting (Johns Hopkins, MGH, Athens). n=60, age 4+, primary endpoint SARA. A company press release dated 2026/08/19 states it expects to <b>over-enrol and complete recruitment in October 2026</b>. <b>[Update 2026/09/04] The sponsor has itself resolved the completion-date contradiction between the registry and the press release</b>: an update posted 2026/09/04 (submitted 2026/09/03) <b>brought the primary completion date forward sharply, from 2028/08/01 to 2027/05/01</b>, consistent with the press release's description of a trial designed to finish roughly six months after enrolment closes — <b>so where this site previously reported both dates, it now follows the corrected registry date of 2027/05/01</b>. Site statuses are unchanged (7 of 10 recruiting; Johns Hopkins, MGH and Athens still not yet recruiting) and enrolment remains registered as an estimated 60.",
       "sponsor": "IntraBio"
     }
   },
@@ -479,14 +479,14 @@
     "drug": "Rovatirelin（KPS-0373）",
     "mechanism": "口服小分子<br>TRH（甲狀腺促素釋素）類似物<br>促進乙醯膽鹼與單胺釋放",
     "phase": "Ph3",
-    "status": "<b>日本第三次 Ph3 確認試驗</b>（2023/07 藥證撤回後重啟）；多中心隨機雙盲安慰劑對照、每日一次隨早餐口服 24 週、n=142，<b>主要指標＝SARA 總分自基線變化</b>；2025/07 起於日本收案，主要完成估 2027/03",
+    "status": "<b>已停止收案（收案完成）</b>——登錄於 <b>2026/09/04</b> 更新（送出日 2026/09/01），狀態由「收案中」轉為 <b>ACTIVE_NOT_RECRUITING</b>，即受試者已收滿、進入治療與追蹤期。<b>日本第三次 Ph3 確認試驗</b>（2023/07 藥證撤回後重啟）；多中心隨機雙盲安慰劑對照、每日一次隨早餐口服 24 週、n=142（登錄為預估值），<b>主要指標＝SARA 總分自基線變化</b>；登錄起始日 2025/08/15，主要完成日與試驗完成日同為 <b>2027/03/31</b>。⚠️ 依 24 週給藥＋4 週追蹤的設計推算，最後一位受試者應於 2027 上半年完訪，<b>但公司未公告 topline 讀出時點，本站不臆測</b>",
     "sponsor": "Kissei 橘生製藥（日本）",
     "us": false,
     "url": "https://clinicaltrials.gov/study/NCT07040137",
     "en": {
       "mechanism": "Oral small molecule<br>TRH (thyrotropin-releasing hormone) analogue<br>promotes acetylcholine and monoamine release",
       "phase": "Ph3",
-      "status": "<b>A third Ph3 confirmatory study in Japan</b>, restarted after the 2023/07 withdrawal of the Japanese application; multicentre, randomised, double-blind and placebo-controlled, dosed orally once daily with breakfast for 24 weeks, n=142, with <b>change from baseline in total SARA as the primary endpoint</b>; recruiting in Japan since 2025/07, primary completion estimated 2027/03",
+      "status": "<b>Enrolment closed</b> — the registry was updated on <b>2026/09/04</b> (submitted 2026/09/01), moving the study from recruiting to <b>ACTIVE_NOT_RECRUITING</b>, meaning the cohort is full and the trial is in its treatment and follow-up phase. This is <b>the third Ph3 confirmatory study in Japan</b>, restarted after the 2023/07 withdrawal of the Japanese application; multicentre, randomised, double-blind and placebo-controlled, dosed orally once daily with breakfast for 24 weeks, n=142 (registered as an estimate), with <b>change from baseline in total SARA as the primary endpoint</b>; registered start date 2025/08/15, with both primary completion and study completion at <b>2027/03/31</b>. ⚠️ The 24-week dosing plus 4-week follow-up design implies the last participant would complete in the first half of 2027, but <b>the company has announced no topline readout date and this site does not speculate about one</b>",
       "sponsor": "Kissei Pharmaceutical (Japan)"
     }
   },
@@ -555,18 +555,34 @@
     }
   },
   {
+    "nct": "NCT06054893",
+    "drug": "Omaveloxolone（BIIB141／SKYCLARYS®）",
+    "mechanism": "口服小分子<br>Nrf2 活化劑（抑制 Keap1）<br>對抗氧化壓力與粒線體功能失調",
+    "phase": "Ph1（兒少藥物動力學／安全性）",
+    "status": "<b>已停止收案</b>（ACTIVE_NOT_RECRUITING），<b>實收 33 人（ACTUAL）</b>。對象為 <b>2–15 歲</b>的 Friedreich's ataxia 兒童與青少年——omaveloxolone 目前僅核准用於 <b>16 歲以上</b>，本試驗目的是取得<b>兒少族群的藥物動力學與安全性資料以支持年齡下修</b>。設計分兩部分：第 1 部分依年齡分為 7 個世代（A1 12–15 歲先給 150 mg，其餘世代依前一世代數據決定劑量，向下涵蓋 7–11 歲與 2–6 歲）單劑給藥；第 2 部分轉為每日一次長期給藥，第 4／12／24 週及其後每 24 週回診，<b>受試者參與期最長達 302 週</b>。安全性觀察涵蓋<b>心臟健康與青春期發育進程</b>。登錄起始日 2024/07/01，主要完成日與試驗完成日同為 <b>2030/06/04</b>，站點在美國；登錄於 <b>2026/09/03</b> 更新（送出日 2026/09/01）。⚠️ <b>目前無任何公開的療效或藥動數據讀出</b>。適應症為 Friedreich's ataxia、非 SCA，<b>與 Stemchymal® 不直接競爭</b>；本站收錄係因其屬共濟失調領域唯一已獲核准藥物的年齡擴充路徑。注意本筆與 Biogen 另一項兒童 Ph3 NCT06953583 為<b>不同試驗</b>",
+    "sponsor": "Biogen（美國）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06054893",
+    "en": {
+      "mechanism": "Oral small molecule<br>Nrf2 activator (Keap1 inhibitor)<br>counters oxidative stress and mitochondrial dysfunction",
+      "phase": "Ph1 (paediatric pharmacokinetics / safety)",
+      "status": "<b>Enrolment closed</b> (ACTIVE_NOT_RECRUITING) with <b>33 participants actually enrolled</b>. It studies children and adolescents aged <b>2 to 15</b> with Friedreich's ataxia — omaveloxolone is approved only for those <b>16 and older</b>, and this study exists to generate the <b>paediatric pharmacokinetic and safety data needed to lower that age limit</b>. Part 1 gives a single dose across seven age-based cohorts (A1, aged 12–15, starts at 150 mg; each later cohort is dosed on the preceding cohorts' data, extending down through ages 7–11 and 2–6); Part 2 moves to once-daily dosing with visits at weeks 4, 12 and 24 and every 24 weeks thereafter, with <b>participation lasting up to 302 weeks</b>. Safety monitoring covers <b>cardiac health and progression through puberty</b>. Registered start date 2024/07/01, with primary completion and study completion both at <b>2030/06/04</b>, at US sites; the registry was updated on <b>2026/09/03</b> (submitted 2026/09/01). ⚠️ <b>No efficacy or pharmacokinetic results have been publicly reported.</b> The indication is Friedreich's ataxia rather than SCA, so it <b>does not compete directly with Stemchymal®</b>; it is recorded here because it is the age-expansion path for the only approved drug in the ataxia field. Note that this is a <b>separate trial</b> from Biogen's paediatric Ph3, NCT06953583",
+      "sponsor": "Biogen (USA)"
+    }
+  },
+  {
     "nct": "NCT06447025",
     "drug": "Nomlabofusp（CTI-1601）",
     "mechanism": "蛋白質補充療法<br>皮下注射 frataxin",
     "phase": "Ph2（開放標籤延伸）",
-    "status": "<b>收案中</b>（n=85，主要完成日 2027/01）。這就是上面 NCT06681766 兒少試驗受試者「直接轉入」的那項<b>開放標籤延伸研究</b>，長期安全性／療效／藥效動力學為評估重點。登錄最後更新 2026-05-13",
+    "status": "<b>收案中</b>（n=85，主要完成日 2027/01）。這就是上面 NCT06681766 兒少試驗受試者「直接轉入」的那項<b>開放標籤延伸研究</b>，長期安全性／療效／藥效動力學為評估重點。<b>【2026/09/03 更新】</b>登錄刷新（送出日 2026/09/01），<b>狀態、收案數（85）與主要完成日（2027/01）皆未變動</b>；現行登錄的納入範圍明載除了 CTI-1601 前期試驗的轉入者外，<b>亦收未曾參與過 CTI-1601 試驗、2 歲以上的兒童與青少年及成人</b>。美國多站點中已有部分站點轉為停止收案（ACTIVE_NOT_RECRUITING），整體試驗仍為收案中",
     "sponsor": "Larimar Therapeutics",
     "us": false,
     "url": "https://clinicaltrials.gov/study/NCT06447025",
     "en": {
       "mechanism": "Protein replacement<br>subcutaneous frataxin",
       "phase": "Ph2 (open-label extension)",
-      "status": "<b>Recruiting</b> (n=85, primary completion 2027/01). This is the <b>open-label extension</b> that participants in the paediatric study NCT06681766 above were rolled directly into; it assesses long-term safety, efficacy, pharmacodynamics and pharmacokinetics. Registry last updated 2026-05-13",
+      "status": "<b>Recruiting</b> (n=85, primary completion 2027/01). This is the <b>open-label extension</b> that participants in the paediatric study NCT06681766 above were rolled directly into; it assesses long-term safety, efficacy, pharmacodynamics and pharmacokinetics. <b>[Update 2026/09/03]</b> The registry was refreshed (submitted 2026/09/01) with <b>no change to status, enrolment (85) or primary completion (2027/01)</b>; the current record states that alongside rollovers from earlier CTI-1601 studies it also enrols <b>children aged 2 and older, adolescents and adults who have not participated in a prior CTI-1601 study</b>. Some of the US sites have moved to ACTIVE_NOT_RECRUITING while the trial overall remains recruiting",
       "sponsor": "Larimar Therapeutics"
     }
   },
