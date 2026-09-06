@@ -1,5 +1,41 @@
 [
   {
+    "id": "pubmed:42698560",
+    "date": "2026-09-01",
+    "dateDisplay": "2026/09",
+    "title": "Astragalus membranaceus therapy in patients with spinocerebellar ataxia type 3",
+    "journal": "Journal of Traditional and Complementary Medicine · Chiu C、Cheng W、Lin T 等（台灣）· doi:10.1016/j.jtcme.2026.06.002 · 2026/09 期別（線上先行 2026/06/03，2026/09 收錄於 PubMed）",
+    "tag": "SCA3 · 隨機對照試驗（人體）· NfL 生物標記 · 主要分析未達顯著",
+    "note": "→ <b>這是一項在 SCA3 病人身上完成的隨機、三盲、安慰劑對照交叉試驗，屬人體介入性研究——但結論是<u>調整後的組間比較未達統計顯著</u></b>。設計：<b>n=32 名 SCA3 病人</b>，服用<b>黃耆（Astragalus membranaceus, AM）</b>或安慰劑各三個月，中間一個月洗脫期後交叉至另一組，<b>23 人完成全程</b>。假說是黃耆可調節<b>胰島素／類胰島素生長因子 1（IIS）路徑</b>而減緩神經退化，以<b>血漿神經絲輕鏈（NfL）</b>作為病程生物標記。→ <b>結果</b>：意向治療分析顯示服用黃耆後<b>組內</b> NfL 有<b>小幅下降（27.6 ± 10.7 → 25.6 ± 9.8 pg/mL，P = 0.040）</b>、胰島素上升（12.5 ± 15.2 → 21.1 ± 15.5 μIU/mL，P = 0.004）；<b>但調整後的迴歸模型顯示兩組之間的 NfL 差異並不顯著（P = 0.127）</b>。→ 與本平台的關聯有兩點。<b>（一）方法學警示</b>：本文正是「<b>組內前後差異顯著、組間差異不顯著</b>」的教科書案例——交叉試驗若只報告組內變化很容易高估療效，<b>作者自己以調整模型誠實推翻了組內結果</b>。這對本社與所有以生物標記佐證療效的開發者都是提醒：<b>NfL 的組內波動不足以支持療效主張</b>。<b>（二）在地脈絡</b>：這是<b>台灣團隊在台灣 SCA3 族群完成的隨機對照試驗</b>，顯示本地已具備執行雙盲交叉設計與 NfL 檢測的臨床量能。⚠️ <b>限制</b>：樣本數小（完成 23 人）、療程僅三個月、<b>主要分析為陰性結果</b>；本站收錄係作為<b>生物標記方法學與台灣臨床量能的參考</b>，<b>不構成任何療效背書</b>，黃耆亦非本平台追蹤的競品資產（傳統草藥製劑，非 §1b 定義的療法型競品）。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42698560/",
+    "urlLabel": "論文 ↗ PubMed 42698560",
+    "en": {
+      "tag": "SCA3 · randomised controlled trial (human) · NfL biomarker · primary analysis not significant",
+      "journal": "Journal of Traditional and Complementary Medicine · Chiu C, Cheng W, Lin T et al. (Taiwan) · doi:10.1016/j.jtcme.2026.06.002 · September 2026 issue (online ahead of print 2026/06/03; indexed in PubMed 2026/09)",
+      "note": "→ <b>A randomised, triple-blind, placebo-controlled crossover trial completed in SCA3 patients — a human interventional study — but one whose <u>adjusted between-group comparison did not reach statistical significance</u></b>. Design: <b>n=32 SCA3 patients</b> received <b>Astragalus membranaceus (AM)</b> or placebo for three months each, separated by a one-month washout before crossover; <b>23 completed</b>. The hypothesis was that AM modulates the <b>insulin/IGF-1 signalling (IIS) pathway</b> and thereby slows neurodegeneration, tracked using <b>plasma neurofilament light chain (NfL)</b> as a progression biomarker. → <b>Results</b>: the intention-to-treat analysis found a <b>modest within-treatment fall in NfL (27.6 ± 10.7 → 25.6 ± 9.8 pg/mL, P = 0.040)</b> and a rise in insulin (12.5 ± 15.2 → 21.1 ± 15.5 μIU/mL, P = 0.004) after AM; <b>however, the adjusted regression model showed no significant between-treatment difference in NfL (P = 0.127)</b>. → Two points of relevance here. <b>(1) A methodological caution</b>: this is a textbook case of <b>a within-group change reaching significance while the between-group comparison does not</b>. Crossover trials that report only within-arm change readily overstate effect, and <b>the authors themselves overturned their within-group finding with the adjusted model</b>. The lesson generalises to every developer using biomarkers as supporting evidence: <b>within-arm NfL movement is not sufficient to support an efficacy claim</b>. <b>(2) Local context</b>: this is a <b>randomised controlled trial run by a Taiwanese team in a Taiwanese SCA3 population</b>, evidencing local capacity to execute double-blind crossover designs with NfL assays. ⚠️ <b>Limitations</b>: small sample (23 completers), a three-month treatment period, and <b>a negative primary analysis</b>. It is recorded here as a <b>reference on biomarker methodology and Taiwanese clinical capacity</b>, <b>not as any endorsement of efficacy</b>; Astragalus is also not a tracked competitor asset on this platform (a traditional herbal preparation, outside the therapeutic-modality definition in §1b).",
+      "urlLabel": "Paper ↗ PubMed 42698560"
+    }
+  },
+  {
+    "id": "pubmed:42699281",
+    "date": "2026-08-26",
+    "dateDisplay": "2026/08/26",
+    "title": "Importin-8 silencing reduces Ataxin-3 aggregation and alleviates Machado-Joseph disease/spinocerebellar ataxia type 3",
+    "journal": "iScience（線上先行 2026/08/26；紙本期別 2026/09/18）· Morgado Martins I、Sowa AS、Rufino-Ramos D 等（葡萄牙、德國）· doi:10.1016/j.isci.2026.116446",
+    "tag": "SCA3／馬查多—約瑟夫病 · 新治療標的（細胞與動物實驗）",
+    "note": "→ <b>這是一篇臨床前（細胞與小鼠）研究，提出 SCA3 的一個<u>全新治療標的</u>，不是人體試驗</b>。切入點是 SCA3 的<b>核質運輸失調</b>：突變 Ataxin-3 會在神經元細胞核內形成包涵體，而細胞核與細胞質之間的物質運輸在神經退化早期就已明顯失衡。作者<b>系統性篩選 34 個運輸蛋白</b>對 Ataxin-3 聚集的影響，選出 <b>Importin-8（Ipo8 基因）</b>進一步做神經病理與行為分析。→ <b>關鍵結果</b>：<b>Ipo8 mRNA 在 SCA3 模型中表現上升</b>；<b>將 Ipo8 表現下調後，Ataxin-3 聚集與神經元功能失常在體外與體內皆減少</b>，且<b>活體中共濟失調行為表現獲得緩解</b>。機轉上作者認為 Importin-8 的保護作用是透過調節 <b>NF-κB/p65 與 Argonaute-2</b>（兩者此前均已被指出與 SCA3 有關）而達成。→ 與本平台的關聯：SCA3 是<b>本社 Stemchymal® 適應症與 Vico VO659 適應症的共同交集</b>，也是全球最常見的顯性遺傳性共濟失調。目前 SCA3 的分子療法主流是<b>「減少突變蛋白產生」</b>（VO659 的 CAG 標的 ASO、Arrowhead ARO-ATXN2 的 siRNA 路線）；本文代表的是另一條路——<b>不去動 ATXN3 本身，而是改變突變蛋白的運輸與去向</b>，屬於標的層次的擴充。⚠️ <b>限制</b>：<b>全部結果來自細胞與動物模型，無任何人體資料</b>；<b>Importin-8 目前沒有對應的臨床候選藥、沒有公司、也沒有試驗登錄</b>，距離臨床開發尚遠。Importin-8 是廣泛表現的核輸入受體，<b>全身性抑制的安全性與組織專一性均未在本文評估</b>。本筆屬<b>早期標的訊號</b>，不影響任何競品的現況判讀。",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42699281/",
+    "urlLabel": "論文 ↗ PubMed 42699281",
+    "en": {
+      "tag": "SCA3 / Machado-Joseph disease · novel therapeutic target (cell and animal studies)",
+      "journal": "iScience (online ahead of print 2026/08/26; print issue 2026/09/18) · Morgado Martins I, Sowa AS, Rufino-Ramos D et al. (Portugal, Germany) · doi:10.1016/j.isci.2026.116446",
+      "note": "→ <b>A preclinical study in cells and mice proposing an <u>entirely new therapeutic target</u> in SCA3 — not a human trial.</b> Its entry point is <b>dysregulated nucleocytoplasmic transport</b> in SCA3: mutant Ataxin-3 forms intranuclear inclusions in neurons, and traffic between nucleus and cytoplasm is already profoundly disturbed at early stages of neurodegeneration. The authors <b>screened 34 transport proteins</b> for their effect on Ataxin-3 aggregation and took <b>Importin-8 (the Ipo8 gene)</b> forward into neuropathology and behavioural analysis. → <b>Key results</b>: <b>Ipo8 mRNA is elevated in MJD</b>; <b>knocking Ipo8 down reduced Ataxin-3 aggregation and neuronal dysfunction both in vitro and in vivo</b>, and <b>Ipo8 silencing alleviated ataxic traits in living animals</b>. Mechanistically the authors attribute the protective effect to modulation of <b>NF-κB/p65 and Argonaute-2</b>, both previously linked to MJD. → Relevance here: SCA3 is <b>the indication where Stemchymal® and Vico's VO659 overlap</b>, and the most common dominantly inherited ataxia worldwide. Molecular therapy in SCA3 is currently dominated by <b>lowering production of the mutant protein</b> (VO659's CAG-directed ASO, Arrowhead's ARO-ATXN2 siRNA route); this paper points down a different road — <b>leaving ATXN3 itself alone and instead altering where the mutant protein is trafficked</b> — which widens the target landscape. ⚠️ <b>Limitations</b>: <b>all results come from cell and animal models, with no human data</b>; <b>Importin-8 has no corresponding clinical candidate, company or trial registration</b>, leaving it far from clinical development. Importin-8 is a broadly expressed nuclear import receptor, and <b>the safety and tissue specificity of systemic inhibition are not assessed in this paper</b>. This is an <b>early target signal</b> and does not change the read on any competitor's current position.",
+      "urlLabel": "Paper ↗ PubMed 42699281"
+    }
+  },
+  {
     "id": "pubmed:42687380",
     "date": "2026-09-02",
     "dateDisplay": "2026/09/02",

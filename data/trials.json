@@ -1,5 +1,21 @@
 [
   {
+    "nct": "NCT02255435",
+    "drug": "Omaveloxolone（RTA 408／BIIB141／SKYCLARYS®，口服）",
+    "mechanism": "口服小分子<br>Nrf2 活化劑（抑制 Keap1）<br>對抗氧化壓力與粒線體功能失調",
+    "phase": "Ph2（樞紐試驗 MOXIe，含開放標籤延伸）",
+    "status": "<b>已完成</b>（COMPLETED），<b>實收 172 人（ACTUAL）</b>。這是<b>共濟失調領域唯一已獲核准藥物的樞紐試驗</b>——本試驗支持 omaveloxolone 於 2023 年成為<b>全球第一個核准的 Friedreich's ataxia 治療藥</b>。設計分兩部分：<b>第 1 部分</b>為劑量探索（2.5–300 mg 共七個劑量組對安慰劑），主要指標為第 12 週<b>最大運動測試的尖峰作功能力</b>；<b>第 2 部分</b>為隨機雙盲平行對照（omaveloxolone 150 mg 對安慰劑），主要指標為<b>第 48 週 mFARS（改良版 Friedreich's Ataxia 評分量表，0–99 分，分數越低功能越好）相對基線的變化</b>，之後轉入全數給藥 150 mg 的開放標籤延伸。登錄起始日 2015/01/31，主要完成日 2019/10/31，試驗完成日 2025/12/19；站點含<b>美國、澳洲、奧地利、義大利、英國</b>。<b>結果已於 2022/11/29 登錄於 CT.gov</b>；登錄於 <b>2026/09/03</b> 更新（送出日 2026/08/13）。<b>已公開讀出（Lynch 等，Ann Neurol 2021）</b>：第 2 部分隨機 103 人（omaveloxolone 51／安慰劑 52），完整分析集 82 人，<b>第 48 週 mFARS 變化 −1.55 ± 0.69（給藥）對 +0.85 ± 0.64（安慰劑），組間差 −2.40 ± 0.96，p = 0.014，達主要指標</b>；安全性方面出現<b>可逆的轉胺酶上升</b>（未伴隨總膽紅素上升或其他肝損傷徵象），頭痛、噁心、疲倦於給藥組較常見。⚠️ 適應症為 Friedreich's ataxia、<b>非 SCA，與 Stemchymal® 不直接競爭</b>；本筆為平台先前<b>未收錄之缺漏</b>，因登錄於窗內更新而回補。<b>本試驗的註冊主要指標是 mFARS、不是 SARA</b>——與本社及 Kissei rovatirelin 所採用的 SARA 屬不同量表，引用監管先例時不可混用",
+    "sponsor": "Biogen（原 Reata Pharmaceuticals，美國）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT02255435",
+    "en": {
+      "mechanism": "Oral small molecule<br>Nrf2 activator (Keap1 inhibitor)<br>counters oxidative stress and mitochondrial dysfunction",
+      "phase": "Ph2 (the pivotal MOXIe study, with open-label extension)",
+      "status": "<b>Completed</b> (COMPLETED) with <b>172 participants actually enrolled</b>. This is <b>the pivotal trial behind the only approved drug in the ataxia field</b> — it supported omaveloxolone's 2023 clearance as the <b>first approved treatment for Friedreich's ataxia anywhere in the world</b>. The study ran in two parts: <b>Part 1</b> was dose-ranging (seven dose levels from 2.5 to 300 mg against placebo) with <b>peak work capacity on maximal exercise testing at week 12</b> as the primary endpoint; <b>Part 2</b> was a randomised, double-blind, parallel-group comparison (omaveloxolone 150 mg versus placebo) whose primary endpoint was <b>change from baseline at week 48 in mFARS (the modified Friedreich's Ataxia Rating Scale, 0–99, lower scores indicating better function)</b>, followed by an open-label extension in which all participants received 150 mg. Registered start date 2015/01/31, primary completion 2019/10/31 and study completion 2025/12/19, at sites in the <b>United States, Australia, Austria, Italy and the United Kingdom</b>. <b>Results were posted to CT.gov on 2022/11/29</b>; the registry was updated on <b>2026/09/03</b> (submitted 2026/08/13). <b>Published readout (Lynch et al., Ann Neurol 2021)</b>: Part 2 randomised 103 patients (51 omaveloxolone, 52 placebo) with 82 in the full analysis set, and <b>week-48 mFARS change was −1.55 ± 0.69 on drug versus +0.85 ± 0.64 on placebo, a between-group difference of −2.40 ± 0.96, p = 0.014, meeting the primary endpoint</b>; on safety, <b>reversible aminotransferase elevations</b> occurred without rises in total bilirubin or other signs of liver injury, and headache, nausea and fatigue were more common on drug. ⚠️ The indication is Friedreich's ataxia, <b>not SCA, so it does not compete directly with Stemchymal®</b>. This entry <b>fills a previously missing record</b>, added because the registration was updated within the scan window. <b>Its registrational primary endpoint was mFARS, not SARA</b> — a different scale from the SARA used by Steminent and by Kissei's rovatirelin, and the two should not be conflated when citing regulatory precedent",
+      "sponsor": "Biogen (formerly Reata Pharmaceuticals, USA)"
+    }
+  },
+  {
     "nct": "NCT05515536",
     "drug": "Vatiquinone（PTC743，口服）",
     "mechanism": "<b>15-脂氧合酶（15-LO）抑制劑</b>（小分子），抑制脂質過氧化與鐵依賴性細胞死亡（ferroptosis）路徑、對抗氧化壓力造成的神經損傷",
