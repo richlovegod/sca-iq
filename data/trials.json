@@ -634,5 +634,39 @@
       "status": "Added by the proactive sweep (<b>not previously registered on this platform</b>). <b>The registry reads RECRUITING</b> — the Med-SBMA trial, multicentre, randomised, double-blind and placebo-controlled, dosed at 300 mg orally three times daily for 12 weeks, n=68 across five Japanese sites (Tokyo, Chiba, Sapporo, Shimotsuke and Suita); started 2025/02/28 with primary completion estimated 2027/12/31. <b>Primary endpoint = change from baseline in total ALSFRS-R at week 4</b>. The investigator is <b>Masahisa Katsuno of Nagoya University</b>, a central Japanese figure in SBMA and a co-author of the multicentre cerebellar motor-learning endpoint paper recorded on 10 August. ⚠️ <b>No registry update since 2025-04-16</b>, so \"recruiting\" is a stale sponsor-maintained entry rather than a verified current state. ⚠️ The indication is <b>Kennedy's disease / SBMA, the adjacent polyQ ring</b> rather than SCA, and this is a <b>symptomatic repurposing</b> that does not target disease course",
       "sponsor": "Masahisa Katsuno / Nagoya University (Japan)"
     }
+  },
+  {
+    "nct": "NCT06169046",
+    "drug": "Clenbuterol（克倫特羅，口服錠）",
+    "mechanism": "β2 腎上腺素受體促效劑<br>老藥新用（骨骼肌合成代謝／運動耐力）",
+    "phase": "Ph2",
+    "status": "主動掃描補收（<b>此前未在本平台登錄</b>）。BetaSBMA 試驗，隨機安慰劑對照兩臂平行設計，clenbuterol 0.04 mg/日口服共 <b>48 週</b>、<b>n=90（估計）</b>，主辦為<b>帕多瓦大學醫院 Gianni Sorarù</b>、合作單位為義大利 Mario Negri 藥理研究所，單一站點（義大利帕多瓦）；2024/04/13 起始、主要完成日估 2027/06/30。<b>主要指標＝第 48 週六分鐘行走測試（6MWT）</b>。⚠️ <b>登錄自 2024-04-15 起未再更新</b>——「收案中」為主辦方自行維護之陳舊登錄，非查證過的現況。⚠️ 適應症為<b>甘迺迪症／SBMA（polyQ 鄰近圈層）</b>、非 SCA；屬<b>症狀／功能改善型老藥再定位</b>，主要指標為行走耐力而非共濟失調量表，不改變病程，亦無公司主辦",
+    "sponsor": "Gianni Sorarù／帕多瓦大學醫院（義大利）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT06169046",
+    "en": {
+      "drug": "Clenbuterol (oral tablet)",
+      "mechanism": "Beta-2 adrenergic receptor agonist<br>drug repurposing (skeletal-muscle anabolism / exercise capacity)",
+      "phase": "Ph2",
+      "status": "Added by the proactive sweep (<b>not previously registered on this platform</b>). The BetaSBMA trial, a randomised placebo-controlled two-arm parallel study of clenbuterol 0.04 mg/day orally for <b>48 weeks</b>, <b>n=90 (estimated)</b>, sponsored by <b>Gianni Sorarù at Padova University Hospital</b> with the Mario Negri Institute for Pharmacological Research as collaborator, at a single Italian site (Padova); started 2024/04/13 with primary completion estimated 2027/06/30. <b>Primary endpoint = six-minute walk test (6MWT) at week 48</b>. ⚠️ <b>No registry update since 2024-04-15</b> — \"recruiting\" is a stale sponsor-maintained entry rather than a verified current state. ⚠️ The indication is <b>Kennedy's disease / SBMA, the adjacent polyQ ring</b>, not SCA; it is a <b>symptomatic / functional repurposing</b> whose primary endpoint is walking endurance rather than an ataxia scale, it does not target disease course, and it has no company sponsor",
+      "sponsor": "Gianni Sorarù / Padova University Hospital (Italy)"
+    }
+  },
+  {
+    "nct": "NCT03917225",
+    "drug": "Leriglitazone（MIN-102，口服懸液）",
+    "mechanism": "選擇性 PPARγ 促效劑（thiazolidinedione 衍生物）<br>粒線體生物能量／神經發炎調節",
+    "phase": "Ph2",
+    "status": "<b>每週點名查核補收</b>（<b>此前未在本平台登錄</b>——本試驗最後更新停在 2022-10-13，以疾病條件排序的日掃永遠排不進前 40 名，只有用藥名查詢才撈得到）。<b>FRAMES</b> 試驗，雙盲安慰劑對照、<b>實收 39 人</b>、比利時／法國／德國／西班牙四國，2019/03/26 起始、2020/09/14 結束，狀態<b>已完成</b>。<b>主要指標＝第 48 週 C2–C3 頸髓橫切面積（MRI）自基線變化</b>。<b>CT.gov 上未張貼結果</b>；公司 2020/12 公告與 2022 年 Neurology 論文均載<b>主要指標（脊髓面積）未達顯著／結果不具結論性</b>，公司主張的是次要指標中<b>上肢共濟失調惡化減緩</b>與 frataxin 路徑／生物能量標記的變化，安全性以體重增加與水腫為主、未見心臟風險訊號。⚠️ <b>n=39 為概念驗證規模，主要指標未達標</b>，次要指標之陽性描述屬<b>公司宣稱與事後分析</b>，不構成療效證明；本資產目前的開發重心在 X 染色體腎上腺腦白質失養症（NCT05819866 Ph3），Friedreich's 未見後續樞紐試驗登錄",
+    "sponsor": "Minoryx Therapeutics（西班牙）",
+    "us": false,
+    "url": "https://clinicaltrials.gov/study/NCT03917225",
+    "en": {
+      "drug": "Leriglitazone (MIN-102, oral suspension)",
+      "mechanism": "Selective PPARγ agonist (thiazolidinedione derivative)<br>mitochondrial bioenergetics / neuroinflammation modulation",
+      "phase": "Ph2",
+      "status": "<b>Added by the weekly roll-call check</b> (<b>not previously registered on this platform</b> — its last registry update was 2022-10-13, so a date-sorted disease-condition sweep can never reach it in the top 40; only a drug-name query retrieves it). The <b>FRAMES</b> trial: double-blind, placebo-controlled, <b>39 patients actually enrolled</b> across Belgium, France, Germany and Spain, running 2019/03/26 to 2020/09/14, status <b>completed</b>. <b>Primary endpoint = change from baseline at week 48 in C2–C3 cervical spinal-cord cross-sectional area on MRI</b>. <b>No results are posted on CT.gov</b>; the company's December 2020 announcement and the 2022 Neurology publication both report the <b>primary endpoint (spinal-cord area) as not significant / inconclusive</b>. What the company claims sits in the secondary endpoints — <b>reduced decline in upper-limb ataxia</b> plus changes in frataxin-pathway and bioenergetic markers — with weight gain and oedema the main safety findings and no cardiac risk signal detected. ⚠️ <b>n=39 is proof-of-concept scale and the primary endpoint failed</b>; the positive secondary readings are <b>company claims and post-hoc analysis</b>, not proof of efficacy. Development of this asset now centres on X-linked adrenoleukodystrophy (NCT05819866, Ph3), and no follow-on pivotal trial in Friedreich's ataxia is registered",
+      "sponsor": "Minoryx Therapeutics (Spain)"
+    }
   }
 ]

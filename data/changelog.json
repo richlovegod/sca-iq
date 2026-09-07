@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-07",
+    "dateDisplay": "2026/09/07",
+    "tag": "每日掃描",
+    "level": "info",
+    "body": "<b>本次新增 2 筆試驗登錄（皆為既有缺漏之回補），無新文獻。</b><b>①主動掃描</b>：<b>帕多瓦大學醫院的 clenbuterol SBMA 二期（NCT06169046，BetaSBMA）</b>——β2 促效劑老藥新用，0.04 mg/日口服 48 週、n=90（估計）、義大利單一站點，合作單位為 Mario Negri 藥理研究所，主要指標為<b>第 48 週六分鐘行走測試</b>。⚠️ <b>登錄自 2024-04-15 起未再更新</b>，「收案中」屬主辦方陳舊登錄；適應症為 polyQ 鄰近圈層的甘迺迪症、非 SCA，且為<b>症狀／功能改善型</b>（主要指標是行走耐力而非共濟失調量表），不改變病程。<b>②每週點名查核</b>：<b>Minoryx 的 leriglitazone Friedreich's 二期（NCT03917225，FRAMES）</b>——本試驗最後更新停在 2022-10-13，正是手冊 §1b-2 所述「久未更新、以疾病條件排序永遠排不進前 40 名」的案例，只有用藥名查詢才撈得到。實收 39 人、比／法／德／西四國、2020/09 完成，狀態已完成而 <b>CT.gov 未張貼結果</b>；公司公告與 2022 年 Neurology 論文均載<b>主要指標（C2–C3 頸髓面積）未達顯著／不具結論性</b>，公司主張的上肢共濟失調惡化減緩屬<b>次要指標與事後分析</b>，不構成療效證明。該資產開發重心現已轉向 X-ALD（NCT05819866 Ph3），Friedreich's 無後續樞紐試驗登錄。<b>本日判斷紀錄</b>：Friedreich 與 CACNA1A 查詢另帶出 <b>NCT06623890（Biogen omaveloxolone 上市後登錄）</b>、<b>NCT07013292（法國尼斯 CHU 吞嚥困難回溯性研究）</b>、<b>NCT06016946（FARA UNIFIED 自然史）</b>、<b>NCT04944940／NCT07443449（SBMA 生物標記與登錄研究）</b> 五筆，逐筆查證後確認<b>皆為觀察性／登錄／回溯性研究而非介入性療法試驗</b>，依 §1b 收錄準則排除。PubMed 近 7 天 4 篇（含 iScience Importin-8、黃耆 SCA3 試驗）經去重比對<b>已於 09/06 全數收錄</b>，本日無新增。",
+    "link": {
+      "label": "詳見 試驗雷達 ↗",
+      "tab": "si",
+      "anchor": "trialradar"
+    },
+    "en": {
+      "tag": "Daily scan",
+      "body": "<b>Two trial registrations added, both filling pre-existing gaps; no new papers.</b> <b>(1) Proactive sweep</b>: <b>the clenbuterol Phase 2 in SBMA from Padova University Hospital (NCT06169046, BetaSBMA)</b> — a beta-2 agonist repurposing, 0.04 mg/day orally for 48 weeks, n=90 (estimated), single Italian site, with the Mario Negri Institute as collaborator and a <b>six-minute walk test at week 48</b> as the primary endpoint. ⚠️ <b>No registry update since 2024-04-15</b>, so \"recruiting\" is a stale sponsor entry; the indication is Kennedy's disease in the adjacent polyQ ring rather than SCA, and it is a <b>symptomatic / functional</b> study whose primary endpoint is walking endurance rather than an ataxia scale, so it does not address disease course. <b>(2) Weekly roll-call</b>: <b>Minoryx's leriglitazone Phase 2 in Friedreich's ataxia (NCT03917225, FRAMES)</b> — last updated 2022-10-13, exactly the case the manual's §1b-2 describes, where a long-dormant trial can never surface in a date-sorted condition query and only a drug-name search retrieves it. It enrolled 39 patients across Belgium, France, Germany and Spain, completed in September 2020, and is marked completed with <b>no results posted on CT.gov</b>; the company's announcement and the 2022 Neurology publication both report the <b>primary endpoint (C2–C3 cervical cord area) as not significant / inconclusive</b>, and the claimed reduction in upper-limb ataxia decline rests on <b>secondary endpoints and post-hoc analysis</b> rather than proof of efficacy. The asset's development has since moved to X-linked adrenoleukodystrophy (NCT05819866, Ph3), with no follow-on pivotal Friedreich's trial registered. <b>Decisions logged today</b>: the Friedreich and CACNA1A queries also surfaced <b>NCT06623890 (Biogen omaveloxolone post-marketing registry)</b>, <b>NCT07013292 (retrospective dysphagia study, CHU Nice)</b>, <b>NCT06016946 (FARA UNIFIED natural history)</b> and <b>NCT04944940 / NCT07443449 (SBMA biomarker and registry studies)</b>; each was checked individually and confirmed to be <b>observational, registry or retrospective rather than an interventional therapy trial</b>, so all five were excluded under the §1b criteria. The four PubMed hits from the past seven days (including the iScience Importin-8 paper and the Astragalus SCA3 trial) were <b>already recorded on 09/06</b> on de-duplication, so nothing was added.",
+      "linkLabel": "See Trial Radar ↗"
+    }
+  },
+  {
     "date": "2026-09-06",
     "dateDisplay": "2026/09/06",
     "tag": "每日掃描",
