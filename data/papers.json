@@ -1,5 +1,62 @@
 [
   {
+    "id": "pubmed:42712185",
+    "date": "2026-09-09",
+    "dateDisplay": "2026/09/09",
+    "title": "Selectivity Filter KCND3 Variant Causes Spinocerebellar Ataxia 19/22 and K(V)4.3 Functional Loss",
+    "journal": "Movement Disorders · Lee CJ、Cheng KM、Cheng WL、Hsieh CH、Kuo WT、Pan SH、Tang CY、Jeng CJ、Liu CS（台灣：彰化基督教醫院神經內科與 ATP 研究所血管暨基因體中心、台大醫學院生理學科、陽明交大解剖暨細胞生物學研究所與腦科學研究中心、中國醫藥大學中西醫結合研究所）· doi:10.1002/mds.70514 · 2026/09/09",
+    "tag": "SCA19/22 · KCND3／K<sub>V</sub>4.3 離子通道 · 台灣家系 · 基因型—表現型（無療法資料）",
+    "note": "→ <b>這是一篇台灣團隊的基因型—表現型研究，主體為一對同卵雙胞胎的臨床描述加上通道功能的細胞實驗，<u>不含任何療法、藥物或試驗資料</u></b>。<b>SCA19/22</b> 是由 <b>KCND3</b> 基因（編碼 <b>K<sub>V</sub>4.3 鉀離子通道</b>）變異造成的罕見體染色體顯性神經退化疾病，過去已知的致病變異多屬功能喪失型，<b>但從未有變異被指認落在通道的「選擇性過濾器（selectivity filter）」</b>——那是決定通道只讓鉀離子通過的關鍵區段。→ <b>研究對象</b>：一對<b>同卵雙胞胎</b>，表現為<b>早發性小腦共濟失調、發展遲緩與認知障礙</b>。全外顯子定序找到位於 <b>「TLGYG」選擇性過濾器序列上的異型合子 de novo p.L368P 變異</b>。→ <b>關鍵結果</b>：結構模擬預測該變異<b>縮小通道孔徑、阻礙鉀離子通透</b>；生化實驗顯示<b>蛋白表現量大幅下降且運輸（trafficking）受損</b>；電生理則證實<b>鉀電流完全喪失，並對野生型 K<sub>V</sub>4.3 電流產生顯著的顯性負向（dominant-negative）效應</b>。臨床上兩人皆有<b>重度智能障礙、發展遲緩、小腦萎縮併橋腦扁平，但無癲癇</b>。→ 與本平台的關聯：本筆的價值在<b>台灣的 SCA 基因診斷與功能驗證量能</b>——同一組人馬把<b>全外顯子定序、結構模擬、生化與電生理</b>整合在一個罕見亞型上，是本地臨床試驗執行環境的側面佐證；同時擴充了 <b>SCA19/22 的表現型光譜</b>。⚠️ <b>限制</b>：<b>僅一組雙胞胎（n=2，且為同一 de novo 變異）</b>，屬個案層級證據；<b>SCA19/22 不是本社 Stemchymal® 的 polyQ 適應症、也不在任何已登錄競品試驗的收案範圍內</b>；<b>全文無療效、無藥物、無臨床試驗資料</b>，不得據以推論任何療法。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42712185/",
+    "urlLabel": "論文 ↗ PubMed 42712185",
+    "en": {
+      "tag": "SCA19/22 · KCND3 / K<sub>V</sub>4.3 ion channel · Taiwanese kindred · genotype–phenotype (no therapy data)",
+      "journal": "Movement Disorders · Lee CJ, Cheng KM, Cheng WL, Hsieh CH, Kuo WT, Pan SH, Tang CY, Jeng CJ, Liu CS (Taiwan: Department of Neurology and the Vascular and Genomic Center, Institute of ATP, Changhua Christian Hospital; Department of Physiology, National Taiwan University College of Medicine; Institute of Anatomy and Cell Biology and Brain Research Center, National Yang Ming Chiao Tung University; Graduate Institute of Integrated Medicine, China Medical University) · doi:10.1002/mds.70514 · 2026/09/09",
+      "note": "→ <b>A genotype–phenotype study from a Taiwanese group, combining the clinical description of a monozygotic twin pair with cell-level channel function experiments, and containing <u>no therapy, drug or trial data whatsoever</u></b>. <b>SCA19/22</b> is a rare autosomal dominant neurodegenerative disorder caused by variants in <b>KCND3</b>, which encodes the <b>K<sub>V</sub>4.3 potassium channel</b>. Most known pathogenic variants act by loss of function, <b>but none had previously been identified within the channel's selectivity filter</b> — the segment that determines the channel's selectivity for potassium. → <b>Subjects</b>: a pair of <b>monozygotic twins</b> presenting with <b>early-onset cerebellar ataxia, developmental delay and cognitive impairment</b>. Whole-exome sequencing identified a <b>heterozygous de novo p.L368P variant lying within the 'TLGYG' selectivity filter sequence</b>. → <b>Key results</b>: structural modelling predicted a <b>reduced pore radius obstructing potassium permeation</b>; biochemistry showed <b>substantially diminished protein expression and compromised trafficking</b>; and electrophysiology confirmed <b>total loss of potassium current with a pronounced dominant-negative effect on wild-type K<sub>V</sub>4.3 currents</b>. Clinically both twins had <b>severe intellectual disability, developmental delay, and cerebellar atrophy with pontine flattening, but no seizures</b>. → Relevance here lies in <b>Taiwanese capacity for SCA genetic diagnosis and functional validation</b> — one group integrating <b>exome sequencing, structural modelling, biochemistry and electrophysiology</b> on a rare subtype is indirect evidence about the local clinical research environment — and in the expansion of the <b>SCA19/22 phenotypic spectrum</b>. ⚠️ <b>Limitations</b>: <b>a single twin pair (n=2, sharing one de novo variant)</b>, so case-level evidence; <b>SCA19/22 is not among the polyQ indications of Steminent's Stemchymal® and falls outside the eligibility of every registered competitor trial</b>; and the paper carries <b>no efficacy, drug or clinical trial data</b> and supports no inference about any therapy.",
+      "urlLabel": "Paper ↗ PubMed 42712185"
+    }
+  },
+  {
+    "id": "pubmed:42699715",
+    "date": "2026-09-01",
+    "dateDisplay": "2026/09/01",
+    "title": "Characteristics of a Cohort of Individuals With SCA27B Associated With Repeat Expansions in FGF14",
+    "journal": "Neurology: Genetics 12(5):e200424 · Anderson SC、Patel SG、Rodrigues M、Mancuso-Marcello M、Simpson M（紐西蘭奧克蘭市立醫院 Te Toka Tumai Auckland 神經科與放射科，Te Whatu Ora Health New Zealand）· doi:10.1212/NXG.0000000000200424 · 2026/09/01",
+    "tag": "SCA27B／FGF14 GAA 重複擴增 · 紐西蘭世代 · 診斷率（無療法資料）",
+    "note": "→ <b>這是一篇診斷世代研究，處理的是「特發性晚發型小腦共濟失調（ILOCA）當中有多少其實是 SCA27B」這個問題，<u>不含任何療法或試驗資料</u></b>。<b>SCA27B</b> 由 <b>FGF14 基因的 GAA 重複擴增</b>（一般判讀門檻為 <b>&gt;250 次重複</b>）造成，是近年才被指認、卻迅速被認為是晚發型共濟失調重要成因的亞型。→ <b>方法</b>：自電子病歷找出<b>先前共濟失調基因套組檢測為陰性</b>的病人，改以<b>擴充版重複擴增套組</b>（納入 FGF14 及另外五個近年新指認的基因）重驗。→ <b>結果</b>：<b>29 名受檢者中 11 名（38%）取得陽性診斷</b>——其中 <b>9 名為 FGF14 重複擴增（SCA27B）</b>、1 名 RFC1 擴增（CANVAS）、1 名 TBP 擴增（SCA17）。9 名 SCA27B 個案的臨床樣貌<b>與歐洲既有描述一致</b>：<b>發病晚（平均 56 歲）、早期可呈陣發性表現</b>，另有 <b>2 人出現軟顎震顫</b>。⚠️ 值得注意的是，<b>7 人重複次數 &gt;250，但另有 2 人落在 200–250 的邊界區間卻具備符合 SCA27B 的表現型</b>——意味<b>現行判讀門檻可能漏診邊界個案</b>。→ 與本平台的關聯：SCA27B 是 <b>Solaxa（SLX-100）所鎖定的適應症</b>，屬本站「鄰近共濟失調圈層」追蹤範圍。<b>診斷率資料直接關係到該亞型的可收案母體規模</b>——若既有 ILOCA 族群中約三分之一可被重新歸類，代表<b>潛在受試者池大於過去估計</b>；邊界重複次數的問題則<b>同時是試驗納入條件設計上的實務難題</b>。⚠️ <b>限制</b>：<b>單一國家、單一中心、樣本僅 29 人</b>，且對象為<b>先前檢測陰性的篩選後族群</b>，<b>其 38% 診斷率不能外推為一般 ILOCA 族群的盛行率</b>；<b>全文無任何治療、藥物或試驗資料</b>，與任何競品資產的開發進度無關。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42699715/",
+    "urlLabel": "論文 ↗ PubMed 42699715",
+    "en": {
+      "tag": "SCA27B / FGF14 GAA repeat expansion · New Zealand cohort · diagnostic yield (no therapy data)",
+      "journal": "Neurology: Genetics 12(5):e200424 · Anderson SC, Patel SG, Rodrigues M, Mancuso-Marcello M, Simpson M (Departments of Neurology and Radiology, Te Toka Tumai Auckland, Auckland City Hospital, Te Whatu Ora Health New Zealand) · doi:10.1212/NXG.0000000000200424 · 2026/09/01",
+      "note": "→ <b>A diagnostic cohort study asking how much idiopathic late-onset cerebellar ataxia (ILOCA) is in fact SCA27B, with <u>no therapy or trial data of any kind</u></b>. <b>SCA27B</b> is caused by a <b>GAA repeat expansion in FGF14</b> (conventionally read at a threshold of <b>&gt;250 repeats</b>), a subtype identified only recently but rapidly recognised as an important cause of late-onset ataxia. → <b>Method</b>: patients with <b>previously negative ataxia gene panels</b> were identified from electronic records and retested on an <b>expanded repeat expansion panel</b> covering FGF14 and five further recently identified genes. → <b>Results</b>: <b>11 of 29 patients tested (38%) received a diagnosis</b> — <b>nine with FGF14 repeat expansions (SCA27B)</b>, one with RFC1 expansions (CANVAS) and one with TBP expansions (SCA17). The clinical picture in the nine SCA27B cases <b>paralleled published European cohorts</b>: <b>late onset (mean 56 years) with episodic manifestations early on</b>, and <b>two patients had palatal tremor</b>. ⚠️ Notably, <b>seven had &gt;250 repeats but two more carried 200–250 repeats while showing an SCA27B-consistent phenotype</b> — implying <b>the current interpretive threshold may miss borderline cases</b>. → Relevance here: SCA27B is <b>the indication targeted by Solaxa's SLX-100</b> and sits inside this platform's adjacent-ataxia ring. <b>Diagnostic yield bears directly on the recruitable population for that subtype</b> — if roughly a third of an existing ILOCA population can be reclassified, the <b>potential participant pool is larger than previously assumed</b> — while the borderline-repeat question is <b>simultaneously a practical problem for writing trial eligibility criteria</b>. ⚠️ <b>Limitations</b>: <b>a single country, a single centre and only 29 patients</b>, drawn from a <b>pre-selected previously-negative population</b>, so <b>the 38% yield cannot be extrapolated as a prevalence figure for ILOCA generally</b>; and the paper contains <b>no treatment, drug or trial data</b> and says nothing about the progress of any competitor asset.",
+      "urlLabel": "Paper ↗ PubMed 42699715"
+    }
+  },
+  {
+    "id": "pubmed:42710251",
+    "date": "2026-09-01",
+    "dateDisplay": "2026/09/01",
+    "title": "FGF14 (GAA) repeat expansion-associated Ataxia (SCA27B): Expanding the clinical and diagnostic spectrum from the first genetically confirmed case in Argentina",
+    "journal": "Parkinsonism & Related Disorders 152 · Gatto EM、Gonzalez Rojas N、Cesarini ME、Franco FG、Schottlaender L、Iruzubieta P、Dicaire MJ、Pellerin D、Brais B（阿根廷布宜諾斯艾利斯 Sanatorio de La Trinidad Mitre、INEBA、CONICET-Universidad Austral IIMT、Hospital Universitario Austral；加拿大麥基爾大學蒙特婁神經學研究所；美國邁阿密大學 Hussman 人類基因體研究所）· doi:10.1016/j.parkreldis.2026.108965 · 2026/09/01",
+    "tag": "SCA27B／FGF14 · 阿根廷首例 · 誤診警示（無療法資料）",
+    "note": "→ <b>這是一篇單一個案報告</b>，記錄<b>阿根廷第一例經基因確診的 SCA27B</b>。重點不在個案本身，而在<b>誤診路徑</b>：該病人<b>最初被診斷為酒精性小腦退化</b>，後續才由 <b>FGF14 GAA 重複擴增</b>檢測確立為 SCA27B。作者據此強調<b>診斷困難、表現型變異度，以及對這個「可治療（treatable）」疾病進行基因檢測的臨床價值</b>。→ 與本平台的關聯：與同日收錄的紐西蘭世代研究（PubMed 42699715）指向<b>同一件事的兩面</b>——SCA27B 在<b>成人晚發型共濟失調中被系統性低估</b>，而低估的來源包含<b>把小腦症狀歸因於酒精等後天因素</b>。SCA27B 為 <b>Solaxa（SLX-100）</b>鎖定的適應症，屬本站鄰近共濟失調圈層；<b>診斷落差直接影響該亞型未來試驗的可及收案母體</b>，也說明拉丁美洲市場的基因診斷覆蓋仍在早期。⚠️ <b>限制</b>：<b>n=1 的個案報告，證據等級最低，不能推論盛行率或診斷率</b>；<b>原文摘要極簡，未提供重複次數、年齡、病程等細節，本站不補寫未載明的數字</b>。作者所稱「可治療」係指 SCA27B 文獻中報告的 4-胺基吡啶（4-aminopyridine）症狀改善經驗，<b>並非本文自身的療效資料，本文無任何治療結果</b>。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42710251/",
+    "urlLabel": "論文 ↗ PubMed 42710251",
+    "en": {
+      "tag": "SCA27B / FGF14 · first Argentinean case · misdiagnosis warning (no therapy data)",
+      "journal": "Parkinsonism & Related Disorders 152 · Gatto EM, Gonzalez Rojas N, Cesarini ME, Franco FG, Schottlaender L, Iruzubieta P, Dicaire MJ, Pellerin D, Brais B (Sanatorio de La Trinidad Mitre, INEBA, IIMT CONICET-Universidad Austral and Hospital Universitario Austral, Buenos Aires, Argentina; Montreal Neurological Institute, McGill University, Canada; Hussman Institute for Human Genomics, University of Miami, USA) · doi:10.1016/j.parkreldis.2026.108965 · 2026/09/01",
+      "note": "→ <b>A single case report</b> documenting the <b>first genetically confirmed case of SCA27B in Argentina</b>. What matters is not the case itself but the <b>route to misdiagnosis</b>: the patient was <b>initially diagnosed with alcoholic cerebellar degeneration</b>, and only later confirmed as SCA27B by <b>FGF14 GAA repeat expansion</b> testing. The authors draw from this the <b>diagnostic difficulty, the phenotypic variability, and the clinical value of genetic testing in what they describe as a treatable disorder</b>. → Relevance here: together with the New Zealand cohort recorded the same day (PubMed 42699715) this shows <b>two faces of one problem</b> — SCA27B is <b>systematically under-recognised among adult late-onset ataxias</b>, in part because <b>cerebellar signs get attributed to acquired causes such as alcohol</b>. SCA27B is the indication targeted by <b>Solaxa's SLX-100</b> and sits in this platform's adjacent-ataxia ring; the <b>diagnostic gap bears directly on the recruitable population for future trials in this subtype</b>, and it also indicates that genetic diagnostic coverage in Latin American markets remains early. ⚠️ <b>Limitations</b>: <b>an n=1 case report, the lowest tier of evidence, from which no prevalence or diagnostic yield can be inferred</b>; the <b>published abstract is extremely brief and gives no repeat length, age or disease duration, and this site does not supply figures the source does not state</b>. The authors' description of the disorder as treatable refers to reported symptomatic benefit from 4-aminopyridine in the SCA27B literature — <b>it is not efficacy data from this paper, which reports no treatment outcomes</b>.",
+      "urlLabel": "Paper ↗ PubMed 42710251"
+    }
+  },
+  {
     "id": "pubmed:42698560",
     "date": "2026-09-01",
     "dateDisplay": "2026/09",
