@@ -292,7 +292,7 @@
     "developer": "Schmahmann 等（美國 MGH / 哈佛）",
     "measures": "70 題問卷，源自病人經驗，涵蓋身體、日常活動、認知/情緒等面向，0–4 Likert 計分。",
     "development": "首個由病人主導建構的共濟失調症狀清單。",
-    "validation": "原始論文為橫斷面驗證；後續研究進行縱貫與收斂效度驗證。",
+    "validation": "原始論文為橫斷面驗證；後續研究進行縱貫與收斂效度驗證。2026 年荷蘭 Radboud 大學醫學中心（Leeuwenberg 等，J Neurol）以 SCA1／SCA3／SCA7 共 76 名帶因者（68 人完成一年追蹤）驗證：與 SARA 等量表中度至高度相關（ρ=0.46–0.89），可區分前共濟失調帶因者與健康對照；但一年群體反應度低（SRM=0.17，個體間變化 SD=22.0），MCID 估計為 9.8–12.7 分。",
     "useInTrials": "已納入部分 SCA 自然史與試驗作病人自陳（PRO）端點，正翻譯多語版本。",
     "taiwan": "公開來源未見台灣特定驗證；已知中文版驗證出自中國大陸（中山大學 2024），非台灣。",
     "tags": [
@@ -307,6 +307,10 @@
       {
         "label": "中國中文版驗證 Cerebellum 2024",
         "url": "https://pubmed.ncbi.nlm.nih.gov/37943429/"
+      },
+      {
+        "label": "SCA1/3/7 縱貫驗證與 MCID J Neurol 2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714627/"
       }
     ],
     "domainKey": "pro",
@@ -314,7 +318,7 @@
       "developer": "Schmahmann et al. (MGH / Harvard, USA)",
       "measures": "70-item questionnaire derived from patient experience, covering physical, activities-of-daily-living, and cognitive/affective domains, scored 0–4 Likert.",
       "development": "The first patient-led symptom inventory in ataxia.",
-      "validation": "Original paper cross-sectional; subsequent work adds longitudinal and convergent validity (Burt 2025 showed measurable progression in SCA).",
+      "validation": "Original paper cross-sectional; subsequent work adds longitudinal and convergent validity (Burt 2025 showed measurable progression in SCA). In 2026 Radboud University Medical Center (Leeuwenberg et al., J Neurol) validated it in 76 SCA1/SCA3/SCA7 carriers (68 with one-year follow-up): moderate-to-strong correlation with SARA and other scales (ρ=0.46–0.89) and discrimination of pre-ataxic carriers from healthy controls, but low one-year group responsiveness (SRM=0.17; between-subject SD of change 22.0), with an estimated MCID of 9.8–12.7 points.",
       "useInTrials": "Incorporated into some SCA natural-history studies and trials as a patient-reported (PRO) endpoint; being translated into multiple languages.",
       "taiwan": "No Taiwan-specific validation in public sources; the known Chinese-version validation is from mainland China (Sun Yat-sen Univ. 2024), not Taiwan.",
       "sources": [
@@ -325,6 +329,10 @@
         {
           "label": "Chinese-language validation (mainland China), Cerebellum 2024",
           "url": "https://pubmed.ncbi.nlm.nih.gov/37943429/"
+        },
+        {
+          "label": "SCA1/3/7 longitudinal validation and MCID, J Neurol 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714627/"
         }
       ]
     }

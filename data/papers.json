@@ -1,5 +1,62 @@
 [
   {
+    "id": "pubmed:42714627",
+    "date": "2026-09-09",
+    "dateDisplay": "2026/09/09",
+    "title": "Convergent validity, responsiveness, and meaningful within-subject change of the PROM-Ataxia in spinocerebellar ataxias",
+    "journal": "Journal of Neurology 273(10):583 · Leeuwenberg KE、van Prooije TH、Reniers C、Kapteijns KCJ、Maas RPPWM、van de Warrenburg BP（荷蘭奈梅亨 Radboud 大學醫學中心神經科、Donders 腦科學研究所）· doi:10.1007/s00415-026-14108-1 · 2026/09/09",
+    "tag": "臨床評估量表 · PROM-Ataxia 病人自陳 · SCA1/3/7 一年縱貫驗證 · MCID",
+    "note": "→ <b>這是一篇量表的臨床計量學（clinimetrics）研究，處理的是「病人自陳量表 PROM-Ataxia 能不能當 SCA 試驗終點」的問題，<u>不含任何療法或試驗資料</u></b>。→ <b>方法</b>：合併三個單中心觀察性世代，收納 <b>SCA1、SCA3、SCA7 的共濟失調期與前共濟失調期帶因者及健康對照</b>，比較基線與一年追蹤的 PROM-Ataxia，並與 SARA、INAS、SCAFI、CCAS、EQ-5D-5L VAS、PHQ-9、UHDRS Part IV、FARS-ADL 做相關分析。→ <b>結果</b>：基線納入 <b>76 名帶因者（SCA1 20、SCA3 40、SCA7 16）</b>，<b>68 人完成一年追蹤</b>。PROM-Ataxia 與其他量表<b>中度至高度相關（ρ=0.46–0.89，p&lt;0.001）</b>，且<b>能區分前共濟失調帶因者與健康對照（p&lt;0.001）</b>。一年平均僅<b>上升 3.9 分（p=0.048）</b>，但<b>個體間變化差異極大（SD=22.0）</b>，<b>群體層級反應度低（SRM=0.17）</b>；<b>最小臨床重要差異（MCID）估計為 9.8–12.7 分</b>。→ 與本平台的關聯：<b>SCA3 是本社 Stemchymal® 日本申請的適應症之一</b>，而病人自陳終點是法規單位日益重視的「對病人有意義」證據。本文給出兩個<b>試驗設計上可直接引用的數字</b>：①<b>MCID 9.8–12.7</b> 可作為反應者分析（responder analysis）的門檻；②<b>SRM 僅 0.17</b> 意味<b>若以 PROM-Ataxia 作為一年期試驗的主要終點，所需樣本數會非常大</b>，較適合當次要或支持性終點。⚠️ <b>限制</b>：<b>單一中心、觀察性、無介入</b>；各亞型樣本小（SCA7 僅 16 人）且<b>未涵蓋 SCA2、SCA6</b>；追蹤僅一年。⚠️ <b>利益揭露照錄</b>：通訊作者之一 van de Warrenburg 自陳<b>曾任 Vico Therapeutics、Biohaven、Biogen 的科學顧問委員</b>（三家皆為本站追蹤之 SCA 開發商）。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42714627/",
+    "urlLabel": "論文 ↗ PubMed 42714627",
+    "en": {
+      "tag": "Clinical assessment scale · PROM-Ataxia patient-reported outcome · 1-year longitudinal validation in SCA1/3/7 · MCID",
+      "journal": "Journal of Neurology 273(10):583 · Leeuwenberg KE, van Prooije TH, Reniers C, Kapteijns KCJ, Maas RPPWM, van de Warrenburg BP (Department of Neurology, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands) · doi:10.1007/s00415-026-14108-1 · 2026/09/09",
+      "note": "→ <b>A clinimetric study asking whether the patient-reported PROM-Ataxia can serve as an SCA trial endpoint, with <u>no therapy or trial data of any kind</u></b>. → <b>Method</b>: three single-centre observational cohorts were pooled, covering <b>ataxic and pre-ataxic SCA1, SCA3 and SCA7 mutation carriers plus healthy controls</b>; PROM-Ataxia at baseline and one year was correlated with SARA, INAS, SCAFI, CCAS, EQ-5D-5L VAS, PHQ-9, UHDRS Part IV and FARS-ADL. → <b>Results</b>: <b>76 carriers (20 SCA1, 40 SCA3, 16 SCA7)</b> were included at baseline and <b>68 completed one-year follow-up</b>. PROM-Ataxia <b>correlated moderately to strongly with the other measures (ρ=0.46–0.89, p&lt;0.001)</b> and <b>distinguished pre-ataxic carriers from healthy controls (p&lt;0.001)</b>. Over one year the mean score <b>rose only 3.9 points (p=0.048)</b>, with <b>very large between-subject variability in change (SD=22.0)</b> and <b>low group-level responsiveness (SRM=0.17)</b>; the <b>minimal clinically important difference (MCID) was estimated at 9.8–12.7 points</b>. → Relevance here: <b>SCA3 is one of the indications in Steminent's Japanese filing for Stemchymal®</b>, and patient-reported endpoints are increasingly valued by regulators as evidence of benefit meaningful to patients. The paper supplies two <b>figures directly usable in trial design</b>: (1) <b>an MCID of 9.8–12.7</b> as a threshold for responder analysis; and (2) <b>an SRM of only 0.17</b>, meaning <b>a one-year trial using PROM-Ataxia as its primary endpoint would need a very large sample</b>, so it is better suited as a secondary or supportive endpoint. ⚠️ <b>Limitations</b>: <b>single centre, observational, no intervention</b>; small subtype samples (only 16 SCA7) and <b>no SCA2 or SCA6</b>; one year of follow-up only. ⚠️ <b>Disclosure as stated</b>: co-senior author van de Warrenburg reports <b>having served on scientific advisory boards for Vico Therapeutics, Biohaven and Biogen</b> (all three are SCA developers tracked on this site).",
+      "urlLabel": "Paper ↗ PubMed 42714627"
+    }
+  },
+  {
+    "id": "pubmed:42716230",
+    "date": "2026-09-09",
+    "dateDisplay": "2026/09/09",
+    "title": "MicroRNAs in polyglutamine diseases: Mechanistic insights, circulating biomarkers, and emerging microRNA-based therapeutic strategies",
+    "journal": "Neurobiology of Disease 107603（線上優先）· Liu Y、Cui Y、Sun M、Gong L、Liu K、Zhang S、Tan X、Cong S（中國醫科大學附屬盛京醫院神經內科，瀋陽）· doi:10.1016/j.nbd.2026.107603 · 2026/09/09",
+    "tag": "polyQ 疾病 · microRNA 機轉／生物標記／RNA 療法 · 回顧（無新原始數據）",
+    "note": "→ <b>這是一篇敘述性回顧，彙整 2019 年以來 microRNA（miRNA）在全部九種 polyQ 疾病（含亨丁頓舞蹈症、各型 SCA、DRPLA、SBMA）中的角色，<u>本身不含新的原始數據</u></b>。→ <b>三個面向</b>：①<b>機轉</b>——特定 miRNA 如何調節突變蛋白聚集、轉錄失調、粒線體功能障礙與細胞凋亡，並連結到動作、認知與精神表現型；②<b>治療</b>——<b>以 AAV 遞送的人工 miRNA</b> 與<b>外泌體平台</b>，在臨床前模型中針對 <b>HTT、ATXN1、ATXN3、ATXN7</b> 等突變轉錄本展現療效；作者並指出 <b>AAV5-miHTT 已進入亨丁頓舞蹈症的首次人體試驗（NCT04120493）</b>，視為臨床轉譯的里程碑；③<b>生物標記</b>——血漿與腦脊髓液中的循環 miRNA 具<b>微創、分期特異</b>的診斷潛力，但<b>標準化、跨體液一致性與臨床驗證</b>仍是障礙。作者列出的轉譯瓶頸為<b>脫靶效應、遞送最佳化、免疫原性與病人異質性</b>。→ 與本平台的關聯：本文所述<b>針對 ATXN1／ATXN3 的 RNA 靶向路線，與 Vico VO659（ASO）、Arrowhead ARO-ATXN2（siRNA）同屬「降低突變蛋白」陣營</b>，與本社 Stemchymal® 的細胞治療路線機制不同；<b>SCA 領域的 miRNA 療法目前在公開文獻中仍停留於臨床前</b>。⚠️ <b>限制</b>：<b>敘述性回顧、非系統性回顧或統合分析</b>，文獻選取標準未於摘要載明；<b>SCA 相關內容全屬臨床前</b>，不得推論任何 SCA 療法的療效或時程。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42716230/",
+    "urlLabel": "論文 ↗ PubMed 42716230",
+    "en": {
+      "tag": "PolyQ diseases · microRNA mechanisms / biomarkers / RNA therapeutics · review (no new primary data)",
+      "journal": "Neurobiology of Disease 107603 (online ahead of print) · Liu Y, Cui Y, Sun M, Gong L, Liu K, Zhang S, Tan X, Cong S (Department of Neurology, Shengjing Hospital of China Medical University, Shenyang, China) · doi:10.1016/j.nbd.2026.107603 · 2026/09/09",
+      "note": "→ <b>A narrative review of the role of microRNAs (miRNAs) across all nine polyQ diseases (including Huntington's disease, the SCAs, DRPLA and SBMA) since 2019, <u>containing no new primary data of its own</u></b>. → <b>Three strands</b>: (1) <b>mechanism</b> — how specific miRNAs modulate mutant protein aggregation, transcriptional dysregulation, mitochondrial dysfunction and apoptosis, linked to motor, cognitive and psychiatric phenotypes; (2) <b>therapy</b> — <b>AAV-delivered artificial miRNAs</b> and <b>exosome-based platforms</b> showing preclinical efficacy against mutant transcripts including <b>HTT, ATXN1, ATXN3 and ATXN7</b>, with the authors noting that <b>AAV5-miHTT has entered a first-in-human trial in Huntington's disease (NCT04120493)</b> as a translational milestone; and (3) <b>biomarkers</b> — circulating miRNAs in plasma and CSF show <b>minimally invasive, stage-specific</b> diagnostic potential, but <b>normalisation, cross-biofluid concordance and clinical validation</b> remain obstacles. The translational barriers listed are <b>off-target effects, delivery optimisation, immunogenicity and patient heterogeneity</b>. → Relevance here: the <b>RNA-targeting approaches against ATXN1/ATXN3 described here sit in the same 'lower the mutant protein' camp as Vico's VO659 (ASO) and Arrowhead's ARO-ATXN2 (siRNA)</b>, mechanistically distinct from Steminent's Stemchymal® cell therapy; <b>miRNA therapeutics for SCA remain preclinical in the published literature</b>. ⚠️ <b>Limitations</b>: <b>a narrative review, not a systematic review or meta-analysis</b>, with literature selection criteria not stated in the abstract; <b>all SCA-related content is preclinical</b> and supports no inference about the efficacy or timing of any SCA therapy.",
+      "urlLabel": "Paper ↗ PubMed 42716230"
+    }
+  },
+  {
+    "id": "pubmed:42703895",
+    "date": "2026-09-07",
+    "dateDisplay": "2026/09/07",
+    "title": "Frequency and Circumstances of Falls Events in People Living With Spinal and Bulbar Muscular Atrophy: A Cross-Sectional Survey",
+    "journal": "Physiotherapy Research International 31(4):e70342（2026 年 10 月號）· Lee LE、Zampedri L、Jayaseelan D、Rinaldi C、Fratta P、Ramdharry GM（英國倫敦大學學院 UCL Queen Square 神經學研究所、UCLH Queen Square 神經肌肉疾病中心；牛津大學小兒科）· doi:10.1002/pri.70342 · PMC13548335 · 2026/09/07 收錄",
+    "tag": "SBMA（Kennedy 症）· 跌倒負擔 · 橫斷面問卷（polyQ 鄰域，無療法資料）",
+    "note": "→ <b>這是一篇描述性的疾病負擔研究，首次系統性記錄 SBMA 病人的跌倒頻率與情境，<u>不含任何療法或試驗資料</u></b>。<b>SBMA（脊髓延髓肌肉萎縮症，又稱 Kennedy 症）</b>是由雄性素受體（AR）基因 CAG 重複擴增造成的 X 染色體聯鎖 polyQ 疾病。→ <b>方法</b>：英國一家專科門診對基因確診成年病人發放改良版跌倒事件問卷，回顧過去 12 個月。→ <b>結果</b>：發出 83 份、<b>回收 61 份（73.5%）</b>；<b>55 人（90%）至少跌倒一次</b>、<b>42 人（69%）至少每月跌倒一次</b>、<b>51 人（84%）有險些跌倒</b>。55 名跌倒者描述了 153 起事件：<b>58% 發生在室內</b>，多在<b>行走、伸手／彎腰或轉身</b>時；病人最常歸因於<b>肌無力（44%）、絆倒（18%）與失去平衡（17%）</b>；瘀傷與扭拉傷常見，<b>骨折罕見（2%）</b>。→ 與本平台的關聯：SBMA 屬本站 <b>polyQ 鄰近圈層</b>，<b>安基生技 AnnJi 的 AJ201</b> 即鎖定此適應症。本文提供的<b>基線跌倒負擔</b>（九成病人一年內曾跌倒）可作為<b>未來試驗評估「對病人有意義的功能終點」</b>的背景資料。⚠️ <b>限制</b>：<b>單一英國專科中心、自陳回憶 12 個月（有回憶偏誤）</b>、回收者可能偏向跌倒較多者；<b>事件層級分析僅描述性</b>；作者自陳<b>機轉與介入效果仍需前瞻性研究確立</b>；<b>全文無療法資料</b>，與任何競品資產的開發進度無關。",
+    "company": "",
+    "highlight": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42703895/",
+    "urlLabel": "論文 ↗ PubMed 42703895",
+    "en": {
+      "tag": "SBMA (Kennedy's disease) · falls burden · cross-sectional survey (adjacent polyQ, no therapy data)",
+      "journal": "Physiotherapy Research International 31(4):e70342 (October 2026 issue) · Lee LE, Zampedri L, Jayaseelan D, Rinaldi C, Fratta P, Ramdharry GM (UCL Queen Square Institute of Neurology, University College London; Queen Square Centre for Neuromuscular Diseases, UCLH; Department of Paediatrics, University of Oxford) · doi:10.1002/pri.70342 · PMC13548335 · indexed 2026/09/07",
+      "note": "→ <b>A descriptive disease-burden study, the first to systematically document the frequency and circumstances of falls in SBMA, with <u>no therapy or trial data of any kind</u></b>. <b>SBMA (spinal and bulbar muscular atrophy, or Kennedy's disease)</b> is an X-linked polyQ disorder caused by a CAG repeat expansion in the androgen receptor (AR) gene. → <b>Method</b>: a UK specialist clinic gave genetically confirmed adult patients a modified Falls Events Questionnaire covering the previous 12 months. → <b>Results</b>: of 83 questionnaires, <b>61 were returned (73.5%)</b>; <b>55 (90%) reported at least one fall</b>, <b>42 (69%) fell at least monthly</b> and <b>51 (84%) reported near-falls</b>. The 55 fallers described 153 events: <b>58% occurred indoors</b>, mostly while <b>walking, reaching/bending or turning</b>; patients most often attributed them to <b>muscle weakness (44%), tripping (18%) and loss of balance (17%)</b>; bruising and sprains were common while <b>fractures were rare (2%)</b>. → Relevance here: SBMA sits in this platform's <b>adjacent polyQ ring</b> and is the indication targeted by <b>AnnJi's AJ201</b>. The <b>baseline falls burden</b> (nine in ten patients falling within a year) is useful background for <b>future trials assessing functional endpoints meaningful to patients</b>. ⚠️ <b>Limitations</b>: <b>a single UK specialist centre with 12-month self-reported recall (subject to recall bias)</b>, and responders may over-represent frequent fallers; <b>event-level analysis is descriptive only</b>; the authors state that <b>mechanisms and intervention effectiveness need prospective study</b>; and the paper carries <b>no therapy data</b> and says nothing about the progress of any competitor asset.",
+      "urlLabel": "Paper ↗ PubMed 42703895"
+    }
+  },
+  {
     "id": "pubmed:42712185",
     "date": "2026-09-09",
     "dateDisplay": "2026/09/09",
